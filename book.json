@@ -1,6 +1,6 @@
 {
     "gitbook": "2.2.0",
-    "plugins": ["layout"],
+    "plugins": ["layout", "anchors", "ga"],
     "structure": {
         "readme": "welcome.md"
       },
@@ -13,6 +13,9 @@
         "layout": {
             "headerPath" : "layouts/header.html",
             "footerPath" : "layouts/footer.html"
+        },
+        "ga": {
+            "token": "UA-XXXX-Y"
         }
     }
 }

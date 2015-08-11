@@ -1,9 +1,37 @@
-## Introduction
+# Introduction
 
 This is initial content.
 
-### Introduction to the UI
+## Introduction to the UI
 
 More content
 
-### Working with maps
+## Working with maps
+
+Adding/importing
+
+## Building out profiles
+
+(attributes, markdown, widgets)
+
+## Styling your maps
+
+(perspectives / settings)
+
+## Keeping things comprehensible
+
+(focus / filter)
+
+## Collaborating with teammates
+
+(public vs private, inviting members, conflicts)
+
+## Sharing your work
+
+(presentations)
+
+## Advanced features
+
+(clustering, metrics)
+
+## Project administration
