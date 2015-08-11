@@ -1,6 +1,6 @@
 {
     "gitbook": "2.x.x",
-    "plugins": ["customheader"],
+    "plugins": ["layout"],
     "links": {
         "sidebar": {
             "Contact us / Support": "https://www.kumu.io/contact"
