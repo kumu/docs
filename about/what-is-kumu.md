@@ -1,3 +1,3 @@
 # What is Kumu?
 
-![](images/add-element-button.png)
+![](/images/add-element-button.png)
