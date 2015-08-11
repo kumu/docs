@@ -10,3 +10,4 @@
     * [Subsection 1](getting-started/introduction.md#) 
 * [Advanced Guides](advanced-guides/advanced-guides.md)
   * [Project architecture/organization](advanced-guides/project-architecture.md)
+  * [Attributes](advanced-guides/attributes.md)
