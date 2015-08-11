@@ -1,6 +1,6 @@
 # Summary
 
-* [About Kumu](about-kumu.md)
+* [About Kumu](about/about-kumu.md)
   * [What is Kumu?](what-is-kumu.md)
   * [How does it work?](#)
   * [Where can I get help?](#)
