@@ -1,6 +1,6 @@
 {
     "gitbook": "2.2.0",
-    "plugins": ["layout", "anchors", "ga"],
+    "plugins": ["layout", "anchors", "ga", "video", "addcssjs"],
     "structure": {
         "readme": "welcome.md"
       },
@@ -16,6 +16,9 @@
         },
         "ga": {
             "token": "UA-XXXX-Y"
+        },
+        "addcssjs": {
+          "css": ["css/custom.css"]
         }
     }
 }

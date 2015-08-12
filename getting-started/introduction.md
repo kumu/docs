@@ -2,7 +2,7 @@
 
 This is initial content.
 
-## Introduction to the UI
+## Getting to know the user interface
 
 More content
 
