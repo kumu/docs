@@ -1,4 +1,4 @@
-# SNA/Network Mapping
+# SNA / Network Mapping
 
 Looking to better understand the networks you're a part of? Wish you had a tool that didn't require a PhD to use effectively?
 

@@ -1,4 +1,4 @@
-# Perspectives/Style Sheets
+# Perspectives / Style Sheets
 
 Beneath perspectives, Kumu uses a powerful CSS-based language to control the appearance of your maps.
 
