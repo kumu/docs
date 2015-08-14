@@ -1,16 +1,24 @@
-# Kumu Documentation
+<div class="welcome-block">
+  <div class="hero-content">
+    <h1>Welcome to the Docs</h1>
+    <h2><em>Your guide to getting the most from Kumu</em></h2>
+    <a class="btn" href="getting-started/five-minute-quickstart.md">Watch the five-minute quickstart</a>
+
+  </div>
+</div>
+
 
 Looking to learn how to use Kumu? You're in the right place. If you're just getting started, we recommend these articles:
 
-* [Five-minute Quickstart](../getting-started/five-minute-quickstart.md)
-* [Introduction](../getting-started/introduction.md)
-* [Where can I get help?](../about/where-can-i-get-help.md)
+* [Five-minute Quickstart](getting-started/five-minute-quickstart.md)
+* [Introduction](getting-started/introduction.md)
+* [Where can I get help?](about/where-can-i-get-help.md)
 
 Once you're comfortable with the basics, head to the advanced guides to begin mastering all the features of Kumu. Here's a few you don't want to miss:
 
-* [Presentations]()
-* [Perspectives]()
-* [Metrics]()
+* [Perspectives](advanced-guides/perspectives.md)
+* [Metrics](advanced-guides/metrics.md)
+* [Presentations](advanced-guides/presentations.md)
 
 ## Common Questions
 

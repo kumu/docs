@@ -16,3 +16,45 @@ img {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+.book .book-body .page-wrapper .page-inner section.normal .welcome-block {
+  min-height: 300px;
+  text-align: center;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .welcome-block .hero-content {
+  padding-top: 50px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .welcome-block .hero-content h1 {
+  color: #333;
+  margin: 0 10%;
+  text-align: center;
+  border-bottom: none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .welcome-block .hero-content h2 {
+  border-bottom: none;
+  margin-top: 0;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .welcome-block .btn {
+  border: none;
+  color: #fff;
+  background-color: #009ddc;
+  display: inline-block;
+  margin: 1em 0;
+  padding: 0.5em 2em;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-radius: 500px;
+  margin-bottom: 50px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal table .icon {
+  text-align: center;
+}
