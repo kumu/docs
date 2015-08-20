@@ -1,14 +1,17 @@
 # Introduction
 
-This is initial content.
+This page contains everything you need to hit the ground running with Kumu.
 
 ## Getting to know the user interface
 
-**The Map.** The right side of your screen is the map. Elements are the circles you see on the map and connections are the lines between the elements. To select either of them, simply click on the circle or the line. In the lower right corner of the map you'll find a cloud icon (<i class="fa fa-cloud"></i>) that can be used to import data to your account. You can also drag and drop files directly onto your map to import them.
+### The Map
+The right side of your screen is the map. Elements are the circles you see on the map and connections are the lines between the elements. To select either of them, simply click on the circle or the line. In the lower right corner of the map you'll find a cloud icon (<i class="fa fa-cloud"></i>) that can be used to import data to your account. You can also drag and drop files directly onto your map to import them.
 
-**The Sidebar.** The left side of your screen is the sidebar. When nothing is selected, the sidebar displays either the *map overview* or the active *perspective* settings (you can toggle between the two in the upper right corner of the sidebar). If you click on any element, connection or loop, the left side of your screen will display the *profile* for whatever you've selected. If you want to hide the sidebar, simply click the three vertical dots (<i class="fa fa-ellipsis-v"></i>) off to the middle right side of the sidebar.
+### The Sidebar
+ The left side of your screen is the sidebar. When nothing is selected, the sidebar displays either the *map overview* or the active *perspective* settings (you can toggle between the two in the upper right corner of the sidebar). If you click on any element, connection or loop, the left side of your screen will display the *profile* for whatever you've selected. If you want to hide the sidebar, simply click the three vertical dots (<i class="fa fa-ellipsis-v"></i>) off to the middle right side of the sidebar.
 
-**The Toolbar.** At the bottom of the map you'll find the toolbar. Use the toolbar to pin elements in place, add direction to connections, access the main menu, and much more. Here's what each of the icons does:
+### The Toolbar
+At the bottom of the map you'll find the toolbar. Use the toolbar to pin elements in place, add direction to connections, access the main menu, and much more. Here's what each of the icons does:
 
 <table>
   <tbody>
@@ -25,7 +28,8 @@ This is initial content.
   </tbody>
 </table>
 
-**Map Navigation.** You'll find a number of other controls in the upper right corner of your map that allow you to zoom in and out, zoom fit, share your map (including present mode, screenshots, embeds, and exporting), access help, and change default map settings.
+### Map Navigation
+You'll find a number of other controls in the upper right corner of your map that allow you to zoom in and out, zoom fit, share your map (including present mode, screenshots, embeds, and exporting), access help, and change default map settings.
 
 <!--
 ### Main menu (<i class="fa fa-th"></i>)
@@ -83,11 +87,12 @@ We've also wrapped the focus behavior into your navigation of the map by allowin
 
 ## Working with maps
 
+### Creating your map
 We offer a number of different ways to add content to your map:
 
 **Using the add buttons.** Adding an element is as simple as clicking the blue "Add Element" button in the upper left of the map. Type the name of the element you want to add and then hit enter. To add a connection, select the element you want to connect from first and then click the "Add Connection" button. Type the name of the element you want to connect to and then hit enter. If the element you are trying to connect to doesn't exist yet, Kumu will create the element for you first and then create the connection to it.
 
-<img src="/images/add-element-button.png" class="border" alt="add element button">
+<img src="/images/add-element-button.png" class="border" alt="add element button" style="width: 200px;">
 
 **Using keyboard shortcuts** You can also add an element by hitting the "e" key on your keyboard, typing the name of the element, and then hitting enter. The shortcut for adding connections is the "c" key.
 
@@ -96,10 +101,77 @@ We offer a number of different ways to add content to your map:
 **Alt + drag to connect** You can use alt + drag to connect two elements that already exist. Hold alt and then click and drag from one element to another. Let go when your cursor is hovering over the element you wish to connect to. You can also add a new element and connect to it using this method by holding alt and then clicking and dragging to a blank part of the map. When you release, a new element will be created in that spot with a connection to it. The new element will inherit the pin state of the existing element (if the element you are connecting from is pinned, the new element will be pinned and vice versa).
 
 <p class="alert alert-success">
-  <strong>Alt is your friend!</strong> Use this shortcut and build maps much faster.
+  <strong>Alt is your friend!</strong> Use the alt shortcut to build your maps much faster.
 </p>
 
-**Importing data.** Click the cloud icon in the lower right corner to import data.
+**Importing data.** Click the cloud icon in the lower right corner to import data. You'll need to make a few tweaks to your spreadsheet before importing. Make sure your spreadsheet (.xlsx or .csv) includes the following columns:
+
+- *For elements:* Label, Type (optional), Description (optional)
+- *For connections:* From, To, Type (optional), Label (optional)
+
+You can include any other fields you want to import as separate columns in your spreadsheet. Here's an example of what your element spreadsheet might look like:
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Tags</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jeff Mohr</td>
+      <td>Person</td>
+      <td>Co-Founder and CEO, always<br> up for learning</td>
+      <td>Founder|Male|Runner</td>
+    </tr>
+    <tr>
+      <td>Kumu</td>
+      <td>Company</td>
+      <td>A web-based platform<br>for mapping relationships...</td>
+      <td>Mapping|Technology</td>
+    </tr>
+  </tbody>
+</table>
+
+And here's a sample of how your connection spreadsheet might look:
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>From</th>
+      <th>To</th>
+      <th>Type</th>
+      <th>Strength</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Barack</td>
+      <td>Michelle</td>
+      <td>Personal</td>
+      <td>Strong</td>
+    </tr>
+    <tr>
+      <td>Ed Snowden</td>
+      <td>NSA</td>
+      <td>Contractor</td>
+      <td>It's complicated</td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Positioning elements and connections
+
+Depending on the template you selected, elements will either be fixed (manually positioned by you) or floating (automatically positioned using our layout algorithm). Here's a few things people run into with positioning:
+
+* **My elements won't stop moving, how do I stop them?** Use the "a" keystroke to select all elements and then hit the pin button in the bottom toolbar.
+* **New elements I add keep moving even though others are pinned...** You'll see a dropdown in the map overview to change the default behavior (fixed or floating). Choose fixed to have them pinned by default.
+
+If your elements are pinned in place, you can also change the curvature of the connections by dragging them.
 
 ## Building out profiles
 
@@ -107,131 +179,97 @@ We offer a number of different ways to add content to your map:
 
 ## Styling your maps
 
-(perspectives / settings)
-
-
-Kumu makes it easy to create decorations that allow you to tell powerful stories through your maps. We're all for democratizing the ability of people everywhere to create great maps so many of the decorations can be added without any knowledge of HTML or CSS. But if you're comfortable with CSS, we've got [even more powerful decorations](/references/css-property-reference.html) for you to take advantage of.
+Map style and decorations are controlled by the active perspective. You can have as many perspectives as needed and can easily switch between them. Use the toggle in the upper right corner of the map overview to switch to the perspective view.
 
 ### Decorating elements
 
-Kumu allows you to decorate individual elements or use data stored on the profile of an element to create a decoration rule that will apply to all elements that share the same data. For example, you could just decorate the elements "Jack" and "Jane" or you could use the fact that Jack and Jane both have the element type "people" to decorate them. The benefit of the latter approach is once you add "Judy" (who also has type "person"), she will also inherit the same decoration.
-
-Decorations are stored within [perspectives](/guides/perspectives.html) which offer a lot of flexibility and depth in creating multiple views of your map. For now we'll focus just on adding decorations.
-
-#### Step 1: <i class="fa fa-tint"></i> Click the decorate button
-
-If you are looking to decorate a specific element, select the element and then click on the decorate button (<i class="fa fa-tint"></i>) in the toolbar. If you have multiple items selected, Kumu will automatically find out what the matching attributes are across the selection and allow you to use this data to create your decoration rule.
-
-#### Step 2: Build your selector
-
-You'll find yourself within a modal for creating your decoration.
-
-![Decorate](/images/decorate-2.png)
-
-The first dropdown presents you with four options (depending on whether you had elements selected when you clicked the decorate button):
+It's best to decorate elements based on the data stored in the profile. To create a decoration, switch to the perspective view and then click "Decorate Elements." The first dropdown walks you through building a selector for what you want to decorate. You have up to four choices based on whether or not you have elements selected:
 
 * Decorate **all** elements
 * Decorate **selected** elements
 * Decorate **similar** elements (by attribute)
 * Build a **custom** selector
 
-For this example, we'll select the last option to "Build a **custom** selector" in order to color all elements with type = people.
+To decorate based on the element type, use the last option to "Build a **custom** selector". Then you choose the attribute ("element type" in this case), the selector operation in order to color all elements with type = people.
 
-The first dropdown on the left is used to select which attribute you'd like to use for the decoration. We'll select "element type." The middle dropdown is used for the selector operation and can be one of the following:
+The first dropdown on the left is used to select which attribute you'd like to use for the decoration. We'll select "element type." The middle dropdown is used for the selector operation (in this case we'll choose "is") and then the final text entry area is where you put the attribute value itself (we'll add "person").
 
-* is
-* isn't
-* contains
-* is less than
-* is greater than
-* has any value
-* is unknown
+The next step is defining the decoration changes. The options are:
 
-We'll select "is" and then use the text entry area on the right to type "People" as the element type we want to decorate. You'll notice that Kumu will suggest values for any attribute which has prompt set to "autocomplete."
-
-#### Step 3: Choose your decorations
-In this step you get to create the decorations that will apply to your selection in Step 2. You have a number of options available to you for decorating elements that we've split into three tabs
-
-* Change size
-* Change color
-* Add image
+* Change size (either fixed size or quantitative scale)
+* Change color (either fixed color or quantitative scale)
+* Add image/icon
 * Add bullseye
 * Add shadow
 
-We'll keep it simple and toggle the "Change color" checkbox and then choose the option to set a fixed element color. Click the box to the right of the color label and then choose the color you'd like to use. You can also type your own color name or hex color value but we recommend sticking with one of our defined color palettes to improve the look and feel of your map.
-
-#### Step 4: Add a label (or not)
-
-The last step is deciding whether to add a label for the decoration. If you add a label, the decoration and label will appear on a legend in the lower left corner of your map. If you leave the label blank, the decoration won't be included in the legend.
-
-Click save and then you're done!
-
+Once you've defined the decoration, optionally add text to the "label" field to add a legend entry in the lower left corner of your map. If you leave this blank the decoration won't be included in the legend.
 
 ### Decorating connections
 
-Decorating connections is quite similar to decorating elements.
+Decorating connections is quite similar to decorating elements. Just follow the instructions above but choose the "Decorate Connections" button instead.
 
-#### Step 1: <i class="fa fa-tint"></i> Click the decorate button
+### Default settings
 
-If you are looking to decorate a specific connection, select the connection and then click on the decorate button (<i class="fa fa-tint"></i>) in the toolbar. If you have multiple items selected, Kumu will automatically find out what the matching attributes are across the selection and allow you to use this data to create your decoration rule.
+Click the settings icon on the right side of your map to change the defaults applied map-wide:
 
-#### Step 2: Build your selector
+- Size (element size, connection width, font size)
+- Color (element, connection, font)
+- Layout (gravity, element charge, connection length, connection strength)
+- Other (template, theme, quality, label position, connection curvature)
 
-You'll find yourself within a modal for creating your decoration.
-
-![Decorate](/images/decorate-connection.png)
-
-You'll find yourself within a modal that has three sections on the left hand side: Select, Decorate, and Label. The first dropdown presents you with four options (depending on whether you had connections selected when you clicked the decorate button):
-
-* Decorate **all** connections
-* Decorate **selected** connections
-* Decorate **similar** connections (by attribute)
-* Build a **custom** selector
-
-For this example, we'll select the last option to "Build a **custom** selector" in order to change the width of connections which are tagged influential.
-
-The first dropdown on the left is used to select which attribute you'd like to use for the decoration. We'll select "tags." The middle dropdown is used for the selector operation and can be one of the following:
-
-* is
-* isn't
-* contains
-* is less than
-* is greater than
-* has any value
-* is unknown
-
-For tags, you need to select "contains." Use the text entry area on the right to type "Influential" as the tag you want to decorate. Click "next" and proceed to step 3.
-
-#### Step 3: Choose your decorations
-
-The following decorations are available for connections:
-
-* Change size
-* Change color
-
-In this example we'll select the first option "Change size" and drag the slider to the right (a value of around 5 works well).
-
-#### Step 4: Add a label (or not)
-
-The last step is deciding whether to add a label for the decoration. If you add a label, the decoration and label will appear on a legend in the lower left corner of your map. If you leave the label blank, the decoration won't be included in the legend.
-
-Click save and then you're done!
-
+If you're running into bunching and overlap with your map, try adjusting the settings in the layout section (lower gravity and increase element charge).
 
 ## Keeping things comprehensible
 
-(focus / filter)
+As your map grows in size you'll want to use both focus and filter to keep users from being overwhelmed.
+
+### Focus
+Focus is activated in one of two ways, by clicking and holding on any element or connection or by clicking the focus button in the bottom toolbar. Once activated, you can walk in and out by degree using the "+" and "-" keys on your keyboard (don't hold shift, just hit the key).
+
+If you click the focus button in the toolbar, you'll be prompted with a menu of how many degrees out you'd like to focus.
+
+Once focus is activated, you can click and hold on any element to bring that element's direct connections into view.
+
+### Filter
+Filters can be added on the fly (meaning they aren't saved to the perspective) or saved to the perspective. Click the filter button in the bottom toolbar or click the filter tab within perspectives.
+
+If you're filtering by element or connection type, simply uncheck the types you want to filter and then click update (or update and save to save to the current perspective). To filter using other attributes, click more options and you'll see two fields: include and ignore. Click the rocket icon on the right side of the input to build out the selector which defines what you want to include or ignore.
+
+* **Include** For include to work properly, first uncheck the types. Remember that include adds things back to the map so if everything is already there, this field has no effect.
+* **Ignore** This field works as a blacklist to remove elements and connections from your map.
 
 ## Collaborating with teammates
 
-(public vs private, inviting members, conflicts)
+### Public vs. private
+
+Projects can be either public or private. With a public project, anyone can view your maps but you control who can edit. With a private project, you're in complete control of who can view and edit your maps.
+
+### Inviting members
+
+**Personal Accounts.** For projects under a personal account, you can add collaborators through the main menu within your project. Click the upper left corner and choose "Members" and then type the username of who you'd like to add (they need to first have a Kumu username before they can be added).
+
+**Organization Accounts.** For project under an organization account, you have additional flexibility to add people to a project with view, edit, or admin access. Access is controlled via teams and managed in the organization dashboard.
+
+### Conflicts
+
+With Kumu you can work at the same time with other members of your team but it is *not* realtime. In order to pull in recent changes, just refresh the page. We'll do the work to combine any edits that can be automatically merged and then prompt you if we run into any conflicts. If you see the conflict window, follow the prompts to resolve the conflict and save the final version.
 
 ## Sharing your work
 
-(presentations)
+### Presentations
+
+### Share via URL/embed
 
 ## Advanced features
 
-(clustering, metrics)
+### Clustering
+
+### Metrics
 
 ## Project administration
+
+### Changing the owner of a map
+
+### Changing the map name
+
+###

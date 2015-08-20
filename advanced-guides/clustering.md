@@ -25,7 +25,7 @@ First, make sure that you have information stored in the profiles of some of you
 
 Here's a quick look at a sample map before clustering has been activated:
 
-<img src="/images/cluster-civic-1.png" alt="Civic Canopy without clusters">
+<img src="/images/cluster-civic-1.png" alt="Civic Canopy without clusters" class="plain">
 
 ## Activating clusters
 

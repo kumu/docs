@@ -3,6 +3,22 @@ img {
   display: block;
 }
 
+.book .book-body .page-wrapper .page-inner section.normal h2 {
+  margin-top: 2em;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal img {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .plain {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 .book .book-body .page-wrapper .page-inner section.normal pre {
   display: block;
   padding: 9.5px;
