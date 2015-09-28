@@ -27,6 +27,9 @@ Once you're comfortable with the basics, head to the advanced guides to begin ma
 **Is it possible to import data?**
 We have an easy to use [import format](../advanced-guides/import-export.md) that lets you import either xlsx or csv files. Comfortable with JSON? Use our blueprint format for even more power and control.
 
+**Why won't my map stop moving? OR Why are certain elements fixed in place?**
+Elements in Kumu can be either fixed or floating. You can set the default behavior in the map overview. If you'd like to pin all elements (or unpin all of them), hit "a" to select all and then use the pin button in the bottom toolbar.
+
 **Can I collaborate with others?**<br />
 Yep! You can invite people to be able to edit your project. If you're on an organization plan, you have additional flexibility and can add others with view, edit, or admin rights through teams.
 
