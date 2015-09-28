@@ -3,11 +3,6 @@
     "plugins": ["layout", "anchors", "ga", "video", "addcssjs"],
     "structure": {
         "readme": "welcome.md"
-      },
-    "links": {
-        "sidebar": {
-            "Ask a question": "mailto:support@kumu.io"
-        }
     },
     "pluginsConfig": {
         "layout": {
