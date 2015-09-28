@@ -74,3 +74,53 @@ img {
 .book .book-body .page-wrapper .page-inner section.normal table .icon {
   text-align: center;
 }
+
+/* ---- */
+
+.book .book-summary .book-search {
+  padding: 12px 15px;
+  color: #fff;
+}
+
+.book .book-summary .book-search input {
+  padding: 3px 20px;
+  background: none;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50px;
+}
+
+.summary > .chapter {
+  margin: 1em 0 2em;
+}
+
+.chapter b {
+  font-size: 0.8em;
+}
+
+.book .book-summary {
+  color: #777;
+  background: #2d3134;
+}
+
+.book .book-summary ul.summary li a,
+.book .book-summary ul.summary li span {
+  padding: 5px 15px;
+  color: #dde4e8;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.book .book-summary ul.summary li.done > a {
+  color: #777;
+  font-weight: bold;
+}
+
+.book .book-summary ul.summary li.active > a,
+.book .book-summary ul.summary li a:hover {
+  color: #0099e5;
+}
+
+.book .book-summary ul.summary li i.fa-check {
+  color: inherit;
+}
