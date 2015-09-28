@@ -7,6 +7,15 @@ img {
   margin-top: 2em;
 }
 
+.book .book-body .page-wrapper .page-inner section.normal .quiet {
+  color: #aaa;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .quiet a {
+  color: #aaa;
+  text-decoration: underline;
+}
+
 .book .book-body .page-wrapper .page-inner section.normal img {
   border: 1px solid #ddd;
   border-radius: 3px;

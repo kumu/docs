@@ -16,6 +16,11 @@ Use the ***a*** keystroke to select all elements on your map.
 
 Kumu has a custom layout engine which creates a high quality layout regardless of map size. Use the spacebar keystroke to pause the layout. If you'd rather not have the layout change after you're happy with it, select all elements using the ***a*** keystroke and then click the pin button in the toolbar.
 
+### How can I get arrows to show up for the connections on my map?
+
+### 
+
+
 ### Is there a limit to how many collaborators I can have in an account?
 
 Every hosted Kumu account comes with unlimited collaborators. Our Enterprise version is billed in 20-seat packs.
