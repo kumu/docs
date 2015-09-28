@@ -86,9 +86,25 @@ img {
 
 /* ---- */
 
+[href="https://www.gitbook.com/book/kumu/docs"],
+.book .book-header h1,
+.book .book-header .toggle-search,
+.book .book-header #font-settings-wrapper {
+  display: none;
+}
+
+.book .book-summary ul.summary {
+  top: 0;
+  padding-top: 55px;
+}
+
 .book .book-summary .book-search {
+  z-index: 1;
+  top: 0;
   padding: 12px 15px;
   color: #fff;
+  background-color: #2d3134;
+  opacity: 0.95;
 }
 
 .book .book-summary .book-search input,
@@ -134,4 +150,25 @@ img {
 
 .book .book-summary ul.summary li i.fa-check {
   color: inherit;
+}
+
+
+/* force anchors to always be visible */
+a.plugin-anchor {
+  display: inline-block !important;
+  position: relative;
+  float: right;
+  margin: 0;
+  padding: 0 10px;
+  line-height: 1em;
+  color: #ccc !important;
+}
+
+a.plugin-anchor:hover,
+a.plugin-anchor:active {
+  color: inherit !important;
+}
+
+a.plugin-anchor span {
+  margin: 0;
 }
