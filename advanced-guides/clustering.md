@@ -83,3 +83,42 @@ Saving clusters can also be helpful as a shortcut to creating connection data in
 </tbody></table>
 
 Simply cluster by organization and then save to your map. Now you have a network of people connected by the organization they work for.
+
+## Advanced Clustering
+We've unleashed a ton of power and flexibility for clustering through our perspective engine overhaul. You can now activate clustering automatically within a perspective by using the new <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
+
+```
+@settings {
+ cluster: &lt;selector&gt; by &lt;attribute&gt; as &lt;type&gt;, ...;
+}
+```
+
+Both <code>selector</code> and <code>type</code> are optional, and multiple clusters can be added by separating them with a comma.  If you just include an attribute name then clustering will behave identical to the existing cluster form.
+
+The <code>selector</code> determines which elements to cluster, <code>attribute</code> determines what to cluster by, and <code>type</code> overrides the element type assigned to the new elements. By default we use the singular form of the attribute name as the type for both the elements and connections that are created.
+
+### Why does this matter?
+
+This is great when you want to cross-match multiple attributes, such as "Skills needed" and "Skills offered". In that case, you're probably looking to see the overlap between who's looking to learn a skill and who might be able to teach it. If you use the cluster form to do this you'll get two separate elements for each skill (one for the offer and one for the need).  Ideally we want to have a single element for each skill and color the connections by whether it's something the person might be able to teach or if they're interested in learning that skill.
+
+### How to customize the type
+
+To customize the type, just add <code>as &lt;type&gt;</code> to your cluster declaration:
+
+```
+@settings {
+ cluster: "Skills needed" as "Skill", "Skills offered" as "Skill";
+}
+```
+
+You can then add the relevant decorations to your perspective to color the connection types and see who you could connect to build learning pairs.
+
+### How to restrict clustering to specific types
+
+Say you're looking to cluster by "tags" but only want to activate clustering for the people in your map. Just add <code>&lt;selector&gt; by</code> to the beginning of the rule (you can replace "person" with any selector):
+
+```
+@settings {
+ cluster: person by "tags";
+}
+```

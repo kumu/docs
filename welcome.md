@@ -7,7 +7,6 @@
   </div>
 </div>
 
-
 Looking to learn how to use Kumu? You're in the right place. If you're just getting started, we recommend these articles:
 
 * [Five-minute Quickstart](getting-started/five-minute-quickstart.md)
@@ -19,6 +18,9 @@ Once you're comfortable with the basics, head to the advanced guides to begin ma
 * [Perspectives](advanced-guides/perspectives.md)
 * [Metrics](advanced-guides/metrics.md)
 * [Presentations](advanced-guides/presentations.md)
+
+<br />
+<span class="quiet">These docs are a work in progress and will be continuously updated. Pull requests are welcome so if you would like to contribute, please <a href="https://github.com/kumu/docs">fork me on GitHub.</a></span>
 
 ## Common Questions
 
