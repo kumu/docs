@@ -89,7 +89,7 @@ We've unleashed a ton of power and flexibility for clustering through our perspe
 
 ```
 @settings {
- cluster: &lt;selector&gt; by &lt;attribute&gt; as &lt;type&gt;, ...;
+ cluster: "selector" by "attribute" as "type";
 }
 ```
 
