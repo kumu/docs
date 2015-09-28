@@ -98,7 +98,7 @@ img {
   padding-top: 55px;
 }
 
-.book .book-summary ui.summary li.divider {
+.book .book-summary ul.summary li.divider {
   display: none !important;
 }
 
