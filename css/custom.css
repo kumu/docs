@@ -90,12 +90,16 @@ img {
 .book .book-header h1,
 .book .book-header .toggle-search,
 .book .book-header #font-settings-wrapper {
-  display: none;
+  display: none !important;
 }
 
 .book .book-summary ul.summary {
   top: 0;
   padding-top: 55px;
+}
+
+.book .book-summary ui.summary li.divider {
+  display: none !important;
 }
 
 .book .book-summary .book-search {
