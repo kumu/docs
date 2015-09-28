@@ -18,6 +18,7 @@
     * [Advanced features](getting-started/introduction.md)
     * [Project administration](getting-started/introduction.md)
     -->
+  * [Organizations](getting-started/organizations.md)  
   * [FAQ](getting-started/faq.md)
 * [Advanced Guides](advanced-guides/advanced-settings.md)
   * [Advanced settings](advanced-guides/advanced-settings.md)
