@@ -232,7 +232,9 @@ With Kumu you can work at the same time with other members of your team but it i
 
 Use presentations to create a slide by slide walkthrough of your map(s). Combine text, video, images and maps into a single, engaging presentation that anyone can access via URL.
 
-<iframe src="https://hiqol.kumu.io/hawaii-quality-of-life" width="100%" height="450" frameborder="0">
+<a href="https://hiqol.kumu.io/hawaii-quality-of-life" target="_blank">
+<img src="../images/hiqol-cover-slide-sm.jpg">
+</a>
 
 Access presentations by clicking the menu in the upper left corner of your map.
 
@@ -244,12 +246,14 @@ You can also share maps through our embed feature. Click the share menu and then
 
 ### Clustering
 
+Use clustering to quickly connect elements based on their shared attribute values.
+
+![clustering](../images/clustering.gif)
+
 ### Metrics
 
-## Project administration
+Kumu has a powerful metric engine which includes a number of popular social network analysis (SNA) metrics like betweeness, closeness, degree, indegree, outdegree, eigenvector and community detection.
 
-### Changing the owner of a map
+![metrics](../images/metrics.jpg)
 
-### Changing the map name
-
-###
+Run metrics and then use size and color scales to quickly and easily analyze the results.
