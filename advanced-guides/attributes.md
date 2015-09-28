@@ -1,6 +1,6 @@
 # Attributes
 
-Attributes add incredible power to Kumu. You can track as many attributes as needed and customize the type of attribute to allow for checklists, prompts, currencies, and much more. You account starts without any attributes so you can create just the ones that you need.
+Attributes add incredible power to Kumu. Use attributes to track whatever custom fields you need and modify the settings to enable things like checklists, prompts, currencies, and much more.
 
 ## Add an attribute
 To add an attribute, select an element or connection and then click the "Create Your First Attribute" or "+ New Attribute" button in the sidebar. You'll be prompted to add a name and a value for the attribute.
