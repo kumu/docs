@@ -176,3 +176,21 @@ a.plugin-anchor:active {
 a.plugin-anchor span {
   margin: 0;
 }
+
+/* property table */
+
+table.property-table {
+  width: 100%;
+}
+
+.property-table tr td {
+  width: 25%;
+}
+
+.property-table td:first-child {
+  text-align: left;
+}
+
+.property-table td {
+  text-align: center;
+}
