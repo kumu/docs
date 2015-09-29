@@ -33,7 +33,7 @@ loop {
 }
 ```
 
-## Getting Started
+## The syntax
 
 The basic syntax goes like this:
 
@@ -131,7 +131,7 @@ connection {
 }
 ```
 
-### Common decorations
+### Others
 
 The following properties come in handy for all types of decorations:
 
@@ -147,15 +147,16 @@ element {
 
 ## Imported Perspectives
 
-To be completed.
+You can use any other perspective as a base perspective with the following syntax:
 
+```
+@import "perspective name";
+```
 
 ## @settings
 
 If you're interested in working with `@settings` you truly have become a perspective master.
-We salute you!
-
-Let us show you some of the neat things you can do here:
+We salute you! Here's some of the neat things you can do with `@settings`:
 
 ### Default styles
 
