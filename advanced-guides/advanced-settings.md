@@ -1,5 +1,7 @@
 # Advanced Settings
 
+Certain features of Kumu are only exposed via the advanced perspectives tab. Here's your guide to those features:
+
 ## Modifying label wrap behavior
 
 By default Kumu will wrap longer labels and you can force a line break at any point by including a double space. If you need more granularity than we expose a number of settings within @settings for you to use:
