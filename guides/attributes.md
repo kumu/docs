@@ -10,11 +10,12 @@ By default, new attributes are set to accept only one value and not prompt users
 ## Customize an attribute
 To customize the settings for a given attribute, click the label of the attribute and you'll see a dropdown appear with the following options:
 
+- **Name** - change the name of your attribute
 - **Type** - string, text, URL, number
 - **Limit** - one value **OR** none (one or more values)
 - **Category** - for grouping attributes in sections
 - **Visibility** - public **OR** private (whether or not viewers can see a given attribute)
-- **Name** - change the name of your attribute
+- **Clustering** - whether to allow clustering by this attribute
 - **More** - access the full attribute settings, relevance, and delete
 
 Let's look at a few of these options in more depth:
