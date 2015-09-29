@@ -133,4 +133,4 @@ element {
 }
 ```
 
-You can see we've included other decorations including font-color, font-size, and more (you can see the full list [here](../advanced-guides/perspectives.md)).
+You can see we've included other decorations including font-color, font-size, and more (you can see the full list [here](../guides/perspectives.md)).

@@ -2,7 +2,7 @@
 
 ### Can I share my maps with others?
 
-Of course! Check out the [sharing](../advanced-guides/sharing.md) guide to learn about embeds and screenshots or [add a collaborator](../advanced-guides/collaboration.md) to your project.
+Of course! Check out the [sharing](../guides/sharing.md) guide to learn about embeds and screenshots or [add a collaborator](../guides/collaboration.md) to your project.
 
 ### Do you have high resolution screenshots available? Or a PDF?
 

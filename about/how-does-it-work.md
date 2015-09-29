@@ -18,4 +18,4 @@ Here's a few examples of what's possible with Kumu:
 
 ![Rob Ford](/images/rob-ford.jpg)
 
-You can build a map directly within Kumu's UI by hand or you can [import data](../advanced-guides/import-export.md) from a spreadsheet.
+You can build a map directly within Kumu's UI by hand or you can [import data](../guides/import-export.md) from a spreadsheet.

@@ -146,7 +146,7 @@ And here's a sample of how your connection spreadsheet might look:
   </tbody>
 </table>
 
-Head over to the [import guide](../advanced-guides/import-export.md) for more details.
+Head over to the [import guide](../guides/import-export.md) for more details.
 
 ### Positioning elements and connections
 
@@ -230,7 +230,7 @@ With Kumu you can work at the same time with other members of your team but it i
 
 ### Presentations
 
-Use [presentations](../advanced-guides/presentations.md) to create a slide by slide walkthrough of your map(s). Combine text, video, images and maps into a single, engaging presentation that anyone can access via URL.
+Use [presentations](../guides/presentations.md) to create a slide by slide walkthrough of your map(s). Combine text, video, images and maps into a single, engaging presentation that anyone can access via URL.
 
 <a href="https://hiqol.kumu.io/hawaii-quality-of-life" target="_blank">
 <img src="../images/hiqol-cover-slide-sm.jpg">
@@ -246,13 +246,13 @@ You can also share maps through our embed feature. Click the share menu and then
 
 ### Clustering
 
-Use [clustering](../advanced-guides/clustering.md) to quickly connect elements based on their shared attribute values.
+Use [clustering](../guides/clustering.md) to quickly connect elements based on their shared attribute values.
 
 ![clustering](../images/clustering.gif)
 
 ### Metrics
 
-Kumu has a powerful [metrics engine](../advanced-guides/metrics.md) which includes a number of popular social network analysis (SNA) metrics like betweeness, closeness, degree, indegree, outdegree, eigenvector and community detection.
+Kumu has a powerful [metrics engine](../guides/metrics.md) which includes a number of popular social network analysis (SNA) metrics like betweeness, closeness, degree, indegree, outdegree, eigenvector and community detection.
 
 ![metrics](../images/metrics.jpg)
 
