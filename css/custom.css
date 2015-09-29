@@ -194,3 +194,25 @@ table.property-table {
 .property-table td {
   text-align: center;
 }
+
+/* keystrokes */
+
+.shortcuts {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.shortcut {
+  margin-bottom: 3px;
+}
+
+.shortcut .keystroke {
+    display: inline-block;
+    padding: 3px 5px;
+    color: #fff;
+    background-color: #444;
+    border-radius: 3px;
+    font-family: courier;
+    text-transform: uppercase;
+  }
