@@ -1,9 +1,5 @@
 # SNA / Network Mapping
 
-Looking to better understand the networks you're a part of? Wish you had a tool that didn't require a PhD to use effectively?
-
-With Kumu, you can create beautiful and engaging network maps with ease. Add photos of the people in your network to bring your map to life. Color or size using data like sector, level of influence, and more. Attributes can be stored for both elements and connections (allowing you to store things like type and strength for connections and bring that data to life through width and color).
-
 This guide walks you through the basics of network anaysis using Kumu. We'll walk through four parts:
 
 1. Creating a project
@@ -21,7 +17,7 @@ This guide walks you through the basics of network anaysis using Kumu. We'll wal
 
 If you haven't already, sign up for a user account by visiting [http://kumu.io/signup](http://kumu.io/signup).
 
-Head to your [dashboard](http://kumu.io/dashboard) and click to create a new project. You can choose from either a public project (free) or a private project (starting at $29/month).
+Head to your [dashboard](http://kumu.io/dashboard) and click to create a new project. You can choose from either a public project (free) or a private project (starting at $9/month).
 
 ## Step 2: Collecting the data
 
@@ -33,8 +29,9 @@ Surveys ask participants both relational and demographic questions ([click here]
 
 * [Google Forms](https://docs.google.com/forms) (Free)
 * [Survey Monkey](https://www.surveymonkey.com/) (Free & Paid)
+* [Survey Gizmo](https://www.surveygizmo.com) (Free & Paid)
 
-Spend time thinking deeply about the questions you send. Some common questions include:
+Spend time thinking deeply about the questions in your survey. Some common questions include:
 
 * Who do you work with?
 * Who do you turn to for new ideas?
@@ -51,7 +48,7 @@ Each of the various relational questions get at a different kind of network. It 
 
 Sometimes you'll already have access to the type of data needed to run a social network analysis. You might use email traffic, lists of "friends" or "followers" from a social network, information about board membership, or even data from your CRM platform. The key here is to be both creative and honest about what the data represents.
 
-For example, how helpful is the fact that somone is a "friend" of yours on LinkedIn? Have you ever accepted a connection to someone you didn't really know all that well? (We're definitely guilty of this)
+For example, how helpful is the fact that someone is a "friend" of yours on LinkedIn? Have you ever accepted a connection to someone you didn't really know all that well? (We're definitely guilty of this)
 
 ### Personal knowledge
 
@@ -59,7 +56,7 @@ For certain networks, it's not plausible to collect information via surveys and 
 
 ### Getting the data into Kumu
 
-You can get the data into Kumu in one of two ways: imports or populating by hand. For more information on imports, check out our [imports guide](/basics/imports.html). If you're creating your map by hand, [start here](/basics/adding-elements.html).
+You can get the data into Kumu in one of two ways: imports or populating by hand. For more information on imports, check out our [imports guide](/import-export.md). If you're creating your map by hand, [start here](../getting-started/introduction.md).
 
 There are a few subtleties to how you structure your data for easiest use within Kumu. We've laid out some of those below:
 
@@ -70,7 +67,7 @@ Say you ask two questions on your survey: one that asks questions getting at the
 Sometimes you're looking to understand more than just how people are connected to each other. You may want to include organizations, projects, alma maters, and more. Simply differentiate these elements using the element type attribute and you can easily show and hide them as needed.
 
 **Don't forget about the power of clustering**<br />
-Clustering ([click here for the guide](/guides/clustering.html)) makes it easy to turn attribute data stored in the profile of any element into a dynamic network. Storing data about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver if you don't already have connection data created.
+Clustering ([click here for the guide](/clustering.md)) makes it easy to turn attribute data stored in the profile of any element into a dynamic network. Storing data about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver if you don't already have connection data created.
 
 
 ## Step 3: Running the metrics
@@ -111,9 +108,15 @@ You also have access to the following metrics (not seeing your favorite? [let us
 * **Reach (two-step out)** - Reach measures the portion of the network within two steps of an element. In general, elements with high reach can spread information through the network through close friend-of-a-friend contacts.
 * **Reach efficiency** - Reach efficiency normalizes reach by dividing it by size (number of neighbors). In general, elements with high reach efficiency are less connected but gain more exposure through each direct relationship.
 
+Note: Kumu now has support for [weighted metrics](http://blog.kumu.io/weighted-sna-metrics/) as well.
+
 ### Calculating and saving metric values
 
-Use the "more" link (...) in the bottom toolbar and select "Run Metrics." You'll see the sidebar change and a dropdown to choose the metric you'd like to run. Select the metric and then click the button to run the metric. Once complete, you'll see an ordered listing of the elements based on the metric values. The respective value will also be saved to the profile of each element.
+Click the beaker icon (<i class="fa fa-flask"></i>) in the bottom toolbar. You'll see the sidebar change and a dropdown to choose the metric you'd like to run. Select the metric and then click the button to run the metric. Once complete, you'll see an ordered listing of the elements based on the metric values. The respective value will also be saved to the profile of each element.
+
+### Saving multiple versions of a single metric
+
+By default, all metrics are saved to the name of the metric (betweenness calculations are saved to the "betweenness" attribute). Each time you run the metric the previous values are overwritten. If you'd like to keep the previous values, rename the attribute (maybe it's "2014 betweeness" or "betweeness before") so that future saves don't overwrite the values.
 
 ## Step 4: Decorating your map
 
