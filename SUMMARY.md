@@ -20,7 +20,7 @@
     -->
   * [Organizations](getting-started/organizations.md)  
   * [FAQ](getting-started/faq.md)
-* [Advanced Guides](advanced-guides/advanced-settings.md)
+* [Advanced Guides](advanced-guides/advanced-guides.md)
   * [Advanced settings](advanced-guides/advanced-settings.md)
   * [Attributes](advanced-guides/attributes.md)
   * [Clustering](advanced-guides/clustering.md)
