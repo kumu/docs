@@ -704,4 +704,23 @@ and its core (image / bullseye).
 
 @settings properties are best grouped into a number of categories based on what they can control.
 
-* To be completed
+**Map transformations**
+
+* focus (selector, prompt)
+* filter
+* cluster
+* showcase
+
+**Labels**
+
+* text-overflow (off, auto, manual, wrap, clip)
+
+**Grids & guides**
+
+* grid
+* grid-width
+* grid-offset
+* grid-color
+* guides
+* guide-width
+* guide-color
