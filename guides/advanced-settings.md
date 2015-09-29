@@ -2,6 +2,42 @@
 
 Certain features of Kumu are only exposed via the advanced perspectives tab. Here's your guide to those features:
 
+## Custom clustering
+
+You can activate clustering automatically within a perspective by using the <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
+
+```
+@settings {
+ cluster: "selector" by "attribute" as "type";
+}
+```
+
+Both <code>selector</code> and <code>type</code> are optional, and multiple clusters can be added by separating them with a comma.  If you just include an attribute name then clustering will behave identical to the existing cluster form.
+
+The <code>selector</code> determines which elements to cluster, <code>attribute</code> determines what to cluster by, and <code>type</code> overrides the element type assigned to the new elements. By default we use the singular form of the attribute name as the type for both the elements and connections that are created.
+
+## Showcasing
+
+To showcase a selection (muting all other map content except that selection), use the `showcase` setting within `@settings` and add a selector:
+
+```
+@settings {
+  showcase: selector;
+}
+```
+
+## Predefined focus
+
+To activate a focus automatically within a perspective, use the `focus` setting within `@settings` and add a selector:
+
+```
+@settings {
+  focus: selecter out n
+}
+```
+
+The `selector` determines which elements to focus on, and `n` is the number of degrees out from that selection you'd like to include in the focus.
+
 ## Modifying label wrap behavior
 
 By default Kumu will wrap longer labels and you can force a line break at any point by including a double space. If you need more granularity than we expose a number of settings within @settings for you to use:
