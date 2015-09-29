@@ -1,6 +1,6 @@
 # Markdown
 
-Markdown is an easy and powerful way to format your descriptions and long text attributes using simple, natural syntax. Use it to bring account, map, perspective, element, connection and loop descriptions to life!
+Markdown is an easy and powerful way to format your descriptions and long text attributes using simple, natural syntax.
 
 ## The basics
 
