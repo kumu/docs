@@ -17,7 +17,7 @@ All values are unitless.
 
 The table belows lists all of the properties recognized by Kumu. Hover over the information icon at the far right to see additional details and available values for each property. Scroll to the bottom for a list of available @settings properties.
 
-<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="My tooltip">Tooltip on left</button>
+<button type="button" class="btn btn-default" data-placement="left" data-html="true" title="My tooltip">Tooltip on left</button>
 
 <table class="property-table table table-striped">
   <tbody><tr>
@@ -27,34 +27,25 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <th class="text-center">Loops</th>
     <th class="text-center"></th>
   </tr>
+
   <tr data-property="arrow-color">
     <td>arrow-color</td>
     <td><i class="fa fa-cancel"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-cancel"></i></td>
-    <td><i class="fa fa-info-circle" data-toggle="tooltip" data-placement="left" data-content="Override the arrow color for a connection.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Override the arrow color for a connection.
 <code>color</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="arrow-visibility">
     <td>arrow-visibility</td>
-
-
     <td><i class="fa fa-cancel"></i></td>
-
-
-
-    <td><button class="btn tooltipped tooltipped-o" aria-label="Bottom, right (default)" type="button"><i class="fa fa-check"></i></button></td>
-
-
-
+    <td><i class="fa fa-check"></i></button></td>
     <td><i class="fa fa-cancel"></i></td>
-
-
-    <td><button class="btn tooltipped tooltipped-o" aria-label="Bottom, right (default)" type="button"><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls arrow visibility for directed connections.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls arrow visibility for directed connections.
 <code>visible|hidden</code>
-" data-original-title="" title=""></i></button></td>
+"></i></button></td>
   </tr>
 
   <tr data-property="border-color">
@@ -72,9 +63,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls border color for elements.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border color for elements.
 <code>color</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="border-width">
@@ -92,9 +83,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls border width for elements.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border width for elements.
 <code>number</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="bullseye-visibility">
@@ -112,9 +103,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls the bullseye visibility for elements.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the bullseye visibility for elements.
 <code>visible|hidden</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="bullseye-size">
@@ -132,9 +123,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls the bullseye size for elements.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the bullseye size for elements.
 <code>0..1</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="bullseye-color">
@@ -152,9 +143,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls the bullseye color for elements.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the bullseye color for elements.
 <code>color</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="bullseye-opacity">
@@ -172,9 +163,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls the bullseye opacity for elements.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the bullseye opacity for elements.
 <code>0..1</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="color">
@@ -192,9 +183,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls color of elements and connections
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls color of elements and connections
 <code>color</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="curvature">
@@ -212,9 +203,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls the curvature of connections.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the curvature of connections.
 <code>0..1</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="delay-visibility">
@@ -232,9 +223,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls delay visibility for delayed connections.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls delay visibility for delayed connections.
 <code>visible|hidden</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="display">
@@ -252,10 +243,10 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-check"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls general inclusion.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general inclusion.
 Hidden objects will be fully removed from the map (see visibility).
 <code>map|none</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="visibility">
@@ -273,10 +264,10 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls general visibility.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general visibility.
 Hidden objects will still affect the layout.
 <code>visible|hidden</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="font-family">
@@ -294,9 +285,9 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-check"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls general label font family.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font family.
 <code>'Helvetica Neue', sans-serif</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="font-size">
@@ -314,9 +305,9 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-check"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls general label font size.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font size.
 <code>number</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="font-style">
@@ -334,9 +325,9 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-check"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls general label style.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label style.
 <code>normal|italic</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="font-weight">
@@ -354,9 +345,9 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-check"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls general label font weight.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font weight.
 <code>normal|bold</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="image-url">
@@ -374,9 +365,9 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls source of element image
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls source of element image
 <code>url(http://...)</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="image-size">
@@ -394,9 +385,9 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls element image size
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element image size
 <code>cover|contain</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="image-visibility">
@@ -414,9 +405,9 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls element image visibility
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element image visibility
 <code>visible|hidden</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="label-visibility">
@@ -434,9 +425,9 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-check"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls label visibility for all types.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label visibility for all types.
 <code>visible|hidden</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="length">
@@ -454,9 +445,9 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls connection resting length
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection resting length
 <code>number</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="margin">
@@ -474,10 +465,10 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls amount of space between the border of an element
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls amount of space between the border of an element
 and its connections.
 <code>number|none</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="opacity">
@@ -495,9 +486,9 @@ and its connections.
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls general element and connection opacity.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general element and connection opacity.
 <code>0..1</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="padding">
@@ -515,10 +506,10 @@ and its connections.
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls amount of space between the border of an element
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls amount of space between the border of an element
 and its core (image / bullseye).
 <code>number</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="size">
@@ -536,9 +527,9 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls the base element and and connection size.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the base element and and connection size.
 <code>number</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="scale">
@@ -556,9 +547,9 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls element and connection scale (multiple of base size).
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element and connection scale (multiple of base size).
 <code>number</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="shadow-visibility">
@@ -576,9 +567,9 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls element shadow visibility
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shadow visibility
 <code>visible|hidden</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="shadow-size">
@@ -596,9 +587,9 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls element shadow size.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shadow size.
 <code>1..5</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="shadow-color">
@@ -616,9 +607,9 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls element shadow color.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shadow color.
 <code>color</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="shadow-opacity">
@@ -636,9 +627,9 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls element shadow opacity.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shadow opacity.
 <code>0..1</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="strength">
@@ -656,9 +647,9 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls connection strength.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection strength.
 <code>0..1</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="style">
@@ -676,9 +667,9 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls connection style.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection style.
 <code>solid|dashed</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
   <tr data-property="text-align">
@@ -696,9 +687,9 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls alignment of element labels.
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls alignment of element labels.
 <code>bottom|right</code>
-" data-original-title="" title=""></i></td>
+"></i></td>
   </tr>
 
 </tbody></table>
