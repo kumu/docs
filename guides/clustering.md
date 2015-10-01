@@ -122,3 +122,5 @@ Say you're looking to cluster by "tags" but only want to activate clustering for
  cluster: person by "tags";
 }
 ```
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/clustering.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

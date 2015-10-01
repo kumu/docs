@@ -38,3 +38,5 @@ Public project are always free of charge. Personal plans start at $9 per month (
 
 **Is a desktop version available?**<br />
 No, Kumu is currently only offered as a web-based platform.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/welcome.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

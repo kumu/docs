@@ -27,3 +27,5 @@ Personal plans are meant for individuals working on their own projects and colla
 Organizations allow multiple users to manage a central account, along with additional branding opportunities, team management, and fine-grained access control to projects. For maps owned by an organization account, you can add people to your map using a powerful team-based structure with either view, edit, or admin access.
 
 Both personal and organization accounts have a free tier which include an unlimited number of private projects.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/project-architecture.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

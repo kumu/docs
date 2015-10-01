@@ -55,3 +55,5 @@ Use single words for your element types, connection types, and tags. By doing so
 </ul>
 
 If you include special characters or multiple words you'll have to use the longhand instead (such as <code>["element type"="Government Sector"]</code>) and that's just not nearly as much fun.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/profiles.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

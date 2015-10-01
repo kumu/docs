@@ -77,3 +77,5 @@ Kumu doesn't work with:
 We've built Kumu utilizing the latest web technologies (HTML5, CSS3 and JavaScript) to create the best experience possible. Unfortunately many browsers are only beginning to support these fully. If you're not already using one of the recommended browsers above, please use the links to download and install the browser before continuing to use Kumu.
 
 Support for mobile is under development. You'll be able to access Kumu on iOS devices but you'll have the best experience by using Kumu on a laptop or desktop computer with one of the supported browsers.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/getting-started/faq.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

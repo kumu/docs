@@ -60,3 +60,5 @@ Each widget has a default aspect ratio as listed below:
 Add ```?aspect=hd``` or ```?aspect=sd``` after the ID for any widget to change from the default.
 
 ## What other widgets do you need? <a href="mailto:jeff@kumu.io">Tell us!</a>
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/widgets.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

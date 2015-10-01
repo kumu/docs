@@ -25,3 +25,5 @@ While Kumu is easy to get started, it also packs a lot of depth. Use these guide
 * [Shortcuts](guides/shortcuts.md)
 * [Templates](guides/templates.md)
 * [Widgets](guides/widgets.md)
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/guides.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

@@ -78,3 +78,5 @@ When you rerun community detection, we'll use the existing communities to seed t
 Remember, not all networks have meaningful community structure. Use the default settings and try to avoid fiddling too much just to get a pretty picture.
 
 The science of community detection is still evolving. Use the results from the algorithm to ask better questions about your maps but don't take them as fact.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/metrics.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

@@ -259,3 +259,5 @@ The default mapping engine is optimized for creating great looking maps. As you 
 ```
 
 You'll notice that connections are no longer curved and that elements are squares instead of circles. You should now be able to map much larger maps (5,000 - 10,000 elements) with a powerful computer.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/perspectives-advanced.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

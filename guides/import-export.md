@@ -193,3 +193,5 @@ Note: If you're working with loops, you'll need to continue to edit them within 
 ## Downloading a project blueprint
 
 If you need to backup your entire project (all maps, perspectives, and underlying data except presentations), hold shift while clicking the export button. This will create a .json file that can be used as a snapshot in time of your project, and can be imported into a blank project to restore it.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/import-export.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

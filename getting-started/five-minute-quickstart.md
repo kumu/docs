@@ -38,3 +38,5 @@ Simply follow the prompts to select what should be decorated, and then choose wh
 ### 6. Invite a collaborator
 
 If you're working in a personal account, use the menu in the upper left corner to access the "members" section. Type the username of the person you want to add to your project and then click "add contributor".
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/getting-started/five-minute-quickstart.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

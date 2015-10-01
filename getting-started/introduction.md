@@ -257,3 +257,5 @@ Kumu has a powerful [metrics engine](../guides/metrics.md) which includes a numb
 ![metrics](../images/metrics.jpg)
 
 Run metrics and then use size and color scales to quickly and easily analyze the results.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/getting-started/introduction.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

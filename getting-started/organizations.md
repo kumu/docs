@@ -25,3 +25,5 @@ Once you've created teams, click on the project and grant access to each team by
 ## Converting an existing account to an organization
 
 If you have a project you'd like to convert to an organization, please email [support@kumu.io](mailto:support@kumu.io).
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/getting-started/organizations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

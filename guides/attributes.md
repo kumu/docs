@@ -58,3 +58,5 @@ Click edit underneath the relevant type and then uncheck at least one attribute 
 Here's a quick video overview of how it all works:
 
 {% video %}https://vimeo.com/102600374{% endvideo %}
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/attributes.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

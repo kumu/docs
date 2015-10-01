@@ -135,3 +135,5 @@ For decorations based on qualitative attributes, check out the guide on [perspec
 By default, Kumu will import your connections as directed but won't display the arrow. To turn the arrow on, select all the connections by hitting the **a** keystroke, click the direction button (<i class="fa fa-random"></i>) in the toolbar and then choose "directed." Connections can be directed, undirected, or mutual (arrows both ways). You also use this button to switch directions for a given directed connection.
 
 **Still have questions?** Send an email to [support@kumu.io](mailto:support@kumu.io).
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/sna-network-mapping.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

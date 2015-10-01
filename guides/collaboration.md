@@ -52,3 +52,5 @@ If there are multiple conflicts, you'll be taken through each conflict one by on
 ![Conflicts Step 4](/images/merge-4.png)
 
 ...you're all set. If only handling conflicts in the real world were this easy!
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/collaboration.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

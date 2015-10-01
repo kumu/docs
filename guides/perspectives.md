@@ -56,3 +56,5 @@ and avoid overwhelming new users. In order to harness the full power of perspect
 ![default perspective](/images/default-perspective.png)
 
 If you're comfortable with CSS, we highly recommend using the advanced editor. Read the [advanced  guide](/perspectives-advanced.md) to dive in.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/perspectives.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

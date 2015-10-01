@@ -116,3 +116,5 @@ Note: the includes operator `~=` is only relevant for attributes with multiple v
 [employees <= 10]
 [employees >= 10]
 ```
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/selector-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

@@ -22,3 +22,5 @@ Here are four videos that walk you through the basics of each template:
 
 ## Custom Template
 <iframe src="//player.vimeo.com/video/120887205" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/templates.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

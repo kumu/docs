@@ -396,3 +396,5 @@ and its core (image / bullseye).
 * guides
 * guide-width
 * guide-color
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/property-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

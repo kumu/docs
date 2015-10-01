@@ -134,3 +134,5 @@ element {
 ```
 
 You can see we've included other decorations including font-color, font-size, and more (you can see the full list [here](../guides/perspectives.md)).
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/system-mapping.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

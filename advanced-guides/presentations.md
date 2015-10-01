@@ -43,3 +43,5 @@ Presentations can also be embedded just like any other Kumu embed. To do so, swa
 ```
 <iframe src="https://hiqol.kumu.io/hawaii-quality-of-life" width="940" height="600" frameborder="0"></iframe>
 ```
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/advanced-guides/presentations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
