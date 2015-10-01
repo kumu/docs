@@ -1,3 +1,4 @@
+
 # Property Reference
 Beneath perspectives, Kumu uses a powerful CSS-based language to control the appearance of your maps.
 
@@ -16,6 +17,8 @@ All values are unitless.
 
 The table belows lists all of the properties recognized by Kumu. Hover over the information icon at the far right to see additional details and available values for each property. Scroll to the bottom for a list of available @settings properties.
 
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="My tooltip">Tooltip on left</button>
+
 <table class="property-table table table-striped">
   <tbody><tr>
     <th class="text-left">Property</th>
@@ -29,7 +32,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-cancel"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-cancel"></i></td>
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Override the arrow color for a connection.
+    <td><i class="fa fa-info-circle" data-toggle="tooltip" data-placement="left" data-content="Override the arrow color for a connection.
 <code>color</code>
 " data-original-title="" title=""></i></td>
   </tr>
@@ -42,16 +45,16 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
 
 
 
-    <td><i class="fa fa-check"></i></td>
+    <td><button class="btn tooltipped tooltipped-o" aria-label="Bottom, right (default)" type="button"><i class="fa fa-check"></i></button></td>
 
 
 
     <td><i class="fa fa-cancel"></i></td>
 
 
-    <td><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls arrow visibility for directed connections.
+    <td><button class="btn tooltipped tooltipped-o" aria-label="Bottom, right (default)" type="button"><i class="fa fa-info-circle" data-toggle="popover" data-placement="left" data-content="Controls arrow visibility for directed connections.
 <code>visible|hidden</code>
-" data-original-title="" title=""></i></td>
+" data-original-title="" title=""></i></button></td>
   </tr>
 
   <tr data-property="border-color">

@@ -13,7 +13,8 @@
             "token": "UA-XXXX-Y"
         },
         "addcssjs": {
-          "css": ["css/custom.css"]
+          "js": ["js/jquery-1.11.3.min.js","js/bootstrap.min.js","js/custom.js"],
+          "css": ["css/custom.css", "css/bootstrap.min.css","css/bootstrap-theme.min.css"]
         }
     }
 }
