@@ -216,3 +216,18 @@ table.property-table {
     font-family: courier;
     text-transform: uppercase;
   }
+
+/* tooltips */
+
+.tooltip {
+  font-size: 14px;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 6px 10px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 4px;
+}
