@@ -33,7 +33,7 @@ Once you have data that you want to cluster by, click on the cluster icon in the
 
 Let's say we choose "Collective Impact-ish Initiative" from the drop down. You'll now see the various initiatives drawn as elements and connected to the people who are involved in each initiative.
 
-<img src="/images/cluster-civic-2.png" alt="Civic Canopy clustered by collective impact initiative">
+<img src="/images/cluster-civic-2.png" alt="Civic Canopy clustered by collective impact initiative" class="plain">
 
 ## Toggling or saving clusters
 
