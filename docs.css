@@ -93,9 +93,10 @@ img {
   display: none !important;
 }
 
+/* search always visible for us */
 .book .book-summary ul.summary {
-  top: 0;
-  padding-top: 55px;
+  top: 0 !important;
+  padding-top: 55px !important;
 }
 
 .book .book-summary ul.summary li.divider {
