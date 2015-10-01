@@ -1,6 +1,6 @@
 {
     "gitbook": "2.2.0",
-    "plugins": ["layout", "anchors", "ga", "video", "addcssjs"],
+    "plugins": ["layout", "anchors", "ga", "video"],
     "structure": {
         "readme": "welcome.md"
     },
@@ -10,11 +10,7 @@
             "footerPath" : "layouts/footer.html"
         },
         "ga": {
-            "token": "UA-XXXX-Y"
-        },
-        "addcssjs": {
-          "js": ["js/jquery-1.11.3.min.js","js/bootstrap.min.js","js/custom.js"],
-          "css": ["css/custom.css", "css/bootstrap.min.css","css/bootstrap-theme.min.css"]
+            "token": "UA-26560743-5"
         }
     }
 }
