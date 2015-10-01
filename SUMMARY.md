@@ -29,6 +29,8 @@
     * [SNA / Network Mapping](guides/sna-network-mapping.md)
     <!--* [Stakeholder analysis](guides/stakeholder-analysis.md)-->
     * [System mapping](guides/system-mapping.md)
+  * [Filter](guides/filter.md)
+  * [Focus](guides/focus.md)
   * [Import / export](guides/import-export.md)
   * [Metrics](guides/metrics.md)
   * [Markdown](guides/markdown.md)
