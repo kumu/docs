@@ -56,4 +56,5 @@ You can also use the attribute relevance menu to change the order attributes are
 Click edit underneath the relevant type and then uncheck at least one attribute to hide it from the profile (otherwise the order won't save). Simply drag and drop the attributes and then click "Done" and you'll see the new order reflected in the profile.
 
 Here's a quick video overview of how it all works:
-<iframe src="//player.vimeo.com/video/102600374" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+{% video %}https://vimeo.com/102600374{% endvideo %}

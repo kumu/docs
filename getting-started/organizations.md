@@ -18,7 +18,7 @@ Users can be added to organizations as owners, members, or guests. Before a user
 
 Once added to the organization, users can then be organized into teams. Access to projects is managed through teams, and organization members can be members of multiple teams. Teams can have view, edit, or admin rights to a project, or no access at all.
 
-https://vimeo.com/135484585
+{% video %}https://vimeo.com/135484585{% endvideo %}
 
 Once you've created teams, click on the project and grant access to each team by choosing view, edit or admin.
 

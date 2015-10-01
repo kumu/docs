@@ -18,7 +18,8 @@ Public projects allow you to easily share and build upon the work of the whole K
 
 Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You'll find presentations in the main menu of your project. Here's a quick guide to getting started:
 
-<iframe src="//player.vimeo.com/video/118975099" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% video %}https://vimeo.com/118975099{% endvideo %}
+
 
 ## Embeds
 

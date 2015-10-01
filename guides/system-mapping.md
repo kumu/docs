@@ -2,7 +2,7 @@
 
 Looking to create awesome and engaging system maps with the power to change hearts and minds? You've come to the right place. Kumu enables you to build interactive maps with narratives, links, video and other background for each element, connection, and loop in the map.
 
-<iframe src="//player.vimeo.com/video/99685006?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% video %}https://vimeo.com/99685006{% endvideo %}
 
 ## Building the basic structure of a map
 
@@ -75,7 +75,7 @@ And we'll automatically add the pre and post labels for you:
 
 Kumu has built-in support for loops including detailed profiles so you can add narratives and other research to support your map. To create a loop, hold either **command** or **shift** and click on each connection you'd like to have as part of your loop. Once you select more than one connection, you'll see a new button appear below the "Add Connection" button labeled "Add Loop." Click this button to create a loop involving the selected connections and then add a label for the loop.
 
-![reinforcing loop](/images/systems-reinforcing-loop.png)
+<img src="/images/systems-reinforcing-loop.png" class="plain">
 
 We recommend using a combination of "R" or "B" (for reinforcing and balancing) plus a short label for the dynamic at play (R: Trust in Government) and even a numerical label if that further helps differentiate your loops (R15: Trust in Government).
 
@@ -89,7 +89,7 @@ One of the challenges with current system mapping platforms is that they don't a
 
 Kumu allows you to add this information easily for any and all levels of your map. Start by using the map overview to add a description of the overall map and key dynamics at play. Then include a narrative for each loop that describes the behavior, both current and historical, and includes links to any supporting research that led to the creation of the loop. For specific elements, provide a quick definition to ensure there isn't confusion. And for connections, include a brief description of why two elements are causally related and any supporting research.
 
-![System Map in Kumu](/images/system-mapping-intro.png)
+<img src="/images/system-mapping-intro.png" alt="System map in Kumu" class="plain">
 
 
 #### Strengthen your narrative using links to elements and loops
@@ -117,7 +117,7 @@ Finally, you can even add data like **% complete** to be able to track the statu
 
 There are a number of decorations you can add that really make your system map ***pop***. One of these is using larger circles that fit the label within the circle rather than below it. One caution, if you're hoping to size elements by certain data, you probably want to keep the label placement below the element. But if you are using color scales instead, this can be a nice way to create a great looking map.
 
-![Hawaii Quality of Life System Map](/images/systems-magazine-ready.png)
+<img src="/images/systems-magazine-ready.png" alt="Hawaii Quality of Life Map" class="plain">
 
 To make this happen, you'll need to create a perspective that increases the size of the circle and then changes the label placement. Here is the sample advanced CSS for a recent collaboration with [Hawaii Business Magazine](http://hawaiiqualityoflife.org):
 
