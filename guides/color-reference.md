@@ -10,7 +10,8 @@ Kumu has built-in support for a number of named color scales, including all Colo
 <br />
 Kumu also has built-in support for these color scales:
 
-### sequential
+### Sequential
+Sequential color palettes are great when you are trying to show quantitative data or data that has a meaningful order.
 
 <div class="color-scale">
 <table class="table">
@@ -74,7 +75,10 @@ Kumu also has built-in support for these color scales:
 </table>      
 </div>
 
-### qualitative
+### Qualitative
+
+Qualitative color palettes are best when you are trying to show data with discrete values that don't have an inherent order.
+
 <div class="color-scale">
 <table class="table">
   <tbody>
@@ -169,7 +173,7 @@ You can define your own color palette by using a comma separated list of color v
 
 ```
 @settings {
-  element-color: categorize ("community", #5BC1AE, #009CDB, #F6882B, #8E278F)
+  element-color: categorize("community", #5BC1AE, #009CDB, #F6882B, #8E278F)
 }
 ```
 
