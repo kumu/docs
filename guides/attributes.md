@@ -2,6 +2,8 @@
 
 Attributes add incredible power to Kumu. Use attributes to track whatever custom fields you need and modify the settings to enable things like checklists, prompts, currencies, and much more.
 
+## What is an attribute?
+
 ## Add an attribute
 To add an attribute, select an element or connection and then click the "Create Your First Attribute" or "+ New Attribute" button in the sidebar. You'll be prompted to add a name and a value for the attribute.
 
