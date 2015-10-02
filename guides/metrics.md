@@ -64,12 +64,14 @@ Eventually we'll build a UI to make the process of coloring by communities even 
 }
 ```
 
-Wondering what "spectral" means? Kumu has built in support for a number of color scales (including all the [colorbrewer](http://bl.ocks.org/mbostock/5577023) scales -- follow the link and then mouse over each color palette for the name). Here's a few custom ones for you to try:
+Wondering what "spectral" means? Kumu has built in support for a number of color scales. Here's a few custom ones for you to try:
 
 * olympic
 * neon
 * heat
 * stoplight
+
+Head over to the [color reference](/color-reference.md) for information on all the color scales that are available.
 
 ### Rerun from scratch (optional)
 

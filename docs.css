@@ -243,3 +243,32 @@ table.property-table {
 .book .book-body .page-wrapper .page-inner section.normal .edit-link a {
   color: #bbb;
 }
+
+/* Color scales */
+
+.color-scale table td, .color-scale table tr {
+  border: none !important;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .color-scale table tr:nth-child(2n) {
+  background-color:#fff;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .color-scale table .spacer td {
+  padding: 0;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .color-scale table td {
+  padding:8px 9px;
+}
+
+.color-scale td:first-child {
+  width: 120px !important;
+  text-align: right !important;
+}
+
+/* Align check marks on menu */
+
+.book .book-summary ul.summary li i.fa-check {
+  top: 8px !important;
+}

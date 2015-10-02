@@ -36,6 +36,7 @@
   * [Markdown](guides/markdown.md)
   * [Perspectives / style sheets](guides/perspectives.md)
     * [Advanced](guides/perspectives-advanced.md)
+    * [Color reference](guides/color-reference.md)
     * [Property reference](guides/property-reference.md)
     * [Selector reference](guides/selector-reference.md)
   * [Presentations](guides/presentations.md)
