@@ -10,8 +10,8 @@ Kumu has built-in support for a number of named color scales, including all Colo
 <br />
 Kumu also has built-in support for these color scales:
 
-### Sequential
-Sequential color palettes are great when you are trying to show quantitative data or data that has a meaningful order.
+### Sequential and diverging
+Both sequential and diverging color palettes are great when you are trying to show quantitative data or data that has a meaningful order.
 
 <div class="color-scale">
 <table class="table">
