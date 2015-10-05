@@ -2,12 +2,23 @@
 
 We've built a [flexible widget framework](https://github.com/kumu/widgets) to make it easy to embed your favorite content within Kumu. Widgets are curently supported for:
 
+* Lists ```[[list/loops]]```
 * Vimeo ```[[vimeo/:id]]```
 * YouTube ```[[youtube/:id]]```
 * Slideshare ```[[slideshare/:id]]```
 * Speaker Deck ```[[speakerdeck/:id]]```
 
 ## The Widgets
+
+### Lists
+
+Use the code below to create a list of links to all the loops in your map. Just swap `loops` for `elements` or `connections` and you'll have a list of elements or connections instead!
+
+```
+[[list/loops]]
+```
+
+![List widget](/images/list-loops.jpg)
 
 ### Vimeo
 
