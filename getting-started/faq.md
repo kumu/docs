@@ -33,7 +33,7 @@ By default all connections are curved. You can change the curvature of connectio
 
 ### Can I size or color elements based on social network analysis metrics like degree and betweenness centrality?
 
-Yes! Head over to the [Network Analysis Guide](/guides/network-analysis.html) for more information.
+Yes! Head over to the [Network Analysis Guide](../guides/sna-network-mapping.md) for more information.
 
 ### How do I add images to the elements on my map?
 
@@ -52,13 +52,13 @@ Note that support for dashed connections isn't great across all browsers, so you
 
 ### Is it possible to create nested or layered networks?
 
-Yes, we recommend creating separate maps and then using the description to create links to help ease navigation between various levels or layers. Read the [markdown guide](/guides/markdown.html) to learn how to create links to other maps.
+Yes, we recommend creating separate maps and then using the description to create links to help ease navigation between various levels or layers. Read the [markdown guide](../guides/markdown.md) to learn how to create links to other maps.
 
 ### Does Kumu integrate with data from other tools/platforms?
 
 Integrations with data from other tools/platforms are in progress. Have a platform you're looking to integrate with? <a href="mailto:support@kumu.io">Let us know!</a>
 
-In the meantime, you can always use our handy [import feature](/basics/imports.html).
+In the meantime, you can always use our handy [import feature](../guides/import-export.md).
 
 ### What browsers is Kumu compatible with?
 

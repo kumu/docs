@@ -12,7 +12,7 @@ Organization projects allow adding people with view, edit or admin access throug
 
 ## Public Projects
 
-Public projects allow you to easily share and build upon the work of the whole Kumu community. For more information, view the [project architecture guide](/guides/project-architecture.md).
+Public projects allow you to easily share and build upon the work of the whole Kumu community. For more information, view the [project architecture guide](../guides/project-architecture.md).
 
 ## Presentations
 
