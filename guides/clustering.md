@@ -84,6 +84,18 @@ Saving clusters can also be helpful as a shortcut to creating connection data in
 
 Simply cluster by organization and then save to your map. Now you have a network of people connected by the organization they work for.
 
+## Limiting which attributes can be clustered
+
+If you'd like to hide certain attributes from showing up in the clustering menu, use the attribute settings to disable clustering.
+
+![clustering menu](/images/clustering-menu.jpg)
+
+If you want to disable any of the core attributes (label, description, tags or type), you'll need to use the attribute settings within the main menu.
+
+![advanced settings clustering menu](/images/clustering-menu-advanced.jpg)
+
+You can access this via the top left corner (choose "attributes") or by clicking the menu button on the bottom toolbar. Checking the box will include the attribute in the clustering menu.
+
 ## Advanced Clustering
 We've unleashed a ton of power and flexibility for clustering through our perspective engine overhaul. You can now activate clustering automatically within a perspective by using the new <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
 
