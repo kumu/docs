@@ -153,6 +153,34 @@ You can use any other perspective as a base perspective with the following synta
 @import "perspective name";
 ```
 
+## Label Templates
+
+Easily customize how labels display on your map by including custom text, pulling in attribute values, or turning them off entirely.
+
+These can be used within @settings or as a separate rule:
+
+```
+@settings {
+  element-label: "{{location}}";
+}
+
+OR
+
+person {
+  label: "Born in {{location}}";
+}
+```
+
+Just use the `{{attribute name}}` format to bring in dynamic attribute values. Don't forget to wrap everything in quotes. You can also use a double space to force a line break.
+
+```
+@settings {
+  element-label: "{{label}}  {{location}}";
+}
+```
+
+Head over to the [blog](http://blog.kumu.io/introducing-label-templates/) for tips on how to make the most of [label templates](http://blog.kumu.io/introducing-label-templates/).
+
 ## @settings
 
 If you're interested in working with `@settings` you truly have become a perspective master.
