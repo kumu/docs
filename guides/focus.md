@@ -6,8 +6,6 @@ Focus is activated in one of two ways, by clicking and holding on any element or
 
 If you click the focus button in the toolbar, you'll be prompted with a menu of how many degrees out you'd like to focus. Once focus is activated, you can click and hold on any element to bring that element's direct connections into view.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/focus.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
-
 ### Preset Focus
 
 You can also predefine a focus within `@settings` in the advanced editor of any perspective.
@@ -57,3 +55,5 @@ To enable prompted mode, you'll need to add the following to the advanced tab of
   focus: prompt;
 }
 ```
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/focus.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
