@@ -32,7 +32,7 @@ To activate a focus automatically within a perspective, use the `focus` setting 
 
 ```
 @settings {
-  focus: selecter out n
+  focus: selector out n
 }
 ```
 
