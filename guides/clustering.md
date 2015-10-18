@@ -4,13 +4,13 @@ Clustering is a powerful tool that allows you to transform profile information i
 
 ## A quick example
 
-There are hidden relationships in much of the data you have stored in spreadsheets, they're just not stored as explicity from/to connections. Most of you probably have a spreadsheet full of contacts, with one column storing the person's name and another column storing the organization she works for. If you imported this directly into Kumu, you'd end up with a map like this:
+There are hidden relationships in much of the data you have stored in spreadsheets, they're just not stored as explicitly from/to connections. Most of you probably have a spreadsheet full of contacts, with one column storing the person's name and another column storing the organization she works for. If you imported this directly into Kumu, you'd end up with a map like this:
 
 <img src="/images/cluster-before-final.png" alt="Elements with no relationships">
 
 **Not that eye opening, right?** With other tools, if you wanted to see the relationship view you'd have to create a separate connections worksheet pointing each person to the organization they work for and then import both into Kumu.
 
-With clustering, **simply hit the k key** or click the cluster buttom in the bottom toolbar and you'll be prompted with a checklist of all the attributes. In this example, we'd choose **organization.** Click cluster and *voila!* You now have a relational map of all the people and organizations without ever having to do the import workaround.
+With clustering, **simply hit the k key** or click the cluster button in the bottom toolbar and you'll be prompted with a checklist of all the attributes. In this example, we'd choose **organization.** Click cluster and *voila!* You now have a relational map of all the people and organizations without ever having to do the import workaround.
 
 <img src="/images/cluster-after-final.png" alt="Elements with relationships">
 
