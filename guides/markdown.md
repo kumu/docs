@@ -59,7 +59,7 @@ We also support linking to elements, connections and loops (even other maps in y
 ## Images
 
 ```
-![Kumu Logo](/images/kumu-logo-color.png)
+![Kumu Logo](http://blog.kumu.io/content/images/2015/08/kumu-logo-cutout-full-dark.png)
 ```
 
 
