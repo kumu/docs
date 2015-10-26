@@ -272,3 +272,13 @@ table.property-table {
 .book .book-summary ul.summary li i.fa-check {
   top: 8px !important;
 }
+
+/* Enterprise styles */
+
+.book .book-body .page-wrapper .page-inner section.normal .page-footer .next {
+  text-align: right;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .page-footer {
+  margin-top: 50px;
+}
