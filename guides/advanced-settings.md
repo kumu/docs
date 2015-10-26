@@ -71,4 +71,15 @@ You can add a grid to the background of your map using these settings:
 
 ```
 
+## Culling
+
+By default we'll hide the connections between any elements that aren't within the current view. This helps boost performance but isn't always the desired behavior. To turn culling off, use these settings:
+
+```
+@settings {
+  culling: off;
+}
+
+```
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/advanced-settings.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
