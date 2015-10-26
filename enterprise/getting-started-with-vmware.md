@@ -7,7 +7,7 @@ bundle (.ksb) should have been provided to you by email. Please email
 
 Before installing Kumu Enterprise in production, we recommend running through
 the installation process
-[on your local machine using VirtualBox](/enterprise/getting-started-with-virtualbox.html).
+[on your local machine using VirtualBox](/getting-started-with-virtualbox.md).
 
 Please make sure you're running the
 <a href="https://www.vmware.com/">latest version of VMWare</a>.
@@ -42,5 +42,5 @@ The installation is complete once you see the following screen (be patient as th
 ![Installation Complete](/images/enterprise-success.png)
 
 <footer class="page-footer">
-  <div class="next">Next: [Configuration](/enterprise/configuration.html)</div>
+  <div class="next">Next: <a href="/configuration.md">Configuration</a></div>
 </footer>

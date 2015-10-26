@@ -38,5 +38,5 @@ The installation is complete once you see the following screen (be patient as th
 ![Installation Complete](/images/enterprise-success.png)
 
 <footer class="page-footer">
-  <div class="next">Next: [Configuration](/enterprise/configuration.html)</div>
+  <div class="next">Next: <a href="/configuration.md">Configuration</a></div>
 </footer>

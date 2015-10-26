@@ -1,6 +1,6 @@
-# Backing up Enterprise Data"
+# Backing up Enterprise Data
 
-Kumu Enterprise includes [command-line utilities][1] to help back up your
+Kumu Enterprise includes [command line utilities][1] to help back up your
 enterprise data.
 
 We recommend using this process to regularly back up your data. You should also
@@ -13,10 +13,10 @@ ssh admin@hostname -- "kumu-export" > kumu-backup.tar.gz
 ```
 
 <footer class="page-footer">
-  <div class="next">Next: [Restoring enterprise data][2]</div>
+  <div class="next">Next: <a href="/restoring-enterprise-data.md">Restoring enterprise data</a></div>
 </footer>
 
 
-[1]: /enterprise/command-line-utilities.html
-[2]: /enterprise/restoring-enterprise-data.html
-[3]: /enterprise/ssh-access.html
+[1]: /command-line-utilities.md
+[2]: /restoring-enterprise-data.md
+[3]: /ssh-access.md

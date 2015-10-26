@@ -1,6 +1,6 @@
 # Restoring Enterprise Data
 
-Kumu Enterprise includes [command-line utilities][cmd] for restoring backups of
+Kumu Enterprise includes [command line utilities][cmd] for restoring backups of
 your enterprise data.
 
 Although it's tempting to re-use your existing installation, we strongly
@@ -13,9 +13,9 @@ ssh admin@hostname -- "kumu-import" < kumu-backup.tar.gz
 ```
 
 <footer class="page-footer">
-  <div class="next">Have questions? [Contact Support](mailto:enterprise@kumu.io)</div>
+  <div class="next">Have questions? <a href="mailto:enterprise@kumu.io">Contact Support</a></div>
 </footer>
 
-[cmd]: /enterprise/command-line-utilities.html
-[ssh]: /enterprise/ssh-access.html
-[upgrade]: /enterprise/upgrading.html
+[cmd]: /command-line-utilities.md
+[ssh]: /ssh-access.md
+[upgrade]: /upgrading.md
