@@ -59,4 +59,11 @@ Here's a quick video overview of how it all works:
 
 {% video %}https://vimeo.com/102600374{% endvideo %}
 
+
+## Deleting an attribute or attribute values
+If you've created an attribute and want to delete it and all corresponding values, you can click on the label of the attribute in any profile and then go to more -> delete. Alternatively, use can use the menu in the upper left corner to go to the attribute settings page (choose attributes). This will delete the attribute and any values assigned for any content in your project.
+
+Occasionally you may want to delete the prompted choices for a given attribute. This often happens with element and connection type where you are no longer using a given value. The quickest way is to use the arrow dropdown on the right side of the add element or add connection button. You can hover over any type and click the red x to delete that value. You can also manage element and connection type (and other attributes) via the main menu - just click the menu in the upper left corner of your map and then choose attributes.
+
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/attributes.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
