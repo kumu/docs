@@ -7,17 +7,6 @@
 * [Getting Started](getting-started/five-minute-quickstart.md)
   * [Five-minute quickstart](getting-started/five-minute-quickstart.md)
   * [Introduction](getting-started/introduction.md)
-    <!--
-    * [Introduction to the UI](getting-started/introduction.md#introduction-to-the-ui)
-    * [Working with maps](getting-started/introduction.md#working-with-maps)
-    * [ Building out profiles](getting-started/introduction.md)
-    * [Styling your maps](getting-started/introduction.md)
-    * [Keeping things comprehensible](getting-started/introduction.md)
-    * [Collaborating with teammates](getting-started/introduction.md)
-    * [Sharing your work](getting-started/introduction.md)
-    * [Advanced features](getting-started/introduction.md)
-    * [Project administration](getting-started/introduction.md)
-    -->
   * [Organizations](getting-started/organizations.md)  
   * [FAQ](getting-started/faq.md)
 * [Guides](guides/guides.md)
@@ -27,7 +16,6 @@
   * [Collaboration](guides/collaboration.md)
   * [Disciplines](#)
     * [SNA / Network Mapping](guides/sna-network-mapping.md)
-    <!--* [Stakeholder analysis](guides/stakeholder-analysis.md)-->
     * [System mapping](guides/system-mapping.md)
   * [Export](guides/export.md)
   * [Filter](guides/filter.md)
