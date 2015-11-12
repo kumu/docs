@@ -56,7 +56,7 @@ For certain networks, it's not plausible to collect information via surveys and 
 
 ### Getting the data into Kumu
 
-You can get the data into Kumu in one of two ways: imports or populating by hand. For more information on imports, check out our [imports guide](/import-export.md). If you're creating your map by hand, [start here](../getting-started/introduction.md).
+You can get the data into Kumu in one of two ways: imports or populating by hand. For more information on imports, check out our [imports guide](/import.md). If you're creating your map by hand, [start here](../getting-started/introduction.md).
 
 There are a few subtleties to how you structure your data for easiest use within Kumu. We've laid out some of those below:
 

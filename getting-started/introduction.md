@@ -146,7 +146,7 @@ And here's a sample of how your connection spreadsheet might look:
   </tbody>
 </table>
 
-Head over to the [import guide](../guides/import-export.md) for more details.
+Head over to the [import guide](../guides/import.md) for more details.
 
 ### Positioning elements and connections
 

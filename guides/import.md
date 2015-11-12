@@ -1,9 +1,8 @@
-# Import / Export
+# Import
 
 Imports make it quick and easy to start visualizing your existing data, but you'll need to make a few tweaks before your file is ready for import.
 
 {% video %}https://vimeo.com/96531654{% endvideo %}
-
 
 ## Preparing your file for import
 
@@ -103,6 +102,20 @@ Label should be the first column in your spreadsheet for an element import.
 
 If you're running into funny character issues, please make sure your file is UTF-8 encoded.
 
+## Integrating with Google Sheets
+
+Our Google Spreadsheets integration populates a map using the contents of a spreadsheet hosted on Google Drive. This is a great way to crowdsource community maps without having to give everyone access to the project on Kumu.
+
+**NOTE** Unlike file-based imports, this sets up an ongoing import. The elements and connections will be fetched from the spreadsheet on the fly each time you refresh the page. None of the data will be saved to Kumu's servers and the imported elements and connections are read-only within Kumu. All edits must be made within the spreadsheet.
+
+### Instructions
+
+1. Create a new spreadsheet in Google Drive
+1. Make sure the spreadsheet includes the required columns mentioned above
+1. Go to File > Publish to the web...
+1. Click publish
+1. Copy the published url and paste into the corresponding box within the import modal in Kumu
+
 
 ## Master Imports in 5 Simple Steps
 
@@ -178,20 +191,4 @@ Still have questions? <a href="mailto:support@kumu.io">Ask us!</a>
 
 <p class="alert"><strong>Note:</strong> If you're running into funny character issues, please make sure your file is UTF-8 encoded.</p>
 
-## Exports
-
-You can quickly export your entire map (or just a portion through selections). This makes it easy to refine your data in Excel (or Google Drive) and share it with others, or even transfer your data into a new project. You'll find the export button within the share menu in the upper right:
-
-![layout overview](/images/export-within-share.png)
-
-If you click export without anything selected, your entire map will be exported as an xlsx. If you only want to export a portion of your map, just select the things you'd like to export before clicking export.
-
-You'll now have all of your elements and connections available as two separate sheets in a xlsx file. You can use this to edit and refine your data if you (or your teammates) prefer working in Excel. Simply drag the file back onto the map when you're done to pick up any changes.
-
-Note: If you're working with loops, you'll need to continue to edit them within Kumu as exports don't support loops yet.
-
-## Downloading a project blueprint
-
-If you need to backup your entire project (all maps, perspectives, and underlying data except presentations), hold shift while clicking the export button. This will create a .json file that can be used as a snapshot in time of your project, and can be imported into a blank project to restore it.
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/import-export.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/import.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

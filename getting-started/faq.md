@@ -58,7 +58,7 @@ Yes, we recommend creating separate maps and then using the description to creat
 
 Integrations with data from other tools/platforms are in progress. Have a platform you're looking to integrate with? <a href="mailto:support@kumu.io">Let us know!</a>
 
-In the meantime, you can always use our handy [import feature](../guides/import-export.md).
+In the meantime, you can always use our handy [import feature](../guides/import.md).
 
 ### What browsers is Kumu compatible with?
 
