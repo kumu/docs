@@ -1,5 +1,49 @@
 # Changelog
 
+## Version 1.6.0
+
+**Updated ksb, released 2015-11-19**
+
+The latest release of Kumu Enterprise adds organizations, community detection,
+and more. Only the .ksb is required for this release but please make sure to
+back up your installation before upgrading.
+
+- Added organizations
+- Added community detection
+- Added `categorize` function
+- Added named color scales to `scale` and `categorize`
+- Added grids and guides through @settings
+- Added date format with date picker
+- Added date support for xlsx imports
+- Added currency format
+- Added autoplay support for presentations
+- Added zoom fit option to map slides
+- Added continuous zoom fit for floating maps
+- Added separate `ignore-orphans` option to @settings to fix orphan ignore behavior
+- Added selector support to focus prompt
+- Added option to disable auto-refresh when editing perspective
+- Added cluster menu customization
+- Added clustering through @settings
+- Added attribute values reordering / automatic sorting
+- Simplified personal projects to only allow contributors
+- Fixed bug that wiped out attribute values when changing case of attribute name
+- Fixed attribute relevance when renaming attributes
+- Fixed memory leak issue that hurt performance
+- Fixed element autocomplete sort order to sort alphabetically
+- Fixed initial zoom fit behavior for embeds
+- Fixed degree calculations when working with undirected connections
+- Fixed clustering issue when clustering by number
+- Fixed invalid selector handling within filters
+- Fixed drag connect alignment / virtual issues
+- Fixed sidebar toggle issue when collapsed
+- Fixed connection type handling in imports
+- Fixed connection type handling in advanced clustering
+- Fixed numeric tag handling
+- Fixed @settings handling of element-, connection-, loop- defaults
+- Fixed scale handling of undefined values
+- Fixed a number of minor firefox bugs
+
+
 ## Version 1.5.0
 
 **Updated ksb, released 2015-03-31**
