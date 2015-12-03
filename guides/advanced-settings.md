@@ -82,4 +82,15 @@ By default we'll hide the connections between any elements that aren't within th
 
 ```
 
+## Adjusting the opacity of the showcase behavior
+
+When you hover over any element or connection we'll automatically showcase that selection, meaning that we mute the other elements in the map that are beyond one degree from the selection. If you'd like to disable this or tweak how muted the showcase behavior is, use the `background-opacity` setting:
+
+```
+@settings {
+  background-opacity: 1;
+}
+
+```
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/advanced-settings.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
