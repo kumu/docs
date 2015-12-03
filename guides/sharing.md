@@ -16,7 +16,7 @@ Click "Embed this Map" to create the embed.
 
 Copy and paste the iframe code into your website and you're ready to go. You can also use the external link button (<i class="fa fa-external-link-square"></i>) to open the embed in a new tab. You can use the link for this website as a share link to send to others. Note that anyone will be able to access the map using this link without requiring a password so only share the link if you are okay with this.
 
-### Advanaced Options for Embeds
+### Advanced Options for Embeds
 
 By default embeds include the whole user interface for Kumu. We often find that most embeds don't actually need the finder, footer, and screenshots. Not only were they not needed, they actually distracted users from the embed's content and purpose.
 
