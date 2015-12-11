@@ -35,6 +35,7 @@
   * [Sharing](guides/sharing.md)
   * [Shortcuts](guides/shortcuts.md)
   * [Templates](guides/templates.md)
+  * [Tracking](guides/tracking.md)
   * [Widgets](guides/widgets.md)
 * [Enterprise](enterprise/index.md)
   * [Getting started with VMWare](enterprise/getting-started-with-vmware.md)
