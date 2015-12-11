@@ -7,7 +7,7 @@ you get the point!) so you better cozy up to them.
 You can build selectors by hand, or you can use our selector builder while you're
 still getting comfortable with them (look for the rocket icon once you click on search)
 
-![selector rocket](/images/selector-rocket.png)
+![selector rocket](/images/search-selector.jpg)
 
 You can always use general attribute selectors `[attribute=value]` but we've
 built in a number of friendly shorthands to make selectors as easy to work
