@@ -14,9 +14,11 @@ To fork a public project, click the share menu in the upper right corner of the 
 * Any links in the project will remain the same (so make sure to use relative links to have a fork-friendly project)
 
 ## Intellectual property and forking
-By using a public project on Kumu, you [agree](https://kumu.io/terms) to let other users fork your project. This does not grant any intellectual property rights so it is important for anyone using the fork function to ensure that they are not violating the rights of others. We'll be adding support for including a license on your project to make it clear which rights you are willing to grant to others. It's our hope that people contribute generously to the community by choosing to use the [Kokua License](https://medium.com/@rymohr/the-kokua-license-b2f430a03f4a#.razdhigjg), but the exact license will be up to each project owner to decide.
+By giving others access to your project on Kumu, you [agree](https://kumu.io/terms) to let them fork the project. This does not grant any rights beyond creating the initial fork.
+
+To make it clear what others are permitted to do with your project, we encourage each project to include a license at the bottom of the default map's description. The license you use is up to you, but we hope many of you choose to share your projects generously with the community. We've released a new license called the [Kokua License](https://medium.com/@rymohr/the-kokua-license-b2f430a03f4a#.razdhigjg) to make that even easier.
 
 ## The future of forking
-The ability to create a copy of a project is just the first step towards a more robust collaboration model. In the future, you'll be able to propose changes back to the original project owner based on work completed in your fork (hence why we've used the term "fork" instead of copy, duplicate, clone, etc.). You'll also gain more visibility into who has forked a given project.
+The ability to create a copy of a project is just the first step towards a more robust collaboration model. In the future, you'll be able to propose changes back to the original project owner based on work completed in your fork (hence why we've used the term "fork" instead of copy, duplicate, clone, etc.).
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/forking.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
