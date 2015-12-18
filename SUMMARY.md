@@ -20,6 +20,7 @@
   * [Export](guides/export.md)
   * [Filter](guides/filter.md)
   * [Focus](guides/focus.md)
+  * [Forking](guides/forking.md)
   * [Import](guides/import.md)
   * [Metrics](guides/metrics.md)
   * [Markdown](guides/markdown.md)
