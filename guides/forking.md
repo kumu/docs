@@ -18,3 +18,5 @@ By using a public project on Kumu, you [agree](https://kumu.io/terms) to let oth
 
 ## The future of forking
 The ability to create a copy of a project is just the first step towards a more robust collaboration model. In the future, you'll be able to propose changes back to the original project owner based on work completed in your fork (hence why we've used the term "fork" instead of copy, duplicate, clone, etc.). You'll also gain more visibility into who has forked a given project.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/forking.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
