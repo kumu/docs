@@ -22,6 +22,7 @@
   * [Focus](guides/focus.md)
   * [Forking](guides/forking.md)
   * [Import](guides/import.md)
+  * [Licensing](guides/licensing.md)
   * [Metrics](guides/metrics.md)
   * [Markdown](guides/markdown.md)
   * [Perspectives / style sheets](guides/perspectives.md)
