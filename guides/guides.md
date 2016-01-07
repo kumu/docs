@@ -14,6 +14,7 @@ While Kumu is easy to get started, it also packs a lot of depth. Use these guide
 * [Filter](guides/filter.md)
 * [Focus](guides/focus.md)
 * [Import](guides/import.md)
+* [Licensing](guides/licensing.md)
 * [Metrics](guides/metrics.md)
 * [Markdown](guides/markdown.md)
 * [Perspectives / style sheets](guides/perspectives.md)
