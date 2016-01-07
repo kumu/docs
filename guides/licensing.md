@@ -33,14 +33,15 @@ appreciated, but not required.
 
 *Kokua is a Hawaiian word, that translates into “extending help to others for their own benefit, without expectation for personal gain.”*
 
-## Creative Commons requirements
+## Legal burdens of Creative Commons licenses
 
-Derived works must include attribution in the form of:
+The [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode) license is one of the most permissive
+Creative Commons licenses. Even it requires derived works to include attribution in the form of:
 
 > the name of the creator and attribution parties, a copyright notice, a license notice, a disclaimer notice, and a link to the material. 
 
-And if you make any changes:
+And if you make any changes you must:
 
-> you must indicate if you modified the material and retain an indication of previous modifications
+> indicate if you modified the material and retain an indication of previous modifications
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/licensing.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
