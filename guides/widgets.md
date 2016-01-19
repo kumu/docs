@@ -8,6 +8,7 @@ We've built a [flexible widget framework](https://github.com/kumu/widgets) to ma
 * Slideshare ```[[slideshare/:id]]```
 * Speaker Deck ```[[speakerdeck/:id]]```
 * SoundCloud ```[[soundcloud/:id]]```
+* audioBoom ```[[audioboom/:id]]```
 
 ...where ```:id``` is the unique code included in the embed code from any of the above services.
 
