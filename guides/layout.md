@@ -87,7 +87,7 @@ The values for `layout-x` and `layout-y` can be simple attribute expressions suc
 @settings {
   layout: scatter;
   layout-x: "1000 * betweenness";
-  layout-y: "500 * max(1, log(outdegree / indegree))"
+  layout-y: "500 * max(1, log(outdegree / indegree))";
 }
 ```
 
