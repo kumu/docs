@@ -93,4 +93,17 @@ When you hover over any element or connection we'll automatically showcase that 
 
 ```
 
+## WebGL Renderer
+
+You can switch from using our standard canvas-based renderer to a WebGL renderer. The WebGL renderer is helpful when working with large maps and should be able to handle networks in the tens of thousands of elements. To switch renderers, add:
+
+```
+@settings {
+  renderer: webgl;
+}
+
+```
+
+WebGL [isn't supported by all browsers yet](http://caniuse.com/#feat=webgl) so be cautious when using it on public maps where you want people with older browsers to be able to see the map.
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/advanced-settings.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
