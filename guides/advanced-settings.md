@@ -95,7 +95,7 @@ When you hover over any element or connection we'll automatically showcase that 
 
 ## WebGL Renderer
 
-You can switch from using our standard canvas-based renderer to a WebGL renderer. The WebGL renderer is helpful when working with large maps and should be able to handle networks in the tens of thousands of elements. To switch renderers, add:
+You can switch from using our standard canvas-based renderer to a WebGL renderer. The WebGL renderer is helpful when working with large maps and should be able to handle networks with thousands of elements and connections. To switch renderers, just add:
 
 ```
 @settings {
