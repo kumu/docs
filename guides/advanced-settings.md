@@ -54,6 +54,19 @@ By default Kumu will wrap longer labels and you can force a line break at any po
 }
 ```
 
+## Adjusting connection length based on attribute values
+
+By default our layout algorithm treats all connections the same (same spring strength and length). If you'd like to modify that behavior to have shorter or stronger connections based on a given connection attribute, you can do so by adding the following (example based on using a quantitative "strength" attribute):
+
+```
+@settings {
+  connection-strength: scale("strength", 0, 1);
+  connection-size: scale("strength", 1, 20);
+}
+```
+
+This also works for `connection-length` as well.
+
 ## Adding grid lines
 
 You can add a grid to the background of your map using these settings:
