@@ -106,6 +106,17 @@ When you hover over any element or connection we'll automatically showcase that 
 
 ```
 
+## Changing the color of the selection
+
+When you select an element you'll see a colored ring appear around it (or rectangle based on which template you are using). This color is also based on whether you are using a light or dark theme. If you'd like to change this color, use `selection-color` within `@settings`:
+
+```
+@settings {
+  selection-color: orange;
+}
+
+```
+
 ## WebGL Renderer
 
 You can switch from using our standard canvas-based renderer to a WebGL renderer. The WebGL renderer is helpful when working with large maps and should be able to handle networks with thousands of elements and connections. To switch renderers, just add:
