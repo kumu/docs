@@ -18,7 +18,7 @@ Kumu has a custom layout engine which creates a high quality layout regardless o
 
 ### How can I get arrows to show up for the connections on my map?
 
-Use the "a" keystroke to select all connections. You can then click the direction icon in the bottom toolbar and choose directed, mutual, or undirected. If you find yourself needing to do this often, make sure you've set the right default for conneciton direction in the map overview.
+Use the "a" keystroke to select all connections. You can then click the direction icon in the bottom toolbar and choose directed, mutual, or undirected. If you find yourself needing to do this often, make sure you've set the right default for connection direction in the map overview.
 
 ### Is there a limit to how many collaborators I can have in an account?
 
@@ -28,7 +28,7 @@ Every hosted Kumu account comes with unlimited collaborators. Our Enterprise ver
 
 By default all connections are curved. You can change the curvature of connections in one of two ways:
 
-* **Dragging connections** - For pinned maps, if you click and drag a connection you'll be able to change the radius of the curve. This is especially useful in system maps when trying to avoid lines crossing each other unneccessarily.
+* **Dragging connections** - For pinned maps, if you click and drag a connection you'll be able to change the radius of the curve. This is especially useful in system maps when trying to avoid lines crossing each other unnecessarily.
 * **Through the settings menu** - You can set the default curvature of connections using the settings menu. Simply drag the slider to achieve the curvature you want.
 
 ### Can I size or color elements based on social network analysis metrics like degree and betweenness centrality?
