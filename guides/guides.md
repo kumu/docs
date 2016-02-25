@@ -13,7 +13,7 @@ While Kumu is easy to get started, it also packs a lot of depth. Use these guide
 * [Export](guides/export.md)
 * [Filter](guides/filter.md)
 * [Focus](guides/focus.md)
-* [Import](guides/import.md)
+* [Import](import.md)
 * [Licensing](guides/licensing.md)
 * [Metrics](guides/metrics.md)
 * [Markdown](guides/markdown.md)
