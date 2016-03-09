@@ -2,14 +2,14 @@
   <div class="hero-content">
     <h1>Welcome to the Docs</h1>
     <h2><em>Your guide to getting the most from Kumu</em></h2>
-    <a class="btn" href="getting-started/five-minute-quickstart.md">Watch the five-minute quickstart</a>
+    <a class="btn" href="about/five-minute-quickstart.md">Watch the five-minute quickstart</a>
 
   </div>
 </div>
 
 Looking to learn how to use Kumu? You're in the right place. If you're just getting started, we recommend these articles:
 
-* [Five-minute Quickstart](getting-started/five-minute-quickstart.md)
+* [Five-minute Quickstart](about/five-minute-quickstart.md)
 * [Introduction](getting-started/introduction.md)
 * [Where can I get help?](about/where-can-i-get-help.md)
 
