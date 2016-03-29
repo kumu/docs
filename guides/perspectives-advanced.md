@@ -117,7 +117,7 @@ element {
   margin: 10;   // space between border and connections
   padding: 20;  // space between border and image / bullseye
   text-align: center;
-  image: url(http://www...);
+  image-url: url("https://www...");
 }
 ```
 
