@@ -5,19 +5,22 @@ This page contains everything you need to hit the ground running with Kumu. Carv
 ## Getting to know the user interface
 
 
-<img src="../images/the-ui.png"  class="plain">
+<img src="../images/introduction-ui-overview.png"  class="plain">
 
-### The Map
+### Map
 Elements are the circles you see on the map and connections are the lines between the elements. To select either of them, simply click on the circle or the line.
 
-### The Sidebar
- The sidebar displays the *map overview*, the active *perspective* settings (you can toggle between the two in the upper right corner of the sidebar), or the profile for an element, connection or loop (if selected). Hide the sidebar by clicking the three vertical dots (<i class="fa fa-ellipsis-v"></i>) on the edge of the sidebar.
+### Sidebar
+ The sidebar displays either the *map overview* or the profile for an element, connection or loop (if you've selected one). Hide the sidebar by clicking the three vertical dots (<i class="fa fa-ellipsis-v"></i>) on the edge of the sidebar.
 
-### The Toolbar
-Use the toolbar to pin elements in place, add direction to connections, access the main menu, and much more.
+### Settings
+Click the settings button to edit the current view. This include options to filter, decorate, cluster, and showcase as well as other default settings for your map (font size, layout settings, templates, etc.).
+
+### Add button
+Click the green "+" button anytime you want to add content to your map. You can add elements, connections and loops as well as importing data and activating sketch mode.
 
 ### Map Navigation
-The upper right corner has buttons to zoom in and out, zoom fit, share your map (including present mode, screenshots, embeds, and exporting), access help, and change default map settings.
+The upper right corner has buttons to zoom in and out and zoom fit.
 
 <!--
 ### Main menu (<i class="fa fa-th"></i>)
@@ -75,19 +78,21 @@ We've also wrapped the focus behavior into your navigation of the map by allowin
 
 ## Building your first map
 
-### Adding elements and connections
+### Adding elements and connections one by one
 
-**Use the add element/add connection buttons.** Add an element by clicking the blue "Add Element" button in the upper left of the map. Type the name of the element you want to add and then hit enter. To add a connection, select the element you want to connect from first and then click the "Add Connection" button. Type the name of the element you want to connect to and then hit enter. If the element you are trying to connect to doesn't exist yet, Kumu will create the element for you first and then create the connection to it.
+**Use the green "+" button.** Add an element by clicking the green "+" button at the bottom of the map and choose "add element". Type the name of the element you want to add and then hit enter. Add a connection by clicking the green "+" button and choose "add connection". Type the name of the elements you want to connect and hit enter. You can also select an element before choosing "add connection" and that element will automatically be included in the from input for the add connection interface.
 
 <p class="alert alert">
-  Speed up this process by hitting "e" to add an element and "c" to add a connection.
+  Speed up this process by using keyboard shortcuts! Just hit "e" to add an element and "c" to add a connection.
 </p>
 
-**Hold alt and click or click & drag.** Alt is another great way to shorten the time to build a map. Hold alt and click anywhere on the map to add an element. Hold alt and drag from an existing element to add a connection.
+**Sketch mode.** Activate sketch mode by clicking the green "+" button and then clicking "sketch mode". Once activated, you can add an element by clicking anywhere on the map and you can add a connection by dragging from an existing element. You can move elements by holding alt while dragging the element.
+
+**Alt and click or click & drag.** Alt is a great shortcut for building a map. Hold alt and click anywhere on the map to add an element. Hold alt and drag from an existing element to add a connection.
 
 ### Importing data
 
-**Import data from a spreadsheet.** Drag a spreadsheet onto the map or click the cloud icon in the lower right corner. Make sure your spreadsheet (.xlsx or .csv) includes the following columns:
+**Import data from a spreadsheet.** Drag a spreadsheet onto the map or click the green "+" button at the bottom of the map. Make sure your spreadsheet (.xlsx or .csv) includes the following columns:
 
 - *For elements:* Label, Type (optional), Description (optional)
 - *For connections:* From, To, Type (optional), Label (optional)
@@ -119,7 +124,7 @@ Additional fields can be imported by including extra columns in your spreadsheet
   </tbody>
 </table>
 
-And here's a sample of how your connection spreadsheet might look:
+And here's a sample of what your connection spreadsheet might look like:
 
 <table class="table">
   <thead>
@@ -148,67 +153,71 @@ And here's a sample of how your connection spreadsheet might look:
 
 Head over to the [import guide](../guides/import.md) for more details.
 
-### Positioning elements and connections
+### Positioning elements and changing the curvature of connections
 
 Depending on the template you selected, elements will either be fixed (manually positioned by you) or floating (automatically positioned using our layout algorithm). Here's a few things people run into with positioning:
 
-* **My elements won't stop moving, how do I stop them?** Use the "a" keystroke to select all elements and then hit the pin button in the bottom toolbar.
-* **New elements I add keep moving even though others are pinned...** You'll see a dropdown in the map overview to change the default behavior (fixed or floating). Choose fixed to have them pinned by default.
+* **My elements won't stop moving, how do I stop them?** Use the "a" keystroke to select all elements and then hit the pin button in the lower right corner of the selection profile.
+* **New elements I add keep moving even though others are pinned...** You'll see an option in the map settings to change the default behavior (fixed or floating). Choose fixed to have them pinned by default.
 
 If your elements are pinned in place, you can also change the curvature of the connections by dragging them.
 
-### Populating the the profile
+### Adding information to the profile
 
 Each element, connection and loop has a profile which can be used to store additional fields.
 
-<img src="/images/the-profile.png" class="plain">
+<img src="/images/introduction-profile.png" class="plain">
 
-Make sure to add background for each element and connection using the description, and then click "New Attribute" to add a custom field.
+Make sure to provide context for each element and connection using the description, and then click "+ New Field" to add a custom field.
 
-## Styling your maps
+## Styling your maps with views
 
-Styles and decorations are controlled perspectives. You can create multiple perspectives to highlight different views of your map. Use the toggle in the upper right corner of the map overview to switch to the perspective view.
+Styles and decorations are controlled by views. You can create multiple views to highlight different aspects of your map. Switch between views using the navigation at the top of the map. Views include focus, filter, cluster and settings.
 
 ### Default settings and colors
 
-Click the settings icon (<i class="fa fa-sliders"></i>) on the right side to change default map settings:
+Click the settings icon (<i class="fa fa-sliders fa-rotate-90"></i>) on the right side of the map and then click "settings" to change default map settings:
 
-![map settings](../images/map-settings.png)
+<img src="/images/introduction-settings.png" class="plain" style="max-width: 600px;">
 
-If you're running into bunching and overlap with your map, try adjusting the settings in the layout section (lower gravity and increase element charge). Make sure to save your changes to active perspective by clicking save when you are finished.
+If you're running into bunching and overlap with your map, try adjusting the layout settings from "auto" to "hairball." Make sure to save your changes to active view by clicking save when you are finished.
 
 ### Decorating elements
 
-You can easily decorate elements based on the data stored in the profile for any element. Switch to the perspective view and then click "Decorate Elements".
+You can easily decorate elements based on the data stored in the profile for any element. Click the settings button on the right side of the map and then click "decorate."
 
-![element decoration builder](../images/element-decoration.png)
+<img src="/images/introduction-decorate-sidebar.png" class="plain" style="max-width: 600px;">
+
+Click "add element rule".
+
+![element decoration builder](../images/introduction-decorate.png)
 
 Use the top dropdowns to indicate which elements should be decorated, and then use the checkboxes below to determine whether you want to change size, change color, add a bullsye, or add a shadow. Optionally add text to the "label" field to add a legend entry in the lower left corner of your map. If you leave this blank the decoration won't be included in the legend.
 
 ### Decorating connections
 
-Decorating connections is quite similar to decorating elements. Just follow the instructions above but choose the "Decorate Connections" button instead.
+Decorating connections is quite similar to decorating elements. Just follow the instructions above but choose the "add connection rule" button instead.
 
 ## Keeping things comprehensible
 
 As your map grows in size you'll want to use both focus and filter to keep users from being overwhelmed.
 
 ### Focus
-Focus is activated in one of two ways, by clicking and holding on any element or connection or by clicking the focus button in the bottom toolbar. Once activated, you can walk in and out by degree using the "+" and "-" keys on your keyboard (don't hold shift, just hit the key).
+Focus is activated in one of two ways, by clicking and holding on any element or connection or by selecting one or more elements, connections or loops and clicking the focus button in the bottom right of the selection profile. Once activated, you can walk in and out by degree using the "+" and "-" keys on your keyboard (don't hold shift, just hit the respective keys) or using the 1-9 numerical keys.
 
 ![focus animation](../images/focus.gif)
 
-If you click the focus button in the toolbar, you'll be prompted with a menu of how many degrees out you'd like to focus. Once focus is activated, you can click and hold on any element to bring that element's direct connections into view.
+When you click the focus button, you'll be prompted with a menu of how many degrees out you'd like to focus. Once focus is activated, you can click and hold on any element to bring that element's direct connections into view.
 
 ### Filter
-Filters can be added on the fly (meaning they aren't saved to the perspective) or saved to the perspective. Click the filter button in the bottom toolbar or click the filter tab within perspectives.
+Filters can be edited by clicking the settings button on the right side of the map.
 
-![filter](../images/filter.png)
+<img src="/images/introduction-filter.png" class="plain" style="max-width: 600px;">
 
-If you're filtering by element or connection type, simply uncheck the types you want to filter and then click update (or update and save to save to the current perspective). To filter using other attributes, click more options and you'll see two fields: include and ignore. Click the rocket icon (<i class="fa fa-rocket"></i>) on the right side of the input to build out the selector which defines what you want to include or ignore.
+If you're filtering by element or connection type, simply uncheck the types you want to filter. To filter using other attributes, use the "also include" and "but ignore" fields. Click the rocket icon (<i class="fa fa-rocket"></i>) to the right of the input of each field to build out the selector for what you want to hide or make visible.
 
-* **Include** For include to work properly, first uncheck the types. Remember that include adds things back to the map so if everything is already there, this field has no effect.
-* **Ignore** This field works as a blacklist to remove elements and connections from your map.
+* **Also include** If you've hidden certain elements and connections using the type checkboxes, you can use the "also include" field to bring things back into view. **So unless you have some types unchecked, this field will have no effect!**
+* **But ignore** Use this field to hide elements and connections from your map. Whatever selector you add here will win out over anything you've set using the checkboxes or the "also include" field.
 
 ## Collaborating with teammates
 
@@ -218,9 +227,9 @@ Projects can be either public or private. With a public project, anyone can view
 
 ### Inviting members
 
-**Personal Accounts.** For projects under a personal account, you can add collaborators through the main menu within your project. Click the upper left corner and choose "Members" and then type the username of who you'd like to add (they need to first have a Kumu username before they can be added).
+**Personal Accounts.** For projects under a personal account, you can add collaborators through the main menu within your project. Click the menu in the upper left corner and choose "Members" and then type the username of who you'd like to add (they need to first have a free Kumu account before they can be added).
 
-**Organization Accounts.** For project under an organization account, you have additional flexibility to add people to a project with view, edit, or admin access. Access is controlled via teams and managed in the organization dashboard.
+**Organization Accounts.** For projects under an organization account, you have additional flexibility to add people to a project with view, edit, or admin access. Access is controlled via teams and managed in the organization settings.
 
 ### Conflicts
 
@@ -236,11 +245,11 @@ Use [presentations](../guides/presentations.md) to create a slide by slide walkt
 <img src="../images/hiqol-cover-slide-sm.jpg">
 </a>
 
-Access presentations by clicking the menu in the upper left corner of your map.
+Access presentations by clicking the menu in the upper left corner of your map and clicking on "presentations".
 
 ### Share via URL/embed
 
-You can also share maps through our embed feature. Click the share menu and then click embed. Once an embed has been created, you can use the link created for the embed to share with others (without them needing to be added as a contributor first).
+You can also share maps through our embed feature. Click the more menu in the lower right corner of your map and then choose "embed map on another website." Once an embed has been created, you can use the link created for the embed to share with others (without them needing to be added to your project).
 
 ## Advanced features
 
@@ -248,14 +257,14 @@ You can also share maps through our embed feature. Click the share menu and then
 
 Use [clustering](../guides/clustering.md) to quickly connect elements based on their shared attribute values.
 
-![clustering](../images/clustering.gif)
+<img src="/images/clustering.gif" class="plain" style="max-width: 600px;">
 
 ### Metrics
 
 Kumu has a powerful [metrics engine](../guides/metrics.md) which includes a number of popular social network analysis (SNA) metrics like betweeness, closeness, degree, indegree, outdegree, eigenvector and community detection.
 
-![metrics](../images/metrics.jpg)
+<img src="/images/introduction-sna.png" class="plain" style="max-width: 600px;">
 
-Run metrics and then use size and color scales to quickly and easily analyze the results.
+Run metrics and then use size and color scales to quickly and easily analyze the results. You can access metrics via the blocks icon (<i class="fa fa-cube"></i>) in the lower right corner of the map.
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/getting-started/introduction.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
