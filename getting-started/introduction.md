@@ -178,7 +178,9 @@ Styles and decorations are controlled by views. You can create multiple views to
 
 Click the settings icon (<i class="fa fa-sliders fa-rotate-90"></i>) on the right side of the map and then click "settings" to change default map settings:
 
-<img src="/images/introduction-settings.png" class="plain" style="max-width: 600px;">
+<span class="small plain">
+![](/images/introduction-settings.png)
+</span>
 
 If you're running into bunching and overlap with your map, try adjusting the layout settings from "auto" to "hairball." Make sure to save your changes to active view by clicking save when you are finished.
 
@@ -186,7 +188,7 @@ If you're running into bunching and overlap with your map, try adjusting the lay
 
 You can easily decorate elements based on the data stored in the profile for any element. Click the settings button on the right side of the map and then click "decorate."
 
-<img src="/images/introduction-decorate-sidebar.png" class="plain" style="max-width: 600px;">
+<img src="/images/introduction-decorate-sidebar.png" class="plain" style="width: 600px;">
 
 Click "add element rule".
 
@@ -212,9 +214,9 @@ When you click the focus button, you'll be prompted with a menu of how many degr
 ### Filter
 Filters can be edited by clicking the settings button on the right side of the map.
 
-<img src="/images/introduction-filter.png" class="plain" style="max-width: 600px;">
+<img src="/images/introduction-filter.png" class="plain" style="width: 600px;">
 
-If you're filtering by element or connection type, simply uncheck the types you want to filter. To filter using other attributes, use the "also include" and "but ignore" fields. Click the rocket icon (<i class="fa fa-rocket"></i>) to the right of the input of each field to build out the selector for what you want to hide or make visible.
+If you're filtering by element or connection type, simply uncheck the types you want to hide. To filter using other attributes, use the "also include" and "but ignore" fields. Click the rocket icon (<i class="fa fa-rocket"></i>) to the right of the input of each field to build out the selector for what you want to hide or make visible.
 
 * **Also include** If you've hidden certain elements and connections using the type checkboxes, you can use the "also include" field to bring things back into view. **So unless you have some types unchecked, this field will have no effect!**
 * **But ignore** Use this field to hide elements and connections from your map. Whatever selector you add here will win out over anything you've set using the checkboxes or the "also include" field.
@@ -257,13 +259,13 @@ You can also share maps through our embed feature. Click the more menu in the lo
 
 Use [clustering](../guides/clustering.md) to quickly connect elements based on their shared attribute values.
 
-<img src="/images/clustering.gif" class="plain" style="max-width: 600px;">
+<img src="/images/clustering.gif" class="plain" style="width: 600px;">
 
 ### Metrics
 
 Kumu has a powerful [metrics engine](../guides/metrics.md) which includes a number of popular social network analysis (SNA) metrics like betweeness, closeness, degree, indegree, outdegree, eigenvector and community detection.
 
-<img src="/images/introduction-sna.png" class="plain" style="max-width: 600px;">
+<img src="/images/introduction-sna.png" class="plain" style="width: 600px;">
 
 Run metrics and then use size and color scales to quickly and easily analyze the results. You can access metrics via the blocks icon (<i class="fa fa-cube"></i>) in the lower right corner of the map.
 

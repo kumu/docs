@@ -9,7 +9,7 @@ There are a number of existing licenses available:
 - [Open Data Commons](http://opendatacommons.org/)
 
 Kumu projects are unique in the sense that they include general content (map descriptions, presentations, etc),
-data (attributes, metrics, etc), and code (perspectives). Most existing open source licenses
+data (fields, metrics, etc), and code (views). Most existing open source licenses
 only cover a single type of content. Creative Commons licenses are the most comprehensive, but they also carry
 legal burdens we aren't comfortable with for most of our projects. After reviewing existing options, we ended
 up developing our own license we call [The Kokua License](https://medium.com/@rymohr/the-kokua-license-b2f430a03f4a#.razdhigjg).
@@ -38,7 +38,7 @@ appreciated, but not required.
 The [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/legalcode) license is one of the most permissive
 Creative Commons licenses. Even it requires derived works to include attribution in the form of:
 
-> the name of the creator and attribution parties, a copyright notice, a license notice, a disclaimer notice, and a link to the material. 
+> the name of the creator and attribution parties, a copyright notice, a license notice, a disclaimer notice, and a link to the material.
 
 And if you make any changes you must:
 

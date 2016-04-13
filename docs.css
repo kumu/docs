@@ -22,7 +22,12 @@ img {
   box-shadow: 0 0 15px rgba(0,0,0,0.05);
 }
 
-.book .book-body .page-wrapper .page-inner section.normal .plain {
+.book .book-body .page-wrapper .page-inner section.normal .small img {
+  max-width: 100%;
+  width: 600px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .plain, .book .book-body .page-wrapper .page-inner section.normal .plain img {
   border: none;
   border-radius: 0;
   box-shadow: none;

@@ -1,6 +1,6 @@
 # Project Architecture/Organization
 
-Projects are the fundamental organizing structure within Kumu. Each project can have multiple maps and perspectives. When you invite someone to collaborate, you are granting them access to your entire project.
+Projects are the fundamental organizing structure within Kumu. Each project can have multiple maps and views. When you invite someone to collaborate, you are granting them access to your entire project.
 
 Each project is stored as it's own database so that you don't need to worry about data leaking across projects.
 
@@ -8,13 +8,13 @@ Each project is stored as it's own database so that you don't need to worry abou
 
 When you import data to Kumu, it is stored at the project level. Think of all the data stored in a single project database with pointers added to elements, connections and loops to indicate which maps they are part of (which allows the same elements to be part of multiple maps so edits made to the profile of that element ripple across all maps).
 
-When you duplicate a map, you're using the same elements, connections and loops so any edits to the profiles of those will show up in both maps. If you want to avoid this, try duplicating your project instead. Hold shift when clicking export to generate a .json file that can be used to import into a new, blank project.
+When you duplicate a map, you're using the same elements, connections and loops so any edits to the profiles of those will show up in both maps. If you want to avoid this, try duplicating your project instead. Use the more menu (...) in the lower right corner and choose "export json" to create a json file that can be used to import into a new, blank project.
 
-## Maps vs. perspectives
+## Maps vs. views
 
 Maps define which elements, connections and loops should be included from the overall project data. Maps also specify location (whether elements are pinned or not and if pinned, their location on the map) and defaults for new elements (fixed or floating) and connection arrows (directed, undirected, or mutual).
 
-Perspectives define the decorations, filters, and other settings coded within the advanced editor. The same perpsective can be apply across multiple maps (there is a many to many relationship between maps and perspectives).
+Views define the decorations, filters, clusters and other settings coded within the advanced editor. The same view can be applied across multiple maps (there is a many to many relationship between maps and views).
 
 ## Public vs. private Projects
 

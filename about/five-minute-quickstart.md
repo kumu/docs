@@ -12,11 +12,12 @@ Create a new project from your dashboard and choose whether you want it to be pu
 
 ### 3. Add your first elements and connections
 
-You can add elements in three basic ways:
+You can add elements in four ways:
 
-- By clicking the green "+" button at the bottom of your map
-- Importing an XLSX file by clicking the green "+" button at the bottom of your map
-- Using keyboard shortcuts (hold alt and click anywhere to add an element, hold alt and click and drag from an element to create a connection)
+- Clicking the green "+" button at the bottom of your map and choosing "add element"
+- Importing an XLSX file by clicking the green "+" button at the bottom of your map and choosing "import"
+- Activating sketch mode by clicking the green "+" button and choosing "sketch mode" so that anywhere you click on the map adds an element, and dragging from an element creates a connection
+- Using keyboard shortcuts (hold `alt` and click anywhere to add an element, hold `alt` and click and drag from an element to create a connection)
 
 ### 4. Get to know how profiles work for elements and connections
 
@@ -31,7 +32,7 @@ Click on any element or connection to see its profile on the left side of your s
 
 ### 5. Create your first decoration rule
 
-Change the decorations of elements or connections based on profile data using views. Views let you create a number of rules about which decorations to apply and can also include other features such as filters, clustering, showcasing, and more. Click the settings button on the right side of the map to edit your current view. Once there, click "decorate" and then "add element rule".
+Change the decorations of elements or connections based on profile data using views. Views let you create a number of rules about which decorations to apply and can also include other features such as filters, clustering, showcasing, and more. Click the settings button (<i class="fa fa-sliders fa-rotate-270"></i>) on the right side of the map to edit your current view. Once there, click "decorate" and then "add element rule".
 
 Simply follow the prompts to select what should be decorated, and then choose whether you want to change the color or size.
 

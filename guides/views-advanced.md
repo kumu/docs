@@ -1,4 +1,4 @@
-# Perspectives (Advanced)
+# Views (Advanced)
 Congrats! You're ready to roll up your sleeves and do a little coding. Trust us, once you get used to the power available via the advanced editor you'll never look back.
 
 Let's warmup with a few basic decorations you can add for elements, connections and loops.
@@ -48,7 +48,7 @@ to decorate it (through properties and values). Piece of cake! Let's dive in.
 
 ### Step 1: Pick your target
 
-Becoming comfortable writing selectors by hand is the first step to mastering perspectives.
+Becoming comfortable writing selectors by hand is the first step to mastering views.
 
 The selector can be a single selector, or a comma-separated list of selectors:
 
@@ -99,7 +99,7 @@ element["element type"="person"]{
 
 Congrats! That's all there is to it.
 
-Don't worry if writing perspectives by hand is bit challenging at first.
+Don't worry if writing views by hand is bit challenging at first.
 You'll get the hang of it in no time and we're here to help if you have questions.
 
 If that was all a little too easy for you then continue reading...
@@ -145,17 +145,17 @@ element {
 }
 ```
 
-## Imported Perspectives
+## Imported views
 
-You can use any other perspective as a base perspective with the following syntax:
+You can use any other view as a base view with the following syntax:
 
 ```
-@import "perspective name";
+@import "view name";
 ```
 
 ## Label Templates
 
-Easily customize how labels display on your map by including custom text, pulling in attribute values, or turning them off entirely.
+Easily customize how labels display on your map by including custom text, pulling in field values, or turning them off entirely.
 
 These can be used within @settings or as a separate rule:
 
@@ -171,7 +171,7 @@ person {
 }
 ```
 
-Just use the `{{attribute name}}` format to bring in dynamic attribute values. Don't forget to wrap everything in quotes. You can also use a double space to force a line break.
+Just use the `{{field name}}` format to bring in dynamic field values. Don't forget to wrap everything in quotes. You can also use a double space to force a line break.
 
 ```
 @settings {
@@ -183,7 +183,7 @@ Head over to the [blog](http://blog.kumu.io/introducing-label-templates/) for ti
 
 ## @settings
 
-If you're interested in working with `@settings` you truly have become a perspective master.
+If you're interested in working with `@settings` you truly have become a view master.
 We salute you! Here's some of the neat things you can do with `@settings`:
 
 ### Default styles
@@ -228,7 +228,7 @@ If you're using a dark background, make sure to change to the dark theme:
 
 ### Preset Focus
 
-Focus is a powerful feature that let's you hone in on certain portions of your map. Instead of only being able to activate a focus by clicking and holding on the map, we support the ability to include a focus within any perspective.
+Focus is a powerful feature that let's you hone in on certain portions of your map. Instead of only being able to activate a focus by clicking and holding on the map, we support the ability to include a focus within any view.
 
 ```
 @settings {
@@ -256,11 +256,11 @@ You can use any [selector](/selector-reference.md) to set the focus of the map. 
 
 ### Prompted mode
 
-Prompted mode builds on the preset focus by allowing users to build a map based on search criteria. When you've enabled prompted mode, users are presented with a search prompt rather than seeing the map. Users can then type the name of any element and hit enter to add them to the list of elements to be included in the map. By default that element and its direct connections will be included, but you can tweak the "out 1" setting to also include second and third degree connections.
+Prompted mode builds on the preset focus by allowing users to build a map based on search criteria. When you've enabled prompted mode, users are presented with a search prompt rather than seeing the full map. Users can then type the name of any element and hit enter to add them to the list of elements to be included in the map. By default that element and its direct connections will be included, but you can tweak the "out 1" setting to also include second and third degree connections.
 
 ![prompted mode](/images/prompted-mode.png)
 
-Click build map and voila!
+Click build map and voila! You can also use "out n" for a search to automatically change the number of degrees out included in the search results. For example, "Bill Gates out 3" will display Bill Gates and all elements within 3 degrees.
 
 ![the map](/images/prompted-results.png)
 
@@ -268,7 +268,7 @@ Hit escape on your keyboard to start over, or use the focus menu and choose "bac
 
 ![focus prompt](/images/focus-prompt.png)
 
-To enable prompted mode, you'll need to add the following to the advanced tab of any perspective you'd like it active within:
+To enable prompted mode, you'll need to add the following to the advanced tab of any view you'd like it active within:
 
 ```
 @settings {
@@ -288,4 +288,4 @@ The default mapping engine is optimized for creating great looking maps. As you 
 
 You'll notice that connections are no longer curved and that elements are squares instead of circles. You should now be able to map much larger maps (5,000 - 10,000 elements) with a powerful computer.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/perspectives-advanced.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/views-advanced.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

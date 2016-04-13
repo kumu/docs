@@ -2,7 +2,7 @@
 Kumu has a powerful metrics engine which includes a number of popular social network analysis (SNA) metrics as well as community detection and other helpful calculations.
 
 ## SNA metrics
-Kumu includes support for the following SNA metrics:
+You can run the following metrics in Kumu by clicking the blocks button (<i class="fa fa-cube"></i>) in the lower right corner and choosing "social network analysis":
 
 * **Degree.** Degree measures the number of connections for a given element. In general, elements with high degree are the local connectors and hubs.
 * **Closeness centrality.** Closeness measures the distance from one element to all other elements. In general, elements with high closeness have the most visibility into what's happening across the network.
@@ -14,17 +14,17 @@ Kumu includes support for the following SNA metrics:
 * **Reach efficiency.** Reach efficiency normalizes reach by dividing it by size (number of neighbors). In general, elements with high reach efficiency are less connected but gain more exposure through each direct relationship.
 
 ### Weighted metrics
-Certain attributes also support weighting so you can include attributes like strength and frequency in the calculations. Betweenness, closeness and degree use connection attributes for weighting while size and reach use element attributes for weighting.
+Certain fields also support weighting so you can include fields like strength and frequency in the calculations. Betweenness, closeness and degree use connection fields for weighting while size and reach use element fields for weighting.
 
 For the metrics that allow weighting, you'll see an advanced options link once you select the metric:
 
 ![Weighted metrics](/images/weighted-metrics.jpg)
 
-You can choose any numerical attribute for the weighting, but make sure you have values saved to for the elements or connections based on which is used for the weighting. If you don't see the attribute you want to use listed, make sure the type for that attribute is set to numeric.
+You can choose any numerical field for the weighting, but make sure you have values saved for the elements or connections based on which is used for the weighting. If you don't see the field you want to use listed, make sure the type for that field is set to numeric.
 
 ### Saving multiple versions of a single metric
 
-By default, all metrics are saved to the name of the metric (betweenness calculations are saved to the "betweenness" attribute). Each time you run the metric the previous values are overwritten. If you'd like to keep the previous values, rename the attribute (maybe it's "2014 betweeness" or "betweeness before") so that future saves don't overwrite the values.
+By default, all metrics are saved to a field with the name of the metric (betweenness calculations are saved to the "betweenness" field). Each time you run the metric the previous values are overwritten. If you'd like to keep the previous values, rename the field (maybe it's "2014 betweeness" or "betweeness before") so that future saves don't overwrite the values.
 
 **Using metrics for a social network analysis?** Don't miss our [SNA / Network Mapping guide](/sna-network-mapping.md).
 
@@ -34,7 +34,7 @@ Kumu includes support for community detection based on the [SLPA algorithm](http
 
 ### Detecting communities
 
-Click the building icon in the bottom toolbar to run community detection. If you haven't run community detection before, clicking this will automatically detect communities. If you're already run community detection, clicking the icon will bring you to a window showing you the previous results.
+Click the blocks icon (<i class="fa fa-cube"></i>) in the lower right corner of your map and choose "community detection". If you haven't run community detection before, clicking this will automatically detect communities. If you're already run community detection, clicking the icon will bring you to a window showing you the previous results.
 
 <img src="../images/community-results.jpg" class="plain">
 
@@ -52,11 +52,11 @@ Don't forget to click save once you're done!
 
 ### Color by communities
 
-First, make sure to save the community results. This will save the best match for each element to the "Community" attribute so you can use the community values to decorate your maps.
+First, make sure to save the community results. This will save the best match for each element to the "Community" field so you can use the community values to decorate your maps.
 
 ![Les Miserables](/images/les-mis.jpg)
 
-Eventually we'll build a UI to make the process of coloring by communities even easier, but for now you just need to add these lines to your advanced perspective:
+Eventually we'll build a UI to make the process of coloring by communities even easier, but for now you just need to add these lines to your advanced view:
 
 ```
 @settings {

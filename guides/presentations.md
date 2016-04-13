@@ -19,7 +19,7 @@ Use the plus button in the upper left corner to add a slide. Slides can be one o
 * Embed
 
 ### Map slides
-A map slide is any combination of a map and a perspective. You can choose to have the slide zoom fit by checking the corresponding box, or you can create just the zoom you'd like but zooming in or out.
+A map slide is any combination of a map and a view. You can choose to have the slide zoom fit by checking the corresponding box, or you can create just the zoom you'd like but zooming in or out.
 
 You can also activate focus or filter for a given map slide and Kumu will remember those settings. This is a great way to unfold a map step-by-step.
 

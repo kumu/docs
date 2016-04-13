@@ -5,9 +5,9 @@ A fork is a copy of a project. Forking a project allows you to experiment with c
 ## Creating a fork
 Forking is currently available for **public projects only**.
 
-To fork a public project, click the share menu in the upper right corner of the map and then click the fork icon (<i class="fa fa-code-fork"></i>). This will:
+To fork a public project, click the menu in the upper left corner of the map and then click fork project (<i class="fa fa-code-fork"></i>). This will:
 
-* Create a copy ("fork") of the entire project, including all perspectives, maps and presentations
+* Create a copy ("fork") of the entire project, including all views, maps and presentations
 * The fork will be created under your personal account with the same name as the original project
 * Only you will have access initially to the fork (but you can add other collaborators as needed)
 * All presentations in the fork revert to unpublished (even if they were published in the original)

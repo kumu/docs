@@ -2,7 +2,7 @@
 
 ## Embeds
 
-If you're looking to share your map by including it in another website, click the embed button (<i class="fa fa-code"></i>) on the right hand side of the map. You'll be prompted with the following modal:
+If you're looking to share your map by including it in another website, click the more menu (...) in the lower right corner and then choose "embed map on another website". You'll be prompted with the following window:
 
 <img class="img-responsive" src="/images/embed-modal.png" />
 
@@ -10,9 +10,7 @@ If you're looking to share your map by including it in another website, click th
 
 **Include current position and scale** allows you to override the default positioning of the map and instead use the current position and zoom of the map as displayed in your browser.
 
-Click "Embed this Map" to create the embed.
-
-<img class="img-responsive" src="/images/embed-modal-created.png" />
+Click "Create embed" to generate the embed code.
 
 Copy and paste the iframe code into your website and you're ready to go. You can also use the external link button (<i class="fa fa-external-link-square"></i>) to open the embed in a new tab. You can use the link for this website as a share link to send to others. Note that anyone will be able to access the map using this link without requiring a password so only share the link if you are okay with this.
 

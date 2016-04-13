@@ -41,7 +41,7 @@ ID selectors come in three flavors: informal, assigned, and system.
 
 #### Informal
 
-Informal ids are just the slugged version of the "label" attribute.
+Informal ids are just the slugged version of the "label" field.
 In most cases informal ids will be unique, permanent, and have the
 added benefit of being naturally descriptive.
 
@@ -50,7 +50,7 @@ Because of their descriptive nature, we strongly recommend using informal ids wh
 #### Assigned
 
 If labels may change or simply aren't unique, you can assign your own
-id to each object through the "id" attribute.  This gives you a unique
+id to each object through the "id" field.  This gives you a unique
 way to reference each object within your project however you please.
 
 *Note: IDs must be strings and should be unique.*
@@ -73,16 +73,16 @@ a unique random identifier.  For example: elem-123, conn-123, and loop-123.
 
 Tag selectors match all items tagged with the given value.
 Make sure to keep your tags short and free from special characters to
-avoid having to use a formal attribute selector (see below).
+avoid having to use a formal field selector (see below).
 
-## Attribute Selectors
+## Field Selectors
 
 ```
 [tags~=influential]
 ```
 
-Attribute selectors match all items with the given attribute condition.
-Kumu supports a number of attribute operators to match against.
+Field selectors match all items with the given field condition.
+Kumu supports a number of field operators to match against.
 
 #### Presence
 
@@ -105,7 +105,7 @@ Matches: [label *= kumu]
 Includes: [skills ~= communication]
 ```
 
-Note: the includes operator `~=` is only relevant for attributes with multiple values
+Note: the includes operator `~=` is only relevant for fields with multiple values
 (such as tags and skills).
 
 #### Relative

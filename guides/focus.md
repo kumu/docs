@@ -1,14 +1,14 @@
 # Focus
 
-Focus is activated in one of two ways, by clicking and holding on any element or connection or by clicking the focus button in the bottom toolbar. Once activated, you can walk in and out by degree using the "+" and "-" keys on your keyboard (don't hold shift, just hit the key).
+Focus is activated in one of two ways, by clicking and holding on any element, connection or loop or by selecting an element, connection or loop and then clicking the focus button in the bottom right of the selection profile. Once activated, you can walk in and out by degree using the "+" and "-" keys on your keyboard (don't hold shift, just hit the key).
 
 ![focus animation](../images/focus.gif)
 
-If you click the focus button in the toolbar, you'll be prompted with a menu of how many degrees out you'd like to focus. Once focus is activated, you can click and hold on any element to bring that element's direct connections into view.
+If you click the focus button in the bottom right of the selection profile, you'll be prompted with a menu of how many degrees out you'd like to focus. Once focus is activated, you can click and hold on any element to bring that element's direct connections into view.
 
 ### Preset Focus
 
-You can also predefine a focus within `@settings` in the advanced editor of any perspective.
+You can also predefine a focus within `@settings` in the advanced editor of any view.
 
 ```
 @settings {
@@ -36,11 +36,11 @@ You can use any [selector](/selector-reference.md) to set the focus of the map. 
 
 ### Prompted mode
 
-Prompted mode builds on the preset focus by allowing users to build a map based on search criteria. When you've enabled prompted mode, users are presented with a search prompt rather than seeing the map. Users can then type the name of any element and hit enter to add them to the list of elements to be included in the map. By default that element and its direct connections will be included, but you can tweak the "out 1" setting to also include second and third degree connections.
+Prompted mode builds on the preset focus by allowing users to build a map based on search criteria. When you've enabled prompted mode, users are presented with a search prompt rather than seeing the full map. Users can then type the name of any element and hit enter to add them to the list of elements to be included in the map. By default that element and its direct connections will be included, but you can tweak the "out 1" setting to also include second and third degree connections.
 
 ![prompted mode](/images/prompted-mode.png)
 
-Click build map and voila!
+Click build map and voila! You can also use "out n" for a search to automatically change the number of degrees out included in the search results. For example, "Bill Gates out 3" will display Bill Gates and all elements within 3 degrees.
 
 ![the map](/images/prompted-results.png)
 
@@ -48,7 +48,7 @@ Hit escape on your keyboard to start over, or use the focus menu and choose "bac
 
 ![focus prompt](/images/focus-prompt.png)
 
-To enable prompted mode, you'll need to add the following to the advanced tab of any perspective you'd like it active within:
+To enable prompted mode, you'll need to add the following to the advanced tab of any view you'd like it active within:
 
 ```
 @settings {

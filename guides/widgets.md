@@ -22,7 +22,7 @@ Use the code below to create a list of links to all the loops in your map. Just 
 [[list/loops]]
 ```
 
-![List widget](/images/list-loops.jpg)
+![List widget](/images/list-loops.png)
 
 ### Vimeo
 
@@ -32,8 +32,6 @@ Use the code below to embed a Vimeo video in the profile. Simply swap the ID for
 [[vimeo/36519586 "a story for tomorrow by gnarly bay"]]
 ```
 
-![gnarly bay](/images/embed-me.png)
-
 ### YouTube
 
 You can find the ID for a given YouTube video within the URL of the video. Just grab the portion after the ```?v=``` part of the URL.
@@ -41,8 +39,6 @@ You can find the ID for a given YouTube video within the URL of the video. Just 
 ```
 [[youtube/mXiFqI-mekw]]
 ```
-
-![youtube](/images/youtube-widget.png)
 
 ### Slideshare
 
@@ -52,7 +48,6 @@ We've added pre-built aspect ratios to deliver content with the right height and
 [[slideshare/32200030?aspect=hd "Changing behavior through persuasive design"]]
 ```
 
-![slideshare](/images/slideshare-widget.png)
 
 ### Speaker Deck
 
@@ -60,8 +55,6 @@ Or rely on our standard defaults by not including anything (we've worked hard to
 ```
 [[speakerdeck/39d28e80a7840130b36006a0b9603b35 "The product is the byproduct"]]
 ```
-
-![speakerdeck](/images/speakerdeck-widget.png)
 
 ## Aspect Ratios and Other Settings
 
@@ -74,6 +67,6 @@ Each widget has a default aspect ratio as listed below:
 
 Add ```?aspect=hd``` or ```?aspect=sd``` after the ID for any widget to change from the default.
 
-## What other widgets do you need? <a href="mailto:jeff@kumu.io">Tell us!</a>
+### What other widgets do you need? <a href="mailto:jeff@kumu.io">Tell us!</a>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/widgets.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

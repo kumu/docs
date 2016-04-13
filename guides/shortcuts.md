@@ -2,15 +2,15 @@
 
 ### Navigation
 <ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">TAB</span> Main Menu</li>
-  <li class="shortcut"><span class="keystroke">ENTER</span> Filter</li>
-  <li class="shortcut"><span class="keystroke">SPACE</span> Pause</li>
-  <li class="shortcut"><span class="keystroke">S</span> Toggle Sidebar</li>
+  <li class="shortcut"><span class="keystroke">S</span> Search</li>
+  <li class="shortcut"><span class="keystroke">T</span> Settings</li>
   <li class="shortcut"><span class="keystroke">]</span> Zoom In</li>
   <li class="shortcut"><span class="keystroke">[</span> Zoom Out</li>
   <li class="shortcut"><span class="keystroke">\</span> Zoom Fit</li>
   <li class="shortcut"><span class="keystroke">dblclick</span> Quick Zoom</li>
   <li class="shortcut"><span class="keystroke">Up/down/left/right</span> Pan</li>
+  <li class="shortcut"><span class="keystroke">Space</span> Pause</li>
+  <li class="shortcut"><span class="keystroke">Tab</span> Toggle Sidebar</li>
 </ul>
 
 ### Editing
@@ -18,6 +18,7 @@
   <li class="shortcut"><span class="keystroke">E</span> New Element</li>
   <li class="shortcut"><span class="keystroke">C</span> New Connection</li>
   <li class="shortcut"><span class="keystroke">L</span> New Loop</li>
+  <li class="shortcut"><span class="keystroke">K</span> Sketch Mode</li>
   <li class="shortcut"><span class="keystroke">R</span> Rename Selection</li>
   <li class="shortcut"><span class="keystroke">DELETE</span> Delete Selection</li>
   <li class="shortcut"><span class="keystroke">ALT+click</span> New Element</li>
@@ -33,6 +34,8 @@
   <li class="shortcut"><span class="keystroke">SHIFT+CLICK</span> Toggle Selection</li>
 </ul>
 
+## Advanced Shortcuts
+
 ### Elements
 <ul class="shortcuts">
   <li class="shortcut"><span class="keystroke">P</span> Pin</li>
@@ -47,15 +50,15 @@
   <li class="shortcut"><span class="keystroke">ALT+D</span> Reverse</li>
 </ul>
 
-### Display
+### Style
 <ul class="shortcuts">
   <li class="shortcut"><span class="keystroke">Q</span> Toggle Quality</li>
   <li class="shortcut"><span class="keystroke">ALT+S</span> View Source</li>
+  <li class="shortcut"><span class="keystroke">.</span> Edit Source</li>
 </ul>
 
 ### Layout
 <ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">K</span> Cluster</li>
   <li class="shortcut"><span class="keystroke">B</span> Bump</li>
 </ul>
 
