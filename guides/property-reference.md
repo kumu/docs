@@ -1,10 +1,10 @@
 
 # Property Reference
-Beneath perspectives, Kumu uses a powerful CSS-based language to control the appearance of your maps.
+Beneath views, Kumu uses a powerful CSS-based language to control the appearance of your maps.
 
-If you're familiar with CSS, the advanced perspective editor will quickly
-become your best friend.  The perspective builder only exposes a small set
-of the available properties.  Being able to write perspectives by hand is
+If you're familiar with CSS, the advanced view editor will quickly
+become your best friend.  The view builder only exposes a small set
+of the available properties.  Being able to write views by hand is
 the only way to harness the full power of Kumu.
 
 **Note:** We've adopted standard CSS properties and values wherever possible, straying where

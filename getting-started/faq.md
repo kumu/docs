@@ -10,15 +10,15 @@ We offer a paid service ($9 per PDF) to create a PDF of any map. Just send the l
 
 ### How can I select all elements on my map? All connections?
 
-Use the ***a*** keystroke to select all elements on your map.
+Use the `a` keystroke to select all elements, connections and loops on your map. To select all elements, use `shift+e`. To select all connections, use `shift+c`. To select all loops, use `shift+l`.
 
 ### Why does my map keep moving?
 
-Kumu has a custom layout engine which creates a high quality layout regardless of map size. Use the spacebar keystroke to pause the layout. If you'd rather not have the layout change after you're happy with it, select all elements using the ***a*** keystroke and then click the pin button in the toolbar.
+Kumu has a custom layout engine which attempts to arrange elements in the best possible location. Use the spacebar keystroke to pause the layout. If you'd rather not have the layout change after you're happy with it, select all elements using the `a` keystroke and then click the pin button in the lower right of the selection profile.
 
 ### How can I get arrows to show up for the connections on my map?
 
-Use the "a" keystroke to select all connections. You can then click the direction icon in the bottom toolbar and choose directed, mutual, or undirected. If you find yourself needing to do this often, make sure you've set the right default for connection direction in the map overview.
+Use the `a` keystroke to select all connections. You can then click the direction icon in the lower right of the selection profile and choose directed, mutual, or undirected. If you find yourself needing to do this often, make sure you've set the right default for connection direction in the settings.
 
 ### Is there a limit to how many collaborators I can have in an account?
 
@@ -28,7 +28,7 @@ Every hosted Kumu account comes with unlimited collaborators. Our Enterprise ver
 
 By default all connections are curved. You can change the curvature of connections in one of two ways:
 
-* **Dragging connections** - For pinned maps, if you click and drag a connection you'll be able to change the radius of the curve. This is especially useful in system maps when trying to avoid lines crossing each other unnecessarily.
+* **Dragging connections** - For pinned maps only, if you click and drag a connection you'll be able to change the radius of the curve. This is especially useful in system maps when trying to avoid lines crossing each other unnecessarily.
 * **Through the settings menu** - You can set the default curvature of connections using the settings menu. Simply drag the slider to achieve the curvature you want.
 
 ### Can I size or color elements based on social network analysis metrics like degree and betweenness centrality?
@@ -41,14 +41,7 @@ To add an image to an element on your map, create an "Image" attribute and then 
 
 ### Can I create dashed connections?
 
-Yep! Currently dashed connections are controlled only through Advanced CSS. Below is the code to create dashed connections for all connections with strength = low:
-
-```
-connection["strength"="low"] {
-  pattern: dashed
-}
-```
-Note that support for dashed connections isn't great across all browsers, so you may be better off using color instead.
+Yep! When building your connection decoration rule choose the "change style" option and then choose "dashed."
 
 ### Is it possible to create nested or layered networks?
 
@@ -67,7 +60,7 @@ Kumu works with the latest versions of:
 * [Chrome](https://www.google.com/chrome)
 * [Safari](http://www.apple.com/safari/)
 * [Firefox](http://www.mozilla.org/)
-* [Internet Explorer 10](http://windows.microsoft.com/en-US/internet-explorer/download-ie)
+* [Internet Explorer](http://windows.microsoft.com/en-US/internet-explorer/download-ie)
 
 Kumu doesn't work with:
 

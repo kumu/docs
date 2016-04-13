@@ -15,7 +15,7 @@ This guide walks you through the basics of network anaysis using Kumu. We'll wal
 
 ## Step 1: Creating a project
 
-If you haven't already, sign up for a user account by visiting [http://kumu.io/signup](http://kumu.io/signup).
+If you haven't already, sign up for a user account by visiting [http://kumu.io/join](http://kumu.io/join).
 
 Head to your [dashboard](http://kumu.io/dashboard) and click to create a new project. You can choose from either a public project (free) or a private project (starting at $9/month).
 
@@ -60,14 +60,14 @@ You can get the data into Kumu in one of two ways: imports or populating by hand
 
 There are a few subtleties to how you structure your data for easiest use within Kumu. We've laid out some of those below:
 
-**Use connection type to differentiate between the different types of networks you are mapping**<br />
-Say you ask two questions on your survey: one that asks questions getting at the *trust* network and another that probes for the *innovation* network. By storing this connection data with connection type as "Trust" or "Innovation", you can quickly switch between different views of the network using filters. We promote connection type in the filter interface so all you have to do is check or uncheck a few boxes and you'll be able to see both networks or the combined network.
+**Use connection type to differentiate relationships among people**<br />
+Say you ask two questions on your survey: one that asks questions getting at the relationships that represent the *trust* network and another that probes for the relationships that represent the *innovation* network. When structuring your data, use "trust" or "innovation" as the connection type for the respective connections and you'll be able to quickly switch between the "trust" and "innovation" network using filters.
 
 **Element types make two (or more) mode networks a cinch**<br />
-Sometimes you're looking to understand more than just how people are connected to each other. You may want to include organizations, projects, alma maters, and more. Simply differentiate these elements using the element type attribute and you can easily show and hide them as needed.
+Sometimes you're looking to understand more than just how people are connected to each other. You may want to include organizations, projects, alma maters, and more. Simply differentiate these elements using the element type field and you can easily show and hide them as needed.
 
 **Don't forget about the power of clustering**<br />
-Clustering ([click here for the guide](/clustering.md)) makes it easy to turn attribute data stored in the profile of any element into a dynamic network. Storing data about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver if you don't already have connection data created.
+Clustering ([click here for the guide](/clustering.md)) makes it easy to turn field data stored in the profile of any element into a dynamic network. Storing data about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver if you don't already have connection data created.
 
 
 ## Step 3: Running the metrics
@@ -112,11 +112,11 @@ Note: Kumu now has support for [weighted metrics](http://blog.kumu.io/weighted-s
 
 ### Calculating and saving metric values
 
-Click the beaker icon (<i class="fa fa-flask"></i>) in the bottom toolbar. You'll see the sidebar change and a dropdown to choose the metric you'd like to run. Select the metric and then click the button to run the metric. Once complete, you'll see an ordered listing of the elements based on the metric values. The respective value will also be saved to the profile of each element.
+Click the blocks icon (<i class="fa fa-cube"></i>) in the bottom toolbar and choose "social network Analysis". You'll see the sidebar change and a dropdown to choose the metric you'd like to run. Select the metric and then click the button to run the metric. Once complete, you'll see an ordered listing of the elements based on the metric values. The respective value will also be saved to the profile of each element.
 
 ### Saving multiple versions of a single metric
 
-By default, all metrics are saved to the name of the metric (betweenness calculations are saved to the "betweenness" attribute). Each time you run the metric the previous values are overwritten. If you'd like to keep the previous values, rename the attribute (maybe it's "2014 betweeness" or "betweeness before") so that future saves don't overwrite the values.
+By default, all metrics are saved to the name of the metric (betweenness calculations are saved to the "betweenness" field). Each time you run the metric the previous values are overwritten. If you'd like to keep the previous values, rename the field (maybe it's "2014 betweeness" or "betweeness before") before you run the metric again so that future saves don't overwrite the values.
 
 ## Step 4: Decorating your map
 
@@ -124,15 +124,15 @@ You can decorate your map based on the metrics or any other data you've imported
 
 ![Innovation Lab Network](/images/innovation-lab.png)
 
-First, make sure you've run whatever metric you'd like to use for sizing or coloring. Then open the perspective and click "decorate elements." You'll see a checkbox to "Change size" and then choose to "Scale elements based on attribute values." Choose your metric of choice or "metrics::last" to always size by the last metric that was run (this is helpful especially in the early analysis of a map).
+First, make sure you've run whatever metric you'd like to use for sizing or coloring. Then click the settings button on the right side of the map and choose "decorate". Click "add element rule" and then use the top dropdown to specify "all elements". You'll see a checkbox to "Change size" and then choose to "Scale elements based on field values." Choose your metric of choice or "metrics::last" to always size by the last metric that was run (this is helpful especially in the early analysis of a map).
 
 ![Decoration Builder](/images/metrics-scale.png)
 
-For decorations based on qualitative attributes, check out the guide on [perspectives](/guides/perspectives.html).
+For decorations based on qualitative fields, check out the guide on [views](/guides/views.html).
 
 ### Looking to add or remove connection arrows?
 
-By default, Kumu will import your connections as directed but won't display the arrow. To turn the arrow on, select all the connections by hitting the **a** keystroke, click the direction button (<i class="fa fa-random"></i>) in the toolbar and then choose "directed." Connections can be directed, undirected, or mutual (arrows both ways). You also use this button to switch directions for a given directed connection.
+By default, Kumu will import your connections as directed but won't display the arrow. To turn the arrow on, select all the connections by hitting the **a** keystroke, click the direction button (<i class="fa fa-random"></i>) in the lower right of the selection profile and then choose "directed." Connections can be directed, undirected, or mutual (arrows both ways). You also use this button to switch directions for a given directed connection.
 
 **Still have questions?** Send an email to [support@kumu.io](mailto:support@kumu.io).
 

@@ -15,7 +15,7 @@ Looking to learn how to use Kumu? You're in the right place. If you're just gett
 
 Once you're comfortable with the basics, head to the advanced guides to begin mastering all the features of Kumu. Here's a few you don't want to miss:
 
-* [Perspectives](guides/perspectives.md)
+* [Views](guides/views.md)
 * [Metrics](guides/metrics.md)
 * [Presentations](guides/presentations.md)
 
@@ -28,7 +28,7 @@ Once you're comfortable with the basics, head to the advanced guides to begin ma
 We have an easy to use [import format](/guides/import.md) that lets you import either xlsx or csv files. Comfortable with JSON? Use our blueprint format for even more power and control.
 
 **Why won't my map stop moving? OR Why are certain elements fixed in place?**
-Elements in Kumu can be either fixed or floating. You can set the default behavior in the map overview. If you'd like to pin all elements (or unpin all of them), hit "a" to select all and then use the pin button in the bottom toolbar.
+Elements in Kumu can be either fixed or floating. You can set the default behavior in the settings menu (click <i class="fa fa-sliders fa-rotate-270"></i> on the right side of your map). If you'd like to pin all elements (or unpin all of them), hit "a" to select all and then use the pin button in the bottom right of the selection profile.
 
 **Can I collaborate with others?**<br />
 Yep! You can invite people to be able to edit your project. If you're on an organization plan, you have additional flexibility and can add others with view, edit, or admin rights through teams.

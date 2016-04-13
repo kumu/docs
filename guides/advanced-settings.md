@@ -1,6 +1,6 @@
 # Advanced Settings
 
-Certain features of Kumu are only exposed via the advanced perspectives tab. Here's your guide to those features:
+Certain features of Kumu are only exposed via the advanced editor of your current view. Here's your guide to those features:
 
 ## Custom clustering
 
@@ -25,6 +25,24 @@ To showcase a selection (muting all other map content except that selection), us
   showcase: selector;
 }
 ```
+This will highlight the selection and any connections between that selection. You can further customize what is include in the showcase by including `!strict` (only the selection) or `!loose` (selection and anything directly connected to it):
+
+```
+@settings {
+  showcase: selector !strict;
+}
+```
+
+## Adjusting the opacity of the showcase behavior
+
+When you hover over any element or connection we'll automatically showcase that selection, meaning that we mute the other elements in the map that are beyond one degree from the selection. If you'd like to disable this or tweak how muted the showcase behavior is, use the `background-opacity` setting:
+
+```
+@settings {
+  background-opacity: 1;
+}
+
+```
 
 ## Predefined focus
 
@@ -32,7 +50,7 @@ To activate a focus automatically within a perspective, use the `focus` setting 
 
 ```
 @settings {
-  focus: selector out n
+  focus: selector out n;
 }
 ```
 
@@ -40,7 +58,7 @@ The `selector` determines which elements to focus on, and `n` is the number of d
 
 ## Modifying label wrap behavior
 
-By default Kumu will wrap longer labels and you can force a line break at any point by including a double space. If you need more granularity than we expose a number of settings within @settings for you to use:
+By default, Kumu wraps longer labels and allows you to force a line break at any point by including a double space. If you need more granularity, we expose a number of settings within @settings for you to use:
 
 ```
 @settings {
@@ -65,7 +83,18 @@ By default our layout algorithm treats all connections the same (same spring str
 }
 ```
 
-This also works for `connection-length` as well.
+This also works for `connection-length` as well. You can also use this to assign specific strength and size values based on qualitative values for connections:
+
+```
+connection["level of influence"="high"] {
+  connection-strength: 1;
+}
+
+connection["level of influence"="low"] {
+  connection-strength: 0.2;
+}
+
+```
 
 ## Adding grid lines
 
@@ -95,16 +124,6 @@ By default we'll hide the connections between any elements that aren't within th
 
 ```
 
-## Adjusting the opacity of the showcase behavior
-
-When you hover over any element or connection we'll automatically showcase that selection, meaning that we mute the other elements in the map that are beyond one degree from the selection. If you'd like to disable this or tweak how muted the showcase behavior is, use the `background-opacity` setting:
-
-```
-@settings {
-  background-opacity: 1;
-}
-
-```
 
 ## Changing the color of the selection
 

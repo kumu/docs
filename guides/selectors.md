@@ -1,20 +1,20 @@
 # Selectors
 
 Selectors provide a simple way to select items within your project.
-They're used everywhere in Kumu (perspectives, filter, focus, finder...
+They're used everywhere in Kumu (views, filter, focus, finder, showcase...
 you get the point!) so you better cozy up to them.
 
 You can build selectors by hand, or you can use our selector builder while you're
 still getting comfortable with them (look for the rocket icon once you click on search)
 
-![selector rocket](/images/search-selector.jpg)
+![selector rocket](/images/search-selector.png)
 
-You can always use general attribute selectors `[attribute=value]` but we've
+You can always use general field selectors `[field=value]` but we've
 built in a number of friendly shorthands to make selectors as easy to work
 with as possible
 
 We'll first run through the available shorthands, then we'll cover the general
-attribute selector and the advanced queries you can create with them.
+field selector and the advanced queries you can create with them.
 
 ## Shorthand Selectors
 
@@ -81,7 +81,7 @@ Just slug the label and add a "#" to the front of it:
 ### By ID
 
 Sometimes you want to assign a friendly id so you don't need to use the
-full label. Easy! Just assign your own "ID" attribute and now you can use that
+full label. Easy! Just assign your own "ID" field and now you can use that
 to select items directly.
 
 The syntax is the exact same as the label selector above.
@@ -98,10 +98,10 @@ To select by tag simply slug the tag and add a "." to the front of it:
 .mission-critical  // select anything tagged with "Mission Critical"
 ```
 
-## General Attribute Selector
+## General field Selector
 
 While the shorthand selectors are great for most cases, they're only useful when
-you just need to check for an exact value.  Attribute selectors are longer to
+you just need to check for an exact value.  field selectors are longer to
 write but they're also much more powerful.
 
 ```
@@ -183,7 +183,7 @@ ID selectors come in three flavors: informal, assigned, and system.
 
 #### Informal
 
-Informal ids are just the slugged version of the "label" attribute.
+Informal ids are just the slugged version of the "label" field.
 In most cases informal ids will be unique, permanent, and have the
 added benefit of being naturally descriptive.
 
@@ -192,7 +192,7 @@ Because of their descriptive nature, we strongly recommend using informal ids wh
 #### Assigned
 
 If labels may change or simply aren't unique, you can assign your own
-id to each object through the "id" attribute.  This gives you a unique
+id to each object through the "id" field.  This gives you a unique
 way to reference each object within your project however you please.
 
 *Note: IDs must be strings and should be unique.*
@@ -215,16 +215,16 @@ a unique random identifier.  For example: elem-123, conn-123, and loop-123.
 
 Tag selectors match all items tagged with the given value.
 Make sure to keep your tags short and free from special characters to
-avoid having to use a formal attribute selector (see below).
+avoid having to use a formal field selector (see below).
 
-## Attribute Selectors
+## field Selectors
 
 ```
 [tags~=influential]
 ```
 
-Attribute selectors match all items with the given attribute condition.
-Kumu supports a number of attribute operators to match against.
+field selectors match all items with the given field condition.
+Kumu supports a number of field operators to match against.
 
 #### Presence
 
@@ -247,7 +247,7 @@ Matches: [label *= kumu]
 Includes: [skills ~= communication]
 ```
 
-Note: the includes operator `~=` is only relevant for attributes with multiple values
+Note: the includes operator `~=` is only relevant for fields with multiple values
 (such as tags and skills).
 
 #### Relative

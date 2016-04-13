@@ -1,13 +1,13 @@
 # Collaboration
 
-Kumu is built to be collaborative whether you have a public or private project.
+Kumu is built for collaboration whether you're working in a public or private project.
 
 ## Personal vs. organization accounts
 
-### Personal
-Personal projects only allow adding people as collaborators, which means they have view and edit access. To add a collaborator, first ask that person to sign up for Kumu (if they haven't already) by visiting (https://kumu.io/join). Ask for their username and then go to the "members" section of your project via the upper left menu. Enter their username and then click "add contributor".
+### Adding members to personal accounts
+Personal projects only allow adding people as collaborators, which means they have view **and** edit access. To add a collaborator, first ask that person to sign up for a free Kumu account (if they haven't already) by visiting (https://kumu.io/join). Ask for their username and then go to the "members" section of your project via the menu in the upper left of your map. Enter their username and then click "add contributor".
 
-### Organization
+### Adding members to organization accounts
 Organization projects allow adding people with view, edit or admin access through teams. Read the [organizations](../getting-started/organizations.md) guide for more information.
 
 ## Public Projects
@@ -16,14 +16,14 @@ Public projects allow you to easily share and build upon the work of the whole K
 
 ## Presentations
 
-Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You'll find presentations in the main menu of your project. Here's a quick guide to getting started:
+Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You'll find presentations by clicking the menu in the upper left of your map. Here's a quick guide to getting started:
 
 {% video %}https://vimeo.com/118975099{% endvideo %}
 
 
 ## Embeds
 
-Embeds make it easy to include an interactive, read-only version of your map on a blog or wesbite. Click the share button in the upper right corner of your map and then create the embed. Learn more about embeds [here](../guides/sharing.md).
+Embeds make it easy to include an interactive, read-only version of your map on a blog or wesbite. Click the more button in the lower right corner of your map and then choose "embed map on another website". Learn more about embeds [here](../guides/sharing.md).
 
 ## Conflicts
 
@@ -31,11 +31,7 @@ We've intentionally designed Kumu *not* to be realtime. When working with comple
 
 If you happen to edit the same part of the map at the same time (whether that's an element name, map description, perspective, or something else), we'll detect this and prompt you to review any conflicts.
 
-**Let's walk through a quick sample.** Say you and a teammate both happened to be mapping influential people in Silicon Valley one afternoon. You both click on Reid and decide that his bio needs a bit of sprucing up.
-
-<img src="../images/merge-screen.png" alt="Reid Hoffman" class="plain">
-
-You save your changes and SURPRISE! The below screen pops up to let you know that you're not the only one editing Reid's bio today.
+**Let's walk through a quick sample.** Say you and a teammate both happened to be mapping influential people in Silicon Valley one afternoon. You both click on Reid and decide that his bio needs a bit of sprucing up. You save your changes and SURPRISE! The below screen pops up to let you know that you're not the only one editing Reid's bio today.
 
 ![Conflicts Step 1](/images/merge-1.png)
 

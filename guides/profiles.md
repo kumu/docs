@@ -1,6 +1,6 @@
 # Profiles
 
-Every element, connection and loop shares a similar profile which you can use to add narative and any data that is important for you to track. By using [perspectives](/guides/perspectives.html) you can bring any of the information in the profile to life through decorations and filters. We'll look at each of the parts of the profile one by one:
+Every element, connection and loop shares a similar profile which you can use to add narrative and any data that is important for you to track. By using [views](/guides/views.html) you can bring any of the information in the profile to life through decorations and filters. We'll look at each of the parts of the profile one by one:
 
 ## Label
 
@@ -25,7 +25,7 @@ We recommend using the standard "reinforcing" and "balancing" terminology for lo
 
 ## Image (optional)
 
-If an image has been added to an element, you'll see it appear in the upper right corner of the profile. To be able to add an image, first create an attribute labeled "image" and then copy and paste the URL for the given image you'd like to use. It will also show up within the background of the element on the map.
+If an image has been added to an element, you'll see it appear in the upper right corner of the profile. To be able to add an image, first create an field labeled "image" and then copy and paste the URL for the given image you'd like to use. It will also show up within the background of the element on the map.
 
 ## Description
 
@@ -35,17 +35,17 @@ We've also extended Markdown's features by adding a powerful widget framework. E
 
 ## Tags
 
-Tags are meant for storing short pieces of information that don't require the structure and label that come with attributes. We recommend using single words without special characters but you are free to use tags as you desire. When you start typing a tag, Kumu will prompt you with other tags that have already been assigned to entities within your project.
+Tags are meant for storing short pieces of information that don't require the structure and label that come with fields. We recommend using single words without special characters but you are free to use tags as you desire. When you start typing a tag, Kumu will prompt you with other tags that have already been assigned to entities within your project.
 
-## Attributes
+## Fields
 
-Attributes are a powerful and flexible way to store more structured information for any given element, connection or loop. We recommend reading our [attributes section](/basics/attributes.html) to learn all that you can do.
+Fields are a powerful and flexible way to store more structured information for any given element, connection or loop. We recommend reading our [fields section](/basics/fields.html) to learn all that you can do.
 
 ## Other Tips
 
 ### Try to be selector friendly
 
-Selectors provide a simple way to slice up your data. By keeping your attribute names and values selector friendly you'll be able to write much shorter queries.
+Selectors provide a simple way to slice up your data. By keeping your field names and values selector friendly you'll be able to write much shorter queries.
 
 Use single words for your element types, connection types, and tags. By doing so you'll be able to use shorthand selectors such as:
 <ul>

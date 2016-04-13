@@ -21,7 +21,7 @@ First, make sure you are working with either an .xlsx or .csv file format (no .x
 * Type (optional)
 * Label (optional)
 
-Here's a sample of how your element spreadsheet might look:
+Here's a sample element import spreadsheet:
 
 <table class="table table-condensed">
       <thead>
@@ -49,7 +49,7 @@ Here's a sample of how your element spreadsheet might look:
 </table>
 
 
-And here's a sample of how your connection spreadsheet might look:
+And here's a sample connection import spreadsheet:
 
 <table class="table table-condensed">
       <thead>
@@ -76,7 +76,7 @@ And here's a sample of how your connection spreadsheet might look:
       </tbody>
 </table>
 
-That's it! Now click the cloud icon (<i class="fa fa-cloud-upload"></i>) in the lower right corner or drag the file onto the map. You'll have the option to review the import before finalizing to double-check that everything imported correctly. Click save and you're all set!
+That's it! Now click the green "+" button at the bottom of your map or drag and drop the file onto the map. You'll have the option to review the import before finalizing to double-check that everything imported correctly. Click save and you're all set!
 
 **Get your hands dirty!** [Click here for a sample import file](../content/paypal-mafia.xlsx) for the PayPal Mafia that you can use to see how imports work with real data before creating your import file.
 
@@ -122,7 +122,7 @@ Our Google Spreadsheets integration populates a map using the contents of a spre
 Looking to hone your skills importing data to Kumu? These tips will turn you into a master importer in two minutes flat.
 
 1. <a href="#separate-sheets">Separate elements and connections into their own sheets</a>
-1. <a href="#reserved-attributes">Take advantage of reserved attributes</a>
+1. <a href="#reserved-fields">Take advantage of reserved fields</a>
 1. <a href="#piped-lists">Use pipes to separate | multiple | values</a>
 1. <a href="#selector-friendly">Try to be selector friendly</a>
 1. <a href="#ask-for-help">Ask for help!</a>
@@ -130,16 +130,16 @@ Looking to hone your skills importing data to Kumu? These tips will turn you int
 
 <h3 id="separate-sheets">1. Separate elements and connections into their own sheets</h3>
 
-Since elements and connections often have very different sets of attributes, we recommend using one worksheet for each type.  If you prefer keeping everything within a single sheet, you can use two blank lines to signal the start of a new section instead. If you are using a .csv file, you'll need to either use the single sheet method or create separate files for elements and connections.
+Since elements and connections often have very different sets of fields, we recommend using one worksheet for each type.  If you prefer keeping everything within a single sheet, you can use two blank lines to signal the start of a new section instead. If you are using a .csv file, you'll need to either use the single sheet method or create separate files for elements and connections.
 
-<h3 id="reserved-attributes">2. Take advantage of reserved attributes</h3>
+<h3 id="reserved-fields">2. Take advantage of reserved fields</h3>
 
-Additional attributes can be imported simply by adding new columns. Feel free to track as few or as many as you want. Our reserved attributes aren't required, but they can save you time and unlock powerful features.
+Additional fields can be imported simply by adding new columns. Feel free to track as few or as many as you want. Our reserved fields aren't required, but they can save you time and unlock powerful features.
 
 <dl>
     <dt>Type</dt>
     <dd>
-      Use the type attribute to categorize elements and connections. Common element
+      Use the type field to categorize elements and connections. Common element
       types include person, project, and company. Common connection types include
       personal, business, and family.
       Try to be <a href="#selector-friendly">selector friendly</a> with your types if you can.
@@ -171,10 +171,10 @@ Additional attributes can be imported simply by adding new columns. Feel free to
 </dl>
 
 <h3 id="piped-lists">3. Use pipes to separate multiple values</h3>
-For columns with multiple values in a single cell (such as tags, skills, hobbies, etc), you need to separate them using the "|" character. If you're already separating them using commas, just use find and replace to switch before importing.
+For columns with multiple values in a single cell (such as tags, skills, hobbies, etc), you need to separate them using the "|" character. If you're already separating them using commas, just use find and replace to swap out the commas for "|" before importing.
 
 <h3 id="selector-friendly">4. Try to be selector friendly</h3>
-Selectors provide a simple way to slice up your data. By keeping your attribute names and values selector friendly you'll be able to write much shorter queries.
+Selectors provide a simple way to slice up your data. By keeping your field names and values selector friendly you'll be able to write much shorter queries.
 
 Use single words for your element types, connection types, and tags. By doing so you'll be able to use shorthand selectors such as:
 <ul>

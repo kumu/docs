@@ -1,6 +1,6 @@
 # Markdown
 
-Markdown is an easy and powerful way to format your descriptions and long text attributes using simple, natural syntax.
+Markdown is an easy and powerful way to format your descriptions and long text fields using simple, natural syntax.
 
 ## The basics
 
@@ -50,11 +50,11 @@ We also support linking to elements, connections and loops (even other maps in y
 
     [link label](#map-slug)
 
-**Perspectives**
+**views**
 
-    [link label](#map-slug/perspective-slug)
+    [link label](#map-slug/view-slug)
 
-*Note: The best way to find the "map-slug" and "perspective-slug" is to activate the given map and perspective and look at the URL in your browser. You should be able to spot it quite easily by using the above format as a guide. Then copy and paste the applicable portion.*
+*Note: The best way to find the "map-slug" and "view-slug" is to activate the given map and view and look at the URL in your browser. You should be able to spot it quite easily by using the above format as a guide. Then copy and paste the applicable portion.*
 
 ## Images
 
