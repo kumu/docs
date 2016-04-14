@@ -3,7 +3,7 @@
 While Kumu is easy to get started, it also packs a lot of depth. Use these guides to explore all of Kumu's power or use the search in the upper left corner to find just what you are looking for.
 
 * [Advanced settings](/advanced-settings.md)
-* [Attributes](/attributes.md)
+* [Fields](/fields.md)
 * [Clustering](/clustering.md)
 * [Collaboration](/collaboration.md)
 * [Disciplines](#)
