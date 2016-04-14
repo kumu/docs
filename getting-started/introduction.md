@@ -25,7 +25,7 @@ The upper right corner has buttons to zoom in and out and zoom fit.
 <!--
 ### Main menu (<i class="fa fa-th"></i>)
 
-Use this menu to quickly change between maps and perspectices or switch between projects. You'll also find links to manage attributes, members, rename a project, and delete a project.
+Use this menu to quickly change between maps and perspectices or switch between projects. You'll also find links to manage fields, members, rename a project, and delete a project.
 
 ### Pin (<i class="fa fa-map-marker"></i>)
 
@@ -45,7 +45,7 @@ Elements, connections and loops can be deleted by selecting it and then clicking
 
 ### Cluster
 
-Clustering is a powerful way to connect elements based on data stored in the profile. To learn more, read our [Clustering Guide](/guides/clustering.html). To activate clustering, click the cluster button and then choose the attribute you want to cluster by. You can then choose to permanently save a cluster by clicking "save" or remove the cluster by clicking "cancel." If you refresh the page any unsaved clusters will be removed.
+Clustering is a powerful way to connect elements based on data stored in the profile. To learn more, read our [Clustering Guide](/guides/clustering.html). To activate clustering, click the cluster button and then choose the field you want to cluster by. You can then choose to permanently save a cluster by clicking "save" or remove the cluster by clicking "cancel." If you refresh the page any unsaved clusters will be removed.
 
 ### Decorate (<i class="fa fa-tint"></i>)
 
@@ -216,7 +216,7 @@ Filters can be edited by clicking the settings button on the right side of the m
 
 <img src="/images/introduction-filter.png" class="plain" style="width: 600px;">
 
-If you're filtering by element or connection type, simply uncheck the types you want to hide. To filter using other attributes, use the "also include" and "but ignore" fields. Click the rocket icon (<i class="fa fa-rocket"></i>) to the right of the input of each field to build out the selector for what you want to hide or make visible.
+If you're filtering by element or connection type, simply uncheck the types you want to hide. To filter using other fields, use the "also include" and "but ignore" fields. Click the rocket icon (<i class="fa fa-rocket"></i>) to the right of the input of each field to build out the selector for what you want to hide or make visible.
 
 * **Also include** If you've hidden certain elements and connections using the type checkboxes, you can use the "also include" field to bring things back into view. **So unless you have some types unchecked, this field will have no effect!**
 * **But ignore** Use this field to hide elements and connections from your map. Whatever selector you add here will win out over anything you've set using the checkboxes or the "also include" field.
@@ -257,7 +257,7 @@ You can also share maps through our embed feature. Click the more menu in the lo
 
 ### Clustering
 
-Use [clustering](../guides/clustering.md) to quickly connect elements based on their shared attribute values.
+Use [clustering](../guides/clustering.md) to quickly connect elements based on their shared fields.
 
 <img src="/images/clustering.gif" class="plain" style="width: 600px;">
 

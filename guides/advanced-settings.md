@@ -8,13 +8,13 @@ You can activate clustering automatically within a view by using the <code>clust
 
 ```
 @settings {
- cluster: "selector" by "attribute" as "type";
+ cluster: "selector" by "field" as "type";
 }
 ```
 
-Both <code>selector</code> and <code>type</code> are optional, and multiple clusters can be added by separating them with a comma.  If you just include an attribute name then clustering will behave identical to the existing cluster form.
+Both <code>selector</code> and <code>type</code> are optional, and multiple clusters can be added by separating them with a comma.  If you just include a field name then clustering will behave identical to the existing cluster form.
 
-The <code>selector</code> determines which elements to cluster, <code>attribute</code> determines what to cluster by, and <code>type</code> overrides the element type assigned to the new elements. By default we use the singular form of the attribute name as the type for both the elements and connections that are created.
+The <code>selector</code> determines which elements to cluster, <code>field</code> determines what to cluster by, and <code>type</code> overrides the element type assigned to the new elements. By default we use the singular form of the field name as the type for both the elements and connections that are created.
 
 ## Showcasing
 
@@ -72,9 +72,9 @@ By default, Kumu wraps longer labels and allows you to force a line break at any
 }
 ```
 
-## Adjusting connection length based on attribute values
+## Adjusting connection length based on custom field
 
-By default our layout algorithm treats all connections the same (same spring strength and length). If you'd like to modify that behavior to have shorter or stronger connections based on a given connection attribute, you can do so by adding the following (example based on using a quantitative "strength" attribute):
+By default our layout algorithm treats all connections the same (same spring strength and length). If you'd like to modify that behavior to have shorter or stronger connections based on a given connection field, you can do so by adding the following (example based on using a quantitative "strength" field):
 
 ```
 @settings {
