@@ -29,7 +29,7 @@ Embeds make it easy to include an interactive, read-only version of your map on 
 
 We've intentionally designed Kumu *not* to be realtime. When working with complex data it's distracting to have things changing constantly out of your control. Instead we only pull in changes when conflicts need to be merged. When you want to sync up with the rest of your team, just refresh the page.
 
-If you happen to edit the same part of the map at the same time (whether that's an element name, map description, perspective, or something else), we'll detect this and prompt you to review any conflicts.
+If you happen to edit the same part of the map at the same time (whether that's an element name, map description, view, or something else), we'll detect this and prompt you to review any conflicts.
 
 **Let's walk through a quick sample.** Say you and a teammate both happened to be mapping influential people in Silicon Valley one afternoon. You both click on Reid and decide that his bio needs a bit of sprucing up. You save your changes and SURPRISE! The below screen pops up to let you know that you're not the only one editing Reid's bio today.
 

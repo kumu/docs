@@ -37,7 +37,7 @@ Yes! Head over to the [Network Analysis Guide](../guides/sna-network-mapping.md)
 
 ### How do I add images to the elements on my map?
 
-To add an image to an element on your map, create an "Image" attribute and then paste the URL as the value for the given element. Also, if you create an "Email" attribute and add an email for a given person or company, Kumu will look whether a gravatar exists for that email and if so use that as the image.
+To add an image to an element on your map, create an "Image" field and then paste the URL as the value for the given element. Also, if you create an "Email" field and add an email for a given person or company, Kumu will look whether a gravatar exists for that email and if so use that as the image.
 
 ### Can I create dashed connections?
 

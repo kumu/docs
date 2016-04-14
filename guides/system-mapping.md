@@ -125,7 +125,7 @@ It is often quite helpful to walk a group through the exercise of discussing how
 
 Another helpful piece of data is whether a given factor needs to significantly increase, increase, stay the same, decrease, or significantly decrease going forward. By using this data and adding a color scale to the values, you can quickly see where the most change needs to happen in a given map.
 
-Finally, you can even add data like **% complete** to be able to track the status of your implementation efforts as your progress with a systems intervention. The great part about Kumu is you don't need to just pick one of these ways to decorate. Create multiple perspectives and easily switch between all of these views.
+Finally, you can even add data like **% complete** to be able to track the status of your implementation efforts as your progress with a systems intervention. The great part about Kumu is you don't need to just pick one of these ways to decorate. Create multiple views and easily switch between different perspectives.
 
 ## Creating magazine-ready maps
 
@@ -133,7 +133,7 @@ There are a number of decorations you can add that really make your system map *
 
 <img src="/images/systems-magazine-ready.png" alt="Hawaii Quality of Life Map" class="plain">
 
-To make this happen, you'll need to create a perspective that increases the size of the circle and then changes the label placement. Here is the sample advanced CSS for a recent collaboration with [Hawaii Business Magazine](http://hawaiiqualityoflife.org):
+To make this happen, you'll need to create a view that increases the size of the circle and then changes the label placement. Here is the sample advanced CSS for a recent collaboration with [Hawaii Business Magazine](http://hawaiiqualityoflife.org):
 
 ```
 element {
@@ -147,6 +147,6 @@ element {
 }
 ```
 
-You can see we've included other decorations including font-color, font-size, and more (you can see the full list [here](../guides/perspectives.md)).
+You can see we've included other decorations including font-color, font-size, and more (you can see the full list [here](../guides/views.md)).
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/system-mapping.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

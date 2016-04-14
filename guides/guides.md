@@ -3,7 +3,7 @@
 While Kumu is easy to get started, it also packs a lot of depth. Use these guides to explore all of Kumu's power or use the search in the upper left corner to find just what you are looking for.
 
 * [Advanced settings](/advanced-settings.md)
-* [Attributes](/attributes.md)
+* [Fields](/fields.md)
 * [Clustering](/clustering.md)
 * [Collaboration](/collaboration.md)
 * [Disciplines](#)
@@ -19,8 +19,8 @@ While Kumu is easy to get started, it also packs a lot of depth. Use these guide
 * [Metrics](/metrics.md)
 * [Markdown](/markdown.md)
 * [Organizations](/organizations.md)  
-* [Perspectives / style sheets](/perspectives.md)
-  * [Advanced](/perspectives-advanced.md)
+* [Views / style sheets](/views.md)
+  * [Advanced](/views-advanced.md)
   * [Color reference](/color-reference.md)
   * [Property reference](/property-reference.md)
   * [Selector reference](/selector-reference.md)
@@ -34,4 +34,4 @@ While Kumu is easy to get started, it also packs a lot of depth. Use these guide
 * [Tracking](/tracking.md)
 * [Widgets](/widgets.md)
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master//guides.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/guides.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

@@ -4,17 +4,17 @@ Certain features of Kumu are only exposed via the advanced editor of your curren
 
 ## Custom clustering
 
-You can activate clustering automatically within a perspective by using the <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
+You can activate clustering automatically within a view by using the <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
 
 ```
 @settings {
- cluster: "selector" by "attribute" as "type";
+ cluster: "selector" by "field" as "type";
 }
 ```
 
-Both <code>selector</code> and <code>type</code> are optional, and multiple clusters can be added by separating them with a comma.  If you just include an attribute name then clustering will behave identical to the existing cluster form.
+Both <code>selector</code> and <code>type</code> are optional, and multiple clusters can be added by separating them with a comma.  If you just include a field name then clustering will behave identical to the existing cluster form.
 
-The <code>selector</code> determines which elements to cluster, <code>attribute</code> determines what to cluster by, and <code>type</code> overrides the element type assigned to the new elements. By default we use the singular form of the attribute name as the type for both the elements and connections that are created.
+The <code>selector</code> determines which elements to cluster, <code>field</code> determines what to cluster by, and <code>type</code> overrides the element type assigned to the new elements. By default we use the singular form of the field name as the type for both the elements and connections that are created.
 
 ## Showcasing
 
@@ -46,7 +46,7 @@ When you hover over any element or connection we'll automatically showcase that 
 
 ## Predefined focus
 
-To activate a focus automatically within a perspective, use the `focus` setting within `@settings` and add a selector:
+To activate a focus automatically within a view, use the `focus` setting within `@settings` and add a selector:
 
 ```
 @settings {
@@ -72,9 +72,9 @@ By default, Kumu wraps longer labels and allows you to force a line break at any
 }
 ```
 
-## Adjusting connection length based on attribute values
+## Adjusting connection length based on custom field
 
-By default our layout algorithm treats all connections the same (same spring strength and length). If you'd like to modify that behavior to have shorter or stronger connections based on a given connection attribute, you can do so by adding the following (example based on using a quantitative "strength" attribute):
+By default our layout algorithm treats all connections the same (same spring strength and length). If you'd like to modify that behavior to have shorter or stronger connections based on a given connection field, you can do so by adding the following (example based on using a quantitative "strength" field):
 
 ```
 @settings {
