@@ -11,14 +11,14 @@ For more information about ChangeLabs, visit [http://changelabs.stanford.edu/](h
 
 ## Getting Started
 
-This guide provides instructions for using Kumu in the ChangeLabs process and Stanford's ENVRES 380 "Collaborating with the Future: Launching Large Scale Sustainable Transformations."" To follow these instructions, you'll need access to a project with the [ChangeLabs Project Blueprint](/images/kumu-changelabs-template.json) (if you don't have access to an existing project, download the blueprint file and import into a new, blank project). The ChangeLabs project blueprint is built off of our casual loop systems template but also predefines a number of maps, perspectives, and attribute settings not available in the standard template.
+This guide provides instructions for using Kumu in the ChangeLabs process and Stanford's ENVRES 380 "Collaborating with the Future: Launching Large Scale Sustainable Transformations."" To follow these instructions, you'll need access to a project with the [ChangeLabs Project Blueprint](/images/kumu-changelabs-template.json) (if you don't have access to an existing project, download the blueprint file and import into a new, blank project). The ChangeLabs project blueprint is built off of our casual loop systems template but also predefines a number of maps, views, and attribute settings not available in the standard template.
 
 The ChangeLabs blueprint includes the following maps:
 
 * Stakeholder ecosystem map
 * Driving dynamics map
 
-...with the following perspectives:
+...with the following views:
 
 * Ecosystem analysis
 * Dynamics analysis

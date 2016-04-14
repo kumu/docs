@@ -21,7 +21,7 @@ back up your installation before upgrading.
 - Added continuous zoom fit for floating maps
 - Added separate `ignore-orphans` option to @settings to fix orphan ignore behavior
 - Added selector support to focus prompt
-- Added option to disable auto-refresh when editing perspective
+- Added option to disable auto-refresh when editing view
 - Added cluster menu customization
 - Added clustering through @settings
 - Added attribute values reordering / automatic sorting

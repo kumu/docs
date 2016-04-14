@@ -52,7 +52,7 @@ If you want to disable any of the core fields (label, description, tags or type)
 You can access this using the menu in the upper left corner of your map and then choosing "fields". From there, click the core field you'd like to edit.
 
 ## Advanced Clustering
-You can also activate clustering automatically within a perspective and further customize the behavior by using the <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
+You can also activate clustering automatically within a view and further customize the behavior by using the <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
 
 ```
 @settings {
@@ -76,7 +76,7 @@ To customize the type, just add <code>as &lt;type&gt;</code> to your cluster dec
 }
 ```
 
-You can then add the relevant decorations to your perspective to color the connection types and see who you could connect to build learning pairs.
+You can then add the relevant decorations to your view to color the connection types and see who you could connect to build learning pairs.
 
 ### How to restrict clustering to a subset of elements
 

@@ -4,7 +4,7 @@ Certain features of Kumu are only exposed via the advanced editor of your curren
 
 ## Custom clustering
 
-You can activate clustering automatically within a perspective by using the <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
+You can activate clustering automatically within a view by using the <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
 
 ```
 @settings {
@@ -46,7 +46,7 @@ When you hover over any element or connection we'll automatically showcase that 
 
 ## Predefined focus
 
-To activate a focus automatically within a perspective, use the `focus` setting within `@settings` and add a selector:
+To activate a focus automatically within a view, use the `focus` setting within `@settings` and add a selector:
 
 ```
 @settings {
