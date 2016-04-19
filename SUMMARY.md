@@ -1,6 +1,6 @@
 # Summary
 * [Welcome](welcome.md)
-* [Getting Started](getting-started/five-minute-quickstart.md)
+* [Getting Started](getting-started/introduction.md)
   * [Introduction](getting-started/introduction.md)
   * [FAQ](getting-started/faq.md)
 * [Guides](guides/guides.md)
