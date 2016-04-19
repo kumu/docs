@@ -1,6 +1,11 @@
-# Introduction
+<div class="welcome-block">
+  <div class="hero-content">
+    <h1>Welcome to the Docs</h1>
+    <h2><em>Your guide to getting the most from Kumu</em></h2>
+  </div>
+</div>
 
-This page contains everything you need to hit the ground running with Kumu. Carve out 20 minutes to review this page and you'll have awareness of at least 80% of Kumu's features.
+This page contains everything you need to hit the ground running with Kumu. Carve out 20 minutes to review this page and you'll have awareness of at least 80% of Kumu's features. Then explore the guides to learn all that Kumu has to offer.
 
 ## Getting to know the user interface
 

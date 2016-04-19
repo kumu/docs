@@ -48,7 +48,7 @@ img {
 }
 
 .book .book-body .page-wrapper .page-inner section.normal .welcome-block {
-  min-height: 300px;
+  min-height: 200px;
   text-align: center;
 }
 
@@ -83,6 +83,24 @@ img {
   white-space: nowrap;
   border-radius: 500px;
   margin-bottom: 50px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal .btn {
+  border: none;
+  color: #fff;
+  background-color: #009ddc;
+  display: inline-block;
+  margin: 1em 0;
+  padding: 1em 0;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  //text-transform: uppercase;
+  white-space: wrap;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal table .icon {
