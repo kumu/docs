@@ -14,3 +14,15 @@ $(init);
 function init() {
   $("[title]").tooltip();
 }
+
+// Adding code to get the anchor links working
+
+var target = window.location.hash;
+
+window.location.hash = "";
+
+$(document).ready(function() {
+    setTimeout(function() {
+        document.location.hash = target;
+    }, 50);
+});
