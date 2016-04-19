@@ -40,7 +40,6 @@
   * [What is Kumu?](about/what-is-kumu.md)
   * [How does it work?](about/how-does-it-work.md)
   * [Where can I get help?](about/where-can-i-get-help.md)
-  * [Five-minute quickstart](about/five-minute-quickstart.md)
 * [Enterprise](enterprise/index.md)
   * [Getting started with VMWare](enterprise/getting-started-with-vmware.md)
   * [Getting started with VirtualBox](enterprise/getting-started-with-virtualbox.md)
