@@ -98,17 +98,25 @@ connection["level of influence"="low"] {
 
 ## Adding grid lines
 
-You can add a grid to the background of your map using these settings:
+You can add a grid to the background of your map using this line in the @settings block: 
 
 ```
 @settings {
-  grid: on;
-  guides: x(0) y(0) circle(100);
-  grid-width: 2; // line width
-  grid-offset: 20; //spacing between lines
-  grid-color: #999;
-  guide-width: 4;
-  guide-color: #333;
+  layout-grid: auto;
+}
+```
+
+For more control over the grid settings, use these settings:
+
+```
+@settings {
+  layout-grid: on;
+  layout-guides: x(0) y(0) circle(100);
+  layout-grid-width: 2; // line width
+  layout-grid-offset: 20; //spacing between lines
+  layout-grid-color: #999;
+  layout-guide-width: 4;
+  layout-guide-color: #333;
 }
 
 ```
