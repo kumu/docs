@@ -1,6 +1,6 @@
 # Profiles
 
-Every element, connection and loop shares a similar profile which you can use to add narrative and any data that is important for you to track. By using [views](/guides/views.md) you can bring any of the information in the profile to life through decorations and filters. We'll look at each of the parts of the profile one by one:
+Every element, connection and loop shares a similar profile which you can use to add narrative and any data that is important for you to track. By using [views](/views.html) you can bring any of the information in the profile to life through decorations and filters. We'll look at each of the parts of the profile one by one:
 
 ## Label
 
