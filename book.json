@@ -1,5 +1,5 @@
 {
-    "gitbook": "3.x.x",
+    "gitbook": "2.6.7",
     "plugins": ["layout", "anchors", "video"],
     "structure": {
         "readme": "introduction.md"
