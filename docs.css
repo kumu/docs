@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, table, td, dl, dt, dd, footer {
+  font-family: 'Open Sans',"proxima-nova", "Proxima Nova", "Helvetica Neue", sans-serif;
+}
+
 img {
   margin: 0 auto;
   display: block;
@@ -45,6 +49,10 @@ img {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre>code {
+  font-size: 100%;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal .welcome-block {
@@ -112,6 +120,7 @@ img {
 [href="https://www.gitbook.com/book/kumu/docs"],
 .book .book-header h1,
 .book .book-header .toggle-search,
+.book .book-header .font-settings,
 .book .book-header #font-settings-wrapper {
   display: none !important;
 }
@@ -254,6 +263,10 @@ table.property-table {
   text-align: center;
   background-color: #000000;
   border-radius: 4px;
+}
+
+.tooltip code {
+  color: #BA462F !important;
 }
 
 /* Github edit links */
