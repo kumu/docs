@@ -39,7 +39,7 @@ Tags are meant for storing short pieces of information that don't require the st
 
 ## Fields
 
-Fields are a powerful and flexible way to store more structured information for any given element, connection or loop. We recommend reading our [fields section](/guides/fields.html) to learn all that you can do.
+Fields are a powerful and flexible way to store more structured information for any given element, connection or loop. We recommend reading our [fields section](/fields.html) to learn all that you can do.
 
 ## Other Tips
 
