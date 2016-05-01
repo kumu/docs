@@ -30,7 +30,7 @@ You might run into some cases where your decorations compete with one another (y
 
 ## Filters
 
-Filters make it easy to show and hide elements, connections or loops based on data stored in the profile. Click the settings button (<i class="fa fa-sliders"></i>) on the right side of the map and then choose "filter".
+Filters make it easy to show and hide elements, connections or loops based on data stored in the profile. Click the settings button (<i class="fa fa-sliders fa-rotate-270"></i>) on the right side of the map and then choose "filter".
 
 ![filter](../images/filter.png)
 

@@ -171,9 +171,11 @@ Additional fields can be imported simply by adding new columns. Feel free to tra
 </dl>
 
 <h3 id="piped-lists">3. Use pipes to separate multiple values</h3>
+
 For columns with multiple values in a single cell (such as tags, skills, hobbies, etc), you need to separate them using the "|" character. If you're already separating them using commas, just use find and replace to swap out the commas for "|" before importing.
 
 <h3 id="selector-friendly">4. Try to be selector friendly</h3>
+
 Selectors provide a simple way to slice up your data. By keeping your field names and values selector friendly you'll be able to write much shorter queries.
 
 Use single words for your element types, connection types, and tags. By doing so you'll be able to use shorthand selectors such as:

@@ -8,11 +8,11 @@ Kumu is built for collaboration whether you're working in a public or private pr
 Personal projects only allow adding people as collaborators, which means they have view **and** edit access. To add a collaborator, first ask that person to sign up for a free Kumu account (if they haven't already) by visiting (https://kumu.io/join). Ask for their username and then go to the "members" section of your project via the menu in the upper left of your map. Enter their username and then click "add contributor".
 
 ### Adding members to organization accounts
-Organization projects allow adding people with view, edit or admin access through teams. Read the [organizations](../getting-started/organizations.md) guide for more information.
+Organization projects allow adding people with view, edit or admin access through teams. Read the [organizations](/organizations.md) guide for more information.
 
 ## Public Projects
 
-Public projects allow you to easily share and build upon the work of the whole Kumu community. For more information, view the [project architecture guide](../guides/project-architecture.md).
+Public projects allow you to easily share and build upon the work of the whole Kumu community. For more information, view the [project architecture guide](/project-architecture.md).
 
 ## Presentations
 
@@ -23,7 +23,7 @@ Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-u
 
 ## Embeds
 
-Embeds make it easy to include an interactive, read-only version of your map on a blog or wesbite. Click the more button in the lower right corner of your map and then choose "embed map on another website". Learn more about embeds [here](../guides/sharing.md).
+Embeds make it easy to include an interactive, read-only version of your map on a blog or wesbite. Click the more button in the lower right corner of your map and then choose "embed map on another website". Learn more about embeds [here](/sharing.md).
 
 ## Conflicts
 

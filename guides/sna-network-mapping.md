@@ -56,7 +56,7 @@ For certain networks, it's not plausible to collect information via surveys and 
 
 ### Getting the data into Kumu
 
-You can get the data into Kumu in one of two ways: imports or populating by hand. For more information on imports, check out our [imports guide](/import.md). If you're creating your map by hand, [start here](../getting-started/introduction.md).
+You can get the data into Kumu in one of two ways: imports or populating by hand. For more information on imports, check out our [imports guide](/import.md). If you're creating your map by hand, [start here](../introduction.md).
 
 There are a few subtleties to how you structure your data for easiest use within Kumu. We've laid out some of those below:
 
@@ -128,7 +128,7 @@ First, make sure you've run whatever metric you'd like to use for sizing or colo
 
 ![Decoration Builder](/images/metrics-scale.png)
 
-For decorations based on qualitative fields, check out the guide on [views](/guides/views.html).
+For decorations based on qualitative fields, check out the guide on [views](/views.md).
 
 ### Looking to add or remove connection arrows?
 
