@@ -217,7 +217,7 @@ Tag selectors match all items tagged with the given value.
 Make sure to keep your tags short and free from special characters to
 avoid having to use a formal field selector (see below).
 
-## field Selectors
+## Field Selectors
 
 ```
 [tags~=influential]
