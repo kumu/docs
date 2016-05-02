@@ -318,3 +318,11 @@ table.property-table {
 .book .book-body .page-wrapper .page-inner section.normal .page-footer {
   margin-top: 50px;
 }
+
+/* Expandable chapters style override */
+
+.book .book-summary .exc-trigger {
+  position: relative !important;
+  top: 0;
+  left: 4px;
+}

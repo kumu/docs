@@ -1,6 +1,6 @@
 {
     "gitbook": "2.6.7",
-    "plugins": ["layout", "anchors", "video"],
+    "plugins": ["layout", "anchors", "video","expandable-chapters"],
     "structure": {
         "readme": "introduction.md"
     },
