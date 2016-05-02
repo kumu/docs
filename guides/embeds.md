@@ -1,6 +1,4 @@
-# Sharing
-
-## Embeds
+# Embeds
 
 If you're looking to share your map by including it in another website, click the more menu (...) in the lower right corner and then choose "embed map on another website". You'll be prompted with the following window:
 
@@ -14,7 +12,7 @@ Click "Create embed" to generate the embed code.
 
 Copy and paste the iframe code into your website and you're ready to go. You can also use the external link button (<i class="fa fa-external-link-square"></i>) to open the embed in a new tab. You can use the link for this website as a share link to send to others. Note that anyone will be able to access the map using this link without requiring a password so only share the link if you are okay with this.
 
-### Advanced Options for Embeds
+## Advanced Options for Embeds
 
 By default embeds include the whole user interface for Kumu. We often find that most embeds don't actually need the finder, footer, and screenshots. Not only were they not needed, they actually distracted users from the embed's content and purpose.
 
@@ -37,4 +35,4 @@ To include the bare minimum, use the simple shorthand instead
 kumu.io/embed/abc?simple=1
 ```
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/sharing.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/embeds.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
