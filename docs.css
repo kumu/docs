@@ -321,8 +321,10 @@ table.property-table {
 
 /* Expandable chapters style override */
 
+/*
 .book .book-summary .exc-trigger {
   position: relative !important;
   top: 0;
   left: 4px;
 }
+*/
