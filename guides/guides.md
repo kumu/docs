@@ -10,6 +10,7 @@ While Kumu is easy to get started, it also packs a lot of depth. Use these guide
 * [Disciplines](#)
   * [SNA / Network Mapping](/sna-network-mapping.md)
   * [System mapping](/system-mapping.md)
+* [Embeds](/embeds.md)  
 * [Export](/export.md)
 * [Filter](/filter.md)
 * [Focus](/focus.md)
