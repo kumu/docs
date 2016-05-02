@@ -6,6 +6,7 @@ While Kumu is easy to get started, it also packs a lot of depth. Use these guide
 * [Fields](/fields.md)
 * [Clustering](/clustering.md)
 * [Collaboration](/collaboration.md)
+* [Custom controls](guides/custom-controls.md)
 * [Disciplines](#)
   * [SNA / Network Mapping](/sna-network-mapping.md)
   * [System mapping](/system-mapping.md)

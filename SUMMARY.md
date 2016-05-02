@@ -14,6 +14,7 @@
   * [Advanced settings](guides/advanced-settings.md)
   * [Clustering](guides/clustering.md)
   * [Collaboration](guides/collaboration.md)
+  * [Custom controls](guides/custom-controls.md)
   * [Disciplines](#)
     * [SNA / Network Mapping](guides/sna-network-mapping.md)
     * [System mapping](guides/system-mapping.md)
