@@ -18,7 +18,7 @@ With the force-directed layout, we do our best to position everything automatica
 If you'd like further control over the layout settings, you can use the advanced editor to customize the settings for:
 
 - Gravity
-- Element charge
+- Particle (element) charge
 - Connection length
 - Connection strength
 
@@ -36,7 +36,7 @@ You'd add the following to the `@settings` block to re-create the "hairball" set
 If you find your map has become a hairball, try the following:
 
 - Decrease gravity
-- Increase element charge
+- Increase particle charge
 - Lower connection strength
 
 The force-directed layout also allows you to override any element's position by pinning it in place.
