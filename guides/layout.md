@@ -27,7 +27,7 @@ You'd add the following to the `@settings` block to re-create the "hairball" set
 ```
 @settings {
   layout-gravity: 0.0001;
-  layout-element-charge: 300;
+  layout-particle-charge: 300;
   layout-connection-length: 500;
   layout-connection-strength: 0.1;
 }
