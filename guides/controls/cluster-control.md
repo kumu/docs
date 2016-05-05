@@ -23,5 +23,5 @@ cluster {
 **Supported properties**
 
 * `cluster-option` is included for each button and nests the corresponding settings.
-  * `value` supplies the [advanced clustering setting](/clustering.html#advanced-clustering).
+  * `value` supplies the [advanced clustering setting](../clustering.md#advanced-clustering).
   * `label` is the label for the button.
