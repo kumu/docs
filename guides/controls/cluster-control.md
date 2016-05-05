@@ -7,17 +7,22 @@ Add simple button-driven clustering.
 **Example**
 
 ```
-cluster {
-  cluster-option {
-    value: person by "Projects" as "Project";
-    label: "Project";
-  }
+@controls {
+  bottom {
+    cluster {
+      cluster-option {
+        value: person by "Projects" as "Project";
+        label: "Project";
+      }
 
-  cluster-option {
-    value: person by "Geographic region" as "Location";
-    label: "Location";
+      cluster-option {
+        value: person by "Geographic region" as "Location";
+        label: "Location";
+      }
+    }
   }
 }
+
 ```
 
 **Supported properties**

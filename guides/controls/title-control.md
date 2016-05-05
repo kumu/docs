@@ -7,8 +7,12 @@ Add a custom title to your map.
 **Example**
 
 ```
-title {
-  value: "2016 Network size by betweenness";
+@controls {
+  top {
+    title {
+      value: "2016 Network size by betweenness";
+    }
+  }
 }
 ```
 

@@ -7,9 +7,13 @@ Add custom text to your map.
 **Example**
 
 ```
-text {
-  value: "Betweenness measures the number of times
-  someone is on the shortest path between any two people.";
+@controls {
+  top {
+    text {
+      value: "Betweenness measures the number of times
+      someone is on the shortest path between any two people.";
+    }
+  }
 }
 ```
 

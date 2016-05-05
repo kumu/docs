@@ -7,10 +7,15 @@ Filter between one or more field values.
 **Example**
 
 ```
-field-filter {
-  field: "Location";
-  target: element;
+@controls {
+  top {
+    field-filter {
+      field: "Location";
+      target: element;
+    }
+  }
 }
+
 ```
 
 **Supported properties**

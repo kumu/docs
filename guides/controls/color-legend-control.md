@@ -7,23 +7,28 @@ Add a color legend and optionally inherit colors from `element-color` set in `@s
 **Example**
 
 ```
-// inherited colors
-color-legend {
-  colors: inherit;
+@controls {
+  bottom-left {
+    // inherited colors
+    color-legend {
+      colors: inherit;
+    }
+
+    // explicit colors
+    color-legend {
+      color {
+        value: red;
+        label: "Red things";
+      }
+
+      color {
+        value: blue;
+        label: "Blue things";
+      }
+    }
+  }
 }
 
-// explicit colors
-color-legend {
-  color {
-    value: red;
-    label: "Red things";
-  }
-
-  color {
-    value: blue;
-    label: "Blue things";
-  }
-}
 ```
 
 **Supported properties**

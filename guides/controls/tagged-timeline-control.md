@@ -9,9 +9,13 @@ Filter a network over time using years defined in the tag field.
 **Example**
 
 ```
-tagged-timeline {
-  range: 2000..2016;
-  target: element;
+@controls {
+  bottom {
+    tagged-timeline {
+      range: 2000..2016;
+      target: element;
+    }
+  }
 }
 ```
 

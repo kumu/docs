@@ -7,8 +7,12 @@ Add small bold text to your map.
 **Example**
 
 ```
-label {
-  value: "© 2016 Kumu Inc.";
+@controls {
+  bottom-right {
+    label {
+      value: "© 2016 Kumu Inc.";
+    }
+  }
 }
 ```
 
