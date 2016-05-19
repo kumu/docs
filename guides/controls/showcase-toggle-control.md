@@ -2,7 +2,7 @@
 
 **Use**
 
-Add a control to activate [showcase](../advanced-settings.md#showcasing) via a list of labels, buttons or a dropdown menu.
+Add a control to activate [showcase](../advanced-settings.md#showcasing) for predefined selectors via a list of labels, buttons or a dropdown menu.
 
 **Example**
 
