@@ -2,10 +2,7 @@
 
 **Use**
 
-Add a control to toggle [showcase](../advanced-settings.md#showcasing). Can choose display options for the control:
-* `labels`: a list of labels
-* `buttons`: a button or buttons
-* `dropdown`: a dropdown menu of showcase options
+Add a control to activate [showcase](../advanced-settings.md#showcasing) via a list of labels, buttons or a dropdown menu.
 
 **Example**
 
@@ -34,10 +31,10 @@ Add a control to toggle [showcase](../advanced-settings.md#showcasing). Can choo
 
 **Supported properties**
 
-* `as`specifies the behavior of the control. Do you want a list of labels, a button to showcase, or a dropdown for various showcase options?
- * `labels` creates a list of clickable labels on the bottom of the map
- * `buttons` creates a button or buttons
+* `as`specifies the behavior of the control. Do you want a list of labels, buttons, or a dropdown for activating showcase?
+ * `labels` creates a list of clickable labels
+ * `buttons` creates a group of buttons
  * `dropdown` creates a dropdown with as many "options" as you specify below
 * `option` is included for each button, label, or dropdown menu item and nests the corresponding settings.
- *  `label` is the label for the button, label, or dropdown item.
- * `selector` supplies the [advanced clustering setting](../clustering.md#advanced-clustering) for that showcase option.
+ *  `label` is the visible text for each label, button, or dropdown item.
+ * `selector` supplies the [selector](../guides/selectors.html#selectors) for that item.

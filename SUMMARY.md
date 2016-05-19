@@ -19,6 +19,7 @@
     * [Text Control](guides/controls/text-control.md)
     * [Label control](guides/controls/label-control.md)
     * [Field-filter control](guides/controls/field-filter-control.md)
+    * [Showcase-toggle control](guides/controls/showcase-toggle-control.md)
     * [Cluster control](guides/controls/cluster-control.md)
     * [Tagged-timeline control](guides/controls/tagged-timeline-control.md)
     * [Color-legend control](guides/controls/color-legend-control.md)
