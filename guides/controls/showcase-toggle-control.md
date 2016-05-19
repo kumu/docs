@@ -37,4 +37,4 @@ Add a control to activate [showcase](../advanced-settings.md#showcasing) via a l
  * `dropdown` creates a dropdown with as many "options" as you specify below
 * `option` is included for each button, label, or dropdown menu item and nests the corresponding settings.
  *  `label` is the visible text for each label, button, or dropdown item.
- * `selector` supplies the [selector](../guides/selectors.html#selectors) for that item.
+ * `selector` supplies the [selector](../selectors.html#selectors) for that item.
