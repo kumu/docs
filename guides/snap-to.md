@@ -15,6 +15,8 @@ To snap-to line, follow these steps:
 6) (optional) Group or sort the elements in the line by right-clicking again on the map and selecting the pertinent option
 7) Press `enter` to save or `esc` to exit without saving.
 
+![snap to line](../images/linesnapto.png)
+
 ## Snap to circle
 
 To snap-to circle, follow these steps:
@@ -32,4 +34,4 @@ After snapping elements to a line or circle, if you right-click on the map again
 
 ## Group elements
 
-After using the snap to feature, if you right-click on the map again before hitting `enter` to save, you will see an option for "group by". This option allows you to group elements by a field value. Select the field in the menu to group elements by that value.
+After using the snap to feature, if you right-click on the map again before hitting `enter` to save, you will see an option for "group by". This option allows you to group elements by field values, and then sorts the entire list after the grouping is made. Select the field in the menu to group elements by that value.
