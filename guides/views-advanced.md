@@ -8,10 +8,10 @@ Let's warmup with a few basic decorations you can add for elements, connections 
 element {
  size: 20;
  color: #fafafa;
+ border-width: 2;
+ border-color: #333;
  shadow-size: 1.5;
  shadow-opacity: 0.6;
- stroke-width: 2;
- stroke-color: #333;
 }
 ```
 
