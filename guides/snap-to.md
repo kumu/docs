@@ -13,7 +13,8 @@ To snap-to line, follow these steps:
 4) Select "snap to line"
 5) (optional) Adjust the size of the line by scrolling on your mouse or trackpad
 6) (optional) Group or sort the elements in the line by right-clicking again on the map and selecting the pertinent option
-7) Press `enter` to save or `esc` to exit without saving.
+7) (optional) Hold `shift` while scrolling to adjust the angle of line. As you approach vertical, the line with snap to the 90 degree orientation.
+8) Press `enter` to save or `esc` to exit without saving.
 
 ![snap to line](../images/linesnapto.png)
 
