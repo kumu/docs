@@ -48,4 +48,3 @@ To snap to line, follow these steps:
 3. Adjust the spacing of the line by scrolling on your mouse or trackpad (optional)
 4. Group or sort the elements in the circle by right-clicking again on the map (optional)
 5. Press `enter` to save or `esc` to exit without saving.
->>>>>>> Stashed changes
