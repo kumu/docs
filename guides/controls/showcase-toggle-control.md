@@ -14,12 +14,12 @@ Add a control to activate [showcase](../advanced-settings.md#showcasing) for pre
       multiple: true;
 
       option {
-        label: 'People';
+        label: "People";
         selector: person;
       }
 
       option {
-        label: 'Orgs';
+        label: "Orgs";
         selector: organization;
       }
     }
