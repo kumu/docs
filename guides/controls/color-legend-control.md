@@ -2,39 +2,51 @@
 
 **Use**
 
-Add a color legend and optionally inherit colors from `element-color` set in `@settings`.
+Add a color legend to your map.
 
 **Example**
+
+Build a color-legend manually:
 
 ```
 @controls {
   bottom-left {
-    // inherited colors
-    color-legend {
-      colors: inherit;
-    }
-
-    // explicit colors
     color-legend {
       color {
         value: red;
-        label: "Red things";
+        label: "All the red things";
       }
 
       color {
         value: blue;
-        label: "Blue things";
+        label: "All the blue things";
       }
     }
   }
 }
+```
 
+Automatically build the `color-legend` from the `element-color` value in `@settings`:
+
+```
+@controls {
+  bottom-left {
+    color-legend {
+      colors: auto;
+    }
+  }
+}
+
+@settings {
+  element-color: categorize("Element type", set2);
+}
 ```
 
 **Supported properties**
 
-* `direction` vertical (default) or horizontal
-* `colors` accepts either inherit or inherit-element-color
-* `color` allows you to define each entry in the legend
-  * `value` is the color itself ("red" or "#BA462F")
-  * `label` is the text for the legend entry
+* `colors` defaults to `auto` and tries to build the list of colors and labels 
+
+The `color-legend` can be customized using nested `color` blocks which support the following properties:
+
+  * `value` the color itself ("red" or "#BA462F")
+  * `label` the text to put next to the color
