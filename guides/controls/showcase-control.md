@@ -71,7 +71,7 @@ Showcase by state and include neighboring elements, allowing multiple states to 
 @controls {
   bottom {
     showcase {
-      field: "State";
+      by: "State";
       mode: loose;
       multiple: true;
     }
@@ -85,7 +85,7 @@ Showcase by state using a dropdown menu, and include a placeholder with instruct
 @controls {
   bottom {
     showcase {
-      field: "State";
+      by: "State";
       as: dropdown;
       placeholder: "Select a state";
     }
