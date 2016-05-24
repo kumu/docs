@@ -50,6 +50,7 @@ Filter by defining options using [selectors](../selectors.html#selectors):
  * `false` allows only a single value to be showcased at a time
 * `placeholder` the text to display when nothing is selected (for `as: dropdown` only)
 * `target` a selector that controls which items the filter applies to. Defaults to `*`, which will apply the filter to all items.
+* `default` defines which field values should be selected by default (for `by: "field"` only)
 
 **Supported children**
 
@@ -89,19 +90,21 @@ Filter by location, but only for items that have a location:
 }
 ```
 
-Filter connections by toggling between two types:
+Filter connections by toggling between two types (with personal selected by default):
 
 ```
 @controls {
   top {
     filter {
+      target: connection;
       as: label;
       multiple: false;
-      target: connection;
+      default: "Personal";
 
       option {
         label: "Personal";
         selector: personal;
+        default: true;
       }
 
       option {

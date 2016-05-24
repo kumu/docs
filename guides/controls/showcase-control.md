@@ -55,6 +55,7 @@ Showcase using custom [selectors](../selectors.html#selectors):
  * `true` allow multiple values to be selected
  * `false` only allow one value to be selected at a time
 * `placeholder` the text to display when nothing is selected (for `as: dropdown` only)
+* `default` defines which field values should be selected by default (for `by: "field"` only)
 
 **Supported children**
 
@@ -62,6 +63,9 @@ If you want to use custom selectors to build the showcase, you'll need to list e
 
 * `label` the text to display for that option
 * `selector` the [selector](../selectors.html#selectors) to use for the showcase
+* `default`
+  * `true` value is selected by default
+  * `false` value is unselected by default
 
 ### Additional examples
 
