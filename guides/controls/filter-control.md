@@ -12,15 +12,11 @@ Filter by field:
 @controls {
   top {
     filter {
-      by: "Location";
-      target: element;
-      placeholder: "Select a location";
+      by: "element type";
     }
   }
 }
 ```
-
-
 
 Filter by defining options using [selectors](../selectors.html#selectors):
 
@@ -28,23 +24,14 @@ Filter by defining options using [selectors](../selectors.html#selectors):
 @controls {
   top {
     filter {
-      as: labels;
-      target: element;
-      multiple: true;
-
       option {
-        label: "Highly Influential";
-        selector: ["Influence"="High"];
+        label: "Influential";
+        selector: ["tags"*="influential"];
       }
 
       option {
-        label: "Somewhat Influential";
-        selector: ["Influence"="Medium"];
-      }
-
-      option {
-        label: "Not Influential";
-        selector: ["Influence"="High"];
+        label: "Emerging Leader";
+        selector: ["tags"*="emerging"];
       }
     }
   }
@@ -73,13 +60,15 @@ The filter options are defined by `option` blocks nested within the control. Eac
 
 ### More examples
 
-Filter elements by skills, and allow multiple skills to be selected:
+Filter elements by one ore more skills using a dropdown:
 
 ```
 @controls {
   top {
     filter {
       by: "Skills";
+      as: dropdown;
+      placeholder: "Select one or more skills"
       target: element;
       multiple: true;
     }
@@ -95,6 +84,30 @@ Filter by location, but only for items that have a location:
     filter {
       by: "Location";
       target: ["Location"];
+    }
+  }
+}
+```
+
+Filter connections by toggling between two types:
+
+```
+@controls {
+  top {
+    filter {
+      as: label;
+      multiple: false;
+      target: connection;
+
+      option {
+        label: "Personal";
+        selector: personal;
+      }
+
+      option {
+        label: "Business";
+        selector: business;
+      }
     }
   }
 }
