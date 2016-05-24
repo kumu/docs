@@ -1,4 +1,4 @@
-# Field-filter control
+# Filter by field control
 
 **Use**
 
@@ -9,7 +9,7 @@ Filter between one or more field values.
 ```
 @controls {
   top {
-    field-filter {
+    filter-by-field {
       field: "Location";
       target: element;
       placeholder: "Select a location";
@@ -35,7 +35,7 @@ Filter elements by skills, and allow multiple skills to be selected:
 ```
 @controls {
   top {
-    field-filter {
+    filter-by-field {
       field: "Skills";
       target: element;
       multiple: true;
@@ -49,7 +49,7 @@ Filter by location, but only for items that have a location:
 ```
 @controls {
   top {
-    field-filter {
+    filter-by-field {
       field: "Location";
       target: ["Location"];
     }

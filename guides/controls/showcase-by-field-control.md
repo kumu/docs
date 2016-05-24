@@ -1,4 +1,4 @@
-# Field-showcase control
+# Showcase by field control
 
 **Use**
 
@@ -9,7 +9,7 @@ Add a control to activate [showcase](../advanced-settings.md#showcasing) for a g
 ```
 @controls {
   bottom {
-    field-showcase {
+    showcase-by-field {
       field: "region";
       mode: normal;
       as: dropdown;
