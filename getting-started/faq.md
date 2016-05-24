@@ -2,7 +2,7 @@
 
 ### Can I share my maps with others?
 
-Of course! Check out the [sharing](../guides/sharing.md) guide to learn about embeds and screenshots or [add a collaborator](../guides/collaboration.md) to your project.
+Of course! [Create an embed](../guides/embeds.md) to share your map via a link or [add a collaborator](../guides/collaboration.md) to your project.
 
 ### Do you have high resolution screenshots available? Or a PDF?
 
@@ -75,4 +75,4 @@ Support for mobile is under development. You'll be able to access Kumu on iOS de
 
 ### How do I delete a project?
 
-To delete a project, go to the project menu found in the upper left of your map, then look for the "Admin" section on the left side of that menu. Within the admin section, you'll see a link to "delete a project." 
+To delete a project, go to the project menu found in the upper left of your map, then look for the "Admin" section on the left side of that menu. Within the admin section, you'll see a link to "delete a project."
