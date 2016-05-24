@@ -2,7 +2,7 @@
 
 **Use**
 
-Filter between one or more field values or defined selectors.
+Add a toggle control that allows viewers to filter by field values or custom selectors.
 
 **Example**
 
@@ -18,7 +18,7 @@ Filter by field:
 }
 ```
 
-Filter by defining options using [selectors](../selectors.html#selectors):
+Filter using custom [selectors](../selectors.html#selectors):
 
 ```
 @controls {
@@ -40,6 +40,7 @@ Filter by defining options using [selectors](../selectors.html#selectors):
 
 **Supported properties**
 
+* `target` a selector that controls which items the filter applies to. Defaults to `*`, which will apply the filter to all items.
 * `by` is the field you'd like to use for filtering wrapped in double quotes (if you don't include `by: field` you need to list out each option - see "supported children" guidance below)
 * `as` controls how the control is presented. Do you want a list of labels, buttons, or a dropdown for activating filter?
  * `labels` show options as a list of clickable labels
@@ -49,11 +50,10 @@ Filter by defining options using [selectors](../selectors.html#selectors):
  * `true` allows multiple values to be showcased
  * `false` allows only a single value to be showcased at a time
 * `placeholder` the text to display when nothing is selected (for `as: dropdown` only)
-* `target` a selector that controls which items the filter applies to. Defaults to `*`, which will apply the filter to all items.
 
 **Supported children**
 
-The filter options are defined by `option` blocks nested within the control. Each `option` supports the following properties:
+If you don't supply a field to filter by, each option must be listed separately. The available options are defined by `option` blocks nested within the control. Each `option` supports the following properties:
 
 * `label` the text to display for that option
 * `selector` the [selector](../selectors.html#selectors) to use for the filter
@@ -66,11 +66,11 @@ Filter elements by one ore more skills using a dropdown:
 @controls {
   top {
     filter {
+      target: element;
       by: "Skills";
       as: dropdown;
-      placeholder: "Select one or more skills"
-      target: element;
       multiple: true;
+      placeholder: "Select one or more skills"
     }
   }
 }
@@ -95,9 +95,9 @@ Filter connections by toggling between two types:
 @controls {
   top {
     filter {
+      target: connection;
       as: label;
       multiple: false;
-      target: connection;
 
       option {
         label: "Personal";
