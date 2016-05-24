@@ -1,13 +1,13 @@
-# Snap to
+# Snap-to
 
-*Snap to* makes it easy to arrange a group of elements as a circle or a line. This can be useful for creating rings of stakeholders based on whether they are core vs. periphery, positioning elements along a linear timeline, or just bringing more order to a complex map. It also brings additional grouping and sorting functionality to support analysis of complex data.
+Snap-to makes it easy to arrange a group of elements as a circle or a line. This can be useful for creating rings of stakeholders based on whether they are core vs. periphery, positioning elements along a linear timeline, or just bringing more order to a complex map. It also brings additional grouping and sorting functionality to support analysis of complex data.
 
 ![snap to](../images/Screen Shot 2016-05-19 at 4.57.15 PM.png)
 
 ![snap to line](../images/linesnapto.png)
 
 ## 1. Picking a selection
-To get started using *snap to*, select one or more elements. You can do this by holding `shift` and dragging your mouse to draw a selection box over part of the map or by clicking the search bar at the top of the map and then using the rocket icon (<i class="fa fa-rocket"></i>) to build a [selector](/selectors.md).
+To get started using snap-to, select one or more elements. You can do this by holding `shift` and dragging your mouse to draw a selection box over part of the map or by clicking the search bar at the top of the map and then using the rocket icon (<i class="fa fa-rocket"></i>) to build a [selector](/selectors.md).
 
 ## 2. Arranging as a circle or line
 After you've selected multiple elements, right click and choose "snap to" from the menu. You'll then need to pick whether you want to arrange the elements as a circle ("snap to circle") or a line ("snap to line").
