@@ -55,7 +55,7 @@ Showcase using custom [selectors](../selectors.html#selectors):
  * `true` allow multiple values to be selected
  * `false` only allow one value to be selected at a time
 * `placeholder` the text to display when nothing is selected (for `as: dropdown` only)
-* `default` defines which field values should be selected by default (for `by: "field"` only)
+* `default` defines which field values should be selected by default (for `by: "field"` only). Use `select-all` to select everything by default.
 
 **Supported children**
 
@@ -92,6 +92,19 @@ Showcase by state using a dropdown menu, and include a placeholder with instruct
       by: "State";
       as: dropdown;
       placeholder: "Select a state";
+    }
+  }
+}
+```
+
+Showcase by state and select all states by default:
+
+```
+@controls {
+  bottom {
+    showcase {
+      by: "State";
+      default: select-all;
     }
   }
 }
