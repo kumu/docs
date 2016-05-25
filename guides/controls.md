@@ -125,7 +125,7 @@ In the example below, we call the `option` blocks the "children" of the `showcas
 
 ### Overriding built-in controls
 
-All of Kumu's built-in controls (search, zoom buttons, settings buttons) are now handled by the same platform that custom controls are built on. That means you can move the built-in controls around, omit ones you don't need, or even reset the built-in controls and start from scratch.
+All of Kumu's built-in controls (search, zoom buttons, settings buttons, and legend) are now handled by the same platform that custom controls are built on. That means you can move the built-in controls around, omit ones you don't need, or even reset the built-in controls and start from scratch.
 
 By default, @controls looks like this:
 
@@ -139,6 +139,10 @@ By default, @controls looks like this:
     zoom-toolbar {}
     settings-toolbar {}
   }
+  
+  bottom-left {
+    legend {}
+  }
 }
 ```
 
@@ -151,6 +155,7 @@ If you wanted to keep search but drop the others you could use:
   }
   
   top-right {}
+  bottom-left {}
 }
 ```
 
