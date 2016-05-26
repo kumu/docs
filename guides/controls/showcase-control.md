@@ -55,6 +55,7 @@ Showcase using custom [selectors](../selectors.html#selectors):
  * `true` allow multiple values to be selected
  * `false` only allow one value to be selected at a time
 * `placeholder` the text to display when nothing is selected (for `as: dropdown` only)
+* `summary` override the summary that's shown for the current selection (for `as: dropdown`). The summary will be shown regardless of what's selected so there's no need to use `placeholder` in this case.
 * `default` defines which field values should be selected by default (for `by: "field"` only). Use `select-all` to select everything by default.
 
 **Supported children**
