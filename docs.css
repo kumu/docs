@@ -7,7 +7,7 @@ img {
   display: block;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal p, .book .book-body .page-wrapper .page-inner section.normal a, .book .book-body .page-wrapper .page-inner section.normal ul, .book .book-body .page-wrapper .page-inner section.normal ol, .book .book-body .page-wrapper .page-inner section.normal li {
+.book .book-body .page-wrapper .page-inner #book-search-results p, .book .book-body .page-wrapper .page-inner section.normal p, .book .book-body .page-wrapper .page-inner section.normal a, .book .book-body .page-wrapper .page-inner section.normal ul, .book .book-body .page-wrapper .page-inner section.normal ol, .book .book-body .page-wrapper .page-inner section.normal li {
   font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   font-weight: 400;
@@ -345,6 +345,14 @@ table.property-table {
 
 #book-search-results .search-results .search-results-title {
     text-transform: none;
-    font-weight: 200;
-    opacity: 0.6;
+    font-weight: 700;
+    opacity: 1;
+    color: #333;
+    text-align:left;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+#book-search-results .search-results .no-results {
+  padding-top: 0;
 }
