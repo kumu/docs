@@ -80,4 +80,4 @@ And here's a sample of what your connection spreadsheet might look like:
   </tbody>
 </table>
 
-<a class="btn" href="/decorations.md">Next: Creating data-driven decorations</a>
+<a class="btn" href="decorations.md">Next: Creating data-driven decorations</a>

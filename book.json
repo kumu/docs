@@ -1,9 +1,8 @@
 {
-    "gitbook": "3.0.0-pre.15",
+    "gitbook": "3.1.X",
     "title": "Kumu Help Docs",
     "description": "",
-    "theme": "theme-default",
-    "plugins": ["layout", "anchors", "video", "algolia", "theme-default"],
+    "plugins": ["layout", "anchors", "video", "algolia"],
     "structure": {
         "readme": "introduction.md"
     },

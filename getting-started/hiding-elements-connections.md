@@ -20,4 +20,4 @@ Focus works by showing only the portion of the network within a certain number o
 
 When you click the focus button, you'll be prompted with a menu of how many degrees out you'd like to focus. Once focus is activated, you can click and hold on any element to bring that element's direct connections into view.
 
-<a class="btn" href="/projects-vs-maps-vs-views.md">Next: Projects vs maps vs views</a>
+<a class="btn" href="projects-vs-maps-vs-views.md">Next: Projects vs maps vs views</a>

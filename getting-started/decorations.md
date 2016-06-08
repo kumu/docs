@@ -26,4 +26,4 @@ Use the top dropdowns to indicate which elements should be decorated, and then u
 
 Decorating connections is quite similar to decorating elements. Just follow the instructions above but choose the "add connection rule" button instead.
 
-<a class="btn" href="/hiding-elements-connections.md">Next: Hiding elements and connections</a>
+<a class="btn" href="hiding-elements-connections.md">Next: Hiding elements and connections</a>

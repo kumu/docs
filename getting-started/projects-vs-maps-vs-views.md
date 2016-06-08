@@ -24,4 +24,4 @@ Maps are a collection of elements and connections. They essentially include a su
 
 Views are a collection of decorations and settings which control what the map looks like and what is visible. Views include filters, focus, decorations, and settings.
 
-<a class="btn" href="/basic-vs-advanced-editor.md">Next: Basic vs advanced editor</a>
+<a class="btn" href="basic-vs-advanced-editor.md">Next: Basic vs advanced editor</a>

@@ -2,7 +2,7 @@
 
 **Use**
 
-Add a custom image.
+The image control can be used to overlay an image on top of your map. This is a great way to add custom legends, charts, or graphics to support the current view.
 
 **Example**
 
@@ -10,7 +10,7 @@ Add a custom image.
 @controls {
   bottom-right {
     image {
-      src: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg);
+      src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg";
       height: 140;
     }
   }
@@ -19,5 +19,6 @@ Add a custom image.
 
 **Supported properties**
 
-* `src` defines the URL for the image. Place the url within `url()`.
-* `height` is the height of the image in pixels, written without units.
+* `src` the url of the image to include (must be wrapped in quotes)
+* `width` override the width of the image (optional)
+* `height` override the height of the image (optional)

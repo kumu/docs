@@ -16,4 +16,4 @@ Use the SNA template anytime you are mapping large networks (>1000 elements). Th
 ## Custom template
 If you'd like to start out without any custom decorations or settings, choose the custom template. This template uses our layout algorithm to position elements automatically.
 
-<a class="btn" href="/building-your-first-map.md">Next: Building your first map</a>
+<a class="btn" href="building-your-first-map.md">Next: Building your first map</a>

@@ -280,6 +280,16 @@ and its core (image / bullseye).
 "></i></td>
   </tr>
 
+  <tr data-property="pattern">
+    <td>pattern</td>
+    <td><i class="fa fa-cancel"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-cancel"></i></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the pattern of a connection (solid / dashed).
+<code>number</code>
+"></i></td>
+  </tr>
+
   <tr data-property="size">
     <td>size</td>
     <td><i class="fa fa-check"></i></td>

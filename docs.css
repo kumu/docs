@@ -1,10 +1,16 @@
-h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, table, td, dl, dt, dd, footer {
-  font-family: 'Open Sans',"proxima-nova", "Proxima Nova", "Helvetica Neue", sans-serif;
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, table, td, dl, dt, dd, footer, input {
+  font-family: "proxima-nova", "Proxima Nova", "Helvetica Neue", sans-serif;
 }
 
 img {
   margin: 0 auto;
   display: block;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal p, .book .book-body .page-wrapper .page-inner section.normal a, .book .book-body .page-wrapper .page-inner section.normal ul, .book .book-body .page-wrapper .page-inner section.normal ol, .book .book-body .page-wrapper .page-inner section.normal li {
+  font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal h2 {
@@ -128,33 +134,32 @@ img {
 /* search always visible for us */
 .book .book-summary ul.summary {
   top: 0 !important;
-  padding-top: 55px !important;
 }
 
 .book .book-summary ul.summary li.divider {
   display: none !important;
 }
 
-.book .book-summary .book-search {
+.book .book-summary #book-search-input {
   z-index: 1;
   top: 0;
   padding: 12px 15px;
-  color: #fff;
-  background-color: #2d3134;
+  color: #777;
+  //background-color: #2d3134;
   opacity: 0.95;
 }
 
-.book .book-summary .book-search input,
-.book .book-summary .book-search input:focus,
-.book .book-summary .book-search input:hover {
-  padding: 3px 20px;
+.book .book-summary #book-search-input input,
+.book .book-summary #book-search-input input:focus,
+.book .book-summary #book-search-input input:hover {
+  padding: 3px 0px;
   background: none;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 50px;
+  //background-color: rgba(255, 255, 255, 0.01);
+  //border-radius: 50px;
 }
 
 .summary > .chapter {
-  margin: 1em 0 2em;
+  margin: 0 0 1em;
 }
 
 .chapter b {
@@ -162,17 +167,17 @@ img {
 }
 
 .book .book-summary {
-  color: #777;
-  background: #2d3134;
+  color: #333;
+  //background: #2d3134;
 }
 
 .book .book-summary ul.summary li a,
 .book .book-summary ul.summary li span {
   padding: 5px 15px;
-  color: #C8D1D5;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
+  color: #333;
+  //font-size: 12px;
+  //font-weight: bold;
+  //text-transform: uppercase;
 }
 
 .book .book-summary ul.summary li.done > a {
@@ -328,3 +333,18 @@ table.property-table {
   left: 4px;
 }
 */
+
+/* Search results customizations */
+.powered-by-algolia {
+  display: none;
+}
+
+#book-search-results .search-results ul.search-results-list li {
+    margin-bottom: 3.5rem;
+}
+
+#book-search-results .search-results .search-results-title {
+    text-transform: none;
+    font-weight: 200;
+    opacity: 0.6;
+}
