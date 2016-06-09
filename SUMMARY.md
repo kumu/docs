@@ -2,12 +2,13 @@
 
 ## Getting started
 * [Welcome](welcome.md)
-* [Create an account](getting-started/overview.md)
-* [Pick a template](getting-started/overview.md#picking-a-template-permalink)
-* [Build your first map](getting-started/overview.md#building-your-first-map-permalink)
-* [Add a decoration](getting-started/overview.md#decorations-permalink)
-* [Refine your view](getting-started/overview.md#hiding-elements-connections-permalink)
-* [Add a collaborator](getting-started/overview.md#adding-a-collaborator-permalink)
+* [Overview](getting/started/overview.md)
+  * [Create an account](getting-started/overview.md)
+  * [Pick a template](getting-started/overview.md#picking-a-template-permalink)
+  * [Build your first map](getting-started/overview.md#building-your-first-map-permalink)
+  * [Add a decoration](getting-started/overview.md#decorations-permalink)
+  * [Refine your view](getting-started/overview.md#hiding-elements-connections-permalink)
+  * [Add a collaborator](getting-started/overview.md#adding-a-collaborator-permalink)
 * [FAQ](getting-started/faq.md)
 
 ## Overview
