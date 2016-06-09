@@ -15,6 +15,8 @@ Kumu supports hundreds of organizations across the world to more effectively eng
 Kumu is more than just a tool. It's also a robust community of do-ers who are paving the way for how to create lasting impact. Don't miss the [manifesto](https://kumu.io/manifesto) and make sure to check out our curated team of expert consultants available to help on your next project called [the Kumus](https://kumu.io/community).
 
 ## This is Kumu
-{% video %}https://vimeo.com/135341213{% endvideo %}
+
+<iframe src="https://player.vimeo.com/video/135341213" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/about/what-is-kumu.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

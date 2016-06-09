@@ -2,9 +2,6 @@
 
 Looking to create engaging system maps with the power to change hearts and minds? You've come to the right place. Kumu enables you to build interactive maps with narratives, links, video and other background for each element, connection, and loop in the map.
 
-<!-- REMEMBER TO ADD NEW SYSTEMS MAPPING VIDEO
-{% video %}https://vimeo.com/99685006{% endvideo %}
--->
 
 ## Building the basic structure of a map
 

@@ -75,8 +75,5 @@ Support for mobile is under development. You'll be able to access Kumu on iOS de
 ### How do I delete a project?
 
 To delete a project, go to the project menu found in the upper left of your map, then look for the "Admin" section on the left side of that menu. Within the admin section, you'll see a link to "delete a project."
-<<<<<<< HEAD
-=======
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/getting-started/faq.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
->>>>>>> master

@@ -1,10 +1,10 @@
 {
-    "gitbook": "3.1.X",
+    "gitbook": "3.1.0",
     "title": "Kumu Help Docs",
     "description": "",
-    "plugins": ["layout", "anchors", "video", "algolia"],
+    "plugins": ["layout", "algolia", "heading-anchors"],
     "structure": {
-        "readme": "introduction.md"
+        "readme": "welcome.md"
     },
     "pluginsConfig": {
         "layout": {

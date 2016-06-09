@@ -21,5 +21,3 @@ Click "switch to advanced editor" at the bottom of the sidebar to open the advan
 </span>
 
 Everything you change in the basic editor is automatically transferred into raw code in the advanced editor.
-
-<a class="btn" href="adding-a-collaborator.md">Next: Adding a collaborator</a>
