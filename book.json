@@ -1,13 +1,20 @@
 {
-    "gitbook": "2.6.7",
-    "plugins": ["layout", "anchors", "video"],
+    "gitbook": "3.1.0",
+    "title": "Kumu Help Docs",
+    "description": "",
+    "plugins": ["layout", "algolia", "heading-anchors"],
     "structure": {
-        "readme": "introduction.md"
+        "readme": "welcome.md"
     },
     "pluginsConfig": {
         "layout": {
             "headerPath" : "layouts/header.html",
             "footerPath" : "layouts/footer.html"
+        },
+        "algolia": {
+            "index":         "help_docs",
+            "applicationID": "23THKR3GLD",
+            "publicKey":     "ab592b719fd61c14cfd087597a9398d4"
         }
     }
 }

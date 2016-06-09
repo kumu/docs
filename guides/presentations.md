@@ -3,7 +3,8 @@
 Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. Combine text, video, images and maps into a single, engaging presentation that anyone can access via URL.
 
 
-{% video %}https://vimeo.com/118975099{% endvideo %}
+<iframe src="https://player.vimeo.com/video/118975099" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 ## Creating a presentation
 

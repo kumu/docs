@@ -1,4 +1,4 @@
-<h1>Welcome to Kumu</h1>
+# The essentials
 
 This page contains everything you need to hit the ground running with Kumu. Carve out 20 minutes to review this page and you'll have awareness of at least 80% of Kumu's features. Then explore the guides to learn all that Kumu has to offer.
 

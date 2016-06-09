@@ -2,7 +2,8 @@
 
 Imports make it quick and easy to start visualizing your existing data, but you'll need to make a few tweaks before your file is ready for import.
 
-{% video %}https://vimeo.com/96531654{% endvideo %}
+<iframe src="https://player.vimeo.com/video/96531654" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 ## Preparing your file for import
 
