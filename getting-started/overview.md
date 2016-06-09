@@ -1,4 +1,5 @@
 # Overview
+This overview is a great place to start if you're new to Kumu. Take 10 minutes to read it through from end to end!
 
 ## Create an account
 
