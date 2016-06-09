@@ -2,7 +2,7 @@
 
 ## Getting started
 * [Welcome](welcome.md)
-* [Create an account](getting-started/overview.md#create-an-account)
+* [Create an account](getting-started/overview.md)
 * [Pick a template](getting-started/overview.md#picking-a-template-permalink)
 * [Build your first map](getting-started/overview.md#building-your-first-map-permalink)
 * [Add a decoration](getting-started/overview.md#decorations-permalink)

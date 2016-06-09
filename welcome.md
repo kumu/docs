@@ -8,10 +8,10 @@ Looking to learn how to use Kumu? You're in the right place. We've broken up the
       <h3>I'm just getting started</h3>
       <p> If you're new to Kumu, stick to the getting started section until you get your bearings.</p>
       <ul>
-        <li><a href="/getting-started/building-your-first-map.html"><i class="fa fa-arrow-circle-o-right"></i>Building your first map</a></li>
+        <li><a href="/getting-started/overview.html#building-your-first-map-permalink"><i class="fa fa-arrow-circle-o-right"></i>Building your first map</a></li>
       </ul>
       <ul>
-        <li><a href="/getting-started/decorations.html"><i class="fa fa-arrow-circle-o-right"></i>Adding decorations</a></li>
+        <li><a href="/getting-started/overview.html#decorations-permalink"><i class="fa fa-arrow-circle-o-right"></i>Adding decorations</a></li>
       </ul>
       <ul>
         <li><a href="/getting-started/faq.html"><i class="fa fa-arrow-circle-o-right"></i>Frequently asked questions</a></li>
