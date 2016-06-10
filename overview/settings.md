@@ -10,7 +10,7 @@ You can edit settings for each project, map and view in Kumu.
 *After reading this you'll know:*
 
 * Where to find project, map, and view settings
-* Which options available in each
+* Which options are available in each
 * Where to go for additional guidance on changing the settings
 
 ## Locations of the various settings menus
