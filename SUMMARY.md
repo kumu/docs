@@ -18,11 +18,11 @@
 * [Data architecture](overview/data-architecture.md)
 * [Basic vs advanced editor](overview/basic-vs-advanced-editor.md)
 * [Personal and organization accounts](overview/personal-and-organization-accounts.md)
+* [Collaborating and sharing](overview/collaboration.md)
 
 ## Guides
 * [Advanced settings](guides/advanced-settings.md)
 * [Clustering](guides/clustering.md)
-* [Collaboration](guides/collaboration.md)
 * [Controls](guides/controls.md)
   * [Title Control](guides/controls/title-control.md)
   * [Text Control](guides/controls/text-control.md)
