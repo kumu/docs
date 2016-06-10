@@ -1,6 +1,6 @@
 # Fields
 
-Fields allow you to save additional data about the elements, connections and loops in your map. Creative whatever fields you need and modify the settings to enable things like checklists, prompts, currencies, and much more.
+Fields allow you to save additional data about the elements, connections and loops in your map. Create whatever fields you need and modify the settings to enable things like checklists, prompts, currencies, and much more.
 
 ## Add a field
 To add a field, select an element or connection and then click the "+ New Field" button in the sidebar. You'll be prompted to name the field and then provide a value for the given selection.
