@@ -4,8 +4,8 @@ You can edit settings for each project, map and view in Kumu.
 
 *Before diving in, make sure you:*
 
-* Understand what a view is
-* Know how maps relate to projects
+* [Understand what a view is](../guides/views.md)
+* [Know how maps relate to projects](../overview/data-architecture.md)
 
 *After reading this you'll know:*
 
@@ -32,7 +32,7 @@ Within the project settings, you have the following options:
 * **Issues.** Access issues for the particular project. Issues give you and your team a forum to discuss the project and suggest changes and improvements as you’re collaborating on a map.
 * **Help.** Access videos, docs, and keyboard shortcuts.
 * **Fields.** Manage the [fields](../guides/fields.md) for your project. Add and edit new fields, change field relevance (which fields appear in the profiles for elements, connections, and loops), and manage field appearance and behavior.
-* **Members.** Give others access to edit your map. Learn more about [collaborating in Kumu](..overview/collaboration.md).
+* **Members.** Give others access to edit your map. Learn more about [collaborating in Kumu](../overview/collaboration.md).
 * **Embeds.** Create an iFrame to [embed](../guides/embeds.md) your map on another site.  
 * **Trash.** View and empty the project trash. If you delete an element from a map (and it isn't included in any other map), it ends up in the trash. Remember to empty your trash before reimporting a spreadsheet to make sure the elements and connections from the trash aren't pulled back into the map!
 * **Admin.** Switch from public to private (and vice versa), delete a project, or rename a project.
