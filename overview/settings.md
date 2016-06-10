@@ -28,15 +28,15 @@ Project settings are accessed via the menu in the upper left of your map.
 Within the project settings, you have the following options:
 
 * **Overview.** Add a project overview for everyone to see. On this page, you can also add a project license and access our Licensing Guide if you need help.
-* **Presentations.** Create, edit, and publish presentations to walk others through your project. Break apart complexity using the slide format of presentations, adding text, images, videos, and snapshots of your maps.
+* **Presentations.** Create, edit, and publish [presentations](../guides/presentations.md) to walk others through your project. Break apart complexity using the slide format of presentations, adding text, images, videos, and snapshots of your maps.
 * **Issues.** Access issues for the particular project. Issues give you and your team a forum to discuss the project and suggest changes and improvements as you’re collaborating on a map.
 * **Help.** Access videos, docs, and keyboard shortcuts.
-* **Fields.** Manage the fields for your project. Add and edit new fields, change field relevance (which fields appear in the profiles for elements, connections, and loops), and manage field appearance and behavior.
-* **Members.** Give others access to edit your map.
-* **Embeds.** Create an iFrame to embed your map on another site.  
+* **Fields.** Manage the [fields](../guides/fields.md) for your project. Add and edit new fields, change field relevance (which fields appear in the profiles for elements, connections, and loops), and manage field appearance and behavior.
+* **Members.** Give others access to edit your map. Learn more about [collaborating in Kumu](..overview/collaboration.md).
+* **Embeds.** Create an iFrame to [embed](../guides/embeds.md) your map on another site.  
 * **Trash.** View and empty the project trash. If you delete an element from a map (and it isn't included in any other map), it ends up in the trash. Remember to empty your trash before reimporting a spreadsheet to make sure the elements and connections from the trash aren't pulled back into the map!
 * **Admin.** Switch from public to private (and vice versa), delete a project, or rename a project.
-* **Fork project.** Create a copy of a project.
+* **Fork project.** Create a copy of a project. Learn more about [forking](../guides/forking.md).
 * **Switch project.** Navigate back to your dashboard to work in a different project.
 * **New project.** Create a new project.
 
@@ -86,3 +86,5 @@ View settings are accessed via the settings button on the right side of the map.
   * **Template.** Switch the underlying template for the view. We’ve set up the templates to quickly get you started with building and decorating a map.
   * **Quality.** Stick with `high` (circular elements, curved connections) unless you have a large map (>1000 elements). `Low/fast` (square elements, straight connections) improves the performance of large maps.
   * **Layout.** Change the layout that drives the positions for elements. Turning the layout `off` will prompt you to pin all elements. `Force-directed` will position elements automatically using our custom algorithm.
+ 
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/settings.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
