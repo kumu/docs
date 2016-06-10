@@ -30,8 +30,11 @@ Now that you've chosen a template, you'll land on this blank screen:
 
 ![](/images/blank-ui.png)
 
-Your first step is to decide whether you will be building your map by hand or importing from a spreadsheet.
+Your first step is to decide where the data in your map will come from. There are three ways to build a map:
 
+<span class="plain">
+![](/images/three-ways-to-build.png)
+</span>
 
 ### Build your map by hand
 
@@ -45,66 +48,18 @@ Your first step is to decide whether you will be building your map by hand or im
 
 **Alt and click or click & drag.** Alt is a great shortcut for building a map. Hold alt and click anywhere on the map to add an element. Hold alt and drag from an existing element to add a connection.
 
-### Import data
+### Import data from a spreadsheet
 
 **Import data from a spreadsheet.** Drag a spreadsheet onto the map or click the green "+" button at the bottom of the map. Make sure your spreadsheet (.xlsx or .csv) includes the following columns:
 
 - *For elements:* Label, Type (optional), Description (optional)
 - *For connections:* From, To, Type (optional), Label (optional)
 
-Additional fields can be imported by including extra columns in your spreadsheet. Here's an example:
+Additional fields can be imported by including extra columns in your spreadsheet. Make sure to read the [import guide](/guides/import.html) to learn how to structure your spreadsheet correctly.
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Label</th>
-      <th>Type</th>
-      <th>Description</th>
-      <th>Tags</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Jeff Mohr</td>
-      <td>Person</td>
-      <td>Co-Founder and CEO, always<br> up for learning</td>
-      <td>Founder|Male|Runner</td>
-    </tr>
-    <tr>
-      <td>Kumu</td>
-      <td>Company</td>
-      <td>A web-based platform<br>for mapping relationships...</td>
-      <td>Mapping|Technology</td>
-    </tr>
-  </tbody>
-</table>
+### Sync to a google sheet
 
-And here's a sample of what your connection spreadsheet might look like:
-
-<table class="table">
-  <thead>
-    <tr>
-      <th>From</th>
-      <th>To</th>
-      <th>Type</th>
-      <th>Strength</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Barack</td>
-      <td>Michelle</td>
-      <td>Personal</td>
-      <td>Strong</td>
-    </tr>
-    <tr>
-      <td>Ed Snowden</td>
-      <td>NSA</td>
-      <td>Contractor</td>
-      <td>It's complicated</td>
-    </tr>
-  </tbody>
-</table>
+You can [link a map to a google sheet](/guides/import.html#integrating-with-google-sheets) so that everytime the map is loaded, the latest data from the google sheet is pulled into the map.
 
 ## Decorating elements and connections<a id="decorations-permalink"></a>
 
