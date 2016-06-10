@@ -58,6 +58,7 @@
 * [Project architecture/organization](guides/project-architecture.md)
 * [Selectors](guides/selectors.md)
 * [Shortcuts](guides/shortcuts.md)
+* [Showcase](guides/showcase.md)
 * [Snap-to](guides/snap-to.md)
 * [Templates](guides/templates.md)
 * [Tracking](guides/tracking.md)
