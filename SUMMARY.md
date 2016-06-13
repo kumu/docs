@@ -11,6 +11,7 @@
   * [Add a collaborator](getting-started/overview.md#adding-a-collaborator-permalink)
 * [FAQ](getting-started/faq.md)
   * [How do I delete a project?](faq/how-do-i-delete-a-project.md)
+  * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
 
 ## Overview
 * [The essentials](overview/the-essentials.md)
