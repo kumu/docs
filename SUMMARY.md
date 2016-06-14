@@ -10,8 +10,6 @@
   * [Refine your view](getting-started/overview.md#hiding-elements-connections-permalink)
   * [Add a collaborator](getting-started/overview.md#adding-a-collaborator-permalink)
 * [FAQ](getting-started/faq.md)
-  * [How do I delete a project?](faq/how-do-i-delete-a-project.md)
-  * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
 
 ## Overview
 * [The essentials](overview/the-essentials.md)
@@ -82,3 +80,7 @@
 * [Restoring enterprise data](enterprise/restoring-enterprise-data.md)
 * [Command line utilities](enterprise/command-line-utilities.md)
 * [Changelog](enterprise/changelog.md)
+
+## Frequently Asked Questions
+* [How do I delete a project?](faq/how-do-i-delete-a-project.md)
+* [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
