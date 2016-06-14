@@ -1,19 +1,11 @@
 {% extends template.self %}
 
-{% block body %}
+{% block head %}
+<link rel="stylesheet" href="/docs.css">
+{% endblock %}
 
+{% block javascript %}
 {{ super() }}
-
-<!-- FitVids.js -->
-
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.js"></script>
-<script>
-  $(document).ready(function(){
-    $("body").fitVids();
-  });
-</script> -->
-
 
 <!-- typekit -->
 <script src="https://use.typekit.net/oeq2prw.js"></script>
@@ -24,9 +16,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<!-- custom -->
-<link rel="stylesheet" href="/docs.css">
-<script src="/docs.js"></script>
+<!-- FitVids.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.js"></script>
 
 <!-- google analytics -->
 <script>
@@ -39,6 +30,18 @@
   ga('send', 'pageview');
 </script>
 
+<!-- custom -->
+<script type="text/javascript">
+  // NOTE: we inlined the script so gitbook watch picks up changes
+  gitbook.events.bind("start", init);
+  gitbook.events.bind("page.change", init);
 
+  // The start event never fires so we just call init ourselves on dom ready.
+  $(init);
 
+  function init() {
+    $("[title]").tooltip();
+    $("body").fitVids();
+  }
+</script>
 {% endblock %}
