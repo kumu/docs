@@ -1,6 +1,6 @@
-# Advanced Settings
+# @settings
 
-Certain features of Kumu are only exposed via the advanced editor of your current view. Here's your guide to those features:
+Certain features of Kumu are only exposed via the advanced editor of your current view within an `@settings` block. Here's your guide to those features:
 
 ## Custom clustering
 
@@ -98,7 +98,7 @@ connection["level of influence"="low"] {
 
 ## Adding grid lines
 
-You can add a grid to the background of your map using this line in the @settings block: 
+You can add a grid to the background of your map using this line in the @settings block:
 
 ```
 @settings {
