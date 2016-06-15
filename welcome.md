@@ -24,7 +24,7 @@ Looking to learn how to use Kumu? You're in the right place. We've broken up the
     <h3>I'm ready to dive deeper</h3>
     <p>Once you've gotten the hang of Kumu, explore the guides section.</p>
     <ul>
-      <li><a href="/guides/views.html"><i class="fa fa-arrow-circle-o-right"></i>Views / style sheets</a></li>
+      <li><a href="/guides/views.html"><i class="fa fa-arrow-circle-o-right"></i>Views</a></li>
     </ul>
     <ul>
       <li><a href="/guides/clustering.html"><i class="fa fa-arrow-circle-o-right"></i>Clustering</a></li>
