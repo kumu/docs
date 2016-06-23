@@ -4,6 +4,9 @@ Selectors provide a simple way to select items within your project.
 They're used everywhere in Kumu (views, filter, focus, finder, showcase...
 you get the point!) so you better cozy up to them.
 
+<iframe src="https://player.vimeo.com/video/171843678" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
 You can build selectors by hand, or you can use our selector builder while you're
 still getting comfortable with them (look for the rocket icon once you click on search)
 
