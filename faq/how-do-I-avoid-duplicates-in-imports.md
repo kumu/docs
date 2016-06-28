@@ -1,6 +1,6 @@
 # How do I avoid duplicate elements in imports?
 
-If you are finding duplicate elements or connections in your map, then you’ll first need to understand how we reconcile spreadsheet imports within Kumu: We reconcile new elements by label and by type.
+If you are finding duplicate elements or connections in your map, then you’ll first need to understand how we reconcile spreadsheet imports within Kumu: *We reconcile new elements by label and by type*.
 
 **Things to consider**
 
