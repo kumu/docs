@@ -9,4 +9,4 @@ If you’ve found _a lot of duplicates in your map_, try following these steps t
 - Click “Destroy All” to empty the trash and prepare your map for a fresh import.
 - Re-import your spreadsheet into your map.
 
-**Note**: We reconcile elements in imports by “label” and by “type.” So, if you change anything in the “label” or “type” columns in your import spreadsheet, a duplicate element will be created. To avoid this, check out [How to avoid duplicates in my map?](/how-do-I-avoid-duplicates-in-imports.md).
+**Note**: We reconcile elements in imports by “label” and by “type.” So, if you change anything in the “label” or “type” columns in your import spreadsheet, a duplicate element will be created. To avoid this, check out [How to avoid duplicates in my map?](how-do-I-avoid-duplicates-in-imports.md).
