@@ -6,6 +6,6 @@ If you are finding duplicate elements or connections in your map, then you’ll 
 
 * If you change anything in the label or type columns in your spreadsheet, that will create a duplicate element.
 * Keep label and type for elements the same from import to import, or you’ll have to go through the process of clearing things out and re-importing them (see “How do I get rid of duplicate elements?” for those steps).
-* If you need to have elements with the same label and different types, you should use [custom IDs](http://docs.kumu.io/guides/selector-reference.html#assigned).
-* If you find you’re creating a lot of duplicate elements in your iterative process of building the map, consider using our [google sheets integration](http://docs.kumu.io/guides/import.html#integrating-with-google-sheets), which will keep things up to date as you go.
+* If you need to have elements with the same label and different types, you should use [custom IDs](/guides/selector-reference.html#assigned).
+* If you find you’re creating a lot of duplicate elements in your iterative process of building the map, consider using our [google sheets integration](/guides/import.html#integrating-with-google-sheets), which will keep things up to date as you go.
 * To delete duplicates, check out these steps.
