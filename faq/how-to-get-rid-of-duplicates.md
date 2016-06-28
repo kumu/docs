@@ -5,7 +5,7 @@ If you find _a few duplicates in your map_, it’s best to delete them by hand b
 If you’ve found _a lot of duplicates in your map_, try following these steps to remove them:
 - Using the “remove duplicates” feature in Excel, check to make sure there are no duplicates and then remove them in your spreadsheet.
 - In your map, hit `a` to select all elements and connections. Delete them.
-- Click on [Project Settings](http://docs.kumu.io/overview/settings.html#locations-of-the-various-settings-menus) and then “Trash” to go to the Project Trash.
+- Click on [Project Settings](/overview/settings.html#locations-of-the-various-settings-menus) and then “Trash” to go to the Project Trash.
 - Click “Destroy All” to empty the trash and prepare your map for a fresh import.
 - Re-import your spreadsheet into your map.
 
