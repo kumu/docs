@@ -85,4 +85,4 @@
 * [How do I delete a project?](faq/how-do-i-delete-a-project.md)
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
 * [How do I get rid of duplicates?](faq/how-to-get-rid-of-duplicates.md)
-* [How do I avoid duplicate elements in imports?](faq/how-do-I-avoid-duplicates-in-imports.md )
+* [How do I avoid duplicate elements in imports?](faq/how-do-I-avoid-duplicates-in-imports.md)
