@@ -1,5 +1,34 @@
 # Changelog
 
+## Version 1.7.0
+
+**Updated ksb, released 2016-07-13**
+
+The latest release of Kumu Enterprise includes the completely redesigned UI,
+along with custom controls, scatter plots, project forking, and more!
+
+Only the .ksb is required for this release but please make sure to
+back up your installation before upgrading.
+
+- Completely redesigned the UI to be easier to use
+- Added custom controls
+- Added scatter plots
+- Added sketch mode
+- Added right-click menu with snap to line/circle
+- Added full-text search within projects
+- Added full-screen support
+- Added `:not()` and `:filter()` selectors
+- Added support for dashed connections within decoration builder
+- Added `inherit` option for element `border-color` and `shadow-color`
+- Cleaned up the transitions between map slides within presentations
+- Simplified terminology (perspectives -> views, attributes -> fields)
+- Improved onboarding for new users
+- Added support for pipes within from/to column for spreadsheet imports
+- Tweaked imports so they can replace and reset fields
+- Simplified the process of importing json blueprint into new project
+- Simplified force-directed layout settings with layout presets
+- Fixed foreign character handling within project urls (Safari)
+
 ## Version 1.6.0
 
 **Updated ksb, released 2015-11-19**
