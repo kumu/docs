@@ -14,25 +14,32 @@ Copy and paste the iframe code into your website and you're ready to go. You can
 
 ## Advanced Options for Embeds
 
-By default embeds include the whole user interface for Kumu. We often find that most embeds don't actually need the finder, footer, and screenshots. Not only were they not needed, they actually distracted users from the embed's content and purpose.
+By default, embeds include all of the built-in map controls (search, zoom, and settings). If you don't need them you can use the url params below to cherrypick the ones you want to include:
 
-You can hide the finder, footer, and screenshot button through url parameters. We support the following parameters on embeds:
+- **search=0** hide the search control
+- **zoom=0** hide the zoom buttons
+- **settings=0** hide the settings button
+- **bare=1** shorthand for hiding all built-in controls
+- **simple=1** shorthand for hiding all but the zoom buttons
 
-* **finder=0**
-* **footer=0**
-* **screenshot=0**
-* **simple=1** (shorthand for all three above)
+To use them just add the desired parameters to the query string of the embed url.
 
-These are advanced settings so we've left them out of the standard embed settings. To use them simply tack them onto the end of your existing embed url.
+Here's an example of how you would disable the settings button:
 
-To disable the footer and screenshots you'd use something like
 ```
-kumu.io/embed/abc?footer=0&screenshot=0
+embed.kumu.io/abc?settings=0
 ```
 
-To include the bare minimum, use the simple shorthand instead
+To disable zoom and settings you would use:
+
 ```
-kumu.io/embed/abc?simple=1
+embed.kumu.io/abc?zoom=0&settings=0
+```
+
+To hide all of the built-in controls use the `bare` shorthand:
+
+```
+embed.kumu.io/abc?bare=1
 ```
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/embeds.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
