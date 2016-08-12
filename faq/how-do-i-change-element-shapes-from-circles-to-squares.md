@@ -1,6 +1,6 @@
 # How do I change element shapes from circles to squares?
 
-The default shape for elements in Kumu is a circle. If you'd like to change the default element shape to a square, here are a couple ways to do this:
+The default shape for elements in Kumu is a circle. If you'd like to change the default element shape to a square, below are a couple ways to do this:
 
 ### All elements
 
