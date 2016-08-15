@@ -6,7 +6,9 @@ If you want to add arrows to your connections to specify direction, here are a c
 
 * Select the connection.
 * Use the "direction" icon in the sidebar menu to specify "Directed", "Mutual", or reverse the connection direction.
+![Direction Button](/images/Connection Direction.png)
 * Click "Directed" to add a connection arrow.
+![Direction Menu](/images/Connection Direction2.png)
 
 ### For all connections
 
