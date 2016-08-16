@@ -6,7 +6,8 @@ If you want to keep the image associated with an element in the element profile 
 
 To hide images from all the elements in the map, add this line to the @settings code:
 
-```@settings {
+```
+@settings {
   element-image-visibility: hidden;
 }
 ```
