@@ -90,3 +90,4 @@
 * [How do I avoid duplicate elements in imports?](faq/how-do-I-avoid-duplicates-in-imports.md)
 * [How do I change element shapes from circles to squares?](faq/how-do-i-change-element-shapes-from-circles-to-squares.md)
 * [How do I hide images from the map but keep them in the profile?](faq/how-do-i-hide-images-from-the-map.md)
+* [How do I convert a project to private?](faq/how-do-i-convert-a-project-to-private.md)
