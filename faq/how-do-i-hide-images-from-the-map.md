@@ -1,6 +1,6 @@
 # How do I hide images in the map but keep them in the profile?
 
-If you want to keep the image associated with an element in the element profile but hide it in the map, use the `element-image-visibility` property in the @settings section of the advanced editor (from the map, hit `.` to go there).
+If you want to keep the image associated with an element in the element profile but hide it in the map, use the `element-image-visibility` property in the [@settings section](/guides/advanced-settings.md) of the [advanced editor](/overview/basic-vs-advanced-editor.md) (from the map, hit `.` to go there).
 
 ### Hide images from all elements
 
