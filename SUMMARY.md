@@ -91,3 +91,5 @@
 * [How do I change element shapes from circles to squares?](faq/how-do-i-change-element-shapes-from-circles-to-squares.md)
 * [How do I hide images from the map but keep them in the profile?](faq/how-do-i-hide-images-from-the-map.md)
 * [How do I convert a project to private?](faq/how-do-i-convert-a-project-to-private.md)
+* [How do I add images to my elements?](faq/how-do-i-add-images-to-my-elements.md)
+* [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
