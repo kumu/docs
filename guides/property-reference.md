@@ -350,6 +350,16 @@ and its core (image / bullseye).
 "></i></td>
   </tr>
 
+   <tr data-property="shape">
+    <td>shape</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-cancel"></i></button></td>
+    <td><i class="fa fa-cancel"></i></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shape.
+<code>circle|square</code>
+"></i></button></td>
+  </tr>
+  
   <tr data-property="strength">
     <td>strength</td>
     <td><i class="fa fa-cancel"></i></td>
