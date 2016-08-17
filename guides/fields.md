@@ -11,7 +11,7 @@ By default, new fields are set to accept only one value and not prompt users wit
 To customize the settings for a given field, click the label of the field and you'll see a dropdown appear with the following options:
 
 - **Name** - change the name of your field
-- **Type** - string, text, URL, number
+- **Type** - string, text, URL, email, number, currency
 - **Limit** - one value **OR** none (one or more values)
 - **Category** - for grouping fields in sections on the profile
 - **Visibility** - public **OR** private (whether or not viewers can see a given field)
@@ -25,8 +25,10 @@ Below are the choices for the field format and guidance on when to use each:
 
 - **String** - This is the default value and used when entering simple short pieces of text
 - **Text** - Used for longer text fields like notes, addresses, and anywhere you want to use markdown formatting
-- **URL** - Used for website addresses and emails
+- **URL** - Used for website addresses
+- **Email** - Used for email addresses
 - **Number** - Used for numerical values that don't fit into the below categories
+- **Currency** - Used for financial values to be displayed with standard currentcy format ($)
 
 ### Field prompt
 Field prompt is managed by clicking "more" and then "settings" in the dropdown. Below are the choices for the field prompt and guidance on when to use each:
