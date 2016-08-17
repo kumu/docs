@@ -131,6 +131,7 @@ By default we'll hide the connections between any elements that aren't within th
 }
 
 ```
+For example, say a connection went from one corner of a systems map to another–as you zoomed in you would stop seeing that connection cross the map (since those elements that are part of the connection are no longer in the viewable area). In this case, if you were to turn culling off, you would continue to see those connections even upon zooming in.
 
 
 ## Changing the color of the selection
