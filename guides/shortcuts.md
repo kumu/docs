@@ -11,6 +11,7 @@
   <li class="shortcut"><span class="keystroke">Up/down/left/right</span> Pan</li>
   <li class="shortcut"><span class="keystroke">Space</span> Pause</li>
   <li class="shortcut"><span class="keystroke">Tab</span> Toggle Sidebar</li>
+  <li class="shortcut"><span class="keystroke">ALT+F</span> Full Screen Mode</li>
 </ul>
 
 ### Editing
