@@ -51,7 +51,7 @@ Filter using custom [selectors](../selectors.html#selectors):
  * `false` allows only a single value to be showcased at a time
 * `placeholder` the text to display when nothing is selected (for `as: dropdown` only)
 * `summary` override the summary that's shown for the current selection (for `as: dropdown`). The summary will be shown regardless of what's selected so there's no need to use `placeholder` in this case.
-* `default` defines which field values should be selected by default (for `by: "field"` only). Use `select-all` to select everything by default.
+* `default` defines which field values should be selected by default (for `by: "field"` only). Use `select-all` to select everything by default (or `show-all` for a similar effect without selecting everything by default).
 
 **Supported children**
 
