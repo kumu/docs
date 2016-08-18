@@ -52,6 +52,8 @@ Filter using custom [selectors](../selectors.html#selectors):
 * `placeholder` the text to display when nothing is selected (for `as: dropdown` only)
 * `summary` override the summary that's shown for the current selection (for `as: dropdown`). The summary will be shown regardless of what's selected so there's no need to use `placeholder` in this case.
 * `default` defines which field values should be selected by default (for `by: "field"` only). Use `select-all` to select everything by default (or `show-all` for a similar effect without selecting everything by default).
+* `except` allows you to remove field values from the available choices. Wrap the values you want to remove in quotes and separate multiple values by commas.
+* `only` is similar to except but allows you to explicitly define which field values should be included as available choices.
 
 **Supported children**
 
