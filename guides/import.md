@@ -109,14 +109,25 @@ Our Google Spreadsheets integration populates a map using the contents of a spre
 
 **NOTE** Unlike file-based imports, this sets up an ongoing import. The elements and connections will be fetched from the spreadsheet on the fly each time you refresh the page. None of the data will be saved to Kumu's servers and the imported elements and connections are read-only within Kumu. All edits must be made within the spreadsheet.
 
-### Instructions
+There are two versions of the Google Sheets integration, private and public. Private is more secure and uses oAuth to authorize Kumu to access the sheet while the public integration requires you to turn on link sharing for the sheet.
+
+### Private Google Sheets Instructions
+
+*Note: This is a paid add-on that costs $29/project to activate.*
 
 1. Create a new spreadsheet in Google Drive
 1. Make sure the spreadsheet includes the required columns mentioned above
-1. Go to File > Publish to the web...
-1. Click publish
-1. Copy the published url and paste into the corresponding box within the import modal in Kumu
+1. Activate the paid add-on by clicking the link in the Google Sheets import tab in Kumu
+1. Paste the spreadsheet link into the corresponding box within the import modal in Kumu
 
+### Public Google Sheets Instructions
+
+1. Create a new spreadsheet in Google Drive
+1. Make sure the spreadsheet includes the required columns mentioned above
+1. Click the "Share" button in the upper right
+1. Click "Get shareable link"
+1. Set the permissions to "Anyone with the link can view"
+1. Copy the link url and paste into the corresponding box within the import modal in Kumu
 
 ## Master Imports in 5 Simple Steps
 
