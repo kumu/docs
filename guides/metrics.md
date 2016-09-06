@@ -26,7 +26,7 @@ You can choose any numerical field for the weighting, but make sure you have val
 
 By default, all metrics are saved to a field with the name of the metric (betweenness calculations are saved to the "betweenness" field). Each time you run the metric the previous values are overwritten. If you'd like to keep the previous values, rename the field (maybe it's "2014 betweeness" or "betweeness before") so that future saves don't overwrite the values.
 
-**Using metrics for a social network analysis?** Don't miss our [SNA / Network Mapping guide](/sna-network-mapping.md).
+**Using metrics for a social network analysis?** Don't miss our [SNA / Network Mapping guide](sna-network-mapping.md).
 
 ## Community detection
 
@@ -71,7 +71,7 @@ Wondering what "spectral" means? Kumu has built in support for a number of color
 * heat
 * stoplight
 
-Head over to the [color reference](/color-reference.md) for information on all the color scales that are available.
+Head over to the [color reference](color-reference.md) for information on all the color scales that are available.
 
 ### Rerun from scratch (optional)
 
