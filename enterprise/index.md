@@ -14,5 +14,5 @@ Please email <a href="mailto:enterprise@kumu.io">enterprise@kumu.io</a> if you
 have any questions.
 
 <footer class="page-footer">
-  <div class="next">Next: <a href="/getting-started-with-vmware.md">Getting Started</a></div>
+  <div class="next">Next: <a href="getting-started-with-vmware.md">Getting Started</a></div>
 </footer>
