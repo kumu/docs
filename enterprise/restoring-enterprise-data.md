@@ -16,6 +16,6 @@ ssh admin@hostname -- "kumu-import" < kumu-backup.tar.gz
   <div class="next">Have questions? <a href="mailto:enterprise@kumu.io">Contact Support</a></div>
 </footer>
 
-[cmd]: /command-line-utilities.md
-[ssh]: /ssh-access.md
-[upgrade]: /upgrading.md
+[cmd]: command-line-utilities.md
+[ssh]: ssh-access.md
+[upgrade]: upgrading.md
