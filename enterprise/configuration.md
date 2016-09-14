@@ -45,8 +45,8 @@ This is the hostname that will be used for any absolute links within the applica
 [Add an SSH key][ssh] to enable access to the enterprise command-line utilities.
 
 <footer class="page-footer">
-  <div class="next">Next: <a href="ssh-access.md">SSH Access</a></div>
+  <div class="next">Next: <a href="/ssh-access.md">SSH Access</a></div>
 </footer>
 
 
-[ssh]: ssh-access.md
+[ssh]: /ssh-access.md

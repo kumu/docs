@@ -1,9 +1,9 @@
 # Enterprise Docs
 
 These help docs will guide you through the process of
-<a href="getting-started-with-vmware.md">installing</a>,
-<a href="configuration.md">configuring</a>, and
-<a href="upgrading.md">upgrading</a>
+<a href="/getting-started-with-vmware.md">installing</a>,
+<a href="/configuration.md">configuring</a>, and
+<a href="/upgrading.md">upgrading</a>
 your Kumu Enterprise installation.
 
 ## Enterprise Overview

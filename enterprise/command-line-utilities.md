@@ -4,7 +4,7 @@ Kumu Enterprise comes with a set of command line utilities to help administer
 your appliance.
 
 SSH access is required to use the utilities, so make sure to
-<a href="ssh-access.md">enable ssh access</a> if you haven't
+<a href="/ssh-access.md">enable ssh access</a> if you haven't
 already done so.
 
 # kumu-export
