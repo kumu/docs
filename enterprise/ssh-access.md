@@ -1,6 +1,6 @@
 # SSH Access
 
-Enabling ssh access gives you access to the Kumu Enterprise <a href="/command-line-utilities.md">command line utilities</a>.
+Enabling ssh access gives you access to the Kumu Enterprise <a href="command-line-utilities.md">command line utilities</a>.
 
 You can enable ssh access by adding your public key to the list of authorized
 ssh keys at `<hostname>/enterprise/admin`. Once your key is in place, you can
@@ -13,5 +13,5 @@ cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
 <footer class="page-footer">
-  <div class="next">Next: <a href="/backing-up-enterprise-data.md">Backing up Enterprise Data</a></div>
+  <div class="next">Next: <a href="backing-up-enterprise-data.md">Backing up Enterprise Data</a></div>
 </footer>

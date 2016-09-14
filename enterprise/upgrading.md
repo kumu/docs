@@ -31,8 +31,8 @@ not as simple as the basic upgrade, the process only requires a few steps.
   <div class="next">Have questions? <a href="mailto:enterprise@kumu.io">Contact Support</a></div>
 </footer>
 
-[cmd]: /command-line-utilities.md
-[backup]: /backing-up-enterprise-data.md
-[restore]: /restoring-enterprise-data.md
-[launch]: /getting-started-with-vmware.md
-[ssh]: /ssh-access.md
+[cmd]: command-line-utilities.md
+[backup]: backing-up-enterprise-data.md
+[restore]: restoring-enterprise-data.md
+[launch]: getting-started-with-vmware.md
+[ssh]: ssh-access.md
