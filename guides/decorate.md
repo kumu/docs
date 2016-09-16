@@ -31,6 +31,6 @@ and avoid overwhelming new users. In order to harness the full power of views, y
 
 ![default view](/images/advanced-editor.png)
 
-If you're comfortable with CSS, we highly recommend using the advanced editor. Read the [advanced editor guide](/views-advanced.md) to dive in.
+If you're comfortable with CSS, we highly recommend using the advanced editor. Read the [advanced editor guide](./views-advanced.md) to dive in.
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/decorate.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
