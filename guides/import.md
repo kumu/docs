@@ -79,7 +79,7 @@ And here's a sample connection import spreadsheet:
 
 That's it! Now click the green "+" button at the bottom of your map or drag and drop the file onto the map. You'll have the option to review the import before finalizing to double-check that everything imported correctly. Click save and you're all set!
 
-**Get your hands dirty!** <a href="../content/paypal-mafia.xlsx" target="_blank">Click here for a sample import file</a> for the PayPal Mafia that you can use to see how imports work with real data before creating your import file.
+**Get your hands dirty!** <a href="../content/paypal-mafia.xlsx" target="_blank">Click here for a sample import file</a> for the <a href="https://kumu.io/jeff/paypal-mafia">PayPal Mafia</a> that you can use to see how imports work with real data before creating your import file.
 
 ## Common pitfalls
 
