@@ -15,8 +15,7 @@ You can create a computed field in one of two ways:
 
 We use [mathjs](http://mathjs.org/docs/expressions/syntax.html) to power computed fields and you have their complete expression syntax to use within Kumu. It's pretty similar to writing an equation in Excel or Google Sheets (with the caveat that we don't support all the functions you'd find in a spreadsheet like `concatenate` or `vlookup`).
 
-If the field you are using in your expression is a single word, you can just write it as-is in the expression. If it is more than one word, you'll need to wrap the field name with two mustaches on either end {% raw %}`{{my longer than neccessary field name}}`{% endraw %}`.
-```
+If the field you are using in your expression is a single word, you can just write it as-is in the expression. If it is more than one word, you'll need to wrap the field name with two mustaches on either end {% raw %} `{{my longer than neccessary field name}}` {% endraw %}.
 
 Here's some examples:
 
@@ -80,15 +79,18 @@ For example, if you created a computed field "total contributions" which was bas
 
 This **wouldn't** work:
 
+{% raw %}
 ```
 {{amount for}} - {{amount against}} / {{total contributions}}
 ```
+{% endraw %}
 
 But just including the expression again for "total contributions" **would** work:
 
+{% raw %}
 ```
 {{amount for}} - {{amount against}} / ({{amount for}} + {{amount against}})
 ```
-
+{% endraw %}
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/computed-fields.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
