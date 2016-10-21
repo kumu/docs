@@ -36,6 +36,7 @@
 * [Embeds](guides/embeds.md)  
 * [Export](guides/export.md)
 * [Fields](guides/fields.md)
+  * [Computed fields](guides/computed-fields.md)
 * [Forking](guides/forking.md)
 * [Import](guides/import.md)
 * [Licensing](guides/licensing.md)
