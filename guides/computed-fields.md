@@ -37,6 +37,7 @@ For those of you whose last math class was decades go - remember you can't divid
 One way you may run into this is when creating an equation for leverage. Leverage is usually defined as "outdegree/indegree". If you have an element with no incoming connections, you're going to get "infinity" as the answer which will throw off your decorations.
 
 Instead, try tweaking the expression so that it is:
+
 ```
 (outdegree + 1)/(indegree + 1)
 ```
