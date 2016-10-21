@@ -86,7 +86,7 @@ This **wouldn't** work:
 But just including the expression again for "total contributions" **would** work:
 
 ```
-{% raw %}{{amount for}} - {{amount against}} / ({{amount for}} + {{amount against}}){% endraw %}
+{{amount for}} - {{amount against}} / ({{amount for}} + {{amount against}})
 ```
 
 
