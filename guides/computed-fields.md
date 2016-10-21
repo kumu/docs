@@ -64,7 +64,9 @@ Some of you are interested in creating an uber analysis metric based on whether 
 
 The below example involves two fields, "archetype" and "trend" that each store "yes" or "no" values. We're essentially looking to give a point anytime the answer is "yes" and then add up those points. Here's the expression:
 
-`(archetype == "yes" ? 1 : 0)+(trend == "yes" ? 1 : 0)`
+```
+(archetype == "yes" ? 1 : 0)+(trend == "yes" ? 1 : 0)
+```
 
 Make sure that you're including "no" for the fields that aren't "yes" instead of just leaving them blank as it will throw an error that will prevent the expression from running.
 
@@ -75,11 +77,13 @@ Currently you can only create a computed field that pulls values from other stan
 For example, if you created a computed field "total contributions" which was based on the expression `{{amount for}} + {{amount against}}`, you couldn't use "total contributions" in another computed field that was looking at the relative percentage of for vs. against.
 
 This **wouldn't** work:
+
 ```
 {{amount for}} - {{amount against}} / {{total contributions}}
 ```
 
 But just including the expression again for "total contributions" **would** work:
+
 ```
 {{amount for}} - {{amount against}} / ({{amount for}} + {{amount against}})
 ```
