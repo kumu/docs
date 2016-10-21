@@ -15,12 +15,12 @@ You can create a computed field in one of two ways:
 
 We use [mathjs](http://mathjs.org/docs/expressions/syntax.html) to power computed fields and you have their complete expression syntax to use within Kumu. It's pretty similar to writing an equation in Excel or Google Sheets (with the caveat that we don't support all the functions you'd find in a spreadsheet like `concatenate` or `vlookup`).
 
-If the field you are using in your expression is a single word, you can just write it as-is in the expression. If it is more than one word, you'll need to wrap the field name with two mustaches on either end `{{my longer than neccessary field name}}`.
+If the field you are using in your expression is a single word, you can just write it as-is in the expression. If it is more than one word, you'll need to wrap the field name with two mustaches on either end `{% raw %}{{my longer than neccessary field name}}{% raw %}`.
 
 Here's some examples:
 
 * Add two values `betweenness + eigenvector`
-* Multiple two values `{{level of influence}} * degree`
+* Multiple two values `{% raw %}{{level of influence}} * degree{% raw %}`
 * Create a more complicated ratio `(indegree + outdegree)/betweenness`
 * Check for a value and output a number `(archetype == "yes" ? 1 : 0)`
 * Take the log of a value `log(networth)`
@@ -74,18 +74,18 @@ Make sure that you're including "no" for the fields that aren't "yes" instead of
 
 Currently you can only create a computed field that pulls values from other standard fields in Kumu. You cannot create a computed field which pulls values from other computed fields. This may be possible in future releases but is not currently supported.
 
-For example, if you created a computed field "total contributions" which was based on the expression `{{amount for}} + {{amount against}}`, you couldn't use "total contributions" in another computed field that was looking at the relative percentage of for vs. against.
+For example, if you created a computed field "total contributions" which was based on the expression `{% raw %}{{amount for}} + {{amount against}}{% raw %}`, you couldn't use "total contributions" in another computed field that was looking at the relative percentage of for vs. against.
 
 This **wouldn't** work:
 
 ```
-{{amount for}} - {{amount against}} / {{total contributions}}
+{% raw %}{{amount for}} - {{amount against}} / {{total contributions}}{% raw %}
 ```
 
 But just including the expression again for "total contributions" **would** work:
 
 ```
-{{amount for}} - {{amount against}} / ({{amount for}} + {{amount against}})
+{% raw %}{{amount for}} - {{amount against}} / ({{amount for}} + {{amount against}}){% raw %}
 ```
 
 
