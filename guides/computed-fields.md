@@ -8,8 +8,8 @@ Computed fields are a special type of field that allow you to calculate values a
 
 You can create a computed field in one of two ways:
 
-1. Add a new field and then click on the field label to access the settings. You'll see an "expression" input under "Advanced Settings" where you can type the expression (no `=` required).
-1. Type the expression into the value input the first time you create a field from the profile of the element. Make sure to include `=`before your expression.
+1. Type `= expression` into any field value and it will convert that field to a computed field using the specified expression.
+1. Click on the label of any field from the profile and then use the dropdown menu to access the settings. Under "Advanced Settings" you'll see an "expression" input where you can type the expression (no `=` required).
 
 ## Supported syntax
 
