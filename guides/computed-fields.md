@@ -1,6 +1,6 @@
 # Computed fields
 
-*Note: Computed fields are in beta release so expect changes to this document and limitations in how computed fields can be used.*
+*Note: Computed fields are in beta release so expect changes to this document and limitations in how computed fields can be used. Computed fields are not currently supported for maps using the Google Sheets integration.*
 
 Computed fields are a special type of field that allow you to calculate values automatically based on an expression that you specify.
 
