@@ -2,7 +2,7 @@
 
 *Note: Computed fields are in beta release so expect changes to this document and limitations in how computed fields can be used.*
 
-Computed fields are a special type of field that allow you to calculate values automatically based on an equation that you specify.
+Computed fields are a special type of field that allow you to calculate values automatically based on an expression that you specify.
 
 ## Creating a computed field
 
@@ -20,7 +20,7 @@ If the field you are using in your expression is a single word, you can just wri
 Here's some examples:
 
 * Add two values `betweenness + eigenvector`
-* Multiple two values {% raw %}`{{level of influence}} * degree`{% endraw %}
+* Multiply two values {% raw %}`{{level of influence}} * degree`{% endraw %}
 * Create a more complicated ratio `(indegree + outdegree)/betweenness`
 * Check for a value and output a number `(archetype == "yes" ? 1 : 0)`
 * Take the log of a value `log(networth)`
