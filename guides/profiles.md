@@ -2,6 +2,8 @@
 
 Every element, connection and loop shares a similar profile which you can use to add narrative and any data that is important for you to track. By using [views](/views.html) you can bring any of the information in the profile to life through decorations and filters. We'll look at each of the parts of the profile one by one:
 
+![](/images/introduction-profile.png)
+
 ## Label
 
 The label is the name of the element and what shows up on the map. We automatically add a line break when the name becomes too long but if you'd like to include your own line breaks, simply add a double space. This is quite useful when trying to make labels fit within an element circle rather than having the labels show up below the element.
