@@ -84,6 +84,7 @@
 
 ## Frequently Asked Questions
 * [Who is allowed to edit my project?](faq/who-is-allowed-to-edit-my-project.md)
+* [How do I add contributors?](faq/how-to-add-contributors.md)
 * [How do I delete a project?](faq/how-do-i-delete-a-project.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
