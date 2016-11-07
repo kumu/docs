@@ -106,7 +106,7 @@ If that was all a little too easy for you then continue reading...
 
 ## Common decorations
 
-Below we've highlighted the [properties](/property-reference.md) we commonly find most useful.
+Below we've highlighted the [properties](/guides/property-reference.md) we commonly find most useful.
 
 ### Element decorations
 
