@@ -339,10 +339,11 @@ table.property-table {
 }
 */
 
-/* Search results customizations */
+/* Search results customizations
 .powered-by-algolia {
   display: none;
 }
+*/
 
 #book-search-results .search-results ul.search-results-list li {
     margin-bottom: 3.5rem;
