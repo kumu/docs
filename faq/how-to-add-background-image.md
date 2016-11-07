@@ -4,8 +4,8 @@ We are actively pursuing a geo maps feature that would allow users to plot a net
 
 To add a background image to a map, you'll need to dive into the [Advanced Editor](/overview/basic-vs-advanced-editor.html#advanced-editor) and add some code. The following instructions assume you're adding a geo map but can be used for any background image.
 
-1. Create an element named "Geo".
-2. Add the following code to the advanced editor:
+* Create an element named "Geo".
+* Add the following code to the advanced editor:
 ```
 #geo {
   image-url: url(https://dl.dropboxusercontent.com/u/9002358/Kumu%20-%20Do%20Not%20Delete/world-map.png);
@@ -18,8 +18,8 @@ To add a background image to a map, you'll need to dive into the [Advanced Edito
   pointer-events: none;
 }
 ```
-3. Add this line to the `@settings` section at the top of the advanced editor: `culling: off;`.
-4. Toggle `pointer-events: none;` off to readjust the positioning of the image in the map. You'll need to remove that line from the code above whenever you need to reposition the image, then add it back in after you're done.
+* Add this line to the `@settings` section at the top of the advanced editor: `culling: off;`.
+* Toggle `pointer-events: none;` off to readjust the positioning of the image in the map. You'll need to remove that line from the code above whenever you need to reposition the image, then add it back in after you're done.
 
 **Notes:**
 * "Geo" is the name of the element that will contain the background image in this example, but can be anything you want. Just name the element you add in step one the same thing that you put in the code above.
