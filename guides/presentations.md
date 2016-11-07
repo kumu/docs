@@ -5,6 +5,7 @@ Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-u
 
 <iframe src="https://player.vimeo.com/video/118975099" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+**Note:** Presentations do not work with maps supplied by the [Google Sheets integration](/guides/import.html#integrating-with-google-sheets).
 
 ## Creating a presentation
 
@@ -44,7 +45,5 @@ Presentations can also be embedded just like any other Kumu embed. To do so, swa
 ```
 <iframe src="https://hiqol.kumu.io/hawaii-quality-of-life" width="940" height="600" frameborder="0"></iframe>
 ```
-
-**Note:** Presentations do not work with maps supplied by the [Google Sheets integration](/guides/import.html#integrating-with-google-sheets).
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/presentations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
