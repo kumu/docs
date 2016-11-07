@@ -97,3 +97,4 @@
 * [How do I convert a project to private?](faq/how-do-i-convert-a-project-to-private.md)
 * [How do I add images to my elements?](faq/how-do-i-add-images-to-my-elements.md)
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
+* [How can I add a background image (like a map) to my Kumu map?](faq/how-to-add-background-image.md)
