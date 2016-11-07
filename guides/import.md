@@ -107,11 +107,19 @@ If you're running into funny character issues, please make sure your file is UTF
 
 Our Google Spreadsheets integration populates a map using the contents of a spreadsheet hosted on Google Drive. This is a great way to crowdsource community maps without having to give everyone access to the project on Kumu.
 
-**NOTE** Unlike file-based imports, this sets up an ongoing import. The elements and connections will be fetched from the spreadsheet on the fly each time you refresh the page. None of the data will be saved to Kumu's servers and the imported elements and connections are read-only within Kumu. All edits must be made within the spreadsheet.
+### Limitations of Google Sheets with Kumu 
+Unlike file-based imports, this sets up an ongoing import. The elements and connections will be fetched from the spreadsheet on the fly each time you refresh the page. None of the data will be saved to Kumu's servers and the imported elements and connections are read-only within Kumu. All edits must be made within the spreadsheet.
+
+* Elements and connections are read only within Kumu (edits must be made within the spreadsheet).
+* You can't pin elements in place when they're created from a Google Sheet. 
+* Presentations do not work with maps fed by a Google Sheets integration.
+* Metrics do not work well with maps supplied by a Google Sheet. 
+
+### Setting up the Google Sheets Integration
 
 There are two versions of the Google Sheets integration, private and public. Private is more secure and uses oAuth to authorize Kumu to access the sheet while the public integration requires you to turn on link sharing for the sheet.
 
-### Private Google Sheets Instructions
+#### Private Google Sheets Instructions
 
 *Note: This is a paid add-on that costs $29/project to activate.*
 
@@ -120,7 +128,7 @@ There are two versions of the Google Sheets integration, private and public. Pri
 1. Activate the paid add-on by clicking the link in the Google Sheets import tab in Kumu
 1. Paste the spreadsheet link into the corresponding box within the import modal in Kumu
 
-### Public Google Sheets Instructions
+#### Public Google Sheets Instructions
 
 1. Create a new spreadsheet in Google Drive
 1. Make sure the spreadsheet includes the required columns mentioned above
