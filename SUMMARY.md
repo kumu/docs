@@ -85,6 +85,7 @@
 ## Frequently Asked Questions
 * [Who is allowed to edit my project?](faq/who-is-allowed-to-edit-my-project.md)
 * [How do I add contributors?](faq/how-to-add-contributors.md)
+* [How do I convert a project to private?](faq/how-do-i-convert-a-project-to-private.md)
 * [How do I delete a project?](faq/how-do-i-delete-a-project.md)
 * [How do I change the length or strength of connections?](faq/how-to-change-length-of-connections.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
@@ -94,7 +95,6 @@
 * [How do I scale elements without the text size changing?](faq/how-to-scale-elements-no-text-size-change.md)
 * [How do I change element shapes from circles to squares?](faq/how-do-i-change-element-shapes-from-circles-to-squares.md)
 * [How do I hide images from the map but keep them in the profile?](faq/how-do-i-hide-images-from-the-map.md)
-* [How do I convert a project to private?](faq/how-do-i-convert-a-project-to-private.md)
 * [How do I add images to my elements?](faq/how-do-i-add-images-to-my-elements.md)
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
 * [How can I add a background image (like a map) to my Kumu map?](faq/how-to-add-background-image.md)
