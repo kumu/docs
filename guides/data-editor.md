@@ -6,6 +6,9 @@ The data editor allows you to view and edit your map's underlying data as a spre
 
 ## The basics
 
+
+![](../images/data-editor-settings.jpg)
+
 **Click any cell to edit.** Click on any value to edit it within the spreadsheet. Depending on the field type, you'll either be able to edit directly within the cell or a modal will appear.
 
 **Customize which fields are included.** Click on the settings icon in the upper right to open the sidebar, then select the fields you want to see in the table.
