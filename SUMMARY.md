@@ -30,6 +30,7 @@
   * [Tagged-timeline control](guides/controls/tagged-timeline-control.md)
   * [Color-legend control](guides/controls/color-legend-control.md)
   * [Image control](guides/controls/image-control.md)
+* [Data editor](guides/data-editor.md)
 * [Disciplines](#)
   * [SNA / Network Mapping](guides/sna-network-mapping.md)
   * [System mapping](guides/system-mapping.md)
