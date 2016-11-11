@@ -6,7 +6,6 @@ The data editor allows you to view and edit your map's underlying data as a spre
 
 ## The basics
 
-
 ![](../images/data-editor-settings.jpg)
 
 **Click any cell to edit.** Click on any value to edit it within the spreadsheet. Depending on the field type, you'll either be able to edit directly within the cell or a modal will appear.
@@ -21,7 +20,7 @@ The data editor allows you to view and edit your map's underlying data as a spre
 
 ## Adding new elements or connections
 
-You can quickly and easily add new elements or connections by scrolling to the bottom of the spreadsheet and typing into the blank row at the bottom.
+You can quickly and easily add new elements or connections by scrolling to the bottom of the spreadsheet and entering text into the blank row at the bottom.
 
 ![](../images/data-editor-add-new.jpg)
 
