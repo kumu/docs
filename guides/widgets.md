@@ -2,7 +2,7 @@
 
 We've built a [flexible widget framework](https://github.com/kumu/widgets) to make it easy to embed your favorite content within Kumu. Widgets are curently supported for:
 
-* Lists ```[[list/loops]]```
+* Lists ```[[list/loops]], [[list "selector"]] or [[list "field"]]```
 * Vimeo ```[[vimeo/:id]]```
 * YouTube ```[[youtube/:id]]```
 * Slideshare ```[[slideshare/:id]]```
@@ -11,6 +11,8 @@ We've built a [flexible widget framework](https://github.com/kumu/widgets) to ma
 * audioBoom ```[[audioboom/:id]]```
 
 ...where ```:id``` is the unique code included in the embed code from any of the above services.
+
+Widgets can be included in the map overview and in the description field for any element, connection or loop.
 
 ## The Widgets
 
@@ -21,8 +23,27 @@ Use the code below to create a list of links to all the loops in your map. Just 
 ```
 [[list/loops]]
 ```
-
 ![List widget](/images/list-loops.png)
+
+Try clicking on a link and you'll be taken to the profile for that item. If you hover over a link that item will be showcased on the map.
+
+**Limiting by type.**
+Rather than including all elements, you may want to build a list of only elements of a certain type. Entering `[[list/person]]` would create a list of only the elements with type "person". Note: This only works for single-word values. If you have more complex values for the type field, use the selector guidance below.
+
+**Limiting by selector.**
+You can further limit the list by using any [selector](selectors.html). The format is `[[list "selector"]]`. For example, you could use this to build a list of just those people who are highly influential `[[list "person['level of influence'='high']"]]`.
+
+<div class="alert alert-warning">
+
+<strong>Important!</strong> You need to modify the selector to use single quotes instead of double quotes otherwise the list widget will not work. For example, a generic selector <strong>["field label"="value"]</strong> would need to be re-written as <strong>['field label'='value']</strong>.
+
+</div>
+
+**Creating lists of field values**
+You can also create a list of all the values for a particular field. This list allows you to hover over any value and showcase those elements, connections and loops that have that value.
+
+![](/images/list-widget-field.jpg)
+
 
 ### Vimeo
 
