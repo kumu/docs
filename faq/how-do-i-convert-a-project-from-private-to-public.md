@@ -7,7 +7,7 @@ Alternatively, go to the project settings by clicking on the menu icon in the to
 
 ![](/images/settings-locations.jpg)
 
-[If you want to delete a project, click here.](/faq/how-do-i-delete-a-project.html)
+[If you want to delete a project, click here.](/faq/how-do-i-delete-a-project.md)
 
 ## For Organization Projects
 You can change the privacy of a project through the organization settings page. You can access this by first visiting your dashboard (https://kumu.io/dashboard) and then clicking the "Organizations" tab. From there, click on the "settings" button for your organization and you'll see a list of your projects. Click the project you want to change the privacy of, then click the "edit" button in the window that opens, and then you'll see radio buttons to change from private to public.
