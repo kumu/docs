@@ -1,5 +1,4 @@
 # How do I change the position of my element labels?
-
 ## Change element label position for all elements
 
 If you want to change the position of your element labels for all elements, click on the settings button on the right side of your map and look for "Default label position" under "Element Settings". You can change the position of the labels to "bottom" or "center."
