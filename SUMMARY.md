@@ -86,8 +86,8 @@
 ## Frequently Asked Questions
 * [Who is allowed to edit my project?](faq/who-is-allowed-to-edit-my-project.md)
 * [How do I add contributors?](faq/how-to-add-contributors.md)
-* [How do I convert a project to private?](faq/how-do-i-convert-a-project-to-private.md)
-* [How do I convert a project to public?](faq/how-do-i-convert-my-project-to-public.md)
+* [How do I convert a project from public to private?](faq/how-do-i-convert-a-project-from-public-to-private.md)
+* [How do I convert a project from private to public?](faq/how-do-i-convert-a-project-from-private-to-public.md)
 * [How do I downgrade my account to free?](faq/how-do-i-downgrade-to-free.md)
 * [How do I delete a project?](faq/how-do-i-delete-a-project.md)
 * [How do I change the length or strength of connections?](faq/how-to-change-length-of-connections.md)
