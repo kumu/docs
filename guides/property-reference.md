@@ -386,7 +386,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></td>
     <td><i class="fa fa-cancel"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls alignment of element labels.
-<code>bottom|right</code>
+<code>bottom|right|center</code>
 "></i></td>
   </tr>
 
