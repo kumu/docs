@@ -1,6 +1,6 @@
 # How do I downgrade my account to free?
 
-If you want to downgrade your account back to the free plan (which includes unlimited public projects), you'll first need [to convert all private projects to public](how-do-i-convert-my-project-to-public.md).
+If you want to downgrade your account back to the free plan (which includes unlimited public projects), you'll first need [to convert all private projects to public](/faq/how-do-i-convert-a-project-from-private-to-public.html).
 
 After you've converted all private projects to public, go to the section of your dashboard where you can [change plans](https://kumu.io/settings#change-plan). Now, select the plan option for "Free".
 
