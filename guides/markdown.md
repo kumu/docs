@@ -107,6 +107,6 @@ Green | Yellow | Red
     Three or more dashes or asterisks --- ***
 
 <br />
-Now you know the basics of formtting with markdown. For more information, visit [Daring Fireball's markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax#precode).
+Now you know the basics of formatting with markdown. For more information, visit [Daring Fireball's markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax#precode).
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/markdown.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
