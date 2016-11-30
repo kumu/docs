@@ -7,7 +7,7 @@ Kumu is a Hawaiian term for "teacher" or "source of wisdom." We're a remote team
 ## Who's using Kumu?
 Kumu supports hundreds of organizations across the world to more effectively engage complex issues. Make sure to check out a few of our highlighted case studies:
 
-* Humanity United: [Building a Better Brick Market in Nepal with](https://kumu.io/stories/humanity-united-building-a-better-brick-market-in-nepal)
+* Humanity United: [Building a Better Brick Market in Nepal](https://kumu.io/stories/humanity-united-building-a-better-brick-market-in-nepal)
 * Stanford ChangeLabs: [Launcing Large Scale Sustainable Transformations](https://kumu.io/stories/stanford-changelabs-launching-large-scale-sustainable-transformations)
 * Hewlett Foundation: [Making Congress Work Again](https://kumu.io/stories/hewlett-foundation-making-congress-work-again)
 
