@@ -13,6 +13,14 @@ You can run the following metrics in Kumu by clicking the blocks button (<i clas
 * **Reach (two-step out).** Reach measures the portion of the network within two steps of an element. In general, elements with high reach can spread information through the network through close friend-of-a-friend contacts.
 * **Reach efficiency.** Reach efficiency normalizes reach by dividing it by size (number of neighbors). In general, elements with high reach efficiency are less connected but gain more exposure through each direct relationship.
 
+## How to run metrics
+1. Click on the "Blocks" icon in the bottom right of the map.
+1. Select "Social Network Analysis." 
+1. Choose a metric from the dropdown list.
+1. Click the large button "Discover ..." (Eg. "Discover the connectors/hubs" for the "degree" metric.) or select "Advanced options."
+
+**Note:** To rerun metrics follow steps again.
+
 ### Weighted metrics
 Certain fields also support weighting so you can include fields like strength and frequency in the calculations. Betweenness, closeness and degree use connection fields for weighting while size and reach use element fields for weighting.
 
