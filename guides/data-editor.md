@@ -12,7 +12,7 @@ The data editor allows you to view and edit your map's underlying data as a spre
 
 **Customize which fields are included.** Click on the settings icon in the upper right to open the sidebar, then select the fields you want to see in the table.
 
-**Filter the results.** Enter a search term in the upper left to narrow down the results. The filter will search across all fields included in the table.
+**Filter the results.** Enter a search term or a [selector](/guides/selectors.md) in the upper left to narrow down the results. The filter will search across all fields included in the table.
 
 **Switch between elements, connections and loops.** The data editor only shows elements, connections or loops at any one time. Click on the settings icon in the upper right and then use the dropdown to switch between elements, connections or loops.
 
