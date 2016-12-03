@@ -6,14 +6,14 @@ To add a background image to a map, you'll need to be willing to dive into the [
 2. Add the following code to the advanced editor:
 ```
 #background {
-    image-url: url(https://dl.dropboxusercontent.com/u/9002358/Kumu%20-%20Do%20Not%20Delete/world-map.png);
     layer: background;
-    image-resolution: original;
-    size: 5000;
-    image-size: contain;
     shape: square;
-    label-visibility: none;
+    size: 5000;
     color: transparent;
+    image-url: url(https://dl.dropboxusercontent.com/u/9002358/Kumu%20-%20Do%20Not%20Delete/world-map.png);
+    image-size: contain;
+    image-resolution: original;
+    label-visibility: none;
 }
 ```
 3. If you need to adjust the position of the image element in the map you'll need to remove the `layer: background;` line. Adjust the position and then add back that line when you are done.e
