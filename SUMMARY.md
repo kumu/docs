@@ -20,6 +20,8 @@
 * [Collaborating and sharing](overview/collaboration.md)
 
 ## Guides
+* [Add-ons](guides/add-ons.md)
+  * [Disqus](guides/add-ons/disqus.md)
 * [Controls](guides/controls.md)
   * [Title Control](guides/controls/title-control.md)
   * [Text Control](guides/controls/text-control.md)
