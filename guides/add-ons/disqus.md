@@ -1,6 +1,11 @@
 # Disqus
+[Disqus](https://disqus.com/) is one of the leading comment systems. This add-on allows you to add a comment thread to every element, connection, loop, and map overview.
 
-1. Create a free [Disqus](https://disqus.com/) account by visiting https://disqus.com/profile/signup/
+![](/images/disqus-addon.jpg)
+
+## Installing the add-on
+
+1. Create a free Disqus account by visiting https://disqus.com/profile/signup/
 
 2. Choose the option "I want to install Disqus on my site"
 ![](/images/disqus-step-1.jpg)
@@ -14,5 +19,4 @@
 5. Activate the Disqus add-on by adding the shortname you wrote down in Step 3.
 ![](/images/disqus-step-4.jpg)
 
-Voila! You'll now see the Disqus comment box on each element, connection and loop profile (as well as the map overview):
-![](/images/disqus-addon.jpg)
+Voila! You'll now see the Disqus comment box on each element, connection and loop profile (as well as the map overview).
