@@ -64,7 +64,7 @@ If you don't supply a field to filter by, each option must be listed separately.
 
 ### More examples
 
-Filter elements by one ore more skills using a dropdown:
+Filter elements by one or more skills using a dropdown:
 
 ```
 @controls {
