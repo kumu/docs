@@ -147,11 +147,19 @@ element {
 
 ## Imported views
 
-You can use any other view as a base view with the following syntax:
+It's easy to layer perspectives so decorations and settings can be inherited from one perspective to another. This is a huge time saver for those of you using copy and paste to keep redundant decorations in sync.
+
+Give it a try by first creating a "base" perspective. Add a few decorations / settings and then create a second perspective that will import these styles. To activate the import, just add an @import rule to the top of the second perspective (in the advanced tab):
 
 ```
-@import "view name";
+@import "base";
 ```
+
+... where "base" is the name (or slug) of the perspective you want to import. And voila! The perspective now inherits all of the styles from the "base" perspective.
+
+Hopefully this makes it easier to keep a consistent look-and-feel across all the maps in your project! 
+
+Note: Remember that the slug of the perspective is the name with all special characters removed and any spaces converted to dashes. So a perspective named *Influential Leaders* would become `influential-leaders` in the `@import` setting.
 
 ## Label Templates
 
