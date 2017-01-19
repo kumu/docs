@@ -5,7 +5,7 @@ Looking to create engaging system maps with the power to change hearts and minds
 
 ## Building the basic structure of a map
 
-Kumu allows you to have both fixed and fluid layouts for your map. We recommend having a fixed layout for your system map by pinning each element in place so that you'd don't overwhelm people with a new layout each time they see the map.
+Kumu allows you to have both fixed and fluid layouts for your map. We recommend having a fixed layout for your system map by pinning each element in place so that you don't overwhelm people with a new layout each time they see the map.
 
 The first thing you'll want to do is change the default settings so that elements are fixed by default and connections are directed by default. You can do this by clicking the settings button on the right side of the map:
 
