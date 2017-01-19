@@ -31,7 +31,7 @@ Often times you'll want to change the curvature of a connection based on the lay
 
 ### Setting connection direction
 
-If you've followed our instructions to set connections to default as directed, you're probably all set. But if you need to add/change/remove an arrow, first select the connection and then click the direction button (<i class="fa fa-random"></i>) in the lower right of the profile. If you'd like to make all of the connections in your map directed, use the "a" keystroke to select everything in your map and then click the direction button (<i class="fa fa-random"></i>) followed by the "directed" link.
+If you've followed our instructions to set connections to default as directed, you're probably all set. But if you need to add/change/remove an arrow, first select the connection and then click the direction button (<i class="fa fa-random"></i>) in the lower right of the profile. If you'd like to make all of the connections in your map directed, use the "a" keystroke to select everything in your map and then click the direction button followed by the "directed" link.
 
 ### Marking connections as same or opposite
 
@@ -80,7 +80,7 @@ And we'll automatically add the pre and post labels for you:
 
 ### Creating loops
 
-Kumu has built-in support for loops including detailed profiles so you can add narratives and other research to support your map. To create a loop, click the green "+" button and then click on the **connections** you'd like to have as part of your loop. Add a lable for the loop and hit `enter`.
+Kumu has built-in support for loops including detailed profiles so you can add narratives and other research to support your map. To create a loop, click the green "+" button and then click on the **connections** you'd like to have as part of your loop. Add a label for the loop and hit `enter`.
 
 <img src="/images/systems-reinforcing-loop.png" class="plain">
 
