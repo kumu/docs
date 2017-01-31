@@ -35,6 +35,7 @@
 * [Disciplines](#)
   * [SNA / Network Mapping](guides/sna-network-mapping.md)
   * [System mapping](guides/system-mapping.md)
+  * [Systems practice](guides/systems-practice.md)
 * [Embeds](guides/embeds.md)  
 * [Export](guides/export.md)
 * [Fields](guides/fields.md)
