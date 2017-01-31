@@ -104,7 +104,7 @@ Once you've gotten comfortable with the basics, it's worth exploring some of the
 If you hold alt and click anywhere on the map, you can create a new element in that location. Hold alt and drag from an existing element and you can create a connection (either to an existing element, or if you release your cursor on a blank part of the map it will create a new element there).
 
 ### Sketch mode
-You can enter sketch mode by clicking the green "+" button and then choosing "Sketch". Sketch mode makes it so you can you can click anywhere on the map to add a new element, and simply dragging from an existing element will create a connection.
+You can enter sketch mode by clicking the green "+" button and then choosing "Sketch". Sketch mode makes it so you can you can click anywhere on the map to add a new element. Dragging from an existing element will automatically create a connection.
 
 If you want to exit sketch mode, just hit `esc`.
 
