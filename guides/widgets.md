@@ -52,10 +52,15 @@ Below is an example of how to change the showcase behavior if you are using the 
 
 </div>
 
-**Creating lists of field values**
+**Creating lists of field values.**
 You can also create a list of all the values for a particular field. This list allows you to hover over any value and showcase those elements, connections and loops that have that value.
 
 ![](/images/list-widget-field.jpg)
+
+Simply include the field name in quotes in the standard list format.
+```
+[list "field name"]
+```
 
 
 ### Vimeo
