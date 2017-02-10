@@ -33,6 +33,19 @@ Rather than including all elements, you may want to build a list of only element
 **Limiting by selector.**
 You can further limit the list by using any [selector](selectors.html). The format is `[[list "selector"]]`. For example, you could use this to build a list of just those people who are highly influential `[[list "person['level of influence'='high']"]]`.
 
+**Change the showcase behavior.**
+You can override the default showcase behavior used in the list widget to also highlight what is connected to the given selection.
+
+Below is an example of how to change the showcase behavior for a list of all elements with type "person":
+```
+[list/person?mode=loose]
+```
+
+Below is an example of how to change the showcase behavior if you are using the list widget format where you use a custom selector:
+```
+[list?mode=loose "selector"]
+```
+
 <div class="alert alert-warning">
 
 <strong>Important!</strong> You need to modify the selector to use single quotes instead of double quotes otherwise the list widget will not work. For example, a generic selector <strong>["field label"="value"]</strong> would need to be re-written as <strong>['field label'='value']</strong>.
