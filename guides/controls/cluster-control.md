@@ -2,7 +2,7 @@
 
 **Use**
 
-Add a control to activate [clustering](../clustering.md) for a given field or set of selectors via a list of labels, buttons or a dropdown menu.
+Add a control to activate [clustering](../clustering.html) for a given field or set of selectors via a list of labels, buttons or a dropdown menu.
 
 **Example**
 
@@ -66,7 +66,7 @@ Cluster using custom [selectors](../selectors.html#selectors):
 If you want to use custom selectors to build clustering options, you'll need to list each option out separately. The options are defined by `option` blocks nested within the control and each `option` supports the following properties:
 
 * `label` the text to display for that option
-* `value` [advanced cluster rule](../clustering.md#advanced-clustering) to cluster by
+* `value` [advanced cluster rule](../clustering.html#advanced-clustering) to cluster by
 * `default`
   * `true` value is selected by default
   * `false` value is unselected by default
