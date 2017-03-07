@@ -1,5 +1,40 @@
 # Changelog
 
+## Version 1.8.0
+
+**Updated ksb, released 2017-03-07**
+
+The latest release of Kumu Enterprise includes a redesigned dashboard,
+built-in spreadsheet editor, computed fields, and lots more!
+
+Note: In this release we have dropped support for IE10 and under.
+Do not upgrade if you still need to support these older browsers.
+
+- Redesigned dashboard
+- Added Table, our built-in spreadsheet editor
+- Added z-index support for background elements / geo underlays
+- Added :from and :to pseudo selectors
+- Added disqus commenting integration
+- Added simple systems template
+- Added support for importing controls from other views
+- Added import reviewer
+- Added computed fields
+- Added support for typeless clustering
+- Added support for private google sheets
+- Added support for hidden google sheets
+- Added prompt for unsaved view changes
+- Expanded list widget to support selectors and fields
+- Expanded cluster control options
+- Improved sketch mode workflow
+- Fixed performance issues with map switching and trash emptying
+- Fixed url param handling within embeds
+- Fixed link handling within presentations
+- Fixed issue with blank loop labels
+- Fixed issue with stale filter forms after view change
+- Fixed eigenvector calculation for DAGs
+- Fixed settings sidebar issues in IE11 that caused reversed text
+- Dropped support for IE10 and under
+
 ## Version 1.7.0
 
 **Updated ksb, released 2016-07-13**
