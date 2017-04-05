@@ -51,34 +51,17 @@ Scatter plots are in beta right now and require you to write code. If that scare
 Still with us? Great! Let's dive in head first:
 
 ```
-// Example scatter plot definition
-//
-// NOTE: These settings will only work for you if your elements
-// have "influence" and "exposure" fields as described below.
 @settings {
-  // Enable the scatter plot layout
   layout: scatter;
-
-  // Position elements horizontally using the "influence" field.
-  // Influence values are 0..1 and the multiplier scales them up to 0..1000.
   layout-x: "influence";
   layout-x-multiplier: 1000;
-
-  // Position elements vertically using the "exposure" field.
-  // Exposure values are 0..1 and the multiplier scales them up to 0..1000.
   layout-y: "exposure";
   layout-y-multiplier: 1000;
-
-  // Turn on grid lines
   layout-grid: on;
-
-  // Clip the layout to a 1000x1000 square
   layout-bounds-xmin: 0;
   layout-bounds-ymin: 0;
   layout-bounds-xmax: 1000;
   layout-bounds-ymax: 1000;
-
-  // Use guide lines to split the square into four quadrants
   layout-guides: x(500) y(500);
 }
 ```
