@@ -5,6 +5,10 @@ Imports make it quick and easy to start visualizing your existing data, but you'
 <iframe src="https://player.vimeo.com/video/96531654" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
+## Structuring your data for Kumu
+Take the time to read our guide on structuring your data for Kumu before you start building your import spreadsheet:
+<script async class="speakerdeck-embed" data-id="3fa28aedbab94c04870608fce4649dac" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## Preparing your file for import
 
 First, make sure you are working with either an .xlsx or .csv file format (no .xls allowed). Tweak your spreadsheet so it contains the following columns:
@@ -107,13 +111,13 @@ If you're running into funny character issues, please make sure your file is UTF
 
 Our Google Spreadsheets integration populates a map using the contents of a spreadsheet hosted on Google Drive. This is a great way to crowdsource community maps without having to give everyone access to the project on Kumu.
 
-### Limitations of Google Sheets with Kumu 
+### Limitations of Google Sheets with Kumu
 Unlike file-based imports, this sets up an ongoing import. The elements and connections will be fetched from the spreadsheet on the fly each time you refresh the page. None of the data will be saved to Kumu's servers and the imported elements and connections are read-only within Kumu. All edits must be made within the spreadsheet.
 
 * Elements and connections are read only within Kumu (edits must be made within the spreadsheet).
-* You can't pin elements in place when they're created from a Google Sheet. 
+* You can't pin elements in place when they're created from a Google Sheet.
 * Presentations do not work with maps fed by a Google Sheets integration.
-* Metrics do not work well with maps supplied by a Google Sheet. 
+* Metrics do not work well with maps supplied by a Google Sheet.
 
 ### Setting up the Google Sheets Integration
 
