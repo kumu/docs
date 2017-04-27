@@ -102,6 +102,12 @@ Blue | White | Gray
 Green | Yellow | Red
 ```
 
+If you are using Markdown in the Description column of a [Kumu Import](https://docs.kumu.io/guides/import.html), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
+
+```
+<table><tr><th>One</th><th>Two</th><th>Three</th></tr><tr><td>Blue</td><td>White</td><td>Gray</td></tr><tr><td>Green</td><td>Yellow</td><td>Red</td></tr></table>
+```
+
 ## Horizontal Rules
 
     Three or more dashes or asterisks --- ***
