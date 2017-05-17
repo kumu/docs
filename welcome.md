@@ -39,7 +39,7 @@ Looking to learn how to use Kumu? You're in the right place. We've broken up the
 
 ## Five-minute quickstart
 
-<iframe src="https://player.vimeo.com/video/161212905" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/217904181" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 ## Want to talk to a human?
