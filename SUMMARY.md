@@ -10,6 +10,7 @@
   * [Refine your view](getting-started/overview.md#hiding-elements-connections-permalink)
   * [Add a collaborator](getting-started/overview.md#adding-a-collaborator-permalink)
 * [FAQ](getting-started/faq.md)
+* [Quick tips](getting-started/quick-tips.md)
 
 ## Overview
 * [The essentials](overview/the-essentials.md)
