@@ -27,6 +27,6 @@ Once you've created teams, click on the project and grant access to each team by
 
 If you would like to convert your personal account to an organization account, please email [support@kumu.io](mailto:support@kumu.io).
 
-If you would like to transfer a project to an organization account, [see more info here](faq/how-do-i-transfer-a-project.md).
+If you would like to transfer a project to an organization account, [see more info here](/faq/how-do-i-transfer-a-project.html).
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/organizations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
