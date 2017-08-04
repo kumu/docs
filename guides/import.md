@@ -116,7 +116,6 @@ Unlike file-based imports, this sets up an ongoing import. The elements and conn
 
 * Elements and connections are read only within Kumu (edits must be made within the spreadsheet).
 * You can't pin elements in place when they're created from a Google Sheet.
-* Presentations do not work with maps fed by a Google Sheets integration.
 * Metrics do not work well with maps supplied by a Google Sheet.
 
 ### Setting up the Google Sheets Integration

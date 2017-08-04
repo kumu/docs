@@ -5,8 +5,6 @@ Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-u
 
 <iframe src="https://player.vimeo.com/video/118975099" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-**Note:** Presentations do not work with maps supplied by the [Google Sheets integration](/guides/import.html#integrating-with-google-sheets).
-
 ## Creating a presentation
 
 Presentations can be accessed through the main menu of your project.
