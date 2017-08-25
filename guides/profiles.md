@@ -58,4 +58,25 @@ Use single words for your element types, connection types, and tags. By doing so
 
 If you include special characters or multiple words you'll have to use the longhand instead (such as <code>["element type"="Government Sector"]</code>) and that's just not nearly as much fun.
 
+### Disabling the profile
+
+You can choose to disable the profile entirely or for specific elements and connections. To disable the profile for all elements and connections, use the `profile` property within `@settings`:
+
+```
+@settings {
+  profile: false;
+}
+
+```
+
+To disable the profile just for elements and connections that have a description field, use the following:
+
+```
+[description] {
+  profile: true;
+}
+```
+
+You can swap out `description` for any selector. Values for the `profile` property can be either `true` or `false`.
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/profiles.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
