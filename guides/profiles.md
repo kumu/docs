@@ -60,7 +60,7 @@ If you include special characters or multiple words you'll have to use the longh
 
 ### Disabling the profile
 
-You can choose to disable the profile entirely or for specific elements and connections. To disable the profile for all elements and connections, use the `profile` property within `@settings`:
+You can choose to disable the profile entirely or only for specific elements and connections. To disable the profile for all elements and connections, use the `profile` property within `@settings`:
 
 ```
 @settings {
@@ -69,14 +69,18 @@ You can choose to disable the profile entirely or for specific elements and conn
 
 ```
 
-To disable the profile just for elements and connections that have a description field, use the following:
+To enable the profile only for elements and connections that have a description field, you could use the following:
 
 ```
+@settings {
+  profile: false;
+}
+
 [description] {
   profile: true;
 }
 ```
 
-You can swap out `description` for any selector. Values for the `profile` property can be either `true` or `false`.
+You can swap out `[description]` for any selector. Values for the `profile` property can be either `true` or `false`.
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/profiles.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
