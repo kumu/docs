@@ -55,6 +55,7 @@
   * [Showcase](guides/showcase.md)
   * [Advanced](guides/views-advanced.md)
     * [@settings](guides/advanced-settings.md)
+    * [Popover](guides/popover.md)
     * [Color reference](guides/color-reference.md)
     * [Property reference](guides/property-reference.md)
     * [Selector reference](guides/selector-reference.md)
