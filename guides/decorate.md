@@ -2,7 +2,7 @@
 
 Decorations are powerful ways to change the color and/or size of the element, connections and loops in your map.
 
-### Coloring by qualitative fields
+## Coloring by qualitative fields
 
 If you have a qualitative field like "element type" you'll need to create a decoration for each value. Click "new element rule" and then use the top dropdowns to identify which element type(s) you want to color. Let's use "civic engagement" as an example:
 
