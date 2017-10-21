@@ -20,7 +20,7 @@ When you have a quantitative field, it makes it even easier to decorate the elem
 
 ## Coloring by multiple value fields using flags
 
-If you have a qualitative field with multiple values for a single element, you can use flags to deorate an element.
+If you have a qualitative field with multiple values for a single element, you can use flags to decorate an element.
 
 <img src="../images/flags-auto.png" alt="flag decorations">
 
