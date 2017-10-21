@@ -18,6 +18,33 @@ When you have a quantitative field, it makes it even easier to decorate the elem
 
 ![quantitative scale](/images/quantitative-scale.png)
 
+## Coloring by multiple value fields using flags
+
+If you have a qualitative field with multiple values for a single element, you can use flags to deorate an element.
+
+<img src="../images/flags-auto.png" alt="flag decorations">
+
+You'll need to switch to the advanced editor and specify the field ("leverage analysis" in this case) and [color palette](./color-reference.html) ("neon2").
+
+```
+@settings {
+  element-flag: "leverage analysis" with neon2;
+}
+```
+
+You can also manually assign colors to values if you don't want to highlight the whole set.
+
+<img src="../images/flags-manual.png" alt="flag decorations">
+
+The pattern is `color "value"` where color can be a named color or an HTML hex color code (#2dc63f).
+
+```
+@settings {
+  element-flag: "leverage analysis" with yellow "bright spot", #2dc63f "frozen";
+}
+```
+
+
 ## Decorations are applied top to bottom
 
 You might run into some cases where your decorations compete with one another (you decorated all "people" blue but highlighted those tagged with "influential" orange). Decorations are applied from top to bottom. Simply re-order your decorations by dragging them to achieve the desired result.
