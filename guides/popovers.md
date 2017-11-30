@@ -1,36 +1,105 @@
-# Popover
+# Popovers
 
-Popovers allow you to display fields from the profiles when someone hovers over an element, connection, or loop.
+[Profiles](/guides/profiles.html) are great for including detailed background information about what you’re mapping. But sometimes they can be a bit overkill, and they do take up a lot of precious screen space. Sometimes you want to share just a little bit more context about an element or connection without having to open the profile.
 
-## Activating hover using the advanced editor
+**Popovers** allow you to display fields from the profiles when someone hovers over an element, connection, or loop.
 
-To activate hover using the advanced editor, use the `popover` property within `@settings`:
+![A screenshot showing the popover functionality](/images/paypal-popover.png)
 
+## Basic popover syntax
+
+Popovers are added through the Advanced Editor, using a simple syntax.
 ```
-@settings {
-  popover: "{{description}}";
+* {
+    popover: "{{Field name}}";
+}
+```
+The `*` will select everything on the map&mdash;elements, connections, and loops&mdash;and apply the popover settings to them. You can replace  `*` with any selector (check out our [selector reference](/guides/selector-reference.html) to learn more about selectors in Kumu).
+
+`Field name` can be replaced with the name of any of your fields, but remember to wrap each field name in double curly brackets `{{}}` and wrap the entire popover value in quotations.
+
+For example, here is the code for an **element** popover that includes the **label** and **element type**:
+```
+element {
+    popover: "{{label}} {{element type}}";
 }
 ```
 
-You could choose to include a different field or multiple fields by changing the portion within the quotes and wrapping the field name in double brackets. For example, below would include both label and tags (using markdown to bold the label and a double space to create a line break):
+## Using markdown to style the popover
 
+You can use [markdown](/guides/markdown.html) to add italics, bold text, videos, and more to your popover. You can also add double spaces to create line breaks.
+
+Here's a popover that uses markdown to style the label, add a horizontal rule, and add line breaks in between the fields:
 ```
-@settings {
-  popover: "**{{label}}**  {{tags}}";
+chapter {
+    popover: "### {{label}}  ---  {{topic sentence}}  {{image}}";
 }
 ```
 
-You could also create different behavior for elements and connections:
+![](/images/soil-biodiversity-markdown-popover.png)
+
+Note that popovers automatically recognize images, so there's no need to style those with markdown. This works with hyperlinks as well&mdash;just use something like `{{website}}` or `{{image}}` in your popover, and the popover will render it properly.
+
+Popovers also recognize multi-pick fields (like Tags) and will render them as bulleted lists.
+
+**Good to know:** If you want a hyperlink to open in a new tab, you'll have to use a snippet of HTML in your popover, like this example with the `{{hyperlink}}` field:
+```
+* {
+    popover: "<a href='{{hyperlink}}' target='_blank'>"
+}
+```
+
+## Use cases
+
+Here are just a few cases where we think popovers are useful!
+
+### Show connection labels on demand
+
+Sometimes you want to use connection labels to add information (such as role or nature of a relationship) but don’t want those showing up on the map all the time. In that case, just add the following:
+
+```
+connection {
+  label-visibility: hidden;
+  popover: "{{label}}";
+}
+```
+
+![](/images/hawaii-board-connection-popover.png)
+
+### Bring the profile into the popover
+
+The profile is great when you have a lot of information in the description as well as a number of fields. But when you only have one or two fields, sometimes it is easier to disable the profile and just use popovers instead.
+
+Our first step is to disable the profile for everything on the map:
+
+```
+* {
+  profile: false;
+}
+```
+
+We can then activate the popover for all elements and connections:
+
+```
+element, connection {
+   popover: "### {{label}}  {{image}}  {{description}}";
+}
+```
+
+![](/images/elon-musk-profile-popover.png)
+
+### Highlight key facts and figures
+
+Ever sized elements or connections based on a quantitative data, but didn’t want people to have to dig through the profile to find the number? Use popovers to display those values instead:
 
 ```
 element {
-  popover: "description";
-}
-
-connection {
-  popover: "label";
-  label-visibility: hidden;
+  popover: "**Money raised for:** ${{money raised for}}  **Money raised against:** ${{money raised against}}"
 }
 ```
+
+![](/images/ca-ballot-quantitative-popover.png)
+
+
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/popover.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
