@@ -158,6 +158,16 @@ Hidden objects will still affect the layout.
 "></i></td>
   </tr>
 
+  <tr data-property="font-color">
+    <td>font-color</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font color.
+<code>color</code>
+"></i></td>
+  </tr>
+
   <tr data-property="font-family">
     <td>font-family</td>
     <td><i class="fa fa-check"></i></td>
@@ -359,7 +369,7 @@ and its core (image / bullseye).
 <code>circle|square</code>
 "></i></button></td>
   </tr>
-  
+
   <tr data-property="strength">
     <td>strength</td>
     <td><i class="fa fa-cancel"></i></td>
