@@ -69,6 +69,9 @@ Note that your location field should be wrapped in two curly braces if you are s
 - If you leave the location field blank on an element, it will get placed at 0° latitude, 0° longitude (in the Atlantic Ocean south of Ghana).
 - If two elements have the exact same location, they will stack on top of each other and might be difficult to see.
 - You can use different types of location data to place your elements, even in the same map, as long as all the data is stored in the same field.
+- Geo isn’t quite ready for large maps yet. If you have more than 100 elements, it will take a few refreshes to get all locations geocoded.
+- Screenshots and PDFs are not currently supported for geo.
+- Decorations for geo maps are still in beta. By default, you’re limited to squares and straight lines, but if you want to test out the full range of decorations (circles, borders, curved lines, flags, etc.), add `renderer: canvas;` to your `@settings` block.
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/templates.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
