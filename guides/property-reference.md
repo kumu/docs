@@ -383,7 +383,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-cancel"></i></button></td>
     <td><i class="fa fa-cancel"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shape.
-<code>circle|square</code>
+<code>circle|square|rectangle</code>
 "></i></button></td>
   </tr>
 
