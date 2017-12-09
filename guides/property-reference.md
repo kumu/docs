@@ -17,7 +17,25 @@ All values are unitless.
 
 The table belows lists all of the properties recognized by Kumu. Hover over the information icon at the far right to see additional details and available values for each property. Scroll to the bottom for a list of available @settings properties.
 
-<table class="property-table table table-striped">
+<style>
+
+#search-properties {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-left: 2px solid #ccc;
+}
+
+#search-properties:focus {
+    outline: none;
+}
+
+</style>
+
+<input type="text" id="search-properties" onkeyup="searchProperties()" placeholder="Type to filter...">
+
+<table id="property-reference-table" class="property-table table table-striped">
   <tbody><tr>
     <th class="text-left">Property</th>
     <th class="text-center">Elements</th>
@@ -147,17 +165,6 @@ Hidden objects will be fully removed from the map (see visibility).
 "></i></td>
   </tr>
 
-  <tr data-property="visibility">
-    <td>visibility</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general visibility.
-Hidden objects will still affect the layout.
-<code>visible|hidden</code>
-"></i></td>
-  </tr>
-
   <tr data-property="font-color">
     <td>font-color</td>
     <td><i class="fa fa-check"></i></td>
@@ -205,6 +212,16 @@ Hidden objects will still affect the layout.
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font weight.
 <code>normal|bold</code>
+"></i></td>
+  </tr>
+
+  <tr data-property="height">
+    <td>height</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-cancel"></i></td>
+    <td><i class="fa fa-cancel"></i></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls height of elements that are squares and/or rectangles
+<code>auto|number</code>
 "></i></td>
   </tr>
 
@@ -300,22 +317,22 @@ and its core (image / bullseye).
 "></i></td>
   </tr>
 
-  <tr data-property="size">
-    <td>size</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-cancel"></i></td>
-    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the base element and and connection size.
-<code>number</code>
-"></i></td>
-  </tr>
-
   <tr data-property="scale">
     <td>scale</td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-cancel"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element and connection scale (multiple of base size).
+<code>number</code>
+"></i></td>
+  </tr>
+
+  <tr data-property="size">
+    <td>size</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-cancel"></i></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the base element and and connection size.
 <code>number</code>
 "></i></td>
   </tr>
@@ -400,7 +417,52 @@ and its core (image / bullseye).
 "></i></td>
   </tr>
 
+  <tr data-property="visibility">
+    <td>visibility</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general visibility.
+Hidden objects will still affect the layout.
+<code>visible|hidden</code>
+"></i></td>
+  </tr>
+
+  <tr data-property="width">
+    <td>width</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-cancel"></i></td>
+    <td><i class="fa fa-cancel"></i></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls width of elements that are squares and/or rectangles
+<code>auto|number</code>
+"></i></td>
+  </tr>
+
 </tbody></table>
+
+<script type="text/javascript">
+
+function searchProperties() {
+    let searchBox, searchTerm, table, rows, i, cells, textToSearch;
+
+    searchBox = document.querySelector("#search-properties");
+    searchTerm = searchBox.value.toLowerCase();
+    table = document.querySelector("#property-reference-table");
+    rows = table.querySelectorAll("tr");
+
+    for(i = 1; i < rows.length; i++) {
+        cell = rows[i].querySelector("td");
+        textToSearch = cell.innerHTML.toLowerCase();
+
+        if(textToSearch.indexOf(searchTerm) > -1) {
+            rows[i].style.display = "table-row";
+        } else {
+            rows[i].style.display = "none";
+        }
+    }
+}
+
+</script>
 
 ### @settings Supported Properties
 
