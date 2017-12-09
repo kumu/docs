@@ -22,7 +22,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
 #search-properties {
     width: 100%;
     padding: 5px 10px 5px 10px;
-    margin-bottom: 10px;
+    margin-bottom: .85em;
     border: none;
     border-left: 2px solid #ccc;
 }
