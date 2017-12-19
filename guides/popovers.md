@@ -49,6 +49,23 @@ Popovers also recognize multi-pick fields (like Tags) and will render them as bu
 }
 ```
 
+## Resizing the popover
+
+Kumu sets default popover sizes based on how much content is in each popover, but you can override these defaults using the `popover-height`, `popover-width`, and `popover-padding` properties. `height` and `width` control the vertical and horizontal size of the popover box, and `padding` controls the space between the edge of the popover and its contents.
+
+```
+chapter {
+    popover: "### {{label}}  ---  {{topic sentence}}  {{image}}";
+    popover-height: 200;
+    popover-width: 300;
+    popover-padding: 3;
+}
+```
+
+**Good to know:**
+- `popover-width` is a great tool if you want to set a maximum width for images that you want to include in the popover. Kumu will resize the image to fit your `popover-width` without stretching or distorting the image.
+- If the height of your content exceeds your `popover-height`, Kumu will add a vertical scroll bar to your popover.
+
 ## Use cases
 
 Here are just a few cases where we think popovers are useful!
