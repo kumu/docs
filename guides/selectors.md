@@ -262,4 +262,15 @@ Note: the includes operator `~=` is only relevant for fields with multiple value
 [employees >= 10]
 ```
 
+## Pseudo Selectors
+
+ With the pseudo selectors `:from()` and `:to()`, you can select connections based on the elements those connections are attached to.
+
+ For example:
+- `:from(organization)` selects all connections that are coming from elements with type “organization”
+- `:to(#my-element)` selects all connections pointing to an element with the label "My Element"
+- `:from(["level of influence"="high:]),:to(["level of influence"="high:])` selects all connections from _and_ to elements that have "high" in their "level of influence" field
+
+To build your own, just add any selector within the parentheses `:from(selector)`.
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/selectors.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
