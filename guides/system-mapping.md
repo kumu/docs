@@ -56,7 +56,7 @@ opposite-connection {
 }
 ```
 
-#### Using pre and post labels
+#### Using pre-labels and post-labels
 
 Some system mappers like to go even further and include not just whether a connection is same or opposite, but also the "+" and "-" labels on the trailing and leading ends of a connection. We've customized the behavior of the type field for connections to allow for creation of these labels. The table below lists the value to add as the connection type and the corresponding behavior it creates:
 
@@ -74,9 +74,13 @@ Simply add the value to the "type" field on any connection:
 
 ![connection type](/images/systems-connection-type.png)
 
-And we'll automatically add the pre and post labels for you:
+And we'll automatically add the pre- and post-labels for you:
 
 ![pre and post labels](/images/systems-connection-type-example.png)
+
+We also support custom pre-labels and post-labels&mdash;just add two new fields to your connections and call them `Prelabel` and `Postlabel`. Anything you type in those fields will appear at the start and end of the connection.
+
+![custom post-labels](/images/post-labels-unwanted-pregnancy.png)
 
 ### Creating loops
 
