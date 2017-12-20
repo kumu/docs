@@ -66,7 +66,7 @@
   * [Markdown](guides/markdown.md)
 * [Project architecture/organization](guides/project-architecture.md)
 * [Selectors](guides/selectors.md)
-* [Sharing and embedding](guides/sharing-and-embedding.md)
+* [Share and embed maps](guides/share-and-embed.md)
 * [Shortcuts](guides/shortcuts.md)
 * [Snap-to](guides/snap-to.md)
 * [Table](guides/table.md)
