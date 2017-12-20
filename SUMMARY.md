@@ -37,7 +37,7 @@
   * [SNA / Network Mapping](guides/sna-network-mapping.md)
   * [System mapping](guides/system-mapping.md)
   * [Systems practice](guides/systems-practice.md)
-* [Embeds](guides/embeds.md)  
+* [Sharing and embedding](guides/sharing-and-embedding.md)  
 * [Export](guides/export.md)
 * [Fields](guides/fields.md)
   * [Computed fields](guides/computed-fields.md)
