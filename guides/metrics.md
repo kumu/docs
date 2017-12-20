@@ -80,7 +80,7 @@ tr th:first-child {
         </tr>
         <tr>
             <td>MICMAC</td>
-            <td>MICMAC is a system analysis that assigns two scores to each element: an exposure score (how much a given element is affected by other elements) and an influence score (how much a given element affects other elements). These scores, when plotted on an XY axis, provide helpful information on how much leverage each element has across the overall system.</td>
+            <td>MICMAC is a system analysis that explores element exposure (how much a given element is affected by other elements) and influence (how much a given element affects other elements). When plotted on an XY axis, these scores help you identify potential leverage points within the overall system.</td>
         </tr>
 
 </tbody></table>
