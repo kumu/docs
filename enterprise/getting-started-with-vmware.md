@@ -1,8 +1,7 @@
 # Getting Started with VMWare
 
-The download locations for the Kumu Enterprise virtual appliance (.ova),
-your Kumu Enterprise license (.kli), and the latest Kumu Enterprise software
-bundle (.ksb) should have been provided to you by email. Please email
+The download locations for the Kumu Enterprise virtual appliance (.ova) and your
+Kumu Enterprise license (.kli) should have been provided to you by email. Please email
 <a href="mailto:enterprise@kumu.io">enterprise@kumu.io</a> if you don't have them yet.
 
 Before installing Kumu Enterprise in production, we recommend running through
@@ -32,14 +31,10 @@ can further configure the network settings.
 If you see an ip listed here, you're all set.  If not, you'll need to adjust
 your network settings.
 
-## Step 3. Install your license and software bundle
+## Step 3. Install your license
 
 Follow the instructions given to you by the console to complete your installation.
-Your enterprise license (.kli) and software bundle (.ksb) can be installed by
-going to `<hostname>/enterprise/install`.
-
-The installation is complete once you see the following screen (be patient as the process can take up to 10 minutes).
-![Installation Complete](/images/enterprise-success.png)
+Your enterprise license (.kli) can be installed by going to `<hostname>/enterprise/install`.
 
 <footer class="page-footer">
   <div class="next">Next: <a href="configuration.md">Configuration</a></div>
