@@ -15,7 +15,9 @@ We strongly recommend [backing up your existing data][backup] immediately prior 
 
 1. [Back up your existing data][backup]
 1. Download the latest .ksb
-1. Install the ksb at `<hostname>/enterprise/install`. The installation is complete once you see the following screen:
+1. Install the ksb at `<hostname>/enterprise/install`.
+
+The installation is complete once you see the following screen:
 ![Installation Complete](/images/enterprise-success.png)
 
 Note: You do not need to upload your license again if your license is still valid.
