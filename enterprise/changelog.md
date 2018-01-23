@@ -1,5 +1,41 @@
 # Changelog
 
+## Version 2.0
+
+**Machine upgrade required, released 2018-01-22**
+
+New enterprise versioning scheme! Major versions bumps (eg 2.0 to 3.0) require
+a machine upgrade. Minor version bumps (eg 2.0 to 2.1) can be hotpatched using
+the latest ksb.
+
+Packages have been updated to the latest security versions.
+
+Changes:
+- Added geo renderer with built-in geocoding
+- Added flag decoration
+- Added popovers
+- Added element image uploads
+- Added real-time update notifications
+- Added support for google sheets based presentations
+- Added option to disable profiles
+- Added relative date selectors
+- Added SSL support (appliance now comes with SSL enabled by default)
+- Tweaked behavior of `ignore-orphans` so it is applied after clustering
+- Tweaked showcase behavior to zoom fit on entire showcase
+- Tweaked cluster behavior to automatically refresh on field changes
+- Fixed field privacy bug that prevented contributors from seeing private fields
+- Fixed XSS security issues
+- Fixed from/to sorting issues in Table
+- Fixed overeager autocomplete bug when creating new elements
+- Fixed advanced editor scrolling bug
+
+Known issues:
+- IE11 and under are not supported.
+- Importing private google sheets is not supported.
+- Embed slides do not work within presentations out of the box. Kumu uses
+  Embedly to handle these we restrict requests to known referrers.
+  Please email the hostname you're using to enterprise@kumu.io to fix this.
+  
 ## Version 1.8.0
 
 **Updated ksb, released 2017-03-07**
