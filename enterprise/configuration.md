@@ -44,6 +44,12 @@ This is the hostname that will be used for any absolute links within the applica
 
 [Add an SSH key][ssh] to enable access to the enterprise command-line utilities.
 
+## SSL
+
+To protect your instance, a self-signed SSL certificate is generated for you automatically when the instance first boots.
+
+Since the certificate is self-signed, you will have to click through warning prompts the first time you access the site. If you don't want users to see these warnings, you can use the `kumu-ssl-install-cert` and `kumu-ssl-install-key` [command line utilities](command-line-utilities.md) to upload a custom certificate.
+
 <footer class="page-footer">
   <div class="next">Next: <a href="ssh-access.md">SSH Access</a></div>
 </footer>
