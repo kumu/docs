@@ -1,5 +1,25 @@
 # Changelog
 
+## Version 2.1
+
+**Updated KSB, released 2018-02-15**
+
+Minor update to the 2.0 release that fixes a bug which prevented admins from
+being able to assign static ips.
+
+If you are not experience networking issues you can ignore this update.
+
+Changes:
+- Fixed network config script to allow static ip assignments
+- Admins now have permission to edit /etc/network/interfaces manually if necessary
+
+Known issues:
+- IE11 and under are not supported.
+- Importing private google sheets is not supported.
+- Embed slides do not work within presentations out of the box. Kumu uses
+  Embedly to handle these we restrict requests to known referrers.
+  Please email the hostname you're using to enterprise@kumu.io to fix this.
+  
 ## Version 2.0
 
 **Machine upgrade required, released 2018-01-22**
@@ -30,6 +50,7 @@ Changes:
 - Fixed advanced editor scrolling bug
 
 Known issues:
+- Static ip assignment busted (fixed in 2.1 release)
 - IE11 and under are not supported.
 - Importing private google sheets is not supported.
 - Embed slides do not work within presentations out of the box. Kumu uses
