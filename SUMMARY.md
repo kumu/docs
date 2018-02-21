@@ -99,6 +99,7 @@
 * [How do I convert a project from private to public?](faq/how-do-i-convert-a-project-from-private-to-public.md)
 * [How do I downgrade my account to free?](faq/how-do-i-downgrade-to-free.md)
 * [How do I delete a project?](faq/how-do-i-delete-a-project.md)
+* [How do I delete data from my project?](faq/how-do-i-delete-data-from-my-project.md)
 * [How do I change the length or strength of connections?](faq/how-to-change-length-of-connections.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)

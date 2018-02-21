@@ -43,4 +43,4 @@ embed.kumu.io/abc123?zoom=0&settings=0
 ```
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/embeds.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/share-and-embed.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
