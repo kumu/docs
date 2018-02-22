@@ -12,6 +12,6 @@ You'll now have all of your elements and connections available as two separate s
 
 ## Downloading a project blueprint
 
-If you need to backup your entire project (all maps, views, and underlying data **except presentations**), use the more menu (...) in the lower right and choose "export json". This will create a json file that can be used as a snapshot in time of your project, and can be imported into a blank project to restore it.
+If you need to backup your entire project (all maps, views, and underlying data **except presentations**), use the more menu (...) in the lower right and choose "export json". This will create a [JSON blueprint](/guides/blueprints.md) that can be used as a snapshot in time of your project, and can be imported into a blank project to restore it.
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/export.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
