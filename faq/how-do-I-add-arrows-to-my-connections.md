@@ -17,7 +17,7 @@ If you want to add arrows to your connections to specify direction, here are a c
 * Click "Directed" to add arrows to all connections.
 
 **Good to know:**
-- Arrows can't be added to connections if you're using the [SNA template](https://docs.kumu.io/guides/templates.html#sna-social-network-analysis-template).gi
+- Arrows can't be added to connections if you're using the [SNA template](https://docs.kumu.io/guides/templates.html#sna-social-network-analysis-template).
 - Kumu recognizes connection direction from your spreadsheet import (**From** and **To** columns in your connections sheet) or the direction you draw the connection by hand. This connection direction determines which way arrows point when you specify a "directed" connection.
 - In a JSON blueprint, you can use the `directed` property of each connection to specify `'directed'`, `'undirected'`, or `'mutual'`.
 
