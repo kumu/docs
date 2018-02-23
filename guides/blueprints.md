@@ -90,6 +90,8 @@ When you're finished creating your blueprint, save the file with a `.json` exten
 
 You can create a full backup of your Kumu project at any time, thanks to our JSON blueprint exports. All you need to do is open your project, click the **...** icon in the lower right corner, and select **Export .json**. The file that downloads to your computer is a full backup of your project, including all data (elements, connections, loops, and data stored in their fields), element positions, views, maps, map overviews, etc.
 
+The backup will also include anything that is in [your project's Trash](/overview/data-architecture.html#trash), so it can be a helpful tool for restoring large groups of deleted elements and connections.
+
 To restore this backup in a brand new project, go to your Kumu dashboard and click the New Project button. Name your project and set it to private or public, and advance to the next screen:
 
 ![Template screen](/images/template-screen.png)
