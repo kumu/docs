@@ -10,7 +10,7 @@ To add a background image to a map, you'll need to be willing to dive into the [
     shape: square;
     size: 5000;
     color: transparent;
-    image-url: url(https://dl.dropboxusercontent.com/u/9002358/Kumu%20-%20Do%20Not%20Delete/world-map.png);
+    image-url: url(https://cdn.rawgit.com/AlexVipond/hosted-svgs/master/world-map.svg);
     image-size: contain;
     image-resolution: original;
     label-visibility: none;
