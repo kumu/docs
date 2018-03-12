@@ -36,4 +36,16 @@ The force-directed layout also allows you to override any element's position by 
 
 **Good to know:** The [stakeholder template](https://docs.kumu.io/guides/templates.html#stakeholder-template) and [SNA template](https://docs.kumu.io/guides/templates.html#sna-social-network-analysis-template) are set to a force-directed layout by default.
 
+## Changing from fixed to force-directed layout:
+
+1. Click on the settings button <i class="fa fa-sliders"></i> on the right side of the map
+1. Navigate to the **SETTINGS** tab
+1. Scroll down to the **General settings** section to change the "Layout" to "force-directed"
+1. Scroll down to the **Map settings** section to change "Default element behavior" to "floating"
+
+If you were previously using a fixed layout, you may need to un-pin all the existing elements. You can do this by pressing `Shift`+`E` on your keyboard to select all elements, then click the pin icon in the lower right of the element profile **or** press `Alt`+`P` on your keyboard.
+
+After you complete those steps, just move one element, and they will all start to float into the force-directed layout.
+
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/layouts/force-directed.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
