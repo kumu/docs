@@ -57,10 +57,17 @@ You can also use the field relevance menu to change the order fields are listed 
 
 To change the order, click edit and then simply drag the fields to reorder them. When you are finished, click "Done" and you'll see the new order reflected in the profile.
 
-## Deleting a field or field values
+## Deleting a field
 If you've created a field and want to delete it and all corresponding values, click on the label of the field in any profile and then go to more -> delete. Alternatively, use can use the menu in the upper left corner to go to the field settings page (choose fields). This will delete the field and any values assigned for any content in your project.
 
-Occasionally you may want to delete the prompted choices for a given field. This often happens with element and connection types where you are no longer using certain values. To remove a choice, use the menu in the upper left of your map and choose "fields". Click on the field you want to edit and then just blank the input for the choice you'd like to remove by deleting all text. Scroll down and click "save" when you are done.
+## Deleting field values
+Occasionally you may want to delete the prompted choices for a given field, or the options that show up in a [control](/guides/controls.md). To do this, you need to remove the value from the field settings:
+1. Click the menu in the upper left of your map and choose **FIELDS**
+1. Click on the field you want to edit
+1. Find the value you want to delete. Then, highlight it and press `delete` or `backspace` on your keyboard.
+1. Scroll down and click **SAVE** to save your changes
+
+After you follow these steps and refresh the page, the field value(s) you deleted will no longer show up in prompted lists or in controls.
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/fields.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
