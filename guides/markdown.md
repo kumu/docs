@@ -3,24 +3,25 @@
 Markdown is an easy and powerful way to format your descriptions and long text fields using simple, natural syntax.
 
 ## The basics
-
-*italic* and **bold**
-
 ```
 *italic* and **bold**
 ```
 
-An inline link: [Kumu](http://launch.kumupowered.com)
+*italic* and **bold**
 
 ```
 An inline link: [Kumu](http://launch.kumupowered.com)
 ```
 
-An auto-generated link: <a href="http://launch.kumupowered.com">http://launch.kumupowered.com</a>
+An inline link: [Kumu](http://launch.kumupowered.com)
 
 ```
 http://launch.kumupowered.com
 ```
+
+An auto-generated link: <a href="http://launch.kumupowered.com">http://launch.kumupowered.com</a>
+
+
 
 ## Lists
 
@@ -29,12 +30,23 @@ http://launch.kumupowered.com
 * Cookies
 * Marshmallows
 ```
+Looks like:
+
+* Milk
+* Cookies
+* Marshmallows
 
 ```
 1. California
 2. Texas
 3. New York
 ```
+Looks like:
+
+1. California
+2. Texas
+3. New York
+
 
 ## Links within your account
 We also support linking to elements, connections and loops (even other maps in your account) using the following format:
@@ -59,6 +71,8 @@ We also support linking to elements, connections and loops (even other maps in y
 ## Images
 
 ```
+![alt text](image-url)
+
 ![Kumu Logo](http://blog.kumu.io/content/images/2015/08/kumu-logo-cutout-full-dark.png)
 ```
 
@@ -71,12 +85,23 @@ Look at the embed code of the video you want to embed and grab the URL within **
 
 ## Headers
 
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
+```
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+```
+Looks like:
+
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+
 
 ## Code
 
@@ -87,11 +112,22 @@ Simply indent lines with four spaces or wrap the code with three backticks:
         &copy; 2013 Kumu Systems LLC
     </div>
     ```
+Looks like:
+
+```
+<div class="footer">
+    &copy; 2013 Kumu Systems LLC
+</div>
+```
 
 
 ## Blockquotes
 
     > Add quote text here
+
+Looks like:
+
+> Add quote text here
 
 ## Tables
 
@@ -110,7 +146,13 @@ If you are using Markdown in the Description column of a [Kumu Import](https://d
 
 ## Horizontal Rules
 
-    Three or more dashes or asterisks --- ***
+    Three or more dashes or asterisks
+    ---
+    ***
+
+Looks like:
+
+---
 
 <br />
 Now you know the basics of formatting with markdown. For more information, visit [Daring Fireball's markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax#precode).
