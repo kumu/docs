@@ -23,3 +23,5 @@ sizing arrows manually.
 
 NOTE: both `arrow-width` and `arrow-height` are multiplied against the connection width so take that
 into consideration when setting the values.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-adjust-arrow-size.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
