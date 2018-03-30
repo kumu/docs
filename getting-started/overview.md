@@ -143,7 +143,7 @@ Settings for filter, focus, showcase, and cluster can be saved to a View, allowi
 
 
 ### Filter
-Filters work by showing/hiding elements and connections based on the data in the profiles. To experiment with filters, just open the Basic Editor, click **Customize this View**, and select **Filter elements and connections**.
+Filters work by showing/hiding elements and connections based on the data in the profiles. To experiment with filters, just open the Basic Editor, click **MORE OPTIONS**, and select **Filter elements and connections**.
 
 <img src="/images/overview-filter.png" class="plain">
 
@@ -179,7 +179,7 @@ Showcase is similar to filter, which allows you to show or hide elements, connec
 ![showcase animation](../images/showcase-control.gif)
 </span>
 
-Experiment with showcase by opening the Basic Editor, clicking **Customize this View**, and selecting **Showcase elements and connections**.
+Experiment with showcase by opening the Basic Editor, clicking **MORE OPTIONS**, and selecting **Showcase elements and connections**.
 
 ![Showcase basic editor](/images/overview-showcase.png)
 
