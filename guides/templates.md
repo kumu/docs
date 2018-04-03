@@ -66,12 +66,23 @@ And if the default geocoding results aren’t accurate, you can scope them to a 
 Note that your location field should be wrapped in two curly braces if you are scoping the results.
 
 **Good to know:**
-- If you leave the location field blank on an element, it will get placed at 0° latitude, 0° longitude (in the Atlantic Ocean south of Ghana).
+- If you leave the location field blank on an element, it will get placed at 0° latitude, 0° longitude (in the Atlantic Ocean, south of Ghana).
 - If two elements have the exact same location, they will stack on top of each other and might be difficult to see.
 - You can use different types of location data to place your elements, even in the same map, as long as all the data is stored in the same field.
 - Geo isn’t quite ready for large maps yet. If you have more than 100 elements, it will take a few refreshes to get all locations geocoded.
 - Screenshots and PDFs are not currently supported for geo.
 - Decorations for geo maps are still in beta. By default, you’re limited to squares and straight lines, but if you want to test out the full range of decorations (circles, borders, curved lines, flags, etc.), add `renderer: canvas;` to your `@settings` block.
+
+
+## Switching templates
+
+If you tested out one template, but realized it wasn't right for your project, don't worry—switching to a different template just takes a few clicks!
+
+Click the Settings icon on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS** and select **Customize defaults** from the list. In the **Customize defaults** menu that appears, scroll down to the **General settings** section.
+
+In that section, you can use the Template dropdown menu to select a different template. Click **Save and Continue** to finish the process.
+
+If you've applied a few different templates to test them out, you probably have leftover field values (especially Element Type values) that you aren't using and want to delete. To solve that problem, check out our guide on [deleting field values](/guides/fields.md#deleting-field-values).
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/templates.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

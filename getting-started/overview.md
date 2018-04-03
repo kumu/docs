@@ -103,7 +103,7 @@ If you don't want to re-import your Excel file every time you make a small chang
 
 ## Decorate elements and connections<a id="decorations-permalink"></a>
 
-Once you have built part of your map, it's the perfect time to learn how to use decorations to bring sthe data to life. It's possible to [change the color or size of individual elements and connections](/faq/how-do-i-decorate-a-single-element-or-connection.md), but it's much faster and more scaleable to create decoration rules based on the  information stored inside your elements and connections.
+Once you have built part of your map, it's the perfect time to learn how to use decorations to bring the data to life. It's possible to [change the color or size of individual elements and connections](/faq/how-do-i-decorate-a-single-element-or-connection.md), but it's much faster and more scaleable to create decoration rules based on the  information stored inside your elements and connections.
 
 To add that information, you'll use the panel on the left side of the map, which is called the **profile**.
 
