@@ -1,74 +1,100 @@
 # Clustering
 
-Clustering is a powerful tool that allows you to transform profile information into a richly interactive map. It creates an element for each field value in the profile and draws a connection from the element to that value.
+Clustering is a powerful tool that allows you to connect elements based on the data in their fields, and it's particularly useful on stakeholder and network maps.
 
-## A quick example
+When clustering is activated, Kumu will create new elements to represent each possible value for a field of your choice, and it will draw a connection between your elements and the value(s) in their field.
 
-There are hidden relationships in much of the data you have stored in spreadsheets, they're just not stored as explicitly from/to connections. Most of you probably have a spreadsheet full of contacts, with one column storing the person's name and another column storing the organization she works for. If you imported this directly into Kumu, you'd end up with a map like this:
+
+## Why is clustering valuable?
+
+There are hidden relationships in much of the data you have stored in spreadsheets; they're just not stored explicitly as connections. For example, you probably have a spreadsheet full of contacts, with one column storing the person's name and another column storing the organization she works for. If you imported this directly into Kumu, you'd end up with a map like this:
 
 <img src="/images/cluster-before-final.png" alt="Elements with no relationships">
 
-**Not that eye opening, right?** With other tools, if you wanted to see the relationship view you'd have to create a separate connections worksheet pointing each person to the organization they work for and then import both into Kumu.
+Not that eye opening, right? You could click on each element to open its profile, allowing you to see each person's organization, but it would take you a long time to gain any insight into your data.
 
-With Kumu, just click the settings button on the right side of the map and then choose "cluster." You'll see a checklist of all the fields (except those you've disabled for clustering) that you can use to activate any number of clusters. In this example, we'd choose **organization.** *Voila!* You now have a relational map of all the people and organizations without ever having to do the import workaround.
+If you **cluster** these people by their organizations, you can start to get a better understanding of your network:
 
 <img src="/images/cluster-after-final.png" alt="Elements with relationships">
 
-## Choosing what to cluster by
+*Voila!* We used clustering to transform a rigid spreadsheet into a relationship map of all the people and organizations they work for.
 
-First, make sure that you have added data for at least some of the elements for the field you want to cluster by. This could be a field like "Organization" that stores the organization(s) each person works for, or it may be another field like:
 
+## Activate clustering
+
+To set up your first cluster, click the Settings icon on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
+
+**If your elements are people, cluster by...**
+* Tags
 * Skills
+* Teams
+* Interests
+* Projects
+* Organization
+* City
+
+**If your elements are organizations, cluster by...**
+* Tags
+* Initiatives
+* Populations served
+* Funding sources
+* Board members
 * Region
-* Initiative
 * Sector
 
-Here's a quick look at a sample map before clustering has been activated:
 
-<img src="/images/cluster-civic-1.png" alt="Civic Canopy without clusters" class="plain">
+To add multiple cluster rules, click the settings icon to the right of the **Connect by** tool, and your Basic Editor will show you the **Cluster Settings** menu:
 
-## Activating clusters
+![Cluster basic editor](/images/overview-cluster.png)
 
-Once you have data that you want to cluster by, click on the settings icon on the right side of the map. Choose "cluster" and this will open a pane in the sidebar with checkboxes for each field. Simply check the box for each field you want to cluster by. You can cluster by as many fields as you'd like.
+Click the **Add rule** button if you want to cluster by more than one field.
 
-Let's say we check "Collective Impact-ish Initiative". You'll now see the various initiatives drawn as elements and connected to the people who are involved in each initiative.
-
-<img src="/images/cluster-civic-2.png" alt="Civic Canopy clustered by collective impact initiative" class="plain">
-
-## Saving clusters
-
-If you save the changes to the view while you have fields checked for clustering, those fields will be clustered automatically anytime someone loads the map with that view active.
 
 ## Limiting which fields can be clustered
 
-If you'd like to hide certain fields from showing up in the clustering menu, use the field settings to disable clustering.
+If you'd like to hide certain fields from your Cluster Settings dropdown menus, you can click on an element, click on the downward arrow <i class="fa fa-angle-down"></i> next to the field name, and use the field settings to disable clustering:
 
 ![clustering menu](/images/clustering-menu.jpg)
 
-If you want to disable any of the core fields (label, description, tags or type), you'll need to use the field settings within the main menu.
+If you want to disable clustering on any of the core fields (label, description, tags, or type), you can click the menu icon <i class="fa fa-bars"></i>, click **FIELDS**, select the field you want to disable, and un-check the clustering box in the Advanced Settings:
 
 ![advanced settings clustering menu](/images/clustering-menu-advanced.png)
 
-You can access this using the menu in the upper left corner of your map and then choosing "fields". From there, click the core field you'd like to edit.
 
 ## Advanced Clustering
-You can also activate clustering automatically within a view and further customize the behavior by using the <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
+
+If you prefer working in the Advanced Editor, you can use the `cluster` property in the `@settings` block to activate clustering. Here's the basic syntax:
 
 ```
 @settings {
- cluster: "selector" by "field" as "type";
+ cluster: selector by "Field" as "type";
 }
 ```
 
-Both <code>selector</code> and <code>type</code> are optional, and multiple clusters can be added by separating them with a comma.  If you just include a field name then clustering will behave identical to the cluster form in the basic editor.
+Replace `selector` with any valid [selector](/guides/selectors.md). Replace `Field` with the name of the field you want to cluster by (keep the field name enclosed in double quotes), and replace `type` with the value that Kumu should set as the Type for each element and connection created by clustering.
 
-The <code>selector</code> determines which elements to cluster, <code>field</code> determines what to cluster by, and <code>type</code> overrides the element type assigned to the new elements. By default we use the singular form of the field name as the type for both the elements and connections that are created.
+```
+@settings {
+ cluster: person by "Organization" as "Organization";
+}
+```
+
+Both the selector and the type are optional. Omitting the selector will cause the clustering rule to be applied to all elements on the map, and omitting the type will cause Kumu to set the elements' types automatically.
+
+
+Multiple cluster rules can be added by separating them with a comma:
+
+```
+@settings {
+ cluster: person by "Organization" as "Organization", organization by "Sector" as "Sector";
+}
+```
 
 ### Why would I want to customize the type?
 
-Customizing the type is great when you want to cross-match multiple fields, such as "Skills needed" and "Skills offered". In that case, you're probably looking to see the overlap between who's looking to learn a skill and who might be able to teach it. If you use the cluster form to do this you'll get two separate elements for each skill (one for the offer and one for the need).  Ideally we want to have a single element for each skill and color the connections by whether it's something the person might be able to teach or if they're interested in learning that skill.
+Customizing the type is useful when you want to make sure that Kumu re-uses existing elements instead of creating new elements through clustering.
 
-To customize the type, just add <code>as &lt;type&gt;</code> to your cluster declaration:
+One use case is cross-matching multiple fields, such as "Skills needed" and "Skills offered". In that case, you're probably looking to see the overlap between who's looking to learn a skill and who might be able to teach it. If you omit the type from your cluster code, you'll get two separate elements for each skill: one with the type "Skills needed" and the other with the type "Skills offered".  But, if you include the type "Skill" as seen below, Kumu will create only one element for each skill value even if the values originated in different fields.
 
 ```
 @settings {
@@ -76,16 +102,5 @@ To customize the type, just add <code>as &lt;type&gt;</code> to your cluster dec
 }
 ```
 
-You can then add the relevant decorations to your view to color the connection types and see who you could connect to build learning pairs.
-
-### How to restrict clustering to a subset of elements
-
-Say you're looking to cluster by "tags" but only want to activate clustering for the people in your map. Just add <code>&lt;selector&gt; by</code> to the beginning of the rule (you can replace "person" with any selector):
-
-```
-@settings {
- cluster: person by "tags";
-}
-```
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/clustering.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
