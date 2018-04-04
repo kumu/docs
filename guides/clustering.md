@@ -22,7 +22,7 @@ If you **cluster** these people by their organizations, you can start to get a b
 
 ## Activate clustering
 
-To set up your first cluster, click the Settings icon on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
+To set up your first cluster, click the Settings icon <i class="fa fa-sliders"></i> on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
 
 **If your elements are people, cluster by...**
 * Tags

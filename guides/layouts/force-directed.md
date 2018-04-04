@@ -2,7 +2,7 @@
 
 With the force-directed layout, Kumu positions everything automatically based on the connections between elements. While we've picked default settings that should work for most maps, you may need to tweak these settings, especially if you have an exceptionally interconnected or sparse map.
 
-In the "General Settings" section of the Basic Editor, you have three options that will tweak the layout:
+To customize these defaults, click the Settings icon <i class="fa fa-sliders"></i> to open the Basic Editor, then click **MORE OPTIONS** and select **Customize defaults**. Scroll down to the **Layout settings** section and use the "Preset" dropdown to switch between three default settings:
 
 - auto
 - dense
@@ -38,10 +38,18 @@ The force-directed layout also allows you to override any element's position by 
 
 ## Changing from fixed to force-directed layout:
 
-1. Click on the settings button <i class="fa fa-sliders"></i> on the right side of the map
-1. Navigate to the **SETTINGS** tab
+1. Click on the Settings icon <i class="fa fa-sliders"></i> on the right side of the map
+1. Click **MORE OPTIONS** and select **Customize defaults**
 1. Scroll down to the **General settings** section to change the "Layout" to "force-directed"
-1. Scroll down to the **Map settings** section to change "Default element behavior" to "floating"
+1. In the same section, change "Default element behavior" to "floating"
+
+If you would rather do this in the [Advanced Editor](https://docs.kumu.io/overview/basic-vs-advanced-editor.html#advanced-editor), here is the code you can use to switch to a force-directed layout:
+
+```
+@settings {
+    layout: force;
+}
+```
 
 If you were previously using a fixed layout, you may need to un-pin all the existing elements. You can do this by pressing `Shift`+`E` on your keyboard to select all elements, then click the pin icon in the lower right of the element profile **or** press `Alt`+`P` on your keyboard.
 

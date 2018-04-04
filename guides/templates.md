@@ -78,7 +78,7 @@ Note that your location field should be wrapped in two curly braces if you are s
 
 If you tested out one template, but realized it wasn't right for your project, don't worry—switching to a different template just takes a few clicks!
 
-Click the Settings icon on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS** and select **Customize defaults** from the list. In the **Customize defaults** menu that appears, scroll down to the **General settings** section.
+Click the Settings icon <i class="fa fa-sliders"></i> on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS** and select **Customize defaults** from the list. In the **Customize defaults** menu that appears, scroll down to the **General settings** section.
 
 In that section, you can use the Template dropdown menu to select a different template. Click **Save and Continue** to finish the process.
 
