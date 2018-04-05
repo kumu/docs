@@ -43,7 +43,7 @@ The force-directed layout also allows you to override any element's position by 
 1. Scroll down to the **General settings** section to change the "Layout" to "force-directed"
 1. In the same section, change "Default element behavior" to "floating"
 
-If you would rather do this in the [Advanced Editor](https://docs.kumu.io/overview/basic-vs-advanced-editor.html#advanced-editor), here is the code you can use to switch to a force-directed layout:
+If you would rather do this in the [Advanced Editor](/overview/view-editors.md#advanced-editor), here is the code you can use to switch to a force-directed layout:
 
 ```
 @settings {

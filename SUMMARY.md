@@ -17,7 +17,7 @@
 * [The essentials](overview/the-essentials.md)
 * [Settings](overview/settings.md)
 * [Data architecture](overview/data-architecture.md)
-* [Basic vs advanced editor](overview/basic-vs-advanced-editor.md)
+* [View Editors](overview/view-editors.md)
 * [Personal and organization accounts](overview/personal-and-organization-accounts.md)
 * [Collaborating and sharing](overview/collaboration.md)
 
@@ -35,6 +35,7 @@
   * [Tagged-timeline control](guides/controls/tagged-timeline-control.md)
   * [Color-legend control](guides/controls/color-legend-control.md)
   * [Image control](guides/controls/image-control.md)
+* [Default settings](guides/default-settings.md)
 * [Disciplines](#)
   * [SNA / Network Mapping](guides/sna-network-mapping.md)
   * [System mapping](guides/system-mapping.md)

@@ -1,4 +1,4 @@
-# The essentials
+# The Essentials
 
 This page contains everything you need to hit the ground running with Kumu. Carve out 20 minutes to review this page and you'll have awareness of at least 80% of Kumu's features. Then explore the guides to learn all that Kumu has to offer.
 
@@ -11,7 +11,7 @@ This page contains everything you need to hit the ground running with Kumu. Carv
 Elements are the circles you see on the map and connections are the lines between the elements. To select either of them, simply click on the circle or the line.
 
 ### Sidebar
- The sidebar displays either the *map overview* or the profile for an element, connection or loop (if you've selected one). Hide the sidebar by clicking the three vertical dots (<i class="fa fa-ellipsis-v"></i>) on the edge of the sidebar.
+ The sidebar displays either the Map Overview or the profile for an element, connection or loop (if you've selected one). Hide the sidebar by clicking the three vertical dots (<i class="fa fa-ellipsis-v"></i>) on the edge of the sidebar.
 
 ### Settings
 Click the settings button to edit the current view. This include options to filter, decorate, cluster, and showcase as well as other default settings for your map (font size, layout settings, templates, etc.).

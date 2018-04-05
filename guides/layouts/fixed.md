@@ -13,7 +13,7 @@ If you're building a fixed map with [Sketch Mode](/getting-started/overview.md#s
 1. Scroll down to the **General settings** section to change the "Layout" to "off"
 1. In the same section, change "Default element behavior" to "fixed"
 
-If you would rather do this in the [Advanced Editor](https://docs.kumu.io/overview/basic-vs-advanced-editor.html#advanced-editor), here is the code you can use to switch to a fixed layout:
+If you would rather do this in the [Advanced Editor](/overview/view-editors.md#advanced-editor), here is the code you can use to switch to a fixed layout:
 
 ```
 @settings {

@@ -120,13 +120,13 @@ For this walkthrough, fill out the Type field for each of your elements—try to
 
 ### Create your first decoration
 
-Click the Settings icon on the right side of the map to open up the Basic Editor. You'll see the three most popular settings listed, allowing you to size or color elements by a field, or connect your elements by shared values (we'll cover that third option a bit later).
+Click the Settings icon <i class="fa fa-sliders"></i> on the right side of the map to open up the Basic Editor. You'll see the three most popular settings listed, allowing you to size or color elements by a field, or connect your elements by shared values (we'll cover that third option a bit later).
 
 <img src="/images/overview-basic-editor.png" class="plain" style="width: 600px;">
 
 If you have filled out the Type field for your elements, try selecting **Element Type** from the dropdown menu next to **Color by**. Kumu will automatically color-code all of your elements by Type, and you can click the expand icon <i class="fa fa-angle-down"></i> to choose a different color scale.
 
-Your first decoration is complete! If you like what you see, click **SAVE** at the bottom of the Basic Editor, and click the Settings icon again (or press `T` on your keyboard) to return to your map.
+Your first decoration is complete! If you like what you see, click **SAVE** at the bottom of the Basic Editor, and click the Settings icon <i class="fa fa-sliders"></i> again (or press `T` on your keyboard) to return to your map.
 
 When you're ready to add more customized, detailed decorations, take a look at our [decorations guide](/guides/decorate.md).
 
@@ -143,11 +143,11 @@ Settings for filter, focus, showcase, and cluster can be saved to a View, allowi
 
 
 ### Filter
-Filters work by showing/hiding elements and connections based on the data in the profiles. To experiment with filters, just open the Basic Editor, click **MORE OPTIONS**, and select **Filter elements and connections**.
+Filters make it easy to show and hide elements, connections or loops based on data stored in the profile. To experiment with filters, just open the Basic Editor, click **MORE OPTIONS**, and select **Filter elements and connections**.
 
 <img src="/images/overview-filter.png" class="plain">
 
-If you're filtering by element or connection type, simply un-check the boxes next to the types you want to hide. To filter using other fields, use the **Also include** and **But ignore** tools. Click the rocketship icon <i class="fa fa-rocket"></i> in each of those tools to select what you want to hide or make visible.
+If you're filtering by element or connection type, simply un-check the types you want to hide. To filter using other fields, use the **Also include** and **But ignore** tools. Click the rocketship icon <i class="fa fa-rocket"></i> in each of those tools to select what you want to hide or make visible.
 
 <p class="alert alert-info">If you've hidden certain elements and connections using the Type checkboxes above, you can use the <b>Also include</b> tool to bring things back into view. But, you first have to un-check some of the boxes above, or this tool will have no effect.
 </p>
@@ -164,7 +164,7 @@ Once focus is activated, everything except your selected items will be hidden fr
 
 ![focus animation](../images/focus.gif)
 
-If you'd like to clear your focus and bring back the full map, click the focus icon on the right (underneath the Settings icon) and select **Clear**.
+If you'd like to clear your focus and bring back the full map, click the focus icon on the right (underneath the Settings icon <i class="fa fa-sliders"></i>) and select **Clear**.
 
 <p class="alert alert-info">
 To extend focus to a specific degree, use the numbers <code>0-9</code> on your keyboard. To quickly clear your focus, press the <code>esc</code> key.
@@ -198,6 +198,8 @@ To add multiple cluster rules, click the settings icon to the right of the **Con
 
 Just click **Add rule** to cluster by any of the information inside your elements.
 
+[Check out our full clustering guide](/guides/clustering.md) to learn more.
+
 
 ## Add a contributor<a id="adding-a-collaborator-permalink">
 
@@ -226,3 +228,6 @@ For more information about Organization accounts, and how to add contributors to
 </p>
 
 <a class="btn" href="http://chat.kumu.io">Join us on Slack</a>
+
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/getting-started/overview.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
