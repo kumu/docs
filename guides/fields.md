@@ -3,12 +3,16 @@
 Fields allow you to save additional data about the elements, connections and loops in your map. Create whatever fields you need and modify the settings to enable things like checklists, prompts, currencies, and much more.
 
 ## Add a field
-To add a field, select an element or connection and then click the "+ New Field" button in the sidebar. You'll be prompted to name the field and then provide a value for the given selection.
+To add a field, select an element or connection and then click the **+New Field** button in the sidebar. You'll be prompted to name the field and then enter a value for the element or connection you selected.
 
-By default, new fields are set to accept only one value and not prompt users with suggested values. While this is an easy way to get started adding values, you may have times where you want people to pick from a list of defined values (level of influence: high, medium or low) or multiple values from a list (skills: project management, web development, leadership, public speaking).
+By default, new fields are set to accept only one value and not prompt users with suggested values. While this is an easy way to get started adding values, you may have times where you want people to pick from a list of defined values (level of influence: high, medium or low) or multiple values from a list (skills: project management, web development, leadership, public speaking). In those cases, you can customize your field—keep reading to learn how!
 
 ## Customize a field
-To customize the settings for a given field, click the label of the field and you'll see a dropdown appear with the following options:
+To customize the settings for a given field, click on an element, and click the field in the element's profile.
+
+![Customizing a field](/images/customize-field.gif)
+
+A dropdown will appear with the following options:
 
 - **Name** - change the name of your field
 - **Type** - string, text, URL, email, number, currency
@@ -23,12 +27,13 @@ Let's look at a few of these options in more depth:
 ### Field type
 Below are the choices for the field format and guidance on when to use each:
 
-- **String** - This is the default value and used when entering simple short pieces of text
-- **Text** - Used for longer text fields like notes, addresses, and anywhere you want to use markdown formatting
+- **String** - This is the default value and used when entering simple, short pieces of text
+- **Text** - Used for longer text fields like notes, addresses, and anywhere you want to use [Markdown](/guides/markdown.md) formatting
 - **URL** - Used for website addresses
 - **Email** - Used for email addresses
-- **Number** - Used for numerical values that don't fit into the below categories
-- **Currency** - Used for financial values to be displayed with standard currentcy format ($)
+- **Number** - Used for numerical values that aren't currencies or dates
+- **Currency** - Used for financial values to be displayed with standard currency format ($)
+- **Date** - Used for dates, like February 14th (Kumu's birthday!)
 
 ### Field prompt
 Field prompt is managed by clicking "more" and then "settings" in the dropdown. Below are the choices for the field prompt and guidance on when to use each:
@@ -44,6 +49,7 @@ We reserve a few category names that we give special treatment to:
 
 - **General** - This is the default. Fields in this category will live at the top of the field section and won't have an explicit category label.
 - **Footnotes** - This category is meant for things like attribution and citing your sources. Fields in this category will always be listed at the bottom of the profile.
+- **Metrics** - This category holds any of the data you create using Kumu's [Metrics](/guides/metrics.md) tool.
 
 ## Field relevance
 You can also manage field relevance through the project's settings to prevent irrelevant fields getting in the way of your work. Click the menu in the top left of your map and then click "fields". Scroll down and you'll see a "relevance" section. You can edit which fields should be included for each of the element and connection types in your project by clicking edit and unchecking the relevant fields.
