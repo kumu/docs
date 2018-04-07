@@ -24,6 +24,8 @@ Note that if you don't have any fields with numbers, the **Size by** dropdown me
 
 If you don't have this kind of data available, try using Kumu's [Metrics](/guides/metrics.md) feature to create some!
 
+Need more precise control over your sizes? Check out our guide on [refining your decorations](/guides/decorate.md#refine-your-decorations).
+
 <p class="alert alert-warning">
     Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try <a href="/guides/fields.md#customize-a-field">changing the field type to "Number"</a>.
 </p>
@@ -39,9 +41,9 @@ If you color by a multi-pick field like Tags, Kumu will color code your elements
 
 Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Color by** dropdown to fine-tune your coloring options.
 
-The default color scale `neon2` can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](/guides/color-reference.md) to find a scale that will work for your data.
+The default color palette `neon2` can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](/guides/color-reference.md) to find a palette that will work for your data.
 
-Need more fine-grained control over your colors? [Check out our full guide on decorations](/guides/decorate.md).
+Need more precise control over your colors? Check out our guide on [refining your decorations](/guides/decorate.md#refine-your-decorations).
 
 
 ### Connect by
@@ -64,13 +66,13 @@ When clustering is activated, Kumu will create new elements to represent each po
 
 ### More Options
 
-Underneath the for core tools in the Basic Editor, you'll see a **MORE OPTIONS** link. Clicking this link will bring up a list of everything you can do in the Basic Editor.
+Underneath the four core tools in the Basic Editor, you'll see a **MORE OPTIONS** link. Clicking this link will bring up a list of everything you can do in the Basic Editor.
 
 ![More options in the basic editor](/images/overview-customize-this-view.png)
 
 Follow these links below to learn more about any of these individual options:
 * [Customize defaults](/guides/default-settings.md)
-* [Decorate elements and connections](/guides/decorate.md)
+* [Decorate elements and connections](/guides/decorate.md#refine-your-decorations)
 * [Filter elements and connections](/guides/filter.md)
 * [Showcase elements and connections](/guides/showcase.md)
 * [Connect elements with similar values](/guides/clustering.md)
@@ -78,7 +80,7 @@ Follow these links below to learn more about any of these individual options:
 
 ### Existing decorations
 
-If you have already one or more decorations to your map, the Basic Editor will show those existing decorations underneath the **MORE OPTION** link.
+If you have already one or more decorations to your map, the Basic Editor will show those existing decorations underneath the **MORE OPTIONS** link. They'll be listed in chronological order from top to bottom (the most recently created decoration rules will be at the bottom of the list).
 
 ![Existing decorations](/images/basic-editor-existing-decorations.png)
 
@@ -99,7 +101,7 @@ selector {
     property: value;
 }
 ```
-`selector` can be replaced with any valid [selector](/guides/selectors.md). Full documentation on properties and their possible values can be found in our [property reference](/guides/property-reference.md). You can also use many standard [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) throughout the Advanced Editor.
+`selector` can be replaced with any valid [selector](/guides/selectors.md), and you can read our [property reference](/guides/property-reference.md) to find documentation on `properties` and their possible `values`. You can also use many standard [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) throughout the Advanced Editor.
 
 ### At-rules
 
