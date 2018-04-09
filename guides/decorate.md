@@ -4,7 +4,19 @@ Decorations in Kumu allow you to change the color and size of elements, connecti
 
 ![Color and size decorations](/images/color-size-decorations.png)
 
-There are two ways to add decorations to your map: via the [Basic Editor](/overview/view-editors.md#basic-editor), and via the [Advanced Editor](/overview/view-editors.md#advanced-editor).
+It's possible to [change the color or size of individual elements and connections](/faq/how-do-i-decorate-a-single-element-or-connection.md), but it's much faster and more scaleable to create decoration rules based on the  information stored inside your elements and connections.
+
+To add that information, you'll use the panel on the left side of the map, which is called the **profile**.
+
+## Use the profile to add additional fields
+
+Each element, connection, and loop has a profile that can be used to store additional information in various fields.
+
+<img src="/images/introduction-profile.png" class="plain">
+
+Label, Type, Description, and Tags are all examples of fields. Use these fields to provide additional context for each element and connection, and click **+NEW FIELD** to add a custom field.
+
+After you fill out data in the profiles, you can use the [Basic Editor](/overview/view-editors.md#basic-editor) or the [Advanced Editor](/overview/view-editors.md#advanced-editor) to add decorations.
 
 ## Decorating in the Basic Editor
 

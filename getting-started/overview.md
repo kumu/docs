@@ -1,6 +1,8 @@
 # First steps
 This overview is a great place to start if you're new to Kumu. Take some time to read it through from end to end!
 
+
+
 ## Jump to a section
 
 * [Create an account](#create-an-account)
@@ -10,6 +12,8 @@ This overview is a great place to start if you're new to Kumu. Take some time to
 * [Decorate elements and connections](#decorate-elements-and-connections)
 * [Refine your view](#refine-your-view)
 * [Add a contributor](#add-a-contributor)
+
+
 
 ## Create an account
 
@@ -21,6 +25,8 @@ Create an account by visiting [https://kumu.io/join](https://kumu.io/join). You'
 To create your first project, visit your [dashboard](https://kumu.io/dashboard) and click on the **NEW PROJECT** button.
 
 Work through the next couple of screens to name your project, decide whether it will be public or private, give it a description, etc. During this process, you'll also create your first map, and Kumu will ask you to pick a template for your map.
+
+
 
 ## Picking a template<a id="picking-a-template-permalink"></a>
 
@@ -38,6 +44,7 @@ We recommend most people start with the **system**, **stakeholder**, or **SNA** 
 Not sure which one you need? [Check out our full guide on templates](/guides/templates.md).
 
 
+
 ## Build your first map<a id="building-your-first-map-permalink"></a>
 
 Once you've chosen a template, you'll land on this screen:
@@ -51,6 +58,8 @@ At this point, you need to decide how to get all of this information into the ma
 <span class="plain">
 ![](/images/three-ways-to-build.png)
 </span>
+
+In this guide, we'll cover how to build your map by hand. If you'd rather import from a spreadsheet or Google Sheets, [check out our full guide on imports](/guides/import.md).
 
 ### Build your map by hand
 
@@ -88,19 +97,6 @@ Quickly enter sketch mode by pressing <code>K</code> on your keyboard, and press
 </p>
 
 
-### Import data from a spreadsheet
-
-Have too much data to add by hand? Spreadsheet imports are your solution!
-
-First, [read our Import guide](/guides/imports.md) to learn how to structure your data in a spreadsheet, so that Kumu can read and understand it.
-
-When your data is structured, save it as a CSV or XSLX file, then just drag and drop the file onto your Kumu map to import the data. You can also open your map, click the green **+** button, and click **Import** to open a popup that will help you through the import process.
-
-
-### Sync to a google sheet
-
-If you don't want to re-import your Excel file every time you make a small change, you can [link a map to a Google Sheet](/guides/import.html#integrating-with-google-sheets) instead. When you link a Google Sheet to a Kumu map, Kumu will import the most up-to-date dataset every time your map is loaded in the browser (refresh the page to see new data).
-
 ## Decorate elements and connections<a id="decorations-permalink"></a>
 
 Once you have built part of your map, it's the perfect time to learn how to use decorations to bring the data to life. It's possible to [change the color or size of individual elements and connections](/faq/how-do-i-decorate-a-single-element-or-connection.md), but it's much faster and more scaleable to create decoration rules based on the  information stored inside your elements and connections.
@@ -129,6 +125,7 @@ If you have filled out the Type field for your elements, try selecting **Element
 Your first decoration is complete! If you like what you see, click **SAVE** at the bottom of the Basic Editor, and click the Settings icon <i class="fa fa-sliders"></i> again (or press `T` on your keyboard) to return to your map.
 
 When you're ready to add more customized, detailed decorations, take a look at our [decorations guide](/guides/decorate.md).
+
 
 
 ## Refine your view<a id="hiding-elements-connections-permalink"></a>
@@ -201,6 +198,7 @@ Just click **Add rule** to cluster by any of the information inside your element
 [Check out our full clustering guide](/guides/clustering.md) to learn more.
 
 
+
 ## Add a contributor<a id="adding-a-collaborator-permalink">
 
 Building maps in Kumu can be a lot of work! Allowing somebody else to contribute to your project is a great way to reach your final destination more quickly. Even if your project is small and manageable, it's a good idea to let someone else weigh in on your data and design to make sure your story gets told effectively.
@@ -220,8 +218,6 @@ In the **Username** box, type the Kumu username of the person you want to add (i
 Organization projects come with the added benefit of allowing you to add members as either viewers, editors, or admins.
 
 For more information about Organization accounts, and how to add contributors to them, [check out our Organizations guide](/guides/organizations.md).
-
----
 
 <p class="alert alert-success">
   <b>You've completed the Getting Started series!</b> For additional help, you can browse our other guides, <a href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a href="mailto:support@kumu.io">support.kumu.io</a>.
