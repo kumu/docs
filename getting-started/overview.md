@@ -103,7 +103,7 @@ Once you have built part of your map, it's the perfect time to learn how to use 
 
 To add that information, you'll use the panel on the left side of the map, which is called the **profile**.
 
-### Use the profile to add additional fields
+### Use the profile to add additional information
 
 Each element, connection, and loop has a profile that can be used to store additional information in various fields.
 
