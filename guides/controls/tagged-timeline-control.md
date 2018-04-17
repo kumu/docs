@@ -24,3 +24,4 @@ Filter a network over time using years defined in the tag field.
 * `range` defines the years that should be included as clickable links.
 * `target` defines whether the filter should apply to elements, connections, or loops. To apply the filter to elements and connections, use `element,connection;`.
 * `multiple` by default the timeline allows you to select multiple years. Use `multiple: false` to only allow a single year to be selected instead.
+* `default` defines which values should be selected by default. Use `select-all` to select everything by default (or `show-all` for a similar effect without selecting).
