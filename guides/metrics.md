@@ -134,6 +134,10 @@ Click the blocks icon <i class="fa fa-cube"></i> in the lower right corner of yo
 
 <img src="../images/community-results.jpg" class="plain">
 
+<p class="alert alert-info">
+<b>Good to know:</b> Connection direction <em>does</em> influence community detection.
+</p>
+
 ### Reviewing community breakdowns
 
 After running the algorithm, we present the results to you in a table that allows you to browse each of the communities, ordered by popularity (defined as the size of the community).
@@ -144,7 +148,9 @@ When analyzing the communities, you may notice that a common theme runs across a
 
 Don't forget to click save once you're done!
 
-*Note: Some community detection algorithms treat communities as black and white. You're either in or you're out. While this helps simplify the analysis (and admittedly makes it much easier to color by community), it throws away a lot of useful information about the overlapping community structures within the network. The SLPA algorithm preserves this data, and we believe the breakdown is even more valuable than simply knowing the primary community an element belongs to.*
+<p class="alert alert-info">
+<b>Note:</b> Some community detection algorithms treat communities as black and white—you're either in, or you're out. While this helps simplify the analysis, it throws away a lot of useful information about the overlapping community structures within the network.<br><br>The SLPA algorithm preserves this data, and we believe the breakdown is even more valuable than simply knowing the primary community an element belongs to.
+</p>
 
 ### Color by communities
 
@@ -152,29 +158,14 @@ First, make sure to save the community results. This will save the best match fo
 
 ![Les Miserables](/images/les-mis.jpg)
 
-Eventually we'll build a UI to make the process of coloring by communities even easier, but for now you just need to add these lines to your advanced view:
-
-```
-@settings {
-  element-color: categorize("community", spectral);
-}
-```
-
-Wondering what "spectral" means? Kumu has built in support for a number of color scales. Here's a few custom ones for you to try:
-
-* olympic
-* neon
-* heat
-* stoplight
-
-Head over to the [color reference](color-reference.md) for information on all the color scales that are available.
+To quickly color-code elements by community, you can use the [Color by](/guides/decorate.md#color-by) tool in the Basic Editor.
 
 ### Rerun from scratch (optional)
 
 When you rerun community detection, we'll use the existing communities to seed the algorithm by default. This keeps the communities more stable, but occasionally you may want to throw away the previous communities and start fresh. For instance, if you've made a number of changes to the map the previous communities will unfairly dominate the new network. Just click "throw away the current communities" and we'll dump the existing communities and rerun the algorithm from scratch.
 
-Remember, not all networks have meaningful community structure. Use the default settings and try to avoid fiddling too much just to get a pretty picture.
+Remember, not all networks have meaningful community structure! Use the default settings and try to avoid fiddling too much just to get a pretty picture.
 
-The science of community detection is still evolving. Use the results from the algorithm to ask better questions about your maps but don't take them as fact.
+Also remember that the science of community detection is still evolving. Use the results from the algorithm to ask better questions about your maps, but don't take them as fact.
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/metrics.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
