@@ -60,31 +60,12 @@ Each map has the following settings:
 
 ## View settings
 
-View settings are accessed via the settings button on the right side of the map.
+View settings are accessed via the Settings icon <i class="fa fa-sliders"></i> on the right side of the map. If you want to save, rename, duplicate, or delete a view, you can click the **...** icon in the upper right. You can also use that icon to set the default view for the current map.
 
 <span class="small plain">
-![](../images/view-settings.jpg)
+![](../images/view-settings.png)
 </span>
 
-* **Element settings**
-  * **Default color.** Set the default color for all elements.
-  * **Default size.** Set the default size for all elements in the view.
-  * **Default label position.** Change the position of the label to either **bottom** (below the element) or **center** (centered within the element).
-* **Connection settings**
-  * **Default color.** Set the color of connections in the map. Note: use `inherit` to inherit element colors along a gradient.
-  * **Default width.** Change the default width of your connections.
-  * **Default curvature.** Set the default curvature for each connection.
-* **Font settings**
-  * **Default color.** Set the default font color across the map.
-  * **Default size.** Set the default size for all text on the map (elements, connections, and loops).
-* **Showcase settings**
-  * **Selector.** Build a selector to specify showcasing within the map.  
-* **Layout settings**
-  * **Preset.** Only applicable to the `force-directed` layout. Start with `auto` and move to `dense` or `hairball` as your map gets larger and more interconnected.
-* **General settings**
-  * **Theme.** Change the background color of the map between dark and light. Font color and buttons will change as well.
-  * **Template.** Switch the underlying template for the view. We’ve set up the templates to quickly get you started with building and decorating a map.
-  * **Quality.** Stick with `high` (circular elements, curved connections) unless you have a large map (>1000 elements). `Low/fast` (square elements, straight connections) improves the performance of large maps.
-  * **Layout.** Change the layout that drives the positions for elements. Turning the layout `off` will prompt you to pin all elements. `Force-directed` will position elements automatically using our custom algorithm.
- 
+To learn more about editing the view itself (for example, adding decorations, filtering, changing default settings, etc.), [read the guide on View Editors](/overview/view-editors.md).
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/settings.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
