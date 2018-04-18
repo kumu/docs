@@ -121,7 +121,13 @@ When Kumu is about to create a new clustering element, it first searches the ent
 
 One use case for this feature is cross-matching multiple fields, such as "Skills needed" and "Skills offered". In that case, you're probably looking to see the overlap between who's looking to learn a skill and who might be able to teach it. To start, you would cluster all elements by "Skills offered", then add a second rule to cluster all elements by "Skills needed".
 
-If you don't customize the type of the elements created by this cluster setting, you'll get two separate elements for each skill: one with the type "Skills needed" and the other with the type "Skills offered". But, if you set the element types to "Skill" for both clustering rules, Kumu will create only one element for each skill value—even if the values originated in different fields.
+If you don't customize the type of the elements created by this cluster setting, the types will default to "Skills offered" and "Skills needed", and you'll get two separate elements for each skill: one with the type "Skills offered" and the other with the type "Skills needed".
+
+![cluster default types](/images/cluster-default-type.png)
+
+But, if you set the element types to "Skill" for both clustering rules, Kumu will create only one element for each skill value—even though the values originated in different fields.
+
+![cluster customized types](/images/cluster-customized-type.png)
 
 
 ## Limiting which fields can be clustered
