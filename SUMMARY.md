@@ -111,7 +111,7 @@
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
 * [How do I get rid of duplicates?](faq/how-to-get-rid-of-duplicates.md)
 * [How do I avoid duplicating data?](faq/how-do-I-avoid-duplicating-data.md)
-* [How do I scale elements without the text size changing?](faq/how-to-scale-elements-no-text-size-change.md)
+* [How do I control label size while scaling element size?](faq/how-do-I-control-label-size-while-scaling-element-size.md)
 * [How do I change element shapes from circles to squares?](faq/how-do-i-change-element-shapes-from-circles-to-squares.md)
 * [How do I change the position of my element labels?](faq/how-do-i-change-element-text-position.md)
 * [How do I hide images from the map but keep them in the profile?](faq/how-do-i-hide-images-from-the-map.md)
