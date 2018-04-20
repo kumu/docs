@@ -138,6 +138,7 @@ By default, @controls looks like this:
   top-right {
     zoom-toolbar {}
     settings-toolbar {}
+    focus-toolbar {}
   }
   
   bottom-left {
