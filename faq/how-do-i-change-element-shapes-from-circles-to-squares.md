@@ -1,19 +1,27 @@
 # How do I change element shapes from circles to squares?
 
-The default shape for elements in Kumu is a circle. If you'd like to change the default element shape to a square, below are a couple ways to do this:
+The default shape for elements in Kumu is a circle. If you'd like to change all elements or certain elements to a square, you can do so using the [Advanced Editor](/overview/view-editors.md#advanced-editor).
 
-### All elements
+## All elements
 
 Use the following code in the advanced editor to change all elements to squares:
-```@settings {
+
+```
+@settings {
   element-shape: square;
-}```
+}
+```
 
-### Specific elements
+## Specific elements
 
-In the advanced editor, add the following code to make all elements of the type "Person" a square:
-```Person {
+To change only specific elements to squares, you'll need to write a [selector](/guides/selectors.md) in the Advanced Editor to tell Kumu which elements to change. Then, you'll use the `shape` property to tell Kumu that those elements should be `square`. Here's an example that selects all elements with the element type "Person" and makes them squares:
+
+```
+person {
   shape: square;
-}```
+}
+```
 
-*Note: Changing the quality of the map from "Best" to "Fast" will change all element shapes to squares.*
+<p class="alert alert-warning">
+Changing the quality of the map from "Best" to "Fast" will change all element shapes to squares.
+</p>

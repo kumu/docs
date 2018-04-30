@@ -38,7 +38,7 @@ To break this down:
 
 Note that if you are selecting by the Type field, you should use `connection type` in your selector instead of just `type` to make sure Kumu reads the correct field. Also note that selectors are not case-sensitive: `Shared Resources` is the same as `shared resources`.
 
-Here are a few more examples of selectors you might find useful (explained the comments after the `//`):
+Here are a few more examples of selectors you might find useful (explained by the comments after the `//`):
 
 ```
 connection

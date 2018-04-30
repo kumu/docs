@@ -28,7 +28,7 @@ In the Decoration Builder, set the dropdown at the top to **Decorate selected co
 
 You can use a [label or ID selector](/guides/selectors.md#by-label) to target and decorate an individual element or connection in the Advanced Editor.
 
-To open the Advanced Editor, click the Settings icon on the right and click **SWITCH TO ADVANCED EDITOR** at the bottom. Then, use our [property reference](/guides/property-reference.md) to explore all the options for decorations in the Advanced Editor.
+To open the Advanced Editor, click the Settings icon <i class="fa fa-sliders"></i> on the right and click **SWITCH TO ADVANCED EDITOR** at the bottom. Then, use our [property reference](/guides/property-reference.md) to explore all the options for decorations in the Advanced Editor.
 
 Keep an eye on your map while you code in the Advanced Editor—Kumu will parse your code and preview your changes while you work. If you like what you see, click **SAVE** at the bottom of the Advanced Editor.
 
