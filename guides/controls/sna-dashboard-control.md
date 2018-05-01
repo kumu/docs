@@ -1,6 +1,41 @@
 # Social Network Analysis Dashboard control
 
-With the SNA Dashboard control, you can add a dashboard that shows key metrics for your network map. Metrics include:
+With the SNA Dashboard control, you can add a dashboard that shows key metrics for your network map. Here's the syntax for adding the SNA Dashboard control in the Advanced Editor:
+
+```
+@controls {
+  bottom {
+    sna-dashboard {}
+  }
+}
+```
+
+You can also use the `metrics` property to specify exactly which metrics get included:
+
+```
+@controls {
+  bottom {
+    sna-dashboard {
+      metrics: element-count, connection-count, reciprocity;
+    }
+  }
+}
+```
+
+Here are all the possible values you can use in the `metrics` property:
+
+- `element-count`
+- `connection-count`
+- `density`
+- `reciprocity`
+- `diameter`
+- `average-degree`
+- `average-path-length`
+
+
+## Available metrics
+
+The metrics currently available in the dashboard are:
 
 <style>
 tr th:first-child {
@@ -45,39 +80,7 @@ tr th:first-child {
 </tbody></table>
 
 
-## Syntax
 
-Here's the syntax for adding the SNA Dashboard control in the Advanced Editor:
-
-```
-@controls {
-  bottom {
-    sna-dashboard {}
-  }
-}
-```
-
-You can also use the `metrics` property to specify exactly which metrics get included:
-
-```
-@controls {
-  bottom {
-    sna-dashboard {
-      metrics: element-count, connection-count, reciprocity;
-    }
-  }
-}
-```
-
-Here are all the possible values you can use in the `metrics` property:
-
-- `element-count`
-- `connection-count`
-- `density`
-- `reciprocity`
-- `diameter`
-- `average-degree`
-- `average-path-length`
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/controls/sna-dashboard-control.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
