@@ -67,7 +67,7 @@ tr th:first-child {
         </tr>
         <tr>
             <td>Diameter</td>
-            <td>The shortest path between the two elements that are furthest apart in a network. If any element in your map is completely disconnected, the diameter will be infinity ∞.</td>
+            <td>The shortest path between the two elements that are furthest apart in a network. If any part of your network is completely disconnected, the diameter will be infinity ∞.</td>
         </tr>
         <tr>
             <td>Average degree</td>
@@ -75,7 +75,7 @@ tr th:first-child {
         </tr>
         <tr>
             <td>Average path length</td>
-            <td>Calculates the average number of steps it takes to get from one element to another in the network. If any element in your map is completely disconnected, the average path length will be infinity ∞.</td>
+            <td>Calculates the average number of steps it takes to get from one element to another in the network. If any part of your network is completely disconnected, the average path length will be infinity ∞.</td>
         </tr>
 </tbody></table>
 
