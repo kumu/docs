@@ -262,15 +262,48 @@ Note: the includes operator `~=` is only relevant for fields with multiple value
 [employees >= 10]
 ```
 
-## Pseudo Selectors
+## Pseudo-selectors
 
- With the pseudo selectors `:from()` and `:to()`, you can select connections based on the elements those connections are attached to.
+Pseudo-selectors allow you to select elements, connections, and loops based on their status (for example, in or out of [focus](/guides/focus.md)) or their relationship to other data.
 
- For example:
+#### Connected from and connected to
+With the `:from` and `:to` pseudo-selectors, you can select connections based on the elements those connections are attached to. The basic syntax is `:from(selector)` and `:to(selector)`.
+
+To build your own, just replace `selector` with any valid selector. For example:
 - `:from(organization)` selects all connections that are coming from elements with type “organization”
 - `:to(#my-element)` selects all connections pointing to an element with the label "My Element"
-- `:from(["level of influence"="high:]),:to(["level of influence"="high:])` selects all connections from _and_ to elements that have "high" in their "level of influence" field
+- `:from(["level of influence"="high"]), :to(["level of influence"="high"])` selects all connections from _or_ to elements that have "high" in their "level of influence" field
 
-To build your own, just add any selector within the parentheses `:from(selector)`.
+#### Connection direction
+
+Use the `:directed`, `:undirected`, and `:mutual` pseudo-selectors to select connections based on their direction.
+- `:mutual["strength" > 1]` selects all mutual connections whose **Strength** is **greater than 1**
+- `:directed["connection type"="donation"]` selects all directed connections whose **Type** is **Donation**
+
+#### Focus root
+
+When you click and hold on an element, you'll apply the [focus](/guides/focus.md) effect to your map. The element you clicked will be the root of the focus, and the focus will extend a certain distance away from the root.
+
+You can also select multiple elements or connections before you apply the focus effect. In that case, all the elements and connections you selected will be considered focus roots.
+
+To select your focus root(s) and apply a style, use the `:focus` pseudo-selector. For example:
+```
+// select all the focus roots that are elements, and apply a shadow to them
+element:focus {
+  shadow-size: 1.5;
+  shadow-color: inherit;
+}
+
+// select all the focus roots that are connections, and make them dashed lines instead of solid
+connection:focus {
+  pattern: dashed;
+}
+
+// select all focus roots, and change their color to #428cba (blue)
+:focus {
+  color: #428cba;
+}
+```
+
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/selectors.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

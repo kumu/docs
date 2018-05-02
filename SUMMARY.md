@@ -35,7 +35,7 @@
   * [Tagged-timeline control](guides/controls/tagged-timeline-control.md)
   * [Color-legend control](guides/controls/color-legend-control.md)
   * [Image control](guides/controls/image-control.md)
-  * [SNA Dashboard control](guides/controls/sna-dashboard-control.md)
+  * [SNA-dashboard control](guides/controls/sna-dashboard-control.md)
 * [Default settings](guides/default-settings.md)
 * [Disciplines](#)
   * [SNA / Network Mapping](guides/sna-network-mapping.md)

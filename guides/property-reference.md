@@ -19,7 +19,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
 
 <style>
 
-#search-properties {
+#search-box {
     width: 100%;
     padding: 5px 10px 5px 10px;
     margin-bottom: .85em;
@@ -27,15 +27,15 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     border-left: 2px solid #ccc;
 }
 
-#search-properties:focus {
+#search-box:focus {
     outline: none;
 }
 
 </style>
 
-<input type="text" id="search-properties" onkeyup="searchProperties()" placeholder="Type to filter...">
+<input type="text" id="search-box" onkeyup="searchProperties()" placeholder="Type to filter...">
 
-<table id="property-reference-table" class="property-table table table-striped">
+<table id="search-table" class="property-table table table-striped">
   <tbody><tr>
     <th class="text-left">Property</th>
     <th class="text-center">Elements</th>
@@ -445,9 +445,9 @@ Hidden objects will still affect the layout.
 function searchProperties() {
     let searchBox, searchTerm, table, rows, i, cells, textToSearch;
 
-    searchBox = document.querySelector("#search-properties");
+    searchBox = document.querySelector("#search-box");
     searchTerm = searchBox.value.toLowerCase();
-    table = document.querySelector("#property-reference-table");
+    table = document.querySelector("#search-table");
     rows = table.querySelectorAll("tr");
 
     for(i = 1; i < rows.length; i++) {

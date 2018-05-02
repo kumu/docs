@@ -1,10 +1,15 @@
 # Focus
 
-Focus is activated in one of two ways, by clicking and holding on any element, connection or loop or by selecting an element, connection or loop and then clicking the focus button in the bottom right of the selection profile. Once activated, you can walk in and out by degree using the "+" and "-" keys on your keyboard (don't hold shift, just hit the key).
+Focus is activated in one of two ways, by clicking and holding on any element, connection or loop or by selecting an element, connection or loop and then clicking the focus button on the right side of your map. Once focus is activated, you can walk in and out by degree using the
+<i class="fa fa-angle-up"> </i> and <i class="fa fa-angle-down"> </i> buttons.
 
-![focus animation](../images/focus.gif)
+![focus animation](../images/focus-expand-contract.gif)
 
-If you click the focus button in the bottom right of the selection profile, you'll be prompted with a menu of how many degrees out you'd like to focus. Once focus is activated, you can click and hold on any element to bring that element's direct connections into view.
+Click the focus button again to bring the full map back into view.
+
+<p class="alert alert-info">
+<b>Keyboard shortcuts:</b> Press <code>+</code> and <code>-</code> on your keyboard to expand and contract focus, or press a number on your keyboard to specify exactly how many degrees the focus should extend. Press <code>esc</code> on your keyboard to bring the full map back into view.
+</p>
 
 ### Preset Focus
 
