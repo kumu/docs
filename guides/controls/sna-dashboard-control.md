@@ -1,6 +1,10 @@
 # Social Network Analysis Dashboard control
 
-With the SNA Dashboard control, you can add a dashboard that shows key metrics for your network map. Here's the syntax for adding the SNA Dashboard control in the Advanced Editor:
+With the SNA Dashboard control, you can add a dashboard that shows key metrics for your network map.
+
+![SNA Dashboard](/images/sna-dashboard-infinity.png)
+
+Here's the syntax for adding the SNA Dashboard control in the Advanced Editor:
 
 ```
 @controls {
@@ -16,11 +20,13 @@ You can also use the `metrics` property to specify exactly which metrics get inc
 @controls {
   bottom {
     sna-dashboard {
-      metrics: element-count, connection-count, reciprocity;
+      metrics: element-count, connection-count, density, average-degree;
     }
   }
 }
 ```
+
+![SNA Dashboard with custom metrics](/images/sna-dashboard-custom-metrics.png)
 
 Here are all the possible values you can use in the `metrics` property:
 
