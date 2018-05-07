@@ -61,6 +61,9 @@ If you don't supply a field to filter by, each option must be listed separately.
 
 * `label` the text to display for that option
 * `selector` the [selector](../selectors.html#selectors) to use for the filter
+* `default`
+  * `true` value is selected by default
+  * `false` value is unselected by default
 
 ### More examples
 
