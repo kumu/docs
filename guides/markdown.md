@@ -19,8 +19,11 @@ An inline link: [Kumu](http://launch.kumupowered.com)
 http://launch.kumupowered.com
 ```
 
-An auto-generated link: <a href="http://launch.kumupowered.com">http://launch.kumupowered.com</a>
+An auto-generated link:
 
+```
+<a href="http://launch.kumupowered.com">http://launch.kumupowered.com</a>
+```
 
 
 ## Lists
