@@ -2,7 +2,7 @@
 
 With the SNA Dashboard control, you can add a dashboard that shows key metrics for your network map.
 
-![SNA Dashboard](/images/sna-dashboard-infinity.png)
+![SNA Dashboard](/images/sna-dashboard.png)
 
 Here's the syntax for adding the SNA Dashboard control in the Advanced Editor:
 
