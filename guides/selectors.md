@@ -305,5 +305,13 @@ connection:focus {
 }
 ```
 
+#### Not
+The `:not` pseudo-selector is useful when you want to select items that **do not** match a selector. The basic syntax is `:not(selector)`.
+
+To build your own, just replace `selector` with any valid selector. For example:
+- `:not(organization)` selects anything on the map that **doesn't** have the element type "Organization"
+- `connection:not(:focus)` selects any connection that is **not** a [focus root](#focus-root)
+- `element:not(["tags"*="blue"])` selects any element whose Tags field **does not contain** the tag "blue"
+
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/selectors.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
