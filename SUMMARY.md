@@ -119,3 +119,4 @@
 * [How do I add images to my elements?](faq/how-do-i-add-images-to-my-elements.md)
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
 * [How can I add a background image (like a map) to my Kumu map?](faq/how-to-add-background-image.md)
+* [How can my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
