@@ -2,7 +2,7 @@
 
 ## Getting started
 * [Welcome](welcome.md)
-* [First steps](getting-started/overview.md)
+* [First steps](getting-started/first-steps.md)
   * [Create an account](getting-started/overview.md#create-an-account)
   * [Create your first project](getting-started/overview.md#create-your-first-project)
   * [Picking a template](getting-started/overview.md#picking-a-template)

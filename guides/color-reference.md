@@ -1,6 +1,6 @@
 # Color Reference
 
-Below are details on the different color palettes and scales that Kumu supports. Use these with the `categorize()` function or within any color scale `color: scale()`.
+Below are details on the different color palettes and scales that Kumu supports. Use these with the [Color by](/guides/decorate.md#color-by) tool in the Basic Editor, or use them in the [Advanced Editor](/guides/decorate.md#decorate-in-the-advanced-editor) with the `categorize()` and `scale()` functions.
 
 ## Named color scales
 Kumu has built-in support for a number of named color scales, including all [ColorBrewer](http://bl.ocks.org/mbostock/5577023) scales.
