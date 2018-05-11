@@ -1,6 +1,6 @@
 # Systems Practice
 
-Are you working with the Systems Practice workbook, either through the +Acumen course or directly with The Omidyar Group? If so, you're in the right place. This guide provides a step-by-step approach on how to use Kumu alongside a systems practice.
+Are you working with the Systems Practice workbook, either through the [+Acumen course](https://www.plusacumen.org/courses/systems-practice) or directly with The Omidyar Group? If so, you're in the right place. This guide provides a step-by-step approach on how to use Kumu alongside a systems practice.
 
 ![](/images/tog-systems-practice-workbook.jpg)
 <p style="text-align: center;"><a href="/content/Workbook-012617.pdf">Download the TOG Systems Practice workbook</a></p>
