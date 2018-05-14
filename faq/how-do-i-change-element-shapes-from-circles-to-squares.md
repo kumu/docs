@@ -25,3 +25,5 @@ person {
 <p class="alert alert-warning">
 Changing the quality of the map from "Best" to "Fast" will change all element shapes to squares.
 </p>
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-change-element-shapes-from-circles-to-squares.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

@@ -9,3 +9,5 @@ If you are trying to add a contributor to a project owned by an organization, vi
 1. Add the person to the organization (as a guest, member or owner)
 2. Assign that person to a team
 3. Make sure the team has access to the relevant project (either view or edit access)
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-to-add-contributors.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

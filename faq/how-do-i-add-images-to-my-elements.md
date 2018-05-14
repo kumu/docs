@@ -2,7 +2,7 @@
 
 ### Building a map by hand
 
-If you are building a map by hand, add a [Field](/guides/fields.md) entitled "Image". Then, add the public URL for the image in the "Image" field for each element.
+If you are building a map by hand, add a [Field](/guides/fields.md) named "Image". Then, add the public URL for the image in the "Image" field for each element.
 
 You can also easily upload an image file from your computer directly to Kumu. Just click the "select a file" link when editing the element image.
 
@@ -16,4 +16,4 @@ Note: Only jpeg, png, and gif files smaller than 5mb are supported at this time.
 
 If you are using a [spreadsheet import](/guides/import.md) to create your map, make sure to add an "Image" column in the the "Elements" sheet. In the "Image" column, add the public URL for the image that you want to appear for that element.
 
-*See also: [Profiles documentation](/guides/profiles.md)*
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-add-images-to-my-elements.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

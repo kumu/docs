@@ -11,7 +11,7 @@ By default our layout algorithm treats all connections the same (same spring str
 }
 ```
 
-This also works for `connection-length` as well.
+This works for `connection-length` as well.
 
 ## Set specific strength/length
 
@@ -27,3 +27,5 @@ connection["level of influence"="low"] {
 }
 
 ```
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-to-change-length-of-connections.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

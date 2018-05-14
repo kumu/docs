@@ -8,8 +8,8 @@ customize the arrow size:
 - `arrow-width`
 - `arrow-height`
 
-These properties can be used within @settings or within a connection rule.
-Generally you'll want to set `arrow-min-width` and `arrow-min-height` to 0 if you're
+These properties can be used within `@settings` or within a [connection decoration rule](/guides/decorate.md#decorate-in-the-advanced-editor) in the Advanced Editor.
+Generally you'll want to set `arrow-min-width` and `arrow-min-height` to `0` if you're
 sizing arrows manually.
 
 ```
