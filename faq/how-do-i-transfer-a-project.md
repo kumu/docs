@@ -21,3 +21,5 @@ Within Kumu you can either transfer a project to another user's personal account
 * Click the link to "Transfer project."
 * Select the username of the organization you'd like to transfer the project to.
 * Click transfer.
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-transfer-a-project.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
