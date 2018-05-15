@@ -67,7 +67,7 @@ To change the order, click edit and then simply drag the fields to reorder them.
 If you've created a field and want to delete it and all corresponding values, click on the label of the field in any profile and then go to more -> delete. Alternatively, use can use the menu in the upper left corner to go to the field settings page (choose fields). This will delete the field and any values assigned for any content in your project.
 
 ## Deleting field values
-Occasionally you may want to delete the prompted choices for a given field, or the options that show up in a [control](/guides/controls.md). To do this, you need to remove the value from the field settings:
+Occasionally you may want to delete the prompted choices for a given field, or the options that show up in your legend or in a [control](/guides/controls.md). To do this, you need to remove the value from the field settings:
 1. Click the menu in the upper left of your map and choose **FIELDS**
 1. Click on the field you want to edit
 1. Find the value you want to delete. Then, highlight it and press `delete` or `backspace` on your keyboard.
