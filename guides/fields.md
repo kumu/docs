@@ -17,6 +17,7 @@ A dropdown will appear with the following options:
 - **Name** - change the name of your field
 - **Type** - string, text, URL, email, number, currency
 - **Limit** - one value **OR** none (one or more values)
+- **Prompt** - none, autocomplete, or list
 - **Category** - for grouping fields in sections on the profile
 - **Visibility** - public **OR** private (whether or not viewers can see a given field)
 - **Clustering** - whether to allow clustering by this field
