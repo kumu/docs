@@ -3,14 +3,14 @@
 We've built a [flexible widget framework](https://github.com/kumu/widgets) to make it easy to embed your favorite content within Kumu. Widgets are curently supported for:
 
 * Lists ```[[list/loops]], [[list "selector"]] or [[list "field"]]```
-* Vimeo ```[[vimeo/:id]]```
-* YouTube ```[[youtube/:id]]```
-* Slideshare ```[[slideshare/:id]]```
-* Speaker Deck ```[[speakerdeck/:id]]```
-* SoundCloud ```[[soundcloud/:id]]```
-* audioBoom ```[[audioboom/:id]]```
+* Vimeo ```[[vimeo/id]]```
+* YouTube ```[[youtube/id]]```
+* Slideshare ```[[slideshare/id]]```
+* Speaker Deck ```[[speakerdeck/id]]```
+* SoundCloud ```[[soundcloud/id]]```
+* audioBoom ```[[audioboom/id]]```
 
-...where ```:id``` is the unique code included in the embed code from any of the above services.
+...where ```id``` is the unique code included in the embed code from any of the above services.
 
 Widgets can be included in the map overview and in the description field for any element, connection or loop.
 

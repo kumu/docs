@@ -21,11 +21,12 @@ To add a background image to a map, you can use a snippet of code we prepared he
 You can replace the `image-url` with a link to any image online. To get an image URL from any image you see online, you can right-click the image and select "Copy Image Address".
 
 <p class="alert alert-warning">
-Some images won't be displayed in Kumu, because they are using an insecure connection (the link starts with <code>http</code> instead of <code>https</code>), or because they are traveling through a proxy server.<br><br>If your image isn't displaying in Kumu, save the file to your computer, and follow the steps below to upload the image directly to your Kumu project.
+Some images won't be displayed in Kumu, because they are using an insecure connection (the link starts with <code>http</code> instead of <code>https</code>), or because they are traveling through a proxy server.<br><br>If your image isn't displaying in Kumu, you can save the file to your compute and follow the steps below to upload the image directly to your Kumu project.
 </p>
 
-You can use the [Basic Editor](/overview/view-editors.md#basic-editor) to upload an image from your computer to your Kumu project. Follow these steps:
+You can also use the [Basic Editor](/overview/view-editors.md#basic-editor) to upload an image from your computer to your Kumu project—this will override the `image-url` in your code. Follow these steps:
 
+1. Complete the initial steps above to create you background element and add your Advanced Editor code
 1. Click the Settings icon <i class="fa fa-sliders"></i> to open the Basic Editor
 1. Click **More Options**
 1. Select **Decorate elements**
