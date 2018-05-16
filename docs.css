@@ -244,6 +244,15 @@ table.property-table {
   text-align: center;
 }
 
+/* borderless table */
+
+.borderless.table tr,
+.borderless.table th,
+.borderless.table td {
+    border: none;
+}
+
+
 /* keystrokes */
 
 .shortcuts {

@@ -49,7 +49,7 @@ tr th:first-child {
 }
 </style>
 
-<table class="table"><tbody>
+<table class="table borderless"><tbody>
         <tr>
             <th class="text-left">Metric</th>
             <th class="text-left">Description</th>

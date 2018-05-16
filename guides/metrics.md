@@ -36,7 +36,7 @@ tr th:first-child {
 
 <input type="text" id="search-box" onkeyup="searchTable()" placeholder="Type to filter...">
 
-<table id="search-table" class="table"><tbody>
+<table id="search-table" class="table borderless"><tbody>
         <tr>
             <th class="text-left">Metric</th>
             <th class="text-left">Description</th>
