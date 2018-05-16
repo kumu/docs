@@ -77,9 +77,12 @@ Below is a list of all the icons you can add to your legend, as well as instruct
     border: none;
 }
 
-#legend-icons-table tr:first-child,
+#legend-icons-table tr:first-child {
+    border: none;
+}
+
 #legend-icons-table tr:nth-child(2) {
-    border-width: 3px;
+    border-width: 2.5px;
 }
 
 #legend-icons-table pre {
