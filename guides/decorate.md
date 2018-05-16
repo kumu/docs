@@ -53,9 +53,11 @@ If you color by a multi-pick field like Tags, Kumu will color code your elements
 
 To learn more about flags, [read the full guide](/guides/flags.md).
 
-Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Color by** dropdown to fine-tune your coloring options.
+Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
 
-The default color scale `neon2` can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](/guides/color-reference.md) to find a scale that will work for your data.
+![bujumbra color by](/images/color-by-element-type-bujumbra.png)
+
+The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](/guides/color-reference.md) to find a scale that will work for your data.
 
 
 ### Refine your decorations
@@ -91,7 +93,7 @@ Click the **Done** button to apply your decoration, and if you don't like the wa
 
 ![Existing decorations](/images/basic-editor-existing-decorations.png)
 
-You can also add your decorations to the legend by filling out the **Legend** box at the bottom of the Decoration Builder.
+You can also add your decorations to the legend by filling out the **Legend** box at the bottom of the Decoration Builder. For more information on legends, [check out the full legends guide](/guides/legends.md).
 
 
 ## Decorate in the Advanced Editor

@@ -35,7 +35,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
 
 <input type="text" id="search-box" onkeyup="searchProperties()" placeholder="Type to filter...">
 
-<table id="search-table" class="property-table table table-striped">
+<table id="search-table" class="property-table table">
   <tbody><tr>
     <th class="text-left">Property</th>
     <th class="text-center">Elements</th>

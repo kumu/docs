@@ -36,7 +36,7 @@ tr th:first-child {
 
 <input type="text" id="search-box" onkeyup="searchTable()" placeholder="Type to filter...">
 
-<table id="search-table" class="table table-striped"><tbody>
+<table id="search-table" class="table"><tbody>
         <tr>
             <th class="text-left">Metric</th>
             <th class="text-left">Description</th>
@@ -111,7 +111,7 @@ function searchTable() {
 
 <p class="alert alert-info">
 Looking for group metrics that describe your entire network? Check out the <a href="/guides/controls/sna-dashboard-control.md">SNA Dashboard control</a>.
-</p>Â 
+</p>
 
 ### Weighted metrics
 Certain fields also support weighting so you can include fields like strength and frequency in the calculations. Betweenness, closeness and degree use connection fields for weighting while size and reach use element fields for weighting.
