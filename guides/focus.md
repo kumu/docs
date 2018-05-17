@@ -1,11 +1,11 @@
 # Focus
 
-Focus is activated in one of two ways, by clicking and holding on any element, connection or loop or by selecting an element, connection or loop and then clicking the focus button on the right side of your map. Once focus is activated, you can walk in and out by degree using the
+Focus is activated in one of two ways, by clicking and holding on any element, connection or loop or by selecting an element, connection or loop and then clicking the focus icon <i class="fa fa-crosshairs"></i> on the right side of your map. Once focus is activated, you can walk in and out by degree using the
 <i class="fa fa-angle-up"> </i> and <i class="fa fa-angle-down"> </i> buttons.
 
 ![focus animation](../images/focus-expand-contract.gif)
 
-Click the focus button again to bring the full map back into view.
+Click the focus icon again to bring the full map back into view.
 
 <p class="alert alert-info">
 <b>Keyboard shortcuts:</b> Press <code>+</code> and <code>-</code> on your keyboard to expand and contract focus, or press a number on your keyboard to specify exactly how many degrees the focus should extend. Press <code>esc</code> on your keyboard to bring the full map back into view.
