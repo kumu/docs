@@ -3,7 +3,7 @@
 Adding a legend to your map is an important step to make sure your readers can easily understand your decorations. There are a number of different ways to add and remove legend entries—this guide will explain all of them!
 
 
-### Add legend entries through the Basic Editor
+## Add legend entries through the Basic Editor
 
 There are two ways to create your legend from the [Basic Editor](/overview/view-editors.md#basic-editor).
 1. Using the **Color by**
@@ -40,7 +40,7 @@ The legend entries added from the decoration builder will be listed in the Basic
 
 ![Existing decorations for network map](/images/existing-decorations-scale.png)
 
-### Add legend entries through the Advanced Editor
+## Add legend entries through the Advanced Editor
 
 If you're working on decorations in the [Advanced Editor](/overview/view-editors.md#advanced-editor), you can add a comment above a decoration to tell Kumu that it should be included in the legend. The syntax is:
 
@@ -79,7 +79,7 @@ You can even combine color-legend controls with the standard legend
 
 Need even more flexibility for your legend, or want to completely customize the style? Using Kumu's -->
 
-### Legend reference
+## Legend reference
 
 Below is a list of all the icons you can add to your legend, as well as instructions on how to access the icons from the Basic and Advanced Editors.
 
