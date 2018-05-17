@@ -5,20 +5,20 @@ If you want to add arrows to your connections to specify direction, here are a c
 ### For a single connection
 
 * Select the connection.
-* Use the "direction" icon in the sidebar menu to specify "Directed", "Mutual", or reverse the connection direction.
-* Click "Directed" to add a connection arrow.
+* Use the direction icon <i class="fa fa-exchange">  </i> in the [side panel](/overview/map-editor.md#side-panel) to specify "Directed", "Mutual", or reverse <i class="fa fa-random"></i> the connection direction.
+* Click "Directed" to add a connection arrow, and "Mutual" to add an arrow on each side.
 
 ![Direction Menu](/images/Connection Direction2.png)
 
 ### For all connections
 
 * Press `Shift` + `C` on your keyboard to select all connections.
-* Click on the "Direction" icon in the sidebar.
+* Click on the direction icon <i class="fa fa-exchange">  </i> in the side panel.
 * Click "Directed" to add arrows to all connections.
 
 **Good to know:**
 - Arrows can't be added to connections if you're using the [SNA template](https://docs.kumu.io/guides/templates.html#sna-social-network-analysis-template).
 - Kumu recognizes connection direction from your spreadsheet import (**From** and **To** columns in your connections sheet) or the direction you draw the connection by hand. This connection direction determines which way arrows point when you specify a "directed" connection.
-- In a JSON blueprint, you can use the `directed` property of each connection to specify `'directed'`, `'undirected'`, or `'mutual'`.
+- In a [JSON blueprint](/guides/blueprints.md), you can use the `directed` property of each connection to specify `'directed'`, `'undirected'`, or `'mutual'`.
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-add-arrows-to-my-connections.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
