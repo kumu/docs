@@ -84,7 +84,7 @@ If you have already one or more decorations to your map, the Basic Editor will s
 
 ![Existing decorations](/images/basic-editor-existing-decorations.png)
 
-This section of the Basic Editor shows each decoration's legend label, if you have added them through the Decoration Builder. You can click the pencil icon <i class="icon-edit"></i> next to a decoration to edit it, or click the <span style="color: darkred; font-weight: 700;">x</span> to delete it.
+This section of the Basic Editor shows each decoration's legend label, if you have added them through the Decoration Builder. You can click the pencil icon <i class="fa fa-pencil"></i> next to a decoration to edit it, or click the <span style="color: darkred; font-weight: 700;">x</span> to delete it.
 
 
 ## Advanced Editor

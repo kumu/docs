@@ -89,7 +89,7 @@ After you have built your selection, feel free to play with all the decoration o
 
 ![Element decoration options](/images/element-decorations.jpeg)
 
-Click the **Done** button to apply your decoration, and if you don't like the way it looks, just find the decoration rule in the [existing decorations](/overview/view-editors.md#existing-decorations) section of the Basic Editor, and click the pencil icon to edit it.
+Click the **Done** button to apply your decoration, and if you don't like the way it looks, just find the decoration rule in the [existing decorations](/overview/view-editors.md#existing-decorations) section of the Basic Editor, and click the pencil icon <i class="fa fa-pencil"></i> to edit it.
 
 ![Existing decorations](/images/basic-editor-existing-decorations.png)
 

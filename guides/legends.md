@@ -5,7 +5,15 @@ Adding a legend to your map is an important step to make sure your readers can e
 
 ### Add legend entries through the Basic Editor
 
-When you use the [Color by](/guides/decorate.md#color-by) tool in the [Basic Editor](/overview/view-editors.md#basic-editor), Kumu will automatically create your color legend, adding an item for each possible value in the field you're coloring by. For example, this map is colored by Element Type using the `bujumbra` scale:
+There are two ways to create your legend from the [Basic Editor](/overview/view-editors.md#basic-editor).
+1. Using the **Color by**
+1. Using the [decoration builders](/guides/decorate.md#refine-your-decorations)
+
+**Color by** is a great way to get a legend up and running quickly, and the decoration builders are useful when your legend needs to be a bit more customized. Read on to learn more about both options.
+
+#### Use the Color by tool to create a legend
+
+When you use the [Color by](/guides/decorate.md#color-by) tool in the Basic Editor, Kumu will automatically create your color legend, adding an item for each possible value in the field you're coloring by. For example, this map is colored by Element Type using the `bujumbra` scale:
 
 ![bujumbra color by](/images/legend-color-by-closeup.png)
 
@@ -13,13 +21,22 @@ This automatic legend feature also works when you're using **Color by** to add [
 
 Note that the **Color by** tool will stop adding legend entries after it runs out of colors in its default color palette (seven colors). To make sure all your field values get included in the legend, you might need to click the expand icon <i class="fa fa-angle-down"></i> and choose a [larger color palette](/guides/color-reference.md). If the **Color by** tool is including some unwanted field values in your legend, try  [deleting the unwanted values](/guides/fields.md#deleting-field-values).
 
-You can also use the [element and connection decoration builders](/guides/decorate.md#refine-your-decorations) to add different kinds of items to your legend—for example, icons to indicate that elements or connections are being scaled in size:
+One more caveat about **Color by**: when you're using this tool, it's not possible to remove, replace, or edit individual colors from the color palette. To fully customize the colors in the palette, you can follow the guide to [define your own palette](/guides/color-reference.html#defining-your-own-color-palette). Alternatively, you can read through the next section in this guide to learn how to create a custom legend without using the **Color by** tool.
+
+
+#### Use the decoration builders to add legend entries
+
+To add custom colors and icons to your legend, use the [element and connection decoration builders](/guides/decorate.md#refine-your-decorations). Once you build out your decoration rule, fill in the "Label for Legend" box at the bottom of the decoration builder, and Kumu will add your decoration to the legend.
+
+![label for legend box](/images/decoration-builder-legend-label.png)
+
+You can use the decoration builders to add many different kinds of items to your legend—for example, icons to indicate that elements or connections are being scaled in size:
 
 ![Network map with cool legend entries](/images/legend-scale-closeup.png)
 
 For a full list of legend icons you can add, [jump to the legend reference](#legend-reference).
 
-The legend entries added from the decoration builder will be listed in the Basic Editor among other existing decorations. Decorations that are labelled with bold text are the ones that appear in your legend.
+The legend entries added from the decoration builder will be listed in the Basic Editor among other existing decorations. Decorations that are labelled with bold text are the ones that appear in your legend, and you can click the pencil icon <i class="fa fa-pencil"></i> next to any decoration to edit the rule and its legend label
 
 ![Existing decorations for network map](/images/existing-decorations-scale.png)
 
