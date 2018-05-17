@@ -17,7 +17,7 @@ In the top right corner, you'll see a few more links:
 - [Dashboard](https://kumu.io/dashboard) takes you back to your dashboard
 - [Settings](https://kumu.io/settings) links to your account settings, where you can [edit your profile](https://kumu.io/settings#profile), [change your billing settings](https://kumu.io/settings#billing), and [manage your username and password](https://kumu.io/settings#admin)
 
-Below these links, you'll see the main section of your dashboard, which lists all the [projects](/projects-maps-views.md#projects) that you own, as well as the projects you can contribute to. Your own projects will have your avatar next to them, and projects that you don't own will have the avatar of the project owner.
+Below these links, you'll see the main section of your dashboard, which lists all the [projects](/overview/projects-maps-views.md#projects) that you own, as well as the projects you can contribute to. Your own projects will have your avatar next to them, and projects that you don't own will have the avatar of the project owner.
 
 If you're looking for a specific project or group of projects, use the dropdown menus above your project list to filter and sort. Or, if you don't have any projects yet, click the **New Project** button to get started!
 
