@@ -4,7 +4,7 @@ Organizations allow multiple users to manage and contribute to a shared account.
 
 ## Creating an organization
 
-Click your avatar in the upper right corner of the [dashboard](https://kumu.io/dashboard) and then click "new organization".
+Go to your [dashboard](/overview/dashboard.md), then navigate to the **Organizations** tab and click the **New Organization** button.
 
 ## Adding users to an organization
 

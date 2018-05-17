@@ -14,10 +14,11 @@
 * [FAQ](getting-started/faq.md)
 
 ## Overview
-* [The essentials](overview/the-essentials.md)
+* [Projects, maps, and views](overview/projects-maps-views.md)
+* [Dashboard](/overview/dashboard.md)
+* [Map editor](/overview/map-editor.md)
+* [View editors](overview/view-editors.md)
 * [Settings](overview/settings.md)
-* [Data architecture](overview/data-architecture.md)
-* [View Editors](overview/view-editors.md)
 * [Personal and organization accounts](overview/personal-and-organization-accounts.md)
 * [Collaborating and sharing](overview/collaboration.md)
 
