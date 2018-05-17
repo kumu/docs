@@ -15,7 +15,7 @@ All values are unitless.
 
 ## Catalog of Supported Properties
 
-The table belows lists all of the properties recognized by Kumu. Hover over the information icon at the far right to see additional details and available values for each property. Scroll to the bottom for a list of available @settings properties.
+The table below lists all of the properties recognized by Kumu. Hover over the information icon at the far right to see additional details and valid values for each property (when are multiple valid values, we've listed them as separate snippets of `inline code`). Scroll to the bottom for a list of available `@settings` properties.
 
 <style>
 
@@ -50,7 +50,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Override the arrow color for a connection.
-<code>color</code>
+<br><code>color</code>
 "></i></td>
   </tr>
 
@@ -60,7 +60,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-check"></i></button></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls arrow visibility for directed connections.
-<code>visible|hidden</code>
+<br><code>visible</code><br><code>hidden</code>
 "></i></button></td>
   </tr>
 
@@ -70,7 +70,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border color for elements.
-<code>color</code>
+<br><code>color</code>
 "></i></td>
   </tr>
 
@@ -80,7 +80,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border width for elements.
-<code>number</code>
+<br><code>number</code>
 "></i></td>
   </tr>
 
@@ -90,7 +90,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the bullseye visibility for elements.
-<code>visible|hidden</code>
+<br><code>visible</code><br><code>hidden</code>
 "></i></td>
   </tr>
 
@@ -100,7 +100,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the bullseye size for elements.
-<code>0..1</code>
+<br><code>0..1</code>
 "></i></td>
   </tr>
 
@@ -110,7 +110,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the bullseye color for elements.
-<code>color</code>
+<br><code>color</code>
 "></i></td>
   </tr>
 
@@ -120,7 +120,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the bullseye opacity for elements.
-<code>0..1</code>
+<br><code>0..1</code>
 "></i></td>
   </tr>
 
@@ -130,7 +130,9 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls color of elements and connections
-<code>color</code>
+<br><code>color</code><br>
+Additional option for connections only:
+<br><code>gradient(color1, color2)</code>
 "></i></td>
   </tr>
 
@@ -140,7 +142,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the curvature of connections.
-<code>0..1</code>
+<br><code>0..1</code>
 "></i></td>
   </tr>
 
@@ -150,7 +152,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls delay visibility for delayed connections.
-<code>visible|hidden</code>
+<br><code>visible</code><br><code>hidden</code>
 "></i></td>
   </tr>
 
@@ -161,7 +163,7 @@ The table belows lists all of the properties recognized by Kumu. Hover over the 
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general inclusion.
 Hidden objects will be fully removed from the map (see visibility).
-<code>map|none</code>
+<br><code>map</code><br><code>none</code>
 "></i></td>
   </tr>
 
@@ -170,8 +172,8 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
     <td></i></td>
     <td></i></td>
-    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines field and color scale for flags.<br>
-<code>'Field' with colorPalette</code>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines field and color scale for flags.
+<br><code>'Field' with colorPalette</code>
 "></i></td>
   </tr>
 
@@ -181,7 +183,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td></i></td>
     <td></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls space between flags and their elements.
-<code>number</code>
+<br><code>number</code>
 "></i></td>
   </tr>
 
@@ -191,7 +193,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td></i></td>
     <td></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls thickness of flags.
-<code>number</code>
+<br><code>number</code>
 "></i></td>
   </tr>
 
@@ -201,7 +203,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font color.
-<code>color</code>
+<br><code>color</code>
 "></i></td>
   </tr>
 
@@ -211,7 +213,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font family.
-<code>'Helvetica Neue', sans-serif</code>
+<br><code>'Helvetica Neue', sans-serif</code>
 "></i></td>
   </tr>
 
@@ -221,7 +223,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font size.
-<code>number</code>
+<br><code>number</code>
 "></i></td>
   </tr>
 
@@ -231,7 +233,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label style.
-<code>normal|italic</code>
+<br><code>normal</code><br><code>italic</code>
 "></i></td>
   </tr>
 
@@ -241,7 +243,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font weight.
-<code>normal|bold</code>
+<br><code>normal</code><br><code>bold</code>
 "></i></td>
   </tr>
 
@@ -251,7 +253,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls height of elements that are squares and/or rectangles
-<code>auto|number</code>
+<br><code>auto</code><br><code>number</code>
 "></i></td>
   </tr>
 
@@ -261,7 +263,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls source of element image
-<code>url(http://...)</code>
+<br><code>url(http://...)</code>
 "></i></td>
   </tr>
 
@@ -271,7 +273,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element image size
-<code>cover|contain</code>
+<br><code>cover</code><br><code>contain</code>
 "></i></td>
   </tr>
 
@@ -281,7 +283,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element image visibility
-<code>visible|hidden</code>
+<br><code>visible</code><br><code>hidden</code>
 "></i></td>
   </tr>
 
@@ -291,7 +293,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label visibility for all types.
-<code>visible|hidden</code>
+<br><code>visible</code><br><code>hidden</code>
 "></i></td>
   </tr>
 
@@ -301,7 +303,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection resting length
-<code>number</code>
+<br><code>number</code>
 "></i></td>
   </tr>
 
@@ -312,7 +314,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls amount of space between the border of an element
 and its connections.
-<code>number|none</code>
+<br><code>number</code><br><code>none</code>
 "></i></td>
   </tr>
 
@@ -322,7 +324,7 @@ and its connections.
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general element and connection opacity.
-<code>0..1</code>
+<br><code>0..1</code>
 "></i></td>
   </tr>
 
@@ -333,7 +335,7 @@ and its connections.
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls amount of space between the border of an element
 and its core (image / bullseye).
-<code>number</code>
+<br><code>number</code>
 "></i></td>
   </tr>
 
@@ -343,7 +345,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the opacity of connections.
-<code>0..1</code>
+<br><code>0..1</code>
 "></i></td>
   </tr>
 
@@ -353,7 +355,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the pattern of a connection.
-<code>solid|dashed</code>
+<br><code>solid</code><br><code>dashed</code>
 "></i></td>
   </tr>
 
@@ -363,7 +365,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls whether or not an item can be clicked.
-<code>auto|none</code>
+<br><code>auto</code><br><code>none</code>
 "></i></td>
   </tr>
 
@@ -373,7 +375,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element and connection scale (multiple of base size).
-<code>number</code>
+<br><code>number</code>
 "></i></td>
   </tr>
 
@@ -383,7 +385,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the base element and and connection size.
-<code>number</code>
+<br><code>number</code>
 "></i></td>
   </tr>
 
@@ -393,7 +395,7 @@ and its core (image / bullseye).
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shadow visibility
-<code>visible|hidden</code>
+<br><code>visible</code><br><code>hidden</code>
 "></i></td>
   </tr>
 
@@ -403,7 +405,7 @@ and its core (image / bullseye).
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shadow size.
-<code>1..5</code>
+<br><code>1..5</code>
 "></i></td>
   </tr>
 
@@ -413,7 +415,7 @@ and its core (image / bullseye).
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shadow color.
-<code>color</code>
+<br><code>color</code>
 "></i></td>
   </tr>
 
@@ -423,7 +425,7 @@ and its core (image / bullseye).
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shadow opacity.
-<code>0..1</code>
+<br><code>0..1</code>
 "></i></td>
   </tr>
 
@@ -433,7 +435,7 @@ and its core (image / bullseye).
     <td></button></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element shape.
-<code>circle|square|rectangle</code>
+<br><code>circle</code><br><code>square</code><br><code>rectangle</code>
 "></i></button></td>
   </tr>
 
@@ -443,7 +445,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection strength.
-<code>0..1</code>
+<br><code>0..1</code>
 "></i></td>
   </tr>
 
@@ -453,7 +455,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-check"></i></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection style.
-<code>solid|dashed</code>
+<br><code>solid</code><br><code>dashed</code>
 "></i></td>
   </tr>
 
@@ -463,7 +465,7 @@ and its core (image / bullseye).
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls alignment of element labels.
-<code>bottom|center</code>
+<br><code>bottom</code><br><code>center</code>
 "></i></td>
   </tr>
 
@@ -473,7 +475,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls text wrapping and truncating.
-<code>off|auto|manual|wrap|<br>wrap [number]|clip|<br>clip [number]</code>
+<br><code>off</code><br><code>auto</code><br><code>manual</code><br><code>wrap</code><br><code>wrap [number]</code><br><code>clip</code><br><code>clip [number]</code>
 "></i></td>
   </tr>
 
@@ -484,7 +486,7 @@ and its core (image / bullseye).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general visibility.
 Hidden objects will still affect the layout.
-<code>visible|hidden</code>
+<br><code>visible</code><br><code>hidden</code>
 "></i></td>
   </tr>
 
@@ -494,7 +496,7 @@ Hidden objects will still affect the layout.
     <td></td>
     <td></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls width of elements that are squares and/or rectangles
-<code>auto|number</code>
+<br><code>auto</code><br><code>number</code>
 "></i></td>
   </tr>
 
