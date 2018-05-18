@@ -14,11 +14,12 @@
 * [FAQ](getting-started/faq.md)
 
 ## Overview
-* [Projects, maps, and views](overview/projects-maps-views.md)
-* [Dashboard](/overview/dashboard.md)
-* [Map editor](/overview/map-editor.md)
-* [View editors](overview/view-editors.md)
-* [Settings](overview/settings.md)
+* [Kumu's architecture](overview/kumus-architecture.md)
+* [User Interfaces](/overview/user-interfaces.md)
+  * [Dashboard](/overview/dashboard.md)
+  * [Map editor](/overview/map-editor.md)
+  * [View editors](overview/view-editors.md)
+  * [Settings](overview/settings.md)
 * [Personal and organization accounts](overview/personal-and-organization-accounts.md)
 * [Collaborating and sharing](overview/collaboration.md)
 

@@ -1,13 +1,15 @@
 # Map editor
 
-The map editor is where you'll build the basic structure of your [map](/overview/projects-maps-views.md#maps).
+The map editor is where you'll build the basic structure of your [map](/overview/kumus-architecture.md#maps).
 
 ![map editor](/images/map-editor.png)
 
 
 ## Top toolbar
 
-In the upper left of your map editor, you can find the **top toolbar**. First, you'll see a menu icon <i class="fa fa-bars"></i>, which you can use to access [project settings](/overview/settings.md#project-settings). Next to that icon, you'll see the project name, followed by two dropdown menus. The first dropdown menu allows you to navigate to different maps within your [project](/overview/projects-maps-views.md#projects), and second dropdown menu allows you to apply different [views](/overview/projects-maps-views.md#views) to the current map.
+In the upper left of your map editor, you can find the **top toolbar**. First, you'll see a menu icon <i class="fa fa-bars"></i>, which you can use to access [project settings](/overview/settings.md#project-settings). Next to that icon, you'll see the project name, followed by two dropdown menus.
+
+The first dropdown menu allows you to create new maps and navigate to different maps within your [project](/overview/kumus-architecture.md#projects). The second dropdown menu allows you to create new [views](/overview/kumus-architecture.md#views) and apply different views to the current map.
 
 
 ## Bottom toolbar

@@ -4,8 +4,8 @@ You can edit settings for each project, map and view in Kumu.
 
 *Before diving in, make sure you:*
 
-* [Understand what a view is](../guides/views.md)
-* [Know how maps relate to projects](../overview/data-architecture.md)
+* [Understand what a view is](/overview/kumus-architecture.md#views)
+* [Know how maps relate to projects](/overview/kumus-architecture.md#maps)
 
 *After reading this you'll know:*
 

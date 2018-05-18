@@ -3,7 +3,7 @@ This overview is a great place to start if you're new to Kumu. Take some time to
 
 
 
-## Jump to a section
+#### Jump to a section
 
 * [Create an account](#create-an-account)
 * [Create your first project](#create-your-first-project)
