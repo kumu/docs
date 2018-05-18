@@ -1,6 +1,6 @@
 # View Editors
 
-You can edit [views](/kumus-architecture.md#views) with two different editors: the Basic Editor and the Advanced Editor.
+You can edit [views](/overview/kumus-architecture.md#views) with two different editors: the Basic Editor and the Advanced Editor.
 
 The Basic Editor allows you to click through different menus to access many of Kumu's powerful features—decorations, filtering, clustering, layouts, and more. The Advanced Editor allows you to write code in Kumu's CSS-inspired coding language to access all of the same features.
 
