@@ -9,7 +9,7 @@ and clustering.
 
 ## Example
 
-Controls are currently in beta and can only be added through the [advanced editor](../getting-started/basic-vs-advanced-editor.md). Here's an example of what controls look like:
+Controls are currently in beta and can only be added through the [advanced editor](/overview/view-editors.md). Here's an example of what controls look like:
 
 ```
 @controls {
@@ -31,14 +31,14 @@ In general, controls are defined with the `@controls` block, grouped into region
       property: value;
       ....
     }
-    
+
     another-control {
       property: value;
       property: value;
       ...
     }
   }
-  
+
   another-region {
     some-other-control {
       ...
@@ -99,7 +99,7 @@ In the example below, we call the `option` blocks the "children" of the `showcas
         label: "People";
         selector: person;
       }
-      
+
       option {
         label: "Orgs";
         selector: organization;
@@ -134,13 +134,13 @@ By default, @controls looks like this:
   top-left {
     search {}
   }
-  
+
   top-right {
     zoom-toolbar {}
     settings-toolbar {}
     focus-toolbar {}
   }
-  
+
   bottom-left {
     legend {}
   }
@@ -154,7 +154,7 @@ If you wanted to keep search but drop the others you could use:
   top-left {
     search {}
   }
-  
+
   top-right {}
   bottom-left {}
 }
@@ -165,13 +165,13 @@ Or, if you wanted to start from scratch without any of Kumu's built-in controls 
 ```
 @controls {
   reset: true;
-  
+
   top {
     title {
       value: "Check out my custom controls";
     }
   }
-  
+
   bottom {
     showcase {
       by: "Element type";
@@ -179,4 +179,3 @@ Or, if you wanted to start from scratch without any of Kumu's built-in controls 
   }
 }
 ```
-

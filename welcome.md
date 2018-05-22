@@ -3,36 +3,55 @@
 Looking to learn how to use Kumu? You're in the right place. We've broken up the docs into a few different sections based on your level of experience with Kumu:
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-12">
     <div class="guide-tile">
       <h3>I'm just getting started</h3>
-      <p> If you're new to Kumu, stick to the getting started section until you get your bearings.</p>
+      <p>If you're new to Kumu, try working through the Getting Started section.</p>
       <ul>
-        <li><a href="/getting-started/overview.html#building-your-first-map-permalink"><i class="fa fa-arrow-circle-o-right"></i>Building your first map</a></li>
+        <li><a href="#five-minute-quickstart"><i class="fa fa-arrow-circle-o-right"></i>Five-minute quickstart</a></li>
       </ul>
       <ul>
-        <li><a href="/getting-started/overview.html#decorations-permalink"><i class="fa fa-arrow-circle-o-right"></i>Adding decorations</a></li>
+        <li><a href="/getting-started/first-steps.md"><i class="fa fa-arrow-circle-o-right"></i>Building your first map</a></li>
       </ul>
       <ul>
         <li><a href="/getting-started/faq.html"><i class="fa fa-arrow-circle-o-right"></i>Frequently asked questions</a></li>
       </ul>
     </div>
   </div>
-  <div class="col-md-6">
+</div>
+<div class="row">
+  <div class="col-md-12">
     <div class="guide-tile">
 
     <h3>I'm ready to dive deeper</h3>
-    <p>Once you've gotten the hang of Kumu, explore the guides section.</p>
+    <p>Once you've gotten the hang of Kumu, explore the Guides section.</p>
     <ul>
-      <li><a href="/guides/views.html"><i class="fa fa-arrow-circle-o-right"></i>Views</a></li>
+      <li><a href="/guides/decorate.md"><i class="fa fa-arrow-circle-o-right"></i>Decorate</a></li>
     </ul>
     <ul>
-      <li><a href="/guides/clustering.html"><i class="fa fa-arrow-circle-o-right"></i>Clustering</a></li>
+      <li><a href="/guides/filter.md"><i class="fa fa-arrow-circle-o-right"></i>Filter</a></li>
     </ul>
     <ul>
-      <li><a href="/guides/controls.html"><i class="fa fa-arrow-circle-o-right"></i>Controls</a></li>
+      <li><a href="/guides/clustering.md"><i class="fa fa-arrow-circle-o-right"></i>Cluster</a></li>
     </ul>
   </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="guide-tile">
+      <h3>I think I'm missing something...</h3>
+      <p>Feeling a bit lost in the Guides section? No worries! Try getting some more background information on Kumu from the Overview section.</p>
+      <ul>
+        <li><a href="/overview/kumus-architecture.md"><i class="fa fa-arrow-circle-o-right"></i>Kumu's architecture</a></li>
+      </ul>
+      <ul>
+        <li><a href="/overview/user-interfaces.md"><i class="fa fa-arrow-circle-o-right"></i>User interfaces</a></li>
+      </ul>
+      <ul>
+        <li><a href="/overview/personal-and-organization-accounts.md"><i class="fa fa-arrow-circle-o-right"></i>Types of accounts</a></li>
+      </ul>
     </div>
   </div>
 </div>

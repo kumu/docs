@@ -31,7 +31,7 @@ The above will load the map with Jack and any other elements that are within 2 d
 
 This will load the map with Jack and any other elements that are within 2 degrees, as well as Company XYZ and any elements that are directly connected.
 
-You can use any [selector](/selector-reference.md) to set the focus of the map. For example, you could set the focus to show only influential people, out 2 degrees:
+You can use any [selector](/guides/selector-reference.md) to set the focus of the map. For example, you could set the focus to show only influential people, out 2 degrees:
 
 ```
 @settings {

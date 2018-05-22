@@ -55,7 +55,7 @@ For certain networks, it's not plausible to collect information via surveys and 
 
 ### Getting the data into Kumu
 
-You can get the data into Kumu in one of two ways: imports or populating by hand. For more information on imports, check out our [imports guide](/import.md). If you're creating your map by hand, [start here](../introduction.md).
+You can get the data into Kumu in one of two ways: imports or populating by hand. For more information on imports, check out our [imports guide](/guides/import.md). If you're creating your map by hand, [start here](/getting-started/first-steps.md#build-your-first-map).
 
 There are a few subtleties to how you structure your data for easiest use within Kumu. We've laid out some of those below:
 
@@ -66,7 +66,7 @@ Say you ask two questions on your survey: one that asks questions getting at the
 Sometimes you're looking to understand more than just how people are connected to each other. You may want to include organizations, projects, alma maters, and more. Simply differentiate these elements using the element type field and you can easily show and hide them as needed.
 
 **Don't forget about the power of clustering**<br />
-Clustering ([click here for the guide](/clustering.md)) makes it easy to turn field data stored in the profile of any element into a dynamic network. Storing data about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver if you don't already have connection data created.
+Clustering ([click here for the guide](/guides/clustering.md)) makes it easy to turn field data stored in the profile of any element into a dynamic network. Storing data about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver if you don't already have connection data created.
 
 
 ## Step 3: Running the metrics

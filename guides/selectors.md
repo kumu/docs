@@ -122,7 +122,7 @@ When working with numbers you can also use relative selectors:
 [employees>=20]
 ```
 
-Check out the [selector reference](/selector-reference.html)
+Check out the [selector reference](/guides/selector-reference.html)
 for the full list of available operators.
 
 ## Complex Selectors

@@ -2,7 +2,7 @@
 
 ### Can I share my maps with others?
 
-Of course! [Create an embed](../guides/embeds.md) to share your map via a link or [add a collaborator](../guides/collaboration.md) to your project.
+Of course! [Create an embed](/guides/share-and-embed.md) to share your map via a link or [add a collaborator](/overview/collaboration.md) to your project.
 
 
 ### Do you have high resolution screenshots available? Or a PDF?

@@ -15,7 +15,7 @@
 
 ## Overview
 * [Kumu's architecture](overview/kumus-architecture.md)
-* [User Interfaces](/overview/user-interfaces.md)
+* [User interfaces](/overview/user-interfaces.md)
   * [Dashboard](/overview/dashboard.md)
   * [Map editor](/overview/map-editor.md)
   * [View editors](overview/view-editors.md)

@@ -16,7 +16,7 @@ up developing our own license we call [The Kokua License](https://medium.com/@ry
 
 The license you use is up to you, but we hope many of you choose to share your projects generously with the community.
 
-Remember, by giving others access to your project on Kumu you [agree to let them fork](/forking.md) the project.
+Remember, by giving others access to your project on Kumu you [agree to let them fork](/guides/forking.md) the project.
 This does not grant any rights beyond creating the initial fork,
 so it's important to tell people what they can do with the content.
 

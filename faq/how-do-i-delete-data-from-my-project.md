@@ -10,7 +10,7 @@ Whether you want to import an entirely new dataset or just clear out some old el
 1. Press `delete` or `backspace` on your keyboard
 1. When Kumu asks if you're sure you want to delete those items, click **Ok**
 
-The data will disappear from your map, but it's not gone yet—it still exists in your [project's Trash](/overview/data-architecture.md#trash). To delete data from the Trash, follow these additional steps:
+The data will disappear from your map, but it's not gone yet—it still exists in your [project's Trash](/overview/kumus-architecture.md#trash). To delete data from the Trash, follow these additional steps:
 
 1. Click the menu icon <i class="fa fa-bars"></i> in the upper left corner to bring up the project menu
 1. Select <i class="icon-trash"></i> TRASH from the menu on the left
