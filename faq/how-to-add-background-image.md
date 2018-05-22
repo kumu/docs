@@ -1,6 +1,6 @@
 # How can I add a background image (e.g. map or logo) to my Kumu map?
 
-To add a background image to a map, you can use a snippet of code we prepared here for the [Advanced Editor](/overview/basic-vs-advanced-editor.html#advanced-editor). The following instructions assume you're adding a geo map, but they can be used for adding any background image.
+To add a background image to a map, you can use a snippet of code we prepared here for the [Advanced Editor](/overview/view-editors.md#advanced-editor). The following instructions assume you're adding a geo map, but they can be used for adding any background image.
 
 1. Create an element named "background".
 2. Add the following code to the Advanced Editor:

@@ -36,6 +36,6 @@ On this dashboard, you can see a list of projects owned by the organization, as 
 
 If you're an owner of the organization, you can scroll down on this dashboard to access your settings for branding, [tracking](/guides/tracking.md), billing, and your organization's profile.
 
-That's it for dashboards! Don't miss our guides on Kumu's other key interfaces, the [map editor](/overview/map-editor.md), [view editors](/overview/view-editor.md), and [settings menus](/overview/settings.md)
+That's it for dashboards! Don't miss our guides on Kumu's other key interfaces, the [map editor](/overview/map-editor.md), [view editors](/overview/view-editors.md), and [settings menus](/overview/settings.md)
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/dashboard.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

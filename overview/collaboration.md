@@ -52,7 +52,7 @@ Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-u
 
 ## Embeds
 
-Embeds make it easy to include an interactive, read-only version of your map on a blog or wesbite. Click the more button in the lower right corner of your map and then choose "embed map on another website". Learn more about embeds [here](/guides/sharing.html).
+Embeds make it easy to include an interactive, read-only version of your map on a blog or wesbite. Click the more button in the lower right corner of your map and then choose "embed map on another website". Learn more about embeds [here](/guides/share-and-embed.md).
 
 
 

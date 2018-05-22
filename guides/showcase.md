@@ -8,7 +8,7 @@ To quickly test out showcasing, simply hover your cursor over any element, conne
 ![showcase animation](../images/showcase-control.gif)
 </span>
 
-Showcase settings can be saved to a [View](/guides/view.md), and these settings can be fully customized in two ways: through the Basic Editor, and through the Advanced Editor.
+Showcase settings can be saved to a [view](/guides/views.md), and these settings can be fully customized in two ways: through the Basic Editor, and through the Advanced Editor.
 
 ## Customize showcase settings in the Basic Editor
 
