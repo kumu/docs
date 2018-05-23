@@ -7,9 +7,18 @@ and clustering.
 
 ![Image of a custom control](/images/custom-controls-intro.png)
 
-## Example
 
-Controls are currently in beta and can only be added through the [advanced editor](/overview/view-editors.md). Here's an example of what controls look like:
+## Add controls through the Basic Editor
+
+You can use the [Basic Editor](/overview/view-editors.md#basic-editor) to add a few simple types of controls to your map. Click the Settings icon <i class="fa fa-sliders"></i> to open the editor, then click **MORE OPTIONS** and select **Add custom control**. Kumu will open up the controls builder, with a few options pre-selected:
+
+![controls builder ui](/images/control-builder.png)
+
+Use the dropdown menus in the controls builder to set up your control, then, when you're done, click the back arrow <i class="fa fa-arrow-left"></i> to return to the main screen, and click **SAVE**.
+
+## Add controls through the Advanced Editor
+
+To unlock the full set of flexible controls features, you can use the [Advanced Editor](/overview/view-editors.md#advanced-editor). Here's an example of what controls look like in the Advanced Editor:
 
 ```
 @controls {

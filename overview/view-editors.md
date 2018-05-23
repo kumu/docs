@@ -6,7 +6,7 @@ The Basic Editor allows you to click through different menus to access many of K
 
 There are also some features of Kumu that can only be accessed through the Advanced Editor, but if you're unfamiliar with coding, we recommend starting with the Basic and switching to the Advanced as needed. The features that are exclusive to the Advanced Editor are thoroughly documented on this site, and if you ever need help writing some code, just reach out to the Kumu team!
 
-## Basic editor
+## Basic Editor
 
 To open the Basic Editor, open your map and click the Settings icon <i class="fa fa-sliders"></i> on the right side of the map.
 
