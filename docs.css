@@ -228,20 +228,42 @@ a.plugin-anchor span {
 
 /* property table */
 
-table.property-table {
+table.property-reference {
   width: 100%;
 }
 
-.property-table tr td {
+.property-reference tr td {
   width: 25%;
 }
 
-.property-table td:first-child {
+.property-reference td:first-child {
   text-align: left;
 }
 
-.property-table td {
+.property-reference td {
   text-align: center;
+}
+
+.property-reference code {
+  color: #333;
+}
+
+/* controls reference table */
+
+table.controls-reference {
+  width: 100%;
+}
+
+.controls-reference td:first-child {
+  text-align: left;
+}
+
+.controls-reference td {
+  text-align: center;
+}
+
+.controls-reference code {
+  color: #333;
 }
 
 /* borderless table */
@@ -252,6 +274,19 @@ table.property-table {
     border: none;
 }
 
+/* table search boxes */
+
+.search-box {
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: .85em;
+    border: none;
+    border-left: 2px solid #ccc;
+}
+
+.search-box:focus {
+    outline: none;
+}
 
 /* keystrokes */
 

@@ -38,6 +38,7 @@
   * [Color-legend control](guides/controls/color-legend-control.md)
   * [Image control](guides/controls/image-control.md)
   * [SNA-dashboard control](guides/controls/sna-dashboard-control.md)
+  * [Controls reference](/guides/controls/controls-reference.md)
 * [Default settings](guides/default-settings.md)
 * [Disciplines](#)
   * [SNA / Network Mapping](guides/sna-network-mapping.md)

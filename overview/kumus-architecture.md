@@ -178,7 +178,9 @@ For more info on how to build the basic structure of your map, check out our [fu
 
 ## Projects
 
-**Projects** are the top level of Kumu's architecture. Think of projects as a "buckets" that contain everything defined above: elements, connections, loops, fields, views, and maps. A project can remember specific positions for all of its elements, and it can remember the positions of any labels that represent loops.
+**Projects** are the top level of Kumu's architecture. Think of projects as a "buckets" that contain everything defined above: elements, connections, loops, fields, views, and maps.
+
+A project can remember specific positions for all of its elements, and it can remember the positions of any labels that represent loops.
 
 There's an important distinction to be made between a map and a project: the project contains the master list of elements, connections, and loops, and the map simply borrows a collection of data from that list. If you edit an element, connection, or loop while working on a map, you're not just editing the map—you're actually editing the project's master list.
 

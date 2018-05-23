@@ -15,27 +15,12 @@ All values are unitless.
 
 ## Catalog of Supported Properties
 
-The table below lists all of the properties recognized by Kumu. Hover over the information icon at the far right to see additional details and valid values for each property (when are multiple valid values, we've listed them as separate snippets of `inline code`). Scroll to the bottom for a list of available `@settings` properties.
+The table below lists all of the properties recognized by Kumu. Hover over the information icon <i class="fa fa-info-circle" data-placement="left" data-html="true" title="I ❤︎ information!"></i> at the far right of the table rows to see additional details and valid values for each property (when there are multiple valid values, we've listed them as separate snippets of `inline code`). Scroll to the bottom for a list of available `@settings` properties.
 
-<style>
 
-#search-box {
-    width: 100%;
-    padding: 5px 10px 5px 10px;
-    margin-bottom: .85em;
-    border: none;
-    border-left: 2px solid #ccc;
-}
+<input type="text" id="search-box" class="search-box" onkeyup="searchProperties()" placeholder="Type to filter...">
 
-#search-box:focus {
-    outline: none;
-}
-
-</style>
-
-<input type="text" id="search-box" onkeyup="searchProperties()" placeholder="Type to filter...">
-
-<table id="search-table" class="property-table table borderless">
+<table id="search-table" class="property-reference table borderless">
   <tbody><tr>
     <th class="text-left">Property</th>
     <th class="text-center">Elements</th>
@@ -213,7 +198,7 @@ Hidden objects will be fully removed from the map (see visibility).
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls general label font family.
-<br><code>'Helvetica Neue', sans-serif</code>
+<br><code>family-name</code><br><code>generic-family</code>
 "></i></td>
   </tr>
 
