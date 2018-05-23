@@ -249,7 +249,6 @@ all tags
   "color"
   "compact"
   "coords"
-  // "data-[a-z0-9-]+"
   "datetime"
   "dir"
   "disabled"
