@@ -4,7 +4,9 @@ While it's possible to [build controls using the Basic Editor](/guides/controls.
 
 There are two reference tables in this guide—the first lists properties for **static** controls (nothing happens when map readers click on these controls), and the second lists properties for **interactive** controls (map readers can interact with the map by clicking on these controls).
 
-Hover over the information icon <i class="fa fa-info-circle" data-placement="left" data-html="true" title="I ❤︎ information!"></i> at the far right of the table rows to see additional details and valid values for each property (when there are multiple valid values, we've listed them as separate snippets of `inline code`).
+Hover over the information icon <i class="fa fa-info-circle" data-placement="left" data-html="true" title="I ❤︎ information!"></i> at the far right of the table rows to see additional details and valid values for each property (when there are multiple valid values, we've listed them as separate snippets of `inline code`). All values are unitless.
+
+If you find a property or a value that's not documented here, [let us know](mailto:support@kumu.io)!
 
 [Jump to the reference for interactive controls](#interactive-controls).
 
@@ -460,3 +462,5 @@ function searchProperties(tableName) {
 }
 
 </script>
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/controls/controls-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

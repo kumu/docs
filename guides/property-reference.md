@@ -17,6 +17,8 @@ All values are unitless.
 
 The table below lists all of the properties recognized by Kumu. Hover over the information icon <i class="fa fa-info-circle" data-placement="left" data-html="true" title="I ❤︎ information!"></i> at the far right of the table rows to see additional details and valid values for each property (when there are multiple valid values, we've listed them as separate snippets of `inline code`). Scroll to the bottom for a list of available `@settings` properties.
 
+If you find a property or a value that's not documented here, [let us know](mailto:support@kumu.io)!
+
 
 <input type="text" id="search-box" class="search-box" onkeyup="searchProperties()" placeholder="Type to filter...">
 
