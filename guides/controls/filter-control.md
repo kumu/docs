@@ -55,6 +55,8 @@ Filter using custom [selectors](../selectors.html#selectors):
 * `except` allows you to remove field values from the available choices. Wrap the values you want to remove in quotes and separate multiple values by commas.
 * `only` is similar to except but allows you to explicitly define which field values should be included as available choices.
 
+[Check out our controls reference](/guides/controls/controls-reference.md) to see the full list of properties and values recognized by the filter control.
+
 **Supported children**
 
 If you don't supply a field to filter by, each option must be listed separately. The available options are defined by `option` blocks nested within the control. Each `option` supports the following properties:

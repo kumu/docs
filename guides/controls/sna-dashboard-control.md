@@ -38,6 +38,8 @@ Here are all the possible values you can use in the `metrics` property:
 - `average-degree`
 - `average-path-length`
 
+[Check out our controls reference](/guides/controls/controls-reference.md) to see the full list of properties and values recognized by the SNA-dashboard control.
+
 
 ## Available metrics
 

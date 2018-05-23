@@ -22,3 +22,5 @@ The image control can be used to overlay an image on top of your map. This is a 
 * `src` the url of the image to include (must be wrapped in quotes)
 * `width` override the width of the image (optional)
 * `height` override the height of the image (optional)
+
+[Check out our controls reference](/guides/controls/controls-reference.md) to see the full list of properties and values recognized by the image control.
