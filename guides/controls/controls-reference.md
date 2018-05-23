@@ -194,6 +194,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Any plain text string
   <br><code>string</code>
+  <br><br>Text controls recognize some inline HTML
   "</i></td>
     </tr>
     <tr>

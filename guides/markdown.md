@@ -141,7 +141,7 @@ Blue | White | Gray
 Green | Yellow | Red
 ```
 
-If you are using Markdown in the Description column of a [Kumu Import](https://docs.kumu.io/guides/import.html), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
+If you are using Markdown in the Description column of an [import](/guides/import.md), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
 
 ```
 <table><tr><th>One</th><th>Two</th><th>Three</th></tr><tr><td>Blue</td><td>White</td><td>Gray</td></tr><tr><td>Green</td><td>Yellow</td><td>Red</td></tr></table>
@@ -158,6 +158,145 @@ Looks like:
 ---
 
 <br />
-Now you know the basics of formatting with markdown. For more information, visit [Daring Fireball's markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax#precode).
+Now you know the basics of formatting with markdown! For more information, visit [Daring Fireball's markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax#precode).
+
+
+## Inline HTML
+
+Kumu's markdown editor also recognizes a limited amount of inline HTML. Here are the tags you can use in Kumu, anywhere that accepts markdown:
+```
+<a>
+<aside>
+<b>
+<blockquote>
+<br>
+<caption>
+<code>
+<del>
+<dd>
+<dfn>
+<div>
+<dl>
+<dt>
+<em>
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+<hr>
+<i>
+<img>
+<ins>
+<kbd>
+<li>
+<ol>
+<p>
+<pre>
+<q>
+<samp>
+<span>
+<strike>
+<strong>
+<sub>
+<sup>
+<table>
+<tbody>
+<td>
+<tfoot>
+<th>
+<thead>
+<tr>
+<tt>
+<ul>
+<var>
+```
+
+And here are the HTML attributes that use can use for each tag:
+
+```
+<a>
+  "href"
+
+<img>
+  "src"
+
+<div>
+  "itemscope"
+  "itemtype"
+
+all tags
+  "abbr"
+  "accept"
+  "accept-charset"
+  "accesskey"
+  "action"
+  "align"
+  "alt"
+  "axis"
+  "border"
+  "cellpadding"
+  "cellspacing"
+  "char"
+  "charoff"
+  "charset"
+  "checked"
+  "cite"
+  "clear"
+  "cols"
+  "colspan"
+  "color"
+  "compact"
+  "coords"
+  // "data-[a-z0-9-]+"
+  "datetime"
+  "dir"
+  "disabled"
+  "enctype"
+  "for"
+  "frame"
+  "headers"
+  "height"
+  "hreflang"
+  "hspace"
+  "ismap"
+  "label"
+  "lang"
+  "longdesc"
+  "maxlength"
+  "media"
+  "method"
+  "multiple"
+  "name"
+  "nohref"
+  "noshade"
+  "nowrap"
+  "prompt"
+  "readonly"
+  "rel"
+  "rev"
+  "rows"
+  "rowspan"
+  "rules"
+  "scope"
+  "selected"
+  "shape"
+  "size"
+  "span"
+  "start"
+  "summary"
+  "tabindex"
+  "target"
+  "title"
+  "type"
+  "usemap"
+  "valign"
+  "value"
+  "vspace"
+  "width"
+  "itemprop"
+```
+
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/markdown.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
