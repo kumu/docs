@@ -14,8 +14,8 @@
 * [FAQ](getting-started/faq.md)
 
 ## Overview
-* [Accounts and plans](overview/accounts-and-plans.md)
 * [Kumu's architecture](overview/kumus-architecture.md)
+* [Accounts and plans](overview/accounts-and-plans.md)
 * [User interfaces](/overview/user-interfaces.md)
   * [Dashboard](/overview/dashboard.md)
   * [Map editor](/overview/map-editor.md)
