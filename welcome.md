@@ -11,7 +11,7 @@ Looking to learn how to use Kumu? You're in the right place. We've broken up the
         <li><a href="#five-minute-quickstart"><i class="fa fa-arrow-circle-o-right"></i>Five-minute quickstart</a></li>
       </ul>
       <ul>
-        <li><a href="/getting-started/first-steps.md"><i class="fa fa-arrow-circle-o-right"></i>Building your first map</a></li>
+        <li><a href="/getting-started/first-steps.html"><i class="fa fa-arrow-circle-o-right"></i>Building your first map</a></li>
       </ul>
       <ul>
         <li><a href="/getting-started/faq.html"><i class="fa fa-arrow-circle-o-right"></i>Frequently asked questions</a></li>
@@ -26,13 +26,13 @@ Looking to learn how to use Kumu? You're in the right place. We've broken up the
     <h3>I'm ready to dive deeper</h3>
     <p>Once you've gotten the hang of Kumu, explore the Guides section.</p>
     <ul>
-      <li><a href="/guides/decorate.md"><i class="fa fa-arrow-circle-o-right"></i>Decorate</a></li>
+      <li><a href="/guides/decorate.html"><i class="fa fa-arrow-circle-o-right"></i>Decorate</a></li>
     </ul>
     <ul>
-      <li><a href="/guides/filter.md"><i class="fa fa-arrow-circle-o-right"></i>Filter</a></li>
+      <li><a href="/guides/filter.html"><i class="fa fa-arrow-circle-o-right"></i>Filter</a></li>
     </ul>
     <ul>
-      <li><a href="/guides/clustering.md"><i class="fa fa-arrow-circle-o-right"></i>Cluster</a></li>
+      <li><a href="/guides/clustering.html"><i class="fa fa-arrow-circle-o-right"></i>Cluster</a></li>
     </ul>
   </div>
     </div>
@@ -44,13 +44,13 @@ Looking to learn how to use Kumu? You're in the right place. We've broken up the
       <h3>I think I'm missing something...</h3>
       <p>Feeling a bit lost in the Guides section? No worries! Try getting some more background information on Kumu from the Overview section.</p>
       <ul>
-        <li><a href="/overview/kumus-architecture.md"><i class="fa fa-arrow-circle-o-right"></i>Kumu's architecture</a></li>
+        <li><a href="/overview/accounts-and-plans.html"><i class="fa fa-arrow-circle-o-right"></i>Types of accounts</a></li>
       </ul>
       <ul>
-        <li><a href="/overview/user-interfaces.md"><i class="fa fa-arrow-circle-o-right"></i>User interfaces</a></li>
+        <li><a href="/overview/kumus-architecture.html"><i class="fa fa-arrow-circle-o-right"></i>Kumu's architecture</a></li>
       </ul>
       <ul>
-        <li><a href="/overview/personal-and-organization-accounts.md"><i class="fa fa-arrow-circle-o-right"></i>Types of accounts</a></li>
+        <li><a href="/overview/user-interfaces.html"><i class="fa fa-arrow-circle-o-right"></i>User interfaces</a></li>
       </ul>
     </div>
   </div>
