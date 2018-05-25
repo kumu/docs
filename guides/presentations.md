@@ -2,10 +2,10 @@
 
 Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. Combine text, video, images and maps into a single, engaging presentation that anyone can access via URL.
 
-
 <iframe src="https://player.vimeo.com/video/118975099" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-## Creating a presentation
+
+## Create a presentation
 
 Presentations can be accessed through the main menu of your project.
 
@@ -32,16 +32,18 @@ Images slides are just like they sound. Include an image URL and we'll present i
 ### Embed slides
 Embed slides are for interactive web content and support embeds from over [300 different providers](http://embed.ly/providers). Just add the URL of the content you'd like to embed.
 
-## Publishing a presentation
+
+## Publish a presentation
 
 Once you're finished creating your presentation, click save and then exit the presentation builder. Click "publish" to publish the presentation and choose whether you'd like to make the presentation public (unless your project is public in which case your presentation is automatically public) or if you'd like to make it even more secure by adding a password.
 
-## Embedding a presentation
 
-Presentations can also be embedded just like any other Kumu embed. To do so, swap out the URL in the below example:
+## Embed a presentation
 
-```
-<iframe src="https://hiqol.kumu.io/hawaii-quality-of-life" width="940" height="600" frameborder="0"></iframe>
-```
+Presentations can also be embedded just like any other Kumu embed: as an `iframe` on a web page. To get your `iframe` embed code, just publish your presentation, and Kumu will generate the code for you automatically:
+
+![presentation embed code](/images/embed-presentation.png)
+
+Copy/paste the code onto your website, and you're visitors will see a fully interactive Kumu presentation!
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/presentations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

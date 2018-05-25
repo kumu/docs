@@ -12,9 +12,13 @@ When you're done adjusting the settings, click "Create embed / share link". Then
 
 You can also use the external link button (<i class="fa fa-external-link-square"></i>) to open the map link in a new tab.
 
-**Good to know:**
-- Anyone who has access to the the share link or the embedded version will be able to view the map, even if the project is private.
-- Shared/embedded maps won't reflect updates you have made to the style or content of the map. To reflect those updates, you need to create a new share/embed link.
+<p class="alert alert-warning">
+Anyone who has access to the the share link or the embedded version will be able to view the map, even if the project is private.
+</p>
+
+<p class="alert alert-warning">
+Shared/embedded maps won't reflect updates you have made to the style or content of the map. To reflect those updates, you need to create a new share/embed link.
+</p>
 
 ## Advanced Options for Embeds
 
@@ -41,6 +45,10 @@ Also, if you are using more than one custom parameter, join them together with `
 ```
 embed.kumu.io/abc123?zoom=0&settings=0
 ```
+
+## Embed a presentation
+
+In Kumu, you can create [presentations](/guides/presentations.md) to walk your readers through a map, step-by-step. You can also embed presentations on other websites—[check out the presentations guide](/guides/presentations.md#embed-a-presentation).
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/share-and-embed.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
