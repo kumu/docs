@@ -1,28 +1,50 @@
 # Collaborating and sharing
 
-Kumu makes it easy to collaborate with others and share your map – whether you're working in a public or private project. This page covers:
+Whether you're working in a public or private project, Kumu makes it easy to collaborate with others and share your work. This guide is a hub of information related to collaborating and sharing, including these topics:
 
-* [Inviting someone to edit your map](#inviting-someone-to-edit-your-map)
-* [Handling conflicts](#handling-conflicts-from-overlapping-edits)
-* [Public projects](#public-projects)
-* [Presentations](#presentations)
-* [Embeds](#embeds)
+* [Public vs. private projects](#public-vs-private-projects)
+* [Adding contributors](#add-a-contributor)
+* [Handling conflicting changes](#handle-conflicting-changes)
+* [Creating presentations](#create-a-presentation)
+* [Creating share/embed link](#create-a-shareembed-link)
 
-## Inviting someone to edit your map
+## Public vs. private projects
 
-### Adding members to personal accounts
-Personal projects only allow adding people as collaborators, which means they have view **and** edit access. To add a collaborator, first ask that person to sign up for a free Kumu account (if they haven't already) by visiting (https://kumu.io/join). Ask for their username and then go to the "members" section of your project via the menu in the upper left of your map. Enter their username and then click "add contributor".
+When you create a new project from your [Kumu dashboard](/overview/dashboard.md), you'll be prompted to choose whether it should be public or private, and the option you choose will affect how you can share your finished project.
 
-### Adding members to organization accounts
-Organization projects allow adding people with view, edit or admin access through teams. Read the [organizations](/guides/organizations.html) guide for more information.
+**Public projects** can be viewed by anyone who has the link, and they can be edited by you and anyone you [add as a contributor](#add-a-contributor). They are also indexed by search engines—that is, people can potentially find your project online if they search for the right keywords. Finally, public projects can be [forked](/guides/forking.md) by other Kumu users, allowing them to build upon your work and offer new insights.
 
-## Handling conflicts (from overlapping edits)
+Public projects are free, and you can create as many as you want, no matter what account you own or plan you're subscribed to.
 
-We've intentionally designed Kumu *not* to be realtime. When working with complex data it's distracting to have things changing constantly out of your control. Instead we only pull in changes when conflicts need to be merged. When you want to sync up with the rest of your team, just refresh the page.
+We love it when you share your work, but we know that it's sometimes necessary to keep it under wraps! For that purpose, we offer **private projects**. Private projects don't get indexed by search engines, and they can only be viewed by you and anyone you have added as a contributor. Private projects are a paid service—check out [our guide on accounts and plans](/overview/accounts-and-plans.md) to see a full list of pricing options.
 
-If you happen to edit the same part of the map at the same time (whether that's an element name, map description, view, or something else), we'll detect this and prompt you to review any conflicts.
+Both public and private projects can be shared using [presentations](#create-a-presentation) and [share/embed links](#create-a-shareembed-link), and private projects allow you to password-protect your presentations for an added layer of security.
 
-**Let's walk through a quick sample.** Say you and a teammate both happened to be mapping influential people in Silicon Valley one afternoon. You both click on Reid and decide that his bio needs a bit of sprucing up. You save your changes and SURPRISE! The below screen pops up to let you know that you're not the only one editing Reid's bio today.
+## Add a contributor
+
+#### Add a contributor to a personal project
+
+To add a contributor to a project owned by your personal account, you first need to make sure the contributor has their own Kumu account. If they don't have one yet, they can [sign up for free](https://kumu.io/join). Once they have signed up, you can [open your project settings](/overview/settings.md), click on **MEMBERS**, type in the contributor's Kumu username, and click "Add contributor".
+
+![add contributor](/images/add-collaborator.png)
+
+Anytime you add a contributor to a project (public or private) owned by your personal account, you are granting them view **and** edit access. However, they won't be able to add other contributors, change project privacy, or rename, transfer, or delete the project.
+
+
+#### Add a contributor to an organization project
+
+When you're adding a contributor to a project owned by an organization, there are a few more steps involved, but you'll be able to choose whether the contributor has view-only, edit, admin, or no access. For more information on how to add contributors to organization projects and manage their access, [check out the full guide on organizations](/guides/organizations.md).
+
+
+## Handle conflicting changes
+
+If you're editing your project, and somebody else is editing at the same time, their changes won't appear on your screen in real-time (and vice-versa). Instead of showing real-time changes, Kumu waits until you refresh the page to sync you up with your team and show you the most up-to-date version of your project.
+
+This was a design decision we made to encourage you to carefully plan who is working on which part of the project, and when. In the long run, this kind of planning helps reduce complexity—and when you're using Kumu to tackle a tough problem, reducing complexity is vital!
+
+If you happen to edit the same part of the map at the same time (whether that's an element name, map description, view, or something else), Kumu will detect this and prompt you to review any conflicts.
+
+**Let's walk through a quick example.** Say you and a teammate both happened to be mapping influential people in Silicon Valley one afternoon. You both click on Reid and decide that his bio needs a bit of sprucing up. You save your changes and SURPRISE! The below screen pops up to let you know that you're not the only one editing Reid's bio today.
 
 ![Conflicts Step 1](/images/merge-1.png)
 
@@ -38,21 +60,19 @@ If there are multiple conflicts, you'll be taken through each conflict one by on
 
 ![Conflicts Step 4](/images/merge-4.png)
 
-...you're all set. If only handling conflicts in the real world were this easy!
+...you're all set. If only handling conflicts in the real world was this easy!
 
-## Public projects
 
-Public projects allow you to easily share and build upon the work of the whole Kumu community. For more information, view the [project architecture guide](/guides/project-architecture.html).
+## Create a presentation
 
-## Presentations
-
-Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You'll find presentations by clicking the menu in the upper left of your map. Here's a quick guide to getting started:
+Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You can create a new presentation and edit existing presentations by clicking the menu icon <i class="fa fa-bars"></i> in the upper left of your map, then clicking **PRESENTATIONS**. For more info on the power of presentations, watch the video below, or [check out our full guide on presentations](/guides/presentations.md)
 
 <iframe src="https://player.vimeo.com/video/118975099" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-## Embeds
 
-Embeds make it easy to include an interactive, read-only version of your map on a blog or wesbite. Click the more button in the lower right corner of your map and then choose "embed map on another website". Learn more about embeds [here](/guides/share-and-embed.md).
+## Create a share/embed link
+
+Share/embed links make it easy to send somebody an interactive, read-only version of your map, or embed that version on a blog or website. To create a share/embed link, click the ellipsis **...** in the [bottom toolbar](/overview/map-editor.md#bottom-toolbar), then choose "Share / embed this map". For more information about share/embed links, including customizeable options, [check out the full guide](/guides/share-and-embed.md).
 
 
 

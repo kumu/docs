@@ -14,13 +14,13 @@
 * [FAQ](getting-started/faq.md)
 
 ## Overview
+* [Accounts and plans](overview/accounts-and-plans.md)
 * [Kumu's architecture](overview/kumus-architecture.md)
 * [User interfaces](/overview/user-interfaces.md)
   * [Dashboard](/overview/dashboard.md)
   * [Map editor](/overview/map-editor.md)
   * [View editors](overview/view-editors.md)
   * [Settings](overview/settings.md)
-* [Personal and organization accounts](overview/personal-and-organization-accounts.md)
 * [Collaborating and sharing](overview/collaboration.md)
 
 ## Guides
@@ -73,7 +73,6 @@
 * [Presentations](guides/presentations.md)
 * [Profiles](guides/profiles.md)
   * [Markdown](guides/markdown.md)
-* [Project architecture/organization](guides/project-architecture.md)
 * [Selectors](guides/selectors.md)
 * [Share and embed maps](guides/share-and-embed.md)
 * [Shortcuts](guides/shortcuts.md)

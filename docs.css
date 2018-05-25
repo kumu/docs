@@ -266,6 +266,20 @@ table.controls-reference {
   color: #333;
 }
 
+/* pricing plan table */
+
+table.plan-table {
+  width: 60%;
+}
+
+table.plan-table tr *:not(:first-child) {
+  text-align: right;
+}
+
+table.plan-table tr td:not(:first-child) {
+  font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+}
+
 /* borderless table */
 
 .borderless.table tr,
