@@ -98,6 +98,10 @@ To restore this backup in a brand new project, go to your Kumu dashboard and cli
 
 At the bottom of this screen, click the link that says `import .json blueprint`, then select the blueprint from your computer. Kumu will import the blueprint, fully restoring all data and project settings.
 
+<p class="alert alert-warning">
+Not seeing the <b>import .json blueprint</b> link on your screen? Make sure you're importing into a brand new project—it's not possible to import a blueprint into a project with existing maps, views, and other data.
+</p>
+
 
 ### Setting a remote blueprint
 
