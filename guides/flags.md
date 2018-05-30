@@ -2,7 +2,7 @@
 
 Flags are a decoration created specifically for multi-pick fields (fields like Tags that can hold more than one value). When you decorate elements with flags, Kumu draws colored arcs around the outside of those elements. Each flag represents one of the possible values in the multi-pick field.
 
-![Flags example](/images/flags-auto.png)
+![Flags example](/images/flags-with-filter.png)
 
 If you're using the **Color by** tool in the Basic Editor, and you select a multi-pick field, Kumu will automatically use flags to color code your elements.
 

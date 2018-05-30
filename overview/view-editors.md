@@ -35,13 +35,17 @@ Need more precise control over your sizes? Check out our guide on [refining your
 
 **Color by** allows you to color-code your elements based on any field. Simply select a field from the dropdown, and any elements that have data in that field will be colored!
 
-If you color by a multi-pick field like Tags, Kumu will color code your elements with flags—colored tick marks around the outside of your elements. Each tick mark represents one of the possible values in the multi-pick field.
+Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
 
-![Flags example](/images/flags-auto.png)
+![bujumbra color by](/images/color-by-element-type-bujumbra.png)
 
-Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Color by** dropdown to fine-tune your coloring options.
+The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](/guides/color-reference.md) to find a scale that will work for your data.
 
-The default color palette `neon2` can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](/guides/color-reference.md) to find a palette that will work for your data.
+If you color by a multi-pick field like Tags, Kumu will color code your elements with flags (colored arcs around the outside of your elements). Each flag represents one of the possible values in the multi-pick field.
+
+![Flags example](/images/flags-with-filter.png)
+
+To learn more about flags, [read the full guide](/guides/flags.md).
 
 Need more precise control over your colors? Check out our guide on [refining your decorations](/guides/decorate.md#refine-your-decorations).
 
