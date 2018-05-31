@@ -50,7 +50,9 @@ If you select multiple elements, connections, or loops, the side panel will show
 
 Finally, the side panel is also home to Kumu's Metrics tool. To learn more, check out the [full guide on metrics](/guides/metrics.md).
 
+You can show and hide the side panel by pressing `Tab` on your keyboard or by clicking the three gray dots to the right of the panel:
 
+![close side panel](/images/close-side-panel.png)
 
 
 
