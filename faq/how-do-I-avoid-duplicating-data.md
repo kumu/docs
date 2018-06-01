@@ -11,7 +11,7 @@ The rules are a bit different for elements and connections, so we'll tackle them
 
 #### Elements
 
-For the simplest possible element spreadsheet, which only contains a **Label** column, Kumu will create a new element for each unique label. Kumu would create three elements for this example:
+For the simplest possible element spreadsheet, which only contains a **Label** column, Kumu will create a new element for each unique label. Kumu would create three elements for this example (a list of famous surfing waves in Hawaii):
 
 | Label |
 | --- |
@@ -86,7 +86,7 @@ From | To
 Oahu | Waimea Bay
 Oahu | Waimea Bay
 
-Even if you add a Label and Type to a connection, Kumu will still have trouble recognizing and updating it's existing version on the map without creating a duplicate. Because of this, if you plan to update existing connections with future imports, you should add IDs for each connection:
+Even if you add a Label and Type to a connection, Kumu will still have trouble recognizing and updating its existing version on the map without creating a duplicate. Because of this, if you plan to update existing connections with future imports, you should add IDs for each connection:
 
 ID | From | To |
 --- | --- | ---
