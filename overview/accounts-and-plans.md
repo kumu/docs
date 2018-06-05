@@ -2,6 +2,7 @@
 
 There are two types of Kumu accounts that you can own: **personal** accounts and **organization** accounts. This guide will explain the differences between them—if you're not sure which is the right choice for you, you're in the right place!
 
+
 ## Personal accounts
 
 Personal accounts are a great fit for individuals working on their own projects, [collaborating](/overview/collaboration.md#add-a-contributor) with a few other people, or being invited to collaborate on someone else's project. Personal accounts are also a good option for teams of people that only have one designated Kumu expert, who builds and manages all of the Kumu projects for the team.
@@ -106,6 +107,18 @@ Just like personal accounts, organization accounts can be created for free, and 
     <td>0</td>
   </tr>
 </table>
+
+
+## Enterprise version
+
+The Enterprise version of Kumu is the right choice for teams that are working with highly sensitive data that should only be accessed through private servers, rather than through Kumu's cloud-based system. Enterprise versions are also a great option for teams that are legally required to store their data in a specific geographic location (Kumu's cloud-based system stores data across the world).
+
+Note that the Enterprise version is not an account or plan type, rather, it's a fully separate installation of Kumu. When you have an Enterprise version installed on your servers, you can create unlimited personal and organization accounts within that version, and each account can own unlimited private and public projects.
+
+Enterprise licensing starts at $79/user/month, billed annually, with a minimum of 5 seats—in other words, Enterprise starts at $4,740 annually. Additional seats can be purchased in packs of 5.
+
+To get started with a 45-day free trial of Enterprise, [fill our our short inquiry form](https://kumu.io/enterprise/purchase). If you need with installing, configuring, or upgrading your Enterprise version, [check out our full Enterprise guides](/enterprise/index.html).
+
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/accounts-and-plans.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
