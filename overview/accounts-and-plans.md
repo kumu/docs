@@ -117,7 +117,7 @@ Note that the Enterprise version is not an account or plan type, rather, it's a 
 
 Enterprise licensing starts at $79/user/month, billed annually, with a minimum of 5 seats—in other words, Enterprise starts at $4,740 annually. Additional seats can be purchased in packs of 5.
 
-To get started with a 45-day free trial of Enterprise, [fill our our short inquiry form](https://kumu.io/enterprise/purchase). If you need with installing, configuring, or upgrading your Enterprise version, [check out our full Enterprise guides](/enterprise/index.html).
+To get started with a 45-day free trial of Enterprise, [fill our our short inquiry form](https://kumu.io/enterprise/purchase). If you need with installing, configuring, or upgrading your Enterprise version, [check out our full Enterprise guides](/enterprise/).
 
 
 

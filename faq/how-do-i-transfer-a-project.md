@@ -5,7 +5,7 @@ Within Kumu you can either transfer a project to another user's personal account
 ### Transfer to a personal account
 
 * Load the project from your [dashboard](http://kumu.io/dashboard).
-* Click ["Project Settings"](overview/settings.html#project-settings) in the top left corner of the map.
+* Click ["Project Settings"](/overview/settings.html#project-settings) in the top left corner of the map.
 * Click "Members" and make sure that the person you'd like to transfer the project to has been added to the project as a [contributor](/faq/how-to-add-contributors.html).
 * Now, click "Admin."
 * Click the link to "Transfer project."
