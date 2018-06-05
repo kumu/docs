@@ -65,7 +65,7 @@ Looking to learn how to use Kumu? You're in the right place. We've broken up the
 
 If you run into any challenges, send us an email at [support@kumu.io](mailto:support@kumu.io) or join our [Slack group](http://chat.kumu.io) for even faster support.
 
-<a class="btn" href="/getting-started/overview.html">Ready to dive in? Read the getting started guide</a>
+<a class="btn" href="/getting-started/first-steps.html">Ready to dive in? Read the First Steps guide</a>
 
 <span class="quiet">These docs are a work in progress and will be continuously updated. Pull requests are welcome so if you would like to contribute, please <a href="https://github.com/kumu/docs">fork me on GitHub.</a></span>
 

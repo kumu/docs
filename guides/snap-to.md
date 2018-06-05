@@ -33,7 +33,7 @@ If you've already saved the positions by hitting `enter`, you can always change 
 
 To snap to circle, follow these steps:
 
-1. Select multiple elements by building a [selector](/selectors.md) using the search or by holding down `shift` and dragging a box over the elements
+1. Select multiple elements by building a [selector](/guides/selectors.md) using the search or by holding down `shift` and dragging a box over the elements
 2. Right click anywhere on the map and click "snap to" and then "snap to circle"
 3. Adjust the size of the circle by scrolling on your mouse or trackpad (optional)
 4. Group or sort the elements in the circle by right-clicking again on the map (optional)
@@ -43,7 +43,7 @@ To snap to circle, follow these steps:
 
 To snap to line, follow these steps:
 
-1. Select multiple elements by building a [selector](/selectors.md) using the search or by holding down `shift` and dragging a box over the elements
+1. Select multiple elements by building a [selector](/guides/selectors.md) using the search or by holding down `shift` and dragging a box over the elements
 2. Right click anywhere on the map and click "snap to" and then "snap to line"
 3. Adjust the spacing of the line by scrolling on your mouse or trackpad (optional)
 4. Group or sort the elements in the circle by right-clicking again on the map (optional)
