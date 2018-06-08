@@ -2,40 +2,38 @@
 
 This guide walks you through the basics of network analysis using Kumu. We'll walk through four parts:
 
-1. Creating a project
-1. Collecting the data
-1. Running the metrics
-1. Decorating your map
+1. [Collecting the data](#collect-the-data)
+1. [Getting the data into Kumu](#get-the-data-into-kumu)
+1. [Using Metrics to analyze your network](#use-metrics-to-analyze-your-network)
+1. [Helping others to understand your map](#help-others-understand-your-map)
 
 Looking for more background about network analysis before you get started? Check out [Social Network Analysis Made Easy](https://speakerdeck.com/jeffcmohr/social-network-analysis-made-easy):
 
 <script async class="speakerdeck-embed" data-id="5c286ba03f9b01327c755690da73e3c1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 
-## Step 1: Creating a project
+## Collect the data
 
-If you haven't already, sign up for a user account by visiting [http://kumu.io/join](http://kumu.io/join).
+Data can be collected with a survey, pulled from existing data sources, or populated from your own personal knowledge.
 
-Head to your [dashboard](http://kumu.io/dashboard) and click to create a new project. You can choose from either a public project (free) or a private project (starting at $9/month).
+#### Surveys
 
-## Step 2: Collecting the data
-
-Data can be collected via survey, pulled from existing data sources, or populated via personal knowledge.
-
-### Surveys
-
-Surveys ask participants both relational and demographic questions ([click here](http://www.surveymonkey.com/s.aspx?sm=JbeN1eq4AWhuxJjDhIgY7yWG9l5N4D%2fZ8bOLGMyAMcw%3d) for a sample survey done via SurveyMonkey). There are a number of both free and paid tools for survey analysis:
+Surveys ask participants both relational and demographic questions. There are a number of both free and paid tools for survey analysis:
 
 * [Google Forms](https://docs.google.com/forms) (Free)
 * [Survey Monkey](https://www.surveymonkey.com/) (Free & Paid)
 * [Survey Gizmo](https://www.surveygizmo.com) (Free & Paid)
 
-Spend time thinking deeply about the questions in your survey. Some common questions include:
+To see a sample survey done via SurveyMonkey, [click here](http://www.surveymonkey.com/s.aspx?sm=JbeN1eq4AWhuxJjDhIgY7yWG9l5N4D%2fZ8bOLGMyAMcw%3d).
 
+Spend time thinking deeply about the questions in your survey. You can ask open-ended questions:
 * Who do you work with?
 * Who do you turn to for new ideas?
 * Who do you turn to for advice?
+
+Or you can ask questions about specific individuals:
 * How does working with this person affect your energy levels?
+* How many times have you interacted with this person in the last 7 days?
 
 Each of the various relational questions get at a different kind of network. It may be a network of trust, idea sharing & innovation, collaboration, or any other relationships that are important. Here are the three questions from the sample survey:
 
@@ -43,96 +41,94 @@ Each of the various relational questions get at a different kind of network. It 
 * **Problem Solving Network** - At least twice in the last month, have you gone to this person for help with technical work-related problems?
 * **Support Network** - At least twice in the last year, have you gone to this person for help with a difficult situation at work?
 
-### Existing data
 
-Sometimes you'll already have access to the type of data needed to run a social network analysis. You might use email traffic, lists of "friends" or "followers" from a social network, information about board membership, or even data from your CRM platform. The key here is to be both creative and honest about what the data represents.
+#### Existing data sources
 
-For example, how helpful is the fact that someone is a "friend" of yours on LinkedIn? Have you ever accepted a connection to someone you didn't really know all that well? (We're definitely guilty of this)
+Sometimes you'll already have access to the type of data needed to run a social network analysis. You might use email traffic, lists of "friends" or "followers" from a social network, information about board membership, or even data from your CRM platform.
 
-### Personal knowledge
+The key here is to be both creative and honest about what the data represents. For example, how helpful is the fact that someone is a "friend" of yours on LinkedIn? Have you ever accepted a connection to someone you didn't really know all that well? (We're definitely guilty of this!)
 
-For certain networks, it's not plausible to collect information via surveys and you don't have data lying around. In those cases, it's often best to rely on personal knowledge of who knows who - sometimes even crowdsourcing this information by pulling together a group of people from the network and building out the links one by one.
+A rule to remember: when the data is easy to access or already collected, be thoughtful and intentional about what story you want to tell and which pieces of the data you want to visualize.
 
-### Getting the data into Kumu
 
-You can get the data into Kumu in one of two ways: imports or populating by hand. For more information on imports, check out our [imports guide](/guides/import.html). If you're creating your map by hand, [start here](/getting-started/first-steps.html#build-your-first-map).
+#### Personal knowledge
+
+For certain networks, it's not plausible to collect information via surveys, and you don't have data lying around. In those cases, it's often best to rely on personal knowledge of who knows whom—or even crowdsource this information by pulling together a team of people from the network and building out the links one by one.
+
+When you're taking this approach, your dataset will usually be smaller than that dataset you can get from a survey or an existing data source. That's okay! You can still use Kumu to create a great visualization, and if you plan to expand your data in the future, you can build a proof-of-concept map in Kumu that will be ready to grow along with your dataset.
+
+
+## Get the data into Kumu
+
+The first step, before you can get the data into Kumu, is to [sign up for an account](https://kumu.io/join) and [create a new project](https://kumu.io/new). If you're not sure which account type is right for you, check out our [full guide on accounts and plans](/overview/accounts-and-plans.html).
+
+Once you have your new project open, you can get the data into Kumu in one of two ways: **importing a spreadsheet** or **building by hand**. For more information on imports, [check out our imports guide](/guides/import.html). If you're building your map by hand, [check out our First Steps guide](/getting-started/first-steps.html#build-your-map-by-hand) for more guidance.
 
 There are a few subtleties to how you structure your data for easiest use within Kumu. We've laid out some of those below:
 
-**Use connection type to differentiate relationships among people**<br />
-Say you ask two questions on your survey: one that asks questions getting at the relationships that represent the *trust* network and another that probes for the relationships that represent the *innovation* network. When structuring your data, use "trust" or "innovation" as the connection type for the respective connections and you'll be able to quickly switch between the "trust" and "innovation" network using filters.
+##### Use connection type to differentiate relationships among people
+Say you ask two questions on your survey: one that asks questions getting at the relationships that represent the **trust** network and another that probes for the relationships that represent the **innovation** network. When structuring your data, use "trust" or "innovation" as the connection type for each connection, and you'll be able to quickly switch between the "trust" and "innovation" network in Kumu using [filters](/guides/filter.html).
 
-**Element types make two (or more) mode networks a cinch**<br />
-Sometimes you're looking to understand more than just how people are connected to each other. You may want to include organizations, projects, alma maters, and more. Simply differentiate these elements using the element type field and you can easily show and hide them as needed.
+##### Element types make two (or more) mode networks a cinch
+Sometimes you're looking to understand more than just how people are connected to each other. You may want to include organizations, projects, alma maters, and more. Simply differentiate these elements using the element type field and you can easily filter them as needed.
 
-**Don't forget about the power of clustering**<br />
-Clustering ([click here for the guide](/guides/clustering.html)) makes it easy to turn field data stored in the profile of any element into a dynamic network. Storing data about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver if you don't already have connection data created.
+##### Don't forget about the power of clustering!
+[Clustering](/guides/clustering.html)) makes it easy to turn information stored in the [profile](/guides/profiles.html) of any element into a dynamic network. Storing information about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver and value-add if you don't already have connection data created.
 
 
-## Step 3: Running the metrics
+## Use Metrics to analyze your network
 
-Metrics provide clues to who may be playing important (or not so important) roles across your network. You'll want to take the results of analysis based on metrics with a grain of salt as minor errors in data collection (or just missing data from someone not responding to a survey) can throw things off.
+Social network analysis metrics provide clues to tell you who may be playing important (or not so important) roles across your network. For example:
 
-But we'll assume you have somewhat complete data. In that case, here's the metrics that are available and a short description of each:
+- **Degree** counts the number of connections attached to each element. Useful for identifying hubs in your network or for predicting single points of failure.
+- **Betweenness** tells you how many times a given element is the bridge (or bottleneck) between other elements in the network.
+- **Closeness** tells you how close one element is to all other elements in the network. Useful for identifying which elements can quickly spread good (or bad) information or effects.
 
-### Degree
+![metrics tool](/images/metrics-degree.png)
 
-**MEASURES** The number of connections for a given element
+To learn how to calculate these metrics and more in Kumu, check out our [full guide on metrics](/guides/metrics.html).
 
-**IDENTIFIES** Local connectors and hubs
 
-**BEWARE** Not always the most influential or connected to the wider network
+## Help others understand your map
 
-### Closeness centrality
+At this point, you should have a basic network visualization in Kumu, with valuable information (including metrics) stored in the profiles of each item on the map. Now, it's time to use a few of Kumu's most powerful tools to help other people understand your map.
 
-**MEASURES** The distance from one element to all other elements
+#### Untangle the "hairball"
 
-**IDENTIFIES** Those with high visibility about what’s happening across the network
+Often, when you visualize a complex network, it looks like a "hairball"—a tangled-up mess of data that isn't very insightful, like this map:
 
-**BEWARE** These people can quickly spread information (good or bad) across the network
+![hairball](/images/hairball.png)
 
-### Betweenness centrality
+If you have this problem, you can use Kumu's layout settings to spread the map out a bit. Here's what the map looks like after applying the "hairball" layout setting:
 
-**MEASURES** The number of times an element lies on the shortest path between two other elements
+![hairball layout preset](/images/layout-preset-hairball.png)
 
-**IDENTIFIES** Key bridges and those who control the flow of information across a network
+It's much less dense, and when you zoom in, it's much more readable! To learn how to change layout settings on your map, [check out our guide on default settings](/guides/default-settings.html).
 
-**BEWARE** These people may be bottlenecks or single points of failure
+If your network looks like a hairball, you can also use Kumu's **focus** feature to focus on smaller pieces of the network, expanding and contracting your focus with the click of a button. To learn more about focus, [check out the full guide](/guides/focus.html).
 
-### Other metrics
-You also have access to the following metrics (not seeing your favorite? [let us know](mailto:jeff@kumu.io)):
+#### Decorate your map
 
-* **Indegree** - Indegree measures the number of incoming connections for an element. In general, elements with high indegree are the leaders, looked to by others as a source of advice, expertise, or information.
-* **Outdegree** - Outdegree measures the number of outgoing connections for an element. In general, elements with high outdegree can reach a high number of elements and spark the flow of information across a network (but may not be the most efficient at spreading the information).
-* **Reach (two-step out)** - Reach measures the portion of the network within two steps of an element. In general, elements with high reach can spread information through the network through close friend-of-a-friend contacts.
-* **Reach efficiency** - Reach efficiency normalizes reach by dividing it by size (number of neighbors). In general, elements with high reach efficiency are less connected but gain more exposure through each direct relationship.
-
-Note: Kumu now has support for [weighted metrics](http://blog.kumu.io/weighted-sna-metrics/) as well.
-
-### Calculating and saving metric values
-
-Click the blocks icon (<i class="fa fa-cube"></i>) in the bottom toolbar and choose "social network Analysis". You'll see the sidebar change and a dropdown to choose the metric you'd like to run. Select the metric and then click the button to run the metric. Once complete, you'll see an ordered listing of the elements based on the metric values. The respective value will also be saved to the profile of each element.
-
-### Saving multiple versions of a single metric
-
-By default, all metrics are saved to the name of the metric (betweenness calculations are saved to the "betweenness" field). Each time you run the metric the previous values are overwritten. If you'd like to keep the previous values, rename the field (maybe it's "2014 betweeness" or "betweeness before") before you run the metric again so that future saves don't overwrite the values.
-
-## Step 4: Decorating your map
-
-You can decorate your map based on the metrics or any other data you've imported to Kumu. We often see people using a mixture of both metric and qualitative data to size and decorate the map. Here's an example using colors to differentiate by sector (Higher Education, NGO, Consulting, etc.) and size to differentiate by betweenness centrality:
+In Kumu, decorations are one of the best ways to guide your readers through your map. Most people use decorations to change the size and color of elements and connections based on the information their profiles—for example, this map of companies and their relationships uses colors to indicate industry (Higher Education, NGO, Consulting, etc.) and size to represent the betweenness metric:
 
 ![Innovation Lab Network](/images/innovation-lab.png)
 
-First, make sure you've run whatever metric you'd like to use for sizing or coloring. Then click the settings button on the right side of the map and choose "decorate". Click "add element rule" and then use the top dropdown to specify "all elements". You'll see a checkbox to "Change size" and then choose to "Scale elements based on field values." Choose your metric of choice or "metrics::last" to always size by the last metric that was run (this is helpful especially in the early analysis of a map).
+But that's just the tip of the iceberg! To learn how to do this and more with decorations, [check out the full guide](/guides/decorate.html).
 
-![Decoration Builder](/images/metrics-scale.png)
+#### Share your map
 
-For decorations based on qualitative fields, check out the guide on [views](/guides/views.html).
+Sharing your map can be as simple as sending a [shareable link](/guides/share-and-embed.html) to your readers, but there's no guarantee that they'll be familiar with network maps, let alone how to read and draw insight from one. Depending on your audience, you might want to use **map overviews** or **presentations** to add the right amount of additional context and reading instructions.
 
-### Looking to add or remove connection arrows?
+Map overviews can be added to the [side panel of the map editor](/overview/map-editor.html#side-panel), and they're a great tool when you need to provide just a few paragraphs of information, or perhaps an embedded video.
 
-By default, Kumu will import your connections as directed but won't display the arrow. To turn the arrow on, select all the connections by hitting the **a** keystroke, click the direction button (<i class="fa fa-random"></i>) in the lower right of the selection profile and then choose "directed." Connections can be directed, undirected, or mutual (arrows both ways). You also use this button to switch directions for a given directed connection.
+![map overview with video](/images/map-overview-with-video.png)
 
-**Still have questions?** Send an email to [support@kumu.io](mailto:support@kumu.io).
+If you have a lot of information to give to your readers, or many different views of your map that you want them to see, try [creating a presentation](/guides/presentations.html). Presentations in Kumu can seamlessly walk readers through different sections or views of your network, slide by slide.
+
+<iframe src="https://player.vimeo.com/video/118975099" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<br>
+For more information on sharing Kumu maps or collaborating with others, [check out the full guide](/overview/collaboration.html).
+
+Still have questions? Don't hesitate to [ask for help](/about/where-can-i-get-help.html)!
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/sna-network-mapping.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

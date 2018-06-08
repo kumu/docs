@@ -1,6 +1,8 @@
 # Metrics
 Kumu has a powerful metrics engine which includes a number of popular social network analysis (SNA) metrics as well as community detection and other helpful calculations.
 
+![metrics tool](/images/metrics-degree.png)
+
 ## How to run basic metrics
 1. Click on the Blocks icon <i class="fa fa-cube"></i> in the bottom right of the map
 2. Select "Social Network Analysis"
