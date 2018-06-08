@@ -36,7 +36,7 @@ You can use the decoration builders to add many different kinds of items to your
 
 For a full list of legend icons you can add, [jump to the legend reference](#legend-reference).
 
-The legend entries added from the decoration builder will be listed in the Basic Editor among other existing decorations. Decorations that are labelled with bold text are the ones that appear in your legend, and you can click the pencil icon <i class="fa fa-pencil"></i> next to any decoration to edit the rule and its legend label
+The legend entries added from the decoration builder will be listed in the Basic Editor among other existing decorations. Decorations that are labelled with bold text are the ones that appear in your legend, and you can click the pencil icon <i class="fa fa-pencil"></i> next to a decoration to edit it and its legend label. Or, click the <span style="color: darkred; font-weight: 700;">x</span> to delete a decoration and its legend label.
 
 ![Existing decorations for network map](/images/existing-decorations-scale.png)
 
