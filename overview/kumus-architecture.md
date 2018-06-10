@@ -202,7 +202,7 @@ You create new projects and see all your existing projects on your [dashboard](/
 
 Last but not least, Kumu's architecture includes the **trash**.
 
-The trash is a list of all the elements, connections, and loops that, once upon a time, were the the lifeblood of your system map, the all-powerful hubs of your network map, the social-media-savvy influencers of your stakeholder map...until you realized that they were totally inaccurate, imprecise, useless, typos (_\*gasp\*_), or duplicates (_\*shudder\*_), and deleted them using the [little trash can icon](/overview/map-editor.html#side-panel) <i class="fa fa-trash">  </i>.
+The trash is a list of all the elements, connections, and loops that, once upon a time, were the the lifeblood of your system map, the all-powerful hubs of your network map, the social-media-savvy influencers of your stakeholder map...until you realized that the data was totally inaccurate, imprecise, full of typos (_\*gasp\*_), or duplicated (_\*shudder\*_), and deleted it using the [little trash can icon](/overview/map-editor.html#side-panel) <i class="fa fa-trash">  </i>.
 
 All prose aside, the trash is where your project stores the items that have been deleted from every single map. From time to time, you may want to [follow this guide](/faq/how-do-i-delete-data-from-my-project.html) to empty it out!
 
