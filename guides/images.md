@@ -35,7 +35,7 @@ Are you using image URLs and not seeing images on the map? Here are a few steps 
 With decorations, you can create rules that add the same image to multiple elements. To do this, [open the element decoration builder](/guides/decorate.html#refine-your-decorations), select which elements the rule will apply to, and check the box next to "Add image". You'll be prompted to add an image URL or upload an image from your computer, and your image will be added to the selected elements.
 
 
-# Add a background image
+## Add a background image
 
 To add a background image to a map, you can use a snippet of code in the [Advanced Editor](/overview/view-editors.md#advanced-editor). The following instructions will help you add an image of a world map, but they can be adapted to add any background image.
 
