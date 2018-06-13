@@ -1,6 +1,8 @@
 # Accounts and plans
 
-There are two types of Kumu accounts that you can own: **personal** accounts and **organization** accounts. This guide will explain the differences between them—if you're not sure which is the right choice for you, you're in the right place!
+There are two types of Kumu accounts that you can own: **personal** accounts and **organization** accounts. You can also get the **enterprise** version of Kumu, which is not just an account or plan—rather, it's a fully separate installation of Kumu on your own private servers.
+
+This guide will explain the differences between these three options—if you're not sure which is the right choice for you, you're in the right place!
 
 
 ## Personal accounts
@@ -113,7 +115,7 @@ Just like personal accounts, organization accounts can be created for free, and 
 
 The Enterprise version of Kumu is the right choice for teams that are working with highly sensitive data that should only be accessed through private servers, rather than through Kumu's cloud-based system. Enterprise versions are also a great option for teams that are legally required to store their data in a specific geographic location (Kumu's cloud-based system stores data across the world).
 
-Note that the Enterprise version is not an account or plan type, rather, it's a fully separate installation of Kumu. When you have an Enterprise version installed on your servers, you can create unlimited personal and organization accounts within that version, and each account can own unlimited private and public projects.
+Note that the Enterprise version is not an account or plan, rather, it's a fully separate installation of Kumu. When you have an Enterprise version installed on your servers, you can create unlimited personal and organization accounts within that version, and each account can own unlimited private and public projects.
 
 Enterprise licensing starts at $79/user/month, billed annually, with a minimum of 5 seats—in other words, Enterprise starts at $4,740 annually. Additional seats can be purchased in packs of 5.
 
