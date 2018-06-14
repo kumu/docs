@@ -4,7 +4,7 @@ Organizations allow multiple users to manage and contribute to a shared account.
 
 ## Creating an organization
 
-Go to your [dashboard](/overview/dashboard.md), then navigate to the **Organizations** tab and click the **New Organization** button.
+Go to your personal [dashboard](/overview/dashboard.md), then navigate to the **Organizations** tab and click the **New Organization** button.
 
 ## Adding users to an organization
 
