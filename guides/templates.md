@@ -14,7 +14,7 @@ Templates provide an easy way to have a great looking map right from the start. 
 - [Stakeholder template](#stakeholder-template)
 - [SNA (Social Network Analysis) Template](#sna-social-network-analysis-template)
 - [Custom template](#custom-template)
-- [Geo template](/guides/templates/geo-template.html)
+- [Geo template](/guides/templates/geo.html)
 
 ## System Template
 <iframe src="//player.vimeo.com/video/120851694" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

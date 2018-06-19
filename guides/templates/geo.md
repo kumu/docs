@@ -47,4 +47,4 @@ Note that your location field should be wrapped in two curly braces if you are s
 - Screenshots and PDFs are not currently supported for geo.
 - Decorations for geo maps are still in beta. By default, you’re limited to squares and straight lines, but if you want to test out the full range of decorations (circles, borders, curved lines, flags, etc.), add `renderer: canvas;` to your `@settings` block.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/templates/geo-template.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/templates/geo.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
