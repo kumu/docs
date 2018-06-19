@@ -28,7 +28,7 @@ Work through the next couple of screens to name your project, decide whether it 
 
 
 
-## Picking a template<a id="picking-a-template-permalink"></a>
+## Picking a template
 
 After creating a new project in Kumu, your next step is to pick which template you want to use for your first map:
 
@@ -45,7 +45,7 @@ Not sure which one you need? [Check out our full guide on templates](/guides/tem
 
 
 
-## Build your first map<a id="building-your-first-map-permalink"></a>
+## Build your first map
 
 Once you've chosen a template, you'll land on this screen:
 
@@ -82,7 +82,7 @@ Try clicking on the first option, **Add element**, to create a new element. Kumu
 Add a few more elements, then try selecting **Add connection** from that menu to connect your elements. Once you have a few connections, you can select **Add loop** to create a group of connections.
 
 <p class="alert alert-info">
-  Tip: Speed up this process by using keyboard shortcuts! Press <code>E</code> to add an element, <code>C</code> to add a connection, and <code>L</code> to add a loop.
+  Tip: Speed up this process by using keyboard shortcuts! Press <code>E</code> to add an element, <code>C</code> to add a connection, and <code>L</code> to add a loop. Or, hold <code>alt</code> on your keyboard, the click the map to add an element. Hold <code>alt</code> and click-and-drag from an element to create a connection.
 </p>
 
 
@@ -97,7 +97,7 @@ Quickly enter sketch mode by pressing <code>K</code> on your keyboard, and press
 </p>
 
 
-## Decorate elements and connections<a id="decorations-permalink"></a>
+## Decorate elements and connections
 
 Once you have built part of your map, it's the perfect time to learn how to use decorations to bring the data to life. It's possible to [change the color or size of individual elements and connections](/faq/how-do-i-decorate-a-single-element-or-connection.md), but it's much faster and more scaleable to create decoration rules based on the  information stored inside your elements and connections.
 
@@ -128,7 +128,7 @@ When you're ready to add more customized, detailed decorations, take a look at o
 
 
 
-## Refine your view<a id="hiding-elements-connections-permalink"></a>
+## Refine your view
 
 Great work so far—you've created a project, started building your first map, and even added decorations to liven things up. But as you expand your map with more data, you will probably want to view different slices of the data at different times, so you can tell a story without overwhelming your map readers.
 
@@ -199,7 +199,7 @@ Just click **Add rule** to cluster by any of the information inside your element
 
 
 
-## Add a contributor<a id="adding-a-collaborator-permalink">
+## Add a contributor
 
 Building maps in Kumu can be a lot of work! Allowing somebody else to contribute to your project is a great way to reach your final destination more quickly. Even if your project is small and manageable, it's a good idea to let someone else weigh in on your data and design to make sure your story gets told effectively.
 
