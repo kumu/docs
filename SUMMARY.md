@@ -80,6 +80,7 @@
 * [Snap-to](guides/snap-to.md)
 * [Table](guides/table.md)
 * [Templates](guides/templates.md)
+  * [Geo template](/guides/templates/geo-template.md)
 * [Tracking](guides/tracking.md)
 * [Widgets](guides/widgets.md)
 
