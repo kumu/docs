@@ -4,7 +4,7 @@ Organizations allow multiple users to manage and contribute to a shared account.
 
 ## Creating an organization
 
-Go to your personal [dashboard](/overview/dashboard.md), then navigate to the **Organizations** tab and click the **New Organization** button.
+Go to your personal [dashboard](/overview/dashboard.html), then navigate to the **Organizations** tab and click the **New Organization** button.
 
 ## Adding users to an organization
 
@@ -28,5 +28,15 @@ Once you've created teams, click on the project and grant access to each team by
 If you would like to convert your personal account to an organization account, please email [support@kumu.io](mailto:support@kumu.io).
 
 If you would like to transfer a project to an organization account, [see more info here](/faq/how-do-i-transfer-a-project.html).
+
+
+## Branding
+
+When you sign up for an organization account, you can tweak Kumu's branding to be more aligned with your organization's brand. Currently, you can:
+
+- Upload a logo to use on the project loading screen
+- Upload a logo to use as a watermark on [embedded maps](/guides/share-and-embed.html)
+
+To manage your branding settings, go to your [organization's dashboard](/overview/dashboard.html#organization-dashboard) and scroll down to the **Branding** section.
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/organizations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

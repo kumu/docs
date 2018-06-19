@@ -4,6 +4,8 @@ Your Kumu dashboard is where the fun begins! After you [sign up for an account](
 
 ![dashboard](/images/dashboard.png)
 
+When you're logged in, you can always find your dashboard at [https://kumu.io/dashboard](https://kumu.io/dashboard).
+
 In the top left corner of your dashboard, you'll see a few helpful links:
 
 - [Kumu](https://kumu.io/) links to Kumu's homepage
@@ -34,7 +36,15 @@ When you belong to an [organization](/guides/organizations.md) in Kumu, you can 
 
 On this dashboard, you can see a list of projects owned by the organization, as well as a list of organization members and teams. For more information about adding members and creating teams, check out the [full guide on organizations](/guides/organizations.md).
 
-If you're an owner of the organization, you can scroll down on this dashboard to access your settings for branding, [tracking](/guides/tracking.md), billing, and your organization's profile.
+Although your personal dashboard is always accessible from [the same link](https://kumu.io/dashboard), the link to your organization's dashboard depends on the organization's username. It follows this pattern:
+
+```
+https://kumu.io/organizations/ORG-USERNAME/settings
+```
+
+Replace `ORG-USERNAME` with your organization's username to get a link to your dashboard.
+
+If you're an owner of the organization, you can scroll down on this dashboard to access your settings for [branding](/guides/organizations.html#branding), [tracking](/guides/tracking.md), billing, and your organization's profile.
 
 That's it for dashboards! Don't miss our guides on Kumu's other key interfaces, the [map editor](/overview/map-editor.md), [view editors](/overview/view-editors.md), and [settings menus](/overview/settings.md)
 

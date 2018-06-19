@@ -5,28 +5,28 @@ Adding a legend to your map is an important step to make sure your readers can e
 
 ## Add legend entries through the Basic Editor
 
-There are two ways to create your legend from the [Basic Editor](/overview/view-editors.md#basic-editor).
+There are two ways to create your legend from the [Basic Editor](/overview/view-editors.html#basic-editor).
 1. Using the **Color by**
-1. Using the [decoration builders](/guides/decorate.md#refine-your-decorations)
+1. Using the [decoration builders](/guides/decorate.html#refine-your-decorations)
 
 **Color by** is a great way to get a legend up and running quickly, and the decoration builders are useful when your legend needs to be a bit more customized. Read on to learn more about both options.
 
 #### Use the Color by tool to create a legend
 
-When you use the [Color by](/guides/decorate.md#color-by) tool in the Basic Editor, Kumu will automatically create your color legend, adding an item for each possible value in the field you're coloring by. For example, this map is colored by Element Type using the `bujumbra` scale:
+When you use the [Color by](/guides/decorate.html#color-by) tool in the Basic Editor, Kumu will automatically create your color legend, adding an item for each possible value in the field you're coloring by. For example, this map is colored by Element Type using the `bujumbra` scale:
 
 ![bujumbra color by](/images/legend-color-by-closeup.png)
 
-This automatic legend feature also works when you're using **Color by** to add [flags](/guides/flags.md).
+This automatic legend feature also works when you're using **Color by** to add [flags](/guides/flags.html).
 
-Note that the **Color by** tool will stop adding legend entries after it runs out of colors in its default color palette (seven colors). To make sure all your field values get included in the legend, you might need to click the expand icon <i class="fa fa-angle-down"></i> and choose a [larger color palette](/guides/color-reference.md). If the **Color by** tool is including some unwanted field values in your legend, try  [deleting the unwanted values](/guides/fields.md#deleting-field-values).
+Note that the **Color by** tool will stop adding legend entries after it runs out of colors in its default color palette (seven colors). To make sure all your field values get included in the legend, you might need to click the expand icon <i class="fa fa-angle-down"></i> and choose a [larger color palette](/guides/color-reference.html). If the **Color by** tool is including some unwanted field values in your legend, try  [deleting the unwanted values](/guides/fields.html#deleting-field-values).
 
 One more caveat about **Color by**: when you're using this tool, it's not possible to remove, replace, or edit individual colors from the color palette. To fully customize the colors in the palette, you can follow the guide to [define your own palette](/guides/color-reference.html#defining-your-own-color-palette). Alternatively, you can read through the next section in this guide to learn how to create a custom legend without using the **Color by** tool.
 
 
 #### Use the decoration builders to add legend entries
 
-To add custom colors and icons to your legend, use the [element and connection decoration builders](/guides/decorate.md#refine-your-decorations). Once you build out your decoration rule, fill in the "Label for Legend" box at the bottom of the decoration builder, and Kumu will add your decoration to the legend.
+To add custom colors and icons to your legend, use the [element and connection decoration builders](/guides/decorate.html#refine-your-decorations). Once you build out your decoration rule, fill in the "Label for Legend" box at the bottom of the decoration builder, and Kumu will add your decoration to the legend.
 
 ![label for legend box](/images/decoration-builder-legend-label.png)
 
@@ -36,13 +36,23 @@ You can use the decoration builders to add many different kinds of items to your
 
 For a full list of legend icons you can add, [jump to the legend reference](#legend-reference).
 
-The legend entries added from the decoration builder will be listed in the Basic Editor among other existing decorations. Decorations that are labelled with bold text are the ones that appear in your legend, and you can click the pencil icon <i class="fa fa-pencil"></i> next to a decoration to edit it and its legend label. Or, click the <span style="color: darkred; font-weight: 700;">x</span> to delete a decoration and its legend label.
+The legend entries added from the decoration builder will be listed in the Basic Editor among other existing decorations. Decorations that are labelled with bold text are the ones that appear in your legend, and you can click the pencil icon <i class="fa fa-pencil"></i> next to a decoration to edit it and its legend label.
 
 ![Existing decorations for network map](/images/existing-decorations-scale.png)
 
+#### Removing legend entries
+
+Legend entries added using the **Color by** tool can only be removed by [defining your own color palette](/guides/color-reference.html#defining-your-own-color-palette) or [deleting the field values](/guides/fields.html#deleting-field-values) that you don't want to see.
+
+If you used the decoration builder to add a legend entry, you can go to the existing decorations section, click the pencil icon <i class="fa fa-pencil">  </i> next to the decoration, and clear out the Label for Legend box. This will remove the legend item, but keep the decoration—if you'd rather delete both, you can click the delete icon <i class="fa fa-remove" style="color: darkred;">  </i> in the existing decorations section.
+
+Some legend entries get added automatically when you apply different [templates](/guides/templates.html). Here's how to delete those entries:
+- **Person** and **Organization** entries (stakeholder template): follow the guide to [delete field values](/guides/fields.html#deleting-field-values).
+- **Opposite** entry (system template): Open your [default settings](/guides/default-settings.html), and, in the **Template settings** section, clear out the "Opposite connection label" box and click **SAVE** at the bottom.
+
 ## Add legend entries through the Advanced Editor
 
-If you're working on decorations in the [Advanced Editor](/overview/view-editors.md#advanced-editor), you can add a comment above a decoration to tell Kumu that it should be included in the legend. The syntax is:
+If you're working on decorations in the [Advanced Editor](/overview/view-editors.html#advanced-editor), you can add a comment above a decoration to tell Kumu that it should be included in the legend. The syntax is:
 
 ```
 /* entry-type: Entry Label */
@@ -71,7 +81,7 @@ For a full list of legend icons and how to use them from the Advanced Editor, [j
 
 <!-- ### Use controls to add a legend
 
-[Controls](/guides/controls.md) in Kumu
+[Controls](/guides/controls.html) in Kumu
 
 You can even combine color-legend controls with the standard legend
 
