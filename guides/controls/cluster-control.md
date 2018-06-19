@@ -33,8 +33,8 @@ Cluster using custom [selectors](../selectors.html#selectors):
       }
 
       option {
-        value: person by "Geographic focus";
-        label: "Geography";
+        value: person by "Country";
+        label: "Country";
       }
 
       option {
