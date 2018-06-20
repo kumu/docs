@@ -23,12 +23,12 @@ Building your map by hand is a great choice for most system maps. If your map wi
 
 There are two ways to build a map by hand:
 
-1. The green **+** button
+1. The green <i class="fa fa-plus"></i> button
 1. Sketch mode
 
-#### The green + button
+#### The green <i class="fa fa-plus"></i> button
 
-Click on the green **+** button at the bottom of the map, and you'll see several options:
+Click on the green <i class="fa fa-plus"></i> button at the bottom of the map, and you'll see several options:
 * Add element
 * Add connection
 * Add loop
@@ -55,7 +55,7 @@ To move an entire loop (including all of its connections), hold down the `alt` k
 
 #### Sketch mode
 
-If you're building a system map by hand, you should definitely give sketch mode a try! Click the green **+** button and select **Sketch** to activated sketch mode.
+If you're building a system map by hand, you should definitely give sketch mode a try! Click the green <i class="fa fa-plus"></i> button and select **Sketch** to activated sketch mode.
 
 Once sketch mode is activated, you can add an element by clicking anywhere on the map, and you can add a connection by clicking and dragging from an existing element.
 

@@ -58,7 +58,7 @@ You can show and hide the side panel by pressing `Tab` on your keyboard or by cl
 
 ## Canvas
 
-The star of the show, of course, is the map's canvas, where all of your elements, connections, and loops are displayed. To add new items to the map, click the green **+** button at the bottom of the canvas. For more guidance on building your map, [check out our First Steps guide](/getting-started/first-steps.md#build-your-first-map).
+The star of the show, of course, is the map's canvas, where all of your elements, connections, and loops are displayed. To add new items to the map, click the green <i class="fa fa-plus"></i> button at the bottom of the canvas. For more guidance on building your map, [check out our First Steps guide](/getting-started/first-steps.md#build-your-first-map).
 
 By default, your canvas will have a search bar in the upper left, a zoom toolbar in the upper right, and a settings icon <i class="fa fa-sliders">  </i> under the zoom toolbar. If you have added a [legend](/guides/legends.md) to your map, it will appear in the lower left of your map's canvas by default.
 
