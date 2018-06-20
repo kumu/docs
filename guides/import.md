@@ -45,7 +45,7 @@ After you create the required column headers, you can start filling out the rows
 
 ...etc.
 
-All of these optional columns can be used to add data to [fields](/guides/fields.html) inside your elements and connections. If you want to store multiple values inside of one cell (for example, tags or keywords), just separate each value with the pipe character `|`.
+All of these optional columns can be used to add data to [fields](/guides/fields.html) inside your elements and connections. If you want to store multiple values inside of one cell (for example, tags or keywords), just separate each value with the pipe character `|`. If you put multiple elements in the "To" cell of a connection, separating each element with the pipe character `|`, Kumu will draw a connection from the "From" element to each separate element in the "To" cell.
 
 <p class="alert alert-success">
   It's also possible to use <b>ID</b> as the first column header in element and connection sheets. To learn how and why you would do that, <a href="/faq/how-do-I-avoid-duplicating-data.html">check out our guide on avoiding duplicate data</a>.
