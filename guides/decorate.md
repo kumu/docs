@@ -39,7 +39,7 @@ Note that if you don't have any fields with numbers, the **Size by** dropdown me
 If you don't have this kind of data available, try using Kumu's [Metrics](/guides/metrics.md) feature to create some!
 
 <p class="alert alert-warning">
-    Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try <a href="/guides/fields.md#customize-a-field">changing the field type to "Number"</a>.
+    Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try <a class="alert-link" href="/guides/fields.md#customize-a-field">changing the field type to "Number"</a>.
 </p>
 
 

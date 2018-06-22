@@ -47,8 +47,8 @@ After you create the required column headers, you can start filling out the rows
 
 All of these optional columns can be used to add data to [fields](/guides/fields.html) inside your elements and connections. If you want to store multiple values inside of one cell (for example, tags or keywords), just separate each value with the pipe character `|`. If you put multiple elements in the "To" cell of a connection, separating each element with the pipe character `|`, Kumu will draw a connection from the "From" element to each separate element in the "To" cell.
 
-<p class="alert alert-success">
-  It's also possible to use <b>ID</b> as the first column header in element and connection sheets. To learn how and why you would do that, <a href="/faq/how-do-I-avoid-duplicating-data.html">check out our guide on avoiding duplicate data</a>.
+<p class="alert alert-info">
+  It's also possible to use <b>ID</b> as the first column header in element and connection sheets. To learn how and why you would do that, <a class="alert-link" href="/faq/how-do-I-avoid-duplicating-data.html">check out our guide on avoiding duplicate data</a>.
 </p>
 
 Here's a sample element import spreadsheet:
@@ -107,7 +107,7 @@ And here's a sample connection import spreadsheet:
 </table>
 
 <p class="alert alert-success">
-  <b>Get your hands dirty!</b> <a href="../content/paypal-mafia.xlsx" target="_blank" class="_">Click here to download a sample import file</a> for the <a target="_blank" class="_" href="https://kumu.io/jeff/paypal-mafia">PayPal Mafia map</a>. You can examine this file to see how imports work with real data before creating your import file.
+  <b>Get your hands dirty!</b> <a class="alert-link" href="../content/paypal-mafia.xlsx" target="_blank" class="_">Click here to download a sample import file</a> for the <a class="alert-link" target="_blank" class="_" href="https://kumu.io/jeff/paypal-mafia">PayPal Mafia map</a>. You can examine this file to see how imports work with real data before creating your import file.
 </p>
 
 #### Ignore unneeded sheets

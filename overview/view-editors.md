@@ -27,7 +27,7 @@ If you don't have this kind of data available, try using Kumu's [Metrics](/guide
 Need more precise control over your sizes? Check out our guide on [refining your decorations](/guides/decorate.html#refine-your-decorations).
 
 <p class="alert alert-warning">
-    Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try <a href="/guides/fields.html#customize-a-field">changing the field type to "Number"</a>.
+    Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try <a class="alert-link" href="/guides/fields.html#customize-a-field">changing the field type to "Number"</a>.
 </p>
 
 

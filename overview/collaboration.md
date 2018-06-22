@@ -88,5 +88,9 @@ If you need a hi-res screenshot that can scale up or down to any size (for examp
 
 We aim to complete all PDF orders within 24 hours of receiving them (and we're usually much faster!). If you have an urgent PDF request, or you know in advance that we'll need to fill your order quickly, just let us know at the same email address, [prints@kumu.io](mailto:prints@kumu.io).
 
+<p class="alert alert-info">
+Want to make sure your labels are readable on your PDF or screenshot? <a class="alert-link" href="/guides/layouts/remove-overlap.html">Learn how to remove label overlap</a>.
+</p>
+
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/collaboration.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

@@ -14,7 +14,7 @@ Anyone can [sign up for a free personal account](https://kumu.io/join) to create
 Not sure which type of project you need? [Check out our guide on collaborating and sharing](/overview/collaboration.md#public-vs-private-projects) to learn the key differences between public and private projects.
 
 <p class="alert alert-warning">
-<b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization account. Even if you think an organization account is the right option for you, be sure to <a href="https://kumu.io/join">sign up for your personal account</a> first.
+<b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization account. Even if you think an organization account is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your personal account</a> first.
 </p>
 
 

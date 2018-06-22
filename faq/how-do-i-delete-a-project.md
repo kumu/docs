@@ -1,7 +1,7 @@
 # How do I delete a project?
 
 <p class="alert alert-danger">
-Before you start: <a href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
+Before you start: <a class="alert-link" href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
 </p>
 
 ## For Personal Projects

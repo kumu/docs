@@ -135,7 +135,7 @@ Great work so far—you've created a project, started building your first map, a
 To do that, you'll use **filter**, **focus**, **showcase**, and **cluster**—four different ways to refine what is visible or dominant in the map.
 
 <p class="alert alert-info">
-Settings for filter, focus, showcase, and cluster can be saved to a View, allowing you to easily switch between different refined versions of your data. To learn more, <a href="/guides/views.md">check out our guide on Views</a>.
+Settings for filter, focus, showcase, and cluster can be saved to a View, allowing you to easily switch between different refined versions of your data. To learn more, <a class="alert-link" href="/guides/views.md">check out our guide on Views</a>.
 </p>
 
 
@@ -220,7 +220,7 @@ Organization projects come with the added benefit of allowing you to add members
 For more information about Organization accounts, and how to add contributors to them, [check out our Organizations guide](/guides/organizations.md).
 
 <p class="alert alert-success">
-  <b>You've completed the Getting Started series!</b> For additional help, you can browse our other guides, <a href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a href="mailto:support@kumu.io">support.kumu.io</a>.
+  <b>You've completed the Getting Started series!</b> For additional help, you can browse our other guides, <a class="alert-link" href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a>.
 </p>
 
 <a class="btn" href="http://chat.kumu.io">Join us on Slack</a>

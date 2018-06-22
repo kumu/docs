@@ -112,7 +112,7 @@ function searchTable() {
 </script>
 
 <p class="alert alert-info">
-Looking for group metrics that describe your entire network? Check out the <a href="/guides/controls/sna-dashboard-control.md">SNA Dashboard control</a>.
+Looking for group metrics that describe your entire network? Check out the <a class="alert-link" href="/guides/controls/sna-dashboard-control.md">SNA Dashboard control</a>.
 </p>
 
 ### Weighted metrics
@@ -141,7 +141,7 @@ Click the blocks icon <i class="fa fa-cube"></i> in the lower right corner of yo
 <img src="../images/community-results.jpg" class="plain">
 
 <p class="alert alert-info">
-<b>Good to know:</b> Connection direction <em>does</em> influence community detection.
+Good to know: Connection direction <em>does</em> influence community detection.
 </p>
 
 ### Reviewing community breakdowns

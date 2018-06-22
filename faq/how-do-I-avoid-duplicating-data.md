@@ -114,7 +114,7 @@ This import would update the map without creating a new, duplicate connection.
 ### Alternatively...delete all data to avoid duplicates
 
 <p class="alert alert-danger">
-Before you start: <a href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
+Before you start: <a class="alert-link" href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
 </p>
 
 We get it—sometimes, you just don't want to think through the complexity of Kumu's import rules; all you want is a nice, clean map with no duplicates. In that case, your best option might be to [delete all the data from your project](/faq/how-do-i-delete-data-from-my-project.md) and start over with a fresh import.

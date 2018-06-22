@@ -7,7 +7,7 @@ Flags are a decoration created specifically for multi-pick fields (fields like T
 If you're using the **Color by** tool in the Basic Editor, and you select a multi-pick field, Kumu will automatically use flags to color code your elements.
 
 <p class="alert alert-warning">
-Is the <b>Color by</b> tool applying flags for a field that isn't a multi-pick field? Try <a href="/guides/fields.md#customize-a-field">changing the field's limit</a> to "One" instead of "One or more".
+Is the <b>Color by</b> tool applying flags for a field that isn't a multi-pick field? Try <a class="alert-link" href="/guides/fields.md#customize-a-field">changing the field's limit</a> to "One" instead of "One or more".
 </p>
 
 In the Advanced Editor, you can use the `flags` property to add flags. Here's the basic syntax:

@@ -137,7 +137,7 @@ To do that, you'll use **filter**, **focus**, **showcase**—four different ways
 
 
 <p class="alert alert-success">
-  <b>You've worked through Kumu's guide for Systems Practice—nice job!</b> For additional help, you can browse our other guides, <a href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a href="mailto:support@kumu.io">support.kumu.io</a>.
+  <b>You've worked through Kumu's guide for Systems Practice—nice job!</b> For additional help, you can browse our other guides, <a class="alert-link" href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a>.
 </p>
 
 

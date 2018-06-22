@@ -7,8 +7,8 @@ Alternatively, go to the project settings by clicking on the menu icon <i class=
 
 ![](/images/settings-locations.jpg)
 
-<p class="alert alert-info">
-You will only be able to convert a public project to private if you are a paid subscriber to Kumu. To upgrade your account, go to <a href="https://kumu.io/settings#billing">your billing settings</a>, where you can change your plan and add your payment information.
+<p class="alert alert-warning">
+You will only be able to convert a public project to private if you are a paid subscriber to Kumu. To upgrade your account, go to <a class="alert-link" href="https://kumu.io/settings#billing">your billing settings</a>, where you can change your plan and add your payment information.
 </p>
 
 If you want to delete a project, [follow this guide](/faq/how-do-i-delete-a-project.md).

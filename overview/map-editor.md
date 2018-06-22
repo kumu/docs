@@ -28,8 +28,8 @@ In the bottom right corner of your map editor, you'll see a toolbar with several
 
 Under the top toolbar, you'll see the **side panel**. When you first open your map, or when you click on the background of your map, this side panel will show the Map Overview, where you can add general information about your map to help your readers understand it.
 
-<p class="alert alert-success">
-<b>Tip:</b> use <a href="/guides/markdown.md">Markdown</a> to help you style text in the side panel, and add images and videos.
+<p class="alert alert-info">
+<b>Tip:</b> use <a class="alert-link" href="/guides/markdown.md">Markdown</a> to help you style text in the side panel, and add images and videos.
 </p>
 
 When you select an individual element, connection, or loop on the map, the side panel will show that item's [profile](/guides/profiles.md).
