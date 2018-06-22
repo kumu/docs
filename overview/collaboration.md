@@ -6,7 +6,8 @@ Whether you're working in a public or private project, Kumu makes it easy to col
 * [Adding contributors](#add-a-contributor)
 * [Handling conflicting changes](#handle-conflicting-changes)
 * [Creating presentations](#create-a-presentation)
-* [Creating share/embed link](#create-a-shareembed-link)
+* [Creating share/embed links](#create-a-shareembed-link)
+* [Creating screenshots](#create-a-screenshot)
 
 ## Public vs. private projects
 
@@ -74,6 +75,18 @@ Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-u
 
 Share/embed links make it easy to send somebody an interactive, read-only version of your map, or embed that version on a blog or website. To create a share/embed link, click the ellipsis **...** in the [bottom toolbar](/overview/map-editor.md#bottom-toolbar), then choose "Share / embed this map". For more information about share/embed links, including customizeable options, [check out the full guide](/guides/share-and-embed.md).
 
+
+## Create a screenshot
+
+If you need to share a static screenshot of your map (for example, in another presentation software or in print), there are two ways to go about it.
+
+To quickly snap a JPEG screenshot of your map, click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the [bottom toolbar](/overview/map-editor.html#bottom-toolbar) and select "Capture screenshot". Note that the screenshot will be taken at your current position and scale on the map—if you'd like everything to be centered, click the zoom-fit icon <i  class="glyphicon glyphicon-resize-small">  </i> in the zoom toolbar, or press `\` on your keyboard.
+
+When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
+
+If you need a hi-res screenshot that can scale up or down to any size (for example, when you're printing a Kumu map on a large poster), we can create hi-res PDF files for $9 each. Simply email [prints@kumu.io](mailto:prints@kumu.io) and include a link to your map(s), and we'll email you a hi-res PDF version of your map.
+
+We aim to complete all PDF orders within 24 hours of receiving them (and we're usually much faster!). If you have an urgent PDF request, or you know in advance that we'll need to fill your order quickly, just let us know at the same email address, [prints@kumu.io](mailto:prints@kumu.io).
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/collaboration.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
