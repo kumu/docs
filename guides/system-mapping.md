@@ -49,7 +49,7 @@ To edit an existing loop, click on its label on the map, then click the edit ico
 
 To move an entire loop (including all of its connections), hold down the `alt` key on your keyboard, then click-and-drag the loop label.
 
-<p class="alert alert-success">
+<p class="alert alert-info">
   Tip: Use keyboard shortcuts to speed up the building process! Press <code>E</code> to add an element, <code>C</code> to add a connection, and <code>L</code> to add a loop.
 </p>
 
@@ -59,7 +59,7 @@ If you're building a system map by hand, you should definitely give sketch mode 
 
 Once sketch mode is activated, you can add an element by clicking anywhere on the map, and you can add a connection by clicking and dragging from an existing element.
 
-<p class="alert alert-success">
+<p class="alert alert-info">
 Quickly enter sketch mode by pressing <code>K</code> on your keyboard, and press the <code>esc</code> key to exit. While in sketch mode, you can move elements by holding the <code>alt</code> key on your keyboard, then clicking and dragging the element.
 </p>
 
