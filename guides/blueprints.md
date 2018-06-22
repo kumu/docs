@@ -103,7 +103,7 @@ Not seeing the <b>import .json blueprint</b> link on your screen? Make sure you'
 </p>
 
 
-### Setting a remote blueprint
+### Set a remote blueprint
 
 If you have a blueprint that is regularly receiving new data (for example, from a social network analysis survey), you can tell Kumu to automatically fetch the most up-to-date version each time the page is refreshed, just like a [Google Sheets import](https://docs.kumu.io/guides/import.html#integrating-with-google-sheets).
 
