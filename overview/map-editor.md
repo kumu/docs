@@ -16,12 +16,12 @@ The first dropdown menu allows you to create new maps and navigate to different 
 
 In the bottom right corner of your map editor, you'll see a toolbar with several icons that let you take useful actions within your project.
 
-- <i class="fa fa-magic"></i> The magic wand brings up a wizard that allows you to search for tools, actions, and how-to videos
+- <i class="fa fa-magic"></i> The magic wand brings up a [wizard](/guides/wizard.html) that allows you to search for tools, actions, and how-to videos
 - <i class="fa fa-wrench"></i> The wrench is shortcut to your [field settings](/guides/fields.md)
 - <i class="fa fa-cube"></i> The block gives you access to [social network analysis metrics](/guides/metrics.md) and [community detection](/guides/metrics.md#community-detection)
 - <i class="fa fa-comment"></i> The chat bubble lets you raise an issue or leave a comment about the map
 - <i class="fa fa-table"></i> The table brings up Kumu's [Table](/guides/table.md) tool
-- **...** The ellipsis brings up a useful menu for importing/exporting your data and presenting your map online or in print
+- <i class="fa fa-ellipsis-h"></i> The ellipsis brings up a useful menu for importing/exporting your data and [presenting your map online or in print](/overview/collaboration.html)
 
 
 ## Side panel

@@ -73,7 +73,7 @@ Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-u
 
 ## Create a share/embed link
 
-Share/embed links make it easy to send somebody an interactive, read-only version of your map, or embed that version on a blog or website. To create a share/embed link, click the ellipsis **...** in the [bottom toolbar](/overview/map-editor.md#bottom-toolbar), then choose "Share / embed this map". For more information about share/embed links, including customizeable options, [check out the full guide](/guides/share-and-embed.md).
+Share/embed links make it easy to send somebody an interactive, read-only version of your map, or embed that version on a blog or website. To create a share/embed link, click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the [bottom toolbar](/overview/map-editor.md#bottom-toolbar), then choose "Share / embed this map". For more information about share/embed links, including customizeable options, [check out the full guide](/guides/share-and-embed.md).
 
 
 ## Create a screenshot
