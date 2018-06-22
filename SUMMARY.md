@@ -55,7 +55,9 @@
 * [Layouts](guides/layouts.md)
   * [Fixed](guides/layouts/fixed.md)
   * [Force-directed](guides/layouts/force-directed.md)
+  * [Remove overlap](/guides/layouts/remove-overlap.md)
   * [Scatter](guides/layouts/scatter.md)
+  * [Snap-to](/guides/layouts/snap-to.md)
 * [Metrics](guides/metrics.md)
 * [Organizations](guides/organizations.md)  
 * [Views](guides/views.md)
@@ -77,12 +79,12 @@
 * [Selectors](guides/selectors.md)
 * [Share and embed maps](guides/share-and-embed.md)
 * [Shortcuts](guides/shortcuts.md)
-* [Snap-to](guides/snap-to.md)
 * [Table](guides/table.md)
 * [Templates](guides/templates.md)
   * [Geo template](/guides/templates/geo.md)
 * [Tracking](guides/tracking.md)
 * [Widgets](guides/widgets.md)
+* [Wizard](/guides/wizard.md)
 
 ## About Kumu
 * [What is Kumu?](about/what-is-kumu.md)
