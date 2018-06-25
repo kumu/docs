@@ -2,7 +2,7 @@
 
 Looking to create engaging system maps with the power to change hearts and minds? You've come to the right place. Kumu enables you to build interactive maps with narratives, links, video and other background for each element, connection, and loop in the map.
 
-Need more background about network analysis before you get started? Check out the [Systems Practice course on +Acumen](https://www.plusacumen.org/courses/systems-practice) or download [The Omidyar Group's Systems Practice workbook](/content/Workbook-012617.pdf).
+Need more background about system mapping before you get started? Check out the [Systems Practice course on +Acumen](https://www.plusacumen.org/courses/systems-practice) or download [The Omidyar Group's Systems Practice workbook](/content/Workbook-012617.pdf).
 
 ![systems practice workbook](/images/tog-systems-practice-workbook.jpg)
 
