@@ -16,6 +16,7 @@
 ## Overview
 * [Kumu's architecture](overview/kumus-architecture.md)
 * [Accounts and plans](overview/accounts-and-plans.md)
+  * [Billing](overview/billing.md)
 * [User interfaces](/overview/user-interfaces.md)
   * [Dashboard](/overview/dashboard.md)
   * [Map editor](/overview/map-editor.md)
