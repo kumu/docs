@@ -93,31 +93,7 @@ Need even more flexibility for your legend, or want to completely customize the 
 
 Below is a list of all the icons you can add to your legend, as well as instructions on how to access the icons from the Basic and Advanced Editors.
 
-<style>
-#legend-icons-table td {
-    vertical-align: middle;
-}
-
-#legend-icons-table td,
-#legend-icons-table th {
-    background-color: #fff;
-    border: none;
-}
-
-#legend-icons-table tr:first-child {
-    border: none;
-}
-
-#legend-icons-table tr:nth-child(2) {
-    border-width: 2.5px;
-}
-
-#legend-icons-table pre {
-    border: none;
-}
-</style>
-
-<table id="legend-icons-table" class="table">
+<table id="legend-icons-table" class="table border-bottom">
     <tbody>
         <tr>
             <th>Legend icon</th>

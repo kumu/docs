@@ -1,120 +1,150 @@
 # Selector reference
 
 Selectors provide a powerful, friendly way to slice through maps,
-based on CSS selectors.
+based on [Cascading Style Sheets (CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS) selectors.
 
-If you're familiar with css, you'll feel right at home.
+If you're familiar with CSS, you'll feel right at home. If you haven't seen or used CSS, don't worry! All the selector patterns you'll ever need are documented in this reference. To see examples of how selectors can be used, check out our [general guide on selectors](/guides/selectors.html).
 
-## Universal Selector
-The universal selector `*` matches all elements, connections, and loops.
+There are two reference tables on this page. The first shows you all the different kinds of selectors you can use in Kumu, and the second table gives details about logical operators that can be used inside of certain selectors.
 
-## Type Selectors
+In the first table, you'll notice that the word "slug" appears a lot. A slug is a value that has had all spaces and special characters replaced with hyphens, and all letters converted to lowercase. So, when you see something like `type-slug` in the table below, this will be replaced in your custom selector with something like `private-company` or `individual` or another "slug" version of an element type.
 
-```
-General:  element, connection, loop
-Specific: person, personal-connection
-```
+## Selectors
 
-Type selectors come in two flavors: general and specific.
+<table id="selectors-table" class="table border-bottom">
+  <tr>
+    <th class="text-left" style="width: 50%;">Selector</th>
+    <th class="text-left">What it selects</th>
+  </tr>
+  <tr>
+    <td><code>*</code></th>
+    <td>All elements, connections, and loops</td>
+  </tr>
+  <tr>
+    <td><code>element</code></th>
+    <td>All elements</td>
+  </tr>
+  <tr>
+    <td><code>connection</code></th>
+    <td>All connections</td>
+  </tr>
+  <tr>
+    <td><code>loop</code></th>
+    <td>All loops</td>
+  </tr>
+  <tr>
+    <td><code>{type slug}</code></th>
+    <td>All elements whose element type slug matches <code>{type slug}</code></td>
+  </tr>
+  <tr>
+    <td><code>{type slug}-connection</code></th>
+    <td>All connections whose connection type slug matches <code>{type slug}</code></td>
+  </tr>
+  <tr>
+    <td><code>#{label slug}</code></th>
+    <td>The item whose label slug matches <code>{label slug}</code>. </td>
+  </tr>
+  <tr>
+    <td><code>#{assigned ID slug}</code></th>
+    <td>The item whose <a href="/faq/how-do-I-avoid-duplicating-data.html">assigned ID</a> slug matches <code>{assigned ID slug}</code>. </td>
+  </tr>
+  <tr>
+    <td><code>#{system ID}</code></th>
+    <td>The item whose system ID matches <code>{system ID}</code>. </td>
+  </tr>
+  <tr>
+    <td><code>.{tag}</code></th>
+    <td>All items whose Tags field contains <code>{tag}</code>. Note that this selector starts with a dot <code>.</code></td>
+  </tr>
+  <tr>
+    <td><code>["{field name}" {operator} "{field value}"]</code></th>
+    <td>All items that have a <a href="/overview/kumus-architecture.html#fields">field name and field value</a> that meet the condition of the <code>{operator}</code> (valid operators are listed below this table)</td>
+  </tr>
+  <tr>
+    <td><code>[{field name}]</code></th>
+    <td>All items that have any value in the field whose name matches <code>{field name}</code></td>
+  </tr>
+  <tr>
+    <td><code>[!{field name}]</code></th>
+    <td>All items that have no value in the field whose name matches <code>{field name}</code></td>
+  </tr>
+  <tr>
+    <td><code>:from({selector})</code></th>
+    <td>All connections coming from an item that matches the <code>{selector}</code></td>
+  </tr>
+  <tr>
+    <td><code>:to({selector})</code></th>
+    <td>All connections going to an item that matches the <code>{selector}</code></td>
+  </tr>
+  <tr>
+    <td><code>:directed</code></th>
+    <td>All directed connections</td>
+  </tr>
+  <tr>
+    <td><code>:undirected</code></th>
+    <td>All undirected connections</td>
+  </tr>
+  <tr>
+    <td><code>:mutual</code></th>
+    <td>All mutual connections</td>
+  </tr>
+  <tr>
+    <td><code>:focus</code></th>
+    <td>All items at the root of a <a href="/guides/focus.html">focus setting</a></td>
+  </tr>
+  <tr>
+    <td><code>:not({selector})</code></th>
+    <td>All items that do <b>not</b> match the <code>{selector}</code></td>
+  </tr>
+</table>
 
-#### General
+## Operators
 
-General type selectors match all items within the given collection. All projects
-share the same three general type selectors: `element`, `connection`, and `loop`.
-
-#### Specific
-
-Specific type selectors are based on the assigned type. An element with
-type "Person" would be selected using `person`. A connection with
-type "Personal" would be selected using `personal-connection`
-(just tack "-connection" onto the connection type).
-
-## ID Selectors
-
-```
-Informal: #kumu, #honoluluhi
-Assigned: #startup-29506
-System:   #elem-123, #conn-123, #loop-123
-```
-
-ID selectors come in three flavors: informal, assigned, and system.
-
-#### Informal
-
-Informal ids are just the slugged version of the "label" field.
-In most cases informal ids will be unique, permanent, and have the
-added benefit of being naturally descriptive.
-
-Because of their descriptive nature, we strongly recommend using informal ids whenever possible.
-
-#### Assigned
-
-If labels may change or simply aren't unique, you can assign your own
-id to each object through the "id" field.  This gives you a unique
-way to reference each object within your project however you please.
-
-*Note: IDs must be strings and should be unique.*
-
-#### System
-
-System ids are automatically generated and assigned by Kumu.
-They're guaranteed to be unique and permanent, making them an excellent
-choice for permalink-style references.
-
-All system ids are prefixed with the collection identifier, followed by
-a unique random identifier.  For example: elem-123, conn-123, and loop-123.
-
-
-## Tag Selectors
-
-```
-.influential
-```
-
-Tag selectors match all items tagged with the given value.
-Make sure to keep your tags short and free from special characters to
-avoid having to use a formal field selector (see below).
-
-## Field Selectors
-
-```
-[tags~=influential]
-```
-
-Field selectors match all items with the given field condition.
-Kumu supports a number of field operators to match against.
-
-#### Presence
-
-```
-[description]
-```
-
-#### Absence
-
-```
-[!description]
-```
-
-#### Search
-
-```
-Starts with: [label ^= kumu]
-Ends with: [label $= kumu]
-Matches: [label *= kumu]
-Includes: [skills ~= communication]
-```
-
-Note: the includes operator `~=` is only relevant for fields with multiple values
-(such as tags and skills).
-
-#### Relative
-
-```
-[employees < 10]
-[employees > 10]
-[employees <= 10]
-[employees >= 10]
-```
+<table class="table border-bottom">
+  <tr>
+    <th class="text-left">Operator</th>
+    <th class="text-left">Description</th>
+  </tr>
+  <tr>
+    <td><code>=</code></th>
+    <td>is equal to</td>
+  </tr>
+  <tr>
+    <td><code>!=</code></th>
+    <td>is not equal to</td>
+  </tr>
+  <tr>
+    <td><code>^=</code></th>
+    <td>starts with</td>
+  </tr>
+  <tr>
+    <td><code>$=</code></th>
+    <td>ends with</td>
+  </tr>
+  <tr>
+    <td><code>*=</code></th>
+    <td>text contains</td>
+  </tr>
+  <tr>
+    <td><code>~=</code></th>
+    <td>list of values includes</td>
+  </tr>
+  <tr>
+    <td><code>&#8250;</code></th>
+    <td>is greater than</td>
+  </tr>
+  <tr>
+    <td><code>&#8249;</code></th>
+    <td>is less than</td>
+  </tr>
+  <tr>
+    <td><code>&#8250;=</code></th>
+    <td>is greater than or equal to</td>
+  </tr>
+  <tr>
+    <td><code>&#8249;=</code></th>
+    <td>is less than or equal to</td>
+  </tr>
+</table>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/selector-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

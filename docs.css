@@ -284,7 +284,32 @@ table.plan-table tr td:not(:first-child) {
 
 .borderless.table tr,
 .borderless.table th,
-.borderless.table td {
+.borderless.table td,
+.borderless.table pre {
+    border: none;
+}
+
+/* border-bottom table */
+
+.border-bottom.table td {
+    vertical-align: middle;
+}
+
+.border-bottom.table td,
+.border-bottom.table th {
+    background-color: #fff;
+    border: none;
+}
+
+.border-bottom.table tr:first-child {
+    border: none;
+}
+
+.border-bottom.table tr:nth-child(2) {
+    border-width: 2.5px;
+}
+
+.border-bottom.table pre {
     border: none;
 }
 
