@@ -11,7 +11,7 @@ In the first table, you'll notice that the word "slug" appears a lot. A slug is 
 
 Try creating your own slug with this tool:
 
-<input id="simple-slugify-input" type="text" class="search-box" onkeyup="simpleSlugify()" placeholder="Type to create slug...">
+<input id="simple-slugify-input" type="text" class="search-box" onkeyup="simpleSlugify()" placeholder="Type a word or phrase...">
 
 <input id="simple-slugify-result" type="text" class="search-box" value="" placeholder="Slug will appear here...">
 
