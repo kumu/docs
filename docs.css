@@ -327,6 +327,14 @@ table.plan-table tr td:not(:first-child) {
     outline: none;
 }
 
+/* inputs formatted like code */
+
+.input-code {
+  font-size: .85em;
+  background-color: #f7f7f7;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
 /* keystrokes */
 
 .shortcuts {

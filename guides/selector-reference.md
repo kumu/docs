@@ -13,7 +13,7 @@ Try creating your own slug with this tool:
 
 <input id="simple-slugify-input" type="text" class="search-box" onkeyup="simpleSlugify()" placeholder="Type a word or phrase...">
 
-<input id="simple-slugify-result" type="text" class="search-box" value="" placeholder="Slug will appear here...">
+<input id="simple-slugify-result" type="text" class="search-box input-code" value="" placeholder="Slug will appear here...">
 
 <script>
   function simpleSlugify() {
