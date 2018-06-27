@@ -33,48 +33,48 @@ In the first table, you'll notice that the word "slug" appears a lot. A slug is 
     <td>All loops</td>
   </tr>
   <tr>
-    <td><code>{type slug}</code></th>
-    <td>All elements whose element type slug matches <code>{type slug}</code></td>
+    <td><code>type-slug</code></th>
+    <td>All elements whose element type slug matches <code>type-slug</code></td>
   </tr>
   <tr>
-    <td><code>{type slug}-connection</code></th>
-    <td>All connections whose connection type slug matches <code>{type slug}</code></td>
+    <td><code>type-slug-connection</code></th>
+    <td>All connections whose connection type slug matches <code>type-slug</code></td>
   </tr>
   <tr>
-    <td><code>#{label slug}</code></th>
-    <td>The item whose label slug matches <code>{label slug}</code>. </td>
+    <td><code>#label-slug</code></th>
+    <td>The item whose label slug matches <code>label-slug</code>. </td>
   </tr>
   <tr>
-    <td><code>#{assigned ID slug}</code></th>
-    <td>The item whose <a href="/faq/how-do-I-avoid-duplicating-data.html">assigned ID</a> slug matches <code>{assigned ID slug}</code>. </td>
+    <td><code>#assigned-id-slug</code></th>
+    <td>The item whose <a href="/faq/how-do-I-avoid-duplicating-data.html">assigned ID</a> slug matches <code>assigned-id-slug</code>. </td>
   </tr>
   <tr>
-    <td><code>#{system ID}</code></th>
-    <td>The item whose system ID matches <code>{system ID}</code>. </td>
+    <td><code>#system-id</code></th>
+    <td>The item whose system ID matches <code>system-id</code>. </td>
   </tr>
   <tr>
-    <td><code>.{tag}</code></th>
-    <td>All items whose Tags field contains <code>{tag}</code>. Note that this selector starts with a dot <code>.</code></td>
+    <td><code>.tag</code></th>
+    <td>All items whose Tags field contains <code>tag</code>. Note that this selector starts with a dot <code>.</code></td>
   </tr>
   <tr>
-    <td><code>["{field name}" {operator} "{field value}"]</code></th>
-    <td>All items that have a <a href="/overview/kumus-architecture.html#fields">field name and field value</a> that meet the condition of the <code>{operator}</code> (valid operators are listed below this table)</td>
+    <td><code>["field name" operator "field value"]</code></th>
+    <td>All items that have a <a href="/overview/kumus-architecture.html#fields">field name and field value</a> that meet the condition of the <code>operator</code> (valid operators are listed below this table)</td>
   </tr>
   <tr>
-    <td><code>[{field name}]</code></th>
-    <td>All items that have any value in the field whose name matches <code>{field name}</code></td>
+    <td><code>["field name"]</code></th>
+    <td>All items that have any value in the field whose name matches <code>field name</code></td>
   </tr>
   <tr>
-    <td><code>[!{field name}]</code></th>
-    <td>All items that have no value in the field whose name matches <code>{field name}</code></td>
+    <td><code>[!"field name"]</code></th>
+    <td>All items that have no value in the field whose name matches <code>field name</code></td>
   </tr>
   <tr>
-    <td><code>:from({selector})</code></th>
-    <td>All connections coming from an item that matches the <code>{selector}</code></td>
+    <td><code>:from(selector)</code></th>
+    <td>All connections coming from an item that matches the <code>selector</code></td>
   </tr>
   <tr>
-    <td><code>:to({selector})</code></th>
-    <td>All connections going to an item that matches the <code>{selector}</code></td>
+    <td><code>:to(selector)</code></th>
+    <td>All connections going to an item that matches the <code>selector</code></td>
   </tr>
   <tr>
     <td><code>:directed</code></th>
@@ -93,8 +93,8 @@ In the first table, you'll notice that the word "slug" appears a lot. A slug is 
     <td>All items at the root of a <a href="/guides/focus.html">focus setting</a></td>
   </tr>
   <tr>
-    <td><code>:not({selector})</code></th>
-    <td>All items that do <b>not</b> match the <code>{selector}</code></td>
+    <td><code>:not(selector)</code></th>
+    <td>All items that do <b>not</b> match the <code>selector</code></td>
   </tr>
 </table>
 
