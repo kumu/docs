@@ -7,7 +7,9 @@ If you're familiar with CSS, you'll feel right at home. If you haven't seen or u
 
 There are two reference tables on this page. The first shows you all the different kinds of selectors you can use in Kumu, and the second table gives details about logical operators that can be used inside of certain selectors.
 
-In the first table, you'll notice that the word "slug" appears a lot. A slug is a value that has had all spaces and special characters replaced with hyphens, and all letters converted to lowercase. So, when you see something like `type-slug` in the table below, this will be replaced in your custom selector with something like `private-company` or `individual` or another "slug" version of an element type. Try creating your own slug with this tool:
+In the first table, you'll notice that the word "slug" appears a lot. A slug is a value that has had all spaces and special characters replaced with hyphens, and all letters converted to lowercase. So, when you see something like `type-slug` in the table below, this will be replaced in your custom selector with something like `private-company` or `individual` or another "slug" version of an element type.
+
+Try creating your own slug with this tool:
 
 <input id="simple-slugify-input" type="text" class="search-box" onkeyup="simpleSlugify()" placeholder="Type to create slug...">
 
