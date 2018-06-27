@@ -2,6 +2,37 @@
 
 Fields allow you to save additional data about the elements, connections and loops in your map. Create whatever fields you need and modify the settings to enable things like checklists, prompts, currencies, and much more.
 
+## Pre-named fields
+
+Kumu comes with a few pre-named fields to get you started. Putting data in these fields isn't, but they get special visual treatment in [profiles](/guides/profiles.html), so it's great to use them when you can!
+
+<dl>
+    <dt>Type</dt>
+    <dd>
+      Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family.
+    </dd>
+
+    <dt>Description</dt>
+    <dd>
+      The description field designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even images and videos. <a href="/guides/markdown.html">You can use Markdown</a> to format each description's content.
+    </dd>
+
+    <dt>Tags</dt>
+    <dd>
+      The tags field is designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.
+    </dd>
+
+    <dt>Image</dt>
+    <dd>
+      Include an image URL and Kumu will display it on the map and in the profile.
+    </dd>
+
+    <dt>Email</dt>
+    <dd>
+      Add an email and Kumu will automatically include their <a href="http://en.gravatar.com/">gravatar</a> on the map and in the profile. Gravatars can be a huge time saver when working with social network data!
+    </dd>
+</dl>
+
 ## Add a field
 To add a field, select an element or connection and then click the **+New Field** button in the sidebar. You'll be prompted to name the field and then enter a value for the element or connection you selected.
 
