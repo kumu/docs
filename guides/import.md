@@ -129,11 +129,19 @@ OR
 
 Either way, you'll have the option to review the import before finalizing to double-check that everything imported correctly. After you review the import, just click save, and you're all set!
 
+<p class="alert alert-warning">
+Seeing errors during your Excel import? You can use the <a class="alert-link" href="#common-pitfalls">common pitfalls</a> section of this guide to help troubleshoot.
+</p>
+
 ## Import from Google Sheets
 
 Our Google Sheets integration populates a map using the contents of a spreadsheet hosted on Google Drive. Since Google Sheets can be opened up to the general public for editing, this integration is a great way to crowdsource maps without having to give everyone full edit access to the project on Kumu.
 
 There are two versions of the Google Sheets integration, private and public. Private is more secure and uses oAuth to authorize Kumu to access the sheet, while the public integration requires you to make your data publicly viewable on the internet.
+
+<p class="alert alert-warning">
+Seeing errors during your Google Sheets import? You can use the <a class="alert-link" href="#common-pitfalls">common pitfalls</a> section of this guide to help troubleshoot.
+</p>
 
 #### Private Google Sheets Instructions
 
