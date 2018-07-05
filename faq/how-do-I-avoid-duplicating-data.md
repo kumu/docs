@@ -67,7 +67,9 @@ In the earlier example, before we added ID, Kumu was creating two elements with 
 
 With the help of this new ID column, Kumu will only create one `Wave-2` element, and it will import the data from the `Wave-2` that is furthest down on the list (i.e. the type will be `Double overhead`, not `Head high`).
 
-**Important:** If you're using IDs on your elements sheet, you need to use those IDs in the **From** and **To** columns on your connections spreadsheet, instead of using Labels.
+<p class="alert alert-warning">
+If you're using IDs on your elements sheet, you need to use those IDs in the <b>From</b> and <b>To</b> columns on your connections spreadsheet, instead of using Labels.
+</p>
 
 
 ### Connections
@@ -101,7 +103,9 @@ Connection-2 | Oahu | Sunset Bay | Location
 
 This import would update the map without creating a new, duplicate connection.
 
-**Important:** If you're using an ID column on your connections sheet, you don't necessarily have to add IDs to your elements sheet. However, if you _are_ using IDs on your elements sheet, you need to use those IDs in the From and To columns on your connections spreadsheet, instead of using Labels.
+<p class="alert alert-warning">
+If you're using an ID column on your connections sheet, you don't necessarily have to add IDs to your elements sheet. However, if you <em>are</em> using IDs on your elements sheet, you need to use those IDs in the From and To columns on your connections spreadsheet, instead of using Labels.
+</p>
 
 **Good to know:**
 - You can't update map data when clustering is turned on. Make sure to turn off all clustering options before importing any data into Kumu.
