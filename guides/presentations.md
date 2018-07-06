@@ -23,6 +23,8 @@ A map slide is any combination of a map and a view. You can choose to have the s
 
 On a map slide, you can use the dropdown menus above the slide to choose which map and view will be applied. You can pick any map or view in your project.
 
+![change presentation view](/images/change-presentation-view.gif)
+
 You can also activate focus or filter for a given map slide, and Kumu will remember those settings. This is a great way to unfold a map step-by-step for your readers.
 
 ### Text slides
