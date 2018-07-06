@@ -4,9 +4,14 @@ Fields allow you to save additional data about the elements, connections and loo
 
 ## Pre-named fields
 
-Kumu comes with a few pre-named fields to get you started. Putting data in these fields isn't, but they get special visual treatment in [profiles](/guides/profiles.html), so it's great to use them when you can!
+Kumu comes with a few pre-named fields to get you started. Putting data in _all_ of these fields isn't necessary, but they get special visual treatment in [profiles](/guides/profiles.html), so it's great to use them when you can!
 
 <dl>
+    <dt>Label</dt>
+    <dd>
+      Use the Label field to give names to elements, connections, and loops. Your element and loop labels will appear on the map by default, and connection labels can be shown on the map as well, using the <code>label-visibility</code> <a href="/guides/property-reference.html">property</a> in the Advanced Editor.
+    </dd>
+
     <dt>Type</dt>
     <dd>
       Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family.
@@ -30,6 +35,11 @@ Kumu comes with a few pre-named fields to get you started. Putting data in these
     <dt>Email</dt>
     <dd>
       Add an email and Kumu will automatically include their <a href="http://en.gravatar.com/">gravatar</a> on the map and in the profile. Gravatars can be a huge time saver when working with social network data!
+    </dd>
+
+    <dt>ID</dt>
+    <dd>
+      Add a unique ID to each element and connection when you want to have fine-tuned control over Kumu's decision to create or update items during a <a href="/guides/import.html">spreadsheet import</a>. To learn more about this, check out <a href="/faq/how-do-I-avoid-duplicating-data.html">our guide on avoiding duplicate data</a>.
     </dd>
 </dl>
 
@@ -99,7 +109,11 @@ To change the order, click edit and then simply drag the fields to reorder them.
 If you've created a field and want to delete it and all corresponding values, click on the label of the field in any profile and then go to more -> delete. Alternatively, use can use the menu in the upper left corner to go to the field settings page (choose fields). This will delete the field and any values assigned for any content in your project.
 
 ## Deleting field values
-Occasionally you may want to delete the prompted choices for a given field, or the options that show up in your legend or in a [control](/guides/controls.md). To do this, you need to remove the value from the field settings:
+Occasionally you may want to delete the prompted choices for a given field, or the options that show up in your legend or in a [control](/guides/controls.md). To do this, you need to delete the underlying field value. This process is different, depending on the field's [prompt](#customize-a-field).
+
+For fields that have their prompt set to "Autocomplete" or "None" (this includes the Tags field), you can only delete the field value by removing it from every element, connection, and loop in the project, including the [trash](/overview/kumus-architecture.html#trash).
+
+For all other fields, follow these steps:
 1. Click the menu in the upper left of your map and choose **FIELDS**
 1. Click on the field you want to edit
 1. Find the value you want to delete. Then, highlight it and press `delete` or `backspace` on your keyboard.
