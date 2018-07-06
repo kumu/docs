@@ -21,7 +21,11 @@ Use the plus button in the upper left corner to add a slide. Slides can be one o
 ### Map slides
 A map slide is any combination of a map and a view. You can choose to have the slide zoom fit by checking the corresponding box, or you can create just the zoom you'd like but zooming in or out.
 
-You can also activate focus or filter for a given map slide and Kumu will remember those settings. This is a great way to unfold a map step-by-step.
+On a map slide, you can use the dropdown menus above the slide to choose which map and view will be applied. You can pick any map or view in your project.
+
+![change presentation view](/images/change-presentation-view.gif)
+
+You can also activate focus or filter for a given map slide, and Kumu will remember those settings. This is a great way to unfold a map step-by-step for your readers.
 
 ### Text slides
 Text slides can include both a title and content. The content section supports markdown so you can also include images and other basic formatting (widgets aren't supported though).
