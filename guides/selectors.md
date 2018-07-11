@@ -127,7 +127,7 @@ Selecting specific items by label is—you guessed it—pretty simple! Just turn
 
 #### Select by assigned ID
 
-In Kumu, you might sometimes assign custom, unique IDs—see our guide on [avoiding duplicates](/faq/how-do-i-avoid-duplicating-data.html) for more info on when and why you would want to do this.
+In Kumu, you might sometimes assign custom, unique IDs—see our guide on [avoiding duplicates](/faq/how-do-I-avoid-duplicating-data.html) for more info on when and why you would want to do this.
 
  If you have custom IDs in your project, you can use those IDs in shorthand selectors. The syntax is the exact same as the label selector: create a slug of the ID, then add `#` in front of it:
 
