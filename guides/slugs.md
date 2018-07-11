@@ -24,7 +24,7 @@ Knowing how to recognize, read, and write slugs is a skill that will come in han
   </tr>
   <tr>
     <td>Friends don't let friends map alone!</td>
-    <td>friends-dont-let-friends-map-alone</td>
+    <td><code>friends-dont-let-friends-map-alone</code></td>
   </tr>
   <tr>
     <td>Method and System for Dynamically Creating and Exploring Graph Structures</td>
@@ -32,7 +32,7 @@ Knowing how to recognize, read, and write slugs is a skill that will come in han
   </tr>
   <tr>
     <td>От Kumu с любовью</td>
-    <td>от-kumu-с-любовью</td>
+    <td><code>от-kumu-с-любовью</code></td>
   </tr>
 </table>
 
