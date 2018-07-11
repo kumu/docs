@@ -39,7 +39,7 @@ Before you start: <a class="alert-link" href="/guides/fields.html">use fields</a
 
 You can use selectors in the search bar on your map to select multiple items.
 
-In the upper left of the map, click "Search" next to the search icon <i class="fa fa-search"></i> to start searching. Then, click the rocket icon <i class="fa fa-rocket"></i> on the far right to bring up the selector builder, and use it to build out your selector.
+In the upper left of the map, click "Search" next to the search icon <i class="fa fa-search">  </i> to start searching. Then, click the rocket icon <i class="fa fa-rocket">  </i> on the far right to bring up the selector builder, and use it to build out your selector.
 
 ![selector rocket](/images/search-selector.png)
 
