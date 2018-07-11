@@ -9,6 +9,7 @@ We've built a [flexible widget framework](https://github.com/kumu/widgets) to ma
 * Speaker Deck ```[[speakerdeck/id]]```
 * SoundCloud ```[[soundcloud/id]]```
 * audioBoom ```[[audioboom/id]]```
+* Pippa ```[[pippa/account/id]] or [[pippa/account/episodes/id]]```
 
 ...where ```id``` is the unique code included in the embed code from any of the above services.
 
@@ -93,6 +94,27 @@ We've added pre-built aspect ratios to deliver content with the right height and
 Or rely on our standard defaults by not including anything (we've worked hard to make sure they are right for the majority of things you'll embed from a given platform).
 ```
 [[speakerdeck/39d28e80a7840130b36006a0b9603b35 "The product is the byproduct"]]
+```
+
+### Pippa
+
+The Pippa widget syntax can be one of the two following options:
+
+```
+[[pippa/account/id]]
+
+[[pippa/account/episodes/id]]
+```
+
+In both options, replace `account` with the username of the account that posted the audio. Replace `id` with the episode ID, which is the last section of the Pippa player URL, after the last backslash. For example:
+
+```
+// Pippa player URL:
+https://player.pippa.io/teamhuman/episodes/ep-92-dr-mark-filippi
+                          ^ account            ^ episode ID
+
+// Widget code:
+[[pippa/teamhuman/episodes/ep-92-dr-mark-filippi]]
 ```
 
 ## Aspect Ratios and Other Settings
