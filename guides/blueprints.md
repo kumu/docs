@@ -107,7 +107,7 @@ Not seeing the <b>import .json blueprint</b> link on your screen? Make sure you'
 
 If you have a blueprint that is regularly receiving new data (for example, from a social network analysis survey), you can tell Kumu to automatically fetch the most up-to-date version each time the page is refreshed, just like a [Google Sheets import](https://docs.kumu.io/guides/import.html#integrating-with-google-sheets).
 
-If your blueprint is already hosted online, just open up the JavaScript console in your browser and use this function:
+If your blueprint is already hosted online, just open up the [JavaScript console](https://webmasters.stackexchange.com/questions/8525/how-do-i-open-the-javascript-console-in-different-browsers) in your browser and use this function:
 
 ```
 Workflows.setCurrentMapSource("https://example.com/path/to/blueprint.json");
@@ -120,5 +120,6 @@ For this to work, you first need to host your blueprint publicly online, so that
 1. Create a new repository, and upload your JSON blueprint
 1. Click on your file in GitHub, then click the `Raw` button
 1. Copy the URL of the page that opens up, and use that URL in the function above
+
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/blueprints.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

@@ -80,6 +80,7 @@
 * [Selectors](guides/selectors.md)
 * [Share and embed maps](guides/share-and-embed.md)
 * [Shortcuts](guides/shortcuts.md)
+* [Slugs](guides/slugs.md)
 * [Table](guides/table.md)
 * [Templates](guides/templates.md)
   * [Geo template](/guides/templates/geo.md)

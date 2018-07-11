@@ -44,6 +44,9 @@ Inside the profile, you can add and edit information about the selected item. Yo
 - <i class="fa fa-tint"></i> [Decorate](/guides/decorate.md) the item
 - <i class="fa fa-trash"></i> [Delete](/faq/how-do-i-delete-data-from-my-project.md) the item
 
+
+#### Multiple selections
+
 If you select multiple elements, connections, or loops, the side panel will show the **Multiple selections** tool, which allows you to add information or change information across all the selected items in just one step. It's a big time-saver!
 
 ![multiple selections](/images/multiple-selections.png)

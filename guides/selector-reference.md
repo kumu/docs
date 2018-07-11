@@ -7,29 +7,7 @@ If you're familiar with CSS, you'll feel right at home. If you haven't seen or u
 
 There are two reference tables on this page. The first shows you all the different kinds of selectors you can use in Kumu, and the second table gives details about logical operators that can be used inside of certain selectors.
 
-In the first table, you'll notice that the word "slug" appears a lot. A slug is a value that has had all spaces and special characters replaced with hyphens, and all letters converted to lowercase. So, when you see something like `type-slug` in the table below, this will be replaced in your custom selector with something like `private-company` or `individual` or another "slug" version of an element type.
-
-Try creating your own slug with this tool:
-
-<input id="simple-slugify-input" type="text" class="search-box" onkeyup="simpleSlugify()" placeholder="Type a word or phrase...">
-
-<input id="simple-slugify-result" type="text" class="search-box input-code" value="" placeholder="Slug will appear here...">
-
-<script>
-  function simpleSlugify() {
-    var string = document.querySelector("#simple-slugify-input").value;
-
-    string = string
-      .replace(/'/g, '')
-      .replace(/[^a-záéíóúñäëïöüçøñâêîôû0-9]/gi, '-')
-      .replace(/-{2,}/g, '-')
-      .replace(/^-/, '').replace(/-$/, '')
-      .toLowerCase();
-
-    var result = document.querySelector("#simple-slugify-result");
-    result.value = string;
-  }
-</script>
+In the first table, you'll notice that the word "slug" appears a lot. A [slug](/guides/slugs.html) is a piece of text that has had all letters converted to lowercase, all special characters removed, and all spaces and replaced with hyphens. So, when you see something like `type-slug` in the table below, this will be replaced in your custom selector with something like `private-company` or `individual` or another "slug" version of an element type.
 
 ## Selectors
 
@@ -68,7 +46,7 @@ Try creating your own slug with this tool:
   </tr>
   <tr>
     <td><code>#assigned-id-slug</code></th>
-    <td>The item whose <a href="/faq/how-do-I-avoid-duplicating-data.html">assigned ID</a> slug matches <code>assigned-id-slug</code>. </td>
+    <td>The item whose assigned ID slug matches <code>assigned-id-slug</code>. </td>
   </tr>
   <tr>
     <td><code>#system-id</code></th>
@@ -89,6 +67,14 @@ Try creating your own slug with this tool:
   <tr>
     <td><code>[!"field name"]</code></th>
     <td>All items that have no value in the field whose name matches <code>field name</code></td>
+  </tr>
+  <tr>
+    <td><code>[field-name-slug]</code></th>
+    <td>All items that have any value in the field whose name slug matches <code>field-name-slug</code></td>
+  </tr>
+  <tr>
+    <td><code>[!field-name-slug]</code></th>
+    <td>All items that have no value in the field whose name slug matches <code>field-name-slug</code></td>
   </tr>
   <tr>
     <td><code>:from(selector)</code></th>
@@ -149,7 +135,7 @@ Try creating your own slug with this tool:
   </tr>
   <tr>
     <td><code>~=</code></th>
-    <td>list of values includes</td>
+    <td>list of values includes (this operator matches full values)</td>
   </tr>
   <tr>
     <td><code>&#8250;</code></th>

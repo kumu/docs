@@ -1,16 +1,10 @@
 # Filter
 
-Filters make it easy to show and hide elements, connections or loops based on data stored in the profile.
+Filters allow you to show and hide elements, connections or loops based on information stored in their [fields](/guides/fields.html). This guide will help you master filters, one of the most powerful tools in Kumu!
 
-## Use the profile to add additional information
-
-Each element, connection, and loop has a profile that can be used to store additional information in various fields.
-
-<img src="/images/introduction-profile.png" class="plain">
-
-Label, Type, Description, and Tags are all examples of fields. Use these fields to provide additional context for each element and connection, and click **+NEW FIELD** to add a custom field.
-
-After you fill out data in the profiles, you can use the [Basic Editor](/overview/view-editors.md#basic-editor) or the [Advanced Editor](/overview/view-editors.md#advanced-editor) to filter data in and out of your map.
+<p class="alert alert-info">
+Before you start: <a class="alert-link" href="/guides/fields.html">use fields</a> to add additional information to your elements, connections, and loops.
+</p>
 
 
 ## Filter in the Basic Editor
@@ -37,7 +31,7 @@ If you prefer working in the Advanced Editor, you can use the `include` and `ign
 }
 ```
 
-You can replace `selector` with any valid [selector](/guides/selectors.md). For example, here is the code for a view that includes elements with the element type "Person" but ignores all elements who have no Tags in their profile:
+You can replace `selector` with any valid [selector](/guides/selectors.html). For example, here is the code for a view that includes elements with the element type "Person" but ignores all elements who have no Tags in their profile:
 
 ```
 @settings {
@@ -57,7 +51,7 @@ If you want to include or ignore multiple different selections, you can separate
 }
 ```
 
-### Ignore orphans
+#### Ignore orphans
 
 You can also use the `ignore-orphans` property in the `@settings` block to automatically filter out any elements that have no connections. Possible values for this property are `true` or `false`.
 

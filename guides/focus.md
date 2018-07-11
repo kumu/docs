@@ -1,5 +1,7 @@
 # Focus
 
+Kumu's **focus** feature allows you to focus on one or more elements, connections, and loops, temporarily hiding the rest of the map. It's a great tool for storytelling, allowing you to reduce the complexity of your system or network while you introduce the basic concepts behind your map.
+
 Focus is activated in one of two ways, by clicking and holding on any element, connection or loop or by selecting an element, connection or loop and then clicking the focus icon <i class="fa fa-crosshairs">  </i> on the right side of your map. Once focus is activated, you can walk in and out by degree using the
 <i class="fa fa-angle-up">  </i> and <i class="fa fa-angle-down">  </i> buttons.
 
@@ -11,9 +13,9 @@ Click the focus icon again to bring the full map back into view.
 <b>Keyboard shortcuts:</b> Press <code>+</code> and <code>-</code> on your keyboard to expand and contract focus, or press a number on your keyboard to specify exactly how many degrees the focus should extend. Press <code>esc</code> on your keyboard to bring the full map back into view.
 </p>
 
-### Preset Focus
+## Activate focus in the Advanced Editor
 
-You can also predefine a focus within `@settings` in the advanced editor of any view.
+You can pre-define a focus within `@settings` in the [Advanced Editor](/overview/view-editors.html#advanced-editor) of any view.
 
 ```
 @settings {
