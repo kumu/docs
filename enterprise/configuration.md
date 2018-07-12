@@ -38,7 +38,16 @@ In order to enable email notifications, you'll need to add an external SMTP serv
 
 ## Hostname
 
-This is the hostname that will be used for any absolute links within the application (such as those included in notification emails).
+By default the app is accessible using the raw instance ip. If you would like to use a custom hostname you'll need to add the following DNS records:
+
+```
+A        kumu.example.  <instance ip>
+CNAME  *.kumu.example.  kumu.example.
+```
+
+Once the DNS records are in place you can update the hostname within the `/enterprise/admin` app.
+
+_Warning: Once the hostname is set the site can only be accessed via the custom hostname._
 
 ## SSH access
 
