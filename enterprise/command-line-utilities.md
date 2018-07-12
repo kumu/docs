@@ -7,6 +7,15 @@ SSH access is required to use the utilities, so make sure to
 <a href="ssh-access.md">enable ssh access</a> if you haven't
 already done so.
 
+# kumu-logs-dump
+
+Use this command to export the system logs so our enterprise team can
+diagnose the errors:
+
+```
+ssh admin@<hostname> -- "kumu-logs-dump" > kumu-logs.tar.gz
+```
+
 # kumu-export
 
 Export the appliance's data and settings.
