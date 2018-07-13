@@ -41,6 +41,16 @@ You can use these visual components in infinite different ways, but here are som
     <td>Sub-systems</td>
   </tr>
   <tr>
+    <td>Decisions chances, and ends in a decision tree</td>
+    <td>Paths along the decision tree</td>
+    <td>Multi-part decisions</td>
+  </tr>
+  <tr>
+    <td>Steps in a process</td>
+    <td>Paths from one step to the next</td>
+    <td>Sub-processes</td>
+  </tr>
+  <tr>
     <td>People</td>
     <td>Interpersonal relationships</td>
     <td>—</td>
