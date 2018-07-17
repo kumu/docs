@@ -161,7 +161,7 @@ Seeing errors during your Google Sheets import? You can use the <a class="alert-
 1. [Structure your data](#structure-your-data-for-kumu)
 1. Click the "Share" button in the upper right
 1. Click "Get shareable link"
-1. Set the permissions to "Anyone with the link can view"
+1. Set the permissions to "**On** - public on the web (Anyone on the internet can find and access. No sign-in required.)"
 1. Copy the shareable link URL, and go back to your Kumu map
 1. Click the green <i class="fa fa-plus"></i> button, select **Import**, and click the "Google Sheets" tab
 1. Paste your Google Sheets link into the box under **Link to public Google Sheet**
