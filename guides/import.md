@@ -1,6 +1,6 @@
 # Import
 
-Kumu's import feature makes it possible to map your existing data, without recreating every bit of it by hand. Whether your data is in [Excel](#import-from-excel) or [Google Sheets](#import-from-google-sheets), you can follow this guide to quickly bring it into Kumu.
+Kumu's import feature makes it possible to map your existing data, without recreating every bit of it by hand. Whether your data is in [Excel](#import-from-excel-or-csv), a [comma-separated values (CSV) file](#import-from-excel-or-csv), or [Google Sheets](#import-from-google-sheets), you can follow this guide to quickly bring it into Kumu.
 
 <iframe src="https://player.vimeo.com/video/96531654" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -115,7 +115,7 @@ And here's a sample connection import spreadsheet:
 Sometimes, you'll have other sheets in your Excel or Google Sheets workbook that aren't formatted for Kumu and shouldn't be imported, but need to stay in the workbook. If that's the case, just add `(ignore)` to the name of the sheet, and Kumu will ignore it during the upload.
 
 
-## Import from Excel
+## Import from Excel or CSV
 
 After you've [structured your data](#structure-your-data), save your spreadsheet file with either the .xslx or .csv extension (Kumu doesn't support the .xls file extension).
 
