@@ -58,14 +58,15 @@ Not sure which type of project you need? [Check out our guide on collaborating a
 
 Kumu's organization accounts are a great fit for teams of people that have several active Kumu users. Organization accounts are also really useful when you're creating Kumu projects for clients, and you'd like your clients to be able to check in on your progress and give feedback.
 
-When you own an organization account, you can add other people to your organization (or invite your team via email) and assign one of three roles to those people:
+When you own an organization account, you can add other people to your organization (or invite your team via email) and assign one of two roles to those people:
 - **Owners** can add new members, and they have full access to everything within the organization. The creator of the organization account is an Owner by default. Owners also have admin access to update billing and profile information.
-- **Members** can see a list of all projects owned by the organization, but can only open projects they've been given access to.
-- **Guests** can only see and access the projects and teams they've explicitly been given access to.
+- **Members** can see a list of all projects owned by the organization, and they can created new projects, but they can only open projects they've been given access to.
 
-After you add people to your organization, you'll be able to specify which projects each person can access, and whether they can view, edit, or have admin access on those projects. For more details on how to fine-tune project access, check out our [full guide on organizations](/guides/organizations.md).
+With an organization account, you can also add contributors directly to a project—this comes in handy when you want to give a client or consultant access to a few projects without formally adding them to your Kumu organization.
 
-As an added bonus, you can upload your own logo to appear on your projects' loading screen and as a watermark on [shared & embedded maps](/overview/collaboration.md#create-a-shareembed-link).
+For every project owned by your organization account, you have full control over whether people can view, edit, or administrate the project. For more details on how to fine-tune project access, check out our [full guide on organizations](/guides/organizations.md).
+
+As an added bonus, you can upload your own logo to appear on your projects' loading screen and as a watermark on [shared & embedded maps](/overview/collaboration.md#create-a-shareembed-link). You can also use [Google Analytics tracking tools](/guides/tracking.html) to monitor who is viewing your maps, what they're clicking on, and when that is happening.
 
 Just like personal accounts, organization accounts can be created for free, and can own unlimited public projects. Private projects are a paid service, and we've listed the pricing options in the table below.
 
