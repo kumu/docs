@@ -34,6 +34,18 @@ Are you using image URLs and not seeing images on the map? Here are a few steps 
 
 With decorations, you can create rules that add the same image to multiple elements. To do this, [open the element decoration builder](/guides/decorate.html#refine-your-decorations), select which elements the rule will apply to, and check the box next to "Add image". You'll be prompted to add an image URL or upload an image from your computer, and your image will be added to the selected elements.
 
+You can also use [advanced decorations](/guides/decorate.html#decorate-in-the-advanced-editor) to add images and tweak their appearance on the map. In a decoration in the Advanced Editor, use the `image-url` property to set the image url for your selection, and use the `image-visibility` property to hide images or make them visible on the map. You can also use the `image-size` property to choose whether images on the map will completely cover their parent elements, or be fully contained inside the parent element.
+
+```
+#my-element {
+  image-url: url(https://example.com/my-element-image.png);
+  image-size: contain;
+  image-visibility: visible;
+}
+```
+
+Be sure to check out our [property reference](/guides/property-reference.html) for full documentation on properties that can be used in the Advanced Editor.
+
 
 ## Add a background image
 
