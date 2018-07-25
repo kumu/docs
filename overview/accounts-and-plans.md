@@ -60,7 +60,7 @@ Kumu's organization accounts are a great fit for teams of people that have sever
 
 When you own an organization account, you can add other people to your organization (or invite your team via email) and assign one of two roles to those people:
 - **Owners** can add new members, and they have full access to everything within the organization. The creator of the organization account is an Owner by default. Owners also have admin access to update billing and profile information.
-- **Members** can see a list of all projects owned by the organization, and they can created new projects, but they can only open projects they've been given access to.
+- **Members** can see a list of all projects owned by the organization, and they can create new projects, but they can only open projects they've been given access to.
 
 With an organization account, you can also add contributors directly to a project—this comes in handy when you want to give a client or consultant access to a few projects without formally adding them to your Kumu organization.
 
