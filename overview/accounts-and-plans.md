@@ -62,8 +62,6 @@ When you own an organization account, you can add other people to your organizat
 - **Owners** can add new members, and they have full access to everything within the organization. The creator of the organization account is an Owner by default. Owners also have admin access to update billing and profile information.
 - **Members** can see a list of all projects owned by the organization, and they can create new projects, but they can only open projects they've been given access to.
 
-With an organization account, you can also add contributors directly to a project—this comes in handy when you want to give a client or consultant access to a few projects without formally adding them to your Kumu organization.
-
 For every project owned by your organization account, you have full control over whether people can view, edit, or administrate the project. For more details on how to fine-tune project access, check out our [full guide on organizations](/guides/organizations.md).
 
 As an added bonus, you can upload your own logo to appear on your projects' loading screen and as a watermark on [shared & embedded maps](/overview/collaboration.md#create-a-shareembed-link). You can also use [Google Analytics tracking tools](/guides/tracking.html) to monitor who is viewing your maps, what they're clicking on, and when that is happening.
