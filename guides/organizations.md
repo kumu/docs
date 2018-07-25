@@ -19,7 +19,7 @@ Go to your [personal account's dashboard](https://kumu.io/dashboard), then navig
 After you create your organization, you can start inviting other Kumu users to join. Users can be invited to be owners or members:
 
 - **Owners** can add new members, and they have full access to everything within the organization. The creator of the organization account is an Owner by default. Owners also have admin access to update billing and profile information.
-- **Members** can see a list of all projects owned by the organization, and they can create new projects, but they can only open projects they've been [given access to](#grant-access-to-projects).
+- **Members** can see a list of all projects owned by the organization, and they can create new projects, but they can only open projects they've been [given access to](#grant-direct-access-to-projects).
 
 
 ## Create a project
@@ -33,9 +33,9 @@ Once you have a project, you can start granting access to other users. If you ha
 
 ![project add users](/images/organization-project-users.png)
 
-These users can be existing members of your organization, but you can also add any personal Kumu account. This is useful when, for example, you're creating a project for a client, and you want them to view one project but don't want to add them to your Kumu organization.
+These users can be existing members of your organization, but you can also add any personal Kumu account. This is useful when, for example, you're creating a project for a client, and you want them to view that project, but you don't want to add them to your Kumu organization.
 
-You can then grant those users one of three access roles:
+You can grant users one of three project access roles:
 
 - **Observers** can only view the project—they can't make any changes
 - **Contributors** can view and edit the project
