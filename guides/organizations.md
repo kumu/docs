@@ -56,7 +56,6 @@ To create a team, go to your organization dashboard and click the **New Team** b
 
 When your team is all set up, click on one of your organization's projects to bring up the project access modal. Choose whether the team has no access, view-only access, edit access, or admin access (includes the ability to add users to the project, rename the project, and delete the project).
 
-
 ![organization project team access modal](/images/organization-project-team-access.png)
 
 Now that you've mastered the basics of adding users, check out the next sections to learn how to use other features exclusive to organization accounts.
