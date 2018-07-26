@@ -356,6 +356,26 @@ and its core (image / bullseye).
 "></i></td>
   </tr>
 
+  <tr data-property="prepost-inset">
+    <td>prepost-inset</td>
+    <td></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></i></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the inset of pre-labels and post-labels.
+<br><code>number</code>
+"></i></td>
+  </tr>
+
+  <tr data-property="prepost-offset">
+    <td>prepost-offset</td>
+    <td></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></i></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the offset of pre-labels and post-labels.
+<br><code>number</code>
+"></i></td>
+  </tr>
+
   <tr data-property="scale">
     <td>scale</td>
     <td><i class="fa fa-check"></i></td>
