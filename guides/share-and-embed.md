@@ -29,7 +29,6 @@ By default, embeds include all of the built-in map controls (search, zoom, and s
 - `settings=0` hides the settings button
 - `bare=1` hides all built-in controls
 - `simple=1` hides all controls except the zoom buttons
-- `scroll=1` enables scroll-based zooming (disabled by default to avoid interfering with the 
 
 To use them, just add the desired parameters to the query string of the embed URL.
 
