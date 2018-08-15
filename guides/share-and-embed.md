@@ -46,6 +46,8 @@ Also, if you are using more than one custom parameter, join them together with `
 embed.kumu.io/abc123?zoom=0&settings=0
 ```
 
+To avoid interfering with page scrolling, scroll-based zooming is disabled when embeds are served within iframes. You can use `scroll=1` if you would like to restore the default scroll behavior.
+
 ## Embed a presentation
 
 In Kumu, you can create [presentations](/guides/presentations.md) to walk your readers through a map, step-by-step. You can also embed presentations on other websites—[check out the presentations guide](/guides/presentations.md#embed-a-presentation).
