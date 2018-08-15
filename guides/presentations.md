@@ -7,11 +7,11 @@ Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-u
 
 ## Create a presentation
 
-Presentations can be accessed through the main menu of your project.
+Presentations can be accessed through the main menu of your project. When you create a new presentation, you'll land on a title slide, to which you can add a title, subtitle, and background image.
 
 ![presentations interface](/images/presentations-ui.png)
 
-Use the plus button in the upper left corner to add a slide. Slides can be one of 4 types:
+Use the plus button in the upper left corner to add a slide. After the title slide, your added slides can be one of 4 types:
 
 * Map
 * Text
@@ -40,6 +40,12 @@ Embed slides are for interactive web content and support embeds from over [300 d
 ## Publish a presentation
 
 Once you're finished creating your presentation, click save and then exit the presentation builder. Click "publish" to publish the presentation and choose whether you'd like to make the presentation public (unless your project is public in which case your presentation is automatically public) or if you'd like to make it even more secure by adding a password.
+
+After you publish, Kumu will give you a link that you and your audience can use to view your presentation.
+
+<p class="alert alert-info">
+Want to skip your title slide when you view the presentation? Just add <code>/embed</code> to the end of the presentation's link (only supported for public presentations, not private ones).
+</p>
 
 
 ## Embed a presentation
