@@ -269,7 +269,7 @@ table.controls-reference {
 /* pricing plan table */
 
 table.plan-table {
-  width: 60%;
+  width: 70%;
 }
 
 table.plan-table tr *:not(:first-child) {

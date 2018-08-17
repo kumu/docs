@@ -24,30 +24,36 @@ Not sure which type of project you need? [Check out our guide on collaborating a
   <tr>
     <th>Plan</th>
     <th>Monthly Price</th>
+    <th>Annual Price</th>
     <th>Private projects</th>
   </tr>
   <tr>
     <td>Master</td>
     <td>$49</td>
+    <td>$470</td>
     <td>10</td>
   </tr>
   <tr>
     <td>Journeyman</td>
     <td>$34</td>
+    <td>$326</td>
     <td>5</td>
   </tr>
   <tr>
     <td>Apprentice</td>
     <td>$23</td>
+    <td>$220</td>
     <td>3</td>
   </tr>
   <tr>
     <td>Junior</td>
     <td>$9</td>
+    <td>$86</td>
     <td>1</td>
   </tr>
   <tr>
     <td>Free</td>
+    <td>$0</td>
     <td>$0</td>
     <td>0</td>
   </tr>
@@ -74,36 +80,43 @@ Just like personal accounts, organization accounts can be created for free, and 
 <table class="plan-table table borderless">
   <tr>
     <th>Plan</th>
-    <th class="text-right">Monthly Price</th>
-    <th class="text-right">Private projects</th>
+    <th>Monthly Price</th>
+    <th>Annual Price</th>
+    <th>Private projects</th>
   </tr>
   <tr>
     <td>Large</td>
     <td>$499</td>
+    <td>$4790</td>
     <td>50</td>
   </tr>
   <tr>
     <td>Medium</td>
     <td>$299</td>
+    <td>$2870</td>
     <td>20</td>
   </tr>
   <tr>
     <td>Small</td>
     <td>$179</td>
+    <td>$1718</td>
     <td>10</td>
   </tr>
   <tr>
     <td>Micro</td>
     <td>$99</td>
+    <td>$950</td>
     <td>5</td>
   </tr>
   <tr>
     <td>Nano</td>
     <td>$59</td>
+    <td>$566</td>
     <td>3</td>
   </tr>
   <tr>
     <td>Free</td>
+    <td>$0</td>
     <td>$0</td>
     <td>0</td>
   </tr>
