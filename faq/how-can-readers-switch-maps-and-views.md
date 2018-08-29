@@ -29,7 +29,7 @@ To create a link to another view, you'll use this pattern:
 ```
 Replace `link label` with descriptive text. This is what your readers will see when they're looking at your links.
 
-Then, replace `map-slug` with what we call the "slug" of your map, which is essentially the map name with all special characters removed, all letters changed to lowercase, and all spaces replaced with hyphens. The easiest way to find your `map-slug` is to look at the URL bar when your map is open. The pattern of the URL on any project is:
+Then, replace `map-slug` with the [slug](/guides/slugs.html) of your map. The easiest way to find your `map-slug` is to look at the URL bar when your map is open. The pattern of the URL on any project is:
 
 ```
 https://kumu.io/YourUsername/project-slug#map-slug/view-slug
