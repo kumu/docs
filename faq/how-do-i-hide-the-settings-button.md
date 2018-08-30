@@ -17,6 +17,8 @@ Then, click **SAVE** at the bottom of the editor to save your changes.
 
 This snippet of code will instruct Kumu to show only the zoom toolbar and—when an item is selected on the map—the focus toolbar. The settings button will no longer appear.
 
+For more info on how and why this works, check out [our full guide on built-in controls](/guides/controls.html#built-in-controls).
+
 <p class="alert alert-warning">
 Even if the settings button is hidden, it's always possible to open the settings panel by pressing <code>T</code> on your keyboard.
 </p>

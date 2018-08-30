@@ -30,7 +30,7 @@ To unlock the full set of flexible controls features, you can use the [Advanced 
 }
 ```
 
-In general, controls are defined with the `@controls` block, grouped into regions, and customized using properties. You can add multiple controls to a region and even override the built-in controls built into Kumu. Here's the general syntax that shows how multiple regions can be used, and how multiple controls can be added to the same region:
+In general, controls are defined with the `@controls` block, grouped into regions, and customized using properties. You can add multiple controls to a region, and even override or move Kumu's built-in controls. Here's the general syntax that shows how multiple regions can be used, and how multiple controls can be added to the same region:
 
 ```
 @controls {
@@ -166,7 +166,7 @@ To group controls, use the following `group` syntax:
 The properties that get set underneath `group` will apply to all controls nested inside the group. And before you ask—yes, it's possible to nest groups inside of other groups as well!
 
 
-#### Overriding built-in controls
+#### Built-in controls
 
 All of Kumu's built-in controls (search, zoom buttons, settings buttons, and legend) are handled by the same platform that custom controls are built on. That means you can move the built-in controls around, omit ones you don't need, or even reset the built-in controls and start from scratch.
 
