@@ -125,5 +125,6 @@
 * [How do I change element shapes from circles to squares?](faq/how-do-i-change-element-shapes-from-circles-to-squares.md)
 * [How do I change the position of my element labels?](faq/how-do-i-change-element-text-position.md)
 * [How do I hide images from the map but keep them in the profile?](faq/how-do-i-hide-images-from-the-map.md)
+* [How do I hide the settings button?](faq/how-do-i-hide-the-settings-button.md)
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
 * [How can my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
