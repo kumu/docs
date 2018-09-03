@@ -41,6 +41,36 @@ If you find a property or a value that's not documented here, [let us know](mail
 "></i></td>
   </tr>
 
+  <tr data-property="arrow-height">
+    <td>arrow-height</td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-min-height</code> to set arrow height.
+<br><code>number</code>
+"></i></td>
+  </tr>
+
+  <tr data-property="arrow-min-height">
+    <td>arrow-min-height</td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-height</code> to set arrow height.
+<br><code>number</code>
+"></i></td>
+  </tr>
+
+  <tr data-property="arrow-min-width">
+    <td>arrow-min-width</td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-width</code> to set arrow width.
+<br><code>number</code>
+"></i></td>
+  </tr>
+
   <tr data-property="arrow-visibility">
     <td>arrow-visibility</td>
     <td></td>
@@ -49,6 +79,16 @@ If you find a property or a value that's not documented here, [let us know](mail
     <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls arrow visibility for directed connections.
 <br><code>visible</code><br><code>hidden</code>
 "></i></button></td>
+  </tr>
+
+  <tr data-property="arrow-width">
+    <td>arrow-width</td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-min-width</code> to set arrow width.
+<br><code>number</code>
+"></i></td>
   </tr>
 
   <tr data-property="border-color">
