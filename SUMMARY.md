@@ -99,6 +99,7 @@
 * [Getting started with VirtualBox](enterprise/getting-started-with-virtualbox.md)
 * [Upgrading](enterprise/upgrading.md)
 * [Configuration](enterprise/configuration.md)
+* [Creating user accounts](enterprise/creating-user-accounts.md)
 * [SSH Access](enterprise/ssh-access.md)
 * [Backing up enterprise data](enterprise/backing-up-enterprise-data.md)
 * [Restoring enterprise data](enterprise/restoring-enterprise-data.md)
