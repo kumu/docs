@@ -1,10 +1,10 @@
-# Default settings
+# Default view settings
 
-The **Default settings** tool in the [Basic Editor](/overview/view-editors.html#basic-editor) is your one-stop-shop for adjusting the underlying settings in your Kumu map. Templates, layouts, default element and connection styles, and more can all be changed in this tool.
+The **Default view settings** tool in the [Basic Editor](/overview/view-editors.html#basic-editor) is your one-stop-shop for adjusting the underlying settings in your Kumu map. Templates, layouts, default element and connection styles, and more can all be changed in this tool.
 
-![Default settings](/images/basic-editor-default-settings.png)
+![Default view settings](/images/basic-editor-default-settings.png)
 
-You can find the **Default settings** tool by clicking the Settings icon <i class="fa fa-sliders"></i> on the right side of your map, then clicking **MORE OPTIONS** and selecting **Customize defaults**.
+You can find the **Default view settings** tool by clicking the Settings icon <i class="fa fa-sliders"></i> on the right side of your map, then clicking **MORE OPTIONS** and selecting **Customize view defaults**.
 
 The tool has up to six sections, depending on the [template](/guides/templates.html) and [layout](/guides/layouts.html) you're using: Template settings, Element defaults, Connection defaults, Font defaults, Layout settings, and General settings.
 
@@ -36,4 +36,4 @@ The General settings section allows you change your theme, template, quality, an
 
 **Layout** allows you to choose between the [fixed layout](/guides/layouts/fixed.html) (select "off" from the dropdown) or [force-directed layout](/guides/layouts/force-directed.html).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/default-settings.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/default-view-settings.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

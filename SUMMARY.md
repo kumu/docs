@@ -40,7 +40,7 @@
   * [Image control](guides/controls/image-control.md)
   * [SNA-dashboard control](guides/controls/sna-dashboard-control.md)
   * [Controls reference](/guides/controls/controls-reference.md)
-* [Default settings](guides/default-settings.md)
+* [Default view settings](guides/default-view-settings.md)
 * [Disciplines](#)
   * [SNA / Network Mapping](guides/sna-network-mapping.md)
   * [System mapping](guides/system-mapping.md)
