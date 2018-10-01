@@ -129,3 +129,4 @@
 * [How do I hide the settings button?](faq/how-do-i-hide-the-settings-button.md)
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
 * [How can my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
+* [How much data can my Kumu project handle?](faq/how-much-data-can-kumu-handle.md)
