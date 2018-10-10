@@ -23,11 +23,11 @@ You can also use this to assign specific strength and size values based on quali
 
 ```
 connection["level of influence"="high"] {
-  connection-strength: 1;
+  strength: 1;
 }
 
 connection["level of influence"="low"] {
-  connection-strength: 0.2;
+  strength: 0.2;
 }
 
 ```
