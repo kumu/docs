@@ -269,7 +269,7 @@ table.controls-reference {
 /* pricing plan table */
 
 table.plan-table {
-  width: 70%;
+  
 }
 
 table.plan-table tr *:not(:first-child) {
@@ -566,6 +566,7 @@ video {
   line-height: 1;
   font-family: "Proxima Nova", Helvetica, Arial, sans-serif !important;
 }
+
 
 /* FAQ guides hidden in menu */
 
