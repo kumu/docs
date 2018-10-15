@@ -30,48 +30,48 @@ Before we switched to per-project pricing, we offered a suite of plans that gran
     <th>Private projects</th>
     <th>Monthly Price</th>
     <th>Annual Price</th>
-    <th><strong>New monthly price</strong></th>
-    <th><strong>New annual price</strong></th>
+    <!-- <th><strong>New monthly price</strong></th>
+    <th><strong>New annual price</strong></th> -->
   </tr>
   <tr>
     <td>Master</td>
     <td>10</td>
     <td>$49</td>
     <td>$470</td>
-    <td>$90</td>
-    <td>$864</td>
+    <!-- <td>$90</td>
+    <td>$864</td> -->
   </tr>
   <tr>
     <td>Journeyman</td>
     <td>5</td>
     <td>$34</td>
     <td>$326</td>
-    <td>$45</td>
-    <td>$432</td>
+    <!-- <td>$45</td>
+    <td>$432</td> -->
   </tr>
   <tr>
     <td>Apprentice</td>
     <td>3</td>
     <td>$23</td>
     <td>$220</td>
-    <td>$27</td>
-    <td>$259</td>
+    <!-- <td>$27</td>
+    <td>$259</td> -->
   </tr>
   <tr>
     <td>Junior</td>
     <td>1</td>
     <td>$9</td>
     <td>$86</td>
-    <td>$9</td>
-    <td>$86</td>
+    <!-- <td>$9</td>
+    <td>$86</td> -->
   </tr>
   <tr>
     <td>Free</td>
     <td>0</td>
     <td>$0</td>
     <td>$0</td>
-    <td>$0</td>
-    <td>$0</td>
+    <!-- <td>$0</td>
+    <td>$0</td> -->
   </tr>
 </table>
 
@@ -105,56 +105,56 @@ Before we switched to per-project pricing, we offered a suite of plans that gran
     <th>Private projects</th>
     <th>Monthly Price</th>
     <th>Annual Price</th>
-    <th><strong>New monthly price</strong></th>
-    <th><strong>New annual price</strong></th>
+    <!-- <th><strong>New monthly price</strong></th>
+    <th><strong>New annual price</strong></th> -->
   </tr>
   <tr>
     <td>Large</td>
     <td>50</td>
     <td>$499</td>
     <td>$4790</td>
-    <td>$1010</td>
-    <td>$9696</td>
+    <!-- <td>$1010</td>
+    <td>$9696</td> -->
   </tr>
   <tr>
     <td>Medium</td>
     <td>20</td>
     <td>$299</td>
     <td>$2870</td>
-    <td>$410</td>
-    <td>$3936</td>
+    <!-- <td>$410</td>
+    <td>$3936</td> -->
   </tr>
   <tr>
     <td>Small</td>
     <td>10</td>
     <td>$179</td>
     <td>$1718</td>
-    <td>$210</td>
-    <td>$2016</td>
+    <!-- <td>$210</td>
+    <td>$2016</td> -->
   </tr>
   <tr>
     <td>Micro</td>
     <td>5</td>
     <td>$99</td>
     <td>$950</td>
-    <td>$110</td>
-    <td>$1056</td>
+    <!-- <td>$110</td>
+    <td>$1056</td> -->
   </tr>
   <tr>
     <td>Nano</td>
     <td>3</td>
     <td>$59</td>
     <td>$566</td>
-    <td>$70</td>
-    <td>$672</td>
+    <!-- <td>$70</td>
+    <td>$672</td> -->
   </tr>
   <tr>
     <td>Free</td>
     <td>0</td>
     <td>$0</td>
     <td>$0</td>
-    <td>$10</td>
-    <td>$96</td>
+    <!-- <td>$10</td>
+    <td>$96</td> -->
   </tr>
 </table>
 

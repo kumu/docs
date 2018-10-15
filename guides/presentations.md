@@ -56,4 +56,17 @@ Presentations can also be embedded just like any other Kumu embed: as an `iframe
 
 Copy/paste the code onto your website, and you're visitors will see a fully interactive Kumu presentation!
 
+
+## Autoplay a presentation
+
+If you want your presentation to automatically advance to the next slide, you can use Kumu's autoplay feature. This feature isn't available in the user interface yet, but you can activate it by adding parameters to your presentation URL, following this format:
+
+```
+yourusername.kumu.io/your-presentation?autoplay=10
+```
+
+The first piece of this URL, `yourusername.kumu.io/your-presentation` is the default URL Kumu creates when you publish your presentation. To autoplay, just add `?autoplay=` and the number of seconds you want to wait between each slide. In the example above, `?autoplay=10` tells Kumu to wait ten seconds, then advance to the next slide.
+
+When you have autoplay enabled on a presentation, Kumu will automatically loop around to the first slide after it reaches the end of the presentation.
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/presentations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
