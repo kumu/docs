@@ -4,13 +4,13 @@ Organization accounts allow multiple Kumu users to collaborate seamlessly, with 
 
 In addition to flexible user management, organization accounts also have access to these exclusive features:
 - **Free, on-demand PDFs.** Say goodbye to $5 charges and say hello to unlimited, automated PDFs. Need tweaks the automated process can’t handle? Email us to request a PDF, free of charge, with a ~ 1 day turnaround.
-- **Private project archiving.** Have private projects you want to continue to share through Kumu but don’t need to edit? Simply archive the project and you’ll no longer need to pay for it.
-- **Project-wide activity feed.** Collaborating with a large team to build out your map? Use the activity feed to keep tabs on who’s making what changes across your project.
+- **[Private project archiving](/guides/archiving-projects.html).** Have private projects you want to continue to share through Kumu but don’t need to edit? Simply archive the project and you’ll no longer need to pay for it.
+- **Project-wide activity feed.** Collaborating with a large team to build out your map? Use the activity feed to keep tabs on who’s making each change across your project.
 - **Real-time, embedded comments.** You’ve done the work of building your map, let us do the heavy lifting to collect the feedback. Engage in discussions and link them to specific elements, connections, and loops. Use comments to brainstorm ideas and make it easy for others to give feedback while you’re building out your map.
 - **Two factor authentication.** Activate two factor authentication to keep your account secure. Require 2FA for everyone accessing projects within the organization.
 - **Hourly backups, retained for six months.** Map freely, knowing you have backups of your project data in case you make a mistake.
 - **Customized branding.** Replace Kumu's logos with your own to align your projects with your brand.
-- **Google Analytics tracking.** See how many people are visiting your maps, what items those people are clicking on, and when all that activity is happening. 
+- **Google Analytics tracking.** See how many people are visiting your maps, what items those people are clicking on, and when all that activity is happening.
 
 
 ## Create an organization
