@@ -17,13 +17,13 @@ Within the project settings, you have the following options:
 
 * **Overview.** Add a project overview and a [license](/guides/licensing.html) for everyone to see.
 * **Presentations.** Create, edit, and publish [presentations](/guides/presentations.md) to walk others through your project. Break down your complex project using the slide format of presentations, adding text, images, videos, and fully interactive map slides.
-* <span data-placement="top" data-html="true" title="Available for organizations only" style="border-bottom: 1.5px dashed black"><strong>Activity feed.</strong></span> Keep tabs on who’s making each change across your project.
+* <span data-placement="top" data-html="true" title="Available for organizations only" style="border-bottom: 1.5px dashed black"><strong>Activity feed.</strong></span> Use the activity feed to keep tabs on who’s making each change across your project.
 * **Help.** Access how-to videos, the docs, [our open Slack team](chat.kumu.io), and a list of keyboard shortcuts.
 * **Fields.** Manage the [fields](/guides/fields.html) for your project. Add and edit new fields, change field relevance (which fields appear in the profiles for elements, connections, and loops), and manage field appearance and behavior.
 * **Members.** Give other people access to edit your map. [Learn more about collaborating in Kumu](/overview/collaboration.md).
 * **Embeds.** Create a shareable link to a map, or create an iFrame to [embed your map](/guides/share-and-embed.html) on another site.
 * **Trash.** View and empty the [trash](/overview/kumus-architecture.html#trash) for your project.
-* **Admin.** Change privacy, rename the project, <span data-placement="top" data-html="true" title="Available for organizations only" style="border-bottom: 1.5px dashed black">archive</span> the project, or delete the project. You can also enable/disable the image proxy when [working with images](/guides/images.html).
+* **Admin.** Change privacy, rename the project, <span data-placement="top" data-html="true" title="Available for organizations only"><a href="/guides/archiving-projects.html">archive the project</a></span>, or delete the project. You can also enable/disable the image proxy when [working with images](/guides/images.html).
 * **Add-ons.** Install one of Kumu's [add-ons](/guides/add-ons.html).
 * **Fork project.** Create a copy of a project. [Learn more about forking](/guides/forking.html).
 * **Switch project.** Navigate back to your [dashboard](/overview/dashboard.html).

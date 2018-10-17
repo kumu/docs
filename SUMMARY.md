@@ -62,6 +62,7 @@
 * [Metrics](guides/metrics.md)
 * [Organizations](guides/organizations.md)
   * [Archiving projects](guides/archiving-projects.md)
+  * [Issues](guides/issues.md)
 * [Views](guides/views.md)
   * [Filter](guides/filter.md)
   * [Cluster](guides/clustering.md)

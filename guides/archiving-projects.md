@@ -1,6 +1,6 @@
 # Archiving projects
 
-Archiving projects—an exclusive feature for [organization accounts](/guides/organizations.html)—is a great way to reduce your private project expenses _without_ deleting projects or making them public.
+Archiving projects (an exclusive feature for [organization accounts](/guides/organizations.html)) is a great way to reduce your private project expenses _without_ deleting projects or making them public.
 
 An archived private project will stay private, and you can view the project, its [presentations](/guides/presentations.html), and its [shared/embedded versions](/guides/share-and-embed.html) at any time. Archived projects don't incur monthly charges, and if you archive in the middle of a billing period, your next charge will be pro-rated.
 
