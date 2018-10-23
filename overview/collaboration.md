@@ -84,7 +84,7 @@ To quickly snap a JPEG screenshot of your map, click the ellipsis icon <i class=
 
 When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
 
-If you need a hi-res screenshot that can scale up or down to any size (for example, when you're printing a Kumu map on a large poster), we can create hi-res PDF files for $9 each. Simply email [prints@kumu.io](mailto:prints@kumu.io) and include a link to your map(s), and we'll email you a hi-res PDF version of your map.
+If you need a hi-res screenshot that can scale up or down to any size (for example, when you're printing a Kumu map on a large poster), we can create hi-res PDF files for $5 each. Simply email [prints@kumu.io](mailto:prints@kumu.io) and include a link to your map(s), and we'll email you a hi-res PDF version of your map. [Organization accounts](/guides/organizations.html) can bypass this process—they have access to free, unlimited, on-demand PDFs at all times via the same ellipsis icon <i class="fa fa-ellipsis-h">  </i>.
 
 We aim to complete all PDF orders within 24 hours of receiving them (and we're usually much faster!). If you have an urgent PDF request, or you know in advance that we'll need to fill your order quickly, just let us know at the same email address, [prints@kumu.io](mailto:prints@kumu.io).
 
