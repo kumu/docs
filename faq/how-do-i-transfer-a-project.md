@@ -1,6 +1,10 @@
 # How do I transfer a project?
 
-Within Kumu you can either transfer a project to another user's personal account, or to an organization.
+Within Kumu you can either transfer a project to another user's personal account, or to an [organization](/guides.organizations.html).
+
+<p class="alert alert-info">
+Currently, only the Kumu core team can transfer projects from organizations to personal accounts. If you need to transfer from an organization to a personal account, please <a class="alert-link" href="mailto:support@kumu.io" target="_blank" rel="noopener">contact support</a>.
+</p>
 
 ### Transfer to a personal account
 
