@@ -16,6 +16,8 @@ To add more private projects to a monthly personal or organization account, you 
 
 To remove private projects from the monthly bill, personal accounts can [delete the projects](/faq/how-do-i-delete-a-project.html), and organization accounts can either [delete](/faq/how-do-i-delete-a-project.html) or [archive](/guides/archiving-projects.html) the projects.
 
+When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill.
+
 
 #### Annual billing
 
@@ -27,6 +29,8 @@ However, you can increase or decrease your private project limit at any time dur
 
 ![Annual project limit](/images/billing-settings-annual-organization.png)
 
+When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle, and charges the card on file immediately.
+
 <p class="alert alert-warning">
 When you increase your private project limit on an annual plan, a prorated charge will be billed immediately to the credit card on file. If you need to pay by invoice instead of by credit card, please <a class="alert-link" href="mailto:support@kumu.io">reach out Kumu support</a> before increasing your project limit.
 </p>
@@ -35,36 +39,6 @@ When you increase your private project limit on an annual plan, a prorated charg
 #### Enterprise billing
 
 If you're using the [Enterprise version of Kumu](/overview/accounts-and-plans.html#enterprise-version), you'll be billed according to how many users you have, instead of how many projects you have. Enterprise customers are billed annually, and seats are sold in packs of 5 users.
-
-
-## Prorated charges
-
-When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle.
-
-#### Monthly prorating
-When you [create](/getting-started/first-steps.html#create-your-first-project) a private project, our billing system follows these steps:
-
-1. It calculates the remaining time in your billing cycle (down to the second)
-1. It prorates the cost of your private project, based on the remaining time in your cycle
-1. It adds the prorated cost onto your next monthly bill ????
-
-When you [delete](/faq/how-do-i-delete-a-project.html) or [archive](/guides/archiving-projects.html) private projects, our billing system follows these steps:
-
-1. It calculates the remaining time in your billing cycle (down to the second)
-1. It prorates a refund on your private project, based on the remaining time in your cycle
-1. It subtracts that refund from your next monthly bill.
-
-Note that if your monthly bill is a negative amount after subtracting the refund, you won't receive money back—rather, your account will receive a credit, and it will use that credit to pay for future bills.
-
-For example, if you had three private personal projects, and cancelled two of them one second after your billing cycle started, your next bill would be -$9.00, or nine dollars minus eighteen dollars. Your account would receive a $9 credit, and it would use that credit to pay for the following month's bill.
-
-
-#### Annual prorating
-
-Annual prorating works almost exactly the same as monthly prorating—it is only different in two ways:
-
-1. Creating, deleting, and archiving projects does not affect your bill. To increase/decrease your bill, you can [adjust your private project limit](#annual-billing).
-1. Kumu will not wait until your next billing cycle to charge for an increased private project limit. Instead, it will charge a prorated amount to the credit card on file immediately after you increase your limit. If you need to pay by invoice instead of by credit card, please [reach out Kumu support](mailto:support@kumu.io) before increasing your project limit.
 
 
 ## Payment receipts
