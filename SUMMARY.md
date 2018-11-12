@@ -23,6 +23,7 @@
   * [View editors](overview/view-editors.md)
   * [Settings](overview/settings.md)
 * [Collaborating and sharing](overview/collaboration.md)
+* [Security](overview/security.md)
 
 ## Guides
 * [Add-ons](guides/add-ons.md)

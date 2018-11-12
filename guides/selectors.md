@@ -197,6 +197,10 @@ Here are some examples:
 ["description" *= "kumu"]   // select all items whose description text contains "kumu"
 ```
 
+<p class="alert alert-info">
+When using the <strong>Type</strong> field in longhand selectors, you need to specify whether it is <strong>Element</strong> Type, <strong>Connection</strong> Type, or <strong>Loop</strong> Type. For example, use <code>"connection type"</code> instead of just <code>"type"</code> when selecting by connection type.
+</p>
+
 Here are a few more examples, using **relative** operators (greater-than, less-than, greater-than-or-equal-to, and less-than-or-equal-to):
 
 ```

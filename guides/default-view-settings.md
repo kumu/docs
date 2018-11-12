@@ -16,7 +16,7 @@ This section, which is only available for the systems, stock and flow, and causa
 
 ## Element, Connection, and Font defaults
 
-These two sections allow you to change colors, sizes, widths, and other styles for all your elements and connections. Font defaults will apply to loops, as well.
+These three sections allow you to change colors, sizes, widths, and other styles for all your elements and connections. Font defaults will apply to loops, as well.
 
 Note that any [decorations](/guides/decorate.html) you have created will override your default settings.
 

@@ -25,6 +25,10 @@ element {
 }
 ```
 
+<p class="alert alert-info">
+When using the <strong>Type</strong> field in popovers, you need to specify whether it is <strong>Element</strong> Type, <strong>Connection</strong> Type, or <strong>Loop</strong> Type. For example, use <code>{% raw %}{{connection type}}{% endraw %}</code> when adding Type to a connection's popover.
+</p>
+
 ## Using markdown to style the popover
 
 You can use [markdown](/guides/markdown.html) to add italics, bold text, videos, and more to your popover. You can also add double spaces to create line breaks.

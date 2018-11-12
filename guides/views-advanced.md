@@ -183,9 +183,13 @@ Just use the `{{field name}}` format to bring in dynamic field values. Don't for
 
 ```
 @settings {
-  element-label: "{{label}}  {{location}}";
+  element-label: "{{label}}  {{element type}}  {{location}}";
 }
 ```
+
+<p class="alert alert-info">
+When using the <strong>Type</strong> field in label templates, you need to specify whether it is <strong>Element</strong> Type, <strong>Connection</strong> Type, or <strong>Loop</strong> Type. For example, use <code>{% raw %}{{element type}}{% endraw %}</code> instead of just <code>{% raw %}{{type}}{% endraw %}</code> when adding element type to the label template.
+</p>
 
 Head over to the [blog](http://blog.kumu.io/introducing-label-templates/) for tips on how to make the most of [label templates](http://blog.kumu.io/introducing-label-templates/).
 
