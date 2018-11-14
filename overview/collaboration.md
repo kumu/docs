@@ -84,9 +84,13 @@ To quickly snap a JPEG screenshot of your map, click the ellipsis icon <i class=
 
 When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
 
-If you need a hi-res screenshot that can scale up or down to any size (for example, when you're printing a Kumu map on a large poster), we can create hi-res PDF files for $5 each. Simply email [prints@kumu.io](mailto:prints@kumu.io) and include a link to your map(s), and we'll email you a hi-res PDF version of your map. [Organization accounts](/guides/organizations.html) can bypass this process—they have access to free, unlimited, on-demand PDFs at all times via the same ellipsis icon <i class="fa fa-ellipsis-h">  </i>.
+If you need a hi-res screenshot that can scale up or down to any size (for example, when you're printing a Kumu map on a large poster), we can create hi-res PDF files.
 
-We aim to complete all PDF orders within 24 hours of receiving them (and we're usually much faster!). If you have an urgent PDF request, or you know in advance that we'll need to fill your order quickly, just let us know at the same email address, [prints@kumu.io](mailto:prints@kumu.io).
+If you have a personal account, PDFs cost $5 each, and all you need to do is click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> and select **Request PDF**. We'll email you a hi-res PDF version of your map, typically within one business day.
+
+[Organization accounts](/guides/organizations.html) can bypass this process—they have access to free, unlimited, on-demand PDFs at all times via the same ellipsis icon <i class="fa fa-ellipsis-h">  </i>.
+
+We aim to complete all PDF orders for personal accounts within one business day. If you have an urgent PDF request, or you know in advance that we'll need to fill your order quickly, just let us know at [prints@kumu.io](mailto:prints@kumu.io).
 
 <p class="alert alert-info">
 Want to make sure your labels are readable on your PDF or screenshot? <a class="alert-link" href="/guides/layouts/remove-overlap.html">Learn how to remove label overlap</a>.
