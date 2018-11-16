@@ -110,6 +110,10 @@ And here's a sample connection import spreadsheet:
   <b>Get your hands dirty!</b> <a class="alert-link" href="../content/paypal-mafia.xlsx" target="_blank" class="_">Click here to download a sample import file</a> for the <a class="alert-link" target="_blank" class="_" href="https://kumu.io/jeff/paypal-mafia">PayPal Mafia map</a>. You can examine this file to see how imports work with real data before creating your import file.
 </p>
 
+<p class="alert alert-info">
+  If you need to convert an <a class="alert-link" href="https://en.wikipedia.org/wiki/Adjacency_matrix" target="_blank" rel="noopener">adjacency matrix</a> to meet Kumu's format, check out the <a class="alert-link" href="https://alexvipond.github.io/matrix-expander/" target="_blank" rel="noopener">matrix expander</a>.
+</p>
+
 #### Ignore unneeded sheets
 
 Sometimes, you'll have other sheets in your Excel or Google Sheets workbook that aren't formatted for Kumu and shouldn't be imported, but need to stay in the workbook. If that's the case, just add `(ignore)` to the name of the sheet, and Kumu will ignore it during the upload.
