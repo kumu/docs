@@ -116,7 +116,7 @@
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
 * [How do I avoid duplicating data?](faq/how-do-I-avoid-duplicating-data.md)
 * [How do I change connection curvature?](faq/how-do-i-change-connection-curvature.md)
-* [How do I change element shapes from circles to squares?](faq/how-do-i-change-element-shapes-from-circles-to-squares.md)
+* [How do I change elements' shape?](faq/how-do-i-change-element-shape.md)
 * [How do I change font size?](faq/how-do-i-change-font-size.md)
 * [How do I change the length or strength of connections?](faq/how-to-change-length-of-connections.md)
 * [How do I change the position of my element labels?](faq/how-do-i-change-element-text-position.md)
