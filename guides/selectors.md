@@ -261,6 +261,15 @@ Use the `:focus` selector to select your focus root(s).
 ```
 
 
+#### Orphaned elements
+
+In graphs and networks, an element that has zero connections is often referred to as an **orphan**. In Kumu, you can use the `:orphan` pseudo-selector to select all the orphans on your map.
+
+```
+:orphan                // select all orphaned elements
+```
+
+
 #### Not
 
 The `:not` pseudo-selector is useful when you want to select items that **do not** match a selector. The basic syntax is `:not(selector)`.
@@ -269,7 +278,7 @@ To build your own, just replace `selector` with any valid selector. For example:
 
 ```
 :not(organization)       // select any item that doesn't have the element type "Organization"
-:not(:focus)             // select any item that is not a focus root
+:not(:orphan)            // select any item that is not an orphan, i.e. any item that has 1 or more connections
 :not([tags ~= "blue"])   // select any item whose Tags field does not include the tag "blue"
 ```
 
