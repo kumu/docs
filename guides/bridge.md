@@ -1,13 +1,13 @@
 # Bridge
 
-Kumu's bridge feature allows you to draw connections between two elements that have a "mutual friend"—an element in between that they're both connected to.
+Kumu's **bridge** feature allows you to automatically draw connections between any two elements that have a "mutual friend"—an element in between that they're both connected to.
 
-For example, if two people are connected to an organization on your map, you can use bridging to connect those two people directly, hiding the organization from view.
+For example, if two people are connected to an organization on your map, you can tell Kumu to bridge over the organization, connecting those two people directly and hiding the organization from view.
 
 
-## Activate bridging in the Advanced Editor
+## Bridge in the Advanced Editor
 
-To activate bridging in the Advanced Editor, here's the basic syntax:
+To bridge using the Advanced Editor, here's the basic syntax:
 ```
 @settings {
   bridge: selector;
@@ -36,7 +36,7 @@ In the example above, imagine that, instead of a network of people, projects, an
 - A "Projects" field inside each element, containing a list of each person's projects
 - An "Organization" field inside each element, indication which organization each person is affiliated with.
 
-Here's how you would use clustering and bridging to build a network of people connected to other people, based on the projects and organizations in their fields:
+Here's how you would cluster and bridge to build a network of people connected to other people, based on the projects and organizations in their fields:
 ```
 @settings {
   cluster: person by "Projects" as "Project", person by "Organization" as "Organization";
@@ -48,7 +48,7 @@ When reading this code, Kumu will follow these steps:
 1. Draw connections **from** each person **to** their projects and their organization
 1. **Bridge** over the projects and organizations, connecting people directly to other people
 
-You can also apply bridging to the elements created by clustering. Let's say you were working with that same dataset (elements represent people, with project and organization data stored in fields) and you wanted to see a network of organizations connected to other organizations. Here's how you can do that:
+You can also bridge between the elements created by clustering. Let's say you were working with that same dataset (elements represent people, with project and organization data stored in fields) and you wanted to see a network of organizations connected to other organizations. Here's how you can do that:
 
 ```
 @settings {
@@ -62,7 +62,7 @@ And remember: all of these settings are saved in [views](/overview/kumus-archite
 <p class="alert alert-info">
   Bridging has the ability to create a lot of new connections—so many that they might bog down your map!<br><br>
 
-  If you notice your map freezing or moving slowly after you use the bridge feature, check out our guide on <a class="alert-link" href="/faq/how-much-data-can-kumu-handle.html">Kumu's data limits</a> for more tips on how to improve speed.
+  If you notice your map freezing or moving slowly after you bridge, check out our guide on <a class="alert-link" href="/faq/how-much-data-can-kumu-handle.html">Kumu's data limits</a> for more tips on how to improve speed.
 </p>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/bridge.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
