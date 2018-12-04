@@ -157,6 +157,10 @@ To learn more about building views and creating specific types of rules, check o
         <td>Connect elements automatically, based on the information in their fields.</td>
     </tr>
     <tr>
+        <td><a href="/guides/bridge.html">Bridge</a></td>
+        <td>Connect elements based on their "mutual friends" (elements they're both connected to).</td>
+    </tr>
+    <tr>
         <td><a href="/guides/views-advanced.html#imported-views">Imported views</a></td>
         <td>Import rules from another view, so that you don't have to re-build them.</td>
     </tr>
