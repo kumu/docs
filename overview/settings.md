@@ -38,7 +38,13 @@ Map settings are accessed from the map sidebar via the ellipsis icon <i class="f
 ![map settings](/images/map-settings.jpg)
 </span>
 
-Each map has the following settings:
+Each map has the following available actions:
+- Rename map
+- Duplicate map
+- Delete map
+- Make this the default map
+
+And each map has the following settings:
 
 * **Default view.** Select the default view for a map. This is the view that will automatically load when someone visits the map.
 * **Default element behavior.** Set whether new elements should be fixed or floating. [Learn more about fixed and floating layouts](/guides/layouts.html).
