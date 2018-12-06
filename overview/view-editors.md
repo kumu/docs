@@ -20,9 +20,9 @@ You'll see four of Kumu's most commonly used view settings.
 
 **Size by** allows you to scale the size of your elements based on numbers stored inside them. For example, if you have a map of organizations, you could create a field called "Net Assets" and fill out the numbers for each element. Then you can use the Basic Editor to scale the size the organizations according to their Net Assets, allowing you to quickly compare everyone's resources.
 
-Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it.
+Don't like the default sizes? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Size by** dropdown to fine-tune your sizing options.
 
-If you don't have this kind of data available, try using Kumu's [Metrics](/guides/metrics.html) feature to create some!
+Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it. If you don't have this kind of data available, try using Kumu's [Metrics](/guides/metrics.html) feature to create some!
 
 Need more precise control over your sizes? Check out our guide on [refining your decorations](/guides/decorate.html#refine-your-decorations).
 
