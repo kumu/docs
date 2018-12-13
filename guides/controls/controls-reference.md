@@ -192,7 +192,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Any plain text string
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Any plain text string. Markdown and some HTML are allowed.
   <br><code>string</code>
   <br><br>Text controls recognize some inline HTML
   "</i></td>

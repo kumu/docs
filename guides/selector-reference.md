@@ -101,6 +101,10 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
     <td>All items at the root of a <a href="/guides/focus.html">focus setting</a></td>
   </tr>
   <tr>
+    <td><code>:orphan</code></th>
+    <td>All elements that have zero connections (including connections that have been filtered out)</td>
+  </tr>
+  <tr>
     <td><code>:not(selector)</code></th>
     <td>All items that do <b>not</b> match the <code>selector</code></td>
   </tr>
