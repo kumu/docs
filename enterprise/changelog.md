@@ -1,5 +1,42 @@
 # Changelog
 
+## Version 2.2
+
+**Updated ksb, released 2018-12-12**
+
+The latest release of Kumu Enterprise includes tools for collecting feedback on
+maps in real-time, recent-activity feeds to help you stay on top of project
+changes, view partials, bug fixes and more! Read on for the full list of changes.
+
+Changes:
+- Added real-time in-app commenting system
+- Added recent-activity feed
+- Added view partials and the new view-toggle control
+- Added the wizard (with label overlap removal helper)
+- Added SNA dashboard control
+- Added bridging, allowing elements to connect over shared neighbors
+- Added two new geo map styles, streets and satellite
+- Added multiple selectors (:focus, :directed/:undirected/:mutual, :delayed, :from/:to)
+- Added support for ignoring xlsx worksheets from imports using (ignore)
+- Simplified org structure (users can now be added directly to org projects)
+- Simplified the basic view editor
+- Simplified image uploads (profile, markdown, presentations)
+- Fixed view parser to handle pseudo-selectors and comments in @settings
+- Fixed markdown parser to better handle email addresses
+- Fixed zoom-fit behavior for embeds
+- Fixed search within presentation slides
+- Fixed search handling of non-latin characters
+
+Known issues:
+- IE11 and under are not supported.
+- Importing private google sheets is not supported.
+- Embed slides within presentations do not work out of the box. Kumu uses
+  Embedly to handle these and we restrict requests to known referrers.
+  Please email the hostname you're using to enterprise@kumu.io to fix this.
+- Geocoding does not work out of the box. Kumu uses Maptiler to handle these
+  and requests are restricted to known referrers. Please email the hostname
+  you're using to enterprise@kumu.io to fix.
+
 ## Version 2.1
 
 **Updated KSB, released 2018-02-15**
