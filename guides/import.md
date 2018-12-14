@@ -214,11 +214,11 @@ If you're running into funny character issues, please make sure your import file
 
 Looking to hone your importing skills? These tips will turn you into a master importer:
 
-1. [Separate elements (or element types) and connections into their own sheets](#separate-elements-or-element-types-and-connections-into-their-own-sheets)
-1. [Take advantage of pre-named fields](#take-advantage-of-pre-named-fields)
-1. [Use pipes to separate | multiple | values](#use-pipes-to-separate-multiple-values)
-1. [Try to be selector friendly](#try-to-be-selector-friendly)
-1. [Ask for help!](#ask-for-help)
+1. [Separate elements (or element types) and connections into their own sheets](#1-separate-elements-or-element-types-and-connections-into-their-own-sheets)
+1. [Take advantage of pre-named fields](#2-take-advantage-of-pre-named-fields)
+1. [Use pipes to separate | multiple | values](#3-use-pipes-to-separate-multiple-values)
+1. [Try to be selector friendly](#4-try-to-be-selector-friendly)
+1. [Ask for help!](#5-ask-for-help)
 
 
 #### 1. Separate elements (or element types) and connections into their own sheets
