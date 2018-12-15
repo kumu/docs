@@ -123,6 +123,9 @@ At-rules are pieces of code in the Advanced Editor that look and behave a bit di
 #### @settings
 Unless you have coded in `@controls` or `@import` rules, your Advanced Editor code will have a block of `@settings` code right at the top, where you can adjust key settings like layout, template, render quality, and more.
 
+#### @view
+`@view` can be used to define partial views. You can find more info in the [full guide on partial views](/guides/partial-views.html).
+
 [Check out our advanced settings guide](/guides/advanced-settings.html) to learn more about `@settings`.
 
 ## Saving changes
