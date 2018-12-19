@@ -29,6 +29,7 @@ By default, embeds include all of the built-in map controls (search, zoom, and s
 - `settings=0` hides the settings button
 - `bare=1` hides all built-in controls
 - `simple=1` hides all controls except the zoom buttons
+- `scroll=1` allows readers to zoom in and out by scrolling
 
 To use them, just add the desired parameters to the query string of the embed URL.
 
@@ -46,7 +47,9 @@ Also, if you are using more than one custom parameter, join them together with `
 embed.kumu.io/abc123?zoom=0&settings=0
 ```
 
-To avoid interfering with page scrolling, scroll-based zooming is disabled when embeds are served within iframes. You can use `scroll=1` if you would like to restore the default scroll behavior.
+<p class="alert">
+  To avoid interfering with page scrolling, scroll-to-zoom is disabled when embeds are served within <code>iframe</code> elements. You can use the <code>scroll=1</code> parameter if you would like to restore scroll-to-zoom behavior.
+</p>
 
 ## Embed a presentation
 
