@@ -291,9 +291,9 @@ table.plan-table tr td:not(:first-child) {
 
 /* border-bottom table */
 
-.border-bottom.table td {
+/* .border-bottom.table td {
     vertical-align: middle;
-}
+} */
 
 .border-bottom.table td,
 .border-bottom.table th {

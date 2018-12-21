@@ -1,5 +1,5 @@
-
 # Property Reference
+
 Beneath views, Kumu uses a powerful CSS-based language to control the appearance of your maps.
 
 If you're familiar with CSS, the advanced view editor will quickly
@@ -13,9 +13,9 @@ and adding properties specific to Kumu (such as `bullseye-color`).
 
 All values are unitless.
 
-## Catalog of Supported Properties
+## Supported Properties
 
-The table below lists all of the properties recognized by Kumu. Hover over the information icon <i class="fa fa-info-circle" data-placement="left" data-html="true" title="I ❤︎ information!"></i> at the far right of the table rows to see additional details and valid values for each property (when there are multiple valid values, we've listed them as separate snippets of `inline code`). Scroll to the bottom for a list of available `@settings` properties.
+The table below lists all of the properties recognized by elements, connections, and loops. Hover over the information icon <i class="fa fa-info-circle" data-placement="left" data-html="true" title="I ❤︎ information!"></i> at the far right of the table rows to see additional details and valid values for each property (when there are multiple valid values, we've listed them as separate snippets of `inline code`).
 
 If you find a property or a value that's not documented here, [let us know](mailto:support@kumu.io)!
 
@@ -624,31 +624,5 @@ function searchProperties() {
 }
 
 </script>
-
-### @settings Supported Properties
-
-@settings properties are best grouped into a number of categories based on what they can control.
-
-**Map transformations**
-
-* focus (selector, prompt)
-* filter
-* cluster
-* showcase
-* culling
-
-**Labels**
-
-* text-overflow (off, auto, manual, wrap, clip)
-
-**Grids & guides**
-
-* grid
-* grid-width
-* grid-offset
-* grid-color
-* guides
-* guide-width
-* guide-color
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/property-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

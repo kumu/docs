@@ -92,6 +92,7 @@
     * [Color reference](guides/color-reference.md)
     * [Property reference](guides/property-reference.md)
     * [Selector reference](guides/selector-reference.md)
+    * [@settings reference](guides/settings-reference.md)
 * [Widgets](guides/widgets.md)
 * [Wizard](/guides/wizard.md)
 

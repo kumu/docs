@@ -236,7 +236,7 @@ If you find a property or a value that's not documented here, [let us know](mail
           <td><i class="fa fa-check"></i></td>
           <td><i class="fa fa-check"></i></td>
           <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines how the control is presented
-      <br><code>labels</code><br><code>buttons</code><br><code>dropdown</code>
+      <br><code>labels</code><br><code>buttons</code><br><code>dots</code><br><code>dropdown</code>
       "</i></td>
         </tr>
         <tr>
