@@ -604,16 +604,20 @@ If you find a property or a value that's not documented here, [let us know](mail
 <script type="text/javascript">
 
 function searchProperties() {
-    let searchBox, searchTerm, table, rows, i, cells, textToSearch;
-
-    searchBox = document.querySelector("#search-box");
-    searchTerm = searchBox.value.toLowerCase();
-    table = document.querySelector("#search-table");
-    rows = table.querySelectorAll("tr");
+    let searchBox = document.querySelector("#search-box"),
+        searchTerm = searchBox.value.toLowerCase(),
+        table = document.querySelector("#search-table"),
+        rows = table.querySelectorAll("tr"),
+        i;
 
     for(i = 1; i < rows.length; i++) {
-        cell = rows[i].querySelector("td");
-        textToSearch = cell.innerHTML.toLowerCase();
+        let nameCell = rows[i].querySelector("td"),
+            infoCell = rows[i].querySelector("td:last-child"),
+
+            name = nameCell.textContent,
+            info = infoCell.querySelector('i').dataset.originalTitle,
+
+            textToSearch = `${name.toLowerCase()} ${info.toLowerCase()}`;
 
         if(textToSearch.indexOf(searchTerm) > -1) {
             rows[i].style.display = "table-row";
