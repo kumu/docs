@@ -149,14 +149,10 @@ Seeing errors during your Google Sheets import? You can use the <a class="alert-
 
 #### Private Google Sheets Instructions
 
-*Note: This is a paid add-on that costs $29/project to activate.*
-
 1. Create your spreadsheet in Google Drive
 1. [Structure your data](#structure-your-data-for-kumu)
 1. Copy the private spreadsheet link from the URL bar in your browser, and go back to your Kumu map
-1. Activate the paid add-on by clicking the link in the Google Sheets import tab in Kumu
 1. Click the green <i class="fa fa-plus"></i> button, select **Import**, and click the "Google Sheets" tab
-1. If you haven't activated the private Google Sheets add-on, click the link to do so
 1. Under **Link to private Google Sheet**, paste your Google Sheets link into the box
 
 #### Public Google Sheets Instructions

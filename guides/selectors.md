@@ -67,13 +67,14 @@ In all of the guides on this documentation site, keep an eye out for Advanced Ed
 
 ## How do I write selectors?
 
-In this section, we'll teach you how to write all kinds of selectors, which fall into three categories:
+In this section, we'll teach you how to write all kinds of selectors, which fall into these categories:
 
-1. Shorthand selectors
-1. Longhand selectors
-1. Pseudo-selectors
+1. [Shorthand selectors](#shorthand-selectors)
+1. [Longhand selectors](#longhand-selectors)
+1. [Pseudo-selectors](#pseudo-selectors)
+1. [Traversals](#traversals)
 
-We'll also teach you how to chain selectors together to run complex queries involving AND and OR logic.
+We'll also teach you how to [chain selectors together](#chain-selectors) to run complex queries involving AND and OR logic.
 
 After you read this section, check out our [selector reference](/guides/selector-reference.html)—it's a great cheat sheet for every possible selector in Kumu.
 
@@ -283,7 +284,17 @@ To build your own, just replace `selector` with any valid selector. For example:
 ```
 
 
-## Chaining selectors
+### Traversals
+
+Traversals allow you to select elements based on a lot of different information:
+- Which other elements your selection is connected to (or from)
+- How many degrees of separation are between your selection and other elements
+- The information stored in connection's profiles (including connection direction)
+
+
+
+
+### Chain selectors
 
 The selectors we've covered so far are building blocks. You can combine those building blocks to create complex queries involving AND and OR logic—this action is called **chaining selectors**.
 

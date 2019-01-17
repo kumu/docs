@@ -1,6 +1,6 @@
 # Force-directed layout
 
-With the force-directed layout, Kumu positions everything automatically based on the connections between elements. While we've picked default settings that should work for most maps, you may need to tweak these settings, especially if you have an exceptionally interconnected or sparse map.
+With the force-directed layout, Kumu positions everything automatically based on the connections between elements. While we've picked default settings that should work for most maps, you may need to tweak these settings, especially if you have a heavily connected or very sparse map.
 
 To customize these defaults, click the Settings icon <i class="fa fa-sliders"></i> to open the Basic Editor, then click **MORE OPTIONS** and select **Customize defaults**. Scroll down to the **Layout settings** section and use the "Preset" dropdown to switch between three default settings:
 
@@ -10,10 +10,10 @@ To customize these defaults, click the Settings icon <i class="fa fa-sliders"></
 
 If you'd like further control over the layout settings, you can use the Advanced Editor to customize the settings for:
 
-- Gravity
-- Particle (element) charge
-- Connection length
-- Connection strength
+- Gravity (`layout-gravity`)
+- Particle charge (`layout-particle-charge`)
+- Connection length (`layout-connection-length`)
+- Connection strength (`layout-connection-strength`)
 
 For example, to re-create the "hairball" setting, add the following to the `@settings` block :
 
