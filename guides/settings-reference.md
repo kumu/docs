@@ -78,7 +78,7 @@ All values are unitless.
     </tr>
     <tr>
       <td>culling</td>
-      <td>Determines whether connections will be hidden when their connected elements are outside the visible frame</td>
+      <td>Determines whether elements and connections are hidden when the reader zooms in very close</td>
       <td><div><code>on</code></div><div><code>off</code></div></td>
     </tr>
     <tr>
