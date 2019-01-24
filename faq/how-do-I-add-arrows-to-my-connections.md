@@ -17,9 +17,9 @@ If you want to add arrows to your connections to specify direction, here are a c
 * Click "Directed" to add arrows to all connections.
 
 
-### For connections coming from a remote data source
+### For imported connections
 
-If your data is coming from a remote source, like [Google Sheets](/guides/import.html#import-from-google-sheets) or a [JSON blueprint](/guides/blueprints.html#set-a-remote-blueprint), you can add arrows by changing the default map settings:
+If your data is coming from Excel imports, or a remote source like [Google Sheets](/guides/import.html#import-from-google-sheets) or a [JSON blueprint](/guides/blueprints.html#set-a-remote-blueprint), you can add arrows by changing the default map settings:
 
 * [Open the map settings](/overview/settings.html#map-settings)
 * Click **Default connection direction**

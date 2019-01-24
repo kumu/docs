@@ -120,7 +120,7 @@ For fields that have their prompt set to "Autocomplete" or "None" (this includes
 For all other fields, follow these steps:
 1. Click the menu in the upper left of your map and choose **FIELDS**
 1. Click on the field you want to edit
-1. Find the value you want to delete. Then, highlight it and press `delete` or `backspace` on your keyboard.
+1. Find the value you want to delete. Then, click the delete button <i class="fa fa-ban">  </i> next to the value to delete it.
 1. Scroll down and click **SAVE** to save your changes
 
 After you follow these steps and refresh the page, the field value(s) you deleted will no longer show up in prompted lists or in controls.
