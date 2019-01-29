@@ -51,6 +51,19 @@ Some legend entries get added automatically when you apply different [templates]
 - For **Adds to / same direction** and **Subtracts from / opposite direction** entries (causal loop template), follow the guide to [delete field values](/guides/fields.html#deleting-field-values). Delete these values from the Connection Type field.
 - **Opposite** entry (system template): Open your [default settings](/guides/default-settings.html), and, in the **Template settings** section, clear out the "Opposite connection label" box and click **SAVE** at the bottom.
 
+#### Reordering legend entries
+
+There are two ways to re-order legend entries, depending on how they were added. If you added legend entries using the **Color by** tool, follow these steps to change the order:
+1. Click the menu icon <i class="fa fa-bars">  </i> to bring up the [project settings](/overview/settings.html#project-settings)
+2. Select **Fields** from the sidebar on the left
+3. Select the same field you selected in the **Color by** tool—it's settings panel will open up
+4. Drag and drop field values to change their order
+5. Click **Save** at the bottom of the field settings to save your changes, then reload the page
+
+If you added legend entries using the decoration builder or the Advanced Editor, find your legend entry in the [existing decorations](/overview/view-editors.md#existing-decorations) section, then drag-and-drop the entry to change its order.
+
+![Cascading decorations](/images/cascading-decorations.gif)
+
 ## Add legend entries through the Advanced Editor
 
 If you're working on decorations in the [Advanced Editor](/overview/view-editors.html#advanced-editor), you can add a comment above a decoration to tell Kumu that it should be included in the legend. The syntax is:
