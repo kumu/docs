@@ -113,17 +113,18 @@ To change the order, click edit and then simply drag the fields to reorder them.
 If you've created a field and want to delete it and all corresponding values, click on the label of the field in any profile and then go to more -> delete. Alternatively, use can use the menu in the upper left corner to go to the field settings page (choose fields). This will delete the field and any values assigned for any content in your project.
 
 ## Deleting field values
-Occasionally you may want to delete the prompted choices for a given field, or the options that show up in your legend or in a [control](/guides/controls.md). To do this, you need to delete the underlying field value. This process is different, depending on the field's [prompt](#customize-a-field).
+Occasionally you may want to delete the prompted choices for a given field, or the options that show up in your legend or in a [control](/guides/controls.md). To do this, you need to delete the underlying field value. This process is different depending on the field's [prompt](#customize-a-field).
 
 For fields that have their prompt set to "Autocomplete" or "None" (this includes the Tags field), you can only delete the field value by removing it from every element, connection, and loop in the project, including the [trash](/overview/kumus-architecture.html#trash).
 
-For all other fields, follow these steps:
+For all other fields (including Element Type, Connection Type, and Loop Type), follow these steps:
 1. Click the menu in the upper left of your map and choose **FIELDS**
 1. Click on the field you want to edit
 1. Find the value you want to delete. Then, click the delete button <i class="fa fa-ban">  </i> next to the value to delete it.
 1. Scroll down and click **SAVE** to save your changes
+1. Refresh the page
 
-After you follow these steps and refresh the page, the field value(s) you deleted will no longer show up in prompted lists or in controls.
+After you follow these steps, the field value(s) you deleted will no longer show up in prompted lists, in legends, or in controls.
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/fields.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
