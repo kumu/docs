@@ -286,12 +286,61 @@ To build your own, just replace `selector` with any valid selector. For example:
 
 ### Traversals
 
-Traversals allow you to select elements based on a lot of different information:
-- Which other elements your selection is connected to (or from)
-- How many degrees of separation are between your selection and other elements
+Traversals allow you to select elements based on the structure of your map. For example, you can select elements based on:
+- Which other elements they are connected to or from
 - The information stored in connection's profiles (including connection direction)
 
+The basic syntax is `selector arrow selector`. You'll replace the first and last `selector` with any valid selector (including another traversal), and you'll replace `arrow` with one of the following options:
 
+<table class="table border-bottom">
+  <tr>
+    <th class="text-left">Arrow</th>
+    <th class="text-left">Meaning</th>
+  </tr>
+  <tr>
+    <td><code>--></code></th>
+    <td>Connected to</td>
+  </tr>
+  <tr>
+    <td><code><--</code></th>
+    <td>Connected from</td>
+  </tr>
+  <tr>
+    <td><code><--></code></th>
+    <td>Connected to or from</td>
+  </tr>
+</table>
+
+Here are some examples:
+
+```
+person --> organization                     // Select all elements with the type "Person" that are connected to elements with the type "Organization"
+person <-- organization                     // Select all people that are connected from organizations
+person.democrat <--> person.republican      // Select all people tagged as Democrats who are connected to or from a person tagged as Republican
+```
+
+You can also add any valid connection selector inside of the arrow to specify exactly which connections are allowed:
+
+```
+person.democrat --[strength > 5]--> person.republican      // Select all people tagged as Democrats who are connected to a person tagged as Republican, via a a connection whose strength is greater than 5
+```
+
+When you add connection selectors in the middle, be sure to put two dashes on the outside:
+
+```
+/* Two dashes, then a connection selector, then two more dashes. */
+--strong-connection-->      // Connected to, via a connection with the type Strong
+<--weak-connection--        // Connected to, via a connection with the type Weak
+<--connection-->            // Connected to or from, via any connection
+```
+
+If you're writing a shorthand selector for connection type, for example, `strong-connection`, you can omit the `-connection`. Taking the example from above:
+
+```
+// These two selectors select the exact same thing
+person.democrat --strong--> person.republican
+person.democrat --strong-connection--> person.republican
+```
 
 
 ### Chain selectors
