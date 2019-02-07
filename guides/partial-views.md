@@ -8,6 +8,8 @@ That's where partial views come in handy!
 
 A **partial view** is almost exactly like a normal view—in the Advanced Editor, it's a block of code defining all the rules that affect the visual appearance of your map. But there's one major difference: you can use the [view toggle control](/guides/controls/view-toggle-control.html) to allow your readers to switch between your partial views at will, with just the click of a button.
 
+![view toggle gif](/images/view-toggle.gif)
+
 Right now, partial views are only available through the Advanced Editor—the proper syntax is explained below.
 
 ## Define partial views in the Advanced Editor

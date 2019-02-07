@@ -2,6 +2,8 @@
 
 With the view toggle control, you can toggle between different [partial views](/guides/partial-views.html).
 
+![view toggle gif](/images/view-toggle.gif)
+
 Here's the syntax for adding the view toggle control in the Advanced Editor:
 
 ```
