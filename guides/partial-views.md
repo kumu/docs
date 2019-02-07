@@ -10,6 +10,10 @@ A **partial view** is almost exactly like a normal view—in the Advanced Editor
 
 ![view toggle gif](/images/view-toggle.gif)
 
+<p class="alert alert-info">
+  Wondering how to set up a control for your partial views? Check out <a href="/guides/controls/view-toggle-control.html">our full guide on the view toggle control</a>.
+</p>
+
 Right now, partial views are only available through the Advanced Editor—the proper syntax is explained below.
 
 ## Define partial views in the Advanced Editor
