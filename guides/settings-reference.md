@@ -212,6 +212,56 @@ All values are unitless.
       <td><div><code>fast</code></div><div><code>best</code></div></td>
     </tr>
     <tr>
+      <td>radar</td>
+      <td>Determines whether a radar will be shown</td>
+      <td><div><code>on</code></div><div><code>off</code></div></td>
+    </tr>
+    <tr>
+      <td>radar-axes</td>
+      <td>Sets the labels for radar axes</td>
+      <td><div><code>Axis 1, Axis 2, Axis 3...</code></div></td>
+    </tr>
+    <tr>
+      <td>radar-font-color</td>
+      <td>Sets the color of radar labels</td>
+      <td><div><code>color</code></div></td>
+    </tr>
+    <tr>
+      <td>radar-font-family</td>
+      <td>Sets the font family of radar labels</td>
+      <td><div><code>family-name</code></div><div><code>generic-family</code></div></td>
+    </tr>
+    <tr>
+      <td>radar-font-size</td>
+      <td>Sets the font size for radar labels</td>
+      <td><div><code>number</code></div></td>
+    </tr>
+    <tr>
+      <td>radar-ring-color</td>
+      <td>Sets the color between radar rings</td>
+      <td><div><code>color</code></div></td>
+    </tr>
+    <tr>
+      <td>radar-ring-opacity</td>
+      <td>Sets the opacity of radar rings</td>
+      <td><div><code>0..1</code></div></td>
+    </tr>
+    <tr>
+      <td>radar-ring-size</td>
+      <td>Sets the distance between radar rings</td>
+      <td><div><code>number</code></div></td>
+    </tr>
+    <tr>
+      <td>radar-ring-size-inner</td>
+      <td>Sets the radius of the inner radar ring</td>
+      <td><div><code>number</code></div></td>
+    </tr>
+    <tr>
+      <td>radar-rings</td>
+      <td>Sets the labels for radar rings</td>
+      <td><div><code>Ring 1, Ring 2, Ring 3...</code></div></td>
+    </tr>
+    <tr>
       <td>renderer</td>
       <td>Chooses which rendered will be used</td>
       <td><div><code>canvas</code></div><div><code>webgl</code></div></td>
