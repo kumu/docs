@@ -66,6 +66,7 @@
 * [Organizations](guides/organizations.md)
   * [Archiving projects](guides/archiving-projects.md)
   * [Issues](guides/issues.md)
+  * [Single sign-on](guides/single-sign-on.md)
 * [Popovers](guides/popovers.md)
 * [Presentations](guides/presentations.md)
 * [Profiles](guides/profiles.md)
