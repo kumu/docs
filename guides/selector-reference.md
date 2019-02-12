@@ -12,12 +12,12 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
 ## Selectors
 
 <table id="selectors-table" class="table border-bottom">
-  <tr>
+    <tr>
     <th class="text-left" style="width: 50%;">Selector</th>
     <th class="text-left">What it selects</th>
   </tr>
   <tr>
-    <td><code>*</code></th>
+    <td><code>&#42;</code></th>
     <td>All elements, connections, and loops</td>
   </tr>
   <tr>
@@ -46,7 +46,7 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
   </tr>
   <tr>
     <td><code>#assigned-id-slug</code></th>
-    <td>The item whose assigned ID slug matches <code>assigned-id-slug</code>. </td>
+    <td>The item whose <a href="/faq/how-do-I-avoid-duplicating-data.html">assigned ID</a> slug matches <code>assigned-id-slug</code>. </td>
   </tr>
   <tr>
     <td><code>#system-id</code></th>
@@ -67,14 +67,6 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
   <tr>
     <td><code>[!"field name"]</code></th>
     <td>All items that have no value in the field whose name matches <code>field name</code></td>
-  </tr>
-  <tr>
-    <td><code>[field-name-slug]</code></th>
-    <td>All items that have any value in the field whose name slug matches <code>field-name-slug</code></td>
-  </tr>
-  <tr>
-    <td><code>[!field-name-slug]</code></th>
-    <td>All items that have no value in the field whose name slug matches <code>field-name-slug</code></td>
   </tr>
   <tr>
     <td><code>:from(selector)</code></th>
@@ -108,54 +100,21 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
     <td><code>:not(selector)</code></th>
     <td>All items that do <b>not</b> match the <code>selector</code></td>
   </tr>
-</table>
-
-## Operators
-
-<table class="table border-bottom">
   <tr>
-    <th class="text-left">Operator</th>
-    <th class="text-left">Description</th>
+    <td><code>this-selector --&gt; that-selector</code></th>
+    <td>All items matching <code>this-selector</code> connected to items that match <code>that-selector</code></td>
   </tr>
   <tr>
-    <td><code>=</code></th>
-    <td>is equal to</td>
+    <td><code>this-selector &lt;-- that-selector</code></th>
+    <td>All items matching <code>this-selector</code> connected from items that match <code>that-selector</code></td>
   </tr>
   <tr>
-    <td><code>!=</code></th>
-    <td>is not equal to</td>
+    <td><code>this-selector &lt;--&gt; that-selector</code></th>
+    <td>All items matching <code>this-selector</code> connected to or from items that match <code>that-selector</code></td>
   </tr>
   <tr>
-    <td><code>^=</code></th>
-    <td>starts with</td>
-  </tr>
-  <tr>
-    <td><code>$=</code></th>
-    <td>ends with</td>
-  </tr>
-  <tr>
-    <td><code>*=</code></th>
-    <td>text contains</td>
-  </tr>
-  <tr>
-    <td><code>~=</code></th>
-    <td>list of values includes (this operator matches full values)</td>
-  </tr>
-  <tr>
-    <td><code>&#8250;</code></th>
-    <td>is greater than</td>
-  </tr>
-  <tr>
-    <td><code>&#8249;</code></th>
-    <td>is less than</td>
-  </tr>
-  <tr>
-    <td><code>&#8250;=</code></th>
-    <td>is greater than or equal to</td>
-  </tr>
-  <tr>
-    <td><code>&#8249;=</code></th>
-    <td>is less than or equal to</td>
+    <td><code>this-selector &lt;-connection-selector-&gt; that-selector</code></th>
+    <td>All items matching <code>this-selector</code> connected to or from items that match <code>that-selector</code> via connections that match <code>connection-selector</code></td>
   </tr>
 </table>
 

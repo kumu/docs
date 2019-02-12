@@ -298,15 +298,15 @@ The basic syntax is `selector arrow selector`. You'll replace the first and last
     <th class="text-left">Meaning</th>
   </tr>
   <tr>
-    <td><code>--></code></th>
+    <td><code>--&gt;</code></th>
     <td>Connected to</td>
   </tr>
   <tr>
-    <td><code><--</code></th>
+    <td><code>&lt;--</code></th>
     <td>Connected from</td>
   </tr>
   <tr>
-    <td><code><--></code></th>
+    <td><code>&lt;--&gt;</code></th>
     <td>Connected to or from</td>
   </tr>
 </table>
