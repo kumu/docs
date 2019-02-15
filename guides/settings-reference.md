@@ -163,8 +163,8 @@ All values are unitless.
     </tr>
     <tr>
       <td>layout-guides</td>
-      <td>Sets the x or y coordinate for each guide line</td>
-      <td><div><code>x(number)</code></div><div><code>y(number)</code></div></td>
+      <td>Sets the x or y coordinate for each guide line, or the origin and radius of a circle</td>
+      <td><div><code>x(number)</code></div><div><code>y(number)</code></div><div><code>circle(x, y, r)</code></div><div><code>circle(r)</code></div></td>
     </tr>
     <tr>
       <td>layout-particle-charge</td>

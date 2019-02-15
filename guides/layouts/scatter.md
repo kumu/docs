@@ -58,42 +58,6 @@ We're using the [mathjs](http://mathjs.org) library under the hood so if you wan
 - http://mathjs.org/docs/expressions/syntax.html
 - http://mathjs.org/docs/reference/functions.html
 
-## Add grids, bounds, and guides
-
-To add a grid and bounds to your scatter plot, you can use `layout-grid`, and `layout-bounds-*`.
-
-```
-@settings {
-    layout-grid: on;
-    layout-bounds-xmin: 0;
-    layout-bounds-ymin: 0;
-    layout-bounds-xmax: 100;
-    layout-bounds-ymax: 100;
-}
-```
-
-If you want your gridlines to extend forever, just skip `layout-bounds-*`.
-
-You can also add eye-catching lines within the bounds of your scatter plot, using `layout-guides`.
-
-```
-@settings {
-    layout-guides: x(25) x(50) x(75) y(42) circle(1, 2, 3);
-}
-```
-
-Use `x(value)` to add a vertical guide, `y(value)` to add a horizontal guide, or `circle(radius, x, y)` to add a circle with center at `x, y`.
-
-Bonus: You can customize the width and color of your grids and guides, too.
-
-```
-@settings {
-    layout-guide-width: 2;
-    layout-guide-color: #428cba;
-    layout-grid-color: #252525;
-    layout-grid-width: 1;
-}
-```
 
 ##Put it all together
 
@@ -101,22 +65,16 @@ In this guide, we broke down the code into pieces for clarity, but in an actual 
 
 ```
 @settings {
-    layout: scatter;
-    layout-x: "field1";
-    layout-y: "field2";
-    layout-x-multiplier: 100;
-    layout-y-multiplier: 100;
-    layout-grid: on;
-    layout-bounds-xmin: 0;
-    layout-bounds-ymin: 0;
-    layout-bounds-xmax: 100;
-    layout-bounds-ymax: 100;
-    layout-guides: x(25) x(50) x(75) y(42);
-    layout-guide-width: 5;
-    layout-guide-color: #252525;
-    layout-grid-color: #909090;
-    layout-grid-width: 2;
+  layout: scatter;
+  layout-x: "field1";
+  layout-y: "field2";
+  layout-x-multiplier: 100;
+  layout-y-multiplier: 100;
 }
 ```
+
+## Add grids, bounds, and guides
+
+To learn how to add a grid and bounds to your scatter plot, check out [our full guide on underlays](/guides/underlays.html).
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/layouts/scatter.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

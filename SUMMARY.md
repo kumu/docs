@@ -79,6 +79,7 @@
 * [Templates](guides/templates.md)
   * [Geo template](/guides/templates/geo.md)
 * [Tracking](guides/tracking.md)
+* [Underlays](guides/underlays.md)
 * [Views](guides/views.md)
   * [Filter](guides/filter.md)
   * [Cluster](guides/clustering.md)
