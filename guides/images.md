@@ -52,7 +52,8 @@ Be sure to check out our [property reference](/guides/property-reference.html) f
 To add a background image to a map, you can use a snippet of code in the [Advanced Editor](/overview/view-editors.md#advanced-editor). The following instructions will help you add an image of a world map, but they can be adapted to add any background image.
 
 1. Create an element and change its label to `background`.
-2. Copy/paste the following code into your Advanced Editor:
+1. Pin the element (press `P` on your keyboard, or click the pin icon in the left side panel).
+1. Copy/paste the following code into your Advanced Editor:
 ```
 #background {
     image-url: url(https://cdn.rawgit.com/AlexVipond/hosted-svgs/master/world-map.svg);
@@ -65,7 +66,7 @@ To add a background image to a map, you can use a snippet of code in the [Advanc
     label-visibility: none;
 }
 ```
-3. Click **SAVE** at the bottom of the Advanced Editor to save your changes.
+1. Click **SAVE** at the bottom of the Advanced Editor to save your changes.
 
 You can replace the `image-url` in that code with a link to any image online. To get an image URL from any image you see online, you can right-click the image and select "Copy Image Address". When you're pasting your new image url into the Advanced Editor, make sure to put it inside the `url( )` parentheses.
 
@@ -75,7 +76,7 @@ Some images won't be displayed in Kumu, because they are using an insecure conne
 
 You can also use the [Basic Editor](/overview/view-editors.md#basic-editor) to upload an image from your computer to your Kumu project—this will override the `image-url` in your code. Follow these steps:
 
-1. Complete the initial three steps above to create your background element, add your Advanced Editor code, and save your changes.
+1. Complete the initial steps above to create your background element, add your Advanced Editor code, and save your changes.
 1. Click the Settings icon <i class="fa fa-sliders"></i> to open the Basic Editor.
 1. Click **More Options**
 1. Select **Decorate elements**
