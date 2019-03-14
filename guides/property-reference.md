@@ -20,7 +20,7 @@ The table below lists all of the properties recognized by elements, connections,
 If you find a property or a value that's not documented here, [let us know](mailto:support@kumu.io)!
 
 
-<input type="text" id="search-box" class="search-box" onkeyup="searchProperties()" placeholder="Type to filter...">
+<input type="text" id="search-box" class="search-box" onkeyup="searchProperties()" placeholder="Type to filter..." />
 
 <table id="search-table" class="property-reference table borderless">
   <tbody>
@@ -37,8 +37,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Override the arrow color for a connection.
-    <br><code>color</code>
-    "</i></td>
+  <br><code>color</code>
+  "</i></td>
     </tr>
     <tr>
       <td>arrow-height</td>
@@ -46,8 +46,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-min-height</code> to set arrow height.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>arrow-min-height</td>
@@ -55,8 +55,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-height</code> to set arrow height.
-    <br><code>0</code>
-    "</i></td>
+  <br><code>0</code>
+  "</i></td>
     </tr>
     <tr>
       <td>arrow-min-width</td>
@@ -64,8 +64,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-width</code> to set arrow width.
-    <br><code>0</code>
-    "</i></td>
+  <br><code>0</code>
+  "</i></td>
     </tr>
     <tr>
       <td>arrow-visibility</td>
@@ -73,8 +73,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls arrow visibility for directed connections.
-    <br><code>visible</code><br><code>hidden</code>
-    "</i></td>
+  <br><code>visible</code><br><code>hidden</code>
+  "</i></td>
     </tr>
     <tr>
       <td>arrow-width</td>
@@ -82,8 +82,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-min-width</code> to set arrow width.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>border-color</td>
@@ -91,8 +91,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border color.
-    <br><code>color</code>
-    "</i></td>
+  <br><code>color</code>
+  "</i></td>
     </tr>
     <tr>
       <td>border-opacity</td>
@@ -100,8 +100,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border opacity.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>border-width</td>
@@ -109,8 +109,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border width.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>bullseye-color</td>
@@ -118,8 +118,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls bullseye color.
-    <br><code>color</code>
-    "</i></td>
+  <br><code>color</code>
+  "</i></td>
     </tr>
     <tr>
       <td>bullseye-opacity</td>
@@ -127,8 +127,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls bullseye opacity.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>bullseye-size</td>
@@ -136,8 +136,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls bullseye size.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>bullseye-visibility</td>
@@ -145,8 +145,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls bullseye visibility.
-    <br><code>visible</code><br><code>hidden</code>
-    "</i></td>
+  <br><code>visible</code><br><code>hidden</code>
+  "</i></td>
     </tr>
     <tr>
       <td>color</td>
@@ -154,8 +154,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shapes' color.
-    <br><code>color</code><br><code>gradient(color1, color2)</code>
-    "</i></td>
+  <br><code>color</code><br><code>gradient(color1, color2)</code>
+  "</i></td>
     </tr>
     <tr>
       <td>curvature</td>
@@ -163,8 +163,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls line curvature.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>dash</td>
@@ -172,8 +172,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the length of connection dashes (first number) and the distance between them (second number).
-    <br><code>number number</code>
-    "</i></td>
+  <br><code>number number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>delay-color</td>
@@ -181,8 +181,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls color of delay markings.
-    <br><code>color</code><br><code>inherit</code>
-    "</i></td>
+  <br><code>color</code><br><code>inherit</code>
+  "</i></td>
     </tr>
     <tr>
       <td>delay-height</td>
@@ -190,8 +190,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls height of delay markings.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>delay-position</td>
@@ -199,8 +199,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls delay markings' position along the connection.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>delay-stroke-width</td>
@@ -208,8 +208,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls width of delay markings.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>delay-visibility</td>
@@ -217,8 +217,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls visibility of delay markings.
-    <br><code>visible</code><br><code>hidden</code>
-    "</i></td>
+  <br><code>visible</code><br><code>hidden</code>
+  "</i></td>
     </tr>
     <tr>
       <td>delay-width</td>
@@ -226,8 +226,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls space between delay markings.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>display</td>
@@ -235,8 +235,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls inclusion in the map. Hidden objects will be fully removed from the map.
-    <br><code>map</code><br><code>none</code>
-    "</i></td>
+  <br><code>map</code><br><code>none</code>
+  "</i></td>
     </tr>
     <tr>
       <td>flag</td>
@@ -244,8 +244,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines field and color scale for flags.
-    <br><code>'Field name' with colorPalette</code>
-    "</i></td>
+  <br><code>'Field name' with colorPalette</code>
+  "</i></td>
     </tr>
     <tr>
       <td>flag-offset</td>
@@ -253,8 +253,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls space between flags and their elements.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>flag-size</td>
@@ -262,8 +262,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls thickness of flags.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>font-color</td>
@@ -271,8 +271,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label font color.
-    <br><code>color</code>
-    "</i></td>
+  <br><code>color</code>
+  "</i></td>
     </tr>
     <tr>
       <td>font-family</td>
@@ -280,8 +280,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label font family.
-    <br><code>family-name</code><br><code>generic-family</code>
-    "</i></td>
+  <br><code>family-name</code><br><code>generic-family</code>
+  "</i></td>
     </tr>
     <tr>
       <td>font-size</td>
@@ -289,8 +289,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label font size.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>font-style</td>
@@ -298,8 +298,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label style.
-    <br><code>normal</code><br><code>italic</code>
-    "</i></td>
+  <br><code>normal</code><br><code>italic</code>
+  "</i></td>
     </tr>
     <tr>
       <td>font-weight</td>
@@ -307,8 +307,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label font weight.
-    <br><code>normal</code><br><code>bold</code>
-    "</i></td>
+  <br><code>normal</code><br><code>bold</code>
+  "</i></td>
     </tr>
     <tr>
       <td>height</td>
@@ -316,8 +316,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls height of elements that are squares and/or rectangles.
-    <br><code>auto</code><br><code>number</code>
-    "</i></td>
+  <br><code>auto</code><br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>image-size</td>
@@ -325,8 +325,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls image size.
-    <br><code>cover</code><br><code>contain</code>
-    "</i></td>
+  <br><code>cover</code><br><code>contain</code>
+  "</i></td>
     </tr>
     <tr>
       <td>image-url</td>
@@ -334,8 +334,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Provides source url of image.
-    <br><code>url(http://...)</code>
-    "</i></td>
+  <br><code>url(http://...)</code>
+  "</i></td>
     </tr>
     <tr>
       <td>image-visibility</td>
@@ -343,8 +343,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls image visibility
-    <br><code>visible</code><br><code>hidden</code>
-    "</i></td>
+  <br><code>visible</code><br><code>hidden</code>
+  "</i></td>
     </tr>
     <tr>
       <td>label</td>
@@ -352,8 +352,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Replaces the default label with a label template.
-    <br><code>label template</code>
-    "</i></td>
+  <br><code>string template</code>
+  "</i></td>
     </tr>
     <tr>
       <td>label-visibility</td>
@@ -361,8 +361,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label visibility for all types.
-    <br><code>visible</code><br><code>hidden</code>
-    "</i></td>
+  <br><code>visible</code><br><code>hidden</code>
+  "</i></td>
     </tr>
     <tr>
       <td>layer</td>
@@ -370,8 +370,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls whether an item is in the foreground or background.
-    <br><code>auto</code><br><code>background</code>
-    "</i></td>
+  <br><code>auto</code><br><code>background</code>
+  "</i></td>
     </tr>
     <tr>
       <td>length</td>
@@ -379,8 +379,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection resting length.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>margin</td>
@@ -388,8 +388,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls amount of space between the border of an element and its connections.
-    <br><code>number</code><br><code>none</code>
-    "</i></td>
+  <br><code>number</code><br><code>none</code>
+  "</i></td>
     </tr>
     <tr>
       <td>opacity</td>
@@ -397,8 +397,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls loop label opacity and element opacity.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>outline-color</td>
@@ -406,8 +406,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the color of selected elements' outlines.
-    <br><code>color</code>
-    "</i></td>
+  <br><code>color</code>
+  "</i></td>
     </tr>
     <tr>
       <td>outline-offset</td>
@@ -415,8 +415,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the distance between selected elements and their outlines.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>outline-opacity</td>
@@ -424,8 +424,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the opacity of selected elements' outlines.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>padding</td>
@@ -433,8 +433,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls amount of space between the border of an element and its contents (image or bullseye).
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>path-opacity</td>
@@ -442,8 +442,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection opacity.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>pattern</td>
@@ -451,8 +451,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection pattern. Equivalent of style.
-    <br><code>solid</code><br><code>dashed</code>
-    "</i></td>
+  <br><code>solid</code><br><code>dashed</code>
+  "</i></td>
     </tr>
     <tr>
       <td>pointer-events</td>
@@ -460,8 +460,17 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls whether or not an item can be clicked.
-    <br><code>auto</code><br><code>none</code>
-    "</i></td>
+  <br><code>auto</code><br><code>none</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>popover</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Sets the popover content
+  <br><code>string template</code>
+  "</i></td>
     </tr>
     <tr>
       <td>prepost-inset</td>
@@ -469,8 +478,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the inset of pre-labels and post-labels.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>prepost-offset</td>
@@ -478,8 +487,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the offset of pre-labels and post-labels.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>scale</td>
@@ -487,8 +496,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element and connection scale (multiple of base size).
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>shadow-color</td>
@@ -496,8 +505,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shadow color.
-    <br><code>color</code>
-    "</i></td>
+  <br><code>color</code>
+  "</i></td>
     </tr>
     <tr>
       <td>shadow-opacity</td>
@@ -505,8 +514,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shadow opacity.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>shadow-size</td>
@@ -514,8 +523,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shadow size.
-    <br><code>1..5</code>
-    "</i></td>
+  <br><code>1..5</code>
+  "</i></td>
     </tr>
     <tr>
       <td>shadow-visibility</td>
@@ -523,8 +532,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shadow visibility
-    <br><code>visible</code><br><code>hidden</code>
-    "</i></td>
+  <br><code>visible</code><br><code>hidden</code>
+  "</i></td>
     </tr>
     <tr>
       <td>shape</td>
@@ -532,8 +541,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shape.
-    <br><code>circle</code><br><code>square</code><br><code>rectangle</code>
-    "</i></td>
+  <br><code>circle</code><br><code>square</code><br><code>rectangle</code>
+  "</i></td>
     </tr>
     <tr>
       <td>size</td>
@@ -541,8 +550,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls base size.
-    <br><code>number</code>
-    "</i></td>
+  <br><code>number</code>
+  "</i></td>
     </tr>
     <tr>
       <td>strength</td>
@@ -550,8 +559,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection strength.
-    <br><code>0..1</code>
-    "</i></td>
+  <br><code>0..1</code>
+  "</i></td>
     </tr>
     <tr>
       <td>style</td>
@@ -559,8 +568,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection style. Equivalent of pattern.
-    <br><code>solid</code><br><code>dashed</code>
-    "</i></td>
+  <br><code>solid</code><br><code>dashed</code>
+  "</i></td>
     </tr>
     <tr>
       <td>text-align</td>
@@ -568,8 +577,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls alignment of element labels.
-    <br><code>bottom</code><br><code>center</code>
-    "</i></td>
+  <br><code>bottom</code><br><code>center</code>
+  "</i></td>
     </tr>
     <tr>
       <td>text-overflow</td>
@@ -577,8 +586,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls text wrapping and truncating.
-    <br><code>off</code><br><code>auto</code><br><code>auto [number]</code><br><code>manual</code><br><code>wrap</code><br><code>wrap [number]</code><br><code>clip</code><br><code>clip [number]</code>
-    "</i></td>
+  <br><code>off</code><br><code>auto</code><br><code>auto [number]</code><br><code>manual</code><br><code>wrap</code><br><code>wrap [number]</code><br><code>clip</code><br><code>clip [number]</code>
+  "</i></td>
     </tr>
     <tr>
       <td>visibility</td>
@@ -586,8 +595,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls visibility. Hidden objects will still affect layout and metrics.
-    <br><code>visible</code><br><code>hidden</code>
-    "</i></td>
+  <br><code>visible</code><br><code>hidden</code>
+  "</i></td>
     </tr>
     <tr>
       <td>width</td>
@@ -595,8 +604,8 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls width of elements that are squares and/or rectangles.
-    <br><code>auto</code><br><code>number</code>
-    "</i></td>
+  <br><code>auto</code><br><code>number</code>
+  "</i></td>
     </tr>
   </tbody>
 </table>

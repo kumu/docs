@@ -39,6 +39,26 @@ And if the default geocoding results aren’t accurate, you can scope them to a 
 
 Note that your location field should be wrapped in two curly braces if you are scoping the results.
 
+
+## Pick your map style
+
+You can use the `geo-style` property to pick between these different map styles:
+
+#### `geo-style: auto`
+
+![geo-style auto](/images/geo-style-auto.png)
+
+
+#### `geo-style: streets`
+
+![geo-style streets](/images/geo-style-streets.png)
+
+
+#### `geo-style: satellite`
+
+![geo-style satellite](/images/geo-style-satellite.png)
+
+
 **Good to know:**
 - If you leave the location field blank on an element, it will get placed at 0° latitude, 0° longitude (in the Atlantic Ocean, south of Ghana).
 - If two elements have the exact same location, they will stack on top of each other and might be difficult to see.
@@ -46,5 +66,6 @@ Note that your location field should be wrapped in two curly braces if you are s
 - Geo isn’t quite ready for large maps yet. If you have more than 100 elements, it will take a few refreshes to get all locations geocoded.
 - Screenshots and PDFs are not currently supported for geo.
 - Decorations for geo maps are still in beta. By default, you’re limited to squares and straight lines, but if you want to test out the full range of decorations (circles, borders, curved lines, flags, etc.), add `renderer: canvas;` to your `@settings` block.
+- You can use the `scale-max` and `scale-min` properties to adjust the minimum and maximum allowed zoom levels for your readers. [See the settings reference](/guides/settings-reference.html) for more guidance.
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/templates/geo.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
