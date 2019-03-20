@@ -57,7 +57,7 @@ All values are unitless.
 <table id="settings-search-table" class="table border-bottom">
   <tbody>
       <tr>
-        <  <tr>
+        <tr>
           <th class="text-left">Property</th>
           <th class="text-left">Description</th>
           <th class="text-left">Possible values</th>
