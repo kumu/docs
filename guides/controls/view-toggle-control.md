@@ -1,6 +1,10 @@
-# View toggle control
+# Partial view toggle control
 
-With the view toggle control, you can toggle between different [partial views](/guides/partial-views.html).
+With the partial view toggle control, you can toggle between different [partial views](/guides/partial-views.html).
+
+<p class="alert alert-info">
+  Wondering how to set up a partial views for your control? Check out <a href="/guides/partial-views.html">our full guide on partial views</a>.
+</p>
 
 ![view toggle gif](/images/view-toggle.gif)
 
