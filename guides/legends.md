@@ -44,6 +44,10 @@ The legend entries added from the decoration builder will be listed in the Basic
 
 Legend entries added using the **Color by** tool can only be removed by [defining your own color palette](/guides/color-reference.html#defining-your-own-color-palette) or [deleting the field values](/guides/fields.html#deleting-field-values) that you don't want to see.
 
+<p class="alert alert-info">
+  Seeing old or unwanted field values in your legend? Check out our guide on <a href="/guides/fields.html#deleting-field-values">deleting the unwanted values</a>.
+</p>
+
 If you used the decoration builder to add a legend entry, you can go to the existing decorations section, click the pencil icon <i class="fa fa-pencil">  </i> next to the decoration, and clear out the Label for Legend box. This will remove the legend item, but keep the decoration—if you'd rather delete both, you can click the delete icon <i class="fa fa-remove" style="color: darkred;">  </i> in the existing decorations section.
 
 Some legend entries get added automatically when you apply different [templates](/guides/templates.html). Here's how to delete those entries:
