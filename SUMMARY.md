@@ -118,7 +118,7 @@
 
 ## Frequently Asked Questions
 * [How can my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
-* [How do I add annotations?](faq/how-do-I-add-annotations.md)
+* [How do I add annotations?](faq/how-do-i-add-annotations.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
 * [How do I add contributors?](faq/how-to-add-contributors.md)
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
