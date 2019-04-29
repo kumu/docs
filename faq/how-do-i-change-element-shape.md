@@ -67,13 +67,16 @@ person {
 
 ## Use shapes that are _not_ circles or squares
 
-While Kumu doesn't support other shapes officially, there's a workaround that allows you to use **any shape** for your elements. Here's a step-by-step:
-1. Outside of Kumu, find or create an image of the shape you want to use. Make sure the image has a transparent background and square dimensions—see examples below. ([Google Drawings](https://docs.google.com/drawings/) and [Figma](https://figma.com) are both free tools that you can use to create these images.)
+While Kumu doesn't support other shapes officially, there's a workaround that allows you to use **any shape** for your elements: find an image of the shape, and set it as the background image for an element.
+
+Here's a more detailed step-by-step:
+1. Outside of Kumu, find or create an image of the shape you want to use.
 1. Use the [element decoration builder](https://docs.kumu.io/guides/decorate.html#refine-your-decorations) to upload your image as a decoration for a selection of elements.
-1. Use the decoration builder to set the color of your custom-shaped elements to match the background color of your map. If you're using the light theme (default on all templates except SNA), this color is `#fcfcfa`. If you're using the dark theme (default on the SNA template), this color is `#252525`.
 1. Click **Save** at the bottom of the settings panel to save your changes.
 
-Note that the colors you add in Step 3 will make it _look_ like your elements have transparent backgrounds, but it will not actually make them transparent. To make your elements' background colors truly transparent, you can adapt this snippet of code in your Advanced Editor:
+Optionally, you can use the decoration builder to set the color of your custom-shaped elements to match the background color of your map. If you're using the light theme (default on all templates except SNA), this color is `#fcfcfa`. If you're using the dark theme (default on the SNA template), this color is `#252525`.
+
+Note that `#fcfcfa` and `#252525` will make it _look_ like your elements have transparent backgrounds, but it will not actually make them transparent. To make your elements' background colors truly transparent, you can use this snippet of code in your Advanced Editor:
 
 ```
 element {
@@ -81,7 +84,7 @@ element {
 }
 ```
 
-Replace `element` with a [selector](/guides/selectors.html) that matches the elements you want to decorate. (`element` will select all elements on the map and make them transparent).
+Replace `element` with a [selector](/guides/selectors.html) that matches the elements you want to decorate.
 
 #### Sample shapes
 
