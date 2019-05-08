@@ -11,12 +11,19 @@ Presentations can be accessed through the main menu of your project. When you cr
 
 ![presentations interface](/images/presentations-ui.png)
 
-Use the plus button in the upper left corner to add a slide. After the title slide, your added slides can be one of 4 types:
+Use the plus button in the upper left corner to add a slide. After the title slide, your added slides can be one of several types:
 
+* Title
 * Map
 * Text
 * Image
 * Embed
+
+### Title slides
+
+Title slides are useful when you want to signal the start of a new section in your presentation. They let you add a nice splash image with some overlayed text:
+
+![title slide](/images/presentation-title-slide.jpg)
 
 ### Map slides
 A map slide is any combination of a map and a view. You can choose to have the slide zoom fit by checking the corresponding box, or you can create just the zoom you'd like but zooming in or out.
@@ -29,6 +36,8 @@ You can also activate focus or filter for a given map slide, and Kumu will remem
 
 ### Text slides
 Text slides can include both a title and content. The content section supports markdown so you can also include images and other basic formatting (widgets aren't supported though).
+
+![text slide](/images/presentation-text-slide.png)
 
 ### Image slides
 Images slides are just like they sound. Include an image URL and we'll present it in full screen glory. You can also choose to include a title.
