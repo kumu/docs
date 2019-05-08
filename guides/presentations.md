@@ -40,7 +40,10 @@ Text slides can include both a title and content. The content section supports m
 ![text slide](/images/presentation-text-slide.png)
 
 ### Image slides
-Images slides are just like they sound. Include an image URL and we'll present it in full screen glory. You can also choose to include a title.
+
+As you might expect, image slides allow you to upload an image to be displayed full screen on a slide. They're particularly useful for bringing in images of graphs or charts created outside of Kumu. You can also choose to include a title.
+
+![image slide](/images/presentation-image-slide.jpg)
 
 ### Embed slides
 Embed slides are for interactive web content and support embeds from over [300 different providers](http://embed.ly/providers). Just add the URL of the content you'd like to embed.
