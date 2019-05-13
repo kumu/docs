@@ -17,7 +17,7 @@ In this guide, we'll explain each of the building blocks that make up Kumu's arc
 
 ## Elements, connections, and loops
 
-In Kumu, you can add **elements**, **connections**, and **loops** to your map to represent your system or network. Visually speaking, elements are circles, connections are lines between the elements, and loops are groups of two or more connections.
+In Kumu, you can use **elements**, **connections**, and **loops** to represent your system or network. Visually speaking, elements are circles, connections are lines between the elements, and loops are groups of two or more connections.
 
 ![Elements, connections, and loops](/images/elements-connections-loops-bold.png)
 
@@ -41,7 +41,7 @@ You can use these visual components in infinite different ways, but here are som
     <td>Sub-systems</td>
   </tr>
   <tr>
-    <td>Decisions chances, and ends in a decision tree</td>
+    <td>Decisions, chances, and ends in a decision tree</td>
     <td>Paths along the decision tree</td>
     <td>Multi-part decisions</td>
   </tr>
