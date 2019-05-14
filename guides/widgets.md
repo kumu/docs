@@ -19,6 +19,8 @@ Widgets can be included in the map overview and in the description field for any
 
 ### Lists
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/4m_f4Mu03nI" frameborder="0" allowfullscreen></iframe></p>
+
 Use the code below to create a list of links to all the loops in your map. Just swap `loops` for `elements` or `connections` and you'll have a list of elements or connections instead!
 
 ```

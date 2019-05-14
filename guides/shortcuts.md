@@ -1,5 +1,7 @@
 # Shortcuts
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/D5SQ4SzMtns" frameborder="0" allowfullscreen></iframe></p>
+
 ### Navigation
 <ul class="shortcuts">
   <li class="shortcut"><span class="keystroke">S</span> Search</li>

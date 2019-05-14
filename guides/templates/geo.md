@@ -1,6 +1,10 @@
 # Geo Template
 
-The **geo template** lets you build your visualizations on top of geographic maps. You can activate the geo template by opening the Advanced Editor (keyboard shortcut: press `.`) and adding `template: geo;` to the `@settings` block, like so:
+The **geo template** lets you build your visualizations on top of geographic maps.
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/0WQ0dS5CIGM" frameborder="0" allowfullscreen></iframe></p>
+
+You can activate the geo template by opening the Advanced Editor (keyboard shortcut: press `.`) and adding `template: geo;` to the `@settings` block, like so:
 
 ```
 @settings {

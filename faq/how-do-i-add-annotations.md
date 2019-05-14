@@ -2,6 +2,8 @@
 
 Sometimes, it's useful to add plain text to a map to annotate or explain different pieces of the visual. Kumu doesn't have built-in support for these kinds of annotations, but you can follow this guide to achieve the same effect.
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/PGZZui7XASk" frameborder="0" allowfullscreen></iframe></p>
+
 First, create a new element, and use the full text of your annotation as the element's label. Then, change the element's type to `Annotation` and add the following code to your Advanced Editor:
 
 ```

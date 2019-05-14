@@ -30,6 +30,8 @@ You'll see four of Kumu's most commonly used view settings, and the first two—
 
 **Size by** allows you to scale the size of your elements based on numbers stored inside them. For example, if you have a map of organizations, you could create a field called "Net Assets" and fill out the numbers for each element. Then you can use the Basic Editor to scale the size the organizations according to their Net Assets, allowing you to quickly compare everyone's resources.
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ej9IONabGH8" frameborder="0" allowfullscreen></iframe></p>
+
 Don't like the default sizes? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Size by** dropdown to fine-tune your sizing options.
 
 In this example, we sized people by the number of views they received on their videos of the ALS ice bucket challenge:
@@ -46,6 +48,8 @@ Note that if you don't have any fields with numbers, the **Size by** dropdown me
 ### Color by
 
 **Color by** allows you to color-code your elements based on any field. Simply select a field from the dropdown, and any elements that have data in that field will be colored!
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/a0FgR7gXFVk" frameborder="0" allowfullscreen></iframe></p>
 
 Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
 

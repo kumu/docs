@@ -52,7 +52,12 @@ Looks like:
 
 
 ## Links within your account
-We also support linking to elements, connections and loops (even other maps in your account) using the following format:
+
+We also support linking to elements, connections and loops (even other maps in your account).
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/iORN_mRpkMI" frameborder="0" allowfullscreen></iframe></p>
+
+You can use the following syntax:
 
 **Selectors**
 

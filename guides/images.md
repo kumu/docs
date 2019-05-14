@@ -5,6 +5,8 @@ In Kumu, there are a number of different places where you can use images to enri
 - [Adding images to elements](#add-images-to-elements)
 - [Adding a background image](#add-a-background-image)
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/bA71RjEIvdI" frameborder="0" allowfullscreen></iframe></p>
+
 
 ## Add images to elements
 

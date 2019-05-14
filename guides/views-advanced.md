@@ -165,6 +165,8 @@ Note: Remember that the slug of the perspective is the name with all special cha
 
 Easily customize how labels display on your map by including custom text, pulling in field values, or turning them off entirely.
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/tqF5xJ9MfZo" frameborder="0" allowfullscreen></iframe></p>
+
 These can be used within @settings or as a separate rule:
 
 ```

@@ -141,6 +141,8 @@ Seeing errors during your Excel import? You can use the <a class="alert-link" hr
 
 Our Google Sheets integration populates a map using the contents of a spreadsheet hosted on Google Drive. Since Google Sheets can be opened up to the general public for editing, this integration is a great way to crowdsource maps without having to give everyone full edit access to the project on Kumu.
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/0eZQ2MPGzv4" frameborder="0" allowfullscreen></iframe></p>
+
 There are two versions of the Google Sheets integration, private and public. Private is more secure and uses oAuth to authorize Kumu to access the sheet, while the public integration requires you to make your data publicly viewable on the internet.
 
 <p class="alert alert-warning">

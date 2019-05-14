@@ -63,6 +63,8 @@ Wave-2 | Pipeline | Double overhead
 Wave-3 | Sunset Beach | Head high
 Wave-4 | Pua'ena Point | Head high
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/hoEJ-FXkbnA" frameborder="0" allowfullscreen></iframe></p>
+
 In the earlier example, before we added ID, Kumu was creating two elements with the label `Pipeline`. One of those elements had the type `Head high`, and the other had the type `Double overhead`. But now that we're using ID, Kumu understands that those are the same element with the ID `Wave-2`.
 
 With the help of this new ID column, Kumu will only create one `Wave-2` element, and it will import the data from the `Wave-2` that is furthest down on the list (i.e. the type will be `Double overhead`, not `Head high`).

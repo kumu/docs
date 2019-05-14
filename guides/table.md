@@ -2,6 +2,8 @@
 
 Table allows you to view and edit your map's underlying data as a spreadsheet. You can access Table by clicking the spreadsheet icon in the lower right corner of your map.
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/t1lDPgcmr-I" frameborder="0" allowfullscreen></iframe></p>
+
 ![](../images/data-editor.jpg)
 
 ## The basics

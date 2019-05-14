@@ -82,6 +82,8 @@ If you need to share a static screenshot of your map (for example, in another pr
 
 To quickly snap a JPEG screenshot of your map, click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the [bottom toolbar](/overview/map-editor.html#bottom-toolbar) and select "Capture screenshot". Note that the screenshot will be taken at your current position and scale on the map—if you'd like everything to be centered, click the zoom-fit icon <i  class="glyphicon glyphicon-resize-small">  </i> in the zoom toolbar, or press `\` on your keyboard.
 
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/66dz3DFJZi4" frameborder="0" allowfullscreen></iframe></p>
+
 When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
 
 If you need a hi-res screenshot that can scale up or down to any size (for example, when you're printing a Kumu map on a large poster), we can create hi-res PDF files.

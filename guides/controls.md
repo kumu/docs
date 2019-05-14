@@ -5,7 +5,9 @@ You can use them to overlay buttons, images, text and more! Interactive controls
 can be used to transform the current view's setting too, such as filter, focus,
 and clustering.
 
-![Image of a custom control](/images/custom-controls-intro.png)
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/eBo1St2laTw" frameborder="0" allowfullscreen></iframe></p>
+
+<!-- ![Image of a custom control](/images/custom-controls-intro.png) -->
 
 
 ### Add controls through the Basic Editor
