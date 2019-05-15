@@ -53,32 +53,32 @@ You can use these visual components in infinite different ways, but here are som
   <tr>
     <td>People</td>
     <td>Interpersonal relationships</td>
-    <td>—</td>
+    <td>Sub-networks or communities</td>
   </tr>
   <tr>
     <td>People &amp; organizations</td>
     <td>Connect people to the organizations they're affiliated with</td>
-    <td>—</td>
+    <td>Sub-networks or communities</td>
   </tr>
   <tr>
     <td>Authors &amp; books/articles they've co-authored</td>
     <td>Connect authors to their books/articles</td>
-    <td>—</td>
+    <td>Sub-networks or communities</td>
   </tr>
   <tr>
     <td>Stakeholders &amp; areas of interest</td>
     <td>Connect stakeholders to the areas they're interested in</td>
-    <td>—</td>
+    <td>Sub-networks or communities</td>
   </tr>
   <tr>
     <td>Funders, non-profits, and population groups</td>
     <td>Connect funders to non-proftis, and connect non-profits to the populations they serve</td>
-    <td>—</td>
+    <td>Sub-networks or communities</td>
   </tr>
   <tr>
     <td>Companies and sectors/industries</td>
     <td>Connect companies to their sectors/industries</td>
-    <td>—</td>
+    <td>Sub-networks or communities</td>
   </tr>
 </tbody>
 </table>
