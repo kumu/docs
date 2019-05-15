@@ -12,8 +12,8 @@ If you'd like further control over the layout settings, you can use the Advanced
 
 - Gravity (`layout-gravity`)
 - Particle charge (`layout-particle-charge`)
-- Connection length (`layout-connection-length`)
-- Connection strength (`layout-connection-strength`)
+- Connection length (`connection-length`)
+- Connection strength (`connection-strength`)
 
 For example, to re-create the "hairball" setting, add the following to the `@settings` block :
 
@@ -21,8 +21,8 @@ For example, to re-create the "hairball" setting, add the following to the `@set
 @settings {
   layout-gravity: 0.0001;
   layout-particle-charge: 300;
-  layout-connection-length: 500;
-  layout-connection-strength: 0.1;
+  connection-length: 500;
+  connection-strength: 0.1;
 }
 ```
 
