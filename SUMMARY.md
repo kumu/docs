@@ -71,6 +71,7 @@
 * [Presentations](guides/presentations.md)
 * [Profiles](guides/profiles.md)
   * [Markdown](guides/markdown.md)
+* [Project admin](guides/project-admin.md)
 * [Selectors](guides/selectors.md)
 * [Share and embed maps](guides/share-and-embed.md)
 * [Shortcuts](guides/shortcuts.md)
