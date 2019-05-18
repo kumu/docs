@@ -7,7 +7,7 @@ These help docs will guide you through the process of
 your Kumu Enterprise installation.
 
 ## Enterprise Overview
-<script async class="speakerdeck-embed" data-id="33eb8509837649bcb571107fd6fce9f1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="2e17e377db184376be20b0c506f29ec6" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Questions?
 Please email <a href="mailto:enterprise@kumu.io">enterprise@kumu.io</a> if you
