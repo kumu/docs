@@ -78,7 +78,7 @@ Use `kumu-ssl-install-key` to upload a custom private key.
 - key must be encoded in PEM format
 
 ```
-ssh admin@<hostname> -- "kumu-ssl-install-cert" < privkey.pem
+ssh admin@<hostname> -- "kumu-ssl-install-key" < privkey.pem
 ```
 
 NOTE: After you have uploaded your certificate and key, you must run
