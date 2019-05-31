@@ -122,6 +122,7 @@
 * [How do I add annotations?](faq/how-do-i-add-annotations.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
 * [How do I add contributors?](faq/how-to-add-contributors.md)
+* [How do I add more than one element with the same label?](faq/how-do-i-add-more-than-one-element-with-the-same-label.md)
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
 * [How do I avoid duplicating data?](faq/how-do-I-avoid-duplicating-data.md)
 * [How do I change connection curvature?](faq/how-do-i-change-connection-curvature.md)
