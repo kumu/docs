@@ -3,6 +3,7 @@
 We've built a [flexible widget framework](https://github.com/kumu/widgets) to make it easy to embed your favorite content within Kumu. Widgets are curently supported for:
 
 * Lists ```[[list/loops]], [[list "selector"]] or [[list "field"]]```
+* Video from any source ```[[video?src=url]]```
 * Vimeo ```[[vimeo/id]]```
 * YouTube ```[[youtube/id]]```
 * Slideshare ```[[slideshare/id]]```
