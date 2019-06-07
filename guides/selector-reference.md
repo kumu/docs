@@ -118,4 +118,37 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
   </tr>
 </table>
 
+
+## Operators
+<table class="table border-bottom">
+  <tr>
+    <th class="text-left">Operator</th>
+    <th class="text-left">Description</th>
+  </tr>
+  <tr>
+    <td><code>=</code></th>
+    <td>is equal to</td>
+  </tr>
+  <tr>
+    <td><code>!=</code></th>
+    <td>is not equal to</td>
+  </tr>
+  <tr>
+    <td><code>^=</code></th>
+    <td>starts with</td>
+  </tr>
+  <tr>
+    <td><code>$=</code></th>
+    <td>ends with</td>
+  </tr>
+  <tr>
+    <td><code>*=</code></th>
+    <td>text contains</td>
+  </tr>
+  <tr>
+    <td><code>~=</code></th>
+    <td>list of values includes (this operator matches full values)</td>
+  </tr>
+</table>
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/selector-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
