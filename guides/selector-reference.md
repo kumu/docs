@@ -126,43 +126,43 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
     <th class="text-left">Description</th>
   </tr>
   <tr>
-    <td><code>=</code></th>
+    <td><code>=</code></td>
     <td>is equal to</td>
   </tr>
   <tr>
-    <td><code>!=</code></th>
+    <td><code>!=</code></td>
     <td>is not equal to</td>
   </tr>
   <tr>
-    <td><code>^=</code></th>
+    <td><code>^=</code></td>
     <td>starts with</td>
   </tr>
   <tr>
-    <td><code>$=</code></th>
+    <td><code>$=</code></td>
     <td>ends with</td>
   </tr>
   <tr>
-    <td><code>*=</code></th>
+    <td><code>*=</code></td>
     <td>text contains</td>
   </tr>
   <tr>
-    <td><code>~=</code></th>
+    <td><code>~=</code></td>
     <td>list of values includes (this operator matches full values)</td>
   </tr>
   <tr>
-    <td><code>></code></th>
+    <td><code>></code></td>
     <td>is greater than</td>
   </tr>
   <tr>
-    <td><code>>=</code></th>
+    <td><code>>=</code></td>
     <td>is greater than or equal to</td>
   </tr>
   <tr>
-    <td><code><</code></th>
+    <td><code><</code></td>
     <td>is less than</td>
   </tr>
   <tr>
-    <td><code><=</code></th>
+    <td><code>&lt;=</code></td>
     <td>is less than or equal to</td>
   </tr>
 </table>
