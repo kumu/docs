@@ -100,11 +100,19 @@ We reserve a few category names that we give special treatment to:
 - **Metrics** - This category holds any of the data you create using Kumu's [Metrics](/guides/metrics.md) tool.
 
 ## Field relevance
-You can also manage field relevance through the project's settings to prevent irrelevant fields getting in the way of your work. Click the menu in the top left of your map and then click "fields". Scroll down and you'll see a "relevance" section. You can edit which fields should be included for each of the element and connection types in your project by clicking edit and unchecking the relevant fields.
+
+By default, all fields are shown in the profiles of all elements, connections, and loops while you're editing the map. Even if a field has a blank value, it will still show up in the profile.
+
+But, in each profile, Kumu will automatically hide all blank fields in the following cases:
+- When someone is viewing a [presentation](/guides/presentations.html)
+- When someone is viewing a [shared/embedded map](/guides/share-and-embed.html)
+- When someone is viewing the source project, but they don't have edit access
+
+If you'd rather hide irrelevant fields while you're editing the map, you can use **field relevance** in your project settings. Click the menu in the top left of your map and then click "fields". Scroll down and you'll see a "relevance" section. To edit which fields should be included for each of the element, connection, and loop types in your project, click edit, uncheck the relevant fields, and click "Done" at the bottom of the field list.
 
 ![field relevance](/images/field-relevance.png)
 
-By default, all fields are shown for all types. If you'd like to limit the fields that are shown, simply click edit and then uncheck the field you'd like to hide in the profile for a given type. Label, type, description, and tags are always shown for all types regardless of what you enter. Above is an example of customizing the profile of elements with type of "Company" to only show Image, Website, URL and Attribution.
+If you'd like to limit the fields that are shown, simply click edit and then uncheck the field you'd like to hide in the profile for a given type. Label, type, description, and tags are always shown for all types regardless of what you enter. Above is an example of customizing the profile of elements with type of "Company" to only show Image, Website, URL and Attribution.
 
 ## Field ordering
 You can also use the field relevance menu to change the order fields are listed in the profile. By default all fields are listed alphabetically (and optionally broken into sections if you've assigned categories). The order of fields is unique to each element or connection type.
