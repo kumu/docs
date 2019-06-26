@@ -21,7 +21,24 @@ This automatic legend feature also works when you're using **Color by** to add [
 
 Note that the **Color by** tool will stop adding legend entries after it runs out of colors in its default color palette (seven colors). To make sure all your field values get included in the legend, you might need to click the expand icon <i class="fa fa-angle-down"></i> and choose a [larger color palette](/guides/color-reference.html). If the **Color by** tool is including some unwanted field values in your legend, try  [deleting the unwanted values](/guides/fields.html#deleting-field-values).
 
-One more caveat about **Color by**: when you're using this tool, it's not possible to remove, replace, or edit individual colors from the color palette. To fully customize the colors in the palette, you can follow the guide to [define your own palette](/guides/color-reference.html#defining-your-own-color-palette). Alternatively, you can read through the next section in this guide to learn how to create a custom legend without using the **Color by** tool.
+One more caveat about **Color by**: when you're using this tool, it's not possible to remove, replace, or edit individual colors from the color palette. To fully customize the colors in the palette, you can follow the guide to [define your own palette](/guides/color-reference.html#defining-your-own-color-palette). Alternatively, you can read through [the section below](#use-the-decoration-builders-to-add-legend-entries) to learn how to create a custom legend without using the **Color by** tool.
+
+
+##### Only color by the values being used
+
+In some projects, you might have a long list of field values, but only use _some_ of them on a given map. If that is the case, your **Color by** legend will include _all_ of the possible field values, not just the values being used on your map.
+
+Using Kumu's [computed fields](/guides/computed-fields.html) feature, you can quickly solve this problem and create a legend with only the used values:
+
+1. Open your [project settings](/overview/settings.html#project-settings) and click "Fields"
+1. Add  a new field—this new field can have any name, but something like "Color coding field" might be clear and easy to remember.
+1. Scroll down to the fields "Advanced settings" section.
+1. In the **Expression** box, paste in {% raw %}`{{Field Name}}`{% endraw %}, replacing `Field Name` with the name of the field you originally wanted to color by. For example, if you want to color by the element type field, paste in {% raw %}`{{element type}}`{% endraw %}.
+1. Click "Save" to save the field
+
+With that done, you can return to the map, and use the **Color by** tool to color by your new computed field. Regardless of how many possible values you have in the original field, the legend will now only include the values being used on the current map.
+
+For bonus points, use [field relevance settings](/guides/fields.html#field-relevance) to hide your computed field from all profiles.
 
 
 #### Use the decoration builders to add legend entries

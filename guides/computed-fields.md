@@ -1,6 +1,6 @@
 # Computed fields
 
-*Note: Computed fields are in beta release so expect changes to this document and limitations in how computed fields can be used. Computed fields are not currently supported for maps using the Google Sheets integration.*
+<!-- *Note: Computed fields are in beta release so expect changes to this document and limitations in how computed fields can be used. Computed fields are not currently supported for maps using the Google Sheets integration.* -->
 
 Computed fields are a special type of field that allow you to calculate values automatically based on an expression that you specify.
 
@@ -73,7 +73,7 @@ Make sure that you're including "no" for the fields that aren't "yes" instead of
 
 ## Limitations
 
-Currently you can only create a computed field that pulls values from other standard fields in Kumu. You cannot create a computed field which pulls values from other computed fields. This may be possible in future releases but is not currently supported.
+Currently you can only create a computed field that pulls values from other standard fields in Kumu. You cannot create a computed field which pulls values from other computed fields.
 
 For example, if you created a computed field "total contributions" which was based on the expression {% raw %}`{{amount for}} + {{amount against}}`{% endraw %}, you couldn't use "total contributions" in another computed field that was looking at the relative percentage of for vs. against.
 
