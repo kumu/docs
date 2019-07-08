@@ -10,9 +10,15 @@ There are several factors involved that will affect your Kumu project's limit:
 - The browser you're using (currently, Google Chrome runs Kumu the fastest—we check every so often, so we'll update this if need be)
 - The speed of your internet connection (especially when the map is first loading up and when you're searching the map for the first time after rereshing the page)
 - The renderer you're using: Canvas (slower, but supports more varied decorations), or WebGL (faster, but supports less visual variety)
+- The render quality (Canvas renderer only)
 
 If you notice that your project is starting to lag or move slowly in any way, here are a few steps you can take to troubleshoot:
-1. In your [default view settings](/guides/default-view-settings.html), change the **quality** from **best** to **low/fast**. (This will switch your view from the Canvas renderer to WebGL.)
+1. In your [default view settings](/guides/default-view-settings.html), change the **quality** from **best** to **low/fast**. Alternatively, you  can switch to the faster WebGL renderer if you copy/paste the following code into your Advanced Editor:
+  ```
+  @settings {
+    renderer: webgl;
+  }
+  ```
 1. Hide images from the map. To do this, open the Advanced Editor and paste in this code snippet: `* { image-visibility: hidden; }`
 1. Close as many browser tabs as possible.
 1. Exit any applications on your computer that are using a lot of CPU. On Mac, you can use the built-in Activity Monitor tool to help find those applications, and on Windows, you can use Task Manager.
