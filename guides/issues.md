@@ -17,6 +17,12 @@ You can also attach an issue directly to an element, connection, or loop on the 
 To collapse the issues pane, click the issues icon <i class="fa fa-comments-o"></i> again.
 
 
+## Email notifications
+
+When a new comment is added to an issue, every Kumu user with access to the project will be notified by email (users with view-only access won't be notified). From the email, they can open the issue in Kumu and respond, or they can simply reply to the email to add their new comment.
+
+
+
 ## Open, close, and search issues
 
 Once you've been working in a project for a while, your list of issues might get a bit lengthy. To clean up the list, and to let your team members know which conversations are finished, you can close out old issues.
