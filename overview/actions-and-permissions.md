@@ -71,26 +71,15 @@ Each of these roles has different **permissions** to take **actions** in the org
 For more info on how to add project contributors, check out [our full guide on organizations](/guides/organizations.html).
 
 
-<!-- ### Who is the personal project owner?
+## Finding out which account owns a project
 
-There are two different ways to find out which account is the owner of a project. First, you can go to your [personal account dashboard](https://kumu.io/dashboard), and look underneath the project name to see the owner's username.
+There are two different ways to find out which account is the owner of a project. First, if you have been [added as a contributor](/overview/collaboration.html#add-a-contributor) to the project, you can go to your [personal account dashboard](https://kumu.io/dashboard) and find the project in the list. Underneath the project's name, you'll see the owner's username.
 
 ![project owner username under project name](/images/project-owner-dashboard.png)
 
-You can also figure out who owns a project by looking at the project's URL. Every Kumu project URL starts with `https://kumu.io/`, followed by the owner's username:
+You can also figure out who owns any project by looking at the project's URL. Every Kumu project URL starts with `https://kumu.io/`, followed by the owner's username. For example, the project pictured below is owned by our organization account, which has the username "Kumu":
 
-![project owner in URL](/images/project-owner-url.png) -->
-
-
-<!-- ## Find out who owns a project
-
-
-
-In Kumu, every [project](/overview/kumus-architecture.html#projects) has one designated **owner**. The owner is a [Kumu account](/overview/accounts-and-plans.html)—either a personal account or an organization account. -->
-
-
-
-
+![project owner in URL](/images/project-owner-url.png)
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/actions-and-permissions.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
