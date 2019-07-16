@@ -167,9 +167,7 @@ The Enterprise version of Kumu is the right choice for teams that are working wi
 
 Note that the Enterprise version is not an account or plan, rather, it's a fully separate installation of Kumu. When you have an Enterprise version installed on your servers, you can create unlimited personal and organization accounts within that version, and each account can own unlimited private and public projects.
 
-Enterprise licensing starts at $79/user/month, billed annually, with a minimum of 5 seats—in other words, Enterprise starts at $4,740 annually. Additional seats can be purchased in packs of 5.
-
-To get started with a 45-day free trial of Enterprise, [fill our our short inquiry form](https://kumu.io/enterprise/purchase). If you need with installing, configuring, or upgrading your Enterprise version, [check out our full Enterprise guides](/enterprise/).
+To get started with Enterprise, [please email our support team](mailto:support@kumu.io). If you need help with installing, configuring, or upgrading your Enterprise version, [see our full Enterprise guides](/enterprise/).
 
 
 ## Training and consulting
