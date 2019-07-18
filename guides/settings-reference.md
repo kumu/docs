@@ -2,7 +2,11 @@
 
 In the [Advanced Editor](/overview/view-editors.html#advanced-editor), the `@settings` block can be used to tweak default settings and add all kinds of powerful features to your view.
 
-The `@settings` block supports all decoration properties listed in the [property reference](/guides/property-reference.html), and also allows you to preface each property with `element-`, `connection-`, or `loop-` to set default decorations for each group.
+The `@settings` block supports all decoration properties listed in the [property reference](/guides/property-reference.html), as long as you prefix each property with one of the following:
+- `*-` if you want to apply the rule to all items
+- `element-` to apply the rule to elements only
+- `connection-` to apply the rule to connections only
+- `loop-` to apply the rule to loops only
 
 But, `@settings` also supports its own list of exclusive properties. The table below lists all properties that can be used exclusively inside an `@settings` block, describes their effect on the view, and lists valid values for each property (when there are multiple valid values, we've listed them as separate snippets of `inline code`).
 
