@@ -41,10 +41,10 @@ The force-directed layout also allows you to override any element's position by 
 1. Click on the Settings icon <i class="fa fa-sliders"></i> on the right side of the map
 1. Click **MORE OPTIONS** and select **Customize view defaults**
 1. Scroll down to the **General settings** section to change the "Layout" to "force-directed"
-1. In the same section, change "Default element behavior" to "floating"
+1. Use your [map settings](/overview/settings.html#map-settings) to change the default element behavior to "floating"
 1. If you were previously using a fixed layout, you may need to un-pin all the existing elements. You can do this by pressing `Shift`+`E` on your keyboard to select all elements, then click the pin icon in the lower right of the element profile **or** press `Alt`+`P` on your keyboard.
 
-If you would rather do steps 1-4 in the [Advanced Editor](/overview/view-editors.md#advanced-editor), here is the code you can use to switch to a force-directed layout:
+If you would rather do steps 1-3 in the [Advanced Editor](/overview/view-editors.md#advanced-editor), here is the code you can use to switch to a force-directed layout:
 
 ```
 @settings {

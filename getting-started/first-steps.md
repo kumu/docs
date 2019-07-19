@@ -82,7 +82,7 @@ Try clicking on the first option, **Add element**, to create a new element. Kumu
 Add a few more elements, then try selecting **Add connection** from that menu to connect your elements. Once you have a few connections, you can select **Add loop** to create a group of connections.
 
 <p class="alert alert-info">
-  Tip: Speed up this process by using keyboard shortcuts! Press <code>E</code> to add an element, <code>C</code> to add a connection, and <code>L</code> to add a loop. Or, hold <code>alt</code> on your keyboard, the click the map to add an element. Hold <code>alt</code> and click-and-drag from an element to create a connection.
+  Tip: Speed up this process by using keyboard shortcuts! Press <code>E</code> to add an element, <code>C</code> to add a connection, and <code>L</code> to add a loop. Or, hold <code>alt</code> on Windows/<code>option</code> on Mac, then click the map to add an element. Hold <code>alt</code> and click-and-drag from an element to create a connection.
 </p>
 
 
