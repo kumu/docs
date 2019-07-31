@@ -127,7 +127,7 @@ It gets better! Let's say you add some elements and connections to Kumu and appl
 
 All view rules are completely scaleable—Kumu will apply them to any and all new data you add, whether you're adding new elements, connections, and loops, or just adding new values to your fields.
 
-To learn more about building views and creating specific types of rules, check out the guides below. There's a lot to learn about views! But don't feel like you need to learn it all at once. You can get a lot a value out of Kumu without knowing all this information, but this is a great place to return to when you feel ready to take your Kumu skills to the next level.
+To learn more about building views and creating specific types of rules, check out the guides below. There's a lot to learn about views! But don't feel like you need to learn it all at once. You can get a lot of value out of Kumu without knowing all this information, but this is a great place to return to when you feel ready to take your Kumu skills to the next level.
 
 <table class="table borderless">
     <tr>

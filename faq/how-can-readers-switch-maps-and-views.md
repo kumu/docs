@@ -20,7 +20,7 @@ If you have a private project, you can also password-protect the presentation fo
 
 ## Use partial views
 
-Partial views can be used with the [view toggle control](/guides/controls/view-toggle-control.html) to allow readers to switch views at will, without leaving the current map. For more information, check out the [full guide on partial views](/guides/partial-view.html).
+Partial views can be used with the [view toggle control](/guides/controls/view-toggle-control.html) to allow readers to switch views at will, without leaving the current map. For more information, check out the [full guide on partial views](/guides/partial-views.html).
 
 
 ## Add map and view links to the Map Overview

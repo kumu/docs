@@ -72,7 +72,7 @@ When clustering is activated, Kumu will create new elements to represent each po
 
 Underneath the four core tools in the Basic Editor, you'll see a **MORE OPTIONS** link. Clicking this link will bring up a list of everything you can do in the Basic Editor.
 
-![More options in the basic editor](/images/overview-customize-this-view.png)
+![More options in the basic editor](/images/basic-editor-more-options.png)
 
 Follow these links below to learn more about any of these individual options:
 * [Customize defaults](/guides/default-settings.html)

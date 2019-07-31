@@ -176,7 +176,7 @@ Showcase is similar to filter, which allows you to show or hide elements, connec
 ![showcase animation](../images/showcase-control.gif)
 </span>
 
-Experiment with showcase by opening the Basic Editor, clicking **MORE OPTIONS**, and selecting **Showcase elements and connections**.
+Experiment with showcase by opening the Basic Editor, clicking **MORE OPTIONS**, and selecting **Highlight elements and connections**.
 
 ![Showcase basic editor](/images/overview-showcase.png)
 

@@ -18,16 +18,9 @@ You can also use the external link button (<i class="fa fa-external-link-square"
 
 <div class="alert alert-warning">
   <p>
-    Shared/embedded maps won't reflect updates you have made to the content of the map (elements, profiles, connections, etc.). To reflect content updates, you need to create a new share/embed link.
-  </p>
-  <p>
-    The only exception is for maps importing data from remote source, like Google Sheets or a JSON blueprint. Changes made to the content in the remote source will appear on the embedded map within one hour.
+    Shared/embedded maps will reflect updates you have made to the content of the map (elements, connections, and loops) and to views. Note that updates may take up to one hour to appear.
   </p>
 </div>
-
-<p class="alert alert-warning">
-  Shared/embedded maps <strong>do</strong>reflect changes to the view, which means that you can't save <a href="/guides/focus.html">focus</a> settings to an embed. To embed focus settings, you can first create the embed, then visit the embed and apply your focus settings. Your focus settings will be added to the URL as parameters—for example, <code>my-element?focus=2</code>. Copy the new, full URL, and you can share or embed that link to let your readers view your focus settings.
-</p>
 
 ## Advanced Options for Embeds
 

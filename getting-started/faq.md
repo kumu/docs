@@ -7,7 +7,7 @@ Of course! [Create an embed](/guides/share-and-embed.md) to share your map via a
 
 ### Do you have high resolution screenshots available? Or a PDF?
 
-We offer a paid service ($9 per PDF) to create a PDF of any map. Just send the link of your map to [prints@kumu.io](mailto:prints@kumu.io).
+We offer a paid service ($5 per PDF) to create a PDF of any map. Just send the link of your map to [prints@kumu.io](mailto:prints@kumu.io).
 
 ### How can I select all elements on my map? All connections?
 
