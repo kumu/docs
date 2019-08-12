@@ -46,12 +46,6 @@ Note that popovers automatically recognize images, so there's no need to style t
 
 Popovers also recognize multi-pick fields (like Tags) and will render them as bulleted lists.
 
-**Good to know:** If you want a hyperlink to open in a new tab, you'll have to use a snippet of HTML in your popover, like this example with the `{{hyperlink}}` field:
-```
-* {
-    popover: "<a href='{{hyperlink}}' target='_blank'>"
-}
-```
 
 ## Resizing the popover
 
