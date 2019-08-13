@@ -2,55 +2,47 @@
 
 Fields allow you to save additional data about the elements, connections and loops in your map. Create whatever fields you need and modify the settings to enable things like checklists, prompts, currencies, and much more.
 
-## Pre-named fields
 
-Kumu comes with a few pre-named fields to get you started. Putting data in _all_ of these fields isn't necessary, but they get special visual treatment in [profiles](/guides/profiles.html), so it's great to use them when you can!
+## Core fields
 
-<dl>
-    <dt>Label</dt>
-    <dd>
-      Use the Label field to give names to elements, connections, and loops. Your element and loop labels will appear on the map by default, and connection labels can be shown on the map as well, using the <code>label-visibility</code> <a href="/guides/property-reference.html">property</a> in the Advanced Editor.
-    </dd>
+Kumu comes with a set of core fields. Putting data in _all_ of these fields isn't necessary, but they get special visual treatment in [profiles](/guides/profiles.html) and have special functionality, so it's great to use them when you can!
 
-    <dt>Type</dt>
-    <dd>
-      Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family.
-    </dd>
+#### Label
+Use the Label field to give names to elements, connections, and loops. Your element and loop labels will appear on the map by default, and connection labels can be shown on the map as well, using the <code>label-visibility</code> <a href="/guides/property-reference.html">property</a> in the Advanced Editor.
 
-    <dt>Description</dt>
-    <dd>
-      The description field designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even images and videos. <a href="/guides/markdown.html">You can use Markdown</a> to format each description's content.
-    </dd>
+#### Type
+Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family.
 
-    <dt>Tags</dt>
-    <dd>
-      The tags field is designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.
-    </dd>
+#### Description
+The description field is designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even multimedia content. You can use <a href="/guides/markdown.html">Markdown</a> to format your text and <a href="/guides/widgets.html">widgets</a> to add multimedia content.
 
-    <dt>Image</dt>
-    <dd>
-      Include an image URL and Kumu will display it on the map and in the profile.
-    </dd>
+#### Tags
+The tags field is designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.
 
-    <dt>Email</dt>
-    <dd>
-      Add an email and Kumu will automatically include their <a href="http://en.gravatar.com/">gravatar</a> on the map and in the profile. Gravatars can be a huge time saver when working with social network data!
-    </dd>
+In the profile, tags appear under the description, and hovering your cursor over a tag will <a href="/guides/showcase.html">showcase</a> other items with that same tag.
 
-    <dt>ID</dt>
-    <dd>
-      Add a unique ID to each element and connection when you want to have fine-tuned control over Kumu's decision to create or update items during a <a href="/guides/import.html">spreadsheet import</a>. To learn more about this, check out <a href="/faq/how-do-I-avoid-duplicating-data.html">our guide on avoiding duplicate data</a>.
-    </dd>
-</dl>
+#### Image
+Include an image URL or upload an image from your computer, and Kumu will display it on the map and in the profile. Learn more from <a href="/guides/images.html">our full guide on images</a>.
 
-## Add a field
-To add a field, select an element or connection and then click the **+New Field** button in the sidebar. You'll be prompted to name the field and then enter a value for the element or connection you selected.
+#### URL
+Add any link to the URL, and the link will open when the element, connection, or loop is double-clicked.
+
+#### Email
+Add an email and Kumu will automatically include their <a href="http://en.gravatar.com/">gravatar</a> on the map and in the profile. Gravatars can be a huge time saver when working with social network data!
+
+#### ID
+Add a unique ID to each element and connection when you want to have fine-tuned control over Kumu's decision to create or update items during a <a href="/guides/import.html">spreadsheet import</a>. To learn more about this, check out <a href="/faq/how-do-I-avoid-duplicating-data.html">our guide on avoiding duplicate data</a>.
+
+
+## Add a custom field
+To add a custom field, select an element or connection and then click the **+New Field** button in the sidebar. You'll be prompted to name the field and then enter a value for the element or connection you selected.
 
 By default, new fields are set to accept only one value and not prompt users with suggested values. While this is an easy way to get started adding values, you may have times where you want people to pick from a list of defined values (level of influence: high, medium or low) or multiple values from a list (skills: project management, web development, leadership, public speaking). In those cases, you can customize your field—keep reading to learn how!
 
 <p class="alert alert-warning">
-Field's can't be named <code>YES</code>, <code>NO</code>, <code>ON</code>, <code>OFF</code>, <code>TRUE</code>, or <code>FALSE</code>. Uppercase <b>and</b> lowercase versions of these words will cause errors elsewhere in Kumu.
+  Field's can't be named <code>YES</code>, <code>NO</code>, <code>ON</code>, <code>OFF</code>, <code>TRUE</code>, or <code>FALSE</code>. Uppercase <b>and</b> lowercase versions of these words will cause errors elsewhere in Kumu.
 </p>
+
 
 ## Customize a field
 To customize the settings for a given field, click on an element, and click the field in the element's profile.
@@ -98,6 +90,7 @@ We reserve a few category names that we give special treatment to:
 - **General** - This is the default. Fields in this category will live at the top of the field section and won't have an explicit category label.
 - **Footnotes** - This category is meant for things like attribution and citing your sources. Fields in this category will always be listed at the bottom of the profile.
 - **Metrics** - This category holds any of the data you create using Kumu's [Metrics](/guides/metrics.md) tool.
+
 
 ## Field relevance
 
