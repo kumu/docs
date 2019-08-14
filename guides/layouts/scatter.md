@@ -6,7 +6,7 @@ Want to see a finished scatter plot before you get started? Check out our [scatt
 
 ## Set up your scatter plot
 
-To apply the scatter layout to your map, the first step is to add `layout: scatter` to your `@settings`.
+To apply the scatter layout to your map, the first step is to open the [Advanced Editor](/overview/view-editors.html#advanced-editor) add `layout: scatter` to your `@settings`.
 
 ```
 @settings {
