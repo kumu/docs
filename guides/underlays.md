@@ -38,8 +38,8 @@ By default, gridlines will extend infinitely. But, you can use the `layout-bound
   layout-grid: on;
   layout-bounds-xmin: 0;
   layout-bounds-ymin: 0;
-  layout-grid-ymax: 550;
-  layout-grid-xmax: 500;
+  layout-bounds-ymax: 550;
+  layout-bounds-xmax: 500;
 }
 ```
 
