@@ -11,6 +11,7 @@
   * [Refine your view](getting-started/first-steps.md#refine-your-view)
   * [Add a contributor](getting-started/first-steps.md#add-a-contributor)
 * [Quick tips](getting-started/quick-tips.md)
+* [Webinars](getting-started/webinars.md)
 * [FAQ](getting-started/faq.md)
 
 ## Overview
