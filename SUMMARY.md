@@ -93,6 +93,7 @@
   * [Focus](guides/focus.md)
   * [Showcase](guides/showcase.md)
   * [Bridge](/guides/bridge.md)
+  * [Imported views](/guides/imported-views.md)
   * [Partial views](/guides/partial-views.md)
   * [Advanced](guides/views-advanced.md)
     * [@settings](guides/advanced-settings.md)

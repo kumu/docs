@@ -118,15 +118,15 @@ At-rules are pieces of code in the Advanced Editor that look and behave a bit di
 
 #### @import
 
-`@import` rules allow you to import code from one of your project's views to another. To learn more about `@import` rules, [see our full guide](/guides/views-advanced.html#imported-views).
+`@import` rules allow you to import code from one of your project's views to another. To learn more about `@import` rules, [see our full guide](/guides/imported-views.html).
 
 #### @settings
 Unless you have coded in `@controls` or `@import` rules, your Advanced Editor code will have a block of `@settings` code right at the top, where you can adjust key settings like layout, template, render quality, and more.
 
+[Check out our advanced settings guide](/guides/advanced-settings.html) to learn more about `@settings`.
+
 #### @view
 `@view` can be used to define partial views. You can find more info in the [full guide on partial views](/guides/partial-views.html).
-
-[Check out our advanced settings guide](/guides/advanced-settings.html) to learn more about `@settings`.
 
 ## Saving changes
 
