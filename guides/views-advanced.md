@@ -145,41 +145,6 @@ element {
 }
 ```
 
-
-## Label Templates
-
-Easily customize how labels display on your map by including custom text, pulling in field values, or turning them off entirely.
-
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/tqF5xJ9MfZo" frameborder="0" allowfullscreen></iframe></p>
-
-These can be used within @settings or as a separate rule:
-
-```
-@settings {
-  element-label: "{{location}}";
-}
-
-OR
-
-person {
-  label: "Born in {{location}}";
-}
-```
-
-Just use the `{{field name}}` format to bring in dynamic field values. Don't forget to wrap everything in quotes. You can also use a double space to force a line break.
-
-```
-@settings {
-  element-label: "{{label}}  {{element type}}  {{location}}";
-}
-```
-
-<p class="alert alert-info">
-When using the <strong>Type</strong> field in label templates, you need to specify whether it is <strong>Element</strong> Type, <strong>Connection</strong> Type, or <strong>Loop</strong> Type. For example, use <code>{% raw %}{{element type}}{% endraw %}</code> instead of just <code>{% raw %}{{type}}{% endraw %}</code> when adding element type to the label template.
-</p>
-
-Head over to the [blog](http://blog.kumu.io/introducing-label-templates/) for tips on how to make the most of [label templates](http://blog.kumu.io/introducing-label-templates/).
-
 ## @settings
 
 If you're interested in working with `@settings` you truly have become a view master.

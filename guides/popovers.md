@@ -10,13 +10,12 @@
 
 Popovers are added through the Advanced Editor, using a simple syntax.
 ```
-* {
+selector {
     popover: "{{Field name}}";
 }
 ```
-The `*` will select everything on the map&mdash;elements, connections, and loops&mdash;and apply the popover settings to them. You can replace  `*` with any selector (check out our [selector reference](/guides/selector-reference.html) to learn more about selectors in Kumu).
 
-`Field name` can be replaced with the name of any of your fields, but remember to wrap each field name in double curly brackets `{{}}` and wrap the entire popover value in quotations.
+Replace `selector` with any valid [selector](/guides/selectors.html), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets `{{}}` and wrap the entire popover value in double quotes.
 
 For example, here is the code for an **element** popover that includes the **label** and **element type**:
 ```
