@@ -352,7 +352,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Replaces the default label with a label template.
-  <br><code>string template</code>
+  <br><code>none</code><br><code>string template</code>
   "</i></td>
     </tr>
     <tr>
@@ -469,7 +469,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Sets the popover content
-  <br><code>string template</code>
+  <br><code>none</code><br><code>string template</code>
   "</i></td>
     </tr>
     <tr>
