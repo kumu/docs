@@ -91,6 +91,11 @@ All values are unitless.
       <td><div><code>selector out number</code></div></td>
     </tr>
     <tr>
+      <td>font-cutoff</td>
+      <td>Sets the minimum font size at which labels will display when the map is zoomed out. Set to <code>0</code> to always display labels, regardless of zoom level.</td>
+      <td><div><code>number</code></div></td>
+    </tr>
+    <tr>
       <td>geo-location</td>
       <td>Sets the field that will be used to geo-locate elements</td>
       <td><div><code>'field name'</code></div><div><code>string-template</code></div></td>
