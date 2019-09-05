@@ -1,5 +1,42 @@
 # Changelog
 
+
+## Version 3.0
+
+**Machine upgrade required, released 2019-09-05**
+
+Kumu Enterprise 3.0 received major updates and is the first version we
+will be offering through Kumu Enterprise Cloud. Along with the ability to
+launch managed enterprise instances in the cloud, this update includes a
+number of application changes along with a handful of dependency upgrades
+(including an upgrade to Ubuntu 18.04).
+
+Changes:
+- Enterprise cloud support
+- Enterprise customers can now use SAML 2.0 / SSO
+- Added PDF generator for unlimited, locally-generated PDFs
+- Added new force atlas layout
+- Added traversal selectors
+- Added tools for automatically reducing label overlap
+- Added radar / systems leverage template
+- Added title slides for presentations
+- Added bridging
+- Fixed a bug with the :orphan selector when working with remote imports
+- Fixed vensim bug fixes
+- Settings are now preserved in the table editor
+- Improved error handling for busted remote imports
+- Dropped support for view variables
+- Multiple security enhancements
+
+Known issues:
+- IE11 and under are not supported.
+- Importing private google sheets is not supported.
+- Embed slides within presentations do not work out of the box. Kumu uses
+  Embedly to handle these and we restrict requests to known referrers.
+  Please email the hostname you're using to enterprise@kumu.io to fix this.
+- Geocoding does not work out of the box. Customers must supply their own
+  ArcGIS developer credentials.
+  
 ## Version 2.2
 
 **Updated ksb, released 2018-12-12**
