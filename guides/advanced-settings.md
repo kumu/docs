@@ -66,9 +66,7 @@ By default, Kumu wraps longer labels and allows you to force a line break at any
   text-overflow: auto; // break on double space if present, or auto wrap at 20
   text-overflow: auto 10; // break on double space if present, or auto wrap at 10. Replace 10 with any number to customize.
   text-overflow: manual; // double space for line break, no auto wrap
-  text-overflow: wrap; // wrap at element size, soft
   text-overflow: wrap 10; // wrap at 10 chars, soft. Replace 10 with any number to customize.
-  text-overflow: clip; // truncate to element size, soft
   text-overflow: clip 10; // truncate at 10 chars, soft. Replace 10 with any number to customize.
 }
 ```

@@ -586,7 +586,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls text wrapping and truncating.
-  <br><code>off</code><br><code>auto</code><br><code>auto [number]</code><br><code>manual</code><br><code>wrap</code><br><code>wrap [number]</code><br><code>clip</code><br><code>clip [number]</code>
+  <br><code>off</code><br><code>auto</code><br><code>auto [number]</code><br><code>manual</code><br><code>wrap [number]</code><br><code>clip [number]</code>
   "</i></td>
     </tr>
     <tr>
