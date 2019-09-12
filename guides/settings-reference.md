@@ -66,6 +66,11 @@ All values are unitless.
       <th class="text-left">Possible values</th>
     </tr>
     <tr>
+      <td>attenuation</td>
+      <td>Determines whether elements and connections maintain their size relative to the background map (available for the Geo template only)</td>
+      <td><div><code>on</code></div><div><code>off</code></div></td>
+    </tr>
+    <tr>
       <td>background-color</td>
       <td>Sets the canvas' background color</td>
       <td><div><code>color</code></div></td>
