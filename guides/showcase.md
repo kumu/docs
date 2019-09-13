@@ -45,6 +45,15 @@ Simply add the mode you'd like to use to the end of the selector with an `!` in 
 }
 ```
 
+Using the Advanced Editor, you can also control the extent to which items are faded out during showcase. To set the opacity of showcased items, use the `foreground-opacity` property in `@settings`, and to set the opacity of items outside of the showcase, use the `background-opacity` property:
+
+```
+@settings {
+  foreground-opacity: 1;
+  background-opacity: 0.1;
+}
+```
+
 ## Activating showcase using controls
 
 If you'd like to make it easy for readers to activate showcase on their own with predefined options, check out the [showcase control](/guides/controls/showcase-control.html).

@@ -76,6 +76,11 @@ All values are unitless.
       <td><div><code>color</code></div></td>
     </tr>
     <tr>
+      <td>background-opacity</td>
+      <td>Sets the opacity of items outside of a showcased selection</td>
+      <td><div><code>0..1</code></div></td>
+    </tr>
+    <tr>
       <td>bridge</td>
       <td>Activates bridging. See the <a href="/guides/bridge.html#bridge-in-the-advanced-editor">bridge guide</a> for more information.</td>
       <td><div><code>element-selector</code></div></td>
@@ -99,6 +104,11 @@ All values are unitless.
       <td>font-cutoff</td>
       <td>Sets the minimum font size at which labels will display when the map is zoomed out. Set to <code>0</code> to always display labels, regardless of zoom level.</td>
       <td><div><code>number</code></div></td>
+    </tr>
+    <tr>
+      <td>foreground-opacity</td>
+      <td>Sets the opacity of showcased items </td>
+      <td><div><code>0..1</code></div></td>
     </tr>
     <tr>
       <td>geo-location</td>
@@ -294,6 +304,11 @@ All values are unitless.
       <td>scale-min</td>
       <td>Sets the minimum allowed zoom level</td>
       <td><div><code>number</code></div></td>
+    </tr>
+    <tr>
+      <td>selection-color</td>
+      <td>Sets the color of the ring that appears around selected elements</td>
+      <td><div><code>color</code></div></td>
     </tr>
     <tr>
       <td>showcase</td>
