@@ -568,7 +568,7 @@ video {
 }
 
 .custom-link {
-  display: none;
+  display: none !important;
 }
 
 
