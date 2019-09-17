@@ -124,6 +124,19 @@ You can even combine color-legend controls with the standard legend
 
 Need even more flexibility for your legend, or want to completely customize the style? Using Kumu's -->
 
+## Hide the legend
+
+If you want to completely hide the legend, you can use the Advanced Editor to do so. Here's some sample code to get you started:
+
+```
+@controls {
+  bottom-left {}
+}
+```
+
+For more info on why and how this works, check out [our full guide on built-in controls](/guides/controls.html#built-in-controls).
+
+
 ## Legend reference
 
 Below is a list of all the icons you can add to your legend, as well as instructions on how to access the icons from the Basic and Advanced Editors.
