@@ -567,6 +567,10 @@ video {
   font-family: "Proxima Nova", Helvetica, Arial, sans-serif !important;
 }
 
+.custom-link {
+  display: none;
+}
+
 
 /* FAQ guides hidden in menu */
 
