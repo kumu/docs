@@ -4,7 +4,7 @@ With issues (an exclusive feature for [organization accounts](/guides/organizati
 
 To open up the issues pane, click the issues icon <i class="fa fa-comments-o"></i> in the [bottom toolbar](/overview/map-editor.html#bottom-toolbar).
 
-<!-- screenshot -->
+![Picture of the issues pane](/images/issues.png)
 
 To create an issue, click the **New issue** button, and to join an existing issue, simply select it from the list. When you're commenting on an issue, you can use [Markdown](/guides/markdown.html) to add basic formatting, as well as links, images, and even videos.
 

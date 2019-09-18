@@ -60,7 +60,7 @@ All values are unitless.
 
 <table id="settings-search-table" class="table border-bottom">
   <tbody>
-    <tr>
+        <tr>
       <th class="text-left">Property</th>
       <th class="text-left">Description</th>
       <th class="text-left">Possible values</th>
@@ -234,6 +234,11 @@ All values are unitless.
       <td>layout-y-multiplier</td>
       <td>Sets a number that will be multiplied by each elements <code>layout-y</code> field to determine their final y coordinate</td>
       <td><div><code>number</code></div></td>
+    </tr>
+    <tr>
+      <td>notification-color</td>
+      <td>Sets the color of asterisks created by <a href="/guides/issues.html">Issues</a></td>
+      <td><div><code>color</code></div></td>
     </tr>
     <tr>
       <td>quality</td>
