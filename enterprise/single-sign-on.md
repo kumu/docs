@@ -7,9 +7,9 @@ To configure SSO for your Enterprise instance, follow the instructions in this g
 
 1. Create a personal account in your Kumu Enterprise instance.
 
-1. [Create an organization](/guides/organizations.html) in Kumu using your personal account.
+2. [Create an organization](/guides/organizations.html) in Kumu using your personal account.
 
-1. Follow the instructions to set up your Kumu application with any SAML-2.0-based single sign-on provider. Here are a few links to the documentation for common providers:
+3. Follow the instructions to set up your Kumu application with any SAML-2.0-based single sign-on provider. Here are a few links to the documentation for common providers:
   - [Microsoft Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications)
   - [Google Suite](https://support.google.com/a/answer/6087519?hl=en)
 
@@ -25,7 +25,7 @@ To configure SSO for your Enterprise instance, follow the instructions in this g
   https://example.kumuenterprise.com/organization-username/sso/saml/consume
   ```
 
-1. From your SSO provider, you can get a service URL, an entity ID, and a public certificate. Enable SSO for your enterprise and copy/paste those items into your Kumu organization accounts' settings:
+4. From your SSO provider, you can get a service URL, an entity ID, and a public certificate. Enable SSO for your enterprise and copy/paste those items into your Kumu organization accounts' settings:
 
    ```
    https://example.kumuenterprise.com/organizations/organization-username/settings#sso
@@ -33,7 +33,7 @@ To configure SSO for your Enterprise instance, follow the instructions in this g
 
   ![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
 
-1. With Kumu and your SSO provider configured, you can use your SSO provider to give users access to Kumu.
+5. With Kumu and your SSO provider configured, you can use your SSO provider to give users access to Kumu.
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/enterprise/single-sign-on.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
