@@ -1,6 +1,6 @@
 # Single sign-on
 
-Single sign-on allows users to sign into Kumu with one set of login credentials—in other words, they won't have to create and remember a new username and password specifically for Kumu.
+Single sign-on allows users to sign into Kumu with an existing set of login credentials—in other words, they won't have to create and remember a new username and password specifically for Kumu.
 
 To configure SSO for your Enterprise instance, follow the instructions in this guide.
 
@@ -16,16 +16,20 @@ To configure SSO for your Enterprise instance, follow the instructions in this g
   When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `organization-username` with the username of your Kumu organization account:
 
   ```
-  https://kumu.io/organization-username
+  https://example.kumuenterprise.com/organization-username
   ```
 
   For the Reply URL (Azure) or ACS URL (Google Suite), use the following, once again replacing `organization-username` with the username of your Kumu org:
 
   ```
-  https://kumu.io/organization-username/sso/saml/consume
+  https://example.kumuenterprise.com/organization-username/sso/saml/consume
   ```
 
-1. From your SSO provider, you can get a service URL, an entity ID, an a public certificate. Copy/paste those items into your Kumu organization accounts' settings:
+1. From your SSO provider, you can get a service URL, an entity ID, and a public certificate. Enable SSO for your enterprise and copy/paste those items into your Kumu organization accounts' settings:
+
+   ```
+   https://example.kumuenterprise.com/organizations/organization-username/settings#sso
+   ```
 
   ![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
 
