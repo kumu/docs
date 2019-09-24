@@ -40,4 +40,63 @@ To configure SSO for your Enterprise instance, follow the instructions in this g
    ```
 
 
+## Single sign-on with Azure
+
+If Microsoft Azure is your single sign-on provider, you can follow the instructions below to set up.
+
+1. Click the "Azure Active Directory" button in the sidebar
+
+    ![Azure SSO step 01](/images/azure-sso/01.png)
+
+1. Click "Enterprise Applications"
+
+    ![Azure SSO step 02](/images/azure-sso/02.png)
+
+1. Click "+ New Application"
+
+    ![Azure SSO step 03](/images/azure-sso/03.png)
+
+1. Click "Non-gallery application"
+
+    ![Azure SSO step 04](/images/azure-sso/04.png)
+
+1. Enter "Kumu" for the name of the application
+
+    ![Azure SSO step 05](/images/azure-sso/05.png)
+
+1. Click "Configure single sign-on"
+
+    ![Azure SSO step 06](/images/azure-sso/06.png)
+
+1. Select "SAML-based Sign-on"
+
+    ![Azure SSO step 07](/images/azure-sso/07.png)
+
+1. Enter the "Kumu Domain and URLs" for your organization (provided by Kumu)
+
+    ![Azure SSO step 08](/images/azure-sso/08.png)
+
+1. Select "user.mail" for the user identifier
+
+    ![Azure SSO step 09](/images/azure-sso/09.png)
+
+1. Download the SAML signing certificate (Base 64)
+
+    ![Azure SSO step 10](/images/azure-sso/10.png)
+
+1. Click "Configure Kumu"
+
+    ![Azure SSO step 11](/images/azure-sso/11.png)
+
+1. Copy the service url, entity id, and public certificate over to your organization's SSO settings in Kumu:
+
+    ![Azure SSO step 12](/images/azure-sso/12.png)
+
+    ![Azure SSO step 12.5](/images/azure-sso/13.png)
+
+1. Within Azure AD, assign users to the Kumu app you just created to enable SSO
+
+    ![Azure SSO step 13](/images/azure-sso/14.png)
+
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/enterprise/single-sign-on.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
