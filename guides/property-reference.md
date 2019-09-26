@@ -11,6 +11,65 @@ the only way to harness the full power of Kumu.
 conventional values were irrelevant or misleading (eg `display: map` vs `display: block`),
 and adding properties specific to Kumu (such as `bullseye-color`).
 
+There are just few more things you should know about the valid values listed below:
+
+<table class="table border-bottom">
+  <tbody>
+    <tr>
+      <th>Where you see...</th>
+      <th>You can use...</th>
+    </tr>
+    <tr>
+      <td><code>color</code></td>
+      <td>Any CSS web color or hex color code</td>
+    </tr>
+    <tr>
+      <td><code>colorPalette</code></td>
+      <td>The name of one of our <a href="/guides/color-reference.html">color palettes</a></td>
+    </tr>
+    <tr>
+      <td><code>'Field name'</code></td>
+      <td>The name of any of your <a href="/guides/fields.html">fields</a>, wrapped in single or double quotes</td>
+    </tr>
+    <tr>
+      <td><code>number</code> or <code>[number]</code></td>
+      <td>Any number</td>
+    </tr>
+    <tr>
+      <td><code>number number</code></td>
+      <td>Any two numbers separated by a space, e.g. <code>5 10</code></td>
+    </tr>
+    <tr>
+      <td><code>0</code></td>
+      <td>Only the number <code>0</code></td>
+    </tr>
+    <tr>
+      <td><code>0..1</code></td>
+      <td>Any number between <code>0</code> and <code>1</code></td>
+    </tr>
+    <tr>
+      <td><code>generic-family</code></td>
+      <td>The name of any CSS web safe font family</td>
+    </tr>
+    <tr>
+      <td><code>family-name</code></td>
+      <td>The name of any font family. <code>freight-text-pro</code> and <code>proxima nova</code> will always work, but other non-web-sage font families will only work if your reader has the font installed on their device.</td>
+    </tr>
+    <tr>
+      <td><code>https://...</code></td>
+      <td>Any URL. URLs starting with <code>https</code> are safest and will work best within Kumu.</td>
+    </tr>
+    <tr>
+      <td><code>string template</code></td>
+      <td>Any combination of letters, numbers, <a href="/guides/markdown.html">supported markdown (including raw HTML)</a>, or names of your fields wrapped in double curly brackets <code>{% raw %}{{}}{% endraw %}</code>. Wrap the entire thing in double quotes. See our <a href="/guides/label-templates.html">label templates guide</a> for examples.</td>
+    </tr>
+    <tr>
+      <td><code>auto</code>, <code>background</code>, <code>bold</code>, <code>bottom</code>, <code>center</code>, <code>circle</code>, <code>clip</code>, <code>contain</code>, <code>cover</code>, <code>dashed</code>, <code>gradient</code>, <code>hidden</code>, <code>inherit</code>, <code>italic</code>, <code>manual</code>, <code>map</code>, <code>none</code>, <code>normal</code>, <code>off</code>, <code>rectangle</code>, <code>solid</code>, <code>square</code>, <code>url</code>, <code>visible</code>, or <code>wrap</code></td>
+      <td>That exact keyword</td>
+    </tr>
+  </tbody>
+</table>
+
 All values are unitless.
 
 ## Supported Properties
@@ -154,7 +213,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-check"></i></td>
       <td></td>
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shapes' color.
-  <br><code>color</code><br><code>gradient(color1, color2)</code>
+  <br><code>color</code><br><code>gradient(color, color)</code>
   "</i></td>
     </tr>
     <tr>

@@ -18,7 +18,7 @@ Label, Type, Description, and Tags are all examples of fields. Use these fields 
 
 After you fill out data in the profiles, you can use the [Basic Editor](/overview/view-editors.md#basic-editor) or the [Advanced Editor](/overview/view-editors.md#advanced-editor) to add decorations.
 
-## Decorating in the Basic Editor
+## Decorate in the Basic Editor
 
 To open the Basic Editor, open your map and click the Settings icon <i class="fa fa-sliders"></i> on the right side of the map.
 
@@ -133,7 +133,7 @@ element["Political Party"="Republican"] {
 
 The first section, starting with `element ["Political Party"]` changes the size and border width of all elements with any value in the "Political Party" field. The section section, which refines the selector to `element["Political Party"="Democrat"]`, gives the Democrats a blue border. The third section changes the selector again to target Republicans, then gives them all a red border.
 
-There's much more you can do with the Advanced Editor—it's one of the most powerful tools in Kumu! [Read the full Advanced Editor guide](/guides/views-advanced.md) to learn more.
+There's much more you can do with the Advanced Editor—it's one of the most powerful tools in Kumu! [Read the full Advanced Editor guide](/overview/view-editors.html#advanced-editor) to learn more.
 
 
 ## Cascading decorations

@@ -22,7 +22,7 @@ Use an `@view` block to define a partial view:
   // any view code can go in here, including @settings, @controls, and @imports
 }
 ```
-Replace `name` with the name of your partial view (keep the double quotes). This `name` should be unique to the partial view—you'll use it in [`@import`](/guides/views-advanced.html#imported-views) rules and in the view toggle control to refer to your partial view.
+Replace `name` with the name of your partial view (keep the double quotes). This `name` should be unique to the partial view—you'll use it in [`@import`](/guides/imported-views.html) rules and in the view toggle control to refer to your partial view.
 
 Here's how you use a partial view's `name` to `@import` it into other partial views:
 

@@ -41,8 +41,8 @@ There are just few more things you should know about the valid values listed bel
   </tbody>
 </table>
 
-
 All values are unitless.
+
 
 ## Supported properties
 
