@@ -28,7 +28,7 @@ The table below breaks down all other actions, and who has permission to take th
 | Viewing a project | Anyone, even if they don't have a Kumu account | The project owner and project contributors |
 | Editing a project | The project owner and project contributors | The project owner and project contributors |
 | Exporting a project  | The project owner and project contributors | The project owner and project contributors |
-| Forking a project | Anyone with a Kumu account | Nobody |
+| Forking a project | Anyone with a Kumu account | The project owner |
 | Administrating a project | The project owner | The project owner |
 | Granting project access to other Kumu users | The project owner | The project owner |
 | Commenting on a project   | No one (organization accounts only)  | No one (organization accounts only)  |
