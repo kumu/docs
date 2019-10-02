@@ -3,6 +3,7 @@
 In Kumu, there are a number of different places where you can use images to enrich your project. This guide covers:
 
 - [Adding images to elements](#add-images-to-elements)
+- [Adding icons to elements](#add-icons-to-elements)
 - [Adding a background image](#add-a-background-image)
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/bA71RjEIvdI" frameborder="0" allowfullscreen></iframe></p>
@@ -38,7 +39,7 @@ With decorations, you can create rules that add the same image to multiple eleme
 
 You can also use [advanced decorations](/guides/decorate.html#decorate-in-the-advanced-editor) to add images and tweak their appearance on the map. In a decoration in the Advanced Editor, use the `image-url` property to set the image url for your selection, and use the `image-visibility` property to hide images or make them visible on the map. You can also use the `image-size` property to choose whether images on the map will completely cover their parent elements, or be fully contained inside the parent element.
 
-```
+```prev
 #my-element {
   image-url: url(https://example.com/my-element-image.png);
   image-size: contain;
@@ -47,6 +48,42 @@ You can also use [advanced decorations](/guides/decorate.html#decorate-in-the-ad
 ```
 
 Be sure to check out our [property reference](/guides/property-reference.html) for full documentation on properties that can be used in the Advanced Editor.
+
+
+## Add icons to elements
+
+Using the Advanced Editor, you can easily bring in any [Font Awesome icon](https://fontawesome.com/icons) to decorate your elements.
+
+![elements with icons to show element type](/images/icons.png)
+
+To get started, use an element [selector](/guides/selectors.html), the `icon` property, and the `icon-color` property:
+
+```
+person {
+  icon: user;
+  icon-color: #444;
+}
+```
+
+**Tip**: If you prefer to show just the icon instead of the element itself, set `color` to `transparent`;
+
+```
+organization {
+  icon: building;
+  icon-color: #444;
+  color: transparent;
+}
+```
+
+In the value for the `icon` property, you can also specify `solid` or `regular` to change the icon style:
+
+```
+organization {
+  icon: building regular;
+  icon-color: #444;
+  color: transparent;
+}
+```
 
 
 ## Add a background image
