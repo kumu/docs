@@ -392,7 +392,7 @@ If you find a property or a value that's not documented here, [let us know](mail
         <td></td>
         <td></td>
         <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Adds an icon as the item's image.
-    <br><code>icon-name</code><br><code>icon-name icon-style</code>
+    <br><code>icon-name</code><br><code>icon-name icon-style</code><br><code>off</code>
     "</i></td>
       </tr>
       <tr>

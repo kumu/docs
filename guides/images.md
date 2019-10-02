@@ -85,6 +85,15 @@ organization {
 }
 ```
 
+Note that, if you add icons to your elements, they will override any images you have added. If you'd like to add icons only for elements that don't have images, you can add this code to the bottom of your Advanced Editor:
+
+```
+// The element[image] selector tells Kumu to only apply these rules for elements with an image
+element[image] {
+  icon: off; // Setting 'icon' to 'off' will remove any icons you've added further up in the Advanced Editor
+}
+```
+
 
 ## Add a background image
 
