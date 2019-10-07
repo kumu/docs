@@ -155,7 +155,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       <tr>
         <td>border-color</td>
         <td><i class="fa fa-check"></i></td>
-        <td></td>
+        <td><i class="fa fa-check"></i></td>
         <td></td>
         <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border color.
     <br><code>color</code>
@@ -164,7 +164,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       <tr>
         <td>border-opacity</td>
         <td><i class="fa fa-check"></i></td>
-        <td></td>
+        <td><i class="fa fa-check"></i></td>
         <td></td>
         <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border opacity.
     <br><code>0..1</code>
@@ -173,7 +173,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       <tr>
         <td>border-width</td>
         <td><i class="fa fa-check"></i></td>
-        <td></td>
+        <td><i class="fa fa-check"></i></td>
         <td></td>
         <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border width.
     <br><code>number</code>
