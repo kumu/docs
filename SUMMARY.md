@@ -59,6 +59,7 @@
 * [Filter](guides/filter.md)
 * [Focus](guides/focus.md)
 * [Forking](guides/forking.md)
+* [Icons](guides/icons.md)
 * [Images](guides/images.md)
 * [Import](guides/import.md)
 * [Imported views](guides/imported-views.md)
