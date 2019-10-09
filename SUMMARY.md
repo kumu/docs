@@ -149,6 +149,7 @@
 * [How do I hide images from the map but keep them in the profile?](faq/how-do-i-hide-images-from-the-map.md)
 * [How do I hide the settings button?](faq/how-do-i-hide-the-settings-button.md)
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
+* [How do I remove unneeded controls?](faq/how-do-i-get-rid-of-unneeded-controls.md)
 * [How do I transfer a project?](faq/how-do-i-transfer-a-project.md)
 * [How do my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
 * [How much data can my Kumu project handle?](faq/how-much-data-can-kumu-handle.md)
