@@ -124,7 +124,6 @@
 * [Changelog](enterprise/changelog.md)
 
 ## Frequently Asked Questions
-* [How can my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
 * [How do I add annotations?](faq/how-do-i-add-annotations.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
 * [How do I add contributors?](faq/how-to-add-contributors.md)
@@ -139,6 +138,7 @@
 * [How do I cite Kumu?](faq/how-do-i-cite-kumu.md)
 * [How do I copy a map to another project](faq/how-do-i-copy-a-map-to-another-project.md)
 * [How do I control label size while scaling element size?](faq/how-do-i-control-label-size-while-scaling-element-size.md)
+* [How do I control text wrapping?](faq/how-do-i-control-text-wrapping.md)
 * [How do I convert a project from private to public?](faq/how-do-i-convert-a-project-from-private-to-public.md)
 * [How do I convert a project from public to private?](faq/how-do-i-convert-a-project-from-public-to-private.md)
 * [How do I decorate a single element or connections?](faq/how-do-i-decorate-a-single-element-or-connection.md)
@@ -150,5 +150,6 @@
 * [How do I hide the settings button?](faq/how-do-i-hide-the-settings-button.md)
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
 * [How do I transfer a project?](faq/how-do-i-transfer-a-project.md)
+* [How do my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
 * [How much data can my Kumu project handle?](faq/how-much-data-can-kumu-handle.md)
 * [Who is allowed to edit my project?](faq/who-is-allowed-to-edit-my-project.md)
