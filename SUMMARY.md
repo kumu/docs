@@ -152,5 +152,6 @@
 * [How do I remove unneeded controls?](faq/how-do-i-get-rid-of-unneeded-controls.md)
 * [How do I transfer a project?](faq/how-do-i-transfer-a-project.md)
 * [How do my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
+* [How do I restructure my adjacency matrix?](faq/how-do-i-restructure-my-adjacency-matrix.md)
 * [How much data can my Kumu project handle?](faq/how-much-data-can-kumu-handle.md)
 * [Who is allowed to edit my project?](faq/who-is-allowed-to-edit-my-project.md)

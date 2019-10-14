@@ -111,7 +111,7 @@ And here's a sample connection import spreadsheet:
 </p>
 
 <p class="alert alert-info">
-  If you need to convert an <a class="alert-link" href="https://en.wikipedia.org/wiki/Adjacency_matrix" target="_blank" rel="noopener">adjacency matrix</a> to meet Kumu's format, check out the <a class="alert-link" href="https://matrix-expander.netlify.com" target="_blank" rel="noopener">matrix expander</a>.
+  If you need to convert an <a class="alert-link" href="https://en.wikipedia.org/wiki/Adjacency_matrix" target="_blank" rel="noopener">adjacency matrix</a> to meet Kumu's format, see our <a class="alert-link" href="/faq/how-do-i-restructure-my-adjacency-matrix.html" target="_blank" rel="noopener">"How do I restructure my adjacency matrix"</a> FAQ.
 </p>
 
 #### Ignore unneeded sheets
