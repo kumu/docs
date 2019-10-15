@@ -21,6 +21,8 @@ We love it when you share your work, but we know that it's sometimes necessary t
 
 Both public and private projects can be shared using [presentations](#create-a-presentation) and [share/embed links](#create-a-shareembed-link), and private projects allow you to password-protect your presentations for an added layer of security.
 
+Finally, you can learn more about privacy and security by visiting our [privacy policy](https://kumu.io/privacy) and our [security policy](https://kumu.io/security). And, if your privacy needs are particularly strict (e.g. data needs to be stored in a specific geographic area, or you need to have deeper control over security technology), we recommend checking out the [Enterprise version of Kumu](/overview/accounts-and-plans.html#enterprise-version).
+
 ## Add a contributor
 
 #### Add a contributor to a personal project

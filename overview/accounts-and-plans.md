@@ -163,16 +163,16 @@ Before we switched to per-project pricing, we offered a suite of plans that gran
 
 ## Enterprise version
 
-The Enterprise version of Kumu is the right choice for teams that are working with highly sensitive data that should only be accessed through private servers, rather than through Kumu's cloud-based system. Enterprise versions are also a great option for teams that are legally required to store their data in a specific geographic location (Kumu's cloud-based system stores data across the world).
+The Enterprise version of Kumu is the right choice for teams that are working with highly sensitive data that should only be accessed through private servers, and not through our website, https://kumu.io. Enterprise versions are also a great option for teams that are legally required to store their data in a specific geographic location (https://kumu.io stores data across the world).
 
-Note that the Enterprise version is not an account or plan, rather, it's a fully separate installation of Kumu. When you have an Enterprise version installed on your servers, you can create unlimited personal and organization accounts within that version, and each account can own unlimited private and public projects.
+Note that the Enterprise version is not an account or plan; rather, it's a fully separate installation of Kumu, priced per user instead of per private project. To get started with Enterprise, [please email our Enterprise team](mailto:enterprise@kumu.io).
 
-To get started with Enterprise, [please email our support team](mailto:support@kumu.io). If you need help with installing, configuring, or upgrading your Enterprise version, [see our full Enterprise guides](/enterprise/).
+If you need help with installing, configuring, or upgrading your Enterprise version, [see our full Enterprise guides](/enterprise/).
 
 
 ## Training and consulting
 
-We get it—sometimes, you want a great-looking map, but you're on a tight schedule and can't learn all the ins and outs of Kumu! Regardless of your account type, you can hire a member of Kumu's core team at any time to provide training and/or consulting services. Our rates are $200 per hour for remote help, and $2,000 per day for onsite help.
+We get it—sometimes, you want a great-looking map, but you're on a tight schedule and can't learn all the ins and outs of Kumu! Regardless of your account type, you can hire a member of Kumu's core team at any time to provide training and/or consulting services.
 
 To get started with training or consulting, send an email to [support@kumu.io](mailto:support@kumu.io).
 
