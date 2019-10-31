@@ -113,7 +113,7 @@ You can also use the field relevance menu to change the order fields are listed 
 To change the order, click edit and then simply drag the fields to reorder them. When you are finished, click "Done" and you'll see the new order reflected in the profile.
 
 ## Deleting a field
-If you've created a field and want to delete it and all corresponding values, click on the label of the field in any profile and then go to more -> delete. Alternatively, use can use the menu in the upper left corner to go to the field settings page (choose fields). This will delete the field and any values assigned for any content in your project.
+If you've created a field and want to delete it and all corresponding values, click on the label of the field in any profile and then go to more -> delete. Alternatively, you can use the menu in the upper left corner to go to the field settings page (choose fields). This will delete the field and any values assigned for any content in your project.
 
 ## Deleting field values
 Occasionally you may want to delete the prompted choices for a given field, or the options that show up in your legend or in a [control](/guides/controls.md). To do this, you need to delete the underlying field value. This process is different depending on the field's [prompt](#customize-a-field).

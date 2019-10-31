@@ -59,11 +59,18 @@ The legend entries added from the decoration builder will be listed in the Basic
 
 #### Removing legend entries
 
-Legend entries added using the **Color by** tool can only be removed by [defining your own color palette](/guides/color-reference.html#defining-your-own-color-palette) or [deleting the field values](/guides/fields.html#deleting-field-values) that you don't want to see.
+Legend entries added using the **Color by** tool can only be removed by [defining your own color palette](/guides/color-reference.html#defining-your-own-color-palette) or [deleting the field values](/guides/fields.html#deleting-field-values) that you don't want to see. To do this, you need to delete the underlying field value. This process is different depending on the field's [prompt](#customize-a-field).
 
-<p class="alert alert-info">
-  Seeing old or unwanted field values in your legend? Check out our guide on <a href="/guides/fields.html#deleting-field-values">deleting the unwanted values</a>.
-</p>
+For fields that have their prompt set to "Autocomplete" or "None" (this includes the Tags field), you can only delete the field value by removing it from every element, connection, and loop in the project, including the [trash](/overview/kumus-architecture.html#trash).
+
+For all other fields (including Element Type, Connection Type, and Loop Type), follow these steps:
+1. Click the menu in the upper left of your map and choose **FIELDS**
+1. Click on the field you want to edit
+1. Find the value you want to delete. Then, click the delete button <i class="fa fa-ban">  </i> next to the value to delete it.
+1. Scroll down and click **SAVE** to save your changes
+1. Refresh the page
+
+After you follow these steps, the field value(s) you deleted will no longer show up in prompted lists, in legends, or in controls.
 
 If you used the decoration builder to add a legend entry, you can go to the existing decorations section, click the pencil icon <i class="fa fa-pencil">  </i> next to the decoration, and clear out the Label for Legend box. This will remove the legend item, but keep the decoration—if you'd rather delete both, you can click the delete icon <i class="fa fa-remove" style="color: darkred;">  </i> in the existing decorations section.
 
