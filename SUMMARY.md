@@ -145,6 +145,7 @@
 * [How do I delete a project, map, or view?](faq/how-do-i-delete-a-project-map-or-view.md)
 * [How do I delete data from my project?](faq/how-do-i-delete-data-from-my-project.md)
 * [How do I downgrade my account to free?](faq/how-do-i-downgrade-to-free.md)
+* [How do I edit virtual elements?](faq/how-do-i-edit-virtual-elements.md)
 * [How do I get rid of duplicates?](faq/how-to-get-rid-of-duplicates.md)
 * [How do I hide images from the map but keep them in the profile?](faq/how-do-i-hide-images-from-the-map.md)
 * [How do I hide the settings button?](faq/how-do-i-hide-the-settings-button.md)
