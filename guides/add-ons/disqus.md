@@ -5,18 +5,19 @@
 
 ## Installing the add-on
 
-1. Create a free Disqus account by visiting https://disqus.com/profile/signup/
+First, if you don't have a Disqus account yet, you can [create a free account](https://disqus.com/profile/signup/). After you are logged into Disqus, you can follow [their Publisher Quick Start guide](https://help.disqus.com/en/articles/1717056-publisher-quick-start-guide).
 
-2. Choose the option "I want to install Disqus on my site"
-![](/images/disqus-step-1.jpg)
+As you work through that guide, you'll set up a new Disqus site and be given a **shortname** for your site—you can find that below the box where you enter your site name, as shown in the image below:
 
-3. Create a new site (create a site for each project you'd like to use Disqus with). Make sure to write down the shortname Disqus assigns for each site.
-![](/images/disqus-step-2.jpg)
+![Disqus shortname](/images/disqus-shortname.png)
 
-4. Go to the add-ons menu within the project settings.
+Copy that shortname, then return to Kumu, and open up the Add-ons menu in [project settings](/overview/settings.html#project-settings).
+
 ![](/images/disqus-step-3.jpg)
 
-5. Activate the Disqus add-on by adding the shortname you wrote down in Step 3.
+Activate the Disqus add-on by pasting in the shortname you copied before.
 ![](/images/disqus-step-4.jpg)
 
 Voila! You'll now see the Disqus comment box on each element, connection and loop profile (as well as the map overview).
+
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/disqus.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
