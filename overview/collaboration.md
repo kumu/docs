@@ -43,8 +43,6 @@ When you're adding a contributor to a project owned by an organization, there ar
 
 If you're editing your project, and somebody else is editing at the same time, their changes won't appear on your screen in real-time (and vice-versa). Instead of showing real-time changes, Kumu waits until you refresh the page to sync you up with your team and show you the most up-to-date version of your project.
 
-This was a design decision we made to encourage you to carefully plan who is working on which part of the project, and when. In the long run, this kind of planning helps reduce complexity—and when you're using Kumu to tackle a tough problem, reducing complexity is vital!
-
 If you happen to edit the same part of the map at the same time (whether that's an element name, map description, view, or something else), Kumu will detect this and prompt you to review any conflicts.
 
 **Let's walk through a quick example.** Say you and a teammate both happened to be mapping influential people in Silicon Valley one afternoon. You both click on Reid and decide that his bio needs a bit of sprucing up. You save your changes and SURPRISE! The below screen pops up to let you know that you're not the only one editing Reid's bio today.
