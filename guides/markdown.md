@@ -91,24 +91,24 @@ Look at the embed code of the video you want to embed and grab the URL within **
 
     ![I Believe I Can Fly](//player.vimeo.com/video/31240369?color=ffffff)
 
-## Headers
+## Headings
 
 ```
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 ```
 Looks like:
 
-# Header 1
-## Header 2
-### Header 3
-#### Header 4
-##### Header 5
-###### Header 6
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
 
 ## Code

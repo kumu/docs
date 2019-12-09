@@ -4,6 +4,17 @@ The **geo template** lets you build your visualizations on top of geographic map
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/0WQ0dS5CIGM" frameborder="0" allowfullscreen></iframe></p>
 
+## Apply the Geo template using the Basic Editor
+
+To apply the Geo template using the Basic Editor:
+1. Click the Settings icon <i class="fa fa-sliders">  </i> on the right side of your map to open the Basic Editor.
+2. Click **MORE OPTIONS** and select **Customize view defaults** from the list.
+3. Scroll down to the **General settings** section.
+4. In that section, you can use the Template dropdown menu to select the geo template. Move back to the main Basic Editor panel, then click **SAVE** to finish the process.
+
+
+## Apply the Geo template using the Advanced Editor
+
 You can activate the geo template by opening the Advanced Editor (keyboard shortcut: press `.`) and adding `template: geo;` to the `@settings` block, like so:
 
 ```
