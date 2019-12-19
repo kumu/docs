@@ -60,7 +60,7 @@ All values are unitless.
 
 <table id="settings-search-table" class="table border-bottom">
   <tbody>
-        <tr>
+    <tr>
       <th class="text-left">Property</th>
       <th class="text-left">Description</th>
       <th class="text-left">Possible values</th>
@@ -239,6 +239,11 @@ All values are unitless.
       <td>notification-color</td>
       <td>Sets the color of asterisks created by <a href="/guides/issues.html">Issues</a></td>
       <td><div><code>color</code></div></td>
+    </tr>
+    <tr>
+      <td>profile</td>
+      <td>Controls whether or not profiles can be opened</td>
+      <td><div><code>on</code></div><div><code>off</code></div></td>
     </tr>
     <tr>
       <td>quality</td>

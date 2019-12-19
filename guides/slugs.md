@@ -1,6 +1,6 @@
 # Slugs
 
-In Kumu, a **slug** is a piece of text that has had all letters converted to lowercase, all special characters removed, and all spaces and replaced with hyphens. Kumu uses slugs in many different places:
+In Kumu, a **slug** is a piece of text that has had all letters converted to lowercase, all special characters removed, and all spaces replaced with hyphens. Kumu uses slugs in many different places:
 
 - In the URL bar
 - Inside of [selectors](/guides/selectors.html)
