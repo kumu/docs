@@ -1,64 +1,34 @@
 # Profiles
 
-Every element, connection and loop shares a similar profile which you can use to add narrative and any data that is important for you to track. By using [views](/guides/views.html) you can bring any of the information in the profile to life through decorations and filters. We'll look at each of the parts of the profile one by one:
+Every element, connection and loop has a **profile** that you can use to add narrative and any data that is important for you to track.
 
-![](/images/introduction-profile.png)
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Nsu1vXD_v0s" frameborder="0" allowfullscreen></iframe></p>
 
-## Label
+By using [views](/guides/views.html) you can bring any of the information in the profile to life through [decorations](/guides/decorate.html), [filters](/guides/filter.html), [geo maps](/guides/templates/geo.html), and more. We'll look at each of the parts of the profile one by one:
 
-The label is the name of the element and what shows up on the map. We automatically add a line break when the name becomes too long but if you'd like to include your own line breaks, simply add a double space. This is quite useful when trying to make labels fit within an element circle rather than having the labels show up below the element.
 
-## Type
+## Default fields
 
-Type is meant for the broadest categorization of the elements, connections and loops on your map. Each entity can only have one type so keep this in mind when selecting which types you are planning to use. Below are a few common types for elements:
+Every profile shows a set of default fields at the top. Those fields are:
+- Label
+- Type
+- Description
+- Tags
+- Image
 
-* Person
-* Company
-* Project
-* Sector
+To learn more about each of those fields and their purposes, check ouot [our full guide on fields](/guides/fields.html).
 
-### Attention system mappers: Using types for pre and post labels on connections
 
-We've customized the behavior of the type field for connections to allow for creation of pre and post labels that are common in causal loop diagrams. Check out the [systems mapping guide](/guides/system-mapping.html) to learn more.
+## Custom fields
 
-### Loops
+The default fields are enough to get you started on most projects, but if you have other pieces of information like sector, net worth, or anything else, you can use the bottom section of the profile to create custom fields and fill them in with values.
 
-We recommend using the standard "reinforcing" and "balancing" terminology for loop types. You can then later use these types to decorate each loop based on whether it is a reinforcing or a balancing loop.
+Custom fields can also be grouped together using their "Category" setting. Assigning a category to a a field will make sure it is listed in that category in the profile. The most common example of this is [metrics](/guides/metrics.html) fields, which are assigned to the "Metrics" category by default:
 
-## Image (optional)
+![Screenshot of field category in the profile](/images/profile-field-category.png)
 
-If an image has been added to an element, you'll see it appear in the upper right corner of the profile. To be able to add an image, first create an field labeled "image" and then copy and paste the URL for the given image you'd like to use. It will also show up within the background of the element on the map.
 
-## Description
-
-The description is meant to include a narrative overview of what you are mapping. For a person, this may be a short bio and for a project it may be a quick summary or intended impact. You can add formatting (bold, italics), links to external websites, links within your map and to other maps, images, video and more through markdown. Make sure to read the [Markdown Guide](/guides/markdown.html) to learn all that you can add.
-
-We've also extended Markdown's features by adding a powerful widget framework. Embed videos from YouTube and Vimeo or presentations from SlideShare and Speaker Deck (support for additional platforms on the way). Head over to the [Widget Guide](/guides/widgets.html) to learn how.
-
-## Tags
-
-Tags are meant for storing short pieces of information that don't require the structure and label that come with fields. We recommend using single words without special characters but you are free to use tags as you desire. When you start typing a tag, Kumu will prompt you with other tags that have already been assigned to entities within your project.
-
-## Fields
-
-Fields are a powerful and flexible way to store more structured information for any given element, connection or loop. We recommend reading our [fields section](/guides/fields.html) to learn all that you can do.
-
-## Other Tips
-
-### Try to be selector friendly
-
-Selectors provide a simple way to slice up your data. By keeping your field names and values selector friendly you'll be able to write much shorter queries.
-
-Use single words for your element types, connection types, and tags. By doing so you'll be able to use shorthand selectors such as:
-<ul>
-      <li><code>person</code> To select all elements with type "Person"</li>
-      <li><code>personal-connection</code> To select all connections with type "Personal"</li>
-      <li><code>project.priority</code> To select all projects tagged "priority"</li>
-</ul>
-
-If you include special characters or multiple words you'll have to use the longhand instead (such as <code>["element type"="Government Sector"]</code>) and that's just not nearly as much fun.
-
-### Disabling the profile
+## Disabling the profile
 
 You can choose to disable the profile entirely or only for specific elements and connections. To disable the profile for all elements and connections, use the `profile` property within `@settings`:
 
