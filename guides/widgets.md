@@ -1,136 +1,240 @@
 # Widgets
 
-We've built a [flexible widget framework](https://github.com/kumu/widgets) to make it easy to embed your favorite content within Kumu. Widgets are curently supported for:
+We've built a [flexible widget framework](https://github.com/kumu/widgets) to give superpowers to the [Map Overview](/overview/map-editor.html#side-panel) and the Description field in [profiles](/guides/profiles.html).
 
-* Lists ```[[list/loops]], [[list "selector"]] or [[list "field"]]```
-* Video from any source ```[[video?src=url]]```
-* Vimeo ```[[vimeo/id]]```
-* YouTube ```[[youtube/id]]```
-* Slideshare ```[[slideshare/id]]```
-* Speaker Deck ```[[speakerdeck/id]]```
-* SoundCloud ```[[soundcloud/id]]```
-* audioBoom ```[[audioboom/id]]```
-* Pippa ```[[pippa/account/id]] or [[pippa/account/episodes/id]]```
+![image of list of connections belonging to an element](/images/list-widget-element-connections.png)
 
-...where ```id``` is the unique code included in the embed code from any of the above services.
+With widgets, you can do the following:
+- [Create lists of elements, connections, loops, or field values](#create-lists-of-elements-connections-loops-or-field-values)
+- [Embed video](#embed-video)
+- [Embed audio](#embed-audio)
+- [Embed documents](#embed-documents)
+- [Embed slideshows](#embed-slideshows)
 
-Widgets can be included in the map overview and in the description field for any element, connection or loop.
+To use widgets, start editing the Map Overview, or the Description of an element, connection, or loop, and type double square brackets `[[]]`. What you put inside the double square brackets depends on which widget you're using—you can read the rest of this article to learn more about each option.
 
-## The Widgets
 
-### Lists
+## Create lists of elements, connections, loops, or field values
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/4m_f4Mu03nI" frameborder="0" allowfullscreen></iframe></p>
 
-Use the code below to create a list of links to all the loops in your map. Just swap `loops` for `elements` or `connections` and you'll have a list of elements or connections instead!
+The list widget allows you to create lists of elements, connections, and loops inside the Map Overview or a Description.
+
+
+#### Basic lists of elements, connections, or loops
+
+For a basic list, just type `list/` inside your double square brackets, and  then type `elements`, `connections`, or `loops` depending on what you want to list.
 
 ```
-[[list/loops]]
+[[list/elements]]     --> Creates a list of all elements
+[[list/connections]]  --> Creates a list of all connections
+[[list/loops]]        --> Creates a list of all loops
 ```
+
 ![List widget](/images/list-loops.png)
 
-Try clicking on a link and you'll be taken to the profile for that item. If you hover over a link that item will be showcased on the map.
+All the items in the list are links—you can hover over a link to [showcase](/guides/showcase.html) an item on the map, or you can click a link to jump to the profile for that item.
+
+
+#### More specific lists of elements, connections, or loops
+
+<!-- #### Listing by type
+
+To list only specific types of elements, connections, or loops, 
 
 **Limiting by type.**
-Rather than including all elements, you may want to build a list of only elements of a certain type. Entering `[[list/person]]` would create a list of only the elements with type "person". Note: This only works for single-word values. If you have more complex values for the type field, use the selector guidance below.
+Rather than including all elements, you may want to build a list of only elements of a certain type. Entering `[[list/person]]` would create a list of only the elements with type "person". Note: This only works for single-word values. If you have more complex values for the type field, use the selector guidance below. -->
 
-**Limiting by selector.**
-You can further limit the list by using any [selector](selectors.html). The format is `[[list "selector"]]`. For example, you could use this to build a list of just those people who are highly influential `[[list "person['level of influence'='high']"]]`.
+To create a list that is more specific that "all elements", for example, you can type `list` and a [selector](/guides/selectors.html) in double quotes.
 
-**Change the showcase behavior.**
-You can override the default showcase behavior used in the list widget to also highlight what is connected to the given selection.
-
-Below is an example of how to change the showcase behavior for a list of all elements with type "person":
 ```
-[list/person?mode=loose]
+[[list "person"]]                   --> List elements with "Person" in the Type field
+[[list ":from(person)"]]            --> List connections leading from "Person" type elements
+[[list "['influence'='high']"]]     --> List items with "High" in the Influence field.
 ```
 
-Below is an example of how to change the showcase behavior if you are using the list widget format where you use a custom selector:
-```
-[list?mode=loose "selector"]
-```
+Having trouble writing the right selector for your use case? Feel free to [email support](mailto:support@kumu.io)!
 
 <div class="alert alert-warning">
-
-<strong>Important!</strong> You need to modify the selector to use single quotes instead of double quotes otherwise the list widget will not work. For example, a generic selector <strong>["field label"="value"]</strong> would need to be re-written as <strong>['field label'='value']</strong>.
-
+  <p>Normally, it would be okay to write a selector with double quotes, e.g. <code>["influence"="high"]</code>. But inside the list widget, you need to write it with single quotes instead: <code>['influence'='high']</code>.</p>
+  <p><code>'influence'</code> and <code>'high'</code> are enclosed in single quotes, and the entire selector is enclosed in double quotes.</p>
 </div>
 
-**Creating lists of field values.**
-You can also create a list of all the values for a particular field. This list allows you to hover over any value and showcase those elements, connections and loops that have that value.
+<p class="alert alert-info">
+  If you want to list all of an element's connections in it's profile, we wrote <a class="alert-link" href="/faq/how-do-i-list-an-elements-connections-in-its-profile.html">a more detailed article</a> on how to achieve that.
+</p>
 
-![](/images/list-widget-field.jpg)
+
+#### Change the showcase behavior for lists of items
+
+Kumu's showcase actually has three different "modes" to affect how it works:
+
+* `normal` mode showcases the selection plus any connections between the showcased elements (default)
+* `loose` mode showcases the selection plus neighboring elements
+* `strict` mode showcases only the selection itself, nothing else
+
+By default, hovering over an item in the list widget will showcase that item in `normal` mode. You can override this default behavior by adding `?mode=loose` or `?mode=strict`.
+
+For basic lists, add that modifier at the very end:
+
+```
+[[list/elements?mode=loose]]
+```
+
+For more specific lists, add the modifier after the word `list`:
+
+```
+[list?mode=strict ":from(person)"]
+```
+
+
+#### Lists of field values
+
+To list all the values of a particular field, type `list` inside your double square brackets, followed by the field name in double quotes.
 
 Simply include the field name in quotes in the standard list format.
 ```
-[list "field name"]
+[[list "Level of Influence"]]
 ```
 
+![](/images/list-widget-field.jpg)
 
-### Vimeo
+When you hover over a field value in the list, Kumu will showcase all elements, connections, and loops that have that field value in their profile.
 
-Use the code below to embed a Vimeo video in the profile. Simply swap the ID for the ID of the video you'd like to include and add a descriptive title (optional).
+## Embed video
+
+#### Vimeo
+
+To embed a Vimeo video, type `vimeo/` inside the double square brackets, followed by the ID if the video you'd like to include:
+
+```
+[[vimeo/36519586]]
+```
+
+Optionally, you can change the aspect ratio from `hd` (the default) to `sd`:
+
+```
+[[vimeo/36519586?aspect=sd]]
+```
+
+You can also add a descriptive title:
 
 ```
 [[vimeo/36519586 "a story for tomorrow by gnarly bay"]]
 ```
 
-### YouTube
+#### YouTube
 
-You can find the ID for a given YouTube video within the URL of the video. Just grab the portion after the ```?v=``` part of the URL.
+To embed a YouTube video, type `youtube/` inside the double square brackets, followed by the ID if the video you'd like to include.
+
+You can find the ID for a given YouTube video within the URL of the video. Just grab the portion after the `?v=` part of the URL.
 
 ```
 [[youtube/mXiFqI-mekw]]
 ```
 
+Optionally, you can change the aspect ratio from `hd` (the default) to `sd`:
+
+```
+[[youtube/mXiFqI-mekw?aspect=sd]]
+```
+
+
+## Embed audio
+
+#### Pippa
+
+To embed audio from Pippa, type `pippa/` inside your double square brackets, followed by everything after `https://player.pippa.io/` in the URL of your episode:
+
+```
+Full URL:
+https://player.pippa.io/teamhuman/episodes/ep-92-dr-mark-filippi
+
+Widget code:
+[[pippa/teamhuman/episodes/ep-92-dr-mark-filippi]]
+```
+
+
+#### Soundcloud
+
+To embed audio from Soundcloud, type `soundcloud/` inside your double square brackets, followed by the ID of the audio file:
+
+```
+[[soundcloud/313184173]]
+```
+
+
+## Embed documents
+
+### Scribd
+
+To embed audio from Scribd, type `scribd/` inside your double square brackets, followed by the ID of the document:
+
+```
+[[scribd/416217686]]
+```
+
+The Scribd widget supports a `start_page` option that lets you define which page the embedded document should show first.
+
+<!-- | Option | Description |
+| --- | --- |
+| `show_recommendations` | `true` if you want Scribd to show reading recommendations, `false` if you don't. |
+| `start_page` | The number of the page you want to start reading from |
+| `style` | `scroll` shows a scrolling PDF, and `slideshow` creates a slide for each page | -->
+
+To set the option, add a `?` after the document ID, then type `start_page=`, and the page number you want to set.
+
+```
+[[scribd/416217686?start_page=3]]
+```
+
+
+## Embed slideshows
+
 ### Slideshare
 
-We've added pre-built aspect ratios to deliver content with the right height and width. Add ```?aspect=hd``` to embed the content with an HD aspect ratio.
+To embed a slideshow from Slideshare, type `slideshare/` inside your double square brackets, followed by the ID of the slideshow:
 
 ```
-[[slideshare/32200030?aspect=hd "Changing behavior through persuasive design"]]
+[[slideshare/32200030]]
 ```
+
+Optionally, you can change the aspect ratio from `sd` (the default) to `hd`:
+
+```
+[[slideshare/32200030?aspect=hd]]
+```
+
+You can also add a descriptive title:
+
+```
+[[slideshare/32200030 "Changing behavior through persuasive design"]]
+```
+
 
 
 ### Speaker Deck
 
-Or rely on our standard defaults by not including anything (we've worked hard to make sure they are right for the majority of things you'll embed from a given platform).
+To embed a slideshow from Speaker Deck, type `speakerdeck/` inside your double square brackets, followed by the ID of the slideshow:
+
 ```
 [[speakerdeck/39d28e80a7840130b36006a0b9603b35 "The product is the byproduct"]]
 ```
 
-### Pippa
-
-The Pippa widget syntax can be one of the two following options:
+Optionally, you can change the aspect ratio from `sd` (the default) to `hd`:
 
 ```
-[[pippa/account/id]]
-
-[[pippa/account/episodes/id]]
+[[speakerdeck/39d28e80a7840130b36006a0b9603b35?aspect=hd]]
 ```
 
-In both options, replace `account` with the username of the account that posted the audio. Replace `id` with the episode ID, which is the last section of the Pippa player URL, after the last backslash. For example:
+You can also add a descriptive title:
 
 ```
-// Pippa player URL:
-https://player.pippa.io/teamhuman/episodes/ep-92-dr-mark-filippi
-                          ^ account            ^ episode ID
-
-// Widget code:
-[[pippa/teamhuman/episodes/ep-92-dr-mark-filippi]]
+[[speakerdeck/39d28e80a7840130b36006a0b9603b35 "The product is the byproduct"]]
 ```
 
-## Aspect Ratios and Other Settings
-
-Each widget has a default aspect ratio as listed below:
-
-* Vimeo [hd]
-* YouTube [hd]
-* Slideshare [sd]
-* Speaker Deck [sd]
-
-Add ```?aspect=hd``` or ```?aspect=sd``` after the ID for any widget to change from the default.
-
-### What other widgets do you need? <a href="mailto:jeff@kumu.io">Tell us!</a>
+<p class="alert alert-success">
+Need any other widgets? <a href="mailto:support@kumu.io">Send us an email!</a>
+</p>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/widgets.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
