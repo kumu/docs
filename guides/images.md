@@ -69,8 +69,9 @@ To add a background image to a map, you can use a snippet of code in the [Advanc
 #background {
     image-url: url(https://cdn.rawgit.com/AlexVipond/hosted-svgs/master/world-map.svg);
     layer: background;
-    shape: square;
-    size: 5000;
+    shape: rectangle;
+    height: 10000;
+    width: 10000;
     color: transparent;
     image-size: contain;
     image-resolution: original;
@@ -81,6 +82,8 @@ To add a background image to a map, you can use a snippet of code in the [Advanc
 
 You can replace the `image-url` in that code with a link to any image online. To get an image URL from any image you see online, you can right-click the image and select "Copy Image Address". When you're pasting your new image url into the Advanced Editor, make sure to put it inside the `url( )` parentheses.
 
+Also, if your image isn't big enough, or if it's so tall or wide that it's affecting your zoom fit, you can change the `height` and `width` numbers in the code to adjust the dimensions.
+
 <p class="alert alert-warning">
 Some images won't be displayed in Kumu, because they are using an insecure connection (the link starts with <code>http</code> instead of <code>https</code>), or because they are traveling through a proxy server.<br><br>If your image isn't displaying in Kumu, you can save the file to your computer and follow the steps below to upload the image directly to your Kumu project.
 </p>
@@ -88,14 +91,14 @@ Some images won't be displayed in Kumu, because they are using an insecure conne
 You can also use the [Basic Editor](/overview/view-editors.md#basic-editor) to upload an image from your computer to your Kumu project—this will override the `image-url` in your code. Follow these steps:
 
 1. Complete the initial steps above to create your background element, add your Advanced Editor code, and save your changes.
-1. Click the Settings icon <i class="fa fa-sliders"></i> to open the Basic Editor.
-1. Click **More Options**
-1. Select **Decorate elements**
-1. In the element decoration builder, set the dropdown at the top to "Decorate custom selection"
-1. Set the second row of dropdown menus to `Label` `is` `background` (assuming your background element's label is `background`)
-1. Check the box next to "Add image", then click "upload image"
-1. Upload your image, and click **Done** at the bottom of the decoration builder
-1. Click **SAVE** at the bottom of the Basic Editor
+2. Click the Settings icon <i class="fa fa-sliders"></i> to open the Basic Editor.
+3. Click **More Options**
+4. Select **Decorate elements**
+5. In the element decoration builder, set the dropdown at the top to "Decorate custom selection"
+6. Set the second row of dropdown menus to `Label` `is` `background` (assuming your background element's label is `background`)
+7. Check the box next to "Add image", then click "upload image"
+8. Upload your image, and click **Done** at the bottom of the decoration builder
+9. Click **SAVE** at the bottom of the Basic Editor
 
 <p class="alert alert-info">
 If you need to adjust the position of the image element in the map, you'll need to remove the <code>layer: background;</code> line. Click and drag the element to adjust its position, and then add back that line of code when you're done.
