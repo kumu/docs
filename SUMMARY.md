@@ -28,6 +28,7 @@
 * [Security](overview/security.md)
 
 ## Guides
+* [Activity feed](guides/activity-feed.md)
 * [Add-ons](guides/add-ons.md)
   * [Disqus](guides/add-ons/disqus.md)
 * [Blueprints](/guides/blueprints.md)
