@@ -24,13 +24,15 @@ Note: when you're uploading images, only JPEG, PNG, and GIF files smaller than 5
 Instead of uploading a file, you can also add a URL to an image hosted publicly on the web. This is particularly useful when you're [importing a spreadsheet](/guides/import.md) into Kumu—just make sure to add an "Image" column in the the "Elements" sheet, then in the "Image" column, add the public URL for the image that you want to add to each element.
 
 
-#### Troubleshooting image URLs
+#### Troubleshooting images
 
-Are you using image URLs and not seeing images on the map? Here are a few steps you can take to troubleshoot the problem:
+Have you uploaded images, but are not seeing images on the map? Here are a few steps you can take to troubleshoot the problem:
 
-- Make sure your link leads directly to the image, rather than a webpage with the image on it
-- Make sure your image URL is using a secure connection—that is, the link starts with `https` instead of just `http`
-- Disable image proxy: click the menu icon <i class="fa fa-bars"></i> in the upper left of the map editor, then click **Admin** and click **disable it**.
+- Make sure you're not using the SNA template, which doesn't support images. If you are using that template, you can [switch to a different one]([/guides/templates.html#switching-templates).
+- If you're entering image links directly:
+  - Make sure your link leads directly to the image, rather than a webpage with the image on it
+  - Make sure your image URL is using a secure connection—that is, the link starts with `https` instead of just `http`
+  - Disable image proxy: click the menu icon <i class="fa fa-bars"></i> in the upper left of the map editor, then click **Admin** and click **disable it**.
 
 
 #### Using decorations to add images
