@@ -23,7 +23,7 @@ In Kumu, you can use **elements**, **connections**, and **loops** to represent y
 
 ![Elements, connections, and loops](/images/elements-connections-loops-bold.png)
 
-You can use these visual components in infinite different ways, but here are some common uses that we see:
+You can use these visual components in all kinds of different ways, but here are some common uses that we see:
 
 <table class="table borderless">
 <tbody>

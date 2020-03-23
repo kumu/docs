@@ -157,4 +157,5 @@
 * [How do my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
 * [How do I restructure my adjacency matrix?](faq/how-do-i-restructure-my-adjacency-matrix.md)
 * [How much data can my Kumu project handle?](faq/how-much-data-can-kumu-handle.md)
+* [What are loops?](faq/what-are-loops.md)
 * [Who is allowed to edit my project?](faq/who-is-allowed-to-edit-my-project.md)
