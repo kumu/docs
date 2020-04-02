@@ -22,6 +22,8 @@
   <li class="shortcut"><span class="keystroke">E</span> New Element</li>
   <li class="shortcut"><span class="keystroke">C</span> New Connection</li>
   <li class="shortcut"><span class="keystroke">L</span> New Loop</li>
+  <li class="shortcut"><span class="keystroke">I</span> Import data</li>
+  <li class="shortcut"><span class="keystroke">X</span> Export selection to Excel</li>
   <li class="shortcut"><span class="keystroke">K</span> Sketch Mode</li>
   <li class="shortcut"><span class="keystroke">R</span> Rename Selection</li>
   <li class="shortcut"><span class="keystroke">DELETE</span> Delete Selection</li>
@@ -64,6 +66,9 @@
 ### Layout
 <ul class="shortcuts">
   <li class="shortcut"><span class="keystroke">B</span> Bump</li>
+  <li class="shortcut"><span class="keystroke">O</span> Remove element overlap</li>
+  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">O</span> Remove label overlap</li>
+  <li class="shortcut"><span class="keystroke">O</span> Remove element overlap</li>
 </ul>
 
 ### Focus
