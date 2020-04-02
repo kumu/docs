@@ -38,7 +38,7 @@ The toolbar allows you to take a few different actions based on what the item is
 
 <div class="alert alert-info">
   <p>
-    Direct decorations always override decorations in your <a href="/guides/views.html" class="alert-link">Views</a>. For example, if you direct decorate an element to color it blue, and then you use the view to color it red, it will still be blue.
+    Direct decorations always override decorations in your <a href="/guides/views.html" class="alert-link">Views</a>, including all the code in your Advanced Editor. For example, if you direct decorate an element to color it blue, and then you use the view to color it red, it will still be blue.
   </p>
 </div>
 
