@@ -113,6 +113,18 @@ If you find a property or a value that's not documented here, [let us know](mail
   "</i></td>
     </tr>
     <tr>
+      <td>label</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Adds a label above the control
+  <br><code>'My Label'</code>
+  "</i></td>
+    </tr>
+    <tr>
       <td>margin</td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
