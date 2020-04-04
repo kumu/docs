@@ -113,5 +113,37 @@ Here's how you can set up that filter in Kumu:
 There's no guarantee that you'll find loops among the remaining elements and connections, but you'll at least narrow down the portion of the system that you need to carefully study.
 
 
+## Decorating loops
+
+Once you've identified your loops, you might want to customize how they look! One common thing to change is your loops' font size. This can be done in the Advanced Editor, like so:
+
+```
+loop {
+  font-size: 40; // Replace with any number
+}
+```
+
+This code will change the font size for all loops. If you just want to change the size for a specific loop, you can use a [selector](/guides/selectors.html). Here's an example that selects by label to decorate one loop:
+
+```
+// replace My Specific Loop with the label of your loop
+loop[Label = "My Specific Loop"] {
+  font-size: 40;
+}
+```
+
+Less common, but still useful, is to categorize loops with types like Vicious, Virtuous, Stagnating, and Stabilizing, then color-code by those loop types. If you add those types to the Loop Type field (under the Label in the profile), you can use this code to color code automatically:
+
+```
+loop {
+  font-color: categorize("Loop Type", olympic)
+}
+```
+
+You can replace `olympic` with the name of any of our [color palettes](/guides/color-reference.html).
+
+
+
+
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/what-are-loops.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
