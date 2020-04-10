@@ -75,7 +75,7 @@ Underneath the four core tools in the Basic Editor, you'll see a **MORE OPTIONS*
 ![More options in the basic editor](/images/basic-editor-more-options.png)
 
 Follow these links below to learn more about any of these individual options:
-* [Customize defaults](/guides/default-settings.html)
+* [Customize defaults](/guides/default-view-settings.html)
 * [Decorate elements and connections](/guides/decorate.html#refine-your-decorations)
 * [Filter elements and connections](/guides/filter.html)
 * [Showcase elements and connections](/guides/showcase.html)
