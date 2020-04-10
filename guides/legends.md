@@ -77,7 +77,7 @@ If you used the decoration builder to add a legend entry, you can go to the exis
 Some legend entries get added automatically when you apply different [templates](/guides/templates.html). Here's how to delete those entries:
 - For **Person** and **Organization** entries (stakeholder template), and **Stock**, **Flow**, **Variable**, **Source**, and **Sink** entries (stock and flow template), follow the guide to [delete field values](/guides/fields.html#deleting-field-values). Delete these values from the Element Type field.
 - For **Adds to / same direction** and **Subtracts from / opposite direction** entries (causal loop template), follow the guide to [delete field values](/guides/fields.html#deleting-field-values). Delete these values from the Connection Type field.
-- **Opposite** entry (system template): Open your [default settings](/guides/default-settings.html), and, in the **Template settings** section, clear out the "Opposite connection label" box and click **SAVE** at the bottom.
+- **Opposite** entry (system template): Open your [default settings](/guides/default-view-settings.html), and, in the **Template settings** section, clear out the "Opposite connection label" box and click **SAVE** at the bottom.
 
 #### Reordering legend entries
 

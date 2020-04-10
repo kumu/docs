@@ -105,7 +105,7 @@ If you have this problem, you can use Kumu's layout settings to spread the map o
 
 ![hairball layout preset](/images/layout-preset-hairball.png)
 
-It's much less dense, and when you zoom in, it's much more readable! To learn how to change layout settings on your map, [check out our guide on default settings](/guides/default-settings.html).
+It's much less dense, and when you zoom in, it's much more readable! To learn how to change layout settings on your map, [check out our guide on default settings](/guides/default-view-settings.html).
 
 If your network looks like a hairball, you can also use Kumu's **focus** feature to focus on smaller pieces of the network, expanding and contracting your focus with the click of a button. To learn more about focus, [check out the full guide](/guides/focus.html).
 
