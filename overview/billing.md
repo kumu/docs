@@ -14,7 +14,7 @@ To add more private projects to a monthly personal or organization account, you 
 
 ![New private project](/images/new-private-project.png)
 
-To remove private projects from the monthly bill, personal accounts can [delete the projects](/faq/how-do-i-delete-a-project.html), and organization accounts can either [delete](/faq/how-do-i-delete-a-project.html) or [archive](/guides/archiving-projects.html) the projects.
+To remove private projects from the monthly bill, personal accounts can [delete the projects](/faq/how-do-i-delete-a-project.html), and organization accounts can either [delete](/faq/how-do-i-delete-a-project-map-or-view.html) or [archive](/guides/archiving-projects.html) the projects.
 
 When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill.
 
