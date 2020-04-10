@@ -99,4 +99,18 @@ If Microsoft Azure is your single sign-on provider, you can follow the instructi
     ![Azure SSO step 13](/images/azure-sso/14.png)
 
 
+## Single sign-on with Google
+
+If Google is your single sign-on provider, you can follow the instructions below to set up.
+
+1. 
+
+
+## Single sign-on with Okta
+
+If Okta is your single sign-on provider, you can follow the instructions below to set up.
+
+1. 
+
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/enterprise/single-sign-on.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
