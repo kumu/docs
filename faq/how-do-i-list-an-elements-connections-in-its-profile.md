@@ -53,7 +53,7 @@ To get access to the custom formula, you can open our ["With custom Kumu formula
 Delete the example tabs in the Google Sheet, then create a new tab and copy/paste your list of elements into it, starting from cell `A1`. Make sure that **Label** is in Column A, or that you have an **ID** column in the sheet, filled with unique IDs for your elements.
 
 <p class="alert alert-info">
-  If you don't have your list of elements on hand, you can use Kumu to <a class="alert-link" href="/guides/exports.html">export it to Excel</a>.
+  If you don't have your list of elements on hand, you can use Kumu to <a class="alert-link" href="/guides/export.html">export it to Excel</a>.
 </p>
 
 In your dataset, start editing the cell directly below the column header for the field where your list of connections should go. For example, if you want to put the connection list in the Description field, and your Descrition field is in Column B of your spreadsheet, start editing cell `B2` underneath the Description column header.
