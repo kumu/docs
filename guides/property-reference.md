@@ -421,6 +421,13 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the opacity of selected elements' outlines.<br><code>0..1</code>"</i></td>
     </tr>
     <tr>
+      <td>outline-width</td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the width of selected elements' outlines.<br><code>number</code>"</i></td>
+    </tr>
+    <tr>
       <td>padding</td>
       <td><i class="fa fa-check"></i></td>
       <td></td>
