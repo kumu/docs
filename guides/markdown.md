@@ -303,4 +303,31 @@ all tags
 ```
 
 
+## LaTeX
+
+Good news for people using Kumu in science, math, or academia—anywhere you write Markdown in Kumu, you can also write LaTeX to include equations!
+
+You can write LaTeX inline or on its own separate line. To write inline, put two dollar signs on either side of your LaTeX code, like so:
+
+```
+24 minutes are $$\frac{24}{60}=0.4h$$ and $$\sin(30^o)=0.5$$
+```
+
+Here's what you would see:
+
+![rendered inline latex](/images/latex-inline.png)
+
+Or, for more complex expressions, you can write inside a codeblock marked as `latex`, like so:
+
+
+    ```latex
+    f(x) = \int_{-\infty}^\infty
+        \hat f(\xi)\,e^{2 \pi i \xi x}
+        \,d\xi
+    ```
+
+Here's what you would see:
+
+![rendered block latex](/images/latex-block.png)
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/markdown.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
