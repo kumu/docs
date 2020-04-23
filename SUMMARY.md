@@ -48,6 +48,7 @@
   * [View toggle control](guides/controls/view-toggle-control.md)
   * [Controls reference](/guides/controls/controls-reference.md)
 * [Decorate](guides/decorate.md)
+  * [Direct decorations](guides/direct-decorations.md)
   * [Flags](guides/flags.md)
 * [Default view settings](guides/default-view-settings.md)
 * [Disciplines]()
