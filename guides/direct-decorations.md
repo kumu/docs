@@ -8,32 +8,120 @@ To use direct decorations, simply hover your cursor over an element, connection,
 
 ![direct decorations toolbar](/images/direct-decoration-toolbar.png)
 
-The toolbar allows you to take a few different actions based on what the item is:
 
-#### For elements
-- <i class="fa fa-font">  </i>: Edit the label, font size, font color, and label alignment
-- <i class="fa fa-picture">  </i>: Decorate with an image (this is just a decoration—it doesn't store the image in the element's profile)
-- <i class="fa fa-expand">  </i>: Change the size
-- <i class="fa fa-tint">  </i>: Change the color
-- <i class="fa fa-circle-o">  </i>: Add a shadow
-- <i class="fa fa-eye-slash">  </i>: Remove all direct decorations
-- <i class="fa fa-ellipsis-h">  </i>: Visit this page of the docs
+## Direct decorations reference
 
+The table below lists all of the icons you'll find in the direct decorations toolbar for elements, connections, and loops, and what action each icon exposes to you.
 
-#### For connections
-- <i class="fa fa-font">  </i>: Edit the label, font size, font color, and label alignment
-- <i class="fa fa-expand">  </i>: Change the thickness
-- <i class="fa fa-tint">  </i>: Change the color
-- <i class="fa fa-exchange">  </i>: Set the connection direction
-- <i class="fa fa-warning">  </i>: Add or remove delay markings
-- <i class="fa fa-eye-slash">  </i>: Remove all direct decorations 
-- <i class="fa fa-ellipsis-h">  </i>: Visit this page of the docs
-
-
-#### For loops
-- <i class="fa fa-font">  </i>: Edit the label, font size, font color, and label alignment
-- <i class="fa fa-eye-slash">  </i>: Remove all direct decorations
-- <i class="fa fa-ellipsis-h">  </i>: Visit this page of the docs
+<table class="table borderless">
+  <tbody>
+    <tr>
+      <th class="text-center">Icon</th>
+      <th class="text-left">Action</th>
+      <th class="text-center">Elements</th>
+      <th class="text-center">Connections</th>
+      <th class="text-center">Loops</th>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-pencil"></i></td>
+      <td>Edit label and type</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-font"></i></td>
+      <td>Edit font color, font size, font style, and font alignment</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-tint"></i></td>
+      <td>Edit color</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-arrows-alt"></i></td>
+      <td>Edit size</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-picture-o"></i></td>
+      <td>Add an image</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"></i></td>
+      <td class="text-center"></i></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-trash-o"></i></td>
+      <td>Delete item</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-ellipsis-h"></i></td>
+      <td>More options</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-circle-o"></i></td>
+      <td>Add a border</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-dot-circle-o"></i></td>
+      <td>Add a bullseye</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-adjust"></i></td>
+      <td>Add a shadow</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"></td>
+      <td class="text-center"></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-exchange"></i></td>
+      <td>Change connection direction</td>
+      <td class="text-center"></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-hourglass-half"></i></td>
+      <td>Add delay markings</td>
+      <td class="text-center"></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-eye-slash"></i></td>
+      <td>Reset direct decorations</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+    </tr>
+    <tr>
+      <td class="text-center"><i class="fa fa-question"></i></td>
+      <td>Visit these docs!</td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+      <td class="text-center"><i class="fa fa-check"></i></td>
+    </tr>
+  </tbody>
+</table>
 
 
 <div class="alert alert-info">

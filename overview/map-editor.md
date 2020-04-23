@@ -40,7 +40,7 @@ Inside the profile, you can add and edit information about the selected item. Yo
 - <i class="fa fa-comments-o"></i> <span data-placement="top" data-html="true" title="Available for organizations only"><a href="/guides/issues.html">Attach a comment</a></span> to your selected item
 - <i class="fa fa-thumb-tack"></i> Pin an element in a [fixed position](/guides/layouts/fixed.md)
 - <i class="fa fa-exchange"></i> Change [connection direction](/faq/how-do-I-add-arrows-to-my-connections.md)
-- <i class="fa fa-exclamation-triangle"></i> Add [delay markings](/guides/system-mapping.md#add-delay-markings)
+- <i class="fa fa-hourglass-half"></i> Add [delay markings](/guides/system-mapping.md#add-delay-markings)
 - <i class="fa fa-crosshairs"></i> Activate [focus](/guides/focus.md)
 - <i class="fa fa-tint"></i> [Decorate](/guides/decorate.md) the item
 - <i class="fa fa-trash"></i> [Delete](/faq/how-do-i-delete-data-from-my-project.md) the item

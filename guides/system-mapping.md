@@ -89,7 +89,7 @@ To change the arrows for multiple connections at a time, hold down <code>Shift</
 
 #### Add delay markings
 
-Sometimes, system mappers will add two parallel lines intersecting a connection to indicate that there is an implicit time delay in the relationship—one factor _does_ affect the other, but it might take a long time to do so. To add this delay marking to a connection, you can select the connection, then click the delay icon <i class="fa fa-exclamation-triangle"></i> in the lower right of the connection's profile.
+Sometimes, system mappers will add two parallel lines intersecting a connection to indicate that there is an implicit time delay in the relationship—one factor _does_ affect the other, but it might take a long time to do so. To add this delay marking to a connection, you can select the connection, then click the delay icon <i class="fa fa-hourglass-half"></i> in the lower right of the connection's profile.
 
 <p class="alert alert-info">
 To add delay markings for multiple connections at a time, hold down <code>Shift</code> on your keyboard and click on connections to select more than one. Then, follow the same steps above to make your changes.<br><br>You can also press <code>Shift</code> + <code>C</code> on your keyboard to select all connections.
