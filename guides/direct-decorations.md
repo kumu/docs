@@ -2,7 +2,7 @@
 
 Usually, it's faster and easier to decorate elements, connections, and loops according to the data in their [fields](/guides/fields.html)—for example, creating a decoration rule that selects all elements with the element type "Organization", and color-codes them based on their tags.
 
-But, if you haven't added field data, or you just want to tweak the style of one single item on the map, **direct decorations** is a great tool.
+But, if you haven't added field data, or you just want to tweak the style of one single item on the map, **direct decorations** is the perfect tool.
 
 Direct decorations are in early access right now. To use them, add the following snippet of code to your [Advanced Editor](/overview/view-editors.html#advanced-editor):
 
