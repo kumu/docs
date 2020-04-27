@@ -4,25 +4,23 @@ Usually, it's faster and easier to decorate elements, connections, and loops acc
 
 But, if you haven't added field data, or you just want to tweak the style of one single item on the map, **direct decorations** is the perfect tool.
 
-Direct decorations are in early access right now. To use them, add the following snippet of code to your [Advanced Editor](/overview/view-editors.html#advanced-editor):
-
-```
-@settings {
-  toolbar: true;
-  toolbar-trigger: click;
-}
-```
-
-Then, simply click on an element, connection, or loop, and the direct decorations toolbar will appear:
+To use them, simply hover over an element, connection, or loop, and the direct decorations toolbar will appear:
 
 ![direct decorations toolbar](/images/direct-decoration-toolbar.png)
 
-If you'd rather have the toolbar appear when you hover over an item instead of click it, change `click` to `hover` in the Advanced Editor, like so:
+If you'd rather have the toolbar appear when you click on an item instead of hover, add the following in the [Advanced Editor](/overview/view-editors.html#advanced-editor):
 
 ```
-@settings {
-  toolbar: true;
-  toolbar-trigger: hover;
+@controls {
+  toolbar: click;
+}
+```
+
+If the toolbar is a distraction and you prefer to use rule-based decorations, you can disable the toolbar altogether:
+
+```
+@controls {
+  toolbar: false;
 }
 ```
 
