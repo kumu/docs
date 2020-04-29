@@ -1,5 +1,6 @@
 # Decorate
 
+
 Decorations in Kumu allow you to change the color and size of elements, connections, and loops in your map. They are a powerful way to guide your map readers toward valuable insights about your system or network.
 
 ![Color and size decorations](/images/color-size-decorations.png)
