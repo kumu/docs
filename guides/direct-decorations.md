@@ -140,17 +140,26 @@ The table below lists all of the icons you'll find in the direct decorations too
 </table>
 
 
-<div class="alert alert-info">
-  <p>
-    Direct decorations always override decorations in your <a href="/guides/views.html" class="alert-link">Views</a>, including all the code in your Advanced Editor. For example, if you direct decorate an element to color it blue, and then you use the view to color it red, it will still be blue.
-  </p>
-</div>
+# Caveats for direct decorations
 
-<div class="alert alert-info">
-  <p>
-    Direct decorations, just like element position and connection curvature, are stored separately for each map in the project. If you want to change the direct decoration for an item, you can <a href="/overview/settings.html#map-settings" class="alert-link">duplicate the map</a> and make your changes in the new copy.
-  </p>
-</div>
+There are just a few additional things you should know about direct decorations:
+
+
+#### Direct decorations always override decorations in your [Views](/guides/views.html).
+
+This includes all the code in your Advanced Editor. For example, if you direct decorate an element to color it blue, and then you use the view to color it red, it will still be blue.
+
+
+#### Direct decorations, just like element position and connection curvature, are stored separately for each map in the project.
+
+If you want to change the direct decoration for an item, you can [duplicate the map](/overview/settings.html#map-settings) and make your changes in the new copy.
+
+
+#### When you're editing the map, the direct decorations toolbar will hide [popovers](/guides/popovers.html).
+
+However, anyone who has view-only access to the map or is viewing a [presentation](/guides/presentations.html) or a [shared/embedded map](/guides/share-and-embed.html) will still see your popovers (the direct decorations toolbar is hidden for them, since they can't make edits to your map).
+
+If you're building popovers and just want to see how they look before you publish, you can either follow the instructions above to turn off the direct decorations toolbar, or click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the bottom right corner and select "Switch to preview mode".
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/direct-decorations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
