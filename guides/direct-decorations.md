@@ -140,7 +140,7 @@ The table below lists all of the icons you'll find in the direct decorations too
 </table>
 
 
-# Caveats for direct decorations
+## Caveats for direct decorations
 
 There are just a few additional things you should know about direct decorations:
 
