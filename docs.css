@@ -1,4 +1,22 @@
-h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, table, td, dl, dt, dd, footer, input, .book .book-body .page-wrapper .page-inner section.normal a.btn {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li,
+table,
+td,
+dl,
+dt,
+dd,
+footer,
+input,
+.book .book-body .page-wrapper .page-inner section.normal a.btn {
   font-family: "proxima-nova", "Proxima Nova", "Helvetica Neue", sans-serif;
 }
 
@@ -7,10 +25,20 @@ img {
   display: block;
 }
 
-.book .book-body .page-wrapper .page-inner #book-search-results p, .book .book-body .page-wrapper .page-inner section.normal p, .book .book-body .page-wrapper .page-inner section.normal a, .book .book-body .page-wrapper .page-inner section.normal ul, .book .book-body .page-wrapper .page-inner section.normal ol, .book .book-body .page-wrapper .page-inner section.normal li {
+.book .book-body .page-wrapper .page-inner #book-search-results p,
+.book .book-body .page-wrapper .page-inner section.normal p,
+.book .book-body .page-wrapper .page-inner section.normal ul,
+.book .book-body .page-wrapper .page-inner section.normal ol,
+.book .book-body .page-wrapper .page-inner section.normal li {
   font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.markdown-section a {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal h2 {
@@ -37,13 +65,15 @@ img {
   width: 600px;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal .plain, .book .book-body .page-wrapper .page-inner section.normal .plain img {
+.book .book-body .page-wrapper .page-inner section.normal .plain,
+.book .book-body .page-wrapper .page-inner section.normal .plain img {
   border: none;
   border-radius: 0;
   box-shadow: none;
 }
 
-.book .book-body .page-wrapper .page-inner section.normal .plain, .book .book-body .page-wrapper .page-inner section.normal img {
+.book .book-body .page-wrapper .page-inner section.normal .plain,
+.book .book-body .page-wrapper .page-inner section.normal img {
   border: none;
   border-radius: 0;
   box-shadow: none;
