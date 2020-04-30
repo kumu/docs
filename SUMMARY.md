@@ -143,7 +143,6 @@
 * [How do I control text wrapping?](faq/how-do-i-control-text-wrapping.md)
 * [How do I convert a project from private to public?](faq/how-do-i-convert-a-project-from-private-to-public.md)
 * [How do I convert a project from public to private?](faq/how-do-i-convert-a-project-from-public-to-private.md)
-* [How do I decorate a single element or connections?](faq/how-do-i-decorate-a-single-element-or-connection.md)
 * [How do I delete a project, map, or view?](faq/how-do-i-delete-a-project-map-or-view.md)
 * [How do I delete data from my project?](faq/how-do-i-delete-data-from-my-project.md)
 * [How do I downgrade my account to free?](faq/how-do-i-downgrade-to-free.md)
