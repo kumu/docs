@@ -168,7 +168,7 @@ To embed audio from Soundcloud, type `soundcloud/` inside your double square bra
 
 ### Scribd
 
-To embed audio from Scribd, type `scribd/` inside your double square brackets, followed by the ID of the document:
+To embed documents from Scribd, type `scribd/` inside your double square brackets, followed by the ID of the document:
 
 ```
 [[scribd/416217686]]
