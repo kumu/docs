@@ -6,6 +6,20 @@
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/8BsjL6iXO5g" frameborder="0" allowfullscreen></iframe></p>
 
+
+<div class="alert alert-warning">
+  <p>
+    When you're editing the map, the <a href="/guides/direct-decorations.html" class="alert-link">direct decorations toolbar</a> will hide popovers.
+  </p>
+  <p>
+    However, anyone who has view-only access to the map or is viewing a <a href="/guides/presentations.html" class="alert-link">presentation</a> or a <a href="/guides/share-and-embed.html" class="alert-link">shared/embedded map</a> will still see your popovers (the direct decorations toolbar is hidden for them, since they can't make edits to your map).
+  </p>
+  <p>
+    If you're building popovers and just want to see how they look before you publish, you can either follow the instructions in the <a href="/guides/direct-decorations.html" class="alert-link">direct decorations guide</a> to turn off the direct decorations toolbar, or simply click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the bottom right corner and select "Switch to preview mode".
+  </p>
+</div>
+
+
 ## Basic popover syntax
 
 Popovers are added through the Advanced Editor, using a simple syntax.
