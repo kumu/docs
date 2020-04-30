@@ -79,8 +79,9 @@ Need a slug for your project? Use this tool to create your own:
     success.style.opacity = "0";
 
     string = string
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, '') // remove diacritics
       .replace(/'/g, '')
-      .replace(/[^a-záéíóúñäëïöüçøñâêîôû0-9]/gi, '-')
+      .replace(/[^a-z0-9]/gi, '-')
       .replace(/-{2,}/g, '-')
       .replace(/^-/, '').replace(/-$/, '')
       .toLowerCase();
