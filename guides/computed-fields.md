@@ -1,6 +1,5 @@
 # Computed fields
 
-<!-- *Note: Computed fields are in beta release so expect changes to this document and limitations in how computed fields can be used. Computed fields are not currently supported for maps using the Google Sheets integration.* -->
 
 Computed fields are a special type of field that allow you to calculate values automatically based on an expression that you specify.
 
@@ -13,7 +12,29 @@ You can create a computed field in one of two ways:
 
 ## Supported syntax
 
-We use [mathjs](http://mathjs.org/docs/expressions/syntax.html) to power computed fields and you have their complete expression syntax to use within Kumu. It's pretty similar to writing an equation in Excel or Google Sheets (with the caveat that we don't support all the functions you'd find in a spreadsheet like `concatenate` or `vlookup`).
+
+#### Concatenating text in comptued fields
+
+To create a new string (a piece of text) using computed fields, just type your expression inside a pair of double quotes. Include a value from another field using double curly brackets `{{}}` with the field name inside.
+
+For example, here's the expression for computed field that combines the elements label and type in a simple sentence.
+
+```
+// Note the double quotes surrounding the expression,
+// and the double curly brackets around each field name.
+= "{{label}} is a {{type}}"
+```
+
+You can also bring numbers into your expression:
+
+```
+= "Dr. Evil is demanding ${{ridiculous amount of money}}"
+```
+
+
+#### Doing math in computed fields
+
+We use [mathjs](http://mathjs.org/docs/expressions/syntax.html) to power computed fields and you have their complete expression syntax to use within Kumu. It's pretty similar to writing an equation in Excel or Google Sheets (with the caveat that we don't support all the functions you'd find in a spreadsheet `vlookup`).
 
 If the field you are using in your expression is a single word, you can just write it as-is in the expression. If it is more than one word, you'll need to wrap the field name with two mustaches on either end {% raw %} `{{my longer than neccessary field name}}` {% endraw %}.
 
@@ -26,6 +47,7 @@ Here's some examples:
 * Take the log of a value `log(networth)`
 
 That's just the tip of the iceberg. Head over to [mathjs](http://mathjs.org/docs/expressions/syntax.html) if you're interested in what else is possible.
+
 
 ## Things to watch out for
 
@@ -70,6 +92,7 @@ The below example involves two fields, "archetype" and "trend" that each store "
 ```
 
 Make sure that you're including "no" for the fields that aren't "yes" instead of just leaving them blank as it will throw an error that will prevent the expression from running.
+
 
 ## Limitations
 

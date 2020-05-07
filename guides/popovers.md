@@ -23,6 +23,7 @@
 ## Basic popover syntax
 
 Popovers are added through the Advanced Editor, using a simple syntax.
+
 ```
 selector {
     popover: "{{Field name}}";
