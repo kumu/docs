@@ -78,6 +78,8 @@ We'll also teach you how to [chain selectors together](#chain-selectors) to run 
 
 After you read this section, check out our [selector reference](/guides/selector-reference.html)—it's a great cheat sheet for every possible selector in Kumu.
 
+You can also use our experimental [selector builder interface](https://selector-builder.netlify.app/) to write selectors for you!
+
 
 ## Shorthand selectors
 
