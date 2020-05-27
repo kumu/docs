@@ -190,6 +190,10 @@ Having trouble with your import? Here are a few common pitfalls...
 
 Your column headers (e.g. Label, Type, Description, etc.) should be in row 1 of your spreadsheet.
 
+#### Not ignoring unneeded sheets
+
+If you have multiple sheets in your file of which you only want to import some, make sure that the other sheets are excluded from the import by placing the text _(ignore)_ in front of their sheet names. For example: _(ignore) Sheet 3_.
+
 #### Hidden data in unused cells
 
 If it seems like your spreadsheet is taking _forever_ to load, or it's consistently throwing errors, you might have some data or formatting hiding in your unused cells. To clear all content and formatting from unused cells in Excel, [follow this Excel guide](https://support.office.com/en-us/article/clear-cells-of-contents-or-formats-9ff6b8ff-1afd-495f-8ad8-8c1f6f82a9d6).
