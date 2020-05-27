@@ -192,7 +192,7 @@ Your column headers (e.g. Label, Type, Description, etc.) should be in row 1 of 
 
 #### Not ignoring unneeded sheets
 
-If you have multiple sheets in your file of which you only want to import some, make sure that the other sheets are excluded from the import by placing the text _(ignore)_ in front of their sheet names. For example: _(ignore) Sheet 3_.
+If you have multiple sheets in your file, and you only want to import some, make sure that Kumu ignores the other sheets when importing. To do this, you can add `(ignore)` to sheet names—for example: `Sheet 3 (ignore)`.
 
 #### Hidden data in unused cells
 
