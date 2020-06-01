@@ -618,6 +618,6 @@ It's also possible to specify which value should receive a certain color within 
 
 ```
 @settings {
-  element-color: categorize ("element type", #5BC1AE "Person", #009CDB "Organization", #F6882B "Region")
+  element-color: categorize("element type", #5BC1AE "Person", #009CDB "Organization", #F6882B "Region")
 }
 ```
