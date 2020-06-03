@@ -22,13 +22,13 @@ For example, here's the expression for computed field that combines the elements
 ```
 // Note the double quotes surrounding the expression,
 // and the double curly brackets around each field name.
-= "{{label}} is a {{type}}"
+= "{% raw %}{{label}}{% endraw %} is a {% raw %}{{type}}{% endraw %}"
 ```
 
 You can also bring numbers into your expression:
 
 ```
-= "Dr. Evil is demanding ${{ridiculous amount of money}}"
+= "Dr. Evil is demanding ${% raw %}{{ridiculous amount of money}}{% endraw %}"
 ```
 
 
