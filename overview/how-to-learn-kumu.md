@@ -11,7 +11,7 @@
 - [Kumu terminology guide](https://docs.kumu.io/overview/kumus-architecture.html)
 
 - What are the main use cases for Kumu?
-- What are the key difference between personal and organization accounts?
+- What are the key difference between personal and organizations?
 - Once I have an account, how do I get started with my first project?
 - Where can I go to learn more about Kumu?
 - If I get stuck, where can I go for help?

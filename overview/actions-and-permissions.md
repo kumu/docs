@@ -9,10 +9,10 @@ When you're using Kumu, every action you take falls into one of the following ca
 - [Forking](/guides/forking.html) a project
 - [Administrating a project](/guides/project-admin.html) (changing project privacy, renaming a project, transferring project ownership to another account, or deleting a project)
 - [Granting project access](/overview/collaboration.html#add-a-contributor) to other Kumu users
-- [Commenting on a project](/guides/issues.html) (only available for [organization accounts](/guides/organizations.html))
-<!-- - Creating a new organization account -->
-- Adding members to an organization account
-- Creating teams in an organization account
+- [Commenting on a project](/guides/issues.html) (only available for [organizations](/guides/organizations.html))
+<!-- - Creating a new organization -->
+- Adding members to an organization
+- Creating teams in an organization
 
 In order to take certain **actions**, you need to have certain **permissions**. In this guide, you'll find a breakdown of who is able to take each action.
 
@@ -31,14 +31,14 @@ The table below breaks down all other actions, and who has permission to take th
 | Forking a project | Anyone with a Kumu account | The project owner |
 | Administrating a project | The project owner | The project owner |
 | Granting project access to other Kumu users | The project owner | The project owner |
-| Commenting on a project   | No one (organization accounts only)  | No one (organization accounts only)  |
+| Commenting on a project   | No one (organizations only)  | No one (organizations only)  |
 
 For more info on how to add project contributors, check out our guide on [collaboration and sharing](/overview/collaboration.html).
 
 
 ## Organization account actions and permissions
 
-For an organization account the **organization owners** are the only people who have permission to change account settings, such as profile info, username and password, or billing info. Organization owners are also the only people who have permission to invite new people to the organization or give them direct access to a project (without inviting them to the organization).
+For an organization the **organization owners** are the only people who have permission to change account settings, such as profile info, username and password, or billing info. Organization owners are also the only people who have permission to invite new people to the organization or give them direct access to a project (without inviting them to the organization).
 
 ![organization add member](/images/organization-add-members.png)
 
@@ -77,7 +77,7 @@ There are two different ways to find out which account is the owner of a project
 
 ![project owner username under project name](/images/project-owner-dashboard.png)
 
-You can also figure out who owns any project by looking at the project's URL. Every Kumu project URL starts with `https://kumu.io/`, followed by the owner's username. For example, the project pictured below is owned by our organization account, which has the username "Kumu":
+You can also figure out who owns any project by looking at the project's URL. Every Kumu project URL starts with `https://kumu.io/`, followed by the owner's username. For example, the project pictured below is owned by our organization, which has the username "Kumu":
 
 ![project owner in URL](/images/project-owner-url.png)
 

@@ -1,14 +1,14 @@
 # Organizations
 
-Organization accounts allow multiple Kumu users to collaborate seamlessly, with fine-tuned permissions (view, edit, and admin) for each of the organization's projects. This makes organization accounts a great fit for teams of people that have several active Kumu users.
+**Organizations** are shared workspaces that allow multiple Kumu users to collaborate seamlessly, with fine-tuned permissions (view, edit, and admin) for each of the organization's projects. This makes organizations a great fit for teams of people that have several active Kumu users.
 
-In addition to flexible user management, organization accounts also have access to these exclusive features:
+In addition to flexible user management, organizations also have access to these exclusive features:
 - **Free, on-demand PDFs.** Say goodbye to $5 charges and say hello to unlimited, automated PDFs. Need tweaks the automated process can’t handle? Email us to request a PDF, free of charge, with a ~ 1 day turnaround.
 - **[Private project archiving](/guides/archiving-projects.html).** Have private projects you want to continue to share through Kumu but don’t need to edit? Simply archive the project and you’ll no longer need to pay for it.
 - **[Project-wide activity feed](/guides/activity-feed.html).** Collaborating with a large team to build out your map? Use the activity feed to keep tabs on who’s making each change across your project.
 - **[Real-time, embedded comments](/guides/issues.html).** You’ve done the work of building your map, let us do the heavy lifting to collect the feedback. Engage in discussions and link them to specific elements, connections, and loops. Use comments to brainstorm ideas and make it easy for others to give feedback while you’re building out your map.
 <!-- - **[Single sign-on](/guides/single-sign-on.html).** Enable authentication for your organization through your SAML 2.0 provider (only Azure AD supported at this time). -->
-<!-- - **Required [multi-factor authentication](/guides/multi-factor-authentication.html).** Multi-factor authentication (MFA) helps keep your account and projects. With an organization account, you can require MFA for everyone accessing your projects. -->
+<!-- - **Required [multi-factor authentication](/guides/multi-factor-authentication.html).** Multi-factor authentication (MFA) helps keep your account and projects. With an organization, you can require MFA for everyone accessing your projects. -->
 - **Hourly backups, retained for six months.** Map freely, knowing you have backups of your project data in case you make a mistake.
 - **Customized branding.** Replace Kumu's logos with your own to align your projects with your brand.
 - **Google Analytics tracking.** See how many people are visiting your maps, what items those people are clicking on, and when all that activity is happening.
@@ -19,7 +19,7 @@ In addition to flexible user management, organization accounts also have access 
 Go to your [personal account's dashboard](https://kumu.io/dashboard), then navigate to the **Organizations** tab and click the **New Organization** button. You'll be prompted to give your new organization a name, a username, a billing email, and a plan—then, you'll have a brand new organization!
 
 <p class="alert alert-warning">
-<b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization account. Even if you think an organization account is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your personal account</a> first.
+<b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization. Even if you think an organization is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your personal account</a> first.
 </p>
 
 
@@ -27,7 +27,7 @@ Go to your [personal account's dashboard](https://kumu.io/dashboard), then navig
 
 After you create your organization, you can start inviting other Kumu users to join. Users can be invited to be owners or members:
 
-- **Owners** can add new members, and they have full access to everything within the organization. The creator of the organization account is an Owner by default. Owners also have admin access to update billing and profile information.
+- **Owners** can add new members, and they have full access to everything within the organization. The creator of the organization is an Owner by default. Owners also have admin access to update billing and profile information.
 - **Members** can see a list of all projects owned by the organization, and they can create new projects, but they can only open projects they've been [given access to](#grant-direct-access-to-projects).
 
 
@@ -67,7 +67,7 @@ When your team is all set up, click on one of your organization's projects to br
 
 ![organization project team access modal](/images/organization-project-team-access.png)
 
-Now that you've mastered the basics of adding users, check out the next sections to learn how to use other features exclusive to organization accounts.
+Now that you've mastered the basics of adding users, check out the next sections to learn how to use other features exclusive to organizations.
 
 <!-- <iframe src="https://player.vimeo.com/video/135484585" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
  -->
@@ -75,7 +75,7 @@ Now that you've mastered the basics of adding users, check out the next sections
 
 ## Branding
 
-When you sign up for an organization account, you can tweak Kumu's branding to be more aligned with your organization's brand. Currently, you can:
+When you sign up for an organization, you can tweak Kumu's branding to be more aligned with your organization's brand. Currently, you can:
 
 - Upload a logo to use on the project loading screen
 - Upload a logo to use as a watermark on [embedded maps](/guides/share-and-embed.html)
@@ -90,7 +90,7 @@ Organization accounts can use Google Analytics tracking to see how many people a
 
 ## Convert an existing account to an organization
 
-To convert your personal account to an organization account, you can follow the steps above to create a new organization, and then you'll need to transfer your personal projects into the organization. To do that, check out [our guide on transferring projects](/faq/how-do-i-transfer-a-project.html).
+To convert your personal account to an organization, you can follow the steps above to create a new organization, and then you'll need to transfer your personal projects into the organization. To do that, check out [our guide on transferring projects](/faq/how-do-i-transfer-a-project.html).
 
 
 

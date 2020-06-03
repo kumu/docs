@@ -8,7 +8,7 @@ If you lose your phone and do not have backups enabled for your MFA information,
 
 To enable multi-factor authentication on a personal account, go to the [MFA section of your settings page](https://kumu.io/settings#mfa) and enter your phone number.
 
-<!-- For increased security with an organization account, you can require that all members of your organization enable MFA in their personal accounts. To do this, go to the MFA section of your [organization's dashboard](/overview/dashboard.html#organization-dashboard), and click "Require MFA for all members". -->
+<!-- For increased security with an organization, you can require that all members of your organization enable MFA in their personal accounts. To do this, go to the MFA section of your [organization's dashboard](/overview/dashboard.html#organization-dashboard), and click "Require MFA for all members". -->
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/multi-factor-authentication.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

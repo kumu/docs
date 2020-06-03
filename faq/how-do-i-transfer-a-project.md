@@ -16,7 +16,7 @@ Currently, only the Kumu core team can transfer projects from organizations to p
 * Select the username of the person you'd like to transfer the project to.
 * Click transfer.
 
-### Transfer to an organization account
+### Transfer to an organization
 
 * Load the project from your [dashboard](http://kumu.io/dashboard).
 * Make sure you have been added as an "owner" to the organization you'd like to transfer the project to.

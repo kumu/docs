@@ -18,7 +18,7 @@ To see the full list of personal account features, [check out our pricing page](
 Not sure which type of project you need? [Check out our guide on collaborating and sharing](/overview/collaboration.md#public-vs-private-projects) to learn the key differences between public and private projects.
 
 <p class="alert alert-warning">
-<b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization account. Even if you think an organization account is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your personal account</a> first.
+<b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization. Even if you think an organization is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your personal account</a> first.
 </p>
 
 
@@ -80,18 +80,18 @@ Before we switched to per-project pricing, we offered a suite of plans that gran
 
 ## Organization accounts
 
-Kumu's organization accounts are a great fit for teams of people that have several active Kumu users. You can collaborate efficiently and securely with clients, colleagues, board members and more!
+Kumu's organizations are a great fit for teams of people that have several active Kumu users. You can collaborate efficiently and securely with clients, colleagues, board members and more!
 
 Organization accounts are also really useful when you're creating Kumu projects for clients, and you'd like your clients to be able to check in on your progress and give feedback.
 
 Organization accounts give you fine-grained access control: give others view, edit, or admin rights to a project. Add members to the organization and group them into teams to assign permissions more efficiently. You'll also be able to see detailed activity feeds, comment on your map in real time, enhance security with two-factor authentication, and much more.
 
-To see the full list of organization account features, check out [our pricing page](https://kumu.io/pricing) and [our full guide on organizations](/guides/organizations.md).
+To see the full list of organization features, check out [our pricing page](https://kumu.io/pricing) and [our full guide on organizations](/guides/organizations.md).
 
 Organization accounts provide unlimited public projects with all of these features for $10/month. Organizations' private projects are $20 per project per month.
 
 <p class="alert alert-warning">
-<b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization account. Even if you think an organization account is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your personal account</a> first.
+<b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization. Even if you think an organization is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your personal account</a> first.
 </p>
 
 

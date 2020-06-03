@@ -8,7 +8,7 @@ Before you dive in: if you're not sure what we mean by `slug` in the table below
 | --- | --- |
 | Your personal dashboard | `/dashboard` |
 | Your personal settings | `/settings` |
-| An organization account's dashboard and settings | `/<organization username>/settings` |
+| An organization's dashboard and settings | `/<organization username>/settings` |
 | A public Kumu profile | `/<username>` |
 | A Kumu project | `/<project owner's username>/<project name slug>` |
 | A specific map in a project | `/<project owner's username>/<project name slug>#<map name slug>` |

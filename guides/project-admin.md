@@ -42,7 +42,7 @@ If you are on an annual billing plan, you may also need to go to [your billing s
 
 ## Caveats when transferring projects
 
-To transfer a project from your personal account to an organization account, you first need to be [added as an owner](/guides/organizations.html#add-users-to-an-organization) of the organization account (if you created the organization account, you are an owner by default).
+To transfer a project from your personal account to an organization, you first need to be [added as an owner](/guides/organizations.html#add-users-to-an-organization) of the organization (if you created the organization, you are an owner by default).
 
 Currently, only the Kumu core team can transfer projects from organizations to personal accounts. If you need to transfer from an organization to a personal account, please [contact support](mailto:support@kumu.io).
 

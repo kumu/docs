@@ -4,17 +4,17 @@ At Kumu, we use an automated billing system to accept payments for [paid plans](
 
 We handle all payments with [full PCI-compliance](https://www.pcisecuritystandards.org/) through [Stripe](https://stripe.com/), the industry standard, and you can use any credit card that is [accepted by Stripe](https://stripe.com/payments/payment-methods-guide#cards). We do not store any sensitive billing information on our own servers.
 
-To change the credit card you use with a personal account, you can visit the [billing section of your account settings](https://kumu.io/settings#billing). For organization accounts, you can go to your [organization's dashboard](/overview/dashboard.html#organization-dashboard) and scroll down to the billing section.
+To change the credit card you use with a personal account, you can visit the [billing section of your account settings](https://kumu.io/settings#billing). For [organizations](/guides/organizations.md), you can go to your [organization's dashboard](/overview/dashboard.html#organization-dashboard) and scroll down to the billing section.
 
 #### Monthly billing
 
-If you are on a monthly billing cycle, Kumu will bill your account each month based on the number of private projects you own. For personal accounts, each private project costs $9/month, and for organization accounts, each private project costs $20/month. Organization accounts are billed an additional $10 membership fee each month.
+If you are on a monthly billing cycle, Kumu will bill your account each month based on the number of private projects you own. For personal accounts, each private project costs $9/month, and for organizations, each private project costs $20/month. Organization accounts are billed an additional $10 membership fee each month.
 
-To add more private projects to a monthly personal or organization account, you simply need to create a new project from your [dashboard](/overview/dashboard.html), and set it to **Private**.
+To add more private projects to a monthly personal account or organization, you simply need to create a new project from your [dashboard](/overview/dashboard.html), and set it to **Private**.
 
 ![New private project](/images/new-private-project.png)
 
-To remove private projects from the monthly bill, personal accounts can [delete the projects](/faq/how-do-i-delete-a-project.html), and organization accounts can either [delete](/faq/how-do-i-delete-a-project-map-or-view.html) or [archive](/guides/archiving-projects.html) the projects.
+To remove private projects from the monthly bill, personal accounts can [delete the projects](/faq/how-do-i-delete-a-project.html), and organizations can either [delete](/faq/how-do-i-delete-a-project-map-or-view.html) or [archive](/guides/archiving-projects.html) the projects.
 
 When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill.
 
@@ -25,7 +25,7 @@ If you are on an annual billing cycle, Kumu will bill your account once per year
 
 This means that deleting and archiving private projects _will not_ reduce your annual bill; they will only make more private projects available under your total private project limit.
 
-However, you can increase or decrease your private project limit at any time during the year, and this _will_ increase or decrease your next bill. To adjust your private project limit, go to the billing settings for your personal or organization account, and use the interface to add or subtract private projects.
+However, you can increase or decrease your private project limit at any time during the year, and this _will_ increase or decrease your next bill. To adjust your private project limit, go to the billing settings for your personal account or organization, and use the interface to add or subtract private projects.
 
 ![Annual project limit](/images/billing-settings-annual-organization.png)
 
@@ -45,12 +45,12 @@ If you're using the [Enterprise version of Kumu](/overview/accounts-and-plans.ht
 
 Our billing system automatically sends a receipt to the email on file each time a payment is made. From time to time, these receipts might get sent to your email's spam folder—if you don't see a receipt, be sure to check there first.
 
-For a personal account, if you want to change the email that receipts are sent to, you can go to the [profile section of your account settings](https://kumu.io/settings#profile). To do this for an organization account, you can go to your [organization's dashboard](/overview/dashboard.html#organization-dashboard) and scroll down to profile section.
+For a personal account, if you want to change the email that receipts are sent to, you can go to the [profile section of your account settings](https://kumu.io/settings#profile). To do this for an organization, you can go to your [organization's dashboard](/overview/dashboard.html#organization-dashboard) and scroll down to profile section.
 
 
 ## Paying by invoice
 
-If you can't enter a credit card into Kumu's website for repeat billing (some organizations prohibit this), you can pay by invoice instead. An invoice will allow you to make a one-time payment via credit card, ACH transfer, or a check in the mail.
+If you can't enter a credit card into Kumu's website for repeat billing, you can pay by invoice instead. An invoice will allow you to make a one-time payment via credit card, ACH transfer, or a check in the mail.
 
 To request an invoice, you can [email support@kumu.io](mailto:support@kumu.io).
 

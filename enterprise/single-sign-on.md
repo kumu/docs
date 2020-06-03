@@ -13,7 +13,7 @@ To configure SSO for your Enterprise instance, follow the instructions in this g
   - [Microsoft Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications)
   - [Google Suite](https://support.google.com/a/answer/6087519?hl=en)
 
-  When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `organization-username` with the username of your Kumu organization account:
+  When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `organization-username` with the username of your Kumu organization:
 
   ```
   https://example.kumuenterprise.com/organization-username
@@ -25,7 +25,7 @@ To configure SSO for your Enterprise instance, follow the instructions in this g
   https://example.kumuenterprise.com/organization-username/sso/saml/consume
   ```
 
-4. From your SSO provider, you can get a service URL, an entity ID, and a public certificate. Enable SSO for your enterprise and copy/paste those items into your Kumu organization accounts' settings:
+4. From your SSO provider, you can get a service URL, an entity ID, and a public certificate. Enable SSO for your enterprise and copy/paste those items into your Kumu organizations' settings:
 
    ```
    https://example.kumuenterprise.com/organizations/organization-username/settings#sso
