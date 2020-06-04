@@ -23,7 +23,7 @@ For example, here's the expression for computed field that combines the elements
 ```
 // Note the double quotes surrounding the expression,
 // and the double curly brackets around each field name.
-="{{label}} is a {{type}}"
+= "{{label}} is a {{type}}"
 ```
 {% endraw %}
 

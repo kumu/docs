@@ -23,21 +23,23 @@
 ## Basic popover syntax
 
 Popovers are added through the Advanced Editor, using a simple syntax.
+
 {% raw %}
 ```
 selector {
-    popover: "{{Field name}}";
+  popover: "{{Field name}}";
 }
 ```
 {% endraw %}
 
-Replace `selector` with any valid [selector](/guides/selectors.html), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets `{{}}` and wrap the entire popover value in double quotes.
+Replace `selector` with any valid [selector](/guides/selectors.html), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets {% raw %} `{{}}` {% endraw %} and wrap the entire popover value in double quotes.
 
 For example, here is the code for an **element** popover that includes the **label** and **element type**:
+
 {% raw %}
 ```
 element {
-    popover: "{{label}} {{element type}}";
+  popover: "{{label}} {{element type}}";
 }
 ```
 {% endraw %}
@@ -51,17 +53,18 @@ When using the <strong>Type</strong> field in popovers, you need to specify whet
 You can use [markdown](/guides/markdown.html) to add italics, bold text, videos, and more to your popover. You can also add double spaces to create line breaks.
 
 Here's a popover that uses markdown to style the label, add a horizontal rule, and add line breaks in between the fields:
+
 {% raw %}
 ```
 chapter {
-    popover: "### {{label}}  ---  {{topic sentence}}  {{image}}";
+  popover: "### {{label}}  ---  {{topic sentence}}  {{image}}";
 }
 ```
 {% endraw %}
 
 ![](/images/soil-biodiversity-markdown-popover.png)
 
-Note that popovers automatically recognize images, so there's no need to style those with markdown. This works with hyperlinks as well&mdash;just use something like `{{website}}` or `{{image}}` in your popover, and the popover will render it properly.
+Note that popovers automatically recognize images, so there's no need to style those with markdown. This works with hyperlinks as well—just use something like {% raw %} `{{website}}` {% endraw %} or {% raw %} `{{image}}` {% endraw %} in your popover, and the popover will render it properly.
 
 Popovers also recognize multi-pick fields (like Tags) and will render them as bulleted lists.
 
