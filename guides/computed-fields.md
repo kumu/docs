@@ -15,22 +15,25 @@ You can create a computed field in one of two ways:
 
 #### Concatenating text in comptued fields
 
-To create a new string (a piece of text) using computed fields, just type your expression inside a pair of double quotes. Include a value from another field using double curly brackets `{{}}` with the field name inside.
+To create a new string (a piece of text) using computed fields, just type your expression inside a pair of double quotes. Include a value from another field using double curly brackets {% raw %} `{{}}` {% endraw %} with the field name inside.
 
 For example, here's the expression for computed field that combines the elements label and type in a simple sentence.
 
+{% raw %}
 ```
 // Note the double quotes surrounding the expression,
 // and the double curly brackets around each field name.
-= "{% raw %}{{label}}{% endraw %} is a {% raw %}{{type}}{% endraw %}"
+="{{label}} is a {{type}}"
 ```
+ {% endraw %}
 
 You can also bring numbers into your expression:
 
+{% raw %}
 ```
-= "Dr. Evil is demanding ${% raw %}{{ridiculous amount of money}}{% endraw %}"
+= "Dr. Evil is demanding ${{ridiculous amount of money}}"
 ```
-
+{% endraw %}
 
 #### Doing math in computed fields
 
