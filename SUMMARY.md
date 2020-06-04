@@ -58,7 +58,7 @@
   * [Systems practice](guides/systems-practice.md)
 * [Export](guides/export.md)
 * [Fields](guides/fields.md)
-  <!-- * [Computed fields](guides/computed-fields.md) -->
+  * [Computed fields](guides/computed-fields.md)
 * [Filter](guides/filter.md)
 * [Focus](guides/focus.md)
 * [Forking](guides/forking.md)
@@ -83,7 +83,7 @@
   * [Issues](guides/issues.md)
   <!-- * [Single sign-on](guides/single-sign-on.md) -->
 * [Partial views](/guides/partial-views.md)
-<!-- * [Popovers](guides/popovers.md) -->
+* [Popovers](guides/popovers.md)
 * [Presentations](guides/presentations.md)
 * [Profiles](guides/profiles.md)
   * [Markdown](guides/markdown.md)
