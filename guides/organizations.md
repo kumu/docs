@@ -85,7 +85,7 @@ To manage your branding settings, go to your [organization's dashboard](/overvie
 
 ## Tracking
 
-Organization accounts can use Google Analytics tracking to see how many people are visiting their maps, what items those people are clicking on, and when all that activity is happening. To learn how to set up tracking for your organization, check out our [full guide on tracking](/guides/tracking.html).
+Organizations can use Google Analytics tracking to see how many people are visiting their maps, what items those people are clicking on, and when all that activity is happening. To learn how to set up tracking for your organization, check out our [full guide on tracking](/guides/tracking.html).
 
 
 ## Convert an existing account to an organization

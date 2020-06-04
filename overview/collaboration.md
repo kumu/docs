@@ -90,7 +90,7 @@ If you need a hi-res screenshot that can scale up or down to any size (for examp
 
 If you have a personal account, PDFs cost $5 each, and all you need to do is click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> and select **Request PDF**. We'll email you a hi-res PDF version of your map, typically within one business day.
 
-[Organization accounts](/guides/organizations.html) can bypass this process—they have access to free, unlimited, on-demand PDFs at all times via the same ellipsis icon <i class="fa fa-ellipsis-h">  </i>.
+[Organizations](/guides/organizations.html) can bypass this process—they have access to free, unlimited, on-demand PDFs at all times via the same ellipsis icon <i class="fa fa-ellipsis-h">  </i>.
 
 We aim to complete all PDF orders for personal accounts within one business day. If you have an urgent PDF request, or you know in advance that we'll need to fill your order quickly, just let us know at [prints@kumu.io](mailto:prints@kumu.io).
 

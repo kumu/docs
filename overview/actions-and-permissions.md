@@ -36,7 +36,7 @@ The table below breaks down all other actions, and who has permission to take th
 For more info on how to add project contributors, check out our guide on [collaboration and sharing](/overview/collaboration.html).
 
 
-## Organization account actions and permissions
+## Organization actions and permissions
 
 For an organization the **organization owners** are the only people who have permission to change account settings, such as profile info, username and password, or billing info. Organization owners are also the only people who have permission to invite new people to the organization or give them direct access to a project (without inviting them to the organization).
 

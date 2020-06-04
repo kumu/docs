@@ -217,7 +217,7 @@ In the **Username** box, type the Kumu username of the person you want to add (i
 
 Organization projects come with the added benefit of allowing you to add members as either viewers, editors, or admins.
 
-For more information about Organization accounts, and how to add contributors to them, [check out our Organizations guide](/guides/organizations.md).
+For more information about Organizations, and how to add contributors to them, [check out our Organizations guide](/guides/organizations.md).
 
 <p class="alert alert-success">
   <b>You've completed the Getting Started series!</b> For additional help, you can browse our other guides, <a class="alert-link" href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a>.

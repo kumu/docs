@@ -8,7 +8,7 @@ To change the credit card you use with a personal account, you can visit the [bi
 
 #### Monthly billing
 
-If you are on a monthly billing cycle, Kumu will bill your account each month based on the number of private projects you own. For personal accounts, each private project costs $9/month, and for organizations, each private project costs $20/month. Organization accounts are billed an additional $10 membership fee each month.
+If you are on a monthly billing cycle, Kumu will bill your account each month based on the number of private projects you own. For personal accounts, each private project costs $9/month, and for organizations, each private project costs $20/month. Organizations are billed an additional $10 membership fee each month.
 
 To add more private projects to a monthly personal account or organization, you simply need to create a new project from your [dashboard](/overview/dashboard.html), and set it to **Private**.
 

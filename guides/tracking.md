@@ -1,6 +1,6 @@
 # Tracking
 
-Organization accounts can include a custom Google Analytics tracking id for detailed stats on projects, embeds, and presentations by visiting the tracking section within the settings for your organization:
+Organizations can include a custom Google Analytics tracking id for detailed stats on projects, embeds, and presentations by visiting the tracking section within the settings for your organization:
 
 ![](/images/ga-tracking-code.png)
 
