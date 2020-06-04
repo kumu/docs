@@ -23,21 +23,24 @@
 ## Basic popover syntax
 
 Popovers are added through the Advanced Editor, using a simple syntax.
-
+{% raw %}
 ```
 selector {
     popover: "{{Field name}}";
 }
 ```
+{% endraw %}
 
 Replace `selector` with any valid [selector](/guides/selectors.html), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets `{{}}` and wrap the entire popover value in double quotes.
 
 For example, here is the code for an **element** popover that includes the **label** and **element type**:
+{% raw %}
 ```
 element {
     popover: "{{label}} {{element type}}";
 }
 ```
+{% endraw %}
 
 <p class="alert alert-info">
 When using the <strong>Type</strong> field in popovers, you need to specify whether it is <strong>Element</strong> Type, <strong>Connection</strong> Type, or <strong>Loop</strong> Type. For example, use <code>{% raw %}{{connection type}}{% endraw %}</code> when adding Type to a connection's popover.
@@ -48,11 +51,13 @@ When using the <strong>Type</strong> field in popovers, you need to specify whet
 You can use [markdown](/guides/markdown.html) to add italics, bold text, videos, and more to your popover. You can also add double spaces to create line breaks.
 
 Here's a popover that uses markdown to style the label, add a horizontal rule, and add line breaks in between the fields:
+{% raw %}
 ```
 chapter {
     popover: "### {{label}}  ---  {{topic sentence}}  {{image}}";
 }
 ```
+{% endraw %}
 
 ![](/images/soil-biodiversity-markdown-popover.png)
 
@@ -61,10 +66,12 @@ Note that popovers automatically recognize images, so there's no need to style t
 Popovers also recognize multi-pick fields (like Tags) and will render them as bulleted lists.
 
 
+
 ## Resizing the popover
 
 Kumu sets default popover sizes based on how much content is in each popover, but you can override these defaults using the `popover-height`, `popover-width`, and `popover-padding` properties. `height` and `width` control the vertical and horizontal size of the popover box, and `padding` controls the space between the edge of the popover and its contents.
 
+{% raw %}
 ```
 chapter {
     popover: "### {{label}}  ---  {{topic sentence}}  {{image}}";
@@ -73,6 +80,7 @@ chapter {
     popover-padding: 3;
 }
 ```
+{% endraw %}
 
 **Good to know:**
 - `popover-width` is a great tool if you want to set a maximum width for images that you want to include in the popover. Kumu will resize the image to fit your `popover-width` without stretching or distorting the image.
@@ -86,12 +94,14 @@ Here are just a few cases where we think popovers are useful!
 
 Sometimes you want to use connection labels to add information (such as role or nature of a relationship) but don’t want those showing up on the map all the time. In that case, just add the following:
 
+{% raw %}
 ```
 connection {
   label-visibility: hidden;
   popover: "{{label}}";
 }
 ```
+{% endraw %}
 
 ![](/images/hawaii-board-connection-popover.png)
 
@@ -109,11 +119,13 @@ Our first step is to disable the profile for everything on the map:
 
 We can then activate the popover for all elements and connections:
 
+{% raw %}
 ```
 element, connection {
    popover: "### {{label}}  {{image}}  {{description}}";
 }
 ```
+{% endraw %}
 
 ![](/images/elon-musk-profile-popover.png)
 
@@ -121,11 +133,13 @@ element, connection {
 
 Ever sized elements or connections based on a quantitative data, but didn’t want people to have to dig through the profile to find the number? Use popovers to display those values instead:
 
+{% raw %}
 ```
 element {
   popover: "**Money raised for:** ${{money raised for}}  **Money raised against:** ${{money raised against}}"
 }
 ```
+{% endraw %}
 
 ![](/images/ca-ballot-quantitative-popover.png)
 

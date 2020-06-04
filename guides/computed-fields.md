@@ -25,7 +25,7 @@ For example, here's the expression for computed field that combines the elements
 // and the double curly brackets around each field name.
 ="{{label}} is a {{type}}"
 ```
- {% endraw %}
+{% endraw %}
 
 You can also bring numbers into your expression:
 
