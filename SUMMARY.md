@@ -58,7 +58,7 @@
   * [Systems practice](guides/systems-practice.md)
 * [Export](guides/export.md)
 * [Fields](guides/fields.md)
-  * [Computed fields](guides/computed-fields.md)
+  <!-- * [Computed fields](guides/computed-fields.md) -->
 * [Filter](guides/filter.md)
 * [Focus](guides/focus.md)
 * [Forking](guides/forking.md)
