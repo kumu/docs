@@ -18,7 +18,7 @@ To get started, use any text editor to organize your data into elements and conn
 
 If you've worked with the JSON format before, you'll notice that this Kumu blueprint is organized as an object with two key-value pairs. The `"elements"` and `"connections"` keys are each paired with an array, and the arrays contain your data, formatted as objects.
 
-Once you’ve got the basics in place you can add additional key-value pairs to the objects that represent your data—for example, “type”, “description” and “tags”, along with any custom keys you’d like as well:
+Once you’ve got the basics in place you can add additional key-value pairs to the objects that represent your data—for example, "type", "description" and "tags", along with any custom keys you’d like as well:
 
 ```
 {
@@ -45,7 +45,7 @@ Once you’ve got the basics in place you can add additional key-value pairs to 
 }
 ```
 
-In your connection objects, you can assign a value to the `“direction”` key to control whether connections are undirected, directed, or mutual:
+In your connection objects, you can assign a value to the `"direction"` key to control whether connections are undirected, directed, or mutual:
 
 ```
 {

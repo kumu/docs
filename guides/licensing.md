@@ -31,7 +31,7 @@ by anyone for any purpose, without warranty of any kind. Attribution is
 appreciated, but not required.
 ```
 
-*Kokua is a Hawaiian word, that translates into “extending help to others for their own benefit, without expectation for personal gain.”*
+*Kokua is a Hawaiian word, that translates into "extending help to others for their own benefit, without expectation for personal gain."*
 
 ## Legal burdens of Creative Commons licenses
 

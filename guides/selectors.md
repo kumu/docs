@@ -235,7 +235,7 @@ With the `:from` and `:to` pseudo-selectors, you can select connections based on
 To build your own, just replace `selector` with any valid selector. For example:
 
 ```
-:from(organization)    // select all connections that are coming from elements with type “organization”
+:from(organization)    // select all connections that are coming from elements with type "organization"
 :to(#my-element)       // select all connections pointing to an element with the label "My Element"
 ```
 
