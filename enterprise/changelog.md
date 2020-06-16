@@ -1,5 +1,28 @@
 # Changelog
 
+## Version 3.2
+
+**Updated ksb, released 2020-06-16**
+
+Changes:
+- Redesigned template picker
+- Added a new toolbar with support for direct decorations
+- Added `:loop` pseudo-selector and friends
+- Added string interpolation support to computed fields
+- Added support for italic fonts
+- Fixed a bug that prevented geocoding from working in Safari
+- Numerous other minor bug fixes
+- Dropped support for TLS 1.0 and 1.1
+
+Known issues:
+- IE11 and under are not supported.
+- Importing private google sheets is not supported.
+- Embed slides within presentations do not work out of the box. Kumu uses
+  Embedly to handle these and we restrict requests to known referrers.
+  Please email the hostname you're using to enterprise@kumu.io to fix this.
+- Geocoding does not work out of the box. Customers must supply their own
+  ArcGIS developer credentials.
+  
 ## Version 3.1
 
 **Updated ksb, released 2020-02-10**
