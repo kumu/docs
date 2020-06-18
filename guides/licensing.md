@@ -2,7 +2,13 @@
 
 It's easy to get wrapped up in the creation of your projects, but if you're sharing them with others it's important
 to tell them what they can do with your content. We encourage each project to include a license to make that clear,
-and we've made it incredibly easy to add one. The hard part is deciding which license to use.
+and we've made it incredibly easy to add one:
+
+From your project, click the menu icon <i class="fa fa-bars">  </i> in the top left of the screen to open your [Project Settings](/overview/settings.html#project-settings). In the **Overview** section, you can add a license.
+
+![Kokua License in a project](/images/kokua-license.png)
+
+The hard part is deciding which license to use!
 
 There are a number of existing licenses available:
 - [Creative Commons](http://creativecommons.org/)
