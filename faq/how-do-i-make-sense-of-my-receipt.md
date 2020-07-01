@@ -6,29 +6,19 @@ But, if you add or remove multiple private projects in a single billing period, 
 
 The most important thing to know is that any time you add or remove private projects, our system will take two actions:
 - Give you a pro-rated **credit** for all the private projects you previously had
-- Incur a pro-rated **charge** for the new total number of private projects
+- Incur a pro-rated **debit** for the new total number of private projects
 
-**Credits** appear on your receipt as "Unused time on private projects after [the date you removed the private project]". **Charges** appear as "Remaining time on private projects after [the date you removed the private project]".
+**Credits** appear on your receipt as "Unused time on private projects after [the date you removed the private project]". **Debits** appear as "Remaining time on private projects after [the date you removed the private project]".
 
-// image
+![remaining and unused time](/images/remaining-and-unused-time.png)
 
+Here's how the invoice pictured above was produced:
+1. The customer started their monthly billing period on May 27 with three private projects inside an organization. The total charge, paid on May 27, was $70 ($20 for each project, and $10 for the base organization fee).
+2. On June 19, the customer removed one private project. Immediately after that happened, our system added "Unused time on 3 × Private projects" (i.e., the time that was already paid for) and credited $14.93. It also created a corresponding item for "Remaining time on 2 x Private projects" (i.e. the time left for the two remaining private projects) and debited $9.95.
+3. Later that same day, the customer removed another private project. Our system repeated the process of crediting for two projects and debiting for one remaining project.
+4. On June 27, our system created the new charges for the upcoming month, which included the remaining private project and the base organization fee.
+5. Adding up all the credits, debits, and next month's charges resulted in a total invoice of $20.05.
 
-A charge for the new total number of private projects. The charge is also prorated to reflect the amount of time left on your month-long billing cycle. This is called "Remaining time" on receipts.
-Here's how that concept applies to the invoice pictured above:
-This billing cycle renews on the 11th of each month
-On April 20th, the account owner added one private project. Rather than charging them the full $18/month price for two private projects, our system created a prorated charge of $12.19 until the 11th of the upcoming month, and labelled it "Remaining time".
-Similarly, the account owner had already paid $9 for one of the private projects between April 11 - April 20. Therefore, our system deducted a prorated charge of $6.09 since the 11th of April, and labelled it "Unused time".
-Then finally, the normal charge of $18 was added on May 11th  for the upcoming month of 2 private projects, according to their usual billing cycle.
-We show these details in your invoice to be transparent about your usage. So you can clearly see how much you have been reimbursed, and how much you have left per private project. 
-
-
-
-
-Here is a trickier example, should I include it as an advanced example and repeat the steps above?)
-
-
-
-I don’t believe there is a difference between monthly billing and annual billing in terms of how it shows up in the invoice correct? If an annual invoice is corrected, it will show the same, right?  
-
+Hopefully, that example illustrates the basic concepts! But if you ever have trouble making sense of a receipt, don't hesitate to email us at [support@kumu.io](/mailt:support@kumu.io).
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/how-do-i-make-sense-of-my-receipt.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

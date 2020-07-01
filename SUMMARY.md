@@ -154,6 +154,7 @@
 * [How do I hide the settings button?](faq/how-do-i-hide-the-settings-button.md)
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
 * [How do I list an element's connections in its profile?](faq/how-do-i-list-an-elements-connections-in-its-profile.md)
+* [How do I make sense of my receipt?](faq/how-do-i-make-sense-of-my-receipt.md)
 * [How do I remove unneeded controls?](faq/how-do-i-get-rid-of-unneeded-controls.md)
 * [How do I transfer a project?](faq/how-do-i-transfer-a-project.md)
 * [How do my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
