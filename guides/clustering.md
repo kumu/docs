@@ -31,7 +31,7 @@ If you **cluster** these people by their organizations, you can start to get a b
 *Voila!* We used clustering to transform a rigid spreadsheet into a relationship map of all the people and organizations they work for.
 
 
-## Activate clustering in the Basic Editor
+## Cluster in the Basic Editor
 
 To set up your first cluster, click the Settings icon <i class="fa fa-sliders"></i> on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
 
@@ -56,7 +56,7 @@ To set up your first cluster, click the Settings icon <i class="fa fa-sliders"><
 If you need to restrict clustering to certain elements, cluster by more than one field, or customize the element type of the elements created by clustering, [learn how to fine-tune your cluster settings](#fine-tune-cluster-settings).
 
 
-## Activate clustering in the Advanced Editor
+## Cluster in the Advanced Editor
 
 If you prefer working in the Advanced Editor, you can use the `cluster` property in the `@settings` block to activate clustering. Here's the simplest version of the cluster syntax:
 

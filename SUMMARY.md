@@ -26,6 +26,7 @@
 * [Collaborating and sharing](overview/collaboration.md)
 * [Actions and permissions](/overview/actions-and-permissions.md)
 * [Security](overview/security.md)
+* [Advanced Editor hub](/overview/advanced-editor-hub.md)
 
 ## Guides
 * [Activity feed](guides/activity-feed.md)
@@ -51,6 +52,10 @@
   * [Direct decorations](guides/direct-decorations.md)
   * [Data-driven decorations](guides/data-driven-decorations.md)
   * [Flags](guides/flags.md)
+  * [Icons](guides/icons.md)
+  * [Images](guides/images.md)
+  * [Label templates](guides/label-templates.md)
+  * [Popovers](guides/popovers.md)
 * [Default view settings](guides/default-view-settings.md)
 * [Disciplines]()
   * [SNA / Network Mapping](guides/sna-network-mapping.md)
@@ -62,11 +67,8 @@
 * [Filter](guides/filter.md)
 * [Focus](guides/focus.md)
 * [Forking](guides/forking.md)
-* [Icons](guides/icons.md)
-* [Images](guides/images.md)
 * [Import](guides/import.md)
 * [Imported views](guides/imported-views.md)
-* [Label templates](guides/label-templates.md)
 * [Layouts](guides/layouts.md)
   * [Fixed](guides/layouts/fixed.md)
   * [Force-directed](guides/layouts/force-directed.md)
@@ -83,7 +85,6 @@
   * [Issues](guides/issues.md)
   <!-- * [Single sign-on](guides/single-sign-on.md) -->
 * [Partial views](/guides/partial-views.md)
-* [Popovers](guides/popovers.md)
 * [Presentations](guides/presentations.md)
 * [Profiles](guides/profiles.md)
   * [Markdown](guides/markdown.md)

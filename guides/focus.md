@@ -13,7 +13,7 @@ Click the focus icon again to bring the full map back into view.
 <b>Keyboard shortcuts:</b> Press <code>+</code> and <code>-</code> on your keyboard to expand and contract focus, or press a number on your keyboard to specify exactly how many degrees the focus should extend. Press <code>esc</code> on your keyboard to bring the full map back into view.
 </p>
 
-## Activate focus in the Advanced Editor
+## Focus in the Advanced Editor
 
 You can pre-define a focus within `@settings` in the [Advanced Editor](/overview/view-editors.html#advanced-editor) of any view.
 

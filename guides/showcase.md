@@ -10,7 +10,7 @@ To quickly test out showcasing, simply hover your cursor over any element, conne
 
 Showcase settings can be saved to a [view](/guides/views.md), and these settings can be fully customized in two ways: through the Basic Editor, and through the Advanced Editor.
 
-## Customize showcase settings in the Basic Editor
+## Showcase in the Basic Editor
 
 Click the Settings icon on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS**, and select **Showcase elements and connections**.
 
@@ -19,7 +19,7 @@ Click the Settings icon on the right side of your map to open the Basic Editor. 
 Click the rocketship icon <i class="fa fa-rocket"></i> to build the selection of items that you want to showcase, or type a [selector](/guides/selectors.html) into the box.
 
 
-## Customize showcase settings in the Advanced Editor
+## Showcase in the Advanced Editor
 
 To activate showcase using the advanced editor, add the `showcase` property within `@settings`:
 
