@@ -1,4 +1,4 @@
-# How do i make sense of my receipt?
+# How do I make sense of my receipt?
 
 Most of the time, your monthly Kumu receipt will be very straightforward, listing the number of private projects you own, and the total charge they incur.
 
