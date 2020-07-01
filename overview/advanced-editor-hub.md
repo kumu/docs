@@ -4,7 +4,7 @@ One of Kumu's most unique features is the **Advanced Editor**, which allows you 
 
 When we wrote these docs, we felt it best to dedicate an article to each individual feature, and explain in that article how you can use both the Basic Editor and the Advanced Editor to control the feature. The downside is that our info on the Advanced Editor is scattered across a lot of different articles!
 
-To solve that, we created this **hub** article, which links to all of the places where we explain how to use the Advanced Editor.
+To solve that, we created this article, which links to all of the places where we explain how to use the Advanced Editor.
 
 We ordered and organized these links based on what we feel is the best path for a structured learning experience.
 
