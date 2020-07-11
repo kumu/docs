@@ -15,7 +15,7 @@ You can create a computed field in one of two ways:
 
 #### Concatenating text in comptued fields
 
-To create a new string (a piece of text) using computed fields, just type your expression inside a pair of double quotes. Include a value from another field using double curly brackets {% raw %} `{{}}` {% endraw %} with the field name inside.
+To create a new string (a piece of text) using computed fields, just type your expression inside a pair of double quotes. Include a value from another field using double curly brackets {% raw %} `{{}}` {% endraw %} with the field name inside, in all lowercase letters.
 
 For example, here's the expression for computed field that combines the elements label and type in a simple sentence.
 
@@ -35,11 +35,12 @@ You can also bring numbers into your expression:
 ```
 {% endraw %}
 
+
 #### Doing math in computed fields
 
-We use [mathjs](http://mathjs.org/docs/expressions/syntax.html) to power computed fields and you have their complete expression syntax to use within Kumu. It's pretty similar to writing an equation in Excel or Google Sheets (with the caveat that we don't support all the functions you'd find in a spreadsheet `vlookup`).
+We use [mathjs](http://mathjs.org/docs/expressions/syntax.html) to power computed fields and you have their complete expression syntax to use within Kumu. It's pretty similar to writing an equation in Excel or Google Sheets (with the caveat that we don't support all the functions you'd find in a spreadsheet, like `vlookup`).
 
-If the field you are using in your expression is a single word, you can just write it as-is in the expression. If it is more than one word, you'll need to wrap the field name with two mustaches on either end {% raw %} `{{my longer than neccessary field name}}` {% endraw %}.
+If the field you are using in your expression is a single word, you can just write it as-is in the expression. If it is more than one word, you'll need to wrap the field name with two mustaches on either end {% raw %} `{{my longer than neccessary field name}}` {% endraw %}. For all field names, be sure that they are written in all lowercase letters.
 
 Here's some examples:
 
