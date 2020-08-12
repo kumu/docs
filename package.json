@@ -9,7 +9,8 @@
     "gitbook-plugin-algolia": "^1.0.7",
     "gitbook-plugin-heading-anchors": "^1.0.3",
     "gitbook-plugin-layout": "^0.0.1",
-    "gitbook-plugin-search": "^2.2.1"
+    "gitbook-plugin-search": "^2.2.1",
+    "graceful-fs": "^4.2.4"
   },
   "devDependencies": {},
   "scripts": {
