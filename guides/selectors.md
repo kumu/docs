@@ -273,6 +273,18 @@ In graphs and networks, an element that has zero connections is often referred t
 ```
 
 
+#### Loop contents
+
+If you're using [loops](/faq/what-are-loops.html) in your map, you can use the `:loop` pseudo-selector to select elements and connections that are part of a specific loop or loops.
+
+The syntax is an element or connection selector with `:loop()` at the end of it. You can also put a loop selector inside the parentheses to specify the loop or loops.
+
+```
+element:loop()                          // select any element that is part of any loop
+*:loop(["loop type" = "reinforcing"])   // select anything that is part of a reinforcing loop
+```
+
+
 #### Not
 
 The `:not` pseudo-selector is useful when you want to select items that **do not** match a selector. The basic syntax is `:not(selector)`.
