@@ -3,7 +3,7 @@
 In the profile of each element in your map, it's possible to list that element's connections, using three tools:
 - Kumu's [list widget](/guides/widgets.html#lists)
 - [`:from` and `:to` pseudo-selectors](/guides/selectors.html#connected-from-and-connected-to)
-- A field whose with its **Type** set to **Text** (e.g. the **Description** field)
+- A field with its **Type** set to **Text** (e.g. the **Description** field)
 
 ![List of element's connections in its profile](/images/list-widget-element-connections.png)
 
