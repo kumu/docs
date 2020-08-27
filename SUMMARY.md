@@ -157,7 +157,7 @@
 * [How do I list an element's connections in its profile?](faq/how-do-i-list-an-elements-connections-in-its-profile.md)
 * [How do I make sense of my receipt?](faq/how-do-i-make-sense-of-my-receipt.md)
 * [How do I remove unneeded controls?](faq/how-do-i-get-rid-of-unneeded-controls.md)
-* [How do I select options by default in my control?](how-do-i-select-options-by-default-in-my-control.md)
+* [How do I select options by default in my control?](faq/how-do-i-select-options-by-default-in-my-control.md)
 * [How do I transfer a project?](faq/how-do-i-transfer-a-project.md)
 * [How do my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
 * [How do I restructure my adjacency matrix?](faq/how-do-i-restructure-my-adjacency-matrix.md)
