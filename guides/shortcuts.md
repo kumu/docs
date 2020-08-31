@@ -66,9 +66,10 @@
 ### Layout
 <ul class="shortcuts">
   <li class="shortcut"><span class="keystroke">B</span> Bump</li>
-  <li class="shortcut"><span class="keystroke">O</span> Remove element overlap</li>
-  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">O</span> Remove label overlap</li>
-  <li class="shortcut"><span class="keystroke">O</span> Remove element overlap</li>
+  <li class="shortcut"><span class="keystroke">O</span> Remove element and label overlap</li>
+  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">O</span> Remove label overlap, but allow element overlap</li>
+  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">O</span> Remove element overlap, but allow label overlap</li>
+  
 </ul>
 
 ### Focus
