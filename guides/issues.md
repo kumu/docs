@@ -1,6 +1,6 @@
 # Issues
 
-With issues (an exclusive feature for [organizations](/guides/organizations.html)) you can chat with your team and attach comments to items in your map—all within Kumu, all in real time!
+With issues (an exclusive feature for [Pro workspaces](/guides/pro-workspaces.html)) you can chat with your team and attach comments to items in your map—all within Kumu, all in real time!
 
 To open up the issues pane, click the issues icon <i class="fa fa-comments-o"></i> in the [bottom toolbar](/overview/map-editor.html#bottom-toolbar).
 
@@ -37,7 +37,7 @@ If you're ever having trouble finding a conversation, just use the search bar on
 
 
 <p class="alert alert-info">
-Issues are an exclusive feature for <a class="alert-link" href="/guides/organizations.html">organizations</a>.
+Issues are an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces\.html">Pro workspaces</a>.
 </p>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/issues.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

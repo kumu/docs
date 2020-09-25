@@ -1,5 +1,7 @@
 # Templates
 
+<!-- TODO: Refresh -->
+
 When creating a new map, you have the option of picking one of our templates.
 
 <iframe src="//player.vimeo.com/video/120666713" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

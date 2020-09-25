@@ -20,7 +20,7 @@ While Kumu is easy to get started, it also packs a lot of depth. Use these guide
 * [Layout](/layout.md)
 * [Metrics](/metrics.md)
 * [Markdown](/markdown.md)
-* [Organizations](/organizations.md)  
+* [Pro workspaces](/pro-workspaces.md)  
 * [Views / style sheets](/views.md)
   * [Advanced](/views-advanced.md)
   * [Color reference](/color-reference.md)
