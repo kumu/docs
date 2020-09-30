@@ -6,15 +6,15 @@ After you [log into your account](https://kumu.io/login) with your username and 
 
 Projects are organized in **workspaces**, and projects come with different features and costs based on what type of workspace they're in.
 
-<!-- TODO explain workspace IDs/usernames -->
-
-When you first sign up for a new Kumu account, Kumu automatically creates your first workspace for you, so you have somewhere to start creating projects. That workspace is a **Basic** workspace (more on that in the next section) by default, and its workspace ID matches your Kumu username.
+When you first sign up for a new Kumu account, Kumu automatically creates your first workspace for you, so you have somewhere to start creating projects. That workspace is a **Basic** workspace (more on that in the next section) by default.
 
 <div class="alert alert-info">
   <p>
     Looking to upgrade your default workspace to Pro? Head over to <a href="https://kumu.io/settings#workspaces" class="alert-link">your Workspace settings</a>, select your workspace from the list, and click the button to upgrade to a Pro workspace.
   </p>
 </div>
+
+Each workspace has a name, and the [slug](/guides/slugs.html) of a workspace's name will appear in all of the URLs for the workspace's projects and presentations. Your default Basic workspace's name will match your account username.
 
 
 ## Types of workspaces

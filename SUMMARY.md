@@ -16,7 +16,8 @@
 ## Overview
 * [Kumu's architecture](overview/kumus-architecture.md)
 * [Accounts and workspaces](overview/accounts-and-workspaces.md)
-  * [Billing](overview/billing.md)
+* [Kumu.io and Kumu Enterprise](overview/kumu-io-and-kumu-enterprise.md)
+* [Billing](overview/billing.md)
 * [User interfaces](/overview/user-interfaces.md)
   * [Dashboard](/overview/dashboard.md)
   * [Map editor](/overview/map-editor.md)
