@@ -12,11 +12,10 @@
   * [Add a contributor](getting-started/first-steps.md#add-a-contributor)
 * [Quick tips](getting-started/quick-tips.md)
 * [Webinars](getting-started/webinars.md)
-* [FAQ](getting-started/faq.md)
 
 ## Overview
 * [Kumu's architecture](overview/kumus-architecture.md)
-* [Accounts and plans](overview/accounts-and-plans.md)
+* [Accounts and workspaces](overview/accounts-and-workspaces.md)
   * [Billing](overview/billing.md)
 * [User interfaces](/overview/user-interfaces.md)
   * [Dashboard](/overview/dashboard.md)
@@ -80,7 +79,7 @@
 * [Lightbox](guides/lightbox.md)
 * [Metrics](guides/metrics.md)
 * [Multi-factor authentication](guides/multi-factor-authentication.md)
-* [Organizations](guides/organizations.md)
+* [Pro workspaces](guides/pro-workspaces.md)
   * [Archiving projects](guides/archiving-projects.md)
   * [Issues](guides/issues.md)
   <!-- * [Single sign-on](guides/single-sign-on.md) -->

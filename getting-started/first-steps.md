@@ -17,7 +17,7 @@ This overview is a great place to start if you're new to Kumu. Take some time to
 
 ## Create an account
 
-Create an account by visiting [https://kumu.io/join](https://kumu.io/join). You'll use this personal account to sign in to Kumu and manage all of your projects. (After you have a personal account, you can also create an [Organization](/guides/organizations.html) for more advanced collaboration on projects).
+Create an account by visiting [https://kumu.io/join](https://kumu.io/join). You'll use this account to sign in to Kumu and manage all of your projects inside of [workspaces](/overview/accounts-and-workspaces.html).
 
 
 ## Create your first project
@@ -201,23 +201,17 @@ Just click **Add rule** to cluster by any of the information inside your element
 
 ## Add a contributor
 
-Building maps in Kumu can be a lot of work! Allowing somebody else to contribute to your project is a great way to reach your final destination more quickly. Even if your project is small and manageable, it's a good idea to let someone else weigh in on your data and design to make sure your story gets told effectively.
+Building maps in Kumu can be a lot of work! Inviting somebody else to contribute to your project is a great way to reach your final destination more quickly. Even if your project is small and manageable, it's a good idea to let someone else weigh in on your data and design to make sure your story gets told effectively.
 
-### Add a contributor to a personal project
-
-To add a contributor to a personal project, click the menu in the upper left, then select **MEMBERS** from the sidebar.
+To add a contributor to a project, click the menu icon <i class="fa fa-bars">  </i> in the upper left of your project, then select **MEMBERS** from the sidebar.
 
 <span class="small plain">
-![](/images/add-collaborator.png)
+![](/images/settings-members.png)
 </span>
 
 In the **Username** box, type the Kumu username of the person you want to add (if they don't have a username, they can get one for free at https://kumu.io/join) and click **Add contributor**.
 
-### Add a contributor to an Organization project
-
-Organization projects come with the added benefit of allowing you to add members as either viewers, editors, or admins.
-
-For more information about Organizations, and how to add contributors to them, [check out our Organizations guide](/guides/organizations.md).
+For more info on collaboration in Kumu, visit [our full guide on collaboration](/overview/collaboration.html).
 
 <p class="alert alert-success">
   <b>You've completed the Getting Started series!</b> For additional help, you can browse our other guides, <a class="alert-link" href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a>.
