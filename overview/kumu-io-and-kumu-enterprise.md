@@ -1,8 +1,8 @@
 # Kumu.io and Kumu Enterprise
 
-We offer two products: Kumu.io and Kumu Enterprise.
+We offer two Kumu products: Kumu.io and Kumu Enterprise.
 
-**Kumu.io** is the online version—you can [sign up at any time online](https://kumu.io/join) for a free account. **Kumu Enterprise** has the same software and features as Kumu.io under the hood, but you can host it separately from all the people using Kumu.io.
+**Kumu.io** is the online version—you can [sign up at any time online](https://kumu.io/join) for a free account. **Kumu Enterprise** has the same software and features as Kumu.io under the hood, but you can keep your activity fully separate and isolated from the activity of everyone who uses Kumu.io.
 
 
 ## Which product is right for me?

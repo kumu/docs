@@ -6,15 +6,15 @@ Before you dive in: if you're not sure what we mean by `slug` in the table below
 
 | Link's destination | URL format |
 | --- | --- |
-| Your personal dashboard | `/dashboard` |
-| Your personal settings | `/settings` |
-| An organization's dashboard and settings | `/<organization username>/settings` |
+| Your account dashboard | `/dashboard` |
+| Your account settings | `/settings` |
+| A workspace's dashboard and settings | `/<workspace name slug>/settings` |
 | A public Kumu profile | `/<username>` |
-| A Kumu project | `/<project owner's username>/<project name slug>` |
-| A specific map in a project | `/<project owner's username>/<project name slug>#<map name slug>` |
-| A specific map with a specific view applied | `/<project owner's username>/<project name slug>#<map name slug>/<view name slug>` |
-| A specific element or loop in a map, with the default view applied | `/<project owner's username>/<project name slug>#<map name slug>/<element or loop label slug>` |
-| A specific element or loop in a map, with a different view applied (not the default view) | `/<project owner's username>/<project name slug>#<map name slug>/<view name slug>/<element or loop label slug>` |
+| A Kumu project | `/<workspace name slug>/<project name slug>` |
+| A specific map in a project | `/<workspace name slug>/<project name slug>#<map name slug>` |
+| A specific map with a specific view applied | `/<workspace name slug>/<project name slug>#<map name slug>/<view name slug>` |
+| A specific element or loop in a map, with the default view applied | `/<workspace name slug>/<project name slug>#<map name slug>/<element or loop label slug>` |
+| A specific element or loop in a map, with a different view applied (not the default view) | `/<workspace name slug>/<project name slug>#<map name slug>/<view name slug>/<element or loop label slug>` |
 
 
 <!-- TODO: ## URL Parameters -->

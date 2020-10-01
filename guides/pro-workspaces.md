@@ -1,6 +1,6 @@
 # Pro workspaces
 
-**Pro workspaces** are shared workspaces that allow multiple Kumu users to collaborate seamlessly, with fine-tuned permissions (view, edit, and admin) for each of the organization's projects. This makes Pro workspaces a great fit for teams of people that have several active Kumu users.
+**Pro workspaces** are shared workspaces that allow multiple Kumu users to collaborate seamlessly, with fine-tuned permissions (view, edit, and admin) for each of the workspace's projects. This makes Pro workspaces a great fit for teams of people that have several active Kumu users.
 
 In addition to flexible user management, Pro workspaces also have access to these exclusive features:
 - **Free, on-demand PDFs.** Say goodbye to $5 charges and say hello to unlimited, automated PDFs. Need tweaks the automated process can’t handle? Email us to request a PDF, free of charge, with a ~ 1 day turnaround.

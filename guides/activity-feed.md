@@ -10,10 +10,10 @@ Click on "Activity" in the sidebar to see all kinds of project changes—adding 
 
 <div class="alert alert-info">
   <p>
-    Activity feeds are an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces\.html">Pro workspaces</a>.    
+    Activity feeds are an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces.html">Pro workspaces</a>.    
   </p>
   <p>
-    If you <a href="/guides/project-admin.html" class="alert-link">transfer an existing project</a> into an organization, its activity feed will show all historical activity (not just the activity that happens after you transfer the project).
+    If you <a href="/guides/project-admin.html" class="alert-link">transfer an existing project</a> into a Pro workspace, its activity feed will show all historical activity (not just the activity that happens after you transfer the project).
   </p>
 </div>
 
