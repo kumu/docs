@@ -25,18 +25,22 @@ Finally, you can learn more about privacy and security by visiting our [privacy 
 
 ## Add a contributor
 
-#### Add a contributor to a personal project
+#### Add a contributor to a Basic workspace project
 
-To add a contributor to a project owned by your personal account, you first need to make sure the contributor has their own Kumu account. If they don't have one yet, they can [sign up for free](https://kumu.io/join). Once they have signed up, you can [open your project settings](/overview/settings.md), click on **MEMBERS**, type in the contributor's Kumu username, and click "Add contributor".
+To add a contributor to a project inside a [Basic workspace](/overview/accounts-and-workspaces.html), you first need to make sure the contributor has their own Kumu account. If they don't have one yet, they can [sign up for free](https://kumu.io/join). Once they have signed up, you can [open your project settings](/overview/settings.md), click on **MEMBERS**, type in the contributor's Kumu username, and click "Add contributor".
 
 ![add contributor](/images/add-collaborator.png)
 
 Anytime you add a contributor to a project (public or private) owned by your personal account, you are granting them view **and** edit access. However, they won't be able to add other contributors, change project privacy, or rename, transfer, or delete the project.
 
 
-#### Add a contributor to an organization project
+#### Add a contributor to a Pro workspace project
 
-When you're adding a contributor to a project owned by an organization, there are a few more steps involved, but you'll be able to choose whether the contributor has view-only, edit, admin, or no access. For more information on how to add contributors to organization projects and manage their access, [check out the full guide on organizations](/guides/organizations.md).
+When you're adding a contributor to a project in a Pro workspace, you have a few more options.
+
+For simpler use cases, you can follow exactly the same steps outlined above for adding collaborators to a Basic workspace. After you add someone to a project, you'll be able to choose whether they have view-only, edit, or admin access.
+
+In more complex cases, though, you might want to give somebody a certain level of access to all projects in the Pro workspace. To do that efficiently, you'll invite them as a **member** of your Pro workspace. See [our full guide on Pro workspaces](/guides/pro-workspaces.html) for more info on how to add members and set their access levels for your projects.
 
 
 ## Handle conflicting changes

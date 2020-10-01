@@ -35,19 +35,17 @@ Alternatively, you can:
 
 ## Caveats when converting public projects to private
 
-You will only be able to convert a **public** project to **private** if you have a paid account. To make sure you have a paid account, go to [your billing settings](https://kumu.io/settings#billing), where you can add your payment information.
+You will only be able to convert a **public** project to **private** if you have a paid workspace. To make sure you have a paid workspace, go to the billing settings for your workspace, where you can add your payment information.
 
-If you are on an annual billing plan, you may also need to go to [your billing settings](https://kumu.io/settings#billing) to raise your private project limit.
+If you are on an annual billing plan, you may also need to go to your billing settings to raise your private project limit.
 
 
 ## Caveats when transferring projects
 
-To transfer a project from your personal account to an organization, you first need to be [added as an owner](/guides/organizations.html#add-users-to-an-organization) of the organization (if you created the organization, you are an owner by default).
-
-Currently, only the Kumu core team can transfer projects from organizations to personal accounts. If you need to transfer from an organization to a personal account, please [contact support](mailto:support@kumu.io).
+To transfer a project into a Pro workspace, you first need to be [added as an owner](/guides/pro-workspaces.html#add-users-to-a-pro-workspace) of the Pro workspace (if you created the Pro workspace, you are an owner by default).
 
 If you see an "Unable to transfer project" error after trying to transfer a project, here is how you can troubleshoot:
-1. Ensure that the recipient (the account you're transferring to) does not have a project with the same name. If they do have a project with the same name, rename one of the projects, and try transferring again.
+1. Ensure that the recipient (the workspace you're transferring to) does not have a project with the same name. If they do have a project with the same name, rename one of the projects, and try transferring again.
 2. If you are transferring a private project, make sure that the recipient has added a credit card in their billing settings, and that they have not met or exceeded their private project limit (annual plans only).
 
 
