@@ -1,5 +1,21 @@
 # Changelog
 
+## Version 3.3
+
+**Updated ksb, released 2020-10-01**
+
+Changes:
+- Multiple XSS vulnerabilities patched in response to penetration testing by Cure53
+
+Known issues:
+- IE11 and under are not supported.
+- Importing private google sheets is not supported.
+- Embed slides within presentations do not work out of the box. Kumu uses
+  Embedly to handle these and we restrict requests to known referrers.
+  Please email the hostname you're using to enterprise@kumu.io to fix this.
+- Geocoding does not work out of the box. Customers must supply their own
+  ArcGIS developer credentials.
+
 ## Version 3.2
 
 **Updated ksb, released 2020-06-16**
