@@ -13,7 +13,7 @@ Select one option or the other, based on the effect you want to see on your map.
 <p class="alert alert-warning">
 Maps that source their data from <a class="alert-link" href="/guides/import.html#import-from-google-sheets">Google Sheets</a> or a <a class="alert-link" href="/guides/blueprints.html#set-a-remote-blueprint">remote JSON blueprint</a> can't save positions for elements, so you won't be able to permanently remove overlap on those maps.
 <br><br>
-However, you can still remove overlap before <a class="alert-link" href="/overview/collaboration.html#create-a-screenshot">taking a screenshot</a>, and you can ask us to remove overlap before we create a hi-res PDF.
+However, you can still remove overlap before <a class="alert-link" href="/overview/collaboration.html#create-a-screenshot">taking a screenshot or creating a hi-res PDF</a>.
 </p>
 
 

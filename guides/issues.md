@@ -19,7 +19,7 @@ To collapse the issues pane, click the issues icon <i class="fa fa-comments-o"><
 
 ## Email notifications
 
-When a new comment is added to an issue, every Kumu user with access to the project will be notified by email (users with view-only access won't be notified). From the email, they can open the issue in Kumu and respond, or they can simply reply to the email to add their new comment.
+When a new comment is added to an issue, every Kumu user with access to the project will be notified by email. From the email, they can open the issue in Kumu and respond, or they can simply reply to the email to add their new comment.
 
 
 
