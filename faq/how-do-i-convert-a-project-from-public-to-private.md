@@ -3,7 +3,7 @@
 To convert a project from public to private, you can:
 1. Right-click on the [canvas](/overview/map-editor.html#canvas)
 2. Select **Project**
-3. Select **Convert project (public/private)
+3. Select **Convert project (public/private)**
 
 Alternatively, you can:
 1. Open the [project settings menu](/overview/settings.html#project-settings)
