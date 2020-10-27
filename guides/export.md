@@ -14,4 +14,27 @@ You'll now have all of your elements and connections available as two separate s
 
 If you need to backup your entire project (all maps, views, and underlying data **except presentations**), use the more menu (...) in the lower right and choose "export json". This will create a [JSON blueprint](/guides/blueprints.md) that can be used as a snapshot in time of your project, and can be imported into a blank project to restore it.
 
+
+## Create a screenshot
+
+If you need to share a static screenshot of your map (for example, in another presentation software or in print), there are two ways to go about it.
+
+To quickly snap a JPEG screenshot of your map, click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the [bottom toolbar](/overview/map-editor.html#bottom-toolbar) and select "Capture screenshot". Note that the screenshot will be taken at your current position and scale on the map—if you'd like everything to be centered, click the zoom-fit icon <i  class="glyphicon glyphicon-resize-small">  </i> in the zoom toolbar, or press `\` on your keyboard.
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/66dz3DFJZi4" frameborder="0" allowfullscreen></iframe></p>
+
+When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
+
+If you need a hi-res screenshot that can scale up or down to any size (for example, when you're printing a Kumu map on a large poster), you can create hi-res PDF files.
+
+Click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> and select **Download PDF**. PDFs are free and unlimited for all projects in all workspaces.
+
+<p class="alert alert-info">
+Want to make sure your labels are readable on your PDF or screenshot? <a class="alert-link" href="/guides/layouts/remove-overlap.html">Learn how to remove label overlap</a>.
+</p>
+
+<p class="alert alert-warning">
+PDFs can only be created for maps, not for full <a class="alert-link" href="/guides/presentations.html">presentations</a>.
+</p>
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/export.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
