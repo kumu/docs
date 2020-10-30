@@ -68,6 +68,10 @@ To add a background image to a map, you can use a snippet of code in the [Advanc
 1. Pin the element (press `P` on your keyboard, or click the pin icon in the left side panel).
 1. Copy/paste the following code into your Advanced Editor:
 ```
+@settings {
+  culling: off;
+}
+
 #background {
     image-url: url(https://s3.amazonaws.com/cloud.kumu.io/accounts/2057/201677/44522144-b11e-48dd-96b1-aeca8c3592d9.png);
     layer: background;
