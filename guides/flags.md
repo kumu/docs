@@ -38,7 +38,7 @@ The downside of using `@settings` to apply flags is that the decoration will alw
 }
 
 element["Should I have flags?"="No!"] {
-    flag: none;
+  flag: none;
 }
 ```
 
@@ -48,12 +48,18 @@ You can also manually assign colors to values if you just want to choose specifi
 
 ```
 @settings {
-    element-flag: "Leverage Analysis" with yellow "bright spot", #2dc63f "frozen";
+  element-flag: "Leverage Analysis" with yellow "bright spot", #2dc63f "frozen";
 }
 ```
 
 The syntax is `color "value"`. You can replace `color` with a named color or an [HTML hex color code](https://www.w3schools.com/colors/colors_hexadecimal.asp), and you can replace `value` with an actual value from your field. If you're coding more than one `color "value"`, separate them with a comma.
 
 <img src="../images/flags-manual.png" alt="flag decorations">
+
+<div class="alert alert-warning">
+  <p>
+    By default, the <a href="/guides/templates/geo.html" class="alert-link">geo template</a> limits you to squares and straight lines, but if you want it to support flags as well, add <code>@settings { renderer: canvas; }</code> to your Advanced Editor.
+  </p>
+</div>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/flags.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
