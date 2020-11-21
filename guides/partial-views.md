@@ -12,14 +12,22 @@ A **partial view** is almost exactly like a normal view—in the Advanced Editor
 
 ![view toggle gif](/images/view-toggle.gif)
 
-Right now, partial views are only available through the Advanced Editor—the proper syntax is explained below.
+
+## Recommended workflow for partial views
+
+If you want to build partial views, some Advanced Editor work will be required, but you definitely don't need to code everything by hand if you don't want to.
+
+For an alternative, potentially easier workflow, create a new view in your project and use the [Basic Editor](/overview/view-editors.html#basic-editor) to build out your desired view there, isolated from everything else.
+
+When you're satisfied with your view, open the Advanced Editor and copy all of its code to your clipboard. Return to the original view, and follow the rest of this guide to make sure your copied code ends up in the correct place. You can also watch the quick tip above to see a real-world example of how this works.
+
 
 ## Define partial views in the Advanced Editor
 
 Use an `@view` block to define a partial view:
 ```
 @view "name" {
-  // any view code can go in here, including @settings, @controls, and @imports
+  // any view code can go in here, including @settings, @controls, @imports, and anything you have copied from other views in your project
 }
 ```
 Replace `name` with the name of your partial view (keep the double quotes). This `name` should be unique to the partial view—you'll use it in [`@import`](/guides/imported-views.html) rules and in the view toggle control to refer to your partial view.
