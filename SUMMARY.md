@@ -139,6 +139,7 @@
 * [How do I change elements' shape?](faq/how-do-i-change-element-shape.md)
 * [How do I change font size?](faq/how-do-i-change-font-size.md)
 * [How do I change the length or strength of connections?](faq/how-to-change-length-of-connections.md)
+* [How do I change the order of control options?](faq/how-do-i-change-the-order-of-control-options.md)
 * [How do I change the position of my element labels?](faq/how-do-i-change-element-text-position.md)
 * [How do I cite Kumu?](faq/how-do-i-cite-kumu.md)
 * [How do I copy a map to another project](faq/how-do-i-copy-a-map-to-another-project.md)
