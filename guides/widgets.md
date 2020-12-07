@@ -35,6 +35,19 @@ For a basic list, just type `list/` inside your double square brackets, and  the
 
 All the items in the list are links—you can hover over a link to [showcase](/guides/showcase.html) an item on the map, or you can click a link to jump to the profile for that item.
 
+Basic lists can also be sorted by any field in your [profiles](/guides/profiles.html). To do so, add `?sort=field-name` after `elements`, `connections`, or `loops`, and replace `field-name` with a [slug](/guides/slugs.html) of the field name you want to sort by.
+
+```
+[[list/connection?sort=strength]]
+[[list/element?sort=net-worth]]
+```
+
+Add `&desc=true` to the end if you want to sort in descending order:
+
+```
+[[list/loop?sort=label&desc=true]]
+```
+
 
 #### More specific lists of elements, connections, or loops
 
