@@ -78,6 +78,20 @@ Having trouble writing the right selector for your use case? Feel free to [email
 </p>
 
 
+These more specific lists, like basic lists, can also be sorted by any field in your [profiles](/guides/profiles.html). To do so, add `?sort=field-name` after `list` and before the selector, and replace `field-name` with a [slug](/guides/slugs.html) of the field name you want to sort by.
+
+```
+[[list?sort=net-worth "person"]]
+[[list?sort=strength ":from(person)"]]
+```
+
+Add `&desc=true` to the end if you want to sort in descending order:
+
+```
+[[list?sort=type&desc=true "['influence'='high']"]]
+```
+
+
 #### Change the showcase behavior for lists of items
 
 Kumu's showcase actually has three different "modes" to affect how it works:
