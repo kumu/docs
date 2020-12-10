@@ -41,6 +41,22 @@ You can use any [selector](/guides/selector-reference.md) to set the focus of th
 }
 ```
 
+
+### Focus direction
+
+In the Advanced Editor, you can also customize **focus direction** to specify which connections should be shown.
+
+```
+@settings {
+  focus-direction: all;
+}
+```
+
+The options are:
+- `in`: Only show connections leading into focused elements.
+- `out`: Only show connections leading out from focused elements.
+- `all`: Show all connections connected to focused elements. This is the default value.
+
 ### Prompted mode
 
 Prompted mode builds on the preset focus by allowing users to build a map based on search criteria. When you've enabled prompted mode, users are presented with a search prompt rather than seeing the full map. Users can then type the name of any element and hit enter to add them to the list of elements to be included in the map. By default that element and its direct connections will be included, but you can tweak the "out 1" setting to also include second and third degree connections.

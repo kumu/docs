@@ -101,6 +101,11 @@ All values are unitless.
       <td><div><code>selector out number</code></div></td>
     </tr>
     <tr>
+      <td>focus-direction</td>
+      <td>Specifies which connections should be included in focus. See the <a href="/guides/focus.html#focus-direction">focus guide</a> for more information.</td>
+      <td><div><code>in</code></div><div><code>out</code></div><div><code>all</code></div></td>
+    </tr>
+    <tr>
       <td>font-cutoff</td>
       <td>Sets the minimum font size at which labels will display when the map is zoomed out. Set to <code>0</code> to always display labels, regardless of zoom level.</td>
       <td><div><code>number</code></div></td>
