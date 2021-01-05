@@ -2,8 +2,6 @@
 
 Single sign-on allows users to sign into your Kumu Enterprise instance using your existing SAML 2.0 identity provider.
 
-To configure SSO for your Enterprise instance, please log into your Kumu instance using your admin account at https://example.kumuenterprise.com/enterprise/admin/settings
-
 Here are a few links to the documentation for common providers:
   - [Microsoft Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications)
   - [Google Suite](https://support.google.com/a/answer/6087519?hl=en)
@@ -14,17 +12,15 @@ When setting up your app, you can use `Kumu` as the app name, and for the Entity
   https://example.kumuenterprise.com
   ```
 
-  For the Reply URL (Azure) or ACS URL (Google Suite), use the following, once again replacing `example` with the subdomain of your instance:
+For the Reply URL (Azure) or ACS URL (Google Suite), use the following, once again replacing `example` with the subdomain of your instance:
 
   ```
   https://example.kumuenterprise.com/sso/saml/consume
   ```
 
-From your SSO provider, you can get a service URL, an entity ID, and a base-64 encoded public certificate. Enable SSO for your enterprise instance and copy/paste those items into your instance's settings at the following url:
+Set the name identifier to `urn:oasis:names:tc:SAML:2.0:nameid-format:persistent` and provide attribute assertions for `email`, `firstName`, `lastName`, and `username`. If you do not provide a username one will be generated automatically from the email address.
 
-   ```
-   https://example.kumuenterprise.com/enterprise/admin/settings
-   ```
+To configure SSO for your Enterprise instance, please visit https://example.kumuenterprise.com/enterprise/admin/settings and sign in with your admin account. From your SSO provider, you can get an entity ID, service URL, and a base-64 encoded public certificate. Check the box to enable SSO for your enterprise instance and copy/paste those items into your instance's settings:
 
 ![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
 
