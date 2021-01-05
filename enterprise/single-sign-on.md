@@ -36,7 +36,7 @@ To configure SSO for your Enterprise instance, follow the instructions in this g
 5. With Kumu and your SSO provider configured, you can use your SSO provider to give users access to Kumu. Users can begin the sign-in flow by visiting the url below:
 
    ```
-   https://example.kumuenterprise.com/workspace-slug/sso
+   https://example.kumuenterprise.com/login
    ```
 
 
