@@ -13,22 +13,22 @@ To configure SSO for your Enterprise instance, follow the instructions in this g
   - [Microsoft Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications)
   - [Google Suite](https://support.google.com/a/answer/6087519?hl=en)
 
-  When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `workspace-slug` with the [slug](/guides/slugs.html) of your Pro workspace:
+  When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `example` with the subdomain of your instance:
 
   ```
-  https://example.kumuenterprise.com/workspace-slug
+  https://example.kumuenterprise.com
   ```
 
-  For the Reply URL (Azure) or ACS URL (Google Suite), use the following, once again replacing `workspace-slug` with the slug of your Pro workspace:
+  For the Reply URL (Azure) or ACS URL (Google Suite), use the following, once again replacing `example` with the subdomain of your instance:
 
   ```
-  https://example.kumuenterprise.com/workspace-slug/sso/saml/consume
+  https://example.kumuenterprise.com/sso/saml/consume
   ```
 
 4. From your SSO provider, you can get a service URL, an entity ID, and a public certificate. Enable SSO for your enterprise and copy/paste those items into your Kumu workspace's settings:
 
    ```
-   https://example.kumuenterprise.com/workspaces/workspace-slug/settings#sso
+   https://example.kumuenterprise.com/enterprise/admin/settings
    ```
 
   ![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
