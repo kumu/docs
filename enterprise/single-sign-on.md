@@ -8,7 +8,7 @@ Here are a few links to the documentation for common providers:
   - [Microsoft Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications)
   - [Google Suite](https://support.google.com/a/answer/6087519?hl=en)
 
-1. When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `example` with the subdomain of your instance:
+When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `example` with the subdomain of your instance:
 
   ```
   https://example.kumuenterprise.com
@@ -20,20 +20,19 @@ Here are a few links to the documentation for common providers:
   https://example.kumuenterprise.com/sso/saml/consume
   ```
 
-1. From your SSO provider, you can get a service URL, an entity ID, and a public certificate. Enable SSO for your enterprise and copy/paste those items into your Kumu workspace's settings:
+From your SSO provider, you can get a service URL, an entity ID, and a base-64 encoded public certificate. Enable SSO for your enterprise instance and copy/paste those items into your instance's settings at the following url:
 
    ```
    https://example.kumuenterprise.com/enterprise/admin/settings
    ```
 
-  ![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
+![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
 
-1. With Kumu and your SSO provider configured, you can use your SSO provider to give users access to Kumu. Users can begin the sign-in flow by visiting the url below:
+With Kumu and your SSO provider configured, you can use your SSO provider to give users access to Kumu. Users can begin the sign-in flow by visiting the url below and clicking the "Sign in via single sign-on (SSO)" button:
 
    ```
    https://example.kumuenterprise.com/login
    ```
-
 
 ## Single sign-on with Azure
 
