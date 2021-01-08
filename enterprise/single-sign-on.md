@@ -1,44 +1,34 @@
 # Single sign-on
 
-Single sign-on allows users to sign into Kumu with an existing set of login credentials—in other words, they won't have to create and remember a new slug and password Pro workspace Kumu.
+Single sign-on allows users to sign into your Kumu Enterprise instance using your existing SAML 2.0 identity provider.
 
-To configure SSO for your Enterprise instance, follow the instructions in this guide.
-
-
-1. Create an account in your Kumu Enterprise instance.
-
-2. Log into your Kumu account and [create a Pro workspace](/guides/pro-workspaces.html).
-
-3. Follow the instructions to set up your Kumu application with any SAML-2.0-based single sign-on provider. Here are a few links to the documentation for common providers:
+Here are a few links to the documentation for common providers:
   - [Microsoft Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications)
   - [Google Suite](https://support.google.com/a/answer/6087519?hl=en)
 
-  When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `workspace-slug` with the [slug](/guides/slugs.html) of your Pro workspace:
+When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `example` with the subdomain of your instance:
 
   ```
-  https://example.kumuenterprise.com/workspace-slug
+  https://example.kumuenterprise.com
   ```
 
-  For the Reply URL (Azure) or ACS URL (Google Suite), use the following, once again replacing `workspace-slug` with the slug of your Pro workspace:
+For the Reply URL (Azure) or ACS URL (Google Suite), use the following, once again replacing `example` with the subdomain of your instance:
 
   ```
-  https://example.kumuenterprise.com/workspace-slug/sso/saml/consume
+  https://example.kumuenterprise.com/sso/saml/consume
   ```
 
-4. From your SSO provider, you can get a service URL, an entity ID, and a public certificate. Enable SSO for your enterprise and copy/paste those items into your Kumu workspace's settings:
+Set the name identifier to `urn:oasis:names:tc:SAML:2.0:nameid-format:persistent` and provide attribute assertions for `email`, `firstName`, `lastName`, and `username`. If you do not provide a username one will be generated automatically from the email address.
+
+To configure SSO for your Enterprise instance, please visit https://example.kumuenterprise.com/enterprise/admin/settings and sign in with your admin account. From your SSO provider, you can get an entity ID, service URL, and a base-64 encoded public certificate. Check the box to enable SSO for your enterprise instance and copy/paste those items into your instance's settings:
+
+![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
+
+With Kumu and your SSO provider configured, you can use your SSO provider to give users access to Kumu. Users can begin the sign-in flow by visiting the url below and clicking the "Sign in via single sign-on (SSO)" button:
 
    ```
-   https://example.kumuenterprise.com/workspaces/workspace-slug/settings#sso
+   https://example.kumuenterprise.com/login
    ```
-
-  ![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
-
-5. With Kumu and your SSO provider configured, you can use your SSO provider to give users access to Kumu. Users can begin the sign-in flow by visiting the url below:
-
-   ```
-   https://example.kumuenterprise.com/workspace-slug/sso
-   ```
-
 
 ## Single sign-on with Azure
 
@@ -97,20 +87,6 @@ If Microsoft Azure is your single sign-on provider, you can follow the instructi
 1. Within Azure AD, assign users to the Kumu app you just created to enable SSO
 
     ![Azure SSO step 13](/images/azure-sso/14.png)
-
-
-## Single sign-on with Google
-
-If Google is your single sign-on provider, you can follow the instructions below to set up.
-
-1. 
-
-
-## Single sign-on with Okta
-
-If Okta is your single sign-on provider, you can follow the instructions below to set up.
-
-1. 
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/enterprise/single-sign-on.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
