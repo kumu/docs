@@ -83,7 +83,7 @@ tr th:first-child {
         </tr>
         <tr>
             <td>Average path length</td>
-            <td>Calculates the average number of steps it takes to get from one element to another in the network. If any part of your network is completely disconnected, or if any element only has incoming connections, the average path length will be infinity ∞.</td>
+            <td>Calculates the average number of steps it takes to get from one element to another in the network. If any part of your network is completely disconnected, or if any element has only incoming or only outgoing connections, the average path length will be infinity ∞.</td>
         </tr>
 </tbody></table>
 
