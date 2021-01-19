@@ -58,19 +58,19 @@ Delete the example tabs in the Google Sheet, then create a new tab and copy/past
 
 In your dataset, start editing the cell directly below the column header for the field where your list of connections should go. For example, if you want to put the connection list in the Description field, and your Descrition field is in Column B of your spreadsheet, start editing cell `B2` underneath the Description column header.
 
-In that cell, type `=TO_LIST_WIDGET_ELEMENT_CONNECTIONS(` to get started.
+In that cell, type `=KUMU_LIST_WIDGET_ELEMENT_CONNECTIONS(` to get started.
 
 
 ## Sample usages
 
-`TO_LIST_WIDGET_ELEMENT_CONNECTIONS(A2, "both")`
+`KUMU_LIST_WIDGET_ELEMENT_CONNECTIONS(A2, "both")`
 
-`TO_LIST_WIDGET_ELEMENT_CONNECTIONS(A2, "from", FALSE)`
+`KUMU_LIST_WIDGET_ELEMENT_CONNECTIONS(A2, "from", FALSE)`
 
 
 ## Syntax
 
-`TO_LIST_WIDGET_ELEMENT_CONNECTIONS(element_identifier, connection_direction, identify_by_label)`
+`KUMU_LIST_WIDGET_ELEMENT_CONNECTIONS(element_identifier, connection_direction, identify_by_label)`
 
 | Parameter | Description |
 | --- | --- |
@@ -79,7 +79,7 @@ In that cell, type `=TO_LIST_WIDGET_ELEMENT_CONNECTIONS(` to get started.
 | `identify_by_label` | <p>Enter <code>TRUE</code> if the element's unique identifier is coming from the Label column. Enter <code>FALSE</code> if the element's unique identifier is coming from the ID column.</p><p>If you don't specify this parameter, it defaults to <code>TRUE</code>.</p> |
 
 
-Given those parameters, `TO_LIST_WIDGET_ELEMENT_CONNECTIONS` returns Kumu list widget code to list all the connections that are connected from or to the specified element.
+Given those parameters, `KUMU_LIST_WIDGET_ELEMENT_CONNECTIONS` returns Kumu list widget code to list all the connections that are connected from or to the specified element.
 
 Then, you can simply import that data back into Kumu, and when you open any element profile, its connections will be listed!
 
