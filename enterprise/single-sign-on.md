@@ -20,7 +20,9 @@ For the Reply URL (Azure) or ACS URL (Google Suite), use the following, once aga
 
 Set the name identifier to `urn:oasis:names:tc:SAML:2.0:nameid-format:persistent` and provide attribute assertions for `email`, `firstName`, `lastName`, and `username`. If you do not provide a username one will be generated automatically from the email address.
 
-To configure SSO for your Enterprise instance, please visit https://example.kumuenterprise.com/enterprise/admin/settings and sign in with your admin account. From your SSO provider, you can get an entity ID, service URL, and a base-64 encoded public certificate. Check the box to enable SSO for your enterprise instance and copy/paste those items into your instance's settings:
+If you are using Enterprise Cloud, please provide your entity ID, service URL, and base-64 encoded public certificate so we can configure your instance for you.
+
+If you are self-hosting, please visit https://<your-instance>/enterprise/admin/settings and sign in with your admin account. From your SSO provider, you can get an entity ID, service URL, and a base-64 encoded public certificate. Check the box to enable SSO for your enterprise instance and copy/paste those items into your instance's settings:
 
 ![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
 
