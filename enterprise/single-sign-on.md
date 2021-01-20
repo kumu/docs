@@ -6,6 +6,8 @@ Here are a few links to the documentation for common providers:
   - [Microsoft Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-single-sign-on-non-gallery-applications)
   - [Google Suite](https://support.google.com/a/answer/6087519?hl=en)
 
+SSL must be enabled to use SSO to log into your instance.
+
 When setting up your app, you can use `Kumu` as the app name, and for the Entity ID, you should enter the following, replacing `example` with the subdomain of your instance:
 
   ```
@@ -22,7 +24,7 @@ Set the name identifier to `urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
 
 If you are using Enterprise Cloud, please provide your entity ID, service URL, and base-64 encoded public certificate so we can configure your instance for you.
 
-If you are self-hosting, please visit https://<your-instance>/enterprise/admin/settings and sign in with your admin account. From your SSO provider, you can get an entity ID, service URL, and a base-64 encoded public certificate. Check the box to enable SSO for your enterprise instance and copy/paste those items into your instance's settings:
+If you are self-hosting, please visit https://example.com/enterprise/admin/settings and sign in with your admin account. From your SSO provider, you can get an entity ID, service URL, and a base-64 encoded public certificate. Check the box to enable SSO for your enterprise instance and copy/paste those items into your instance's settings:
 
 ![Kumu Enterprise SSO settings](/images/enterprise-sso.png)
 
