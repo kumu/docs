@@ -61,7 +61,7 @@ To request an invoice, you can [email support@kumu.io](mailto:support@kumu.io).
 
 ## Free trials
 
-When you create a new workspace (including the Basic workspace that Kumu creates for you when you first sign up), you automatically receive a 14-day free trial of private projects in that workspace. At any time during your free trial, you can add a credit card to your billing settings to start a subscription plan as soon as the free trial ends.
+When you create a new workspace (including the Basic workspace that Kumu creates for you when you first sign up), you automatically receive a 7-day free trial of private projects in that workspace. At any time during your free trial, you can add a credit card to your billing settings to start a subscription plan as soon as the free trial ends.
 
 If you haven't added a credit card before the free trial ends, your private projects will be locked (you won't be able to view or edit them), and Kumu will prompt you to make your projects public or update your billing settings in order to unlock.
 
