@@ -103,6 +103,44 @@ Beyond those four pre-named fields, you can create as many custom fields as you 
 For more information on fields and how to create and customize them, [check out our full guide on fields](/guides/fields.html).
 
 
+## Projects
+
+**Projects** are the top level of Kumu's architecture. Think of projects as a "buckets" that contain everything defined above: elements, connections, loops, fields, views, and maps.
+
+There's an important distinction to be made between a map and a project: the project contains the master list of elements, connections, and loops, and the map simply borrows a collection of data from that list. If you edit an element, connection, or loop while working on a map, you're not just editing the map—you're actually editing the project's master list.
+
+If you ever find yourself creating multiple maps within one project, it's very important to remember that concept, because when you move or edit an item (for example, change an element's Label, Type, or any other field value) those changes will be applied to **every other map** that is borrowing the same item from the project's master list.
+
+If you only have one map in your project, don't sweat this detail!
+
+Projects can also remember a few more important things:
+- The project's privacy level (public or private)
+- Any [presentations](/guides/presentations.html) you have created to share your work
+- Any [contributors](/overview/collaboration.html) that can edit your project
+- Any [add-ons](/guides/add-ons.html) that have been installed on the project
+- Any [license](/guides/licensing.html) you have added, to tell people how they can or cannot share or re-use your work
+
+You create new projects and see all your existing projects on your [dashboard](/overview/dashboard.html).
+
+
+## Maps
+
+In Kumu, a **map** is a collection of elements, connections, and loops—each map can remember a full list of which elements, connections, and loops should be included.
+
+In addition, a map can remember specific positions for all of its elements, and it can remember the positions of any labels that represent loops.
+
+A map can also remember a few default settings:
+- **Default view** — the view whose rules will be applied to the map by default.
+- **Default element behavior** — tells the map whether new elements should stay in a fixed position by default, or float around, relying on their connections to pull them into a final position
+- **Default connection direction** — tells the map whether new connections should be "Directed" (arrow on one end), "Undirected" (no arrows), or "Mutual" (arrows on both ends) by default
+
+Finally, a map can remember a rich description about itself, called a "Map Overview", which Kumu displays next to the map so your audience can read it:
+
+![map overview with video](/images/map-overview-with-video.png)
+
+For more info on how to build the basic structure of your map, check out our [full guide on the map editor](/overview/map-editor.html).
+
+
 ## Views
 
 A **view** is a collection of rules that affect the visual appearance of your elements, connections, and loops.
@@ -175,43 +213,6 @@ To learn more about building views and creating specific types of rules, check o
         <td>Change the way Kumu positions your elements.</td>
     </tr>
 </table>
-
-
-## Maps
-
-In Kumu, a **map** is a collection of elements, connections, and loops—each map can remember a full list of which elements, connections, and loops should be included.
-
-In addition, a map can remember specific positions for all of its elements, and it can remember the positions of any labels that represent loops.
-
-A map can also remember a few default settings:
-- **Default view** — the view whose rules will be applied to the map by default.
-- **Default element behavior** — tells the map whether new elements should stay in a fixed position by default, or float around, relying on their connections to pull them into a final position
-- **Default connection direction** — tells the map whether new connections should be "Directed" (arrow on one end), "Undirected" (no arrows), or "Mutual" (arrows on both ends) by default
-
-Finally, a map can remember a rich description about itself, called a "Map Overview", which Kumu displays next to the map so your audience can read it:
-
-![map overview with video](/images/map-overview-with-video.png)
-
-For more info on how to build the basic structure of your map, check out our [full guide on the map editor](/overview/map-editor.html).
-
-## Projects
-
-**Projects** are the top level of Kumu's architecture. Think of projects as a "buckets" that contain everything defined above: elements, connections, loops, fields, views, and maps.
-
-There's an important distinction to be made between a map and a project: the project contains the master list of elements, connections, and loops, and the map simply borrows a collection of data from that list. If you edit an element, connection, or loop while working on a map, you're not just editing the map—you're actually editing the project's master list.
-
-If you ever find yourself creating multiple maps within one project, it's very important to remember that concept, because when you move or edit an item (for example, change an element's Label, Type, or any other field value) those changes will be applied to **every other map** that is borrowing the same item from the project's master list.
-
-If you only have one map in your project, don't sweat this detail!
-
-Projects can also remember a few more important things:
-- The project's privacy level (public or private)
-- Any [presentations](/guides/presentations.html) you have created to share your work
-- Any [contributors](/overview/collaboration.html) that can edit your project
-- Any [add-ons](/guides/add-ons.html) that have been installed on the project
-- Any [license](/guides/licensing.html) you have added, to tell people how they can or cannot share or re-use your work
-
-You create new projects and see all your existing projects on your [dashboard](/overview/dashboard.html).
 
 
 ## Trash
