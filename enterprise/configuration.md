@@ -55,7 +55,7 @@ _Warning: Once the hostname is set the site can only be accessed via the custom 
 
 ## SSL
 
-By default, SSL is **not** enabled on self-hosted Kumu Enterprise instances. To add an SSL certificate and allow users to connect through HTTPS, use the `kumu-ssl-install-cert` and `kumu-ssl-install-key` [command line utilities](/enterprise/command-line-utilities.html) to upload a custom certificate an key, then use the `kumu-ssl-enable` command to finish the process.
+By default, SSL is **not** enabled on self-hosted Kumu Enterprise instances. To add an SSL certificate and allow users to connect through HTTPS, use the `kumu-ssl-install-cert` and `kumu-ssl-install-key` [command line utilities](/enterprise/command-line-utilities.html) to upload a custom certificate and key, then use the `kumu-ssl-enable` command to finish the process.
 
 
 
