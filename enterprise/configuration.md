@@ -55,9 +55,9 @@ _Warning: Once the hostname is set the site can only be accessed via the custom 
 
 ## SSL
 
-To protect your instance, a self-signed SSL certificate is generated for you automatically when the instance first boots.
+By default, SSL is **not** enabled on self-hosted Kumu Enterprise instances. To add an SSL certificate and allow users to connect through HTTPS, use the `kumu-ssl-install-cert` and `kumu-ssl-install-key` [command line utilities](/enterprise/command-line-utilities.html) to upload a custom certificate an key, then use the `kumu-ssl-enable` command to finish the process.
 
-Since the certificate is self-signed, you will have to click through warning prompts the first time you access the site. If you don't want users to see these warnings, you can use the `kumu-ssl-install-cert` and `kumu-ssl-install-key` [command line utilities](command-line-utilities.md) to upload a custom certificate.
+
 
 <footer class="page-footer">
   <div class="next">Next: <a href="creating-user-accounts.md">Creating user accounts</a></div>
