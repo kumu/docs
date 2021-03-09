@@ -90,4 +90,4 @@ NOTE: After you have uploaded your certificate and key, you must run
 
 The `kumu-ssl-enable-selfsigned` allows your instance to use a self-signed SSL certificate that is generated for you automatically when the instance first boots.
 
-Note: we consider this a legacy feature. While we still support `kumu-ssl-enable-selfsigned`, we no longer recommended using the self-signed certificate in production with end users, since browsers like Chrome will give consistent and strong security warnings that end users will have to repeatedly bypass.
+Note: we consider this a legacy feature. While we still support `kumu-ssl-enable-selfsigned`, we only recommend using it for debugging purposes, or temporary Enterprise trials. We no longer recommended using the self-signed certificate in production with end users, since modern browsers will show persistent, strong security warnings that end users will have to repeatedly bypass.
