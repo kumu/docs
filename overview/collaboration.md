@@ -29,7 +29,7 @@ Finally, you can learn more about privacy and security by visiting our [privacy 
 
 To add a contributor to a project inside a [Basic workspace](/overview/accounts-and-workspaces.html), you first need to make sure the contributor has their own Kumu account. If they don't have one yet, they can [sign up for free](https://kumu.io/join). Once they have signed up, you can [open your project settings](/overview/settings.md), click on **MEMBERS**, type in the contributor's Kumu username, and click "Add contributor".
 
-![add contributor](/images/add-collaborator.png)
+![add contributor](/images/add-collaborator.jpg)
 
 Anytime you add a contributor to a project (public or private) owned by your personal account, you are granting them view **and** edit access. However, they won't be able to add other contributors, change project privacy, or rename, transfer, or delete the project.
 
