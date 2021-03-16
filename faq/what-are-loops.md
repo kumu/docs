@@ -79,8 +79,6 @@ If you want to edit a loop, click on the loop's label to open its [profile](/gui
 
 Click & drag the loop label to move it, or hold down `Option` on your keyboard (`Alt` on Windows) and click & drag to move the entire loop, including all its elements and connections, while maintaining their structure.
 
-To select an entire loop and drag it elsewhere on the map, hold the ALT-key on your keyboard (or OPTION-key on Mac) and click the loop's label on the map, then drag it across.
-
 
 ## Identifying loops in systems
 
