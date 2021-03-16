@@ -77,6 +77,8 @@ To create a loop, you can click the green <i class="fa fa-plus"></i> button at t
 
 If you want to edit a loop, click on the loop's label to open its [profile](/guides/profiles.html) in the left side panel. In the bottom right corner of the profile, click the pencil icon <i class="fa fa-pencil"></i> to select and de-select connections that are a part of the loop.
 
+Click & drag the loop label to move it, or hold down `Option` on your keyboard (`Alt` on Windows) and click & drag to move the entire loop, including all its elements and connections, while maintaining their structure.
+
 
 ## Identifying loops in systems
 
