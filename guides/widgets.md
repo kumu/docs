@@ -1,6 +1,6 @@
 # Widgets
 
-We've built a [flexible widget framework](https://github.com/kumu/widgets) to give superpowers to the [Map Overview](/overview/map-editor.html#side-panel) and the Description field in [profiles](/guides/profiles.html).
+We've built a flexible widget framework to give superpowers to the [Map Overview](/overview/map-editor.html#side-panel) and the Description field in [profiles](/guides/profiles.html).
 
 ![image of list of connections belonging to an element](/images/list-widget-element-connections.png)
 
@@ -179,6 +179,21 @@ https://player.pippa.io/teamhuman/episodes/ep-92-dr-mark-filippi
 
 Widget code:
 [[pippa/teamhuman/episodes/ep-92-dr-mark-filippi]]
+
+
+#### Anchor
+
+To embed audio from [Anchor](https://anchor.fm):
+1. Type `anchor/` inside your double square brackets
+2. Add your account username and another slash `/`
+3. Add the ID of the episode
+
+```
+Full URL for an episode:
+https://anchor.fm/my-username/episodes/my-episode-id
+
+Widget code:
+[[anchor/my-username/episodes/my-episode-id]]
 ```
 
 
