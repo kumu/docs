@@ -1,6 +1,6 @@
 # Partial views
 
-[Views](/guides/views.md) offer a lot of powerful features—[decorations](/guides/decorate.md) for sizing and coloring your data, [filters](/guides/filter.md) for showing/hiding different items, [controls](/guides/controls.md) for adding rich interactivity to your maps, and much more.
+[Views](/guides/views.html) offer a lot of powerful features—[decorations](/guides/decorate.html) for sizing and coloring your data, [filters](/guides/filter.html) for showing/hiding different items, [controls](/guides/controls.html) for adding rich interactivity to your maps, and much more. Different views [can also be layered on top of one another via the `@import` syntax](/guides/imported-views.html).
 
 For most maps, you'll probably curate one view that highlights your data in the best way possible, but more complex data demands a more complex visual. Different color-coding and sizing rules, levels of focus, cluster connections...in short, to get the most value out of a more complex dataset, you'll need to create several different visual variations.
 
