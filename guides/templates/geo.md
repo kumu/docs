@@ -4,6 +4,10 @@ The **geo template** lets you build your visualizations on top of geographic map
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/0WQ0dS5CIGM" frameborder="0" allowfullscreen></iframe></p>
 
+<p class="alert alert-warning">
+In Kumu Enterprise, the geo template will not work out of the box—first, you need to configure geocoding. For more information, <a href="/enterprise/configuration.html#geocoding" class="alert alert-link">see the Configuration guide</a>.
+</p>
+
 
 ## Apply the Geo template using the Basic Editor
 
