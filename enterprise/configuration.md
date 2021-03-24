@@ -62,6 +62,8 @@ By default, SSL is **not** enabled on self-hosted Kumu Enterprise instances. To 
 
 The geocoding service used for the [geo template](/guides/templates/geo.html) is not configured by default. To enable geocoding, follow the instructions in the Geocoding section of `<hostname>/enterprise/admin/settings`.
 
+![enterprise config geocoding](/images/enterprise-configure-geocoding.png)
+
 
 
 <footer class="page-footer">
