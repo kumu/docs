@@ -42,7 +42,11 @@ You can also add arrows to imported connections if you include a `direction` fie
 - `undirected`
 - `mutual`
 
-<p class="alert alert info">
+<p class="alert alert-warning">
+When you're imported from a connected Google Sheet or JSON blueprint, you can only choose <strong>one</strong> connection direction. All of the connections in your map will have that same direction.
+</p>
+
+<p class="alert alert-info">
 Kumu recognizes connection direction from your spreadsheet import (<strong>From</strong> and <strong>To</strong> columns in your connections sheet) or the direction you draw the connection by hand. This connection direction determines which way arrows point when you specify a "directed" connection.
 </p>
 
