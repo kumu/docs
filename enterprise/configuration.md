@@ -24,6 +24,7 @@ md5sum kumu-enterprise.kli
 
 **Add a notifications email.** This address will be used for any notification emails sent by the application. Only used if outbound email is enabled.
 
+
 ## SMTP
 
 In order to enable email notifications, you'll need to add an external SMTP server. No email will be sent if this is disabled. Settings include:
@@ -35,6 +36,7 @@ In order to enable email notifications, you'll need to add an external SMTP serv
 * Password
 * TLS
 * Authentication
+
 
 ## Hostname
 
