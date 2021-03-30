@@ -142,7 +142,7 @@
 * [How do I change the order of control options?](faq/how-do-i-change-the-order-of-control-options.md)
 * [How do I change the position of my element labels?](faq/how-do-i-change-element-text-position.md)
 * [How do I cite Kumu?](faq/how-do-i-cite-kumu.md)
-* [How do I collapse duplicate connections?](faq/how-do-i-collapse-connection-duplicates.md)
+* [How do I collapse duplicate connections?](faq/how-do-i-collapse-duplicate-connections.md)
 * [How do I copy a map to another project](faq/how-do-i-copy-a-map-to-another-project.md)
 * [How do I control label size while scaling element size?](faq/how-do-i-control-label-size-while-scaling-element-size.md)
 * [How do I control text wrapping?](faq/how-do-i-control-text-wrapping.md)
