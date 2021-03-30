@@ -6,11 +6,9 @@ The first tool is [a website](https://matrix-expander.netlify.com/) where you ca
 
 The second tool is a custom Google Sheets formula called `KUMU_CONNECTION_LIST` that will convert any adjacency matrix into a connection list, which can then be imported into Kumu.
 
-![custom KUMU_CONNECTION_LIST formula in Google Sheet](/images/custom-formula-to-connection-list.png)
-
 To get access to the custom formula, you can open our ["With custom Kumu formulas" Google Sheet](https://docs.google.com/spreadsheets/d/1qRhkn6qECtBaAncWykMa0hAG97jPK6q_bODrwntqze8/edit?usp=sharing), then click "File" > "Make a copy" to create your own editable copy of the sheet.
 
-Create a new tab in your spreadsheet, and put your matrix in that tab. Be sure to add `(ignore)` to the tab name to make sure Kumu doesn't try to import it. Then, add a new tab, and type `=KUMU_CONNECTION_LIST(` in cell `A1` to get started.
+Delete all the example tabs in your spreadsheet, then create a new tab, and put your matrix in that tab. Be sure to add `(ignore)` to the tab name to make sure Kumu doesn't try to import it. Next, add a new tab, and type `=KUMU_CONNECTION_LIST(` in cell `A1` to get started.
 
 
 ## Sample usages
