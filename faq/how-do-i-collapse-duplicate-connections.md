@@ -2,10 +2,6 @@
 
 In some networks, you might want to collapse duplicate connections (i.e. multiple connections between the same pair of elements).
 
-
-Collapses a list of duplicate connections into a list of connections where only one connection can exist between any two elements. Adds a "strength" number indicating how many connections between a pair of elements existed in the original connection list. Also adds a "direction", which will be "directed" for any element pairs that only had connections in one direction, and will be a direction of your choice for all other connections.
-
-
 We don't offer this feature directly in Kumu, but we wrote a custom Google Sheets formula called `KUMU_COLLAPSE` to make it easier to collapse and de-duplicate connections inside your spreadsheet.
 
 To get access to the custom formula, you can open our ["With custom Kumu formulas" Google Sheet](https://docs.google.com/spreadsheets/d/1qRhkn6qECtBaAncWykMa0hAG97jPK6q_bODrwntqze8/edit?usp=sharing), then click "File" > "Make a copy" to create your own editable copy of the sheet.
