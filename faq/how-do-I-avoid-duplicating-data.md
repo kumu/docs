@@ -112,7 +112,7 @@ If you're using an ID column on your connections sheet, you don't necessarily ha
 **Good to know:**
 - You can't update map data when clustering is turned on. Make sure to turn off all clustering options before importing any data into Kumu.
 - All of the same import rules apply when you are importing a [JSON blueprint](/guides/blueprints.md)
-- If you use underscores `_` in your IDs, you won't be able to select elements from the search results in your map
+- If you use underscores `_` or periods `.` in your IDs, you won't be able to select elements from the search results in your map
 - To send somebody a link directly to an element, connection, or loop, you can follow this pattern: `https://kumu.io/YourUsername/ProjectName#MapName/ViewName/ID`
 - To remove duplicates, [check out these steps](how-to-get-rid-of-duplicates.md)
 
