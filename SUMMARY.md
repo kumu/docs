@@ -2,6 +2,7 @@
 
 ## Getting started
 * [Welcome](welcome.md)
+* [Kumu 101](getting-started/kumu-101.md)
 * [First steps](getting-started/first-steps.md)
   * [Create an account](getting-started/first-steps.md#create-an-account)
   * [Create your first project](getting-started/first-steps.md#create-your-first-project)
