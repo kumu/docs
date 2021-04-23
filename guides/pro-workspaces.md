@@ -15,7 +15,7 @@ In addition to flexible user management, Pro workspaces also have access to thes
 
 ## Create a Pro workspace
 
-Go to your [account dashboard](https://kumu.io/dashboard), then navigate to the **Pro workspaces** tab and click the **New Workspace** button. Give your new workspace a name, and Kumu will send you through to the workspace's Settings page.
+Go to your [account dashboard](https://kumu.io/dashboard), then navigate to the **Workspaces** tab and click the green **New Workspace** button. Give your new workspace a name, and Kumu will send you through to the workspace's Settings page.
 
 Your workspace will be a Basic workspace by default. In the Billing section of your workspace's settings page, click the button to upgrade to a Pro workspace. After that, you're all set!
 
