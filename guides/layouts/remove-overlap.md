@@ -2,7 +2,7 @@
 
 If you add a fair amount of data to a Kumu map that is using a [force-directed layout](/guides/layouts/force-directed.html), you'll soon find out that elements and their labels tend to overlap. As a result, your map can become less readable.
 
-But don't worry, there's a solution! Kumu has a built-in tool that will automatically re-position your elements and labels to make sure none of them overlap. To use this tool, open up the [wizard](/guides/wizard.html) and search for "overlap". You'll see two options: "Remove element overlap" and "Remove label overlap".
+But don't worry, there's a solution! Kumu has a built-in tool that will automatically re-position your elements and labels to make sure none of them overlap. To use this tool, open up the [quick actions menu](/guides/quick-actions.html) and search for "overlap". You'll see two options: "Remove element overlap" and "Remove label overlap".
 
 Select one option or the other, based on the effect you want to see on your map. Kumu will move your elements to new positions, then tell you how to save the new positions. If you save the positions, your elements will be pinned in place and won't float anymore. If you'd rather discard the new positions, just press `spacebar` or `B` on your keyboard to bump the map back into a floating position.
 

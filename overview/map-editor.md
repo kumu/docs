@@ -16,12 +16,13 @@ The first dropdown menu allows you to create new maps and navigate to different 
 
 In the bottom right corner of your map editor, you'll see a toolbar with several icons that let you take useful actions within your project.
 
-- <i class="fa fa-magic"></i> The magic wand brings up a [wizard](/guides/wizard.html) that allows you to search for tools, actions, and how-to videos
-- <i class="fa fa-wrench"></i> The wrench is shortcut to your [field settings](/guides/fields.md)
-- <i class="fa fa-cube"></i> The block gives you access to [social network analysis metrics](/guides/metrics.md) and [community detection](/guides/metrics.md#community-detection)
+- <i class="fa fa-magic"></i> The magic wand brings up a [quick actions](/guides/quick-actions.html) menu that allows you to search for tools, actions, and how-to videos
+- <i class="fa fa-flask"></i> The flask gives you access to [social network analysis metrics](/guides/metrics.md) and [community detection](/guides/metrics.md#community-detection)
 - <i class="fa fa-comments-o"></i> The chat bubble opens up <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.html">issues</a></span>, where you can chat with your team and attach comments to the map
 - <i class="fa fa-table"></i> The table brings up Kumu's [Table](/guides/table.md) tool
-- <i class="fa fa-ellipsis-h"></i> The ellipsis brings up a useful menu for importing/exporting your data and [presenting your map online or in print](/overview/collaboration.html)
+- <i class="fa fa-download"></i> The download icon exposes several [export](/guides/export.md) options
+- <i class="fa fa-share-alt"></i> The share icon will help you [share or embed](/guides/share-and-embed.html) your project
+- <i class="fa fa-ellipsis-h"></i> The ellipsis brings up miscellaneous actions, like entering fullscreen or preview mode
 
 
 ## Side panel
