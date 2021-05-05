@@ -4,7 +4,7 @@ Kumu has a powerful metrics engine which includes a number of popular social net
 ![metrics tool](/images/metrics-degree.png)
 
 ## How to run basic metrics
-1. Click on the Blocks icon <i class="fa fa-cube"></i> in the bottom right of the map
+1. Click on the Metrics icon in the bottom right corner of the map
 2. Select "Social Network Analysis"
 3. Choose a metric from the dropdown list
 4. Click the large button "Discover ..." (e.g. "Discover the connectors/hubs" for the "degree" metric)
@@ -140,7 +140,7 @@ Kumu includes support for community detection based on the [SLPA algorithm](http
 
 ### Detecting communities
 
-Click the blocks icon <i class="fa fa-cube"></i> in the lower right corner of your map and choose "community detection". If you haven't run community detection before, clicking this will automatically detect communities. If you're already run community detection, clicking the icon will bring you to a window showing you the previous results.
+Click the Metrics icon in the lower right corner of your map and choose "community detection". If you haven't run community detection before, clicking this will automatically detect communities. If you're already run community detection, clicking the icon will bring you to a window showing you the previous results.
 
 <img src="../images/community-results.jpg" class="plain">
 
