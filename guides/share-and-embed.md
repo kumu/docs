@@ -1,6 +1,6 @@
 # Share and embed maps
 
-If you're looking to share or embed your public or private maps, click the "more" icon (**...**) in the lower right corner and then choose "Share / embed this map". You'll be prompted with this window:
+If you're looking to share or embed your public or private maps, click the "Share" icon in the lower right corner. You'll be prompted with this window:
 
 ![embed modal](/images/embed-modal.png)
 
