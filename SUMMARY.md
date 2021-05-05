@@ -156,6 +156,7 @@
 * [How do I edit virtual elements?](faq/how-do-i-edit-virtual-elements.md)
 * [How do I get rid of duplicates?](faq/how-to-get-rid-of-duplicates.md)
 * [How do I hide images from the map but keep them in the profile?](faq/how-do-i-hide-images-from-the-map.md)
+* [How do I hide labels on my map?](faq/how-do-I-hide-labels.md)
 * [How do I hide the settings button?](faq/how-do-i-hide-the-settings-button.md)
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
 * [How do I list an element's connections in its profile?](faq/how-do-i-list-an-elements-connections-in-its-profile.md)
