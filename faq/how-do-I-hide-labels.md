@@ -22,5 +22,5 @@ connection {
 ```
 
 <p class="alert alert-info">
-If you'd like to refine which elements or connections to show labels for and which not; please visit our [Selectors guide](https://docs.kumu.io/guides/selectors.html) to change the selector to something more precise._ 
+If you'd like to refine which elements or connections to show labels for and which not; please visit our <a class="alert-link" href="/guides/selectors.html">Selectors guide</a> to change the selector to something more precise._ 
 </p>
