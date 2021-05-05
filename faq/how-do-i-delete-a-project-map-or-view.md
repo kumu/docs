@@ -15,7 +15,7 @@
 There's two ways to delete a map:
 
 - Right-click on your map > click on Maps > choose "Delete map".
-- Click on the three dots in the top-right corner of the map profile to go to [map settings](/overview/settings.html#map-settings) > choose "Delete map". _If your map profile doesn't show, make sure to de-select any items in your map by clicking on a blank space in your map and/or click on the three dots in the center of the left side of your map_.
+- Click on the three dots in the top-right corner of the map sidebar to go to [map settings](/overview/settings.html#map-settings) > choose "Delete map". _If your map profile doesn't show, make sure to de-select any items in your map by clicking on a blank space in your map and/or click on the three dots in the center of the left side of your map_.
 
 ## Delete a view
 There's two ways to delete a view:
