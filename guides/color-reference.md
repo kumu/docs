@@ -622,7 +622,7 @@ For flags, the code is slightly different:
 
 ## Setting explicit stops for color values in categorize()
 
-It's also possible to specify which value should receive a certain color within `categorize()`.
+It's also possible to specify which value should receive a certain color for elements.
 
 ```
 @settings {
