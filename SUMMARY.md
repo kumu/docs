@@ -90,6 +90,7 @@
 * [Profiles](guides/profiles.md)
   * [Markdown](guides/markdown.md)
 * [Project admin](guides/project-admin.md)
+* [Quick actions](/guides/quick-actions.md)
 * [Selectors](guides/selectors.md)
 * [Share and embed maps](guides/share-and-embed.md)
 * [Shortcuts](guides/shortcuts.md)
@@ -107,7 +108,6 @@
   * [Selector reference](guides/selector-reference.md)
   * [@settings reference](guides/settings-reference.md)
 * [Widgets](guides/widgets.md)
-* [Wizard](/guides/wizard.md)
 
 ## About Kumu
 * [What is Kumu?](about/what-is-kumu.md)

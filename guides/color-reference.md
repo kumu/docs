@@ -612,7 +612,7 @@ You can define your own color palette for elements by using a comma separated li
 }
 ```
 
-For flags, the code is slightly different: 
+For [flags](/guides/flags.html), the code is slightly different: 
 
 ```
 @settings {
@@ -630,7 +630,7 @@ It's also possible to specify which value should receive a certain color for ele
 }
 ```
 
-For flags, the code is slightly different: 
+For [flags](/guides/flags.html), the code is slightly different: 
 
 ```
 @settings {
