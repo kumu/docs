@@ -1,6 +1,7 @@
 # How do I delete a project, map, or view?
 
 <p class="alert alert-danger">
+Please note: projects, maps and views cannot be restored once deleted.
 Before you start: <a class="alert-link" href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
 </p>
 
@@ -9,8 +10,6 @@ Before you start: <a class="alert-link" href="/guides/blueprints.html#project-ba
 1. Click on the hamburger menu in the top-left corner of your map to go to your [project settings](/overview/settings.html#project-settings).
 2. Click on Admin
 3. Choose "Delete project"
-
-_Please note: projects cannot be recovered once deleted. Learn how to create a [project backup](https://docs.kumu.io/guides/blueprints.html#project-backups)_
 
 ## Delete a map
 There's two ways to delete a map:
