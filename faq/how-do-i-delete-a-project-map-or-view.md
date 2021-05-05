@@ -1,8 +1,8 @@
 # How do I delete a project, map, or view?
 
 <p class="alert alert-danger">
-Please note: projects, maps and views cannot be restored once deleted.
-Before you start: <a class="alert-link" href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
+  Please note: projects, maps and views cannot be restored once deleted.
+  Before you start: <a class="alert-link" href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
 </p>
 
 ## Delete a project
