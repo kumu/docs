@@ -1,13 +1,26 @@
 # How do I delete a project, map, or view?
 
 <p class="alert alert-danger">
-Before you start: <a class="alert-link" href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
+  Please note: projects, maps and views cannot be restored once deleted.
+  Before you start: <a class="alert-link" href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
 </p>
 
-To delete a project, you can click the "Delete project" option in the **Admin** section of the [project settings](/overview/settings.html#project-settings).
+## Delete a project
 
-To delete a map, you can pick "Delete map" from the list of options in the [map settings](/overview/settings.html#map-settings).
+1. Click on the hamburger menu in the top-left corner of your map to go to your [Project Settings](/overview/settings.html#project-settings).
+2. Click on Admin
+3. Choose "Delete project"
 
-To delete a view, you can pick "Delete view" from the list of options in the [view settings](/overview/settings.html#view-settings).
+## Delete a map
+There's two ways to delete a map:
+
+- Right-click on your map > click on Map > choose "Delete map".
+- Click on the three dots in the top-right corner of the map sidebar to go to [Map Settings](/overview/settings.html#map-settings) > choose "Delete map". _If your map profile doesn't show, make sure to de-select any items in your map by clicking on a blank space in your map and/or click on the three dots in the center of the left side of your map_.
+
+## Delete a view
+There's two ways to delete a view:
+
+- Right-click on your map > click on View > choose "Delete view".
+- Click the Settings button on the right side of your map to open the Basic Editor > click on the three dots in the top-right corner for your [View Settings](/overview/settings.html#view-settings) >  choose "Delete view".
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-delete-a-project.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
