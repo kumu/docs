@@ -13,9 +13,6 @@ Looking to learn how to use Kumu? You're in the right place. We've broken up the
       <ul>
         <li><a href="/getting-started/first-steps.html"><i class="fa fa-arrow-circle-o-right"></i>Building your first map</a></li>
       </ul>
-      <ul>
-        <li><a href="/getting-started/faq.html"><i class="fa fa-arrow-circle-o-right"></i>Frequently asked questions</a></li>
-      </ul>
     </div>
   </div>
 </div>
