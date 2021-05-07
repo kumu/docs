@@ -8,7 +8,7 @@ If you're looking to share or embed your public or private maps, click the "Shar
 
 **Password**, only available when the project is private, allows you to add a password to protect the map. When people visit the shareable link, they won't be able to see the map until they enter the password.
 
-**Include map overview in sidebar** allows you to include the sidebar in your shared/embedded map. If you don't select this option, the map will be displayed full screen. When your readers start to interact with the map, the sidebar will follow the standard behavior&mdash;when an element, connection, or loop is clicked, the profile will expand.
+**Include map overview in sidebar** allows you to include the sidebar in your shared/embedded map. If you don't select this option, the map will be displayed full screen. When your readers start to interact with the map, the sidebar will follow the standard behavior—when an element, connection, or loop is clicked, the profile will expand.
 
 **Include current position and scale** allows you to override the default "zoom fit" positioning of the map and instead use a custom position and zoom level.
 
