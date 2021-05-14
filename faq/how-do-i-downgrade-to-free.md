@@ -1,12 +1,27 @@
-# How do I downgrade my personal account to free?
+# How do I downgrade my subscription back to free?
 
-If you want to downgrade your personal account back to the free plan (which includes unlimited public projects), all you need to do is make sure your account doesn't own any private projects. If you have private projects, you can use [the project admin menu](/guides/project-admin.html) to take one of these three actions:
+Kumu charges you based on two factors: 
 
-1. Convert the private project(s) to public
-1. Transfer the private project(s) to another user
-1. Delete the private project(s)
+- Whether you have a Basic Workspace or a Pro Workspace
+- The number of private projects you have in your workspace
 
+## Basic Workspace
+If you want to downgrade your Basic Workspace back to the free plan (which includes unlimited public projects), all you need to do is make sure your account doesn't own any private projects. If you have private projects: please click on the Project Settings menu in the top-left corner of your map, and then click on [Admin](/guides/project-admin.html) to take one of these three actions:
 
-If you are being billed monthly, Kumu's billing system will automatically put you on the free plan as soon as you have removed all private projects from your account. If you are being billed annually, please contact support at support@kumu.io so that we can reduce your private project limit to zero.
+- Convert the private project(s) to public
+- Transfer the private project(s) to another user
+- Delete the private project(s)
+
+If you are being billed **monthly**, Kumu's billing system will automatically put you on the free plan as soon as you have removed all private projects from your account. If you are being billed **annually**, please contact support at support@kumu.io so that we can reduce your private project limit to zero.
+
+## Pro Workspace
+If you have a Pro Workspace, you'll have to downgrade your account to a Basic Workspace _in addition_ to taking the steps above to remove your private project(s). 
+To downgrade to a Basic Workspace, please take the following steps: 
+
+1. Click on the Workspaces tab in your Dashboard
+2. Click on the name of the workspace you'd like to downgrade
+3. Click on the "Downgrade to basic workspace" button below the Billing header
+
+You'll now automatically stop being billed for the Pro Workspace. 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-downgrade-to-free.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
