@@ -115,7 +115,7 @@ To learn how to take these steps, [check out our full guide on decorations](/gui
 
 ## Add rich detail to your map
 
-Once you'v built your map
+Once you've built your map
 #### Marking connections as same or opposite
 
 If you're looking to indicate whether a connection has a same or opposite causal relationship (whether the first element increases or decreases the second element), there are a few ways to go about it:
