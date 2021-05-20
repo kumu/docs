@@ -32,7 +32,7 @@ Work through the next couple of screens to name your project, decide whether it 
 
 After creating a new project in Kumu, your next step is to pick which template you want to use for your first map:
 
-![Template Selection](/images/template-selection.png)
+![Template Selection](/images/template-picker.png)
 
 We recommend most people start with the **system**, **stakeholder**, or **SNA** template, unless they have a good reason to do otherwise. Below is a description of each template's effect:
 
