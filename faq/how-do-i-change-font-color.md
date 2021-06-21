@@ -20,7 +20,7 @@ To change the color of all text in your map, following the following steps:
 [Direct Decorations](https://docs.kumu.io/guides/direct-decorations.html) are best used when wanting to change the font color of only one or a few elements in your map.
 To do so: hover over the element or connection whose font color you'd like to change so the edit pencil shows up. Click on the Pencil and then Click on the Text icon to change its color there. 
 
-[Direct Decorations Font Color](IMAGE LINK)
+[Direct Decorations Font Color](images/dir-dec-font-color.jpg)
 
 # Change font color in the Advanced Editor
 By adding code to the Advanced Editor you can change font color driven by the data stored inside of your profiles. 
