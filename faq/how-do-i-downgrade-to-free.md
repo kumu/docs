@@ -1,4 +1,4 @@
-# How do I downgrade my subscription back to free?
+# How do I downgrade my subscription?
 
 Kumu charges you based on two factors: 
 
@@ -6,7 +6,7 @@ Kumu charges you based on two factors:
 - The number of private projects you have in your workspace
 
 ## Basic Workspace
-If you want to downgrade your Basic Workspace back to the free plan (which includes unlimited public projects), all you need to do is make sure your account doesn't own any private projects. If you have private projects: please click on the Project Settings menu in the top-left corner of your map, and then click on [Admin](/guides/project-admin.html) to take one of these three actions:
+If you want to downgrade your Basic Workspace (which includes unlimited public projects), all you need to do is make sure your account has less or no private projects. If you currently have private projects: please click on the Project Settings menu in the top-left corner of your map, and then click on [Admin](/guides/project-admin.html) to take one of these three actions:
 
 - Convert the private project(s) to public
 - Transfer the private project(s) to another user
