@@ -24,22 +24,21 @@ To do so: hover over the element or connection whose font color you'd like to ch
 
 ## Change font color in the Advanced Editor
 By adding code to the Advanced Editor you can change font color driven by the data stored inside of your profiles. 
-First, choose a [selector](https://docs.kumu.io/guides/selectors.html) to specific which item's font color you want to target, and then add the color code. 
 
-For example:
+For example, to change all fonts of element labels to blue, you can use:
 
 ```
-selector {
-  font-color: black;
+element {
+  font-color: blue;
 }
 ```
 
 Or use [hex codes](https://htmlcolorcodes.com/) to find more specific colors: 
 
 ```
-selector {
+element {
   font-color: #3EF4B5;
 }
 ```
-  
 
+Note that the code snippet above will only change the font size for elements, but will leave connections and loops at the default font size. For more information on how to change the `element` selector to something even more specific (for example, just the elements whose Element Type is "Organization"), see [our full guide on selectors](/guides/selectors.html).
