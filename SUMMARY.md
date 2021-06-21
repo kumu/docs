@@ -138,6 +138,7 @@
 * [How do I avoid duplicating data?](faq/how-do-I-avoid-duplicating-data.md)
 * [How do I change connection curvature?](faq/how-do-i-change-connection-curvature.md)
 * [How do I change elements' shape?](faq/how-do-i-change-element-shape.md)
+* [How do I change font color?](faq/how-do-i-change-font-color.md)
 * [How do I change font size?](faq/how-do-i-change-font-size.md)
 * [How do I change the length or strength of connections?](faq/how-to-change-length-of-connections.md)
 * [How do I change the order of control options?](faq/how-do-i-change-the-order-of-control-options.md)
