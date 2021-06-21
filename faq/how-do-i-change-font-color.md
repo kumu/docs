@@ -8,7 +8,7 @@ There's multiple ways to change the color of the font on your map:
 
 ## Change default font color
 
-To change the color of all text in your map, following the following steps: 
+To change the color of all text in your map, use the following steps: 
 
 1. Click on the Settings button to open the Basic Editor on the right side
 2. Click **More Options** and then **Customize View Defaults**
