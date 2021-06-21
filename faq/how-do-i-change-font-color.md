@@ -11,8 +11,8 @@ There's multiple ways to change the color of the font on your map:
 To change the color of all text in your map, following the following steps: 
 
 1. Click on the Settings button to open the Basic Editor on the right side
-2. Click "More Options" and then "Customize View Defaults"
-3. Scroll down to Font Color and choose the color there
+2. Click **More Options** and then **Customize View Defaults**
+3. Scroll down to **Font Color** and choose the color there
 
 *Note that changing the default font color of your map also changes the font color of your legend.*
 
