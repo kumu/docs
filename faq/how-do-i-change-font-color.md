@@ -22,7 +22,7 @@ To do so: hover over the element or connection whose font color you'd like to ch
 
 [Direct Decorations Font Color](images/dir-dec-font-color.jpg)
 
-# Change font color in the Advanced Editor
+## Change font color in the Advanced Editor
 By adding code to the Advanced Editor you can change font color driven by the data stored inside of your profiles. 
 First, choose a [selector](https://docs.kumu.io/guides/selectors.html) to specific which item's font color you want to target, and then add the color code. 
 
