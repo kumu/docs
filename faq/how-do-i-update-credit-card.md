@@ -1,4 +1,4 @@
-# How do I edit my credit card information? 
+# How do I update my credit card information? 
 
 To add or update your credit card information, follow the following steps: 
 
