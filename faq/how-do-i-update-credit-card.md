@@ -1,4 +1,4 @@
-# How do I add/update/delete my credit card information? 
+# How do I edit my credit card information? 
 
 To add or update your credit card information, follow the following steps: 
 
@@ -9,4 +9,4 @@ To add or update your credit card information, follow the following steps:
 
 Success! You've now updated your credit card information for future payment. 
 
-To *delete* your credit card information, follow the same steps as above, and choose **Delete Card**. 
+To delete your credit card information, follow the same steps as above, and choose **Delete Card**. 
