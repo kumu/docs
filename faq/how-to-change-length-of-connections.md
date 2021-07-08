@@ -1,12 +1,25 @@
 # Can I change the connection length or strength?
 
-By default our layout algorithm treats all connections the same (same spring strength and length). If you'd like to modify that behavior to have shorter or stronger connections based on a given connection field, you can do so by adding the code below (example based on using a quantitative "strength" field).
+By default our layout algorithm treats all connections the same (same spring strength and length). If you'd like to change the visual look of connections, you have multiple options, as outlined below. 
 
 <p class="alert alert-info">
 Looking to change the thickness of connections? You can learn how to do that in <a class="alert-link" href="/guides/decorate.html#refine-your-decorations">our guide on decorations</a>.
 </p>
 
+## Change thickness of connections
+
+To change the thickness of the connections, follow the following steps:
+
+1. Click on the Settings icon <i class="fa fa-sliders">  </i> on the right side of the map to open the Basic Editor. 
+2. Then click More Options and choose "Decorate Connections" to open the decorations editor.
+3. Make sure the dropdown at the top is set to "Decorate all connections".
+4. Check the "Change size" checkbox and then choose "Scale connection widths by field". 
+5. Select the attribute you want to scale by. Please note that the field must have the Type set to Number or Currency for the option to show up. Learn how to change Field Type [here](https://docs.kumu.io/guides/fields.html#customize-a-field).
+6. Set the scale you'd like to use and click Done!  
+
 ## Scale length/strength by field
+
+If you'd like to modify connections to be shorter or longer connections based on a given connection field, you can do so by adding the code below (example based on using a quantitative "strength" field).
 
 ```
 @settings {
