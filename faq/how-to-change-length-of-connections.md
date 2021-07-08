@@ -2,13 +2,9 @@
 
 By default our layout algorithm treats all connections the same (same spring strength and length). If you'd like to change the visual look of connections, you have multiple options, as outlined below. 
 
-<p class="alert alert-info">
-Looking to change the thickness of connections? You can learn how to do that in <a class="alert-link" href="/guides/decorate.html#refine-your-decorations">our guide on decorations</a>.
-</p>
-
 ## Change thickness of connections
 
-To change the thickness of the connections, follow the following steps:
+To change the thickness of the connections, follow these steps:
 
 1. Click on the Settings icon <i class="fa fa-sliders">  </i> on the right side of the map to open the Basic Editor. 
 2. Then click More Options and choose "Decorate Connections" to open the decorations editor.
