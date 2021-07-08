@@ -16,7 +16,7 @@ To change the thickness of the connections, follow these steps:
 7. Select the attribute you want to scale by. Please note that the field must have the Type set to Number or Currency for the option to show up. Learn how to change Field Type [here](https://docs.kumu.io/guides/fields.html#customize-a-field).
 8. Set the scale you'd like to use and click Done!  
 
-## Scale length/strength by field
+## Scale length/strength by field in the Advanced Editor
 
 If you'd like to modify connections to be shorter or longer connections based on a given connection field, you can do so by adding the code below (example based on using a quantitative "strength" field).
 
@@ -29,7 +29,7 @@ If you'd like to modify connections to be shorter or longer connections based on
 
 This works for `connection-length` as well.
 
-## Set specific strength/length
+## Set specific strength/length in the Advanced Editor
 
 You can also use this to assign specific strength and size values based on qualitative values for connections:
 
