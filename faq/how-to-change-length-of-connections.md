@@ -8,7 +8,7 @@ To change the thickness of the connections, follow these steps:
 
 1. Click on the Settings icon <i class="fa fa-sliders">  </i> on the right side of the map to open the Basic Editor. 
 2. Then click More Options and choose "Decorate Connections" to open the decorations editor.
-3. Make sure the dropdown at the top is set to "Decorate all connections".
+3. Set the dropdown at the top to "Decorate all connections" (or use the other options to specify which connections you'd like to target)
 4. Check the "Change size" checkbox and then choose "Scale connection widths by field". 
 5. Select the attribute you want to scale by. Please note that the field must have the Type set to Number or Currency for the option to show up. Learn how to change Field Type [here](https://docs.kumu.io/guides/fields.html#customize-a-field).
 6. Set the scale you'd like to use and click Done!  
