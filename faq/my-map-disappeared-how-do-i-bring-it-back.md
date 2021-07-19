@@ -15,11 +15,15 @@ To know when focus is turned on, look for a blue target icon <i class="fa fa-cro
 Kumu's [filter feature](/guides/filter.html) can show and hide elements, connections, and loops based on the content in their profiles.
 
 To check if a filter has been applied and might be hiding some or all of your content, open up the [Basic Editor](/overview/view-editors.html#basic-editor), and look at the text next to **Filter**, which tells you the number of hidden items. If that text indicates there are hidden items, click the settings icon to the right of **Filter**, and see if you can adjust the filter settings to bring your data back into view.
+  
+## Did your Google Sheet disconnect? 
+
+If you imported your data through Google Sheets, then that link is the lifeline to the data in your map. If your sheet link is disconnected or deleted, then all the data in your map will disappear. Click on the green button at the bottom and choose Import, or hit the "i" key of your keyboard to see whether your Google Sheet is still connected. 
 
 
 ## Has the data been deleted?
 
-If all else fails, it's possible that the data may have been deleted from the map. That's not an immediate cause for concern—before data is _really_ deleted from your project, it goes to the project's trash.
+If all else fails, it's possible that the data may have (accidentally) been deleted from the map. That's not an immediate cause for concern—before data is _really_ deleted from your project, it goes to the project's trash.
 
 To check the trash, click the menu icon <i class="fa fa-bars"></i> in the top left corner of the screen, then select **Trash** from the sidebar. If the Trash panel shows that there is data in the trash, send an email to [support@kumu.io](mailto:support@kumu.io), and we can help you get that data out of the trash and back into the map.
 
