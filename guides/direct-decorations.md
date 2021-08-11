@@ -145,6 +145,10 @@ The table below lists all of the icons you'll find in the direct decorations too
 There are just a few additional things you should know about direct decorations:
 
 
+#### Direct decorations can't be used when importing from Google Sheets
+
+If you're data is coming in from a Google Sheet, you'll notice that the direct decorations toolbar doesn't show up. If you'd still like to use direct decorations, please switch to importing your data with Excel. 
+
 #### Direct decorations always override decorations in your [Views](/guides/views.html).
 
 This includes all the code in your Advanced Editor. For example, if you direct decorate an element to color it blue, and then you use the view to color it red, it will still be blue.
