@@ -104,11 +104,11 @@ But there's one other tip that can be helpful in those more complicated cases! N
 
 Here's how you can set up that filter in Kumu:
 1. Use [Metrics](/guides/metrics.html) to calculate **indegree** and **outdegree**.
-2. Use [filtering](/guides/filter.html) to hide the elements that have indegree and outdegree both equal to `0`. You can use filter settings in the Basic Editor to do this, or just copy/paste the following code at the bottom of your Advanced Editor:
+2. Use [filtering](/guides/filter.html) to hide the elements that have either indegree or outdegree equal to `0`. You can use filter settings in the Basic Editor to do this, or just copy/paste the following code at the bottom of your Advanced Editor:
 
 ```
 @settings {
-  ignore: element[indegree = "0"][outdegree = "0"];
+  ignore: element[indegree = "0"], element[outdegree = "0"];
 }
 ```
 
