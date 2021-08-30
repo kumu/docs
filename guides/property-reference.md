@@ -365,6 +365,13 @@ If you find a property or a value that's not documented here, [let us know](mail
       <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Replaces the default label with a label template.<br><code>none</code><br><code>string template</code>"</i></td>
     </tr>
     <tr>
+      <td>label-placement</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls alignment of element labels.<br><code>bottom</code><br><code>center</code>"</i></td>
+    </tr>
+    <tr>
       <td>label-visibility</td>
       <td><i class="fa fa-check"></i></td>
       <td><i class="fa fa-check"></i></td>
