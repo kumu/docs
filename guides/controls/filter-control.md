@@ -47,8 +47,9 @@ Filter using custom [selectors](../selectors.html#selectors):
   * `buttons` show options as a group of buttons
   * `dropdown` show options as dropdown
 * `multiple` controls whether more than one value can be selected at a time
-  * `true` allows multiple values to be showcased
-  * `false` allows only a single value to be showcased at a time
+  * `false` allows the reader to only select a single option
+  * `true` allows the reader to select multiple options
+  * `match-all` allows the reader to select multiple options, and only shows items that match **all** of the selected options
 * `placeholder` the text to display when nothing is selected (for `as: dropdown` only)
 * `summary` override the summary that's shown for the current selection (for `as: dropdown`). The summary will be shown regardless of what's selected so there's no need to use `placeholder` in this case.
 * `default` defines which field values should be selected by default (for `by: "field"` only). Use `select-all` to select everything by default (or `show-all` for a similar effect without selecting everything by default).

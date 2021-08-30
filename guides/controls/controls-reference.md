@@ -231,268 +231,279 @@ If you find a property or a value that's not documented here, [let us know](mail
 
 <table id="interactive-search-table" class="controls-reference table borderless">
   <tbody>
-        <tr>
-          <th class="text-left">Property</th>
-          <th class="text-center">Filter</th>
-          <th class="text-center">Showcase</th>
-          <th class="text-center">Cluster</th>
-          <th class="text-center">Tagged-timeline</th>
-          <th class="text-center">View toggle</th>
-          <th class="text-center"></th>
-        </tr>
-        <tr>
-          <td>as</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines how the control is presented
-      <br><code>labels</code><br><code>buttons</code><br><code>dots</code><br><code>dropdown</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>background-color</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines background color of control
-      <br><code>color</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>by</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td></td>
-          <td></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines the field to filter, showcase, or cluster by
-      <br><code>'Field Name'</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>color</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines color of control's text (labels, placeholders, and summaries only)
-      <br><code>color</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>default</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines which options should be selected by default
-      <br><code>none</code><br><code>show-all</code><br><code>select all</code><br><code>'field value 1', 'field value 2',...</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>except</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Allows you to remove field values from the available choices
-      <br><code>'field value 1', 'field value 2',...</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>font-family</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines font family of control's text (labels, placeholders, and summaries only)
-      <br><code>family-name</code><br><code>generic-family</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>font-size</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines size of control's text (labels, placeholders, and summaries only)
-      <br><code>number</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>font-style</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines style of control's text (labels, placeholders, and summaries only)
-      <br><code>normal</code><br><code>italic</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>font-weight</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines weight of control's text (labels, placeholders, and summaries only)
-      <br><code>number</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>height</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines height of control
-      <br><code>number</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>margin</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines space between the control and other controls on the map
-      <br><code>number</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>mode</td>
-          <td></td>
-          <td><i class="fa fa-check"></i></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls how the selection is showcased. <code>normal</code> is the default and showcases the selection plus any connections between the showcased elements. <code>loose</code> showcases the selection plus neighboring elements. <code>strict</code> only showcases the selection itself.
-      <br><code>normal</code><br><code>loose</code><br><code>strict</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>multiple</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls whether more than one option can be selected at a time
-      <br><code>TRUE</code><br><code>FALSE</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>only</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Allows you to explicitly define which field values should be included as available choices
-      <br><code>'field value 1', 'field value 2',...</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>opacity</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines opacity of the control
-      <br><code>0..1</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>options</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Allows you to explicitly define which options should be included as available choices
-      <br><code>'partial-view-1', 'partial-view-2',...</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>padding</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines space between the control's border and its contents
-      <br><code>number</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>placeholder</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="The text to display when nothing is selected<br>(for <code>as: dropdown</code> only)
-      <br><code>string</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>range</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td><i class="fa fa-check"></i></td>
-          <td></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines the years that should be included
-      <br><code>year..year</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>summary</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Summarizes the options that have been selected<br>(for <code>as: dropdown</code> only)
-      <br><code>string</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>target</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td></td>
-          <td><i class="fa fa-check"></i></td>
-          <td></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines whether the filter should apply to elements, connections, or loops.
-      <br><code>selector</code>
-      "</i></td>
-        </tr>
-        <tr>
-          <td>width</td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-check"></i></td>
-          <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines width of control
-      <br><code>number</code>
-      "</i></td>
-        </tr>
+    <tr>
+      <th class="text-left">Property</th>
+      <th class="text-center">Filter</th>
+      <th class="text-center">Showcase</th>
+      <th class="text-center">Cluster</th>
+      <th class="text-center">Tagged-timeline</th>
+      <th class="text-center">View toggle</th>
+      <th class="text-center"></th>
+    </tr>
+    <tr>
+      <td>as</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines how the control is presented
+  <br><code>labels</code><br><code>buttons</code><br><code>dots</code><br><code>dropdown</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>background-color</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines background color of control
+  <br><code>color</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>by</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines the field to filter, showcase, or cluster by
+  <br><code>'Field Name'</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>color</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines color of control's text (labels, placeholders, and summaries only)
+  <br><code>color</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>default</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines which options should be selected by default
+  <br><code>none</code><br><code>show-all</code><br><code>select all</code><br><code>'field value 1', 'field value 2',...</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>except</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Allows you to remove field values from the available choices
+  <br><code>'field value 1', 'field value 2',...</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>font-family</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines font family of control's text (labels, placeholders, and summaries only)
+  <br><code>family-name</code><br><code>generic-family</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>font-size</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines size of control's text (labels, placeholders, and summaries only)
+  <br><code>number</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>font-style</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines style of control's text (labels, placeholders, and summaries only)
+  <br><code>normal</code><br><code>italic</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>font-weight</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines weight of control's text (labels, placeholders, and summaries only)
+  <br><code>number</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>height</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines height of control
+  <br><code>number</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>label</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Adds a label above the control
+  <br><code>"My Label"</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>margin</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines space between the control and other controls on the map
+  <br><code>number</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>mode</td>
+      <td></td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls how the selection is showcased. <code>normal</code> is the default and showcases the selection plus any connections between the showcased elements. <code>loose</code> showcases the selection plus neighboring elements. <code>strict</code> only showcases the selection itself.
+  <br><code>normal</code><br><code>loose</code><br><code>strict</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>multiple</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls whether more than one option can be selected at a time
+  <br><code>TRUE</code><br><code>FALSE</code><br><code>match-all</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>only</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Allows you to explicitly define which field values should be included as available choices
+  <br><code>'field value 1', 'field value 2',...</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>opacity</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines opacity of the control
+  <br><code>0..1</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>options</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Allows you to explicitly define which options should be included as available choices
+  <br><code>'partial-view-1', 'partial-view-2',...</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>padding</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines space between the control's border and its contents
+  <br><code>number</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>placeholder</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="The text to display when nothing is selected<br>(for <code>as: dropdown</code> only)
+  <br><code>string</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>range</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines the years that should be included
+  <br><code>year..year</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>summary</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Summarizes the options that have been selected<br>(for <code>as: dropdown</code> only)
+  <br><code>string</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>target</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td><i class="fa fa-check"></i></td>
+      <td></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines which items will be affected by the control
+  <br><code>selector</code>
+  "</i></td>
+    </tr>
+    <tr>
+      <td>width</td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-check"></i></td>
+      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines width of control
+  <br><code>number</code>
+  "</i></td>
+    </tr>
   </tbody>
 </table>
 
