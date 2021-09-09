@@ -1,4 +1,4 @@
-# Where can I find my past invoices? 
+# Where can I find my invoices? 
 
 There's two ways to view your invoices: 
 
