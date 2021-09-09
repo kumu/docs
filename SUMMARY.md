@@ -173,4 +173,5 @@
 * [How do my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
 * [My map disappeared. How do I bring it back?](faq/my-map-disappeared-how-do-i-bring-it-back.md)
 * [What are loops?](faq/what-are-loops.md)
+* [Where can I find my invoices?](faq/where-can-i-find-invoices.md)
 * [Who is allowed to edit my project?](faq/who-is-allowed-to-edit-my-project.md)
