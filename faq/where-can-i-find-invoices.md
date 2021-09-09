@@ -8,3 +8,4 @@ There's two ways to view your invoices:
 If you're still missing a certain invoice, please send an email to support@kumu.io and we'll be happy to help find it!
 
 
+![Invoices](/images/invoices.png)
