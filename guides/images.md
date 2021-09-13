@@ -11,7 +11,7 @@ In Kumu, there are a number of different places where you can use images to enri
 
 ## Add images to elements
 
-If you are [building a map by hand](/getting-started/first-steps.html#build-your-map-by-hand), you can also easily upload an image file from your computer directly to Kumu. Just click an item (element, connection, or loop) on your map, click the camera icon in the upper right of the [profile](/guides/profiles.html), and click "select a file" to upload your image.
+If you are [building a map by hand](/getting-started/first-steps.html#build-your-map-by-hand), you can easily upload an image file from your computer directly to Kumu. Just click an item (element, connection, or loop) on your map, click the camera icon in the upper right of the [profile](/guides/profiles.html), and click "select a file" to upload your image.
 
 ![Gif showing how to upload an image to Kumu](/images/upload-image.gif)
 
@@ -21,7 +21,9 @@ You can upload images to descriptions and the map overview as well. To do this, 
 Note: when you're uploading images, only JPEG, PNG, and GIF files smaller than 5mb are supported at this time.
 </p>
 
-Instead of uploading a file, you can also add a URL to an image hosted publicly on the web. This is particularly useful when you're [importing a spreadsheet](/guides/import.md) into Kumu—just make sure to add an "Image" column in the the "Elements" sheet, then in the "Image" column, add the public URL for the image that you want to add to each element.
+
+**Importing image(s) through Google Sheets**
+If you're [importing data with Google Sheets](https://docs.kumu.io/guides/import.html), then you'll have to include a URL to an image hosted publicly on the web. First, add an "Image" column in the "Elements" sheet of your Google Sheets file, and then add the public URL for the image that you want to add to each element (e.g. each row). Please note that the URL should lead _directly_ to the image, so you might need to create such a URL first through an image hosting platform. 
 
 
 #### Troubleshooting images
@@ -30,7 +32,7 @@ Have you uploaded images, but are not seeing images on the map? Here are a few s
 
 - Make sure you're not using the SNA template, which doesn't support images. If you are using that template, you can [switch to a different one](/guides/templates.html#switching-templates).
 - If you're entering image links directly:
-  - Make sure your link leads directly to the image, rather than a webpage with the image on it
+  - Make sure your link leads directly to the image, rather than a webpage with the image on it. There are many places where you can host your images, but [this website](https://imgbb.com/) is generally a good place to start. 
   - Make sure your image URL is using a secure connection—that is, the link starts with `https` instead of just `http`
   - Disable image proxy: click the menu icon <i class="fa fa-bars"></i> in the upper left of the map editor, then click **Admin** and click **disable it**.
 
