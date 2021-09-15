@@ -112,7 +112,7 @@ You can also use the field relevance menu to change the order fields are listed 
 
 To change the order, click edit next to the element type that you'd like to adjust:
 
-![Edit field order](/images/order-field.png)
+![Edit field order](/images/field-order.png)
 
 And then simply drag the fields to reorder them:
 
