@@ -110,7 +110,16 @@ If you'd like to limit the fields that are shown, simply click edit and then unc
 ## Field ordering
 You can also use the field relevance menu to change the order fields are listed in the profile. By default all fields are listed alphabetically (and optionally broken into sections if you've assigned categories). The order of fields is unique to each element or connection type.
 
-To change the order, click edit and then simply drag the fields to reorder them. When you are finished, click "Done" and you'll see the new order reflected in the profile.
+To change the order, click edit next to the element type that you'd like to adjust:
+
+![Edit field order](/images/order-field.png)
+
+And then simply drag the fields to reorder them:
+
+![Drag field order](/images/drag-field-order.png)
+
+When you are finished, click "Done" and you'll see the new order reflected in the profile.
+
 
 ## Deleting a field
 If you've created a field and want to delete it and all corresponding values, click on the label of the field in any profile and then go to more -> delete. Alternatively, you can use the menu in the upper left corner to go to the field settings page (choose fields). This will delete the field and any values assigned for any content in your project.
