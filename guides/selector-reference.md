@@ -175,7 +175,7 @@ const selectorReference = [
 ]
 
 KumuDocsExtracted.appendTable(
-  { id: 'selector-reference', reference: selectorReference },
+  { id: 'selectors-reference', reference: selectorReference },
   {
     transforms: {
       Selector: selector => `<code>${selector}</code>`,
