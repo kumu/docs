@@ -90,7 +90,7 @@ If you find a property or a value that's not documented here, [let us know](mail
 
 <script
   type="text/javascript"
-  src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.0/lib/index.umd.js"
+  src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.1/lib/index.umd.js"
 ></script>
 <script type="text/javascript">
 const propertyReference = [
