@@ -86,530 +86,584 @@ The table below lists all of the properties recognized by elements, connections,
 
 If you find a property or a value that's not documented here, [let us know](mailto:support@kumu.io)!
 
+<table id="property-reference" class="property-reference table borderless"></table>
 
-<input type="text" id="search-box" class="search-box" onkeyup="searchProperties()" placeholder="Type to filter..." />
-
-<table id="search-table" class="property-reference table borderless">
-  <tbody>
-    <tr>
-      <th class="text-left">Property</th>
-      <th class="text-center">Elements</th>
-      <th class="text-center">Connections</th>
-      <th class="text-center">Loops</th>
-      <th class="text-center"></th>
-    </tr>
-    <tr>
-      <td>arrow-color</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Override the arrow color for a connection.<br><code>color</code>"</i></td>
-    </tr>
-    <tr>
-      <td>arrow-height</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-min-height</code> to set arrow height.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>arrow-min-height</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-height</code> to set arrow height.<br><code>0</code>"</i></td>
-    </tr>
-    <tr>
-      <td>arrow-min-width</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-width</code> to set arrow width.<br><code>0</code>"</i></td>
-    </tr>
-    <tr>
-      <td>arrow-visibility</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls arrow visibility for directed connections.<br><code>visible</code><br><code>hidden</code>"</i></td>
-    </tr>
-    <tr>
-      <td>arrow-width</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Used in combination with <code>arrow-min-width</code> to set arrow width.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>border-color</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border color.<br><code>color</code>"</i></td>
-    </tr>
-    <tr>
-      <td>border-opacity</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border opacity.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>border-width</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls border width.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>bullseye-color</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls bullseye color.<br><code>color</code>"</i></td>
-    </tr>
-    <tr>
-      <td>bullseye-opacity</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls bullseye opacity.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>bullseye-size</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls bullseye size.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>bullseye-visibility</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls bullseye visibility.<br><code>visible</code><br><code>hidden</code>"</i></td>
-    </tr>
-    <tr>
-      <td>color</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shapes' color.<br><code>color</code><br><code>gradient(color, color)</code>"</i></td>
-    </tr>
-    <tr>
-      <td>curvature</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls line curvature.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>dash</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the length of connection dashes (first number) and the distance between them (second number).<br><code>number number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>delay-color</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls color of delay markings.<br><code>color</code><br><code>inherit</code>"</i></td>
-    </tr>
-    <tr>
-      <td>delay-height</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls height of delay markings.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>delay-position</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls delay markings' position along the connection.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>delay-stroke-width</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls width of delay markings.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>delay-visibility</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls visibility of delay markings.<br><code>visible</code><br><code>hidden</code>"</i></td>
-    </tr>
-    <tr>
-      <td>delay-width</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls space between delay markings.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>display</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls inclusion in the map. Hidden objects will be fully removed from the map.<br><code>map</code><br><code>none</code>"</i></td>
-    </tr>
-    <tr>
-      <td>flag</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Defines field and color scale for flags.<br><code>'Field name' with colorPalette</code>"</i></td>
-    </tr>
-    <tr>
-      <td>flag-offset</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls space between flags and their elements.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>flag-size</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls thickness of flags.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>font-color</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label font color.<br><code>color</code>"</i></td>
-    </tr>
-    <tr>
-      <td>font-family</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label font family.<br><code>family-name</code><br><code>generic-family</code>"</i></td>
-    </tr>
-    <tr>
-      <td>font-size</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label font size.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>font-style</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label style.<br><code>normal</code><br><code>italic</code>"</i></td>
-    </tr>
-    <tr>
-      <td>font-weight</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label font weight.<br><code>normal</code><br><code>bold</code>"</i></td>
-    </tr>
-    <tr>
-      <td>height</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls height of elements that are squares and/or rectangles.<br><code>auto</code><br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>icon</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Adds an icon as the item's image.<br><code>icon-name</code><br><code>icon-name icon-style</code><br><code>off</code>"</i></td>
-    </tr>
-    <tr>
-      <td>icon-color</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the icon color.<br><code>color</code>"</i></td>
-    </tr>
-    <tr>
-      <td>image-size</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls image size.<br><code>cover</code><br><code>contain</code>"</i></td>
-    </tr>
-    <tr>
-      <td>image-url</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Provides source url of image.<br><code>url(http://...)</code>"</i></td>
-    </tr>
-    <tr>
-      <td>image-visibility</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls image visibility<br><code>visible</code><br><code>hidden</code>"</i></td>
-    </tr>
-    <tr>
-      <td>label</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Replaces the default label with a label template.<br><code>none</code><br><code>string template</code>"</i></td>
-    </tr>
-    <tr>
-      <td>label-placement</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls alignment of element labels.<br><code>bottom</code><br><code>center</code>"</i></td>
-    </tr>
-    <tr>
-      <td>label-visibility</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls label visibility for all types.<br><code>visible</code><br><code>hidden</code>"</i></td>
-    </tr>
-    <tr>
-      <td>layer</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls whether an item is in the foreground or background.<br><code>auto</code><br><code>background</code>"</i></td>
-    </tr>
-    <tr>
-      <td>length</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection resting length.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>margin</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls amount of space between the border of an element and its connections.<br><code>number</code><br><code>none</code>"</i></td>
-    </tr>
-    <tr>
-      <td>opacity</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls loop label opacity and element opacity.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>outline-color</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the color of selected elements' outlines.<br><code>color</code>"</i></td>
-    </tr>
-    <tr>
-      <td>outline-offset</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the distance between selected elements and their outlines.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>outline-opacity</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the opacity of selected elements' outlines.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>outline-width</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the width of selected elements' outlines.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>padding</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls amount of space between the border of an element and its contents (image or bullseye).<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>path-opacity</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection opacity.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>pattern</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection pattern. Equivalent of style.<br><code>solid</code><br><code>dashed</code>"</i></td>
-    </tr>
-    <tr>
-      <td>pointer-events</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls whether or not an item can be clicked.<br><code>auto</code><br><code>none</code>"</i></td>
-    </tr>
-    <tr>
-      <td>popover</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Sets the popover content<br><code>none</code><br><code>string template</code>"</i></td>
-    </tr>
-    <tr>
-      <td>prepost-inset</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the inset of pre-labels and post-labels.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>prepost-offset</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls the offset of pre-labels and post-labels.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>profile</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls whether or not the profile can be opened<br><code>on</code><br><code>off</code>"</i></td>
-    </tr>
-    <tr>
-      <td>scale</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls element and connection scale (multiple of base size).<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>shadow-color</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shadow color.<br><code>color</code>"</i></td>
-    </tr>
-    <tr>
-      <td>shadow-opacity</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shadow opacity.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>shadow-size</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shadow size.<br><code>1..5</code>"</i></td>
-    </tr>
-    <tr>
-      <td>shadow-visibility</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shadow visibility<br><code>visible</code><br><code>hidden</code>"</i></td>
-    </tr>
-    <tr>
-      <td>shape</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls shape.<br><code>circle</code><br><code>square</code><br><code>rectangle</code>"</i></td>
-    </tr>
-    <tr>
-      <td>size</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls base size.<br><code>number</code>"</i></td>
-    </tr>
-    <tr>
-      <td>strength</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection strength.<br><code>0..1</code>"</i></td>
-    </tr>
-    <tr>
-      <td>style</td>
-      <td></td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls connection style. Equivalent of pattern.<br><code>solid</code><br><code>dashed</code>"</i></td>
-    </tr>
-    <tr>
-      <td>text-align</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls alignment of element labels.<br><code>bottom</code><br><code>center</code>"</i></td>
-    </tr>
-    <tr>
-      <td>text-overflow</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls text wrapping and truncating.<br><code>off</code><br><code>auto</code><br><code>auto [number]</code><br><code>manual</code><br><code>wrap</code><br><code>wrap [number]</code><br><code>clip</code><br><code>clip [number]</code><br><code>none</code>"</i></td>
-    </tr>
-    <tr>
-      <td>visibility</td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-check"></i></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls visibility. Hidden objects will still affect layout and metrics.<br><code>visible</code><br><code>hidden</code>"</i></td>
-    </tr>
-    <tr>
-      <td>width</td>
-      <td><i class="fa fa-check"></i></td>
-      <td></td>
-      <td></td>
-      <td><i class="fa fa-info-circle" data-placement="left" data-html="true" title="Controls width of elements that are squares and/or rectangles.<br><code>auto</code><br><code>number</code>"</i></td>
-    </tr>
-  </tbody>
-</table>
-
+<script
+  type="text/javascript"
+  src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.0/lib/index.umd.js"
+></script>
 <script type="text/javascript">
+const propertyReference = [
+  {
+    "Property": "arrow-color",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Override the arrow color for a connection.",
+    "INFO Valid values": "color"
+  },
+  {
+    "Property": "arrow-height",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Used in combination with <code>arrow-min-height</code> to set arrow height.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "arrow-min-height",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Used in combination with <code>arrow-height</code> to set arrow height.",
+    "INFO Valid values": '0'
+  },
+  {
+    "Property": "arrow-min-width",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Used in combination with <code>arrow-width</code> to set arrow width.",
+    "INFO Valid values": '0'
+  },
+  {
+    "Property": "arrow-visibility",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls arrow visibility for directed connections.",
+    "INFO Valid values": "visible|hidden"
+  },
+  {
+    "Property": "arrow-width",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Used in combination with <code>arrow-min-width</code> to set arrow width.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "border-color",
+    "Elements": true,
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls border color.",
+    "INFO Valid values": "color"
+  },
+  {
+    "Property": "border-opacity",
+    "Elements": true,
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls border opacity.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "border-width",
+    "Elements": true,
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls border width.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "bullseye-color",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls bullseye color.",
+    "INFO Valid values": "color"
+  },
+  {
+    "Property": "bullseye-opacity",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls bullseye opacity.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "bullseye-size",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls bullseye size.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "bullseye-visibility",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls bullseye visibility.",
+    "INFO Valid values": "visible|hidden"
+  },
+  {
+    "Property": "color",
+    "Elements": true,
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls shapes' color.",
+    "INFO Valid values": "color|gradient(color, color)"
+  },
+  {
+    "Property": "curvature",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls line curvature.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "dash",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls the length of connection dashes (first number) and the distance between them (second number).",
+    "INFO Valid values": "number number"
+  },
+  {
+    "Property": "delay-color",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls color of delay markings.",
+    "INFO Valid values": "color|inherit"
+  },
+  {
+    "Property": "delay-height",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls height of delay markings.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "delay-position",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls delay markings' position along the connection.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "delay-stroke-width",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls width of delay markings.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "delay-visibility",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls visibility of delay markings.",
+    "INFO Valid values": "visible|hidden"
+  },
+  {
+    "Property": "delay-width",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls space between delay markings.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "display",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls inclusion in the map. Hidden objects will be fully removed from the map.",
+    "INFO Valid values": "map|none"
+  },
+  {
+    "Property": "flag",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Defines field and color scale for flags.",
+    "INFO Valid values": "''Field name' with colorPalette"
+  },
+  {
+    "Property": "flag-offset",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls space between flags and their elements.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "flag-size",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls thickness of flags.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "font-color",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls label font color.",
+    "INFO Valid values": "color"
+  },
+  {
+    "Property": "font-family",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls label font family.",
+    "INFO Valid values": "family-name|generic-family"
+  },
+  {
+    "Property": "font-size",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls label font size.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "font-style",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls label style.",
+    "INFO Valid values": "normal|italic"
+  },
+  {
+    "Property": "font-weight",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls label font weight.",
+    "INFO Valid values": "normal|bold"
+  },
+  {
+    "Property": "height",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls height of elements that are squares and/or rectangles.",
+    "INFO Valid values": "auto|number"
+  },
+  {
+    "Property": "icon",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Adds an icon as the item's image.",
+    "INFO Valid values": "icon-name|icon-name icon-style|off"
+  },
+  {
+    "Property": "icon-color",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls the icon color.",
+    "INFO Valid values": "color"
+  },
+  {
+    "Property": "image-size",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls image size.",
+    "INFO Valid values": "cover|contain"
+  },
+  {
+    "Property": "image-url",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Provides source url of image.",
+    "INFO Valid values": "url(http://...)"
+  },
+  {
+    "Property": "image-visibility",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls image visibility",
+    "INFO Valid values": "visible|hidden"
+  },
+  {
+    "Property": "label",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Replaces the default label with a label template.",
+    "INFO Valid values": "none|string template"
+  },
+  {
+    "Property": "label-placement",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls alignment of element labels.",
+    "INFO Valid values": "bottom|center"
+  },
+  {
+    "Property": "label-visibility",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls label visibility for all types.",
+    "INFO Valid values": "visible|hidden"
+  },
+  {
+    "Property": "layer",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls whether an item is in the foreground or background.",
+    "INFO Valid values": "auto|background"
+  },
+  {
+    "Property": "length",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls connection resting length.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "margin",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls amount of space between the border of an element and its connections.",
+    "INFO Valid values": "number|none"
+  },
+  {
+    "Property": "opacity",
+    "Elements": true,
+    "Connections": "",
+    "Loops": true,
+    "INFO Description": "Controls loop label opacity and element opacity.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "outline-color",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls the color of selected elements' outlines.",
+    "INFO Valid values": "color"
+  },
+  {
+    "Property": "outline-offset",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls the distance between selected elements and their outlines.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "outline-opacity",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls the opacity of selected elements' outlines.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "outline-width",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls the width of selected elements' outlines.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "padding",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls amount of space between the border of an element and its contents (image or bullseye).",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "path-opacity",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls connection opacity.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "pattern",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls connection pattern. Equivalent of style.",
+    "INFO Valid values": "solid|dashed"
+  },
+  {
+    "Property": "pointer-events",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls whether or not an item can be clicked.",
+    "INFO Valid values": "auto|none"
+  },
+  {
+    "Property": "popover",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Sets the popover content",
+    "INFO Valid values": "none|string template"
+  },
+  {
+    "Property": "prepost-inset",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls the inset of pre-labels and post-labels.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "prepost-offset",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls the offset of pre-labels and post-labels.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "profile",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls whether or not the profile can be opened",
+    "INFO Valid values": "on|off"
+  },
+  {
+    "Property": "scale",
+    "Elements": true,
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls element and connection scale (multiple of base size).",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "shadow-color",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls shadow color.",
+    "INFO Valid values": "color"
+  },
+  {
+    "Property": "shadow-opacity",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls shadow opacity.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "shadow-size",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls shadow size.",
+    "INFO Valid values": "1..5"
+  },
+  {
+    "Property": "shadow-visibility",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls shadow visibility",
+    "INFO Valid values": "visible|hidden"
+  },
+  {
+    "Property": "shape",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls shape.",
+    "INFO Valid values": "circle|square|rectangle"
+  },
+  {
+    "Property": "size",
+    "Elements": true,
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls base size.",
+    "INFO Valid values": "number"
+  },
+  {
+    "Property": "strength",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls connection strength.",
+    "INFO Valid values": "0..1"
+  },
+  {
+    "Property": "style",
+    "Elements": "",
+    "Connections": true,
+    "Loops": "",
+    "INFO Description": "Controls connection style. Equivalent of pattern.",
+    "INFO Valid values": "solid|dashed"
+  },
+  {
+    "Property": "text-align",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls alignment of element labels.",
+    "INFO Valid values": "bottom|center"
+  },
+  {
+    "Property": "text-overflow",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls text wrapping and truncating.",
+    "INFO Valid values": "off|auto|auto [number]|manual|wrap|wrap [number]|clip|clip [number]|none"
+  },
+  {
+    "Property": "visibility",
+    "Elements": true,
+    "Connections": true,
+    "Loops": true,
+    "INFO Description": "Controls visibility. Hidden objects will still affect layout and metrics.",
+    "INFO Valid values": "visible|hidden"
+  },
+  {
+    "Property": "width",
+    "Elements": true,
+    "Connections": "",
+    "Loops": "",
+    "INFO Description": "Controls width of elements that are squares and/or rectangles.",
+    "INFO Valid values": "auto|number"
+  }
+]
 
-function searchProperties() {
-    let searchBox = document.querySelector("#search-box"),
-        searchTerm = searchBox.value.toLowerCase(),
-        table = document.querySelector("#search-table"),
-        rows = table.querySelectorAll("tr"),
-        i;
-
-    for(i = 1; i < rows.length; i++) {
-        let nameCell = rows[i].querySelector("td"),
-            infoCell = rows[i].querySelector("td:last-child"),
-
-            name = nameCell.textContent,
-            info = infoCell.querySelector('i').dataset.originalTitle,
-
-            textToSearch = `${name.toLowerCase()} ${info.toLowerCase()}`;
-
-        if(textToSearch.indexOf(searchTerm) > -1) {
-            rows[i].style.display = "table-row";
-        } else {
-            rows[i].style.display = "none";
-        }
+KumuDocsExtracted.appendTable(
+  { id: 'property-reference', reference: propertyReference },
+  {
+    transforms: {
+      DEFAULT: (value, { checkmark }) => value === true ? checkmark : `${value}`,
+    },
+    effects: {
+      th: {
+        DEFAULT: th => th.classList.add('text-center'),
+        Property: th => th.classList.add('text-left'),
+      }
     }
-}
+  }
+)
 
+KumuDocsExtracted.appendSearchBox({ id: 'property-reference', hasInfo: true })
 </script>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/property-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
