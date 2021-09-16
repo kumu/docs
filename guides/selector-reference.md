@@ -11,7 +11,7 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
 
 ## Selectors
 
-<table id="selectors-reference" class="table border-bottom"></table>
+<table id="selector-reference-table" class="table border-bottom"></table>
 
 
 ## Operators
@@ -175,7 +175,7 @@ const selectorReference = [
 ]
 
 KumuDocsExtracted.appendTable(
-  { id: 'selectors-reference', reference: selectorReference },
+  { id: 'selector-reference-table', reference: selectorReference },
   {
     transforms: {
       Selector: selector => `<code>${selector}</code>`,

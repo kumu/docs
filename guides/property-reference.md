@@ -86,7 +86,7 @@ The table below lists all of the properties recognized by elements, connections,
 
 If you find a property or a value that's not documented here, [let us know](mailto:support@kumu.io)!
 
-<table id="property-reference" class="property-reference table borderless"></table>
+<table id="property-reference-table" class="property-reference table borderless"></table>
 
 <script
   type="text/javascript"
@@ -649,7 +649,7 @@ const propertyReference = [
 ]
 
 KumuDocsExtracted.appendTable(
-  { id: 'property-reference', reference: propertyReference },
+  { id: 'property-reference-table', reference: propertyReference },
   {
     transforms: {
       DEFAULT: (value, { checkmark }) => value === true ? checkmark : `${value}`,
@@ -663,7 +663,7 @@ KumuDocsExtracted.appendTable(
   }
 )
 
-KumuDocsExtracted.appendSearchBox({ id: 'property-reference', hasInfo: true })
+KumuDocsExtracted.appendSearchBox({ id: 'property-reference-table', hasInfo: true })
 </script>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/property-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
