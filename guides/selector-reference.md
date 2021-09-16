@@ -66,7 +66,7 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
   type="text/javascript"
   src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.0.0/lib/index.umd.js"
 ></script>
-<script>
+<script type="text/javascript">
 const selectorReference = [
   {
     'Selector': `&#42;`,
