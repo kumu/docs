@@ -787,10 +787,16 @@ KumuDocsExtracted.appendTable(
   { id: 'property-reference-table', reference: propertyReference },
   {
     transforms: {
-      DEFAULT: (value, { checkmark }) => 
-        (value === true && checkmark)
-        || (value === false && '')
-        || value,
+      DEFAULT: (value, { checkmark }) => {
+        switch (value) {
+          case true:
+            return checkmark
+          case false:
+            return ''
+          default:
+            return value
+        }
+      }
     },
     effects: {
       th: {
