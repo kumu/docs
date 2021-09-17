@@ -46,8 +46,6 @@ All values are unitless.
 
 ## Supported properties
 
-<input type="text" id="settings-search-box" class="search-box" onkeyup="searchProperties('settings')" placeholder="Type to filter...">
-
 <style>
   th:first-child {
     width: 200px;
