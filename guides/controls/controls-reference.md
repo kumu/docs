@@ -13,12 +13,12 @@ If you find a property or a value that's not documented here, [let us know](mail
 
 ## Static controls
 
-<table id="static-controls-reference" class="table borderless controls-reference"></table>
+<table id="static-controls-reference-table" class="table borderless controls-reference"></table>
 
 
 ## Interactive controls
 
-<table id="interactive-controls-reference" class="table borderless controls-reference"></table>
+<table id="interactive-controls-reference-table" class="table borderless controls-reference"></table>
 
 <script type="text/javascript" src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.2/lib/index.umd.js"></script>
 <script type="text/javascript">
@@ -221,7 +221,7 @@ const staticControlsReference = [
 ]
 
 KumuDocsExtracted.appendTable(
-  { id: 'static-controls-reference', reference: staticControlsReference },
+  { id: 'static-controls-reference-table', reference: staticControlsReference },
   {
     transforms: {
       DEFAULT: (value, { checkmark }) => value === true ? checkmark : `${value}`,
@@ -235,7 +235,7 @@ KumuDocsExtracted.appendTable(
   }
 )
 
-KumuDocsExtracted.appendSearchBox({ id: 'static-controls-reference', hasInfo: true })
+KumuDocsExtracted.appendSearchBox({ id: 'static-controls-reference-table', hasInfo: true })
 </script>
 
 <script type="text/javascript">
@@ -532,7 +532,7 @@ const interactiveControlsReference = [
 
 
 KumuDocsExtracted.appendTable(
-  { id: 'interactive-controls-reference', reference: interactiveControlsReference },
+  { id: 'interactive-controls-reference-table', reference: interactiveControlsReference },
   {
     transforms: {
       DEFAULT: (value, { checkmark }) => value === true ? checkmark : `${value}`,
@@ -546,7 +546,7 @@ KumuDocsExtracted.appendTable(
   }
 )
 
-KumuDocsExtracted.appendSearchBox({ id: 'interactive-controls-reference', hasInfo: true })
+KumuDocsExtracted.appendSearchBox({ id: 'interactive-controls-reference-table', hasInfo: true })
 </script>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/controls/controls-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

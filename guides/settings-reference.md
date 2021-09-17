@@ -58,7 +58,7 @@ All values are unitless.
   }
 </style>
 
-<table id="settings-reference" class="table border-bottom"></table>
+<table id="settings-reference-table" class="table border-bottom"></table>
 
 <script type="text/javascript" src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.2/lib/index.umd.js"></script>
 <script type="text/javascript">
@@ -336,7 +336,7 @@ const settingsReference = [
 ]
 
 KumuDocsExtracted.appendTable(
-  { id: 'settings-reference', reference: settingsReference },
+  { id: 'settings-reference-table', reference: settingsReference },
   {
     transforms: {
       'Possible values': values => 
@@ -353,8 +353,8 @@ KumuDocsExtracted.appendTable(
 )
 
 KumuDocsExtracted.appendSearchBox(
-  { id: 'settings-reference', hasInfo: true }
+  { id: 'settings-reference-table', hasInfo: true }
 )
 </script>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/settings-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/settings-reference-table.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
