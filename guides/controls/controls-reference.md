@@ -224,7 +224,10 @@ KumuDocsExtracted.appendTable(
   { id: 'static-controls-reference-table', reference: staticControlsReference },
   {
     transforms: {
-      DEFAULT: (value, { checkmark }) => value === true ? checkmark : `${value}`,
+      DEFAULT: (value, { checkmark }) => 
+        (value === true && checkmark)
+        || (value === false && '')
+        || value,
     },
     effects: {
       th: {
@@ -535,7 +538,10 @@ KumuDocsExtracted.appendTable(
   { id: 'interactive-controls-reference-table', reference: interactiveControlsReference },
   {
     transforms: {
-      DEFAULT: (value, { checkmark }) => value === true ? checkmark : `${value}`,
+      DEFAULT: (value, { checkmark }) => 
+        (value === true && checkmark)
+        || (value === false && '')
+        || value,
     },
     effects: {
       th: {
