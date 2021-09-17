@@ -62,10 +62,7 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
   </tr>
 </table>
 
-<script
-  type="text/javascript"
-  src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.1/lib/index.umd.js"
-></script>
+<script type="text/javascript" src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.2/lib/index.umd.js"></script>
 <script type="text/javascript">
 const selectorReference = [
   {

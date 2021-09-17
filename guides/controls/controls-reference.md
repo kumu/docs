@@ -20,11 +20,7 @@ If you find a property or a value that's not documented here, [let us know](mail
 
 <table id="interactive-controls-reference" class="table borderless controls-reference"></table>
 
-<script
-  type="text/javascript"
-  src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.1/lib/index.umd.js"
-></script>
-
+<script type="text/javascript" src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.2/lib/index.umd.js"></script>
 <script type="text/javascript">
 const staticControlsReference = [
   {
@@ -34,64 +30,76 @@ const staticControlsReference = [
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": true,
-    "INFO Description": "Defines background color of control",
-    "INFO Valid values": "color"
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines background color of control",
+      validValues: ["color"]
+    }
   },
   {
     "Property": "color",
     "Color-legend": true,
-    "Image": "",
+    "Image": false,
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": true,
-    "INFO Description": "Defines color of control's text",
-    "INFO Valid values": "color"
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines color of control's text",
+      validValues: ["color"]
+    }
   },
   {
     "Property": "font-family",
     "Color-legend": true,
-    "Image": "",
+    "Image": false,
     "Label": true,
     "Text": true,
-    "Title": "",
-    "SNA-dasboard": true,
-    "INFO Description": "Defines font family of control's text",
-    "INFO Valid values": "family-name|generic-family"
+    "Title": false,
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines font family of control's text",
+      validValues: ["family-name", "generic-family"]
+    }
   },
   {
     "Property": "font-size",
-    "Color-legend": "",
-    "Image": "",
+    "Color-legend": false,
+    "Image": false,
     "Label": true,
     "Text": true,
-    "Title": "",
-    "SNA-dasboard": true,
-    "INFO Description": "Defines size of control's text",
-    "INFO Valid values": "number"
+    "Title": false,
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines size of control's text",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "font-style",
     "Color-legend": true,
-    "Image": "",
+    "Image": false,
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": true,
-    "INFO Description": "Defines style of control's text",
-    "INFO Valid values": "normal|italic"
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines style of control's text",
+      validValues: ["normal", "italic"]
+    }
   },
   {
     "Property": "font-weight",
     "Color-legend": true,
-    "Image": "",
+    "Image": false,
     "Label": true,
     "Text": true,
-    "Title": "",
-    "SNA-dasboard": true,
-    "INFO Description": "Defines weight of control's text",
-    "INFO Valid values": "number"
+    "Title": false,
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines weight of control's text",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "height",
@@ -100,9 +108,11 @@ const staticControlsReference = [
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": true,
-    "INFO Description": "Defines height of control",
-    "INFO Valid values": "number"
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines height of control",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "margin",
@@ -111,20 +121,24 @@ const staticControlsReference = [
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": true,
-    "INFO Description": "Defines space between the control and other controls on the map",
-    "INFO Valid values": "number"
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines space between the control and other controls on the map",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "metrics",
-    "Color-legend": "",
-    "Image": "",
-    "Label": "",
-    "Text": "",
-    "Title": "",
-    "SNA-dasboard": true,
-    "INFO Description": "Defines which metrics will be included in the dashboard",
-    "INFO Valid values": "element-count|connection-count|density|reciprocity|diameter|average-degree|average-path-length"
+    "Color-legend": false,
+    "Image": false,
+    "Label": false,
+    "Text": false,
+    "Title": false,
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines which metrics will be included in the dashboard",
+      validValues: ["element-count", "connection-count", "density", "reciprocity", "diameter", "average-degree", "average-path-length"]
+    }
   },
   {
     "Property": "opacity",
@@ -133,9 +147,11 @@ const staticControlsReference = [
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": true,
-    "INFO Description": "Defines opacity of the control",
-    "INFO Valid values": "0..1"
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines opacity of the control",
+      validValues: ["0..1"]
+    }
   },
   {
     "Property": "padding",
@@ -144,42 +160,50 @@ const staticControlsReference = [
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": true,
-    "INFO Description": "Defines space between the control's border and its contents",
-    "INFO Valid values": "number"
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines space between the control's border and its contents",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "src",
-    "Color-legend": "",
+    "Color-legend": false,
     "Image": true,
-    "Label": "",
-    "Text": "",
-    "Title": "",
-    "SNA-dasboard": "",
-    "INFO Description": "Defines the source of the image",
-    "INFO Valid values": "url"
+    "Label": false,
+    "Text": false,
+    "Title": false,
+    "SNA-dashboard": false,
+    info: {
+      description: "Defines the source of the image",
+      validValues: ["url"]
+    }
   },
   {
     "Property": "text-align",
-    "Color-legend": "",
-    "Image": "",
+    "Color-legend": false,
+    "Image": false,
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": true,
-    "INFO Description": "Defines alignment of text within the control",
-    "INFO Valid values": "center|left|right"
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines alignment of text within the control",
+      validValues: ["center", "left", "right"]
+    }
   },
   {
     "Property": "value",
-    "Color-legend": "",
-    "Image": "",
+    "Color-legend": false,
+    "Image": false,
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": "",
-    "INFO Description": "Any plain text string. Markdown and some HTML allowed.",
-    "INFO Valid values": "string"
+    "SNA-dashboard": false,
+    info: {
+      description: "Any plain text string. Markdown and some HTML allowed.",
+      validValues: ["string"]
+    }
   },
   {
     "Property": "width",
@@ -188,9 +212,11 @@ const staticControlsReference = [
     "Label": true,
     "Text": true,
     "Title": true,
-    "SNA-dasboard": true,
-    "INFO Description": "Defines width of control",
-    "INFO Valid values": "number"
+    "SNA-dashboard": true,
+    info: {
+      description: "Defines width of control",
+      validValues: ["number"]
+    }
   }
 ]
 
@@ -221,8 +247,10 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines how the control is presented",
-    "INFO Valid values": "labels|buttons|dots|dropdown"
+    info: {
+      description: "Defines how the control is presented",
+      validValues: ["labels", "buttons", "dots", "dropdown"]
+    }
   },
   {
     "Property": "background-color",
@@ -230,19 +258,23 @@ const interactiveControlsReference = [
     "Showcase": true,
     "Cluster": true,
     "Tagged-timeline": true,
-    "View toggle": "",
-    "INFO Description": "Defines background color of control",
-    "INFO Valid values": "color"
+    "View toggle": false,
+    info: {
+      description: "Defines background color of control",
+      validValues: ["color"]
+    }
   },
   {
     "Property": "by",
     "Filter": true,
     "Showcase": true,
     "Cluster": true,
-    "Tagged-timeline": "",
-    "View toggle": "",
-    "INFO Description": "Defines the field to filter, showcase, or cluster by",
-    "INFO Valid values": "''Field Name'"
+    "Tagged-timeline": false,
+    "View toggle": false,
+    info: {
+      description: "Defines the field to filter, showcase, or cluster by",
+      validValues: ["''Field Name'"]
+    }
   },
   {
     "Property": "color",
@@ -251,28 +283,34 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines color of control's text (labels, placeholders, and summaries only)",
-    "INFO Valid values": "color"
+    info: {
+      description: "Defines color of control's text (labels, placeholders, and summaries only)",
+      validValues: ["color"]
+    }
   },
   {
     "Property": "default",
     "Filter": true,
     "Showcase": true,
-    "Cluster": "",
+    "Cluster": false,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines which options should be selected by default",
-    "INFO Valid values": "none|show-all|select all|''field value 1', 'field value 2',..."
+    info: {
+      description: "Defines which options should be selected by default",
+      validValues: ["none", "show-all", "select all", "''field value 1', 'field value 2',..."]
+    }
   },
   {
     "Property": "except",
     "Filter": true,
     "Showcase": true,
-    "Cluster": "",
-    "Tagged-timeline": "",
-    "View toggle": "",
-    "INFO Description": "Allows you to remove field values from the available choices",
-    "INFO Valid values": "''field value 1', 'field value 2',..."
+    "Cluster": false,
+    "Tagged-timeline": false,
+    "View toggle": false,
+    info: {
+      description: "Allows you to remove field values from the available choices",
+      validValues: ["''field value 1', 'field value 2',..."]
+    }
   },
   {
     "Property": "font-family",
@@ -281,8 +319,10 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines font family of control's text (labels, placeholders, and summaries only)",
-    "INFO Valid values": "family-name|generic-family"
+    info: {
+      description: "Defines font family of control's text (labels, placeholders, and summaries only)",
+      validValues: ["family-name", "generic-family"]
+    }
   },
   {
     "Property": "font-size",
@@ -291,8 +331,10 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines size of control's text (labels, placeholders, and summaries only)",
-    "INFO Valid values": "number"
+    info: {
+      description: "Defines size of control's text (labels, placeholders, and summaries only)",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "font-style",
@@ -301,8 +343,10 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines style of control's text (labels, placeholders, and summaries only)",
-    "INFO Valid values": "normal|italic"
+    info: {
+      description: "Defines style of control's text (labels, placeholders, and summaries only)",
+      validValues: ["normal", "italic"]
+    }
   },
   {
     "Property": "font-weight",
@@ -311,8 +355,10 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines weight of control's text (labels, placeholders, and summaries only)",
-    "INFO Valid values": "number"
+    info: {
+      description: "Defines weight of control's text (labels, placeholders, and summaries only)",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "height",
@@ -321,8 +367,10 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines height of control",
-    "INFO Valid values": "number"
+    info: {
+      description: "Defines height of control",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "label",
@@ -331,8 +379,10 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Adds a label above the control",
-    "INFO Valid values": "\"My Label\""
+    info: {
+      description: "Adds a label above the control",
+      validValues: ["'My Label'"]
+    }
   },
   {
     "Property": "margin",
@@ -341,18 +391,22 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines space between the control and other controls on the map",
-    "INFO Valid values": "number"
+    info: {
+      description: "Defines space between the control and other controls on the map",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "mode",
-    "Filter": "",
+    "Filter": false,
     "Showcase": true,
-    "Cluster": "",
-    "Tagged-timeline": "",
-    "View toggle": "",
-    "INFO Description": "Controls how the selection is showcased. <code>normal</code> is the default and showcases the selection plus any connections between the showcased elements. <code>loose</code> showcases the selection plus neighboring elements. <code>strict</code> only showcases the selection itself.",
-    "INFO Valid values": "normal|loose|strict"
+    "Cluster": false,
+    "Tagged-timeline": false,
+    "View toggle": false,
+    info: {
+      description: "Controls how the selection is showcased. <code>normal</code> is the default and showcases the selection plus any connections between the showcased elements. <code>loose</code> showcases the selection plus neighboring elements. <code>strict</code> only showcases the selection itself.",
+      validValues: ["normal", "loose", "strict"]
+    }
   },
   {
     "Property": "multiple",
@@ -361,18 +415,22 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Controls whether more than one option can be selected at a time",
-    "INFO Valid values": "true|false|match-all"
+    info: {
+      description: "Controls whether more than one option can be selected at a time",
+      validValues: ["true", "false", "match-all"]
+    }
   },
   {
     "Property": "only",
     "Filter": true,
     "Showcase": true,
-    "Cluster": "",
-    "Tagged-timeline": "",
-    "View toggle": "",
-    "INFO Description": "Allows you to explicitly define which field values should be included as available choices",
-    "INFO Valid values": "''field value 1', 'field value 2',..."
+    "Cluster": false,
+    "Tagged-timeline": false,
+    "View toggle": false,
+    info: {
+      description: "Allows you to explicitly define which field values should be included as available choices",
+      validValues: ["''field value 1', 'field value 2',..."]
+    }
   },
   {
     "Property": "opacity",
@@ -381,18 +439,22 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines opacity of the control",
-    "INFO Valid values": "0..1"
+    info: {
+      description: "Defines opacity of the control",
+      validValues: ["0..1"]
+    }
   },
   {
     "Property": "options",
-    "Filter": "",
-    "Showcase": "",
-    "Cluster": "",
-    "Tagged-timeline": "",
+    "Filter": false,
+    "Showcase": false,
+    "Cluster": false,
+    "Tagged-timeline": false,
     "View toggle": true,
-    "INFO Description": "Allows you to explicitly define which options should be included as available choices",
-    "INFO Valid values": "''partial-view-1', 'partial-view-2',..."
+    info: {
+      description: "Allows you to explicitly define which options should be included as available choices",
+      validValues: ["''partial-view-1', 'partial-view-2',..."]
+    }
   },
   {
     "Property": "padding",
@@ -401,8 +463,10 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines space between the control's border and its contents",
-    "INFO Valid values": "number"
+    info: {
+      description: "Defines space between the control's border and its contents",
+      validValues: ["number"]
+    }
   },
   {
     "Property": "placeholder",
@@ -411,18 +475,22 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "The text to display when nothing is selected<br>(for <code>as: dropdown</code> only)",
-    "INFO Valid values": "string"
+    info: {
+      description: "The text to display when nothing is selected<br>(for <code>as: dropdown</code> only)",
+      validValues: ["string"]
+    }
   },
   {
     "Property": "range",
-    "Filter": "",
-    "Showcase": "",
-    "Cluster": "",
+    "Filter": false,
+    "Showcase": false,
+    "Cluster": false,
     "Tagged-timeline": true,
-    "View toggle": "",
-    "INFO Description": "Defines the years that should be included",
-    "INFO Valid values": "year..year"
+    "View toggle": false,
+    info: {
+      description: "Defines the years that should be included",
+      validValues: ["year..year"]
+    }
   },
   {
     "Property": "summary",
@@ -431,18 +499,22 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Summarizes the options that have been selected<br>(for <code>as: dropdown</code> only)",
-    "INFO Valid values": "string"
+    info: {
+      description: "Summarizes the options that have been selected<br>(for <code>as: dropdown</code> only)",
+      validValues: ["string"]
+    }
   },
   {
     "Property": "target",
     "Filter": true,
     "Showcase": true,
-    "Cluster": "",
+    "Cluster": false,
     "Tagged-timeline": true,
-    "View toggle": "",
-    "INFO Description": "Defines which items will be affected by the control",
-    "INFO Valid values": "selector"
+    "View toggle": false,
+    info: {
+      description: "Defines which items will be affected by the control",
+      validValues: ["selector"]
+    }
   },
   {
     "Property": "width",
@@ -451,10 +523,13 @@ const interactiveControlsReference = [
     "Cluster": true,
     "Tagged-timeline": true,
     "View toggle": true,
-    "INFO Description": "Defines width of control",
-    "INFO Valid values": "number"
+    info: {
+      description: "Defines width of control",
+      validValues: ["number"]
+    }
   }
 ]
+
 
 KumuDocsExtracted.appendTable(
   { id: 'interactive-controls-reference', reference: interactiveControlsReference },
