@@ -89,7 +89,7 @@ If you find a property or a value that's not documented here, [let us know](mail
 <table id="property-reference-table" class="property-reference table borderless"></table>
 
 <script type="text/javascript" src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.2/lib/index.umd.js"></script>
-<script type="text/javascript">
+<script async type="text/javascript">
 const propertyReference = [
   {
     "Property": "arrow-color",
