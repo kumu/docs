@@ -89,7 +89,7 @@ If you find a property or a value that's not documented here, [let us know](mail
 <table id="property-reference-table" class="property-reference table borderless"></table>
 
 <script type="text/javascript" src="https://unpkg.com/@alexvipond/kumu-docs-extracted@0.1.2/lib/index.umd.js"></script>
-<script async type="text/javascript">
+<script type="text/javascript">
 const propertyReference = [
   {
     "Property": "arrow-color",
@@ -783,31 +783,33 @@ const propertyReference = [
   }
 ]
 
-KumuDocsExtracted.appendTable(
-  { id: 'property-reference-table', reference: propertyReference },
-  {
-    transforms: {
-      DEFAULT: (value, { checkmark }) => {
-        switch (value) {
-          case true:
-            return checkmark
-          case false:
-            return ''
-          default:
-            return value
+window.addEventListener('load', function() {
+  KumuDocsExtracted.appendTable(
+    { id: 'property-reference-table', reference: propertyReference },
+    {
+      transforms: {
+        DEFAULT: (value, { checkmark }) => {
+          switch (value) {
+            case true:
+              return checkmark
+            case false:
+              return ''
+            default:
+              return value
+          }
+        }
+      },
+      effects: {
+        th: {
+          DEFAULT: th => th.classList.add('text-center'),
+          Property: th => th.classList.add('text-left'),
         }
       }
-    },
-    effects: {
-      th: {
-        DEFAULT: th => th.classList.add('text-center'),
-        Property: th => th.classList.add('text-left'),
-      }
     }
-  }
-)
+  )
 
-KumuDocsExtracted.appendSearchBox({ id: 'property-reference-table', hasInfo: true })
+  KumuDocsExtracted.appendSearchBox({ id: 'property-reference-table', hasInfo: true })  
+})
 </script>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/property-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
