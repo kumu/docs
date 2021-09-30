@@ -119,7 +119,9 @@ To learn more about shapes, [read the full guide](/guides/shapes.html).
 
 If you need more precise control over your size and color decorations, you can click the **MORE OPTIONS** link underneath the four core tools in the Basic Editor.
 
+<span class="small plain">
 ![More options in the basic editor](/images/overview-customize-this-view.png)
+</span>
 
 Select **Decorate elements** to bring up the Decoration Builder for elements.
 
