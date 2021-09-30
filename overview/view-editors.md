@@ -14,7 +14,7 @@ To open the Basic Editor, open your map and click the Settings icon <i class="fa
 ![](/images/overview-basic-editor.png)
 </span>
 
-You'll see four of Kumu's most commonly used view settings.
+You'll see Kumu's most commonly used view settings.
 
 ### Size by
 
@@ -33,7 +33,7 @@ Need more precise control over your sizes? Check out our guide on [refining your
 
 ### Color by
 
-**Color by** allows you to color-code your elements based on any field. Simply select a field from the dropdown, and any elements that have data in that field will be colored!
+**Color by** allows you to color-code your elements based on any field. Select a field from the dropdown, and any elements that have data in that field will be colored!
 
 Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
 
@@ -48,6 +48,15 @@ If you color by a multi-pick field like Tags, Kumu will color code your elements
 To learn more about flags, [read the full guide](/guides/flags.html).
 
 Need more precise control over your colors? Check out our guide on [refining your decorations](/guides/decorate.html#refine-your-decorations).
+
+
+### Shape by
+
+**Shape by** allows you to shape your elements based on any field that can hold only one value. Select a field from the dropdown, and any elements that have data in that field will get a new shape!
+
+![shape by](/images/shape-by-element-type.png)
+
+To learn more about shapes, [read the full guide](/guides/shapes.html).
 
 
 ### Connect by
@@ -76,7 +85,7 @@ Underneath the four core tools in the Basic Editor, you'll see a **MORE OPTIONS*
 
 Follow these links below to learn more about any of these individual options:
 * [Customize defaults](/guides/default-view-settings.html)
-* [Decorate elements and connections](/guides/decorate.html#refine-your-decorations)
+* [Decorate elements and connections](/guides/direct-decorations.html#refine-your-decorations)
 * [Filter elements and connections](/guides/filter.html)
 * [Showcase elements and connections](/guides/showcase.html)
 * [Connect elements with similar values](/guides/clustering.html)

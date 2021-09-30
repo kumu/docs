@@ -61,7 +61,7 @@ The table below lists all of the icons you'll find in the direct decorations too
     </tr>
     <tr>
       <td class="text-center"><i class="fa fa-arrows-alt"></i></td>
-      <td>Edit size</td>
+      <td>Edit size and/or shape</td>
       <td class="text-center"><i class="fa fa-check"></i></td>
       <td class="text-center"><i class="fa fa-check"></i></td>
       <td class="text-center"></td>

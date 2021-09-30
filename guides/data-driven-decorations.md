@@ -1,6 +1,6 @@
 # Data-driven decorations
 
-When you're visually decorating your maps in Kumu (e.g. color-coding, changing sizes, aligning text, etc.), **data-driven decorations** are usually the most efficient way to do so.
+When you're visually decorating your maps in Kumu (e.g. color-coding, changing shapes and sizes, aligning text, etc.), **data-driven decorations** are usually the most efficient way to do so.
 
 However, data-driven decorations is a feature you may not have come across in other graphic tools you've used. This guide will help with the learning curve!
 
@@ -10,6 +10,7 @@ In this guide, you'll find:
 - [Decorate in the Basic Editor](#decorate-in-the-basic-editor)
     - [Size by](#size-by)
     - [Color by](#color-by)
+    - [Shape by](#shape-by)
     - [Fine-tune your decorations](#fine-tune-your-decorations)
 - [Decorate in the Advanced Editor](#decorate-in-the-advanced-editor)
 - [The decorations cascade](#the-decorations-cascade)
@@ -88,7 +89,7 @@ Note that if you don't have any fields with numbers, the **Size by** dropdown me
 
 ### Color by
 
-**Color by** allows you to color-code your elements based on any field. Simply select a field from the dropdown, and any elements that have data in that field will be colored!
+**Color by** allows you to color-code your elements based on any field. Select a field from the dropdown, and any elements that have data in that field will be colored!
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/a0FgR7gXFVk" frameborder="0" allowfullscreen></iframe></p>
 
@@ -105,7 +106,16 @@ If you color by a multi-pick field like Tags, Kumu will color code your elements
 To learn more about flags, [read the full guide](/guides/flags.html).
 
 
-### Fine-tune your decorations
+### Shape by
+
+**Shape by** allows you to shape your elements based on any field that can hold only one value. Select a field from the dropdown, and any elements that have data in that field will get a new shape!
+
+![shape by](/images/shape-by-element-type.png)
+
+To learn more about shapes, [read the full guide](/guides/shapes.html).
+
+
+### Use decoration builders to create custom decorations
 
 If you need more precise control over your size and color decorations, you can click the **MORE OPTIONS** link underneath the four core tools in the Basic Editor.
 
@@ -132,7 +142,7 @@ If you chose to decorate a custom selection, you can use the tools below the fir
 
 After you have built your selection, feel free to play with all the decoration options to find a visual effect that brings insight to your map!
 
-![Element decoration options](/images/element-decorations.jpeg)
+![Element decoration options](/images/element-decorations.png)
 
 Click the **Done** button to apply your decoration, and if you don't like the way it looks, just find the decoration rule in the [existing decorations](/overview/view-editors.html#existing-decorations) section of the Basic Editor, and click the pencil icon <i class="fa fa-pencil"></i> to edit it.
 

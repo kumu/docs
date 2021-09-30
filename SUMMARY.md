@@ -92,6 +92,7 @@
 * [Project admin](guides/project-admin.md)
 * [Quick actions](/guides/quick-actions.md)
 * [Selectors](guides/selectors.md)
+* [Shapes](guides/shapes.md)
 * [Share and embed maps](guides/share-and-embed.md)
 * [Shortcuts](guides/shortcuts.md)
 * [Showcase](guides/showcase.md)
