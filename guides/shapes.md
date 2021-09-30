@@ -11,7 +11,7 @@ Shapes are are a useful visual tool when you need to differentiate between diffe
 
 If you just need to assign shapes to a handful of elements, we recommend using the [direct decoration toolbar](/guides/direct-decorations.html). Hover over any element, then click the Size/Shape icon <i class="fa fa-arrows-alt">  </i>, and pick a shape from the dropdown.
 
-![shapes direct decoration](/images/shapes-direct-decoration)
+![shapes direct decoration](/images/shapes-direct-decoration.png)
 
 
 ## Assigning shapes to specific selections
