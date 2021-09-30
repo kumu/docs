@@ -1,10 +1,10 @@
 # Shapes
 
 Shapes are are a useful visual tool when you need to differentiate between different types of elements. Kumu has several tools you can use to customize elements' shapes—this guide will help you pick which tool is the right one for your use case:
-- Assigning shapes manually
-- Assigning shapes to specific selections
-- Assigning shapes to all elements automatically
-- Assigning shapes from the Advanced Editor
+- [Assigning shapes manually](#Assigning-shapes-manually)
+- [Assigning shapes to specific selections](#Assigning-shapes-to-specific-selections)
+- [Assigning shapes to all elements automatically](#Assigning-shapes-to-all-elements-automatically)
+- [Assigning shapes from the Advanced Editor](#Assigning-shapes-from-the-Advanced-Editor)
 
 
 ## Assigning shapes manually
