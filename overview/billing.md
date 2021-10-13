@@ -28,7 +28,8 @@ When your bill is increased or decreased during a billing cycle, Kumu's billing 
 To switch your account to annual billing: 
 1. Click on the Workspaces tab in your Dashboard
 2. Click on the workspace you'd like to change the billing frequency for
-3. Click on "Switch to yearly billing and save 20%" below the **Billing** header
+3. Make sure to use the button "Add card" to add a credit card, if you hadn't already done so
+4. Click on "Switch to yearly billing and save 20%" below the **Billing** header. You'll be charged immediately. 
 
 ![Switch to annual billing](/images/switch-annual-billing.png)
 
