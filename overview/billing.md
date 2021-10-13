@@ -25,7 +25,16 @@ When your bill is increased or decreased during a billing cycle, Kumu's billing 
 
 #### Annual billing
 
-If you are on an annual billing cycle, Kumu will bill your account once per year based on a pre-set private project limit, **not** the actual number of private projects you own.
+To switch your account to annual billing: 
+1. Click on the Workspaces tab in your Dashboard
+2. Click on the workspace you'd like to change the billing frequency for
+3. Click on "Switch to yearly billing and save 20%" below the **Billing** header
+
+![Switch to annual billing](/images/switch-annual-billing.png)
+
+**Note:** 
+
+If you are on an annual billing cycle, Kumu will bill your account once per year based on a pre-set private project limit, **not** the actual number of private projects you own. 
 
 This means that deleting and archiving private projects _will not_ reduce your annual bill; they will only make more private projects available under your total private project limit.
 
