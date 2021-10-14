@@ -26,7 +26,9 @@ Your workspace will be a Basic workspace by default. In the Billing section of y
 
 ## Add users to a Pro workspace
 
-After you create your Pro workspace, you can start inviting other Kumu users to join. Users can be invited to be owners or members:
+After you create your Pro workspace, you can start inviting other Kumu users to join. Scroll down to the **Collaboration** header on the Pro Workspace Settings page to add or edit the users of a Pro Workspace. (If you're not already on your Pro Workspace page, click on the Workspaces tab in your Kumu Dashboard > and then on the title of the Pro Workspace to get there)
+
+Users can be invited to be owners or members:
 
 - **Owners** can add new members, and they have full access to everything within the Pro workspace. The creator of the Pro workspace is an Owner by default. Owners also have admin access to update billing and profile information.
 - **Members** can see a list of all projects owned by the Pro workspace, and they can create new projects, but they can only open projects they've been [given access to](#grant-direct-access-to-projects).
