@@ -16,7 +16,7 @@ Kumu's [filter feature](/guides/filter.html) can show and hide elements, connect
 
 To check if a filter has been applied and might be hiding some or all of your content, open up the [Basic Editor](/overview/view-editors.html#basic-editor), and look at the text next to **Filter**, which tells you the number of hidden items. If that text indicates there are hidden items, click the settings icon to the right of **Filter**, and see if you can adjust the filter settings to bring your data back into view.
   
-Another option is to go into your Advanced Editor and see if you can find a line of code saying _ignore: "element code or name";_. You can delete that line and it will bring that/those element(s)back. Don't forget to click Save at the bottom!
+Another option is to go into your Advanced Editor and see if you can find a line of code saying ignore: "element code or name";. You can delete that line and it will bring that/those element(s)back. Don't forget to click Save at the bottom!
 
 ![Unhide Elements](/images/unhide-elements.png)  
   
