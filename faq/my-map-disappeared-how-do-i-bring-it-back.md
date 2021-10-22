@@ -16,6 +16,10 @@ Kumu's [filter feature](/guides/filter.html) can show and hide elements, connect
 
 To check if a filter has been applied and might be hiding some or all of your content, open up the [Basic Editor](/overview/view-editors.html#basic-editor), and look at the text next to **Filter**, which tells you the number of hidden items. If that text indicates there are hidden items, click the settings icon to the right of **Filter**, and see if you can adjust the filter settings to bring your data back into view.
   
+Another option is to go into your Advanced Editor and see if you can find a line of code saying _ignore: "element code or name";_. You can delete that line and it will bring that/those element(s)back. Don't forget to click Save at the bottom!
+
+![Unhide Elements](/images/unhide-elements.png)  
+  
 ## Did your Google Sheet disconnect? 
 
 If you imported your data through Google Sheets, then that link is the lifeline to the data in your map. If your sheet link is disconnected or deleted, then all the data in your map will disappear. Click on the green button at the bottom and choose Import, or hit the "i" key of your keyboard to see whether your Google Sheet is still connected. 
