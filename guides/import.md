@@ -208,7 +208,7 @@ Sorry, there was an error with your import. <br/>Error: Import format not recogn
 
 ...you're trying to import an .xls file. Save it as .xlsx and try again!
 
-### Importing an Excel file in Google Drive as a Google Sheet
+#### Importing an Excel file in Google Drive as a Google Sheet
 
 If you add an XLSX file to Google Drive, it will still open as an Excel sheet, only inside Google Drive. Make sure you're file is actually a Google Sheet by clicking on "Open with" at the top of the page and choose Google Sheets. You can enter that sheet's link as your Google Sheet link. 
 
