@@ -69,9 +69,7 @@ For a personal account, if you want to change the email that receipts are sent t
 
 ## Paying by invoice
 
-If you can't enter a credit card into Kumu's website for repeat billing, you can pay by invoice instead. An invoice will allow you to make a one-time payment via credit card, ACH transfer, or a check in the mail.
-
-To request an invoice, you can [email support@kumu.io](mailto:support@kumu.io).
+If you can't enter a credit card into Kumu's website for repeat billing, you can pay by invoice instead. An invoice will allow you to make a one-time payment via credit card, ACH transfer, or a check in the mail. To request an invoice, you can [email support@kumu.io](mailto:support@kumu.io).
 
 <p class="alert alert-success">
   Have any other questions about billing? Send an email to <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a> and we'll get back to you!
