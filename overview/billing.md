@@ -9,13 +9,6 @@ To change the credit card you use with Kumu, you can do the following:
 2. [Go to your list of workspaces](https://kumu.io/dashboard#workspaces) and select the workspace from the list
 3. In the Billing section of the workspace's settings, add your credit card details.
 
-## Free trials
-
-When you create a new workspace (including the Basic workspace that Kumu creates for you when you first sign up), you automatically receive a 7-day free trial of private projects in that workspace. At any time during your free trial, you can add a credit card to your billing settings to start a subscription plan as soon as the free trial ends.
-
-If you haven't added a credit card before the free trial ends, your private projects will be locked (you won't be able to view or edit them), and Kumu will prompt you to make your projects public or update your billing settings in order to unlock.
-
-
 #### Monthly billing
 
 If you are on a monthly billing cycle, Kumu will bill your account on the same day each month, based on the number of private projects you own. For Basic workspaces, each private project costs $9/month, and for Pro workspaces, each private project costs $20/month. Pro workspaces are also billed a $10 membership fee each month.
@@ -59,6 +52,12 @@ When you increase your private project limit on an annual plan, a prorated charg
 #### Enterprise billing
 
 If you're using the [Enterprise version of Kumu](/overview/kumu-io-and-kumu-enterprise.html), you'll be billed according to how many users you have, instead of how many projects you have. Enterprise customers are billed annually, and seats are sold in packs of 5 users.
+
+## Free trials
+
+When you create a new workspace (including the Basic workspace that Kumu creates for you when you first sign up), you automatically receive a 7-day free trial of private projects in that workspace. At any time during your free trial, you can add a credit card to your billing settings to start a subscription plan as soon as the free trial ends.
+
+If you haven't added a credit card before the free trial ends, your private projects will be locked (you won't be able to view or edit them), and Kumu will prompt you to make your projects public or update your billing settings in order to unlock.
 
 
 ## Payment receipts
