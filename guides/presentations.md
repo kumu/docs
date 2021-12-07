@@ -95,7 +95,7 @@ If you want your presentation to automatically advance to the next slide, use th
 <div>
   <input id="presentation-url" type="text" class="search-box" oninput="customUrlEffect()" placeholder="Paste your presentation link..." />
 
-  <div style="display: flex; align-items: center; gap: 6px;">
+  <div style="display: flex; align-items: center; gap: 6px; margin-bottom: .85em;">
     <span>Advance to the next slide after</span>
     <input id="autoplay-seconds" type="number" value="10" style="width: 60px" oninput="customUrlEffect()" />
     <span>seconds</span>
