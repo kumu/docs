@@ -61,10 +61,10 @@ Need a slug for your project? Use this tool to create your own:
 </style>
 
 <div>
-  <input id="simple-slugify-input" type="text" class="search-box" onkeyup="simpleSlugify()" placeholder="Type a word or phrase...">
+  <input id="simple-slugify-input" type="text" class="search-box" onkeyup="simpleSlugify()" placeholder="Type a word or phrase..." />
 
   <div id="result">
-    <input id="simple-slugify-result" type="text" class="search-box input-code" value="" placeholder="Slug will appear here...">
+    <input id="simple-slugify-result" type="text" class="search-box input-code" value="" placeholder="Slug will appear here..." />
 
     <i class="fa fa-copy" id="copy-icon" onclick="copySlug()">  </i>
   </div>

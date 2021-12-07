@@ -93,7 +93,7 @@ If you want your presentation to automatically advance to the next slide, use th
 </style>
 
 <div>
-  <input id="presentation-url" type="text" class="search-box" onInput="() => customUrlEffect()" placeholder="Paste your presentation link...">
+  <input id="presentation-url" type="text" class="search-box" onInput="customUrlEffect()" placeholder="Paste your presentation link..." />
 
   <div style="display: flex; align-items: center; gap: 6px;">
     <span>Advance to the next slide after</span>
@@ -102,9 +102,9 @@ If you want your presentation to automatically advance to the next slide, use th
   </div>
 
   <div id="result">
-    <input id="presentation-url-custom" type="text" class="search-box input-code" value="" placeholder="Custom link will appear here...">
+    <input id="presentation-url-custom" type="text" class="search-box input-code" value="" placeholder="Custom link will appear here..." />
 
-    <i class="fa fa-copy" id="copy-icon" onclick="() => copyCustomUrl()">  </i>
+    <i class="fa fa-copy" id="copy-icon" onclick="copyCustomUrl()">  </i>
   </div>
 
   <p class="alert alert-success alert-sm" id="copy-success">Copied to clipboard</p>
