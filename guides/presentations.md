@@ -93,11 +93,11 @@ If you want your presentation to automatically advance to the next slide, use th
 </style>
 
 <div>
-  <input id="presentation-url" type="text" class="search-box" onInput="customUrlEffect()" placeholder="Paste your presentation link..." />
+  <input id="presentation-url" type="text" class="search-box" oninput="customUrlEffect()" placeholder="Paste your presentation link..." />
 
   <div style="display: flex; align-items: center; gap: 6px;">
     <span>Advance to the next slide after</span>
-    <input id="autoplay-seconds" type="number" value="10" style="width: 60px" />
+    <input id="autoplay-seconds" type="number" value="10" style="width: 60px" oninput="customUrlEffect()" />
     <span>seconds</span>
   </div>
 
@@ -108,18 +108,25 @@ If you want your presentation to automatically advance to the next slide, use th
   </div>
 
   <p class="alert alert-success alert-sm" id="copy-success">Copied to clipboard</p>
-</div>
 
 <script>
 function customUrlEffect () {
-  document.getElementById("#copy-success").style.opacity = "0";
+  document.getElementById("copy-success").style.opacity = "0";
 
-  const url = new URL(document.getElementById('presentation-url').value)
+  const url = (() => {
+    try {
+      return new URL(document.getElementById('presentation-url').value)
+    } catch {
+      return ''
+    }
+  })()
+
+  if (!url) {
+    return
+  }  
+
   const params = url.search
-    ? url.search
-      .replace(/^?/, '')
-      .split('&')
-      .filter(param => !param.startsWith('autoplay'))
+    ? url.search.replace(/^\?/, '').split('&').filter(param => !param.startsWith('autoplay'))
     : []
   const seconds = Number(document.getElementById('autoplay-seconds').value)
 
@@ -135,7 +142,7 @@ function copyCustomUrl() {
   const customUrl = document.getElementById('presentation-url-custom').value
 
   navigator.clipboard.writeText(customUrl)
-    .then(() => document.getElementById("#copy-success").style.opacity = "1")
+    .then(() => document.getElementById("copy-success").style.opacity = "1")
 }
 </script>
 
