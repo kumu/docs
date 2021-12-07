@@ -71,20 +71,72 @@ Copy/paste the code onto your website, and you're visitors will see a fully inte
 
 ## Autoplay a presentation
 
-If you want your presentation to automatically advance to the next slide, you can use Kumu's autoplay feature by adding the `autoplay` parameter to your URL.
+If you want your presentation to automatically advance to the next slide, use the tool below to create a custom autoplay link. Note that when you enable autoplay on a presentation, Kumu will automatically loop around to the first slide after it reaches the end of the presentation.
 
-```
-yourusername.kumu.io/your-presentation?autoplay=10
-```
+<style>
+#result {
+  position: relative;
+}
 
-The first piece of this URL, `yourusername.kumu.io/your-presentation` is the default URL Kumu creates when you publish your presentation. To autoplay, just add `?autoplay=` and the number of seconds you want to wait between each slide. In the example above, `?autoplay=10` tells Kumu to wait ten seconds, then advance to the next slide.
+#copy-icon {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  background-color: #f7f7f7;
+  padding: 5px;
+}
 
-For private presentations, replace `?autoplay` with `&autoplay`, using an ampersand instead of a question mark.
+#copy-success {
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+</style>
 
-```
-yourusername.kumu.io/your-presentation?token=abc-123&autoplay=10
-```
+<div>
+  <input id="presentation-url" type="text" class="search-box" onInput="() => customUrlEffect()" placeholder="Paste your presentation link...">
 
-When you enable autoplay on a presentation, Kumu will automatically loop around to the first slide after it reaches the end of the presentation.
+  <div style="display: flex; align-items: center; gap: 6px;">
+    <span>Advance to the next slide after</span>
+    <input id="autoplay-seconds" type="number" value="10" style="width: 60px" />
+    <span>seconds</span>
+  </div>
+
+  <div id="result">
+    <input id="presentation-url-custom" type="text" class="search-box input-code" value="" placeholder="Custom link will appear here...">
+
+    <i class="fa fa-copy" id="copy-icon" onclick="() => copyCustomUrl()">  </i>
+  </div>
+
+  <p class="alert alert-success alert-sm" id="copy-success">Copied to clipboard</p>
+</div>
+
+<script>
+function customUrlEffect () {
+  document.getElementById("#copy-success").style.opacity = "0";
+
+  const url = new URL(document.getElementById('presentation-url').value)
+  const params = url.search
+    ? url.search
+      .replace(/^?/, '')
+      .split('&')
+      .filter(param => !param.startsWith('autoplay'))
+    : []
+  const seconds = Number(document.getElementById('autoplay-seconds').value)
+
+  const customUrl = params.length > 0
+    ? `${url.origin}${url.pathname}?${params.join('&')}&autoplay=${seconds}`
+    : `${url.origin}${url.pathname}?autoplay=${seconds}`
+
+  document.getElementById('presentation-url-custom').value = customUrl
+
+}
+
+function copyCustomUrl() {
+  const customUrl = document.getElementById('presentation-url-custom').value
+
+  navigator.clipboard.writeText(customUrl)
+    .then(() => document.getElementById("#copy-success").style.opacity = "1")
+}
+</script>
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/presentations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
