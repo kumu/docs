@@ -28,36 +28,21 @@ You can also use the external link button (<i class="fa fa-external-link-square"
   </p>
 </div>
 
-## Advanced Options for Embeds
+## Enable scrolling for embeds
 
-By default, embeds include all of the built-in map controls (search, zoom, and settings). If you don't need them, you can use the URL parameters below to pick and choose what you want to include:
-
-- `search=0` hides the search control
-- `zoom=0` hides the zoom buttons
-- `settings=0` hides the settings button
-- `bare=1` hides all built-in controls
-- `simple=1` hides all controls except the zoom buttons
-- `scroll=1` allows readers to zoom in and out by scrolling
-
-To use them, just add the desired parameters to the query string of the embed URL.
-
-Here's an example of how you would disable the settings button:
+To avoid interfering with page scrolling, scroll-to-zoom is disabled by default for maps that are embedded in other web pages. To enable scrolling, add `?scroll=1` to the end of the embed URL.
 
 ```
-embed.kumu.io/abc123?settings=0
+embed.kumu.io/abc123?scroll=1
 ```
 
-Note that you need to put a `?` after the default URL before adding custom parameters.
 
-Also, if you are using more than one custom parameter, join them together with `&`. For example, to disable zoom **and** settings, you would use:
+## Hide the settings button and other tools
 
-```
-embed.kumu.io/abc123?zoom=0&settings=0
-```
+When you're editing a map, it's usually helpful to have the search bar, settings button, zoom buttons, etc. For the shareable version of a map, though, you might want to hide some or all of these parts of the interface.
 
-<p class="alert">
-  To avoid interfering with page scrolling, scroll-to-zoom is disabled when embeds are served within <code>iframe</code> elements. You can use the <code>scroll=1</code> parameter if you would like to restore scroll-to-zoom behavior.
-</p>
+For more information on how to do that, check out our guide on [hiding the settings button](/faq/how-do-i-hide-the-settings-button.html).
+
 
 ## Embed a presentation
 
