@@ -60,7 +60,7 @@ Need a slug for your project? Use this tool to create your own:
 }
 </style>
 
-<div id="#simply-slugify">
+<div>
   <input id="simple-slugify-input" type="text" class="search-box" onkeyup="simpleSlugify()" placeholder="Type a word or phrase...">
 
   <div id="result">
@@ -70,6 +70,7 @@ Need a slug for your project? Use this tool to create your own:
   </div>
 
   <p class="alert alert-success alert-sm" id="copy-success">Copied to clipboard</p>
+</div>
 
 <script>
   function simpleSlugify() {
