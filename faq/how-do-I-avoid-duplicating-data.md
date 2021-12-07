@@ -53,6 +53,8 @@ Pua'ena Point | Head high
 
 The same rules apply here when updating data on existing elements: if Kumu can find a Label-Type match for the elements you uploaded, it will update that element's data, otherwise, it will create a new element.
 
+#### Use IDs to separate identical labels
+
 Finally, you can use an **ID** column to tell Kumu to ignore both Label _and_ Type, and only match existing elements based on their unique ID. This can be really useful when you want to change the Label and/or Type of elements without creating duplicates:
 
 ID | Label | Type
