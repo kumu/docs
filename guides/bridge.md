@@ -5,9 +5,18 @@ Kumu's **bridge** feature allows you to automatically draw connections between a
 For example, if two people are connected to an organization on your map, you can tell Kumu to bridge over the organization, connecting those two people directly and hiding the organization from view.
 
 
+## Bridge in the Basic Editor
+
+The easiest way to bridge over elements is with the [Basic Editor](/overview/view-editors.html#basic-editor). Open the Basic Editor, then click **More Options**, and select **Build bridges across mutual connections**.
+
+Use the **Bridge** interface to set up rules for bridging over elements that meet a given [selector](/guides/selectors.html).
+
+![](/images/bridge-ui.png)
+
+
 ## Bridge in the Advanced Editor
 
-To bridge using the Advanced Editor, here's the basic syntax:
+To bridge using the [Advanced Editor](/overview/view-editors.html#advanced-editor), here's the basic syntax:
 ```
 @settings {
   bridge: selector;
