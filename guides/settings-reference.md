@@ -124,7 +124,7 @@ All values are unitless.
     {
       "Property": "ignore-orphans",
       "Description": "Hides any orphans (elements that have no connections). See the <a href=\"/guides/filter.html#ignore-orphans\">filter guide</a> for more information.",
-      "Possible values": ["selector"]
+      "Possible values": ["true", "false"]
     },
     {
       "Property": "include",
