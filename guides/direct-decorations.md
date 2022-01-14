@@ -141,17 +141,20 @@ The table below lists all of the icons you'll find in the direct decorations too
 
 ## Undo direct decorations
 
-If you don't like certain decorations you've used, or you decided to switch over to data-driven decorations, you can undo your direct decorations for either one or all of the entities on your map. 
+You can undo your direct decorations for either one, or all, of the entities on your map. 
 
-To first view what exactly has been decorated with the toolbar, click on the Settings button on the right-hand side of your map and **hover** over the blue text "Disable direct decorations". You'll then see what elements/connections have been affected by direct decorations. If you wish to undo _all_ of the direct decorations, you can decide to **click** on "Disable direct decorations" and your map will return to the way it was before. Similarly, if you want to enable direct decorations again, click on the same blue text that is now "Enable direct decorations". 
+To view what has been decorated with the toolbar, click on the Settings button on the right-hand side of your map and **hover** over the blue text "Disable direct decorations". You'll then see what elements/connections have been affected by direct decorations. 
+
+If you wish to undo _all_ of the direct decorations, you can **click** on "Disable direct decorations" to return your map to the way it was before. Similarly, if you want to enable direct decorations again, click on the same blue text that is now "Enable direct decorations". 
 
 Another option is to disable direct decorations for one or a few single items on your map. To do so:
 
 1. Hover over any element or connection
 2. Click on the edit pencil to open the direct decorations toolbar
 3. Choose the "More" icon at the end, 
-4. And then click on the "Reset direct decorations" icon (represented as an eye with a dash through it) 
+4. Click on the "Reset direct decorations" icon (represented as an eye with a dash through it) 
 5. In the next popup window, click "Reset". 
+ 
 _Note that you can here also choose for a "hard reset", which resets the direct decorations of your entire map._
 
 Similarly, if you wish to undo the direct decorations of only _a few_ selected items, select those items first, and then follow the steps above. 
