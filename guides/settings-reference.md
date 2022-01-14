@@ -122,6 +122,11 @@ All values are unitless.
       "Possible values": ["selector"]
     },
     {
+      "Property": "ignore-orphans",
+      "Description": "Hides any orphans (elements that have no connections). See the <a href=\"/guides/filter.html#ignore-orphans\">filter guide</a> for more information.",
+      "Possible values": ["selector"]
+    },
+    {
       "Property": "include",
       "Description": "Includes a selection. See the <a href=\"/guides/filter.html#filter-in-the-advanced-editor\">filter guide</a> for more information.",
       "Possible values": ["selector"]
