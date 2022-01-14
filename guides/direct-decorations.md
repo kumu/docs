@@ -145,12 +145,12 @@ If you don't like certain decorations you've used, or you decided to switch over
 
 To first view what exactly has been decorated with the toolbar, click on the Settings button on the right-hand side of your map and **hover** over the blue text "Disable direct decorations". You'll then see what elements/connections have been affected by direct decorations. If you wish to undo _all_ of the direct decorations, you can decide to **click** on "Disable direct decorations" and your map will return to the way it was before. Similarly, if you want to enable direct decorations again, click on the same blue text that is now "Enable direct decorations". 
 
-Another option is to disable direct decorations for one or a few single items on your map. To do so
+Another option is to disable direct decorations for one or a few single items on your map. To do so:
 
-1. hover over an element
-2. click on the edit pencil
-3. click on the "More" icon at the end, 
-4. and then click on the "Reset direct decorations" icon (represented as an eye with a dash through it) 
+1. Hover over any element or connection
+2. Click on the edit pencil to open the direct decorations toolbar
+3. Choose the "More" icon at the end, 
+4. And then click on the "Reset direct decorations" icon (represented as an eye with a dash through it) 
 5. In the next popup window, click "Reset". 
 _Note that you can here also choose for a "hard reset", which resets the direct decorations of your entire map._
 
