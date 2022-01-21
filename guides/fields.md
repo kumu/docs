@@ -92,7 +92,7 @@ We reserve a few category names that we give special treatment to:
 - **Metrics** - This category holds any of the data you create using Kumu's [Metrics](/guides/metrics.md) tool.
 
 
-## Field relevance/privacy
+## Field relevance or privacy
 
 By default, all fields are shown in the profiles of all elements, connections, and loops while you're editing the map. Even if a field has a blank value, it will still show up in the profile.
 
