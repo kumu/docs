@@ -356,7 +356,7 @@ All values are unitless.
   )
 
   KumuDocsExtracted.appendSearchBox(
-    { id: 'settings-reference-table', hasInfo: true }
+    { id: 'settings-reference-table', hasInfo: false }
   )
 })()
 </script>
