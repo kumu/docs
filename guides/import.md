@@ -2,9 +2,6 @@
 
 Kumu's import feature makes it possible to map your existing data, without recreating every bit of it by hand. Whether your data is in [Excel](#import-from-excel-or-csv), a [comma-separated values (CSV) file](#import-from-excel-or-csv), or [Google Sheets](#import-from-google-sheets), you can follow this guide to quickly bring it into Kumu.
 
-<iframe src="https://player.vimeo.com/video/96531654" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-
 ## Structure your data for Kumu
 <!-- Take the time to read our guide on structuring your data for Kumu before you start building your import spreadsheet:
 <script async class="speakerdeck-embed" data-id="3fa28aedbab94c04870608fce4649dac" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
