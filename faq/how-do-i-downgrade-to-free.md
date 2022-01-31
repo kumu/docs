@@ -24,4 +24,6 @@ To downgrade to a Basic Workspace, please take the following steps:
 
 You'll now automatically stop being billed for the Pro Workspace. 
 
+_Want to download a backup file of your project before you delete it? Learn how to do that [here](https://docs.kumu.io/guides/blueprints.html?q=convert#project-backups)._
+
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-downgrade-to-free.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
