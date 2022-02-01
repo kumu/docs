@@ -21,7 +21,20 @@ sizing arrows manually.
 }
 ```
 
-NOTE: both `arrow-width` and `arrow-height` are multiplied against the connection width so take that
-into consideration when setting the values.
+_NOTE: both `arrow-width` and `arrow-height` are multiplied against the connection width so take that
+into consideration when setting the values._
+
+#### Arrow offset
+
+You can also increase the offset between the element and the connection to make the arrow more distinctive. 
+To do so, add this code to your advanced editor: 
+
+```
+element {
+margin: 10;
+}
+```
+
+You can change the number 10 to any other number to increase/decrease the space between element and arrow.
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-adjust-arrow-size.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
