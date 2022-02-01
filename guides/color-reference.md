@@ -383,7 +383,7 @@ Both sequential and diverging color palettes are great when you are trying to sh
     </tr>
     <tr class="spacer"><td>&nbsp;</td></tr>
     <tr>
-      <td>babygirl</td>
+      <td>flamingo</td>
       <td style="background: #CC66A4;">&nbsp;</td>
       <td style="background: #CE8DAD;">&nbsp;</td>
       <td style="background: #D4AFBD;">&nbsp;</td>
