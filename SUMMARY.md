@@ -158,6 +158,7 @@
 * [How do I downgrade my account to free?](faq/how-do-i-downgrade-to-free.md)
 * [How do I edit virtual elements?](faq/how-do-i-edit-virtual-elements.md)
 * [How do I get rid of duplicates?](faq/how-to-get-rid-of-duplicates.md)
+* [How do I hide elements without connections?](faq/how-do-i-hide-elements-without-connections.md)
 * [How do I hide images from the map but keep them in the profile?](faq/how-do-i-hide-images-from-the-map.md)
 * [How do I hide labels on my map?](faq/how-do-I-hide-labels.md)
 * [How do I hide the settings button?](faq/how-do-i-hide-the-settings-button.md)
