@@ -1,12 +1,13 @@
 # How do I size elements based on the number of connections?
-Want to know which element is the most well-connected? Here's where combining metrics and sizing comes in handy. 
+Want to know which element is the most well-connected? 
+Here's where combining metrics and sizing comes in handy. 
 
 ## Run metrics
 
-First, you'll have to run metrics to let Kumu calculate the number of connections of each element with one click of a button. 
+First, you'll have to run metrics to let Kumu calculate the number of connections of each element for you:
 
 1. Click on the "Metrics" icon in the bottom right corner of the map
-2. Select "Social Network Analysis"
+2. Select "Social Network Analysis" to open up the Metrics menu
 3. Choose the "degree" metric from the dropdown list
 4. Click the large button "Discover the connectors/hubs" to see the results
 5. Kumu will automatically create a field called "degree" and save the values
@@ -20,7 +21,7 @@ First, you'll have to run metrics to let Kumu calculate the number of connection
 
 ## Size your elements
 
-Once the metrics are calculated, you can size your elements by going into Settings on the right, and changing the "Size By" dropdown of the Basic Editor to the field of the metric you calculated (e.g. "degree).
+Once the metrics are calculated, you can size your elements by going into Settings on the right, and changing the "Size By" dropdown of the Basic Editor to the field of the metric you calculated (e.g. "degree").
 More information on sizing can be found in [this guide](https://docs.kumu.io/guides/data-driven-decorations.html#size-by)
 
 
