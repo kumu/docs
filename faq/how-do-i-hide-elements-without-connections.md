@@ -31,7 +31,5 @@ To add a handy control to your map that toggles orphans on and off whenever need
  }
 }
 ```
-To adjust the location or aesthetic of your control, visit [the Controls guide](https://docs.kumu.io/guides/controls.html). 
-
-![hide orphans gif](/images/hide-orphans.gif)
+To adjust the location or aesthetic of your control, visit the [Controls guide](https://docs.kumu.io/guides/controls.html). 
 
