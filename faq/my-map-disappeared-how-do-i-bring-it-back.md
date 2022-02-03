@@ -23,13 +23,19 @@ Another option is to go into your Advanced Editor and see if you can find a line
 ## Did your Google Sheet disconnect? 
 
 If you imported your data through Google Sheets, then that link is the lifeline to the data in your map. If your sheet link is disconnected or deleted, then all the data in your map will disappear. Click on the green button at the bottom and choose Import, or hit the "i" key of your keyboard to see whether your Google Sheet is still connected. 
+  
+## Do you have pinned elements in a map with a geo template?
 
+On rare occasions, elements in one map might disappear because elements on a geo template were [pinned down](https://docs.kumu.io/faq/how-do-keep-elements-from-moving.html) in _another_ map. If you have a geo template in any of your maps, please navigate there and: click "A" on your keyboard to select all elements on the map, and then click Alt + P (option + P for mac) to unpin the elements. Wait for the message "You unpinned X elements in your map" in the bottom-left corner, and then navigate to the map that was blank. Your data should now be back!
 
 ## Has the data been deleted?
 
 If all else fails, it's possible that the data may have (accidentally) been deleted from the map. That's not an immediate cause for concern—before data is _really_ deleted from your project, it goes to the project's trash.
 
 To check the trash, click the menu icon <i class="fa fa-bars"></i> in the top left corner of the screen, then select **Trash** from the sidebar. If the Trash panel shows that there is data in the trash, send an email to [support@kumu.io](mailto:support@kumu.io), and we can help you get that data out of the trash and back into the map.
+
+
+
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/my-map-disappeared-how-do-i-bring-it-back.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
