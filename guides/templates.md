@@ -5,7 +5,7 @@ When creating a new map, you have the option of picking one of our templates.
 Templates provide an easy way to have a great looking map right from the start. Simply choose the template that best fits your use case and we'll add the proper decorations, adjust default settings, and even bootstrap the project with relevant fields.
 
 **Jump to:**
-- [System template](#system-template)
+- [Systems template](#system-template)
 - [Causal loop template](#causal-loop-template)
 - [Stakeholder template](#stakeholder-template)
 - [Big Data Template](#big-data-template)
@@ -14,7 +14,7 @@ Templates provide an easy way to have a great looking map right from the start. 
 - [Systems Leverage template](#systems-leverage-template)
 - [Custom template](#custom-template)
 
-## System Template
+## Systems Template
 Systems maps help you make sense of complex issues by visualizing the underlying webs of cause and effect. The systems template has a manual layout, meaning that you can manually drag and drop your elements anywhere on the map. 
 
 By default, the systems template changes the style of opposite connections from "solid" to "dashed", and has a legend entry called "Opposite" (follow [this guide](https://docs.kumu.io/faq/how-do-i-remove-opposite.html) to learn how to take that away.
