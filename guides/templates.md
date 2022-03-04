@@ -17,17 +17,17 @@ Templates provide an easy way to have a great looking map right from the start. 
 ## Systems Template
 Systems maps help you make sense of complex issues by visualizing the underlying webs of cause and effect. The systems template has a manual layout, meaning that you can manually drag and drop your elements anywhere on the map. 
 
-By default, the systems template changes the style of opposite connections from "solid" to "dashed", and has a legend entry called "Opposite" (follow [this guide](https://docs.kumu.io/faq/how-do-i-remove-opposite.html) to learn how to take that away.
+By default, the systems template changes the style of opposite connections from "solid" to "dashed", and adds a legend entry called "Opposite" (follow [this guide](https://docs.kumu.io/faq/how-do-i-remove-opposite.html) to learn how to take that away).
 
 <iframe src="//player.vimeo.com/video/120851694" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Causal loop template
-This is a simplified version of our systems template which draws each factor as text-only instead of including a shape. Great for capturing the basic structure of a system and mind mapping. 
+This is a simplified version of our systems template, which draws each factor as text-only instead of including a shape. Great for capturing the basic structure of a system, or to create a mind map. 
 
 ## Stakeholder Template
 Stakeholder maps help you explore the people, projects, groups and organizations involved, and how they're connected, in a visually engaging way. The stakeholder template uses a [force-directed layout](https://docs.kumu.io/guides/layouts/force-directed.html), meaning that elements "float" around the map (follow [this guide](https://docs.kumu.io/faq/how-do-keep-elements-from-moving.html) to learn how to turn that off.)
 
-The stakeholder template has two default Element Types in the legend, namely "Person" and "Organization". Learn how to delete this from your legend [here](https://docs.kumu.io/guides/legends.html#removing-legend-entries). 
+The stakeholder template has two default Element Types in the legend, namely "Person" and "Organization" (learn how to delete these from your legend [here](https://docs.kumu.io/guides/legends.html#removing-legend-entries)). 
 
 <iframe src="//player.vimeo.com/video/120964653" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -40,9 +40,9 @@ _Note: the big data template was formerly known as the SNA (Social Network Analy
 <iframe src="//player.vimeo.com/video/120999753" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Stock and Flow Template
-The stock and flow diagram is a common tool in system dynamics. These diagrams contain stocks which are quantities of a certain factor, and flows which describe changes in stock quantities over time. The stock and flow template uses a manual layout, meaning that you can drag and drop the elements on any place on the map. 
+The stock and flow diagram is a common tool in system dynamics. These diagrams contain "stocks" which are quantities of a certain factor, and "flows" which describe changes in stock quantities over time. The stock and flow template uses a manual layout, meaning that you can drag and drop the elements to any place on the map. 
 
-The stock and flow template offers numerous standard legend entries that help you visualize the flows in your map, such as "Stock", "Flow", "Variable", "Source", "Sink" with certain icons. 
+The stock and flow template offers numerous default legend entries that help you visualize the flows in your map, such as "Stock", "Flow", "Variable", "Source", "Sink" etc. (learn how to delete these from your legend [here](https://docs.kumu.io/guides/legends.html#removing-legend-entries)). 
 
 ## Geo Template
 The geo template lets you build your visualizations on top of geographic maps. When you’re using the geo template, Kumu will automatically position your elements on a world map, using latitude & longitude, addresses, or even just cities and countries. Visit [this guide](https://docs.kumu.io/guides/templates/geo.html) to learn more about the geo template. 
