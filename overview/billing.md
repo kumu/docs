@@ -9,9 +9,14 @@ To change the credit card you use with Kumu, you can do the following:
 2. [Go to your list of workspaces](https://kumu.io/dashboard#workspaces) and select the workspace from the list
 3. In the Billing section of the workspace's settings, add your credit card details.
 
+Kumu charges you based on two factors:
+
+1. Whether you have a Basic Workspace or a [Pro Workspace](https://docs.kumu.io/guides/pro-workspaces.html)
+2. The number of private projects you have in your workspace
+
 #### Monthly billing
 
-If you are on a monthly billing cycle, Kumu will bill your account on the same day each month, based on the number of private projects you own. For Basic workspaces, each private project costs $9/month, and for Pro workspaces, each private project costs $20/month. Pro workspaces are also billed a $10 membership fee each month.
+If you are on a monthly billing cycle, Kumu will bill your account on the same day each month. Basic Workspaces are free, and each private project costs $9/month. Pro Workspaces are $10 per month, and each private project costs an additional $20/month. 
 
 To add more private projects to a monthly Basic or Pro workspace, you can [create a new project](https://kumu.io/new) and use the New Project form to set the project to **Private**.
 
@@ -19,7 +24,7 @@ To add more private projects to a monthly Basic or Pro workspace, you can [creat
 
 To remove private projects from the monthly bill in a Basic workspace, you can use the [project admin menu](/guides/project-admin.html) to delete the project, transfer it, or make it public. In a Pro workspace, you can do the same, but you also have the option to [archive](/guides/archiving-projects.html) the project.
 
-When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill.
+When your bill is increased or decreased during a billing cycle, Kumu's billing system automatically **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill.
 
 
 #### Annual billing
@@ -34,15 +39,13 @@ To switch your account to annual billing:
 
 **Note:** 
 
-If you are on an annual billing cycle, Kumu will bill your account once per year based on a pre-set private project limit, **not** the actual number of private projects you own. 
-
-This means that deleting and archiving private projects _will not_ reduce your annual bill; they will only make more private projects available under your total private project limit.
+If you are on an annual billing cycle, Kumu will bill your account once per year based on the type of workspace you have, and a pre-set private project limit. If you **add** a new private project, your private project limit will increase, and you'll be charged a pro-rated amount for the rest of the annual billing cycle _immediately_. This also means that deleting and archiving private projects _will not_ automatically reduce your annual bill; it will only make more private projects available under your total private project limit.
 
 However, you can increase or decrease your private project limit at any time during the year, and this _will_ increase or decrease your next bill. To adjust your private project limit, go to the billing settings for your personal account or organization, and use the interface to add or subtract private projects.
 
 ![Annual project limit](/images/settings-annual-project-limit.png)
 
-When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle, and charges the card on file immediately.
+When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle, and (if applicable) charges the card on file immediately.
 
 <p class="alert alert-warning">
 When you increase your private project limit on an annual plan, a prorated charge will be billed immediately to the credit card on file. If you need to pay by invoice instead of by credit card, please <a class="alert-link" href="mailto:support@kumu.io">reach out Kumu support</a> before increasing your project limit.
