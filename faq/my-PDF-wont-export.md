@@ -20,7 +20,7 @@ In that case we recommend to [export to PNG](https://docs.kumu.io/guides/export.
 It doesn't happen often, but sometimes our browsers or certain settings can interfere with the PDF builder. 
 We recommend to try your export in a different browser before contacting us!
 
-**Some other points to note:** 
+### Some other points to note
 - [Underlays](https://docs.kumu.io/guides/underlays.html) won't export to PDF
 - You can't export [geo maps](https://docs.kumu.io/guides/templates/geo.html) to PDF
 - Unfortunately, Chinese and Hebrew characters do not render well in PDFs at the moment. We hope to be able to offer this in the future!
