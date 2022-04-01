@@ -5,7 +5,7 @@ But then... nothing happens! Here are some troubleshooting tips for when your PD
 
 ## Your images are too large
 If you're using images in your map and the image files are too large, then the PDF builder can't render them and will throw an error. 
-Please go through your images and make sure to resize each image to max 600px wide. Then try again
+Please go through your images and make sure to resize each image to max 600px wide. Then try again. 
 
 ## Your images are not coming from a secure URL
 If you're importing images through a hosted link, make sure that the URL starts with "https" instead of just "http". 
