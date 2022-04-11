@@ -2,6 +2,10 @@
 
 Adding a legend to your map is an important step to make sure your readers can easily understand your decorations. There are a number of different ways to add and remove legend entries—this guide will explain all of them!
 
+<p class="alert alert-warning">
+  Note that you can only create a legend through data-driven decorations. If you're using direct decorations (the toolbar) to color, then you won't have a legend. 
+</p>
+
 
 ## Add legend entries through the Basic Editor
 
