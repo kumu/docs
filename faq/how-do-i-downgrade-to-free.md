@@ -19,6 +19,7 @@ If you are being billed **monthly**, Kumu's billing system will automatically pu
 1. Click on the Workspaces tab in your [Dashboard](https://kumu.io/dashboard)
 2. Click on the name of the workspace for which you'd like to make the change
 3. Scroll down to **Annual private project limit**, choose how many private projects you'd like to remove, and click on the "Decrease limit" button. 
+
 _Note: Project fees will not be refunded when you remove private projects. Instead, a pro-rated amount will be credited to your Kumu account and applied to future invoices. Prefer a refund? Please contact us at [support@kumu.io](mailto: support@kumu.io). _
 
 ## Pro Workspace
