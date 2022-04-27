@@ -1,6 +1,6 @@
 # Billing
 
-At Kumu, we use an automated billing system to accept payments for private projects and [Pro workspace](/guides/pro-workspaces.html) fees. Amounts can be billed on either a monthly or annual basis, and if you choose to be billed on an annual basis, you'll receive a 20% discount.
+At Kumu, we use an automated billing system to accept payments for private projects and [Pro workspace](/guides/pro-workspaces.html) fees. Amounts can be billed on either a monthly or annual basis. If you choose to be billed on an annual basis, you'll receive a 20% discount.
 
 We handle all payments with [full PCI-compliance](https://www.pcisecuritystandards.org/) through [Stripe](https://stripe.com/), the industry standard, and you can use any credit card that is [accepted by Stripe](https://stripe.com/payments/payment-methods-guide#cards). We do not store any sensitive billing information on our own servers.
 
@@ -77,6 +77,17 @@ If you can't enter a credit card into Kumu's website for repeat billing, you can
 <p class="alert alert-success">
   Have any other questions about billing? Send an email to <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a> and we'll get back to you!
 </p>
+
+## Downgrade or cancel your Kumu subscription
+
+Kumu charges you based on two factors:
+
+1. Whether you have a Basic Workspace or a Pro Workspace
+2. The number of private projects you have in your workspace
+
+You can downgrade or cancel your plan at any moment. Follow [this guide](https://docs.kumu.io/faq/how-do-i-downgrade-to-free.html) to learn how to do this in your account. 
+
+_Note: When your bill is increased or decreased during a billing cycle, Kumu's billing system automatically **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill._
 
 
 <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/billing.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
