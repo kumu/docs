@@ -177,7 +177,9 @@ Unlike file-based imports, the Google Sheets integration is an ongoing import. T
 
 ## Common pitfalls
 
-Having trouble with your import? Here are a few common pitfalls...
+Having trouble with your import? If Kumu is giving you an error message, click on the triangular error icon to see what is wrong. 
+If Kumu just loads indefinitely, there's also likely something wrong with the format of your sheet(s). 
+Here are a few common pitfalls...
 
 #### Not starting your file with the correct column headers
 
