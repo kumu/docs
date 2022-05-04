@@ -111,4 +111,10 @@ Learn more about how to set up and use the Pro workspace in [this guide](https:/
       </tbody>
 </table>
 
+## Enterprise
 
+Kumu Enterprise has the same software and features as the standard Kumu.io offering, but you can keep your activity fully separate and isolated from the activity of everyone else who uses Kumu. 
+
+Enterprise is the right choice for teams that are working with highly sensitive data and need deep control over how it's secured—more control than you get when uploading data to Kumu.io. Enterprise versions are also a great option for teams that are legally required to store their data in a specific geographic location (Kumu.io stores data across the world).
+
+Find more information about Enterprise [here](https://kumu.io/enterprise). 
