@@ -10,11 +10,13 @@ A workspace is like a folder in which you store your Kumu projects. Each of thes
 If you click on the Workspaces tab in your Dashboard, you can see all the workspaces that you're a part of. 
 
 **Basic**
+
 The Basic workspace is the default workspace that you get when you open an account. The Basic workspace is free and has all basic features to use Kumu.
 Within a Basic workspace you can have both public or private projects. Learn about the difference between public and private projects in [this guide](https://docs.kumu.io/overview/collaboration.html#public-vs-private-projects).
 Public projects are always free and unlimited. **Private projects on the Basic workspace are $9 per private project per month**.
 
 **Pro**
+
 You can choose to upgrade your Basic workspace to a Pro workspace. Pro workspaces are optimized for collaboration, which makes them a great fit for teams of people that have several active Kumu users. 
 Here are the additional benefits of Pro:
 
