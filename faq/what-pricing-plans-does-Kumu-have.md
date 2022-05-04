@@ -9,33 +9,38 @@ Kumu charges you based on two factors:
 A workspace is like a folder in which you store your Kumu projects. Each of these folders has a unique name and billing profile. You can either be the sole owner of a workspace, or, if you have a Pro workspace, you can share the workspace with others.
 If you click on the Workspaces tab in your Dashboard, you can see all the workspaces that you're a part of. 
 
-**Basic**
+#### Basic
 
 The Basic workspace is the default workspace that you get when you open an account. The Basic workspace is free and has all basic features to use Kumu.
 Within a Basic workspace you can have both public or private projects. Learn about the difference between public and private projects in [this guide](https://docs.kumu.io/overview/collaboration.html#public-vs-private-projects).
 
 Public projects are always free and unlimited. 
+
 **Private projects on the Basic workspace are $9 per private project per month**.
 
-**Pro**
+#### Pro
 
 You can choose to upgrade your Basic workspace to a Pro workspace. Pro workspaces are optimized for collaboration, which makes them a great fit for teams of people that have several active Kumu users. 
 Here are the additional benefits of Pro:
 
-- Fine-tuned permissions. You can add collaborators to your projects with certain "rights" (view-only, edit, or admin).
-- Private project archiving. Have private projects you want to continue to share through Kumu but don’t need to edit? Simply archive the project and you’ll no longer need to pay for it.
-- Project-wide activity feed. Collaborating with a large team to build out your map? Use the activity feed to keep tabs on who’s making each change across your project.
-- Real-time, embedded comments. You’ve done the work of building your map, let us do the heavy lifting to collect the feedback. Engage in discussions and link them to specific elements, connections, and loops. Use comments to brainstorm ideas and make it easy for others to give feedback while you’re building out your map.
-- Hourly backups, retained for six months. Map freely, knowing you have backups of your project data in case you make a mistake.
-- Customized branding. Replace Kumu's logos with your own to align your projects with your brand.
-- Google Analytics tracking. See how many people are visiting your maps, what items those people are clicking on, and when all that activity is happening.
+- **Fine-tuned permissions.** You can add collaborators to your projects with certain "rights" (view-only, edit, or admin).
+- **Private project archiving.** Have private projects you want to continue to share through Kumu but don’t need to edit? Simply archive the project and you’ll no longer need to pay for it.
+- **Project-wide activity feed.** Collaborating with a large team to build out your map? Use the activity feed to keep tabs on who’s making each change across your project.
+- **Real-time, embedded comments.** You’ve done the work of building your map, let us do the heavy lifting to collect the feedback. Engage in discussions and link them to specific elements, connections, and loops. Use comments to brainstorm ideas and make it easy for others to give feedback while you’re building out your map.
+- **Hourly backups, retained for six months.** Map freely, knowing you have backups of your project data in case you make a mistake.
+- **Customized branding.** Replace Kumu's logos with your own to align your projects with your brand.
+- **Google Analytics tracking.** See how many people are visiting your maps, what items those people are clicking on, and when all that activity is happening.
 
 **Pro workspaces have a flat fee of $10 per month**, which includes unlimited public projects. 
+
 **Private projects in a Pro workspace are $20 per private project per month.**
 
 Learn more about how to set up and use the Pro workspace in [this guide](https://docs.kumu.io/guides/pro-workspaces.html)
 
-_Note that you can downgrade your subscription at any time. Click [here](https://docs.kumu.io/faq/how-do-i-downgrade-to-free.html) to find out how to do this._
+<p class="alert alert-info">
+  Note that you can downgrade your subscription at any time. Click <a class="alert-link" href="/faq/how-do-i-downgrade-to-free.html">here</a>to find out how to do this.
+</p>
+
 
 ### Plans & Features
 
