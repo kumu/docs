@@ -183,7 +183,7 @@ Here are a few common pitfalls...
 
 #### Not starting your file with the correct column headers
 
-**Label** should be the first column header in your spreadsheet (cell `A1`) for an element import, and for a connection import, you should have **From** and **To** in the first two columns (cells `A1` and `B1`).
+**Label** should be the first column header in your spreadsheet (cell `A1`) for an element import, and for a connection import, you should have **From** and **To** in the first two columns (cells `A1` and `B1`). The only exception to this is when you're using IDs in the first column, please read more about that [here](/faq/how-do-i-avoid-duplicating-data#use-ids-to-separate-identical-labels)
 
 #### Not having column headers in the first row
 
@@ -191,7 +191,7 @@ Your column headers (e.g. Label, Type, Description, etc.) should be in row 1 of 
 
 #### Not ignoring unneeded sheets
 
-If you have multiple sheets in your file, and you only want to import some, make sure that Kumu ignores the other sheets when importing. To do this, you can add `(ignore)` to sheet names—for example: `Sheet 3 (ignore)`.
+If you have multiple sheets in your file, and you only want to import some, make sure that Kumu ignores the other sheets when importing. To do this, you can add `(ignore)` to sheet names—for example: `Sheet 3 (ignore)`. Also make sure to double-check if you have any hidden sheets in your file!
 
 #### Hidden data in unused cells
 
@@ -209,11 +209,11 @@ Sorry, there was an error with your import. <br/>Error: Import format not recogn
 
 #### Importing an Excel file in Google Drive as a Google Sheet
 
-If you add an XLSX file to Google Drive, it will still open as an Excel sheet, only inside Google Drive. Make sure you're file is actually a Google Sheet by clicking on "Open with" at the top of the page and choose Google Sheets. You can enter that sheet's link as your Google Sheet link. 
+If you add an XLSX file to Google Drive, it will still open as an Excel sheet, only inside Google Drive. Make sure you're file is actually a Google Sheet by clicking on "Open with" at the top of the page and choosing Google Sheets, or by clicking File in the top-left corner and then choose "Save as Google Sheets". You can enter that sheet's link as your Google Sheet link. 
 
 #### Funny character issues?
 
-If you're running into funny character issues, please make sure your import file is UTF-8 encoded.
+If you're running into funny character issues, please make sure your import file is [UTF-8 encoded](https://help.alchemer.com/help/encode-an-excel-file-to-utf-8-or-utf-16).
 
 ## Master Imports in 5 Steps
 
