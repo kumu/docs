@@ -37,7 +37,7 @@ To switch your account to annual billing:
 
 ![Switch to annual billing](/images/switch-annual-billing.png)
 
-**Note:** 
+#### Adding private projects to the annual plan 
 
 If you are on an annual billing cycle, Kumu will bill your account once per year based on the type of workspace you have, and a pre-set private project limit. If you **add** a new private project, your private project limit will increase, and you'll be charged a pro-rated amount for the rest of the annual billing cycle _immediately_. This also means that deleting and archiving private projects _will not_ automatically reduce your annual bill; it will only make more private projects available under your total private project limit.
 
