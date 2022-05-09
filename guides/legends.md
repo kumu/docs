@@ -148,6 +148,8 @@ If you'd like to change the title of your legend from "Legend" to something more
 }
 ```
 
+This is what it'll look like: 
+
 ![custom legend title](/images/custom-legend-title.png)
 
 
