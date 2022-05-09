@@ -135,6 +135,22 @@ You can even combine color-legend controls with the standard legend
 
 Need even more flexibility for your legend, or want to completely customize the style? Using Kumu's -->
 
+## Change the legend title
+If you'd like to change the title of your legend from "Legend" to something more descriptive, you can use the following code: 
+
+```
+@controls {
+  bottom-left {
+    legend {
+      title: 'My custom legend title';
+    }
+  }
+}
+```
+
+![custom legend title](/images/custom-legend-title.png)
+
+
 ## Hide the legend
 
 If you want to completely hide the legend, you can use the Advanced Editor to do so. Here's some sample code to get you started:
