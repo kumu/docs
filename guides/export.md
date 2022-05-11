@@ -31,11 +31,11 @@ When Kumu brings up your screenshot, you can right-click the image and select "S
 <p class="alert alert-info">
 The default background color of Kumu maps is off-white. If you wish to change the background color to a regular white so that it fits better within the rest of your document, you can add this code to the Advanced Editor: 
 
-```
 @settings {
+  
   background-color: white;
+  
 }
-```
 
 </p>
 
