@@ -64,4 +64,6 @@ View settings are accessed via the Settings icon <i class="fa fa-sliders">  </i>
 
 To learn more about editing the view itself (for example, adding decorations, filtering, changing default settings, etc.), [read the guide on View Editors](/overview/view-editors.html).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/settings.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+<p class="alert alert-info">
+**Pro tip**: right-click on any blank space in your map to access a quick-access toolbar that allows you to edit or delete your Project, Map or View Settings. You can also hide the direct decorations toolbar, reset your view, or access Kumu Support through here!.
+</p>
