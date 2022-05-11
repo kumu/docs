@@ -28,6 +28,17 @@ To quickly snap a screenshot of your map, click the download icon in the bottom 
 
 When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
 
+<p class="alert alert-info">
+The default background color of Kumu maps is off-white. If you wish to change the background color to a regular white so that it fits better within the rest of your document, you can add this code to the Advanced Editor: 
+
+```
+@settings {
+  background-color: white;
+}
+```
+
+</p>
+
 ## Export to Excel: for bulk editing
 If you choose "Export to XLSX" without anything selected, your entire map will be exported as a spreadsheet in xlsx format. If you only want to export a portion of your map, just select the things you'd like to export before clicking export.
 
