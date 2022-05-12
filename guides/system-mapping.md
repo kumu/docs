@@ -106,6 +106,8 @@ A long element label // no line break
 A long  element label // line break betwen "long" and "element"
 ```
 
+Or you can choose to have Kumu enter a line break automatically at a certain number of characters. Visit [this guide](/faq/how-do-i-control-text-wrapping.html) to learn how to do that. 
+
 #### Change colors and sizes
 
 One of the best ways to make your system map look sharp is to decorate your elements and connections with color. If some elements are more important than others, you can also change their size to make sure they stand out.
@@ -193,6 +195,3 @@ Now that your map is built, refined, and enriched in Kumu, it's time for the rea
 ![presentation slides](/images/presentation.gif)
 
 When you finish your presentation, you'll be able to send a link to your readers, embed it on a website, or even project it onto a screen. Published presentations are fully interactive, so viewers will be able to zoom in and out, click on loops to see narratives, and explore your system map in its entirety.
-
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/system-mapping.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
