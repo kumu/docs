@@ -9,16 +9,14 @@ Kumu charges you based on two factors:
 A workspace is like a folder in which you store your Kumu projects. Each of these folders has a unique name and billing profile. You can either be the sole owner of a workspace, or, if you have a Pro workspace, you can share the workspace with others.
 If you click on the Workspaces tab in your Dashboard, you can see all the workspaces that you're a part of. 
 
-#### Basic
+#### Basic workspace
 
 The Basic workspace is the default workspace that you get when you open an account. The Basic workspace is free and has all basic features to use Kumu.
 Within a Basic workspace you can have both public or private projects. Learn about the difference between public and private projects in [this guide](https://docs.kumu.io/overview/collaboration.html#public-vs-private-projects).
 
-Public projects are always free and unlimited. 
+Public projects are always free and unlimited. Private projects on the Basic workspace are **$9 per private project per month**.
 
-**Private projects on the Basic workspace are $9 per private project per month**.
-
-#### Pro
+#### Pro workspace
 
 You can choose to upgrade your Basic workspace to a Pro workspace. Pro workspaces are optimized for collaboration, which makes them a great fit for teams of people that have several active Kumu users. 
 Here are the additional benefits of Pro:
@@ -31,14 +29,14 @@ Here are the additional benefits of Pro:
 - **Customized branding.** Replace Kumu's logos with your own to align your projects with your brand.
 - **Google Analytics tracking.** See how many people are visiting your maps, what items those people are clicking on, and when all that activity is happening.
 
-**Pro workspaces have a flat fee of $10 per month**, which includes unlimited public projects. 
+Pro workspaces have a **flat fee of $10 per month**, which includes unlimited public projects. 
 
-**Private projects in a Pro workspace are $20 per private project per month.**
+Private projects in a Pro workspace are **$20 per private project per month.**
 
 Learn more about how to set up and use the Pro workspace in [this guide](https://docs.kumu.io/guides/pro-workspaces.html)
 
 <p class="alert alert-info">
-  Note that you can downgrade your subscription at any time. Click <a class="alert-link" href="/faq/how-do-i-downgrade-to-free.html">here</a>to find out how to do this.
+  Note that you can downgrade your subscription at any time. Click <a class="alert-link" href="/faq/how-do-i-downgrade-to-free.html">here</a> to find out how to do this.
 </p>
 
 
@@ -117,4 +115,7 @@ Kumu Enterprise has the same software and features as the standard Kumu.io offer
 
 Enterprise is the right choice for teams that are working with highly sensitive data and need deep control over how it's secured—more control than you get when uploading data to Kumu.io. Enterprise versions are also a great option for teams that are legally required to store their data in a specific geographic location (Kumu.io stores data across the world).
 
+Kumu Enterprise is priced per package of 5 seats (users that can edit, you'll still have unlimited viewers), and it is billed annually. 
+
 Find more information about Enterprise [here](https://kumu.io/enterprise). 
+You can reach out to enterprise@kumu.io for a personalized quote. 
