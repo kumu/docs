@@ -1,4 +1,4 @@
-# The embedded Kumu map doesn't work on my website. What can I do? 
+# My Kumu embed map isn't working on my website. What can I do? 
 
 Below you can find some troubleshooing tips for when you've tried to embed a Kumu map on your website, but it's not loading or giving an error. 
 
