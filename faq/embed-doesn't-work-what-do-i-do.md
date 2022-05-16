@@ -1,6 +1,6 @@
 # My Kumu embed map isn't working on my website. What can I do? 
 
-Below you can find some troubleshooing tips for when you've tried to embed a Kumu map on your website, but it's not loading or giving an error. 
+Below you can find some troubleshooting tips for when you've tried to embed a Kumu map on your website, but it's not loading or giving an error. 
 
 #### Does the embed link work?
 First things first: let's investigate whether the embed link is working at all. Click on the embed link that you received from Kumu and see if it loads correctly. 
@@ -30,7 +30,7 @@ Here's an example error:
 
 ![console error](/images/console-error.png)
 
-Not to worry, you won't have to start changing the code for your website! Usually sending this screenshot to your IT department, or to the website builder's customer support chat, will provide you with an answer as to what needds to be changed. 
+Not to worry, you won't have to start changing the code for your website! Usually sending this screenshot to your IT department, or to the website builder's customer support chat, will provide you with an answer as to what needs to be changed. 
 Sometimes it's a simple setting, and sometimes your IT department needs to adjust certain security settings for your website. 
 
 #### Still not working? 
