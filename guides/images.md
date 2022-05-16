@@ -22,7 +22,7 @@ Note: when you're uploading images, only JPEG, PNG, and GIF files smaller than 5
 </p>
 
 
-**Importing image(s) through Google Sheets**
+#### Importing image(s) through Google Sheets
 
 If you're [importing data with Google Sheets](https://docs.kumu.io/guides/import.html), then you'll have to include a URL to an image hosted publicly on the web. First, add an "Image" column in the "Elements" sheet of your Google Sheets file, and then add the public URL for the image that you want to add to each element (e.g. each row). Please note that the URL should lead _directly_ to the image, so you might need to create such a URL first through an image hosting platform. 
 
