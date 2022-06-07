@@ -11,7 +11,7 @@ In this guide, you'll find:
     - [Size by](#size-by)
     - [Color by](#color-by)
     - [Shape by](#shape-by)
-    - [Fine-tune your decorations](#fine-tune-your-decorations)
+    - [Fine-tune your decorations](#use-decoration-builders-to-create-custom-decorations)
 - [Decorate in the Advanced Editor](#decorate-in-the-advanced-editor)
 - [The decorations cascade](#the-decorations-cascade)
 
