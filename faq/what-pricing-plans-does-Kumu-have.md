@@ -109,6 +109,10 @@ Learn more about how to set up and use the Pro workspace in [this guide](https:/
       </tbody>
 </table>
 
+<p class="alert alert-info">
+  Note that you can pay montly or annually. If you choose the annual plan, you get a 20% discount included in the final price. Click <a class="alert-link" href="/overview/billing.html">here</a> for more information.
+</p>
+
 ## Enterprise
 
 Kumu Enterprise has the same software and features as the standard Kumu.io offering, but you can keep your activity fully separate and isolated from the activity of everyone else who uses Kumu. 
