@@ -120,7 +120,7 @@ If you need to adjust the position of the image element in the map, you'll need 
 <p class="alert alert-info">
 If you add a control to your map, you'll see that the background gets filtered out. If you want to keep your background as you filter, follow these steps: 
 1. Create the control first. Don't forget to save it!
-2. Then go into the Advanced Editor and change the line from target: element; to target: :not(#background);
+2. Then go into the Advanced Editor and change the line from <code>target: element;</code> to <code>target: :not(#background);</code>
 3. Now the control won't affect the background!
 </p>
 
