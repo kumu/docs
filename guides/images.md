@@ -117,6 +117,13 @@ If you need to adjust the position of the image element in the map, you'll need 
 * "background" is the label of the element that will contain the background image in this example, but the label can be anything you want. Just make sure you update the `#background` [selector](/guides/selectors.html) in your code to match your new label.
 * `image-resolution` can have values of `auto`, `original`, or any number. The number you include (e.g. `1000`) will adapt the resolution for an image of that width (1000px).
 
+<p class="alert alert-info">
+If you add a control to your map, you'll see that the background gets filtered out. If you want to keep your background as you filter, follow these steps: 
+1. Create the control first. Don't forget to save it!
+2. Then go into the Advanced Editor and change the line from target: element; to target: :not(#background);
+3. Now the control won't affect the background!
+</p>
+
 As always, if you have any questions on how this works, email us at [support@kumu.io](mailto:support@kumu.io) for help!
 
 
