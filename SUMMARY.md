@@ -79,6 +79,7 @@
 * [Legends](/guides/legends.md)
 * [Licensing](guides/licensing.md)
 * [Lightbox](guides/lightbox.md)
+* [Loops](faq/what-are-loops.md)
 * [Metrics](guides/metrics.md)
 * [Multi-factor authentication](guides/multi-factor-authentication.md)
 * [Pro workspaces](guides/pro-workspaces.md)
