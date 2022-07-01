@@ -98,22 +98,25 @@ On the other hand, if you reverse just one of the arrows in the structure, you i
 
 _This_ is the kind of loop you’re looking for in a system map.
 
-It’s rarely so simple—in many cases, your loops will contain more than three connections, and they likely won’t be laid out in such a nice, circular shape. You'll also have the rest of the elements and connections in the map contending for your attention.
+It’s rarely so simple—in many cases, your loops will contain more than three connections, and they likely won’t be laid out in such a nice, circular shape. You'll also have the rest of the elements and connections in the map contending for your attention. This is where loop detection comes in handy!
 
-But there's one other tip that can be helpful in those more complicated cases! Notice in the screenshot above that every element has at least one incoming and one outgoing connection. In all loops, this is a basic requirement, so if you can filter out elements that don't meet the requirement, it can help you focus on what counts.
+## Loop detection
 
-Here's how you can set up that filter in Kumu:
-1. Use [Metrics](/guides/metrics.html) to calculate **indegree** and **outdegree**.
-2. Use [filtering](/guides/filter.html) to hide the elements that have either indegree or outdegree equal to `0`. You can use filter settings in the Basic Editor to do this, or just copy/paste the following code at the bottom of your Advanced Editor:
+We finally added the much-awaited feature that allows you to detect loops automatically! 
 
-```
-@settings {
-  ignore: element[indegree = "0"], element[outdegree = "0"];
-}
-```
+To detect loops, follow these steps: 
 
-There's no guarantee that you'll find loops among the remaining elements and connections, but you'll at least narrow down the portion of the system that you need to carefully study.
-
+1. Create your map with some elements and connections, as you would normally
+2. Click on the green plus icon at the bottom of our screen, and choose "Add loop"
+3. Click "detect loops automatically"
+4. A menu will pop up on the right side with the detected loops. 
+ 
+Some things to note: 
+- Loops are ranked from shortest (least amount of elements) to longest (most elements).
+- You can hover over any loop name to showcase it on the map and see which elements/connections are a part of it.
+- Click on any loop number to give it a name and save it. Unnamed loops are not saved in your dataset!
+- Adding a name to a loop will add that label to your map in the center of the loop.
+- Loops can only be [exported with JSON](/guides/export.html). You can't export loops to Excel.
 
 ## Decorating loops
 
