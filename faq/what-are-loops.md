@@ -106,9 +106,9 @@ We finally added the much-awaited feature that allows you to detect loops automa
 
 To detect loops, follow these steps: 
 
-1. Create your map with some elements and connections, as you would normally
-2. Click on the green plus icon at the bottom of our screen, and choose "Add loop"
-3. Click "detect loops automatically"
+1. Create your map with some elements and connections, as you would normally.
+2. Click on the green plus icon at the bottom of your map, and choose "Add loop".
+3. Click "detect loops automatically".
 4. A menu will pop up on the right side with the detected loops. 
  
 Some things to note: 
