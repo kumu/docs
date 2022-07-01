@@ -16,6 +16,10 @@ You can use the [Basic Editor](/overview/view-editors.md#basic-editor) to add a 
 
 Use the dropdown menus in the controls builder to set up your control, then, when you're done, click the back arrow <i class="fa fa-arrow-left"></i> to return to the main screen, and click **SAVE**.
 
+<p class="alert alert-warning">
+Want to remove unneeded controls? You can use the <a class="alert-link" href="#remove-unneeded controls">remove unneeded controls</a> section of this guide to help troubleshoot.
+</p>
+
 ### Add controls through the Advanced Editor
 
 To unlock the full set of flexible controls features, you can use the [Advanced Editor](/overview/view-editors.md#advanced-editor). Here's an example of what controls look like in the Advanced Editor:
@@ -55,6 +59,8 @@ In general, controls are defined with the `@controls` block, grouped into region
   }
 }
 ```
+
+
 
 #### Regions
 
@@ -167,8 +173,24 @@ To group controls, use the following `group` syntax:
 
 The properties that get set underneath `group` will apply to all controls nested inside the group. And before you ask—yes, it's possible to nest groups inside of other groups as well!
 
+### Remove unneeded controls
 
-#### Built-in controls
+When you're adding [controls](/guides/controls.html) through the Basic Editor, you might sometimes add a duplicate control by accident, or add a control that says "No values found for [some field name]". To remove any of those unneeded controls, you can use the Advanced Editor.
+
+Open up the Advanced Editor, and, unless you have added [partial views](/guides/partial-views.html), there will be a block of code right at the top starting with `@controls`.
+
+```
+// Line 1 of your Advanced Editor:
+@controls {
+  ...There will be other code inside this block
+}
+```
+
+If you don't want _any_ controls or "No values found for [some field name]" messages on your map, simply delete the entire `@controls` block, then click "Save" at the bottom of the editor.
+
+If you have some controls in there that you would like to preserve, you'll first need to learn the basics of how to read `@controls` code, so that you can tell which controls you want to delete and which you want to keep. You can learn more about reading `@controls` code in [our full guide on controls](/guides/controls.html#add-controls-through-the-advanced-editor). Of course you can always send us an email at support@kumu.io to help out!
+
+### Built-in controls
 
 All of Kumu's built-in controls (search, zoom buttons, settings buttons, the [legend](/guides/legends.html)) are handled by the same platform that custom controls are built on. That means you can move the built-in controls around, omit ones you don't need, or even reset the built-in controls and start from scratch.
 
