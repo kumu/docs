@@ -110,8 +110,10 @@ To detect loops, follow these steps:
 2. Click on the green plus icon at the bottom of your map, and choose "Add loop".
 3. Click "detect loops automatically".
 4. A menu will pop up on the left side of your map with the detected loops. 
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/-jiUmyiPhLk" frameborder="0" allowfullscreen></iframe></p>
  
-Some things to note: 
+**Some things to note: **
 - Loops are ranked from shortest (least amount of elements) to longest (most elements).
 - You can hover over any loop name to showcase it on the map and see which elements/connections are a part of it.
 - Click on any loop number to give it a name and save it. Unnamed loops are not saved in your dataset!
