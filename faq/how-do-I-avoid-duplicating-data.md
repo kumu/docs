@@ -78,26 +78,12 @@ If you're using IDs on your elements sheet, you need to use those IDs in the <b>
 
 ### Connections
 
-Connections behave differently than elements: by default, each row on your connections sheet will create a new connection, even if its From and To are the same as another connection's From and To. This spreadsheet will create two connections:
-
-From | To
---- | ---
-Oahu | Waimea Bay
-Oahu | Pipeline
-
-This spreadsheet will also create two connections:
-
-From | To
---- | ---
-Oahu | Waimea Bay
-Oahu | Waimea Bay
-
-Even if you add a Label and Type to a connection, Kumu will still have trouble recognizing and updating its existing version on the map without creating a duplicate. Because of this, if you plan to update existing connections with future imports, you should add IDs for each connection:
+If you want to create multiple connections between the same elements, or want to update existing connections with future imports, make sure to add IDs for each connection:
 
 ID | From | To |
 --- | --- | ---
 Connection-1 | Oahu | Waimea Bay
-Connection-2 | Oahu | Pipeline
+Connection-2 | Oahu | Waimea Bay
 
 In a future import for this example, we could use the ID `Connection-2` to update the existing connection with any new data, including a new From or To value:
 
@@ -105,7 +91,7 @@ ID | From | To | Type
 --- | --- | --- | ---
 Connection-2 | Oahu | Sunset Bay | Location
 
-This import would update the map without creating a new, duplicate connection.
+This import would update the map without merging your connections, or creating a new, duplicate connection.
 
 <p class="alert alert-warning">
 If you're using an ID column on your connections sheet, you don't necessarily have to add IDs to your elements sheet. However, if you <em>are</em> using IDs on your elements sheet, you need to use those IDs in the From and To columns on your connections spreadsheet, instead of using Labels.
