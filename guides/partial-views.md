@@ -144,7 +144,7 @@ Kumu's advanced editor applies decorations in a cascading order. This means that
 A separate element block of code will always override an @settings block, even when dealing with partial views. 
 
 **Rule for partial views:**
-This means that the simplified loading order with a "default view" and an "active partial" view becomes this (first to last meaning last decoration "wins" and is applied to your map):
+This means that the simplified loading order with a "default view" and an "active partial" view becomes like this (first to last, meaning last decoration "wins" and is applied to your map):
 
 1. @settings for current view
 2. @settings for active partial view
