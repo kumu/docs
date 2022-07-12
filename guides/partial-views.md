@@ -136,4 +136,72 @@ You can also use the `option {}` syntax if you'd like to customize the list of o
 
 [Check out our controls reference](/guides/controls/controls-reference.md) to see the full list of properties and values recognized by the view toggle control.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/partial-views.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+## The partial view cascade
+
+Kumu's advanced editor applies decorations in a cascading order. This means that your most recently created decorations _can_ override your older decorations. Read more about this basic rule [here](https://docs.kumu.io/guides/data-driven-decorations.html#the-decorations-cascade). When using partial views, you might sometimes notice that your partial view isn't overriding the decorations of your default view. Read on below to learn how that works, and how you can work around it. 
+
+**Basic rule:** 
+A separate element block of code will always override an @settings block, even when dealing with partial views. 
+
+**Rule for partial views:**
+This means that the simplified loading order with a "default view" and an "active partial" view becomes this (first to last meaning last decoration "wins" and is applied to your map):
+
+1. @settings for current view
+2. @settings for active partial view
+3. other advanced editor code for current view
+4. other advanced editor code for active partial view
+
+**Example:**
+In the following code, you can see that the default view is using an element block to color the elements "orange", while the partial view is set up to color the elements either red, green, or blue based on the value in their Tags field. 
+
+```
+@view "My Partial View" {
+  @settings{
+    element-color: categorize("Tags", red, green, blue);
+  }
+}
+
+@controls {
+  top {
+    view-toggle {
+      as: labels;
+    }
+  }
+}
+
+@settings {
+  template: stakeholder;
+}
+
+element {
+  color: orange;
+}
+```
+
+As a result, activating the partial view will _not_ change the color of your elements, in accordance with the cascading rule. 
+
+To work around that, use the following code: 
+
+```
+@view "My Partial View" {
+  @settings{
+    element-color: categorize("Tags", red, green, blue);
+  }
+}
+
+@controls {
+  top {
+    view-toggle {
+      as: labels;
+    }
+  }
+}
+
+@settings {
+  template: stakeholder;
+  element-color: orange;
+}
+```
+
+Moving the element color within an @settings block allows your partial view to override the default view. 
+If you're encountering any issues with this, don't hesitate to reach out to support@kumu.io. 
