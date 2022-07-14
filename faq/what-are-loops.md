@@ -114,11 +114,15 @@ To detect loops, follow these steps:
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/-jiUmyiPhLk" frameborder="0" allowfullscreen></iframe></p>
  
 **Some things to note: **
-- Loops are ranked from shortest (least amount of elements) to longest (most elements).
+- Loops are ranked from shortest (least amount of elements) to longest (most elements).  
 - You can hover over any loop name to showcase it on the map and see which elements/connections are a part of it.
 - Click on any loop number to give it a name and save it. Unnamed loops are not saved in your dataset!
 - Adding a name to a loop will add that label to your map in the center of the loop.
 - Loops can only be [exported with JSON](/guides/export.html). You can't export loops to Excel.
+
+<p class="alert alert-warning">
+Automatic loop detection is not (yet) available for maps imported with Google Sheets. If you'd like to use loop detection, please <a class="alert-link" href="#import-from-excel-or-csv">import your map with Excel</a>.
+</p>
 
 ## Decorating loops
 
