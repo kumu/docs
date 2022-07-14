@@ -227,7 +227,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       "Connections": true,
       "Loops": false,
       info: {
-        description: "Controls shapes' color.",
+        description: "Controls shapes' color. Gradient only available for connections.",
         validValues: ["color", "gradient(color, color)"],
       }
     },
