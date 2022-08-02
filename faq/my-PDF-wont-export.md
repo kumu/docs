@@ -24,7 +24,7 @@ We recommend to try your export in a different browser before contacting us!
 
 ### Some other points to note
 - [Underlays](https://docs.kumu.io/guides/underlays.html) won't export to PDF
-- You can't export [geo maps](https://docs.kumu.io/guides/templates/geo.html) to PDF
+- You can't export [geo maps](https://docs.kumu.io/guides/templates/geo.html) to PDF or PNG
 - Unfortunately, Chinese and Hebrew characters do not render well in PDFs at the moment. We hope to be able to offer this in the future!
 
 If you've gone through all of the above points and you still can't find the reason as to why your PDF isn't downloading, don't hesitate to reach out to us at support@kumu.io. We're happy to help!
