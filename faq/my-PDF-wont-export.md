@@ -16,6 +16,8 @@ Our PDF builder doesn't know how to handle different "layers" in your map.
 So when you're stacking elements on top of each other to use some sort of "grouping", this won't be reflected well in the PDF. 
 In that case we recommend to [export to PNG](https://docs.kumu.io/guides/export.html). 
 
+Also note that geo maps cannot be exported to PDF nor PNG, as the background won't render. 
+
 ### Have you tried a different browser? 
 It doesn't happen often, but sometimes our browsers or certain settings can interfere with the PDF builder. 
 We recommend to try your export in a different browser before contacting us!
