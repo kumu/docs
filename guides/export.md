@@ -18,7 +18,7 @@ Want to make sure your labels are readable on your PDF or screenshot? <a class="
 </p>
 
 <p class="alert alert-warning">
-PDFs can only be created for maps, not for full <a class="alert-link" href="/guides/presentations.html">presentations</a>.
+PDFs can only be created for regular maps, not for geo templates or full <a class="alert-link" href="/guides/presentations.html">presentations</a>. 
 </p>
 
 ## Export to PNG: create a screenshot
@@ -29,7 +29,7 @@ To quickly snap a screenshot of your map, click the download icon in the bottom 
 When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
 
 <p class="alert alert-info">
-The default background color of Kumu maps is off-white. If you wish to change the background color to a regular white so that it fits better within the rest of your document, you can add this code to the Advanced Editor: 
+Note that geo maps can not be exported to PNG. Also: the default background color of Kumu maps is off-white. If you wish to change the background color to a regular white so that it fits better within the rest of your document, you can add this code to the Advanced Editor: 
 
 @settings {
   
