@@ -83,6 +83,7 @@ Use `geo-style: dark` for a dark version of the `auto` map.
 
 
 **Good to know:**
+- Geo maps cannot be exported to PDF or PNG.
 - If you leave the location field blank on an element, it will get placed at 0° latitude, 0° longitude (in the Atlantic Ocean, south of Ghana).
 - If two elements have the exact same location, they will stack on top of each other and might be difficult to see.
 - You can use different types of location data to place your elements, even in the same map, as long as all the data is stored in the same field.
