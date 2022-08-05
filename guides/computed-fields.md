@@ -13,7 +13,7 @@ You can create a computed field in one of two ways:
 ## Supported syntax
 
 
-#### Concatenating text in comptued fields
+#### Concatenating text in computed fields
 
 To create a new string (a piece of text) using computed fields, just type your expression inside a pair of double quotes. Include a value from another field using double curly brackets {% raw %} `{{}}` {% endraw %} with the field name inside, in all lowercase letters.
 
