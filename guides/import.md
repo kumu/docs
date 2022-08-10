@@ -172,7 +172,6 @@ Unlike file-based imports, the Google Sheets integration is an ongoing import. T
 
 * Elements and connections are read-only within Kumu—all edits to the underlying data must be made within the spreadsheet.
 * You can't pin elements in place when they're created from a Google Sheet.
-* Metrics can't be saved for maps fed by a Google Sheet—you would have to recalculate them every time you refresh the map.
 
 
 ## Common pitfalls
