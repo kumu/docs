@@ -25,7 +25,7 @@ To assign a shape to a specific selection of elements, use the **element decorat
 ![decoration builder shapes](/images/shapes-decoration-builder.png)
 
 
-## Assigning shapes to all elements automatically
+## Categorizing your elements with shapes automatically
 
 The quickest way to assign shapes to all elements automatically based on their profile data is the **Shape By** tool. Open the Basic Editor, and use the Shape By tool to pick a field from your elements' profiles. Note that Shape By only works with fields that can hold one value, like Element Type.
 
@@ -56,6 +56,25 @@ You can replace `element` with any element [selector](/guides/selectors.html), a
 - `pentagon`
 - `hexagon`
 - `octagon`
+
+<p class="alert alert-info">
+  <b>Two things to note:</b> 
+-  When choosing the `rectangle` or `pill` shapes, you also need to indicate their "width" and "height": 
+
+element {
+  shape: rectangle;
+  height: 100;
+  width: 420;
+}
+
+- To change the size of any shape other than the `square`, `rectangle` or `pill`, use the "size" property, instead of width/height:
+
+element {
+shape: triangle;
+size: 200; 
+}
+
+</p>
 
 Instead of setting a shape directly, you can also use the `categorize()` function to assign shapes based on a field:
 
