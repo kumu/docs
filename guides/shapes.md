@@ -60,7 +60,7 @@ You can replace `element` with any element [selector](/guides/selectors.html), a
 <p class="alert alert-info">
   <b>Two things to note:</b> 
 <br>
--  When choosing the `rectangle` or `pill` shapes, you also need to indicate their "width" and "height": 
+1. When choosing the `rectangle` or `pill` shapes, you also need to indicate their "width" and "height": 
 <br>
   <pre>
   <code>
@@ -72,7 +72,7 @@ element {
   </code>
   </pre>
 <br>
-- To change the size of any shape other than the `square`, `rectangle` or `pill`, use the "size" property, instead of width/height:
+2. To change the size of any shape other than the `square`, `rectangle` or `pill`, use the "size" property, instead of width/height:
 <br> 
   <pre>
     <code>
