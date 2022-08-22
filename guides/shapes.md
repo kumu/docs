@@ -59,21 +59,25 @@ You can replace `element` with any element [selector](/guides/selectors.html), a
 
 <p class="alert alert-info">
   <b>Two things to note:</b> 
+<br>
 -  When choosing the `rectangle` or `pill` shapes, you also need to indicate their "width" and "height": 
-
+<br>
+  <code>
 element {
   shape: rectangle;
   height: 100;
   width: 420;
 }
-
+  </code>
+<br>
 - To change the size of any shape other than the `square`, `rectangle` or `pill`, use the "size" property, instead of width/height:
-
+<br> 
+    <code>
 element {
 shape: triangle;
 size: 200; 
 }
-
+  </code>
 </p>
 
 Instead of setting a shape directly, you can also use the `categorize()` function to assign shapes based on a field:
