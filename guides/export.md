@@ -3,10 +3,10 @@
 You can quickly export your entire map (or just a portion through selections). This makes it easy to refine your data in Excel (or Google Drive) and share it with others, or even transfer your data into a new project. You'll find the export button in the lower right corner of your project. 
 
 You'll have four options for exporting: 
-- [Export to PDF ](https://docs.kumu.io/guides/export.html#export-to-pdf-for-high-resolution-images)
-- [Export to PNG ](https://docs.kumu.io/guides/export.html#export-to-png-create-a-screenshot)
-- [Export to XLSX  ](https://docs.kumu.io/guides/export.html#export-to-excel-for-bulk-editing)
-- [Export to JSON ](https://docs.kumu.io/guides/export.html#export-to-json-downloading-a-project-blueprint)
+- [Export to PDF ](guides/export.html#export-to-pdf-for-high-resolution-images)
+- [Export to PNG ](guides/export.html#export-to-png-create-a-screenshot)
+- [Export to XLSX  ](guides/export.html#export-to-excel-for-bulk-editing)
+- [Export to JSON ](guides/export.html#export-to-json-downloading-a-project-blueprint)
 
 ## Export to PDF: for high-resolution images
 If you need a hi-res screenshot that can scale up or down to any size (for example, when you're printing a Kumu map on a large poster), you can create hi-res PDF files.
