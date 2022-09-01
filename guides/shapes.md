@@ -59,7 +59,7 @@ You can replace `element` with any element [selector](/guides/selectors.html), a
 
 **Two things to note:**
 
-1. When choosing the `rectangle` or `pill` shape, you also need to indicate their `width` and `height`:
+- When choosing the `rectangle` or `pill` shape, you also need to indicate their `width` and `height`:
 
 ```
 element {
@@ -69,7 +69,7 @@ element {
 }
 ```
 
-2. To change the size of any shape other than the `square`, `rectangle`, or `pill`, use the `size` property, instead of width & height:
+- To change the size of any shape other than the `square`, `rectangle`, or `pill`, use the `size` property, instead of width & height:
 
 ```
 element {
