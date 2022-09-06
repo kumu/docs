@@ -2,7 +2,7 @@
 
 [Kumu's clustering feature](/guides/clustering.html) creates new elements and connections in your map and marks them as "Virtual".
 
-This is a useful way to explicitly indicate which items are part of yoour permanent dataset and which ones are simply created on the fly by clustering, but one downside is that you can't edit a virtual element or connection directly. In other words, you can't save descriptions, tags, or any other custom profile data for virtual elements and connections.
+This is a useful way to explicitly indicate which items are part of your permanent dataset and which ones are simply created on the fly by clustering, but one downside is that you can't edit a virtual element or connection directly. In other words, you can't save descriptions, tags, or any other custom profile data for virtual elements and connections.
 
 To work around this, you can convert all virtual items to permanent ones by following these steps:
 1. Turn on your clustering settings to create all of your desired virtual elements and connections
