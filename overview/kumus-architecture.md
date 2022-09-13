@@ -11,9 +11,9 @@ In this guide, we'll explain each of the building blocks that make up Kumu's arc
 #### Jump to a section
 - [Elements, connections, and loops](#elements-connections-and-loops)
 - [Fields](#fields)
-- [Views](#views)
-- [Maps](#maps)
 - [Projects](#projects)
+- [Maps](#maps)
+- [Views](#views)
 - [Trash](#trash)
 
 
