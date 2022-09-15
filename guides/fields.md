@@ -13,6 +13,9 @@ Use the Label field to give names to elements, connections, and loops. Your elem
 #### Type
 Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family.
 
+#### Connection direction
+In a connection's profile, you'll see whether a connection is directed, undirected, or mutual. When you export your map to Excel, you'll also see this field included in the Connections tab of your sheet. To change the connection direction, please visit [this guide](faq/how-do-I-add-arrows-to-my-connections.html).
+
 #### Description
 The description field is designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even multimedia content. You can use <a href="/guides/markdown.html">Markdown</a> to format your text and <a href="/guides/widgets.html">widgets</a> to add multimedia content.
 
