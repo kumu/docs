@@ -10,7 +10,6 @@ In addition to flexible user management, Pro workspaces also have access to thes
 <!-- - **Required [multi-factor authentication](/guides/multi-factor-authentication.html).** Multi-factor authentication (MFA) helps keep your account and projects. With a Pro workspace, you can require MFA for everyone accessing your projects. -->
 - **Hourly backups, retained for six months.** Map freely, knowing you have backups of your project data in case you make a mistake.
 - **Customized branding.** Replace Kumu's logos with your own to align your projects with your brand.
-- **Google Analytics tracking.** See how many people are visiting your maps, what items those people are clicking on, and when all that activity is happening.
 
 
 ## Create a Pro workspace
