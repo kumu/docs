@@ -518,7 +518,7 @@ If you find a property or a value that's not documented here, [let us know](mail
     {
       "Property": "target",
       "Filter": true,
-      "Showcase": true,
+      "Showcase": false,
       "Cluster": false,
       "Tagged-timeline": true,
       "View toggle": false,
