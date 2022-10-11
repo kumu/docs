@@ -14,7 +14,7 @@ If you click on the Workspaces tab in your Dashboard, you can see all the worksp
 The Basic workspace is the default workspace that you get when you open an account. The Basic workspace is free and has all basic features to use Kumu.
 Within a Basic workspace you can have both public or private projects. Learn about the difference between public and private projects in [this guide](https://docs.kumu.io/overview/collaboration.html#public-vs-private-projects).
 
-Public projects are always free and unlimited. Private projects on the Basic workspace are **$9 per private project per month**.
+Public projects are always free and unlimited. Private projects on the Basic workspace are **$9 per private project per month** (or $86.40 per private project per year).
 
 #### Pro workspace
 
@@ -29,9 +29,9 @@ Here are the additional benefits of Pro:
 - **Customized branding.** Replace Kumu's logos with your own to align your projects with your brand.
 - **Google Analytics tracking.** See how many people are visiting your maps, what items those people are clicking on, and when all that activity is happening.
 
-Pro workspaces have a **flat fee of $10 per month**, which includes unlimited public projects. 
+Pro workspaces have a **flat fee of $10 per month** (or $96 per year), which includes unlimited public projects. 
 
-Private projects in a Pro workspace are **$20 per private project per month.**
+Private projects in a Pro workspace are **$20 per private project per month** (or $192 per private project per year). 
 
 Learn more about how to set up and use the Pro workspace in [this guide](https://docs.kumu.io/guides/pro-workspaces.html)
 
