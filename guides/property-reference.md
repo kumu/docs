@@ -328,7 +328,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       "Loops": false,
       info: {
         description: "Defines field and color scale for flags.",
-        validValues: ["''Field name' with colorPalette"],
+        validValues: ["'Field name' with colorPalette"],
       }
     },
     {
