@@ -474,7 +474,7 @@ If you find a property or a value that's not documented here, [let us know](mail
     {
       "Property": "label-placement",
       "Elements": true,
-      "Connections": true,
+      "Connections": false,
       "Loops": true,
       info: {
         description: "Controls alignment of element labels.",
