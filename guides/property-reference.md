@@ -524,7 +524,7 @@ If you find a property or a value that's not documented here, [let us know](mail
     {
       "Property": "opacity",
       "Elements": true,
-      "Connections": false,
+      "Connections": true,
       "Loops": true,
       info: {
         description: "Controls loop label opacity and element opacity.",
