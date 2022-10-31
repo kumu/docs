@@ -328,7 +328,7 @@ If you find a property or a value that's not documented here, [let us know](mail
       "Loops": false,
       info: {
         description: "Defines field and color scale for flags.",
-        validValues: ["''Field name' with colorPalette"],
+        validValues: ["'Field name' with colorPalette"],
       }
     },
     {
@@ -474,7 +474,7 @@ If you find a property or a value that's not documented here, [let us know](mail
     {
       "Property": "label-placement",
       "Elements": true,
-      "Connections": true,
+      "Connections": false,
       "Loops": true,
       info: {
         description: "Controls alignment of element labels.",
@@ -524,7 +524,7 @@ If you find a property or a value that's not documented here, [let us know](mail
     {
       "Property": "opacity",
       "Elements": true,
-      "Connections": false,
+      "Connections": true,
       "Loops": true,
       info: {
         description: "Controls loop label opacity and element opacity.",
