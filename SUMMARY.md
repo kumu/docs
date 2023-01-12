@@ -168,6 +168,7 @@
 * [How do I make sense of my receipt?](faq/how-do-i-make-sense-of-my-receipt.md)
 * [How do I remove unneeded controls?](faq/how-do-i-get-rid-of-unneeded-controls.md)
 * [How do I remove the Opposite entry from my legend?](faq/how-do-i-remove-opposite.md)
+* [How do I remove unwanted legend entries?](faq/how-can-i-remove-unwanted-legend-entries.md)
 * [How do I rename my map/view?](faq/how-do-i-rename-map-view.md)
 * [How do I restructure my adjacency matrix?](faq/how-do-i-restructure-my-adjacency-matrix.md)
 * [How do I select options by default in my control?](faq/how-do-i-select-options-by-default-in-my-control.md)
