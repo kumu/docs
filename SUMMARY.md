@@ -1,40 +1,43 @@
-# Summary
+# Table of contents
 
 ## Getting started
-* [Welcome](welcome.md)
+
+* [Welcome](README.md)
 * [Kumu 101](getting-started/kumu-101.md)
 * [First steps](getting-started/first-steps.md)
-  * [Create an account](getting-started/first-steps.md#create-an-account)
-  * [Create your first project](getting-started/first-steps.md#create-your-first-project)
-  * [Picking a template](getting-started/first-steps.md#picking-a-template)
-  * [Build your first map](getting-started/first-steps.md#build-your-first-map)
-  * [Decorate elements and connections](getting-started/first-steps.md#decorate-elements-and-connections)
-  * [Refine your view](getting-started/first-steps.md#refine-your-view)
-  * [Add a contributor](getting-started/first-steps.md#add-a-contributor)
+  *
+  *
+  *
+  *
+  *
+  *
+  *
 * [Quick tips](getting-started/quick-tips.md)
 * [Webinars](getting-started/webinars.md)
 
 ## Overview
+
 * [Kumu's architecture](overview/kumus-architecture.md)
 * [Accounts and workspaces](overview/accounts-and-workspaces.md)
 * [Kumu.io and Kumu Enterprise](overview/kumu-io-and-kumu-enterprise.md)
 * [Billing](overview/billing.md)
-* [User interfaces](/overview/user-interfaces.md)
-  * [Dashboard](/overview/dashboard.md)
-  * [Map editor](/overview/map-editor.md)
+* [User interfaces](overview/user-interfaces.md)
+  * [Dashboard](overview/dashboard.md)
+  * [Map editor](overview/map-editor.md)
   * [View editors](overview/view-editors.md)
   * [Settings](overview/settings.md)
 * [Collaborating and sharing](overview/collaboration.md)
-* [Actions and permissions](/overview/actions-and-permissions.md)
+* [Actions and permissions](overview/actions-and-permissions.md)
 * [Security](overview/security.md)
-* [Advanced Editor hub](/overview/advanced-editor-hub.md)
+* [Advanced Editor hub](overview/advanced-editor-hub.md)
 
 ## Guides
+
 * [Activity feed](guides/activity-feed.md)
 * [Add-ons](guides/add-ons.md)
   * [Disqus](guides/add-ons/disqus.md)
-* [Blueprints](/guides/blueprints.md)
-* [Bridge](/guides/bridge.md)
+* [Blueprints](guides/blueprints.md)
+* [Bridge](guides/bridge.md)
 * [Cluster](guides/clustering.md)
 * [Controls](guides/controls.md)
   * [Title Control](guides/controls/title-control.md)
@@ -48,7 +51,7 @@
   * [Image control](guides/controls/image-control.md)
   * [SNA-dashboard control](guides/controls/sna-dashboard-control.md)
   * [View toggle control](guides/controls/view-toggle-control.md)
-  * [Controls reference](/guides/controls/controls-reference.md)
+  * [Controls reference](guides/controls/controls-reference.md)
 * [Decorations](guides/decorate.md)
   * [Direct decorations](guides/direct-decorations.md)
   * [Data-driven decorations](guides/data-driven-decorations.md)
@@ -58,7 +61,7 @@
   * [Label templates](guides/label-templates.md)
   * [Popovers](guides/popovers.md)
 * [Default view settings](guides/default-view-settings.md)
-* [Disciplines]()
+* [Disciplines](<README (1).md>)
   * [SNA / Network Mapping](guides/sna-network-mapping.md)
   * [System mapping](guides/system-mapping.md)
   * [Systems practice](guides/systems-practice.md)
@@ -73,10 +76,10 @@
 * [Layouts](guides/layouts.md)
   * [Fixed](guides/layouts/fixed.md)
   * [Force-directed](guides/layouts/force-directed.md)
-  * [Remove overlap](/guides/layouts/remove-overlap.md)
+  * [Remove overlap](guides/layouts/remove-overlap.md)
   * [Scatter](guides/layouts/scatter.md)
-  * [Snap-to](/guides/layouts/snap-to.md)
-* [Legends](/guides/legends.md)
+  * [Snap-to](guides/layouts/snap-to.md)
+* [Legends](guides/legends.md)
 * [Licensing](guides/licensing.md)
 * [Lightbox](guides/lightbox.md)
 * [Loops](faq/what-are-loops.md)
@@ -85,13 +88,12 @@
 * [Pro workspaces](guides/pro-workspaces.md)
   * [Archiving projects](guides/archiving-projects.md)
   * [Issues](guides/issues.md)
-  <!-- * [Single sign-on](guides/single-sign-on.md) -->
-* [Partial views](/guides/partial-views.md)
+* [Partial views](guides/partial-views.md)
 * [Presentations](guides/presentations.md)
 * [Profiles](guides/profiles.md)
   * [Markdown](guides/markdown.md)
 * [Project admin](guides/project-admin.md)
-* [Quick actions](/guides/quick-actions.md)
+* [Quick actions](guides/quick-actions.md)
 * [Selectors](guides/selectors.md)
 * [Shapes](guides/shapes.md)
 * [Share and embed maps](guides/share-and-embed.md)
@@ -100,7 +102,7 @@
 * [Slugs](guides/slugs.md)
 * [Table](guides/table.md)
 * [Templates](guides/templates.md)
-  * [Geo template](/guides/templates/geo.md)
+  * [Geo template](guides/templates/geo.md)
 * [Tracking](guides/tracking.md)
 * [Underlays](guides/underlays.md)
 * [URLs](guides/urls.md)
@@ -112,14 +114,15 @@
 * [Widgets](guides/widgets.md)
 
 ## About Kumu
+
 * [What is Kumu?](about/what-is-kumu.md)
 * [How does it work?](about/how-does-it-work.md)
 * [Where can I get help?](about/where-can-i-get-help.md)
 
 ## Enterprise
+
 * [About enterprise](enterprise/index.md)
 * [Getting started with VMWare](enterprise/getting-started-with-vmware.md)
-<!-- * [Getting started with VirtualBox](enterprise/getting-started-with-virtualbox.md) -->
 * [Upgrading](enterprise/upgrading.md)
 * [Configuration](enterprise/configuration.md)
 * [Creating user accounts](enterprise/creating-user-accounts.md)
@@ -131,15 +134,16 @@
 * [Changelog](enterprise/changelog.md)
 
 ## Frequently Asked Questions
+
 * [How do I add annotations?](faq/how-do-i-add-annotations.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
-* [How do I add contributors?](faq/how-to-add-contributors.md)
+* [How do I add contributors?](frequently-asked-questions/how-do-i-add-contributors.md)
 * [How do I add documents to profiles?](faq/how-do-i-add-documents-to-profiles.md)
 * [How do I add more than one element with the same label?](faq/how-do-i-add-more-than-one-element-with-the-same-label.md)
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
 * [How do I avoid duplicating data?](faq/how-do-I-avoid-duplicating-data.md)
 * [How do I change connection curvature?](faq/how-do-i-change-connection-curvature.md)
-* [How do I change elements' shape?](faq/how-do-i-change-element-shape.md)
+* [How do I change elements' shape?](frequently-asked-questions/how-do-i-change-elements-shape.md)
 * [How do I change font color?](faq/how-do-i-change-font-color.md)
 * [How do I change font size?](faq/how-do-i-change-font-size.md)
 * [How do I change the length or strength of connections?](faq/how-to-change-length-of-connections.md)
@@ -181,7 +185,7 @@
 * [My Kumu embed is not working. What can I do?](faq/embed-doesnt-work-what-do-i-do.md)
 * [My map disappeared. How do I bring it back?](faq/my-map-disappeared-how-do-i-bring-it-back.md)
 * [My PDF won't export. What can I do?](faq/my-PDF-wont-export.md)
-* [What are loops?](faq/what-are-loops.md)
+*
 * [What pricing plans does Kumu have?](faq/what-pricing-plans-does-Kumu-have.md)
 * [Where can I find my invoices?](faq/where-can-i-find-invoices.md)
-* [Who is allowed to edit my project?](faq/who-is-allowed-to-edit-my-project.md)
+* [Who is allowed to edit my project?](frequently-asked-questions/who-is-allowed-to-edit-my-project.md)
