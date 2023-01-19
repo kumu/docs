@@ -40,7 +40,7 @@ The table below lists all of the icons you'll find in the direct decorations too
 <tr><td><img src="/icons/circle.svg" /></td><td>Add a border</td><td>true</td><td>false</td><td>false</td></tr>
 <tr><td><img src="/icons/dot-circle.svg" /></td><td>Add a bullseye</td><td>true</td><td>false</td><td>false</td></tr>
 <tr><td><img src="/icons/adjust.svg" /></td><td>Add a shadow</td><td>true</td><td>false</td><td>false</td></tr>
-<tr><td><img src="/icons/exchange.svg" /></td><td>Change connection direction</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td><img src="/icons/exchange-alt.svg" /></td><td>Change connection direction</td><td>false</td><td>true</td><td>false</td></tr>
 <tr><td><img src="/icons/hourglass-half.svg" /></td><td>Add delay markings</td><td>false</td><td>true</td><td>false</td></tr>
 <tr><td><img src="/icons/eye-slash.svg" /></td><td>Reset direct decorations</td><td>true</td><td>true</td><td>true</td></tr>
 <tr><td>Visit these docs!</td><td>true</td><td>true</td><td>true</td></tr></tbody></table>

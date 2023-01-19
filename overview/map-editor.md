@@ -39,8 +39,8 @@ When you select an individual element, connection, or loop on the map, the side 
 
 Inside the profile, you can add and edit information about the selected item. You can also use the icons in the bottom right of the profile to:
 - ![](/icons/comments.svg) <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.md">Attach a comment</a></span> to your selected item
-- ![](/icons/thumb-tack.svg) Pin an element in a [fixed position](/guides/layouts/fixed.md)
-- ![](/icons/exchange.svg) Change [connection direction](/faq/how-do-I-add-arrows-to-my-connections.md)
+- ![](/icons/thumbtack.svg) Pin an element in a [fixed position](/guides/layouts/fixed.md)
+- ![](/icons/exchange-alt.svg) Change [connection direction](/faq/how-do-I-add-arrows-to-my-connections.md)
 - ![](/icons/hourglass-half.svg) Add [delay markings](/guides/system-mapping.md#add-delay-markings)
 - ![](/icons/crosshairs.svg) Activate [focus](/guides/focus.md)
 - ![](/icons/tint.svg) [Decorate](/guides/decorate.md) the item
