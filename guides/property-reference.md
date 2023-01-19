@@ -8,22 +8,72 @@ If you're familiar with CSS, the advanced view editor will quickly become your b
 
 There are just few more things you should know about the valid values listed below:
 
-| Where you see...                                                                                                                                                                                                                                   | You can use...                                                                                                                                                                                                                                                          |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `color`                                                                                                                                                                                                                                            | Any CSS web color or hex color code                                                                                                                                                                                                                                     |
-| `colorPalette`                                                                                                                                                                                                                                     | The name of one of our [color palettes](color-reference.md)                                                                                                                                                                                                             |
-| `'Field name'`                                                                                                                                                                                                                                     | The name of any of your [fields](fields.md), wrapped in single or double quotes                                                                                                                                                                                         |
-| `number` or `[number]`                                                                                                                                                                                                                             | Any number                                                                                                                                                                                                                                                              |
-| `number number`                                                                                                                                                                                                                                    | Any two numbers separated by a space, e.g. `5 10`                                                                                                                                                                                                                       |
-| `0`                                                                                                                                                                                                                                                | Only the number `0`                                                                                                                                                                                                                                                     |
-| `0..1`                                                                                                                                                                                                                                             | Any number between `0` and `1`                                                                                                                                                                                                                                          |
-| `generic-family`                                                                                                                                                                                                                                   | The name of any CSS web safe font family                                                                                                                                                                                                                                |
-| `family-name`                                                                                                                                                                                                                                      | The name of any font family. `freight-text-pro` and `proxima nova` will always work, but other non-web-sage font families will only work if your reader has the font installed on their device.                                                                         |
-| `icon-name`                                                                                                                                                                                                                                        | The name of any icon from the [Font Awesome](https://fontawesome.com/icons) collection.                                                                                                                                                                                 |
-| `icon-style`                                                                                                                                                                                                                                       | `solid` or `regular`                                                                                                                                                                                                                                                    |
-| `https://...`                                                                                                                                                                                                                                      | Any URL. URLs starting with `https` are safest and will work best within Kumu.                                                                                                                                                                                          |
-| `string template`                                                                                                                                                                                                                                  | Any combination of letters, numbers, [supported markdown (including raw HTML)](markdown.md), or names of your fields wrapped in double curly brackets `{{}}`. Wrap the entire thing in double quotes. See our [label templates guide](label-templates.md) for examples. |
-| `auto`, `background`, `bold`, `bottom`, `center`, `circle`, `clip`, `contain`, `cover`, `dashed`, `gradient`, `hidden`, `inherit`, `italic`, `manual`, `map`, `none`, `normal`, `off`, `rectangle`, `solid`, `square`, `url`, `visible`, or `wrap` | That exact keyword                                                                                                                                                                                                                                                      |
+<table>
+<thead>
+<tr>
+<th>Where you see...</th>
+<th>You can use...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>color</code></td>
+<td>Any CSS web color or hex color code</td>
+</tr>
+<tr>
+<td><code>colorPalette</code></td>
+<td>The name of one of our <a href="color-reference.md">color palettes</a></td>
+</tr>
+<tr>
+<td><code>&#39;Field name&#39;</code></td>
+<td>The name of any of your <a href="fields.md">fields</a>, wrapped in single or double quotes</td>
+</tr>
+<tr>
+<td><code>number</code> or <code>[number]</code></td>
+<td>Any number</td>
+</tr>
+<tr>
+<td><code>number number</code></td>
+<td>Any two numbers separated by a space, e.g. <code>5 10</code></td>
+</tr>
+<tr>
+<td><code>0</code></td>
+<td>Only the number <code>0</code></td>
+</tr>
+<tr>
+<td><code>0..1</code></td>
+<td>Any number between <code>0</code> and <code>1</code></td>
+</tr>
+<tr>
+<td><code>generic-family</code></td>
+<td>The name of any CSS web safe font family</td>
+</tr>
+<tr>
+<td><code>family-name</code></td>
+<td>The name of any font family. <code>freight-text-pro</code> and <code>proxima nova</code> will always work, but other non-web-sage font families will only work if your reader has the font installed on their device.</td>
+</tr>
+<tr>
+<td><code>icon-name</code></td>
+<td>The name of any icon from the <a href="https://fontawesome.com/icons">Font Awesome</a> collection.</td>
+</tr>
+<tr>
+<td><code>icon-style</code></td>
+<td><code>solid</code> or <code>regular</code></td>
+</tr>
+<tr>
+<td><code>https://...</code></td>
+<td>Any URL. URLs starting with <code>https</code> are safest and will work best within Kumu.</td>
+</tr>
+<tr>
+<td><code>string template</code></td>
+<td>Any combination of letters, numbers, <a href="markdown.md">supported markdown (including raw HTML)</a>, or names of your fields wrapped in double curly brackets <code>{{}}</code>. Wrap the entire thing in double quotes. See our <a href="label-templates.md">label templates guide</a> for examples.</td>
+</tr>
+<tr>
+<td><code>auto</code>, <code>background</code>, <code>bold</code>, <code>bottom</code>, <code>center</code>, <code>circle</code>, <code>clip</code>, <code>contain</code>, <code>cover</code>, <code>dashed</code>, <code>gradient</code>, <code>hidden</code>, <code>inherit</code>, <code>italic</code>, <code>manual</code>, <code>map</code>, <code>none</code>, <code>normal</code>, <code>off</code>, <code>rectangle</code>, <code>solid</code>, <code>square</code>, <code>url</code>, <code>visible</code>, or <code>wrap</code></td>
+<td>That exact keyword</td>
+</tr>
+</tbody>
+</table>
 
 All values are unitless.
 
