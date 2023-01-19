@@ -147,17 +147,9 @@ A **view** is a collection of rules that affect the visual appearance of your el
 
 There are a lot of different kinds of rules that you can create. For example:
 
-<table class="table borderless table-striped">
-    <tr>
-        <td>All elements with "Person" in their Type field should be colored blue.</td>
-    </tr>
-    <tr>
-        <td>All connections with "Very Weak" in their Tags field should be filtered out (temporarily hidden).</td>
-    </tr>
-    <tr>
-        <td>Connections should be drawn between all the people who have the value "Finance" in a field named "What do you want to learn?".</td>
-    </tr>
-</table>
+- All elements with "Person" in their Type field should be colored blue.
+- All connections with "Very Weak" in their Tags field should be filtered out (temporarily hidden).
+- Connections should be drawn between all the people who have the value "Finance" in a field named "What do you want to learn?".
 
 Note that these rules are not tied to specific elements, connections, or loops, but instead are designed to act on groups of items, based on data and information inside of them—the rules in your views are all **data-driven**. Whether you have ten, one-hundred, or even one-thousand elements, the first rule from the list above is going to find _every single element_ with "Person" in the Type field and color it blue.
 

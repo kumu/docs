@@ -30,7 +30,7 @@ The table below lists all of the icons you'll find in the direct decorations too
 
 <table><thead>
 <tr><th>Icon</th><th>Action</th><th data-type="checkbox">Elements</th><th data-type="checkbox">Connections</th><th data-type="checkbox">Loops</th></tr></thead><tbody>
-<tr><td><img src="/icons/pencil.svg" /></td><td>Edit label and type</td><td>true</td><td>true</td><td>true</td></tr>
+<tr><td><img src="/icons/pencil-alt.svg" /></td><td>Edit label and type</td><td>true</td><td>true</td><td>true</td></tr>
 <tr><td><img src="/icons/font.svg" /></td><td>Edit font color, font size, font style, and font alignment</td><td>true</td><td>true</td><td>true</td></tr>
 <tr><td><img src="/icons/tint.svg" /></td><td>Edit color</td><td>true</td><td>true</td><td>true</td></tr>
 <tr><td><img src="/icons/arrows-alt.svg" /></td><td>Edit size and/or shape</td><td>true</td><td>true</td><td>false</td></tr>
@@ -43,7 +43,7 @@ The table below lists all of the icons you'll find in the direct decorations too
 <tr><td><img src="/icons/exchange-alt.svg" /></td><td>Change connection direction</td><td>false</td><td>true</td><td>false</td></tr>
 <tr><td><img src="/icons/hourglass-half.svg" /></td><td>Add delay markings</td><td>false</td><td>true</td><td>false</td></tr>
 <tr><td><img src="/icons/eye-slash.svg" /></td><td>Reset direct decorations</td><td>true</td><td>true</td><td>true</td></tr>
-<tr><td>Visit these docs!</td><td>true</td><td>true</td><td>true</td></tr></tbody></table>
+<tr><td><img src="/icons/book.svg" /></td><td>Visit these docs!</td><td>true</td><td>true</td><td>true</td></tr></tbody></table>
 
 ## Undo direct decorations
 

@@ -3,85 +3,66 @@
 {% embed url="https://www.youtube.com/embed/D5SQ4SzMtns" %}
 
 ### Navigation
-<ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">S</span> Search</li>
-  <li class="shortcut"><span class="keystroke">T</span> Settings</li>
-  <li class="shortcut"><span class="keystroke">]</span> Zoom In</li>
-  <li class="shortcut"><span class="keystroke">[</span> Zoom Out</li>
-  <li class="shortcut"><span class="keystroke">\</span> Zoom Fit</li>
-  <li class="shortcut"><span class="keystroke">dblclick</span> Quick Zoom</li>
-  <li class="shortcut"><span class="keystroke">Up/down/left/right</span> Pan</li>
-  <li class="shortcut"><span class="keystroke">Space</span> Pause</li>
-  <li class="shortcut"><span class="keystroke">Tab</span> Toggle Sidebar</li>
-  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">F</span> Full screen <a href="/overview/map-editor.md">Map Editor</a></li>
-  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">F</span> Full screen <a href="/overview/map-editor.md#canvas">canvas</a></li>
-</ul>
+- <kbd>S</kbd> Search
+- <kbd>T</kbd> Settings
+- <kbd>]</kbd> Zoom In
+- <kbd>[</kbd> Zoom Out
+- <kbd>\</kbd> Zoom Fit
+- <kbd>dblclick</kbd> Quick Zoom
+- <kbd>Up/down/left/right</kbd> Pan
+- <kbd>Space</kbd> Pause
+- <kbd>Tab</kbd> Toggle Sidebar
+- <kbd>ALT</kbd> + <kbd>F</kbd> Full screen <a href="/overview/map-editor.md">Map Editor</a>
+- <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>F</kbd> Full screen <a href="/overview/map-editor.md#canvas">canvas</a>
 
 ### Editing
-<ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">E</span> New Element</li>
-  <li class="shortcut"><span class="keystroke">C</span> New Connection</li>
-  <li class="shortcut"><span class="keystroke">L</span> New Loop</li>
-  <li class="shortcut"><span class="keystroke">I</span> Import data</li>
-  <li class="shortcut"><span class="keystroke">X</span> Export selection to Excel</li>
-  <li class="shortcut"><span class="keystroke">K</span> Sketch Mode</li>
-  <li class="shortcut"><span class="keystroke">R</span> Rename Selection</li>
-  <li class="shortcut"><span class="keystroke">DELETE</span> Delete Selection</li>
-  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">click</span> New Element</li>
-  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">drag</span> New Connection</li>
-</ul>
+- <kbd>E</kbd> New Element
+- <kbd>C</kbd> New Connection
+- <kbd>L</kbd> New Loop
+- <kbd>I</kbd> Import data
+- <kbd>X</kbd> Export selection to Excel
+- <kbd>K</kbd> Sketch Mode
+- <kbd>R</kbd> Rename Selection
+- <kbd>DELETE</kbd> Delete Selection
+- <kbd>ALT</kbd> + <kbd>click</kbd> New Element
+- <kbd>ALT</kbd> + <kbd>drag</kbd> New Connection
 
 ### Selection
-<ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">A</span> Select All</li>
-  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">E</span> Select All Elements</li>
-  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">C</span> Select All Connections</li>
-  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">L</span> Select All Loops</li>
-  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">CLICK</span> Toggle Selection</li>
-</ul>
+- <kbd>A</kbd> Select All
+- <kbd>SHIFT</kbd> + <kbd>E</kbd> Select All Elements
+- <kbd>SHIFT</kbd> + <kbd>C</kbd> Select All Connections
+- <kbd>SHIFT</kbd> + <kbd>L</kbd> Select All Loops
+- <kbd>SHIFT</kbd> + <kbd>CLICK</kbd> Toggle Selection
 
 ## Advanced Shortcuts
 
 ### Elements
-<ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">P</span> Pin</li>
-  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">P</span> Unpin</li>
-</ul>
+- <kbd>P</kbd> Pin
+- <kbd>ALT</kbd> + <kbd>P</kbd> Unpin
 
 ### Connections
-<ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">U</span> Undirected</li>
-  <li class="shortcut"><span class="keystroke">D</span> Directed</li>
-  <li class="shortcut"><span class="keystroke">M</span> Mutual</li>
-  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">D</span> Reverse</li>
-</ul>
+- <kbd>U</kbd> Undirected
+- <kbd>D</kbd> Directed
+- <kbd>M</kbd> Mutual
+- <kbd>ALT</kbd> + <kbd>D</kbd> Reverse
 
 ### Style
-<ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">Q</span> Toggle Quality</li>
-  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">S</span> See your view's code</li>
-  <li class="shortcut"><span class="keystroke">.</span> Edit your view's code</li>
-</ul>
+- <kbd>Q</kbd> Toggle Quality
+- <kbd>ALT</kbd> + <kbd>S</kbd> See your view's code
+- <kbd>.</kbd> Edit your view's code
 
 ### Layout
-<ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">B</span> Bump</li>
-  <li class="shortcut"><span class="keystroke">O</span> Remove element and label overlap</li>
-  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">O</span> Remove label overlap, but allow element overlap</li>
-  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">O</span> Remove element overlap, but allow label overlap</li>
-  
-</ul>
+- <kbd>B</kbd> Bump
+- <kbd>O</kbd> Remove element and label overlap
+- <kbd>ALT</kbd> + <kbd>O</kbd> Remove label overlap, but allow element overlap
+- <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>O</kbd> Remove element overlap, but allow label overlap
 
 ### Focus
-<ul class="shortcuts">
-  <li class="shortcut"><span class="keystroke">0-9</span> Set Focus</li>
-  <li class="shortcut"><span class="keystroke">+</span> Expand Focus</li>
-  <li class="shortcut"><span class="keystroke">-</span> Contract Focus</li>
-  <li class="shortcut"><span class="keystroke">`</span> Clear Focus</li>
-  <li class="shortcut"><span class="keystroke">CLICK</span> <strong>+</strong> <span class="keystroke">HOLD (map)</span> Clear Focus</li>
-  <li class="shortcut"><span class="keystroke">CLICK</span> <strong>+</strong> <span class="keystroke">HOLD (target)</span> Extend Focus</li>
-  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">CLICK</span> <strong>+</strong> <span class="keystroke">HOLD (target)</span> Shift Focus</li>
-</ul>
-
-
+- <kbd>0-9</kbd> Set Focus
+- <kbd>+</kbd> Expand Focus
+- <kbd>-</kbd> Contract Focus
+- <kbd>`</kbd> Clear Focus
+- <kbd>CLICK</kbd> + <kbd>HOLD (map)</kbd> Clear Focus
+- <kbd>CLICK</kbd> + <kbd>HOLD (target)</kbd> Extend Focus
+- <kbd>SHIFT</kbd> + <kbd>CLICK</kbd> + <kbd>HOLD (target)</kbd> Shift Focus
 

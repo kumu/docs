@@ -21,8 +21,10 @@ sizing arrows manually.
 }
 ```
 
+{% hint style="info" %}
 _NOTE: both `arrow-width` and `arrow-height` are multiplied against the connection width so take that
 into consideration when setting the values._
+{% endhint %}
 
 #### Arrow offset
 
@@ -31,7 +33,7 @@ To do so, add this code to your advanced editor:
 
 ```
 element {
-margin: 10;
+  margin: 10;
 }
 ```
 

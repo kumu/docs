@@ -236,30 +236,26 @@ If you prefer keeping everything within a single sheet, you can use two blank ro
 Our pre-named fields aren't required in your spreadsheet, but they get special visual treatment in [profiles](/guides/profiles.md), so it's great to use them when you can!
 
 <dl>
-    <dt>Type</dt>
-    <dd>
-      Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family. <a href="#try-to-be-selector-friendly">Try to be selector friendly</a> with your types, when you can.
-    </dd>
-
-    <dt>Description</dt>
-    <dd>
-      The description field designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even images and videos. <a href="/guides/markdown.md">You can use Markdown</a> to format each description's content.
-    </dd>
-
-    <dt>Tags</dt>
-    <dd>
-      The tags field is designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.<br><br>Make sure to separate multiple tags using a pipe "|" in your spreadsheet cells, and <a href="#try-to-be-selector-friendly">try to be selector friendly</a> with your tags, when you can.
-    </dd>
-
-    <dt>Image</dt>
-    <dd>
-      Include an image URL and Kumu will display it on the map and in the profile.
-    </dd>
-
-    <dt>Email</dt>
-    <dd>
-      Add an email and Kumu will automatically include their <a href="http://en.gravatar.com/">gravatar</a> on the map and in the profile. Gravatars can be a huge time saver when working with social network data!
-    </dd>
+  <dt>Type</dt>
+  <dd>
+    Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family. <a href="#try-to-be-selector-friendly">Try to be selector friendly</a> with your types, when you can.
+  </dd>
+  <dt>Description</dt>
+  <dd>
+    The description field designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even images and videos. <a href="/guides/markdown.md">You can use Markdown</a> to format each description's content.
+  </dd>
+  <dt>Tags</dt>
+  <dd>
+    The tags field is designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.<br><br>Make sure to separate multiple tags using a pipe "|" in your spreadsheet cells, and <a href="#try-to-be-selector-friendly">try to be selector friendly</a> with your tags, when you can.
+  </dd>
+  <dt>Image</dt>
+  <dd>
+    Include an image URL and Kumu will display it on the map and in the profile.
+  </dd>
+  <dt>Email</dt>
+  <dd>
+    Add an email and Kumu will automatically include their <a href="http://en.gravatar.com/">gravatar</a> on the map and in the profile. Gravatars can be a huge time saver when working with social network data!
+  </dd>
 </dl>
 
 #### 3. Use pipes to separate multiple values

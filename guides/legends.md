@@ -17,7 +17,7 @@ There are two ways to create your legend from the [Basic Editor](../overview/vie
 
 When you use the [Color by](decorate.md#color-by) tool in the Basic Editor, Kumu will automatically create your color legend, adding an item for each possible value in the field you're coloring by. For example, this map is colored by Element Type using the `bujumbra` scale:
 
-![bujumbra color by](../images/legend-color-by-closeup.png)
+![bujumbra color by](/images/legend-color-by-closeup.png)
 
 This automatic legend feature also works when you're using **Color by** to add [flags](flags.md).
 
@@ -45,17 +45,17 @@ For bonus points, use [field relevance settings](fields.md#field-relevance) to h
 
 To add custom colors and icons to your legend, use the [element and connection decoration builders](decorate.md#refine-your-decorations). Once you build out your decoration rule, fill in the "Label for Legend" box at the bottom of the decoration builder, and Kumu will add your decoration to the legend.
 
-![label for legend box](../images/decoration-builder-legend-label.png)
+![label for legend box](/images/decoration-builder-legend-label.png)
 
 You can use the decoration builders to add many different kinds of items to your legend—for example, icons to indicate that elements or connections are being scaled in size:
 
-![Network map with cool legend entries](../images/legend-scale-closeup.png)
+![Network map with cool legend entries](/images/legend-scale-closeup.png)
 
 For a full list of legend icons you can add, [jump to the legend reference](legends.md#legend-reference).
 
 The legend entries added from the decoration builder will be listed in the Basic Editor among other existing decorations. Decorations that are labelled with bold text are the ones that appear in your legend, and you can click the pencil icon next to a decoration to edit it and its legend label.
 
-![Existing decorations for network map](../images/existing-decorations-scale.png)
+![Existing decorations for network map](/images/existing-decorations-scale.png)
 
 #### Removing legend entries
 
@@ -93,7 +93,7 @@ There are two ways to re-order legend entries, depending on how they were added.
 
 If you added legend entries using the decoration builder or the Advanced Editor, find your legend entry in the [existing decorations](../overview/view-editors.md#existing-decorations) section, then drag-and-drop the entry to change its order.
 
-![Cascading decorations](../images/cascading-decorations.gif)
+![Cascading decorations](/images/cascading-decorations.gif)
 
 ## Add legend entries through the Advanced Editor
 
@@ -119,7 +119,7 @@ author {
 
 Note that you can combine multiple decoration rules into one block of code, and Kumu's legend will combine many of your rules into one legend icon. The code above will create the following entry in the legend, complete with color, border color, and scale:
 
-![fancy legend combo](../images/legend-combo.png)
+![fancy legend combo](/images/legend-combo.png)
 
 For a full list of legend icons and how to use them from the Advanced Editor, [jump to the legend reference](legends.md#legend-reference).
 
@@ -139,7 +139,7 @@ If you'd like to change the title of your legend from "Legend" to something more
 
 This is what it'll look like:
 
-![custom legend title](../images/custom-legend-title.png)
+![custom legend title](/images/custom-legend-title.png)
 
 ## Hide the legend
 
@@ -157,37 +157,162 @@ For more info on why and how this works, check out [our full guide on built-in c
 
 Below is a list of all the icons you can add to your legend, as well as instructions on how to access the icons from the Basic and Advanced Editors.
 
-| Legend icon                                                         | Basic Editor workflow                                                              | Advanced Editor code snippet                                                  |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| ![element scale icon](../images/legend-element-scale.png)           | <p>Decorate elements ><br>Change size ><br>Scale elements by a field</p>           | <pre><code>element {
-    scale: scale("betweenness", 0.5, 3);
-}
-</code></pre> |
-| ![element color icon](../images/legend-element-color.png)           | <p>Decorate elements ><br>Change color ><br>Set a fixed element color</p>          | <pre><code>element {
+<table>
+   <thead>
+      <tr>
+         <th>Legend icon</th>
+         <th>Basic Editor</th>
+         <th>Advanced Editor</th>
+      </tr>
+   </thead>
+   <tbody>
+      <td><img alt="element color icon" src="/images/legend-element-color.png" /></td>
+      <td><p>Decorate elements ><br>Change color ><br>Set a fixed element color</p></td>
+      <td><pre><code>element {
     color: #34b3eb;
 }
-</code></pre>                      |
-| ![element shadow color icon](../images/legend-shadow-color.png)     | <p>Decorate elements ><br>Add shadow ><br>color</p>                                | <pre><code>element {
+</code></pre></td>
+      </tr>
+      <tr>
+         <td><img alt="element shadow color icon" src="/images/legend-shadow-color.png" /></td>     
+         <td><p>Decorate elements ><br>Add shadow ><br>color</p></td>
+         <td><pre><code>element {
     shadow-color: #34b3eb;
 }
-</code></pre>               |
-| ![element bullseye color icon](../images/legend-bullseye-color.png) | <p>Decorate elements ><br>Add bullseye ><br>color</p>                              | <pre><code>element {
+</code></pre></td>
+      </tr>
+      <tr>
+         <td><img alt="element bullseye color icon" src="/images/legend-bullseye-color.png" /></td> 
+         <td><p>Decorate elements ><br>Add bullseye ><br>color</p></td>
+         <td><pre><code>element {
     bullseye-color: #34b3eb;
 }
-</code></pre>             |
-| ![element border color icon](../images/legend-border-color.png)     | None                                                                               | <pre><code>element {
+</code></pre></td>
+      </tr>
+      <tr>
+         <td><img alt="element border color icon" src="/images/legend-border-color.png" /></td>     
+         None                                                                               
+         <td><pre><code>element {
     border-color: #34b3eb;
 }
-</code></pre>               |
-| ![connection scale icon](../images/legend-connection-scale.png)     | <p>Decorate connections ><br>Change size ><br>Scale connection widths by field</p> | <pre><code>connection {
+</code></pre></td>
+      </tr>
+      <tr>
+         <td><img alt="connection scale icon" src="/images/legend-connection-scale.png" /></td>     
+         <td><p>Decorate connections ><br>Change size ><br>Scale connection widths by field</p></td>
+         <td><pre><code>connection {
     scale: scale("strength", 0.5, 3);
 }
-</code></pre> |
-| ![connection color icon](../images/legend-connection-color.png)     | <p>Decorate connections ><br>Change color ><br>Set a fixed connection color</p>    | <pre><code>connection {
+</code></pre></td>
+      </tr>
+      <tr>
+         <td><img alt="connection color icon" src="/images/legend-connection-color.png" /></td>     
+         <td><p>Decorate connections ><br>Change color ><br>Set a fixed connection color</p></td>
+         <td><pre><code>connection {
     color: #34b3eb;
 }
-</code></pre>                   |
-| ![connection dashed icon](../images/legend-connection-dashed.png)   | <p>Decorate connections ><br>Change style ><br>dashed</p>                          | <pre><code>connection {
+</code></pre></td>
+      </tr>
+      <tr>
+         <td><img alt="connection dashed icon" src="/images/legend-connection-dashed.png" /></td></td>
+          <td><p>Decorate connections ><br>Change style ><br>dashed</p></td>
+          <td><pre><code>connection {
     style: dashed;
 }
-</code></pre>                    |
+</code></pre></td>
+      </tr>
+   </tbody>
+</table>
+<table>
+   <thead>
+      <tr>
+         <th>Legend icon</th>
+         <th>Basic Editor</th>
+         <th>Advanced Editor</th>
+      </tr>
+   </thead>
+   <tbody>
+      <td><img alt="element color icon" src="/images/legend-element-color.png" /></td>
+      <td>
+         <p>Decorate elements ><br>Change color ><br>Set a fixed element color</p>
+      </td>
+      <td>
+         <pre><code>element {
+    color: #34b3eb;
+}
+</code></pre>
+      </td>
+      </tr>
+      <tr>
+         <td><img alt="element shadow color icon" src="/images/legend-shadow-color.png" /></td>
+         <td>
+            <p>Decorate elements ><br>Add shadow ><br>color</p>
+         </td>
+         <td>
+            <pre><code>element {
+    shadow-color: #34b3eb;
+}
+</code></pre>
+         </td>
+      </tr>
+      <tr>
+         <td><img alt="element bullseye color icon" src="/images/legend-bullseye-color.png" /></td>
+         <td>
+            <p>Decorate elements ><br>Add bullseye ><br>color</p>
+         </td>
+         <td>
+            <pre><code>element {
+    bullseye-color: #34b3eb;
+}
+</code></pre>
+         </td>
+      </tr>
+      <tr>
+         <td><img alt="element border color icon" src="/images/legend-border-color.png" /></td>
+         None                                                                               
+         <td>
+            <pre><code>element {
+    border-color: #34b3eb;
+}
+</code></pre>
+         </td>
+      </tr>
+      <tr>
+         <td><img alt="connection scale icon" src="/images/legend-connection-scale.png" /></td>
+         <td>
+            <p>Decorate connections ><br>Change size ><br>Scale connection widths by field</p>
+         </td>
+         <td>
+            <pre><code>connection {
+    scale: scale("strength", 0.5, 3);
+}
+</code></pre>
+         </td>
+      </tr>
+      <tr>
+         <td><img alt="connection color icon" src="/images/legend-connection-color.png" /></td>
+         <td>
+            <p>Decorate connections ><br>Change color ><br>Set a fixed connection color</p>
+         </td>
+         <td>
+            <pre><code>connection {
+    color: #34b3eb;
+}
+</code></pre>
+         </td>
+      </tr>
+      <tr>
+         <td><img alt="connection dashed icon" src="/images/legend-connection-dashed.png" /></td>
+         </td>
+         <td>
+            <p>Decorate connections ><br>Change style ><br>dashed</p>
+         </td>
+         <td>
+            <pre><code>connection {
+    style: dashed;
+}
+</code></pre>
+         </td>
+      </tr>
+   </tbody>
+</table>

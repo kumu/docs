@@ -2,7 +2,9 @@
 
 Snap-to makes it easy to arrange a group of elements as a circle or a line. This can be useful for creating rings of stakeholders based on whether they are core vs. periphery, positioning elements along a linear timeline, or just bringing more order to a complex map. It also brings additional grouping and sorting functionality to support analysis of complex data.
 
+<!-- TODO: Fix
 ![snap to](/images/Screen Shot 2016-05-19 at 4.57.15 PM.png)
+-->
 
 ![snap to line](/images/linesnapto.png)
 

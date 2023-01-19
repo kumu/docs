@@ -70,8 +70,6 @@ You can also bridge between the elements created by clustering. Let's say you we
 
 And remember: all of these settings are saved in [views](../overview/kumus-architecture.md#views), so you can quickly toggle between different bridge and cluster settings, showing radically different versions of your network without changing the underlying data in any way.
 
-Bridging has the ability to create a lot of new connections—so many that they might bog down your map!\
-\
-
+Bridging has the ability to create a lot of new connections—so many that they might bog down your map!
 
 If you notice your map freezing or moving slowly after you bridge, check out our guide on [Kumu's data limits](../faq/how-much-data-can-kumu-handle.md) for more tips on how to improve speed.

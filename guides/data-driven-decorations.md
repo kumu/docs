@@ -83,9 +83,8 @@ In this example, we sized people by the number of views they received on their v
 Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it. If you don't have this kind of data available, try using Kumu's [Metrics](/guides/metrics.md) feature to create some!
 
 {% hint style="warn" %}
-    Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try <a class="alert-link" href="/guides/fields.md#customize-a-field">changing the field type to "Number"</a>.
+  Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try [changing the field type to "Number"](/guides/fields.md#customize-a-field).
 {% endhint %}
-
 
 ### Color by
 
@@ -119,9 +118,7 @@ To learn more about shapes, [read the full guide](/guides/shapes.md).
 
 If you need more precise control over your size and color decorations, you can click the **MORE OPTIONS** link underneath the four core tools in the Basic Editor.
 
-<span class="small plain">
 ![More options in the basic editor](/images/overview-customize-this-view.png)
-</span>
 
 Select **Decorate elements** to bring up the Decoration Builder for elements.
 

@@ -55,9 +55,7 @@ This is your blank canvas, where you'll add elements (circles) and connections (
 
 At this point, you need to decide how to get all of this information into the map. There are three basic ways to do this:
 
-<span class="plain">
 ![](/images/three-ways-to-build.png)
-</span>
 
 In this guide, we'll cover how to build your map by hand. If you'd rather import from a spreadsheet or Google Sheets, [check out our full guide on imports](/guides/import.md).
 
@@ -65,7 +63,7 @@ In this guide, we'll cover how to build your map by hand. If you'd rather import
 
 Building your map by hand is a good choice for system maps or smaller network maps. If your map will have less than 50 elements, you can probably build it comfortably by hand. There are two ways to build a map by hand.
 
-1. The green  button
+1. The green ![](/icons/plus-circle.svg) button
 1. Sketch mode
 
 #### The green  button
@@ -207,9 +205,7 @@ Building maps in Kumu can be a lot of work! Inviting somebody else to contribute
 
 To add a contributor to a project, click the menu icon ![](/icons/bars.svg) <i class="fa fa-bars">  </i> in the upper left of your project, then select **MEMBERS** from the sidebar.
 
-<span class="small plain">
 ![](/images/settings-members.png)
-</span>
 
 In the **Username** box, type the Kumu username of the person you want to add (if they don't have a username, they can get one for free at https://kumu.io/join) and click **Add contributor**.
 

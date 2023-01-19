@@ -9,4 +9,6 @@ To add or update your credit card information, follow the following steps:
 
 Success! You've now updated your credit card information for future payment. 
 
+{% hint style="danger" %}
 To delete your credit card information, follow the same steps as above, and choose **Delete Card**. 
+{% endhint %}

@@ -4,9 +4,7 @@ Showcase is similar to [Filter](/guides/filter.md), which allows you to show or 
 
 To quickly test out showcasing, simply hover your cursor over any element, connection, or loop:
 
-<span class="small plain">
 ![showcase animation](../images/showcase-control.gif)
-</span>
 
 Showcase settings can be saved to a [view](/guides/views.md), and these settings can be fully customized in two ways: through the Basic Editor, and through the Advanced Editor.
 

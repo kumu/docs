@@ -12,7 +12,9 @@ If you want to downgrade your Basic Workspace (which includes unlimited public p
 - Transfer the private project(s) to another user
 - Delete the private project(s)
 
+{% hint style="info" %}
 _Want to download a backup file of your project before you delete it? Learn how to do that [here](/guides/blueprints.md?q=convert#project-backups)._
+{% endhint %}
 
 If you are being billed **monthly**, Kumu's billing system will automatically put you on the free plan as soon as you have removed all private projects from your account. If you are being billed **annually**, please take the following steps to downgrade your plan: 
 
@@ -20,7 +22,9 @@ If you are being billed **monthly**, Kumu's billing system will automatically pu
 2. Click on the name of the workspace for which you'd like to make the change
 3. Scroll down to **Annual private project limit**, choose how many private projects you'd like to remove, and click on the "Decrease limit" button. 
 
-_Note: Project fees will not be refunded when you remove private projects. Instead, a pro-rated amount will be credited to your Kumu account and applied to future invoices. Prefer a refund? Please contact us at [support@kumu.io](mailto: support@kumu.io). _
+{% hint style="info" %}
+Note: Project fees will not be refunded when you remove private projects. Instead, a pro-rated amount will be credited to your Kumu account and applied to future invoices. Prefer a refund? Please contact us at [support@kumu.io](mailto: support@kumu.io).
+{% endhint %}
 
 ## Pro Workspace
 If you have a Pro Workspace, you'll have to downgrade your account to a Basic Workspace _in addition_ to taking the steps above to remove your private project(s). 

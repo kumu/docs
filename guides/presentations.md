@@ -65,7 +65,13 @@ Presentations can also be embedded just like any other Kumu embed: as an `iframe
 Copy/paste the code onto your website, and you're visitors will see a fully interactive Kumu presentation!
 
 ## Autoplay a presentation
+If you want your presentation to automatically advance to the next slide, add an `autoplay` parameter to the URL. This parameter specifies the number of seconds to wait before advancing to the next slide.
 
+For example, if your presentation URL is https://you.kumu.io/presentation and you want it to automatically advance each 10 seconds, then you would use https://you.kumu.io/presentation?autoplay=10.
+
+If your presentation is private and has a URL like https://you.kumu.io/presentation?token=123 and you want it to advance each 10 seconds, then use https://you.kumu.io?token=123&autoplay=10.
+
+<!--
 If you want your presentation to automatically advance to the next slide, use the tool below to create a custom autoplay link. Note that when you enable autoplay on a presentation, Kumu will automatically loop around to the first slide after it reaches the end of the presentation.
 
 Advance to the next slide after  seconds
@@ -77,3 +83,4 @@ Advance to the next slide after  seconds
 Copied to clipboard
 
 function customUrlEffect () { document.getElementById("copy-success").style.opacity = "0"; const url = (() => { try { return new URL(document.getElementById('presentation-url').value) } catch { return '' } })() if (!url) { return } const params = url.search ? url.search.replace(/^\\?/, '').split('&').filter(param => !param.startsWith('autoplay')) : \[] const seconds = Number(document.getElementById('autoplay-seconds').value) const customUrl = params.length > 0 ? \`${url.origin}${url.pathname}?${params.join('&')}\&autoplay=${seconds}\` : \`${url.origin}${url.pathname}?autoplay=${seconds}\` document.getElementById('presentation-url-custom').value = customUrl } function copyCustomUrl() { const customUrl = document.getElementById('presentation-url-custom').value navigator.clipboard.writeText(customUrl) .then(() => document.getElementById("copy-success").style.opacity = "1") }
+-->

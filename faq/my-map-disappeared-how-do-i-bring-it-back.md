@@ -7,7 +7,7 @@ If it seems like your entire map, or parts of your map, have suddenly disappeare
 
 Kumu's [focus feature](/guides/focus.md) has the ability to hide entire sections of your map, narrowing focus to just a small selection. This is really useful when you need it—but can be pretty scary if you see most of your map disappear without explanation!
 
-To know when focus is turned on, look for a blue target icon <i class="fa fa-crosshairs"> on the right side of the map. If it's blue, click it to turn focus off, or just press `Esc` on your keyboard.
+To know when focus is turned on, look for a blue target icon ![](/icons/crosshairs.svg) on the right side of the map. If it's blue, click it to turn focus off, or just press `Esc` on your keyboard.
 
 
 ## Has a filter been applied?

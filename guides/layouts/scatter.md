@@ -57,11 +57,11 @@ Notice there's no need to use the `-multiplier` settings if you're comfortable w
 
 We're using the [mathjs](http://mathjs.org) library under the hood so if you want to learn more we recommend checking out the following links:
 
-- http://mathjs.org/docs/expressions/syntax.md
-- http://mathjs.org/docs/reference/functions.md
+- ![http://mathjs.org/docs/expressions/syntax.md](http://mathjs.org/docs/expressions/syntax.md)
+- ![http://mathjs.org/docs/reference/functions.md](http://mathjs.org/docs/reference/functions.md)
 
 
-##Put it all together
+## Put it all together
 
 In this guide, we broke down the code into pieces for clarity, but in an actual Kumu view, you'll put it all into one `@settings` block.
 
