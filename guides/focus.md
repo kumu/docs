@@ -9,9 +9,9 @@ Focus is activated in one of two ways, by clicking and holding on any element, c
 
 Click the focus icon again to bring the full map back into view.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 <b>Keyboard shortcuts:</b> Press <code>+</code> and <code>-</code> on your keyboard to expand and contract focus, or press a number on your keyboard to specify exactly how many degrees the focus should extend. Press <code>esc</code> on your keyboard to bring the full map back into view.
-</p>
+{% endhint %}
 
 ## Focus in the Advanced Editor
 

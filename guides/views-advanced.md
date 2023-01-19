@@ -58,10 +58,10 @@ person                         // all people
 project.pending[priority=high] // all high priority projects tagged "pending"
 ```
 
-<p class="alert alert-info">
+{% hint style="info" %}
   The full list of supported selectors can be found in our
   <a class="alert-link" href="/guides/selector-reference.md">Selector Reference</a>.
-</p>
+{% endhint %}
 
 ### Step 2: Build your decorations
 
@@ -77,10 +77,10 @@ Now it's time to do some decorating! Below we'll increase Jack's size, change hi
 
 ![decorate](/images/person-shadow.png)
 
-<p class="alert alert-info">
+{% hint style="info" %}
   The full suite of available properties can be found in our
   <a class="alert-link" href="/guides/property-reference.md">Property Reference</a>.
-</p>
+{% endhint %}
 
 ### Step 3: Add it to the legend (optional)
 

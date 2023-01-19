@@ -98,9 +98,9 @@ To restore this backup in a brand new project, go to your Kumu dashboard and cli
 
 On this screen, click the blue link that says **restore backup**, then select the blueprint from your computer. Kumu will import the blueprint, fully restoring all data and project settings, including the project name.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Not seeing the <b>restore backup</b> link on your screen? Make sure you're importing into a brand new project—it's not possible to import a blueprint into a project with existing maps, views, and other data.
-</p>
+{% endhint %}
 
 
 ### Set a remote blueprint

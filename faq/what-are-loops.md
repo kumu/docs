@@ -120,9 +120,9 @@ To detect loops, follow these steps:
 - Adding a name to a loop will add that label to your map in the center of the loop.
 - Loops can only be [exported with JSON](/guides/export.md). You can't export loops to Excel.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Automatic loop detection is not (yet) available for maps imported with Google Sheets. If you'd like to use loop detection, please <a class="alert-link" href="/guides/import.md#import-from-excel-or-csv">import your map with Excel</a>.
-</p>
+{% endhint %}
 
 ## Decorating loops
 

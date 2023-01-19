@@ -11,9 +11,9 @@ Here's a visual example—musical artists clustered by their genre:
 
 This guide will make you an expert on clustering, one of Kumu's most unique and powerful tools!
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Before you start: <a class="alert-link" href="/guides/fields.md">use fields</a> to add additional information to your elements, connections, and loops.
-</p>
+{% endhint %}
 
 
 ## Why is clustering valuable?

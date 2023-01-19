@@ -6,15 +6,15 @@ But don't worry, there's a solution! Kumu has a built-in tool that will automati
 
 Select one option or the other, based on the effect you want to see on your map. Kumu will move your elements to new positions, then tell you how to save the new positions. If you save the positions, your elements will be pinned in place and won't float anymore. If you'd rather discard the new positions, just press `spacebar` or `B` on your keyboard to bump the map back into a floating position.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 <b>Keyboard shortcuts:</b> press <code>o</code> to remove both element and label overlap, and press <code>Alt</code> + <code>o</code> to remove just the label overlap.
-</p>
+{% endhint %}
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Maps that source their data from <a class="alert-link" href="/guides/import.md#import-from-google-sheets">Google Sheets</a> or a <a class="alert-link" href="/guides/blueprints.md#set-a-remote-blueprint">remote JSON blueprint</a> can't save positions for elements, so you won't be able to permanently remove overlap on those maps.
 <br><br>
 However, you can still remove overlap before <a class="alert-link" href="/overview/collaboration.md#create-a-screenshot">taking a screenshot or creating a hi-res PDF</a>.
-</p>
+{% endhint %}
 
 
 <!-- Before:

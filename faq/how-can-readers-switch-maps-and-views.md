@@ -3,9 +3,9 @@
 When you share a project with your audience, and you've worked hard to create different maps or views, you'll want to make it easy for your readers to switch between those maps or views. There are a few different ways to do this—read through this FAQ to find out which option works best for you.
 
 ## Send readers directly to your project
-<p class="alert alert-warning">
-If you're working on a private project, this solution will only work for you and people you <a class="alert-link" href="/overview/collaboration.md#add-a-contributor">add as contributors</a>.
-</p>
+{% hint style="warning" %}
+If you're working on a private project, this solution will only work for you and people you [add as contributors](/overview/collaboration.md#add-a-contributor).
+{% endhint %}
 
 When you open your project, you'll see a link in the URL bar of your browser. Simply copy that link and share it with your audience, and they'll be able to use the map and view dropdowns to see all of your work. Note that your readers will see a nearly identical Kumu interface, but they won't be able to edit the project (unless it's someone you have [added as a contributor](/getting-started/first-steps.md#add-a-contributor)).
 

@@ -23,9 +23,9 @@ Go to your [account dashboard](https://kumu.io/dashboard), then navigate to the 
 
 Your workspace will be a Basic workspace by default. In the Billing section of your workspace's settings page, click the button to upgrade to a Pro workspace. After that, you're all set!
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 <b>Note:</b> You need to create an account in order to create and own a Pro workspace. Even if you think a Pro workspace is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your Kumu account</a> first.
-</p>
+{% endhint %}
 
 
 ## Add users to a Pro workspace

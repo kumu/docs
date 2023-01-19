@@ -18,9 +18,9 @@ When you're done adjusting the settings, click "Create embed / share link". Then
 
 You can also use the external link button (<i class="fa fa-external-link-square"></i>) to open the map link in a new tab.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
   Anyone who has access to the the share link or the embedded version (and, when applicable, the password) will be able to view the map, even if the project is private.
-</p>
+{% endhint %}
 
 <div class="alert alert-warning">
   <p>

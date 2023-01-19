@@ -49,9 +49,9 @@ To edit an existing loop, click on its label on the map, then click the edit ico
 
 To move an entire loop (including all of its connections), hold down the `alt` key on your keyboard, then click-and-drag the loop label.
 
-<p class="alert alert-info">
+{% hint style="info" %}
   Tip: Use keyboard shortcuts to speed up the building process! Press <code>E</code> to add an element, <code>C</code> to add a connection, and <code>L</code> to add a loop.
-</p>
+{% endhint %}
 
 #### Sketch mode
 
@@ -59,9 +59,9 @@ If you're building a system map by hand, you should definitely give sketch mode 
 
 Once sketch mode is activated, you can add an element by clicking anywhere on the map, and you can add a connection by clicking and dragging from an existing element.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Quickly enter sketch mode by pressing <code>K</code> on your keyboard, and press the <code>esc</code> key to exit. While in sketch mode, you can move elements by holding the <code>alt</code> key on your keyboard, then clicking and dragging the element.
-</p>
+{% endhint %}
 
 ## Refine your map's appearance
 
@@ -83,17 +83,17 @@ To flip the direction of a connection, you can click on the connection that you 
 
 To remove an arrow, you can click "Undirected", and the arrow will disappear. To add an arrow on the other side of the connection, select "Mutual".
 
-<p class="alert alert-info">
+{% hint style="info" %}
 To change the arrows for multiple connections at a time, hold down <code>Shift</code> on your keyboard and click on connections to select more than one. Then, follow the same steps above to make your changes.<br><br>You can also press <code>Shift</code> + <code>C</code> on your keyboard to select all connections.
-</p>
+{% endhint %}
 
 #### Add delay markings
 
 Sometimes, system mappers will add two parallel lines intersecting a connection to indicate that there is an implicit time delay in the relationship—one factor _does_ affect the other, but it might take a long time to do so. To add this delay marking to a connection, you can select the connection, then click the delay icon <i class="fa fa-hourglass-half"></i> in the lower right of the connection's profile.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 To add delay markings for multiple connections at a time, hold down <code>Shift</code> on your keyboard and click on connections to select more than one. Then, follow the same steps above to make your changes.<br><br>You can also press <code>Shift</code> + <code>C</code> on your keyboard to select all connections.
-</p>
+{% endhint %}
 
 #### Force line breaks in element labels
 

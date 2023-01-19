@@ -96,13 +96,13 @@ If you need a hi-res screenshot that can scale up or down to any size (for examp
 
 Click the export icon in the bottom-right corner of your project and select "Export to PDF". Fill out any of the layout info for your PDF and click "Export PDF" at the bottom. PDFs are free and unlimited for all projects in all workspaces.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Want to make sure your labels are readable on your PDF or screenshot? <a class="alert-link" href="/guides/layouts/remove-overlap.md">Learn how to remove label overlap</a>.
-</p>
+{% endhint %}
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 PDFs can only be created for maps, not for full <a class="alert-link" href="/guides/presentations.md">presentations</a>.
-</p>
+{% endhint %}
 
 
 

@@ -35,9 +35,9 @@ Private projects in a Pro workspace are **$20 per private project per month** (o
 
 Learn more about how to set up and use the Pro workspace in [this guide](/guides/pro-workspaces.md)
 
-<p class="alert alert-info">
+{% hint style="info" %}
   Note that you can downgrade your subscription at any time. Click <a class="alert-link" href="/faq/how-do-i-downgrade-to-free.md">here</a> to find out how to do this.
-</p>
+{% endhint %}
 
 
 ### Plans & Features
@@ -109,9 +109,9 @@ Learn more about how to set up and use the Pro workspace in [this guide](/guides
       </tbody>
 </table>
 
-<p class="alert alert-info">
+{% hint style="info" %}
   Note that you can pay montly or annually. If you choose the annual plan, you get a 20% discount included in the final price. Click <a class="alert-link" href="/overview/billing.md">here</a> for more information.
-</p>
+{% endhint %}
 
 ## Enterprise
 

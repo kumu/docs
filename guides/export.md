@@ -13,13 +13,13 @@ If you need a hi-res screenshot that can scale up or down to any size (for examp
 
 PDFs are free and unlimited for all projects in all workspaces. 
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Want to make sure your labels are readable on your PDF or screenshot? <a class="alert-link" href="/guides/layouts/remove-overlap.md">Learn how to remove label overlap</a>.
-</p>
+{% endhint %}
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 PDFs can only be created for regular maps, not for geo templates or full <a class="alert-link" href="/guides/presentations.md">presentations</a>. 
-</p>
+{% endhint %}
 
 ## Export to PNG: create a screenshot
 To quickly snap a screenshot of your map, click the download icon in the bottom right corner, and select "Export to PNG". Note that the screenshot will be taken at your current position and scale on the map—if you'd like everything to be centered, click the zoom-fit icon <i  class="glyphicon glyphicon-resize-small">  </i> in the zoom toolbar, or press `\` on your keyboard.
@@ -28,7 +28,7 @@ To quickly snap a screenshot of your map, click the download icon in the bottom 
 
 When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Note that geo maps can not be exported to PNG. Also: the default background color of Kumu maps is off-white. If you wish to change the background color to a regular white so that it fits better within the rest of your document, you can add this code to the Advanced Editor: 
 
 @settings {
@@ -37,7 +37,7 @@ Note that geo maps can not be exported to PNG. Also: the default background colo
   
 }
 
-</p>
+{% endhint %}
 
 ## Export to Excel: for bulk editing
 If you choose "Export to XLSX" without anything selected, your entire map will be exported as a spreadsheet in xlsx format. If you only want to export a portion of your map, just select the things you'd like to export before clicking export.

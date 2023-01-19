@@ -43,8 +43,8 @@ If you really want your custom control to be in the top right, and you'd rather 
 ```
 
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Even if the settings button is hidden, it's always possible to open the settings panel by pressing <code>T</code> on your keyboard.
-</p>
+{% endhint %}
 
 

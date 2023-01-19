@@ -1,8 +1,8 @@
 # How do I get rid of duplicate elements?
 
-<p class="alert alert-info">
+{% hint style="info" %}
 <b>Before you start:</b> <a class="alert-link" href="/faq/how-do-I-avoid-duplicating-data.md">Read our guide</a> to understand when Kumu creates new elements and when Kumu updates existing elements.
-</p>
+{% endhint %}
 
 If you find just a few duplicates in your map, it’s best to delete them by hand by selecting the duplicate and clicking the trash icon in the sidebar.
 

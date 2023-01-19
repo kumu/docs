@@ -69,8 +69,8 @@ Change the `10` and the `50` while observing the visual changes on your map. Thr
 
 If you don't want this setting to apply to all elements, replace `element` with any valid [selector](/guides/selectors.md).
 
-<p class="alert alert-info">
+{% hint style="info" %}
 <b>Tip:</b> Find the largest scaled element on the map. Tweak the maximum <code>font-size</code> until the largest element's label looks good. Then, find the smallest scaled element, and adjust the minimum <code>font-size</code> until the label looks good.<br><br>From there, make slight tweaks to the minimum and maximum until all elements on the map look good.
-</p>
+{% endhint %}
 
 

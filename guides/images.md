@@ -17,9 +17,9 @@ If you are [building a map by hand](/getting-started/first-steps.md#build-your-m
 
 You can upload images to descriptions and the map overview as well. To do this, click to edit any text area in the [side panel](/overview/map-editor.md#side-panel), and look for "select a file" below the text area.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Note: when you're uploading images, only JPEG, PNG, and GIF files smaller than 5mb are supported at this time.
-</p>
+{% endhint %}
 
 
 #### Importing image(s) through Google Sheets
@@ -92,9 +92,9 @@ You can replace the `image-url` in that code with a link to any image online. To
 
 Also, if your image isn't big enough, or if it's so tall or wide that it's affecting your zoom fit, you can change the `height` and `width` numbers in the code to adjust the dimensions.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Some images won't be displayed in Kumu, because they are using an insecure connection (the link starts with <code>http</code> instead of <code>https</code>), or because they are traveling through a proxy server.<br><br>If your image isn't displaying in Kumu, you can save the file to your computer and follow the steps below to upload the image directly to your Kumu project.
-</p>
+{% endhint %}
 
 You can also use the [Basic Editor](/overview/view-editors.md#basic-editor) to upload an image from your computer to your Kumu project—this will override the `image-url` in your code. Follow these steps:
 
@@ -108,21 +108,21 @@ You can also use the [Basic Editor](/overview/view-editors.md#basic-editor) to u
 8. Upload your image, and click **Done** at the bottom of the decoration builder
 9. Click **SAVE** at the bottom of the Basic Editor
 
-<p class="alert alert-info">
+{% hint style="info" %}
 If you need to adjust the position of the image element in the map, you'll need to remove the <code>layer: background;</code> line. Click and drag the element to adjust its position, and then add back that line of code when you're done.
-</p>
+{% endhint %}
 
 
 **Notes:**
 * "background" is the label of the element that will contain the background image in this example, but the label can be anything you want. Just make sure you update the `#background` [selector](/guides/selectors.md) in your code to match your new label.
 * `image-resolution` can have values of `auto`, `original`, or any number. The number you include (e.g. `1000`) will adapt the resolution for an image of that width (1000px).
 
-<p class="alert alert-info">
+{% hint style="info" %}
 If you add a control to your map, you'll see that the background gets filtered out. If you want to keep your background as you filter, follow these steps: 
 1. Create the control first. Don't forget to save it!
 2. Then go into the Advanced Editor and change the line from <code>target: element;</code> to <code>target: :not(#background);</code>
 3. Now the control won't affect the background!
-</p>
+{% endhint %}
 
 As always, if you have any questions on how this works, email us at [support@kumu.io](mailto:support@kumu.io) for help!
 

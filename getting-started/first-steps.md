@@ -81,9 +81,9 @@ Try clicking on the first option, **Add element**, to create a new element. Kumu
 
 Add a few more elements, then try selecting **Add connection** from that menu to connect your elements. Once you have a few connections, you can select **Add loop** to create a group of connections.
 
-<p class="alert alert-info">
+{% hint style="info" %}
   Tip: Speed up this process by using keyboard shortcuts! Press <code>E</code> to add an element, <code>C</code> to add a connection, and <code>L</code> to add a loop. Or, hold <code>alt</code> on Windows/<code>option</code> on Mac, then click the map to add an element. Hold <code>alt</code> and click-and-drag from an element to create a connection.
-</p>
+{% endhint %}
 
 
 #### Sketch mode
@@ -92,9 +92,9 @@ If you're building your map by hand, you should definitely give sketch mode a tr
 
 Once sketch mode is activated, you can add an element by clicking anywhere on the map, and you can add a connection by clicking and dragging from an existing element.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Quickly enter sketch mode by pressing <code>K</code> on your keyboard, and press the <code>esc</code> key to exit. While in sketch mode, you can move elements by holding the <code>alt</code> key on your keyboard, then clicking and dragging the element.
-</p>
+{% endhint %}
 
 
 ## Decorate elements and connections
@@ -134,9 +134,9 @@ Great work so far—you've created a project, started building your first map, a
 
 To do that, you'll use **filter**, **focus**, **showcase**, and **cluster**—four different ways to refine what is visible or dominant in the map.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Settings for filter, focus, showcase, and cluster can be saved to a View, allowing you to easily switch between different refined versions of your data. To learn more, <a class="alert-link" href="/guides/views.md">check out our guide on Views</a>.
-</p>
+{% endhint %}
 
 
 ### Filter
@@ -146,10 +146,12 @@ Filters make it easy to show and hide elements, connections or loops based on da
 
 If you're filtering by element or connection type, simply un-check the types you want to hide. To filter using other fields, use the **Also include** and **But ignore** tools. Click the rocketship icon <i class="fa fa-rocket"></i> in each of those tools to select what you want to hide or make visible.
 
-<p class="alert alert-info">If you've hidden certain elements and connections using the Type checkboxes above, you can use the <b>Also include</b> tool to bring things back into view. But, you first have to un-check some of the boxes above, or this tool will have no effect.
-</p>
-<p class="alert alert-info">Use the <b>But ignore</b> tool to hide elements and connections from your map. Anything you add here will override the settings in the checkboxes above and the <b>Also include</b> tool.
-</p>
+{% hint style="info" %}
+  If you've hidden certain elements and connections using the Type checkboxes above, you can use the <b>Also include</b> tool to bring things back into view. But, you first have to un-check some of the boxes above, or this tool will have no effect.
+{% endhint %}
+{% hint style="info" %}
+  Use the <b>But ignore</b> tool to hide elements and connections from your map. Anything you add here will override the settings in the checkboxes above and the <b>Also include</b> tool.
+{% endhint %}
 
 ### Focus
 
@@ -163,9 +165,9 @@ Once focus is activated, everything except your selected items will be hidden fr
 
 If you'd like to clear your focus and bring back the full map, click the focus icon on the right (underneath the Settings icon <i class="fa fa-sliders"></i>) and select **Clear**.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 To extend focus to a specific degree, use the numbers <code>0-9</code> on your keyboard. To quickly clear your focus, press the <code>esc</code> key.
-</p>
+{% endhint %}
 
 
 ### Showcase
@@ -213,11 +215,11 @@ In the **Username** box, type the Kumu username of the person you want to add (i
 
 For more info on collaboration in Kumu, visit [our full guide on collaboration](/overview/collaboration.md).
 
-<p class="alert alert-success">
-  <b>You've completed the Getting Started series!</b> For additional help, you can browse our other guides, <a class="alert-link" href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a>.
-</p>
+{% hint style="success" %}
+  <b>You've completed the Getting Started series!</b> For additional help, you can browse our other guides, [join our open Slack team](http://chat.kumu.io), or email us at [support@kumu.io](mailto:support@kumu.io).
+{% endhint %}
 
-<a class="btn" href="http://chat.kumu.io">Join us on Slack</a>
+[Join us on Slack](http://chat.kumu.io)
 
 
 

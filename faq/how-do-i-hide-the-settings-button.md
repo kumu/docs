@@ -19,8 +19,8 @@ This snippet of code will instruct Kumu to show only the zoom toolbar and—when
 
 For more info on how and why this works, check out [our full guide on built-in controls](/guides/controls.md#built-in-controls).
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Even if the settings button is hidden, it's always possible to open the settings panel by pressing <code>T</code> on your keyboard.
-</p>
+{% endhint %}
 
 

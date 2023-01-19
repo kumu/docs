@@ -73,9 +73,9 @@ Having trouble writing the right selector for your use case? Feel free to [email
   <p><code>'influence'</code> and <code>'high'</code> are enclosed in single quotes, and the entire selector is enclosed in double quotes.</p>
 </div>
 
-<p class="alert alert-info">
+{% hint style="info" %}
   If you want to list all of an element's connections in it's profile, we wrote <a class="alert-link" href="/faq/how-do-i-list-an-elements-connections-in-its-profile.md">a more detailed article</a> on how to achieve that.
-</p>
+{% endhint %}
 
 
 These more specific lists, like basic lists, can also be sorted by any field in your [profiles](/guides/profiles.md). To do so, add `?sort=field-name` after `list` and before the selector, and replace `field-name` with a [slug](/guides/slugs.md) of the field name you want to sort by.
@@ -275,8 +275,8 @@ You can also add a descriptive title:
 [[speakerdeck/39d28e80a7840130b36006a0b9603b35 "The product is the byproduct"]]
 ```
 
-<p class="alert alert-success">
+{% hint style="success" %}
 Need any other widgets? <a href="mailto:support@kumu.io">Send us an email!</a>
-</p>
+{% endhint %}
 
 

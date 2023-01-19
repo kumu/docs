@@ -71,9 +71,9 @@ In the earlier example, before we added ID, Kumu was creating two elements with 
 
 With the help of this new ID column, Kumu will only create one `Wave-2` element, and it will import the data from the `Wave-2` that is furthest down on the list (i.e. the type will be `Double overhead`, not `Head high`).
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 If you're using IDs on your elements sheet, you need to use those IDs in the <b>From</b> and <b>To</b> columns on your connections spreadsheet, instead of using Labels.
-</p>
+{% endhint %}
 
 
 ### Connections
@@ -93,9 +93,9 @@ Connection-2 | Oahu | Sunset Bay | Location
 
 This import would update the map without merging your connections, or creating a new, duplicate connection.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 If you're using an ID column on your connections sheet, you don't necessarily have to add IDs to your elements sheet. However, if you <em>are</em> using IDs on your elements sheet, you need to use those IDs in the From and To columns on your connections spreadsheet, instead of using Labels.
-</p>
+{% endhint %}
 
 **Good to know:**
 - You can't update map data when clustering is turned on. Make sure to turn off all clustering options before importing any data into Kumu.
@@ -107,9 +107,9 @@ If you're using an ID column on your connections sheet, you don't necessarily ha
 
 ### Alternatively...delete all data to avoid duplicates
 
-<p class="alert alert-danger">
+{% hint style="danger" %}
 Before you start: <a class="alert-link" href="/guides/blueprints.md#project-backups">Learn how to create a full project backup</a>
-</p>
+{% endhint %}
 
 We get it—sometimes, you just don't want to think through the complexity of Kumu's import rules; all you want is a nice, clean map with no duplicates. In that case, your best option might be to [delete all the data from your project](/faq/how-do-i-delete-data-from-my-project.md) and start over with a fresh import.
 

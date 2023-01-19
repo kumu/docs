@@ -32,15 +32,11 @@ And if you just wanted the connections to the element, just omit the first half:
 Again, replace `My Element Label` in all of these examples with the actual label of the element whose profile you're editing.
 
 
-<div class="alert alert-warning">
-<p>
+{% hint style="warning" %}
   If your map has multiple elements with the same label, your list widget will list all connections to or from <em>any</em> of the elements with that label. To avoid that, you would need to replace <code>[label = 'My Element Label']</code> with a more specific selector.
-</p>
-<p>
-  <a class="alert-link" href="/guides/selectors.md">Visit the full guide on selectors</a> or <a href="mailto:support@kumu.io">contact support</a> to learn how to write a more specific selector for your use case.
-</p>
-</div>
 
+  <a class="alert-link" href="/guides/selectors.md">Visit the full guide on selectors</a> or <a href="mailto:support@kumu.io">contact support</a> to learn how to write a more specific selector for your use case.
+{% endhint %}
 
 ## Use Google Sheets to generate list widget code for all elements
 
@@ -52,9 +48,9 @@ To get access to the custom formula, you can open our ["With custom Kumu formula
 
 Delete the example tabs in the Google Sheet, then create a new tab and copy/paste your list of elements into it, starting from cell `A1`. Make sure that **Label** is in Column A, or that you have an **ID** column in the sheet, filled with unique IDs for your elements.
 
-<p class="alert alert-info">
+{% hint style="info" %}
   If you don't have your list of elements on hand, you can use Kumu to <a class="alert-link" href="/guides/export.md">export it to Excel</a>.
-</p>
+{% endhint %}
 
 In your dataset, start editing the cell directly below the column header for the field where your list of connections should go. For example, if you want to put the connection list in the Description field, and your Descrition field is in Column B of your spreadsheet, start editing cell `B2` underneath the Description column header.
 

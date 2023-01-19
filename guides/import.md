@@ -44,9 +44,9 @@ After you create the required column headers, you can start filling out the rows
 
 All of these optional columns can be used to add data to [fields](/guides/fields.md) inside your elements and connections. If you want to store multiple values inside of one cell (for example, tags or keywords), just separate each value with the pipe character `|`. If you put multiple elements in the "To" cell of a connection, separating each element with the pipe character `|`, Kumu will draw a connection from the "From" element to each separate element in the "To" cell.
 
-<p class="alert alert-info">
+{% hint style="info" %}
   It's also possible to use <b>ID</b> as the first column header in element and connection sheets. To learn how and why you would do that, <a class="alert-link" href="/faq/how-do-I-avoid-duplicating-data.md">check out our guide on avoiding duplicate data</a>.
-</p>
+{% endhint %}
 
 Here's a sample element import spreadsheet:
 
@@ -103,13 +103,13 @@ And here's a sample connection import spreadsheet:
       </tbody>
 </table>
 
-<p class="alert alert-success">
+{% hint style="success" %}
   <b>Get your hands dirty!</b> <a class="alert-link" href="../content/paypal-mafia.xlsx" target="_blank" class="_">Click here to download a sample import file</a> for the <a class="alert-link" target="_blank" class="_" href="https://kumu.io/jeff/paypal-mafia">PayPal Mafia map</a>. You can examine this file to see how imports work with real data before creating your import file.
-</p>
+{% endhint %}
 
-<p class="alert alert-info">
+{% hint style="info" %}
   If you need to convert an <a class="alert-link" href="https://en.wikipedia.org/wiki/Adjacency_matrix" target="_blank" rel="noopener">adjacency matrix</a> to meet Kumu's format, see our <a class="alert-link" href="/faq/how-do-i-restructure-my-adjacency-matrix.md" target="_blank" rel="noopener">"How do I restructure my adjacency matrix"</a> FAQ.
-</p>
+{% endhint %}
 
 #### Ignore unneeded sheets
 
@@ -130,9 +130,9 @@ OR
 
 Either way, you'll have the option to review the import before finalizing to double-check that everything imported correctly. After you review the import, just click save, and you're all set!
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Seeing errors during your Excel import? You can use the <a class="alert-link" href="#common-pitfalls">common pitfalls</a> section of this guide to help troubleshoot.
-</p>
+{% endhint %}
 
 ## Import from Google Sheets
 
@@ -142,9 +142,9 @@ Our Google Sheets integration populates a map using the contents of a spreadshee
 
 There are two versions of the Google Sheets integration, private and public. Private is more secure and uses oAuth to authorize Kumu to access the sheet, while the public integration requires you to make your data publicly viewable on the internet.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Seeing errors during your Google Sheets import? You can use the <a class="alert-link" href="#common-pitfalls">common pitfalls</a> section of this guide to help troubleshoot.
-</p>
+{% endhint %}
 
 #### Private Google Sheets Instructions
 
@@ -200,9 +200,9 @@ If it seems like your spreadsheet is taking _forever_ to load, or it's consisten
 
 If you run into this error message...
 
-<p class="alert alert-danger">
+{% hint style="danger" %}
 Sorry, there was an error with your import. <br/>Error: Import format not recognized: auto
-</p>
+{% endhint %}
 
 ...you're trying to import an .xls file. Save it as .xlsx and try again!
 

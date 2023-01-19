@@ -6,8 +6,8 @@ You can manage your single sign-on settings from your [Pro workspace's dashboard
 
 ![single sign-on settings](/images/single-sign-on-settings.png)
 
-<p class="alert alert-info">
+{% hint style="info" %}
   Single sign-on is an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces.md">Pro workspaces</a>.
-</p>
+{% endhint %}
 
 

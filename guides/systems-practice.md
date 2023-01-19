@@ -46,9 +46,9 @@ Try clicking on the first option, **Add element**, to create a new element. Kumu
 
 Add a few more elements, then try selecting **Add connection** from that menu to connect your elements. Once you have a few connections, you can select **Add loop** to create a group of connections.
 
-<p class="alert alert-info">
+{% hint style="info" %}
   Tip: Speed up this process by using keyboard shortcuts! Press <code>E</code> to add an element, <code>C</code> to add a connection, and <code>L</code> to add a loop. Or, hold <code>alt</code> on your keyboard, the click the map to add an element. Hold <code>alt</code> and click-and-drag from an element to create a connection.
-</p>
+{% endhint %}
 
 
 #### Sketch mode
@@ -57,9 +57,9 @@ If you're building your map by hand, you should definitely give sketch mode a tr
 
 Once sketch mode is activated, you can add an element by clicking anywhere on the map, and you can add a connection by clicking and dragging from an existing element.
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Quickly enter sketch mode by pressing <code>K</code> on your keyboard, and press the <code>esc</code> key to exit. While in sketch mode, you can move elements by holding the <code>alt</code> key on your keyboard, then clicking and dragging the element.
-</p>
+{% endhint %}
 
 
 #### Indicating the causality of a connection
@@ -136,9 +136,9 @@ To do that, you'll use **filter**, **focus**, **showcase**—four different ways
 - [Showcase](/guides/showcase.md)
 
 
-<p class="alert alert-success">
+{% hint style="success" %}
   <b>You've worked through Kumu's guide for Systems Practice—nice job!</b> For additional help, you can browse our other guides, <a class="alert-link" href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a>.
-</p>
+{% endhint %}
 
 
 

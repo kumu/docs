@@ -26,9 +26,9 @@ Note that if you don't have any fields with numbers, the **Size by** dropdown me
 
 Need more precise control over your sizes? Check out our guide on [refining your decorations](/guides/decorate.md#refine-your-decorations).
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
     Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try <a class="alert-link" href="/guides/fields.md#customize-a-field">changing the field type to "Number"</a>.
-</p>
+{% endhint %}
 
 
 ### Color by

@@ -42,9 +42,9 @@ To add a custom field, select an element or connection and then click the **+New
 
 By default, new fields are set to accept only one value and not prompt users with suggested values. While this is an easy way to get started adding values, you may have times where you want people to pick from a list of defined values (level of influence: high, medium or low) or multiple values from a list (skills: project management, web development, leadership, public speaking). In those cases, you can customize your field—keep reading to learn how!
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
   Field's can't be named <code>YES</code>, <code>NO</code>, <code>ON</code>, <code>OFF</code>, <code>TRUE</code>, or <code>FALSE</code>. Uppercase <b>and</b> lowercase versions of these words will cause errors elsewhere in Kumu.
-</p>
+{% endhint %}
 
 
 ## Customize a field

@@ -47,9 +47,9 @@ However, you can increase or decrease your private project limit at any time dur
 
 When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle, and (if applicable) charges the card on file immediately.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 When you increase your private project limit on an annual plan, a prorated charge will be billed immediately to the credit card on file. If you need to pay by invoice instead of by credit card, please <a class="alert-link" href="mailto:support@kumu.io">reach out Kumu support</a> before increasing your project limit.
-</p>
+{% endhint %}
 
 
 #### Enterprise billing
@@ -74,9 +74,9 @@ For a personal account, if you want to change the email that receipts are sent t
 
 If you can't enter a credit card into Kumu's website for repeat billing, you can pay by invoice instead. An invoice will allow you to make a one-time payment via credit card, ACH transfer, or a check in the mail. To request an invoice, you can [email support@kumu.io](mailto:support@kumu.io).
 
-<p class="alert alert-success">
+{% hint style="success" %}
   Have any other questions about billing? Send an email to <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a> and we'll get back to you!
-</p>
+{% endhint %}
 
 ## Downgrade or cancel your Kumu subscription
 

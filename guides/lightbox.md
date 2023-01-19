@@ -27,8 +27,8 @@ Use this:
 ``` -->
 
 
-<p class="alert alert-info">
+{% hint style="info" %}
 <b>Tip:</b> Add the lightbox to a custom field named <code>URL</code> with its type set to URL, and the lightbox will open when your element, connection, or loop is double-clicked.
-</p>
+{% endhint %}
 
 

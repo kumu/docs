@@ -23,6 +23,6 @@ connection {
 }
 ```
 
-<p class="alert alert-info">
+{% hint style="info" %}
 If you'd like to refine which elements or connections to show labels for and which not, please visit our <a class="alert-link" href="/guides/selectors.md">Selectors guide</a> to change the selector to something more precise. 
-</p>
+{% endhint %}

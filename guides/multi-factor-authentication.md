@@ -2,9 +2,9 @@
 
 Multi-factor authentication (MFA) helps secure your account and prevent unauthorized access to your data. We strongly recommend managing your MFA with [Authy](https://authy.com/) and enabling backups across multiple devices. We also support [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=en).
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 If you lose your phone and do not have backups enabled for your MFA information, we will not be able to restore access to your account.
-</p>
+{% endhint %}
 
 To enable multi-factor authentication on your account, go to the [MFA section of your settings page](https://kumu.io/settings#mfa) and enter your phone number.
 

@@ -113,9 +113,9 @@ function searchTable() {
 
 </script>
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Looking for group metrics that describe your entire network? Check out the <a class="alert-link" href="/guides/controls/sna-dashboard-control.md">SNA Dashboard control</a>.
-</p>
+{% endhint %}
 
 ### Weighted metrics
 Certain fields also support weighting so you can include fields like strength and frequency in the calculations. Betweenness, closeness and degree use connection fields for weighting while size and reach use element fields for weighting.
@@ -144,9 +144,9 @@ Click the Metrics icon in the lower right corner of your map and choose "communi
 
 <img src="../images/community-results.jpg" class="plain">
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Good to know: Connection direction <em>does</em> influence community detection.
-</p>
+{% endhint %}
 
 ### Reviewing community breakdowns
 
@@ -158,9 +158,9 @@ When analyzing the communities, you may notice that a common theme runs across a
 
 Don't forget to click save once you're done!
 
-<p class="alert alert-info">
+{% hint style="info" %}
 <b>Note:</b> Some community detection algorithms treat communities as black and white—you're either in, or you're out. While this helps simplify the analysis, it throws away a lot of useful information about the overlapping community structures within the network.<br><br>The SLPA algorithm preserves this data, and we believe the breakdown is even more valuable than simply knowing the primary community an element belongs to.
-</p>
+{% endhint %}
 
 ### Color by communities
 

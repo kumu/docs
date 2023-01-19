@@ -6,9 +6,9 @@ Flags are a [data-driven decoration](/guides/data-driven-decorations.md) created
 
 If you're using the **Color by** tool in the Basic Editor, and you select a multi-pick field, Kumu will automatically use flags to color code your elements.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Is the <b>Color by</b> tool applying flags for a field that isn't a multi-pick field? Try <a class="alert-link" href="/guides/fields.md#customize-a-field">changing the field's limit</a> to "One" instead of "One or more".
-</p>
+{% endhint %}
 
 In the Advanced Editor, you can use the `flags` property to add flags. Here's the basic syntax:
 

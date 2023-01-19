@@ -37,6 +37,8 @@ Knowing how to recognize, read, and write slugs is a skill that will come in han
 </table>
 
 
+<!-- Gitbook.com doesn't allow custom scripts like this.
+
 ## Create your own slug
 
 Need a slug for your project? Use this tool to create your own:
@@ -101,5 +103,4 @@ Need a slug for your project? Use this tool to create your own:
     success.style.opacity = "1";
   }
 </script>
-
-
+-->

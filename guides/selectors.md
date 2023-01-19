@@ -31,9 +31,9 @@ Check out the overview video below to learn the basics of selectors, then read t
 
 ## Where can I use selectors?
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Before you start: <a class="alert-link" href="/guides/fields.md">use fields</a> to add additional information to your elements, connections, and loops.
-</p>
+{% endhint %}
 
 #### Search bar
 
@@ -200,9 +200,9 @@ Here are some examples:
 ["description" *= "kumu"]   // select all items whose description text contains "kumu"
 ```
 
-<p class="alert alert-info">
+{% hint style="info" %}
 When using the <strong>Type</strong> field in longhand selectors, you need to specify whether it is <strong>Element</strong> Type, <strong>Connection</strong> Type, or <strong>Loop</strong> Type. For example, use <code>"connection type"</code> instead of just <code>"type"</code> when selecting by connection type.
-</p>
+{% endhint %}
 
 Here are a few more examples, using **relative** operators (greater-than, less-than, greater-than-or-equal-to, and less-than-or-equal-to):
 

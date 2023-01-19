@@ -1,8 +1,8 @@
 # How do I change the position of my element labels?
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 It's not possible to control text position when you're using the <a href="/guides/templates.md#sna-social-network-analysis-template" class="alert-link">SNA template</a>, or any view that has "fast" quality or uses the WebGL renderer.
-</p>
+{% endhint %}
 
 ## Change element label position for all elements
 

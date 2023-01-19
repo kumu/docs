@@ -36,8 +36,8 @@ If you're ever having trouble finding a conversation, just use the search bar on
 
 
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Issues are an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces.md">Pro workspaces</a>.
-</p>
+{% endhint %}
 
 

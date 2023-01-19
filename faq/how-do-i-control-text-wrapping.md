@@ -1,8 +1,8 @@
 # How do I control text wrapping?
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 It's not possible to control text-wrapping when you're using the <a href="/guides/templates.md#sna-social-network-analysis-template" class="alert-link">SNA template</a>, or any view that has "fast" quality or uses the WebGL renderer.
-</p>
+{% endhint %}
 
 When you want to fit text inside of an element, or just make sure that labels underneath elements aren't too wide, you can customize your **text-wrapping**.
 

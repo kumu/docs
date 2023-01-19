@@ -16,9 +16,9 @@ You can use the [Basic Editor](/overview/view-editors.md#basic-editor) to add a 
 
 Use the dropdown menus in the controls builder to set up your control, then, when you're done, click the back arrow <i class="fa fa-arrow-left"></i> to return to the main screen, and click **SAVE**.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Want to remove unneeded controls? You can use the <a class="alert-link" href="#remove-unneeded controls">remove unneeded controls</a> section of this guide to help troubleshoot.
-</p>
+{% endhint %}
 
 ### Add controls through the Advanced Editor
 

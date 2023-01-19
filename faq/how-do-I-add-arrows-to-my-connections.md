@@ -1,8 +1,8 @@
 # How do I add arrows to my connections?
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 Arrows can't be added to connections if you're using the <a class="alert-link" href="/guides/templates.md#sna-social-network-analysis-template">SNA template</a>.
-</p>
+{% endhint %}
 
 If you want to add arrows to your connections to specify direction, here are a couple ways to do so:
 
@@ -42,11 +42,11 @@ You can also add arrows to imported connections if you include a `direction` fie
 - `undirected`
 - `mutual`
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 When you're imported from a connected Google Sheet or JSON blueprint, you can only choose <strong>one</strong> connection direction. All of the connections in your map will have that same direction.
-</p>
+{% endhint %}
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Kumu recognizes connection direction from your spreadsheet import (<strong>From</strong> and <strong>To</strong> columns in your connections sheet) or the direction you draw the connection by hand. This connection direction determines which way arrows point when you specify a "directed" connection.
-</p>
+{% endhint %}
 

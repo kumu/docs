@@ -17,9 +17,9 @@ To see the full list of personal account features, [check out our pricing page](
 
 Not sure which type of project you need? [Check out our guide on collaborating and sharing](/overview/collaboration.md#public-vs-private-projects) to learn the key differences between public and private projects.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 <b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization. Even if you think an organization is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your personal account</a> first.
-</p>
+{% endhint %}
 
 
 #### Legacy personal plans
@@ -90,9 +90,9 @@ To see the full list of organization features, check out [our pricing page](http
 
 Organizations provide unlimited public projects with all of these features for $10/month. Organizations' private projects are $20 per project per month.
 
-<p class="alert alert-warning">
+{% hint style="warn" %}
 <b>Note:</b> You need to create a personal account (either free or paid) in order to create and own an organization. Even if you think an organization is the right option for you, be sure to <a class="alert-link" href="https://kumu.io/join">sign up for your personal account</a> first.
-</p>
+{% endhint %}
 
 
 #### Legacy organization plans

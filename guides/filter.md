@@ -2,9 +2,9 @@
 
 Filters allow you to show and hide elements, connections or loops based on information stored in their [fields](/guides/fields.md). This guide will help you master filters, one of the most powerful tools in Kumu!
 
-<p class="alert alert-info">
+{% hint style="info" %}
 Before you start: <a class="alert-link" href="/guides/fields.md">use fields</a> to add additional information to your elements, connections, and loops.
-</p>
+{% endhint %}
 
 
 ## Filter in the Basic Editor

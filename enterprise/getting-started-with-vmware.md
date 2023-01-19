@@ -30,9 +30,9 @@ can further configure the network settings.
 
 If you see an IP listed here, you're all set.  If not, you'll need to adjust your network settings.
 
-<p class="alert alert-warning">
-<strong>Note:</strong> We're investigating an issue that prevents you from assigning a static IP to the instance. If a static IP is necessary for your setup, contact us at <a href="mailto:enterprise@kumu.io">enterprise@kumu.io</a> to discuss a temporary workaround.
-</p>
+{% hint style="warning" %}
+**Note:** We're investigating an issue that prevents you from assigning a static IP to the instance. If a static IP is necessary for your setup, contact us at <a href="mailto:enterprise@kumu.io">enterprise@kumu.io</a> to discuss a temporary workaround.
+{% endhint %}
 
 ## Step 3. Install your license
 

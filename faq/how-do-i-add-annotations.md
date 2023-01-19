@@ -31,6 +31,6 @@ annotation {
 
 `layer: background` allows other items (like connections) to cross over the annotation, and it prevents people from clicking the annotation. If you ever need to move the annotation again, you can remove that line of code, move the element, then add the code back in.
 
-<p class="alert alert-info">
+{% hint style="info" %}
   You don't have to use the type <code>Annotation</code> for your annotations—you can use any element type, as long as the <a href="/guides/selectors.md">selector</a> (e.g. <code>annotation</code>) in your Advanced Editor code matches what you chose.
-</p>
+{% endhint %}

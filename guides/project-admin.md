@@ -6,21 +6,16 @@ If you have admin access to a project, you can take the following actions:
 - Transfer project ownership to another account-project-ownership-to-another-account)
 - Delete the project
 
-<p>
-  <div class="alert alert-warning">
-    <p>
-      If you are changing project privacy or transferring a project, be sure to read the caveats below.
-    </p>
-    <ul>
-      <li><a class="alert-link" href="#caveats-when-converting-public-projects-to-private">Project privacy caveats</a></li>
-      <li><a class="alert-link" href="#caveats-when-transferring-projects">Transfer caveats</a></li>
-    </ul>
-  </div>
-</p>
+{% hint style="warning" %}
+  If you are changing project privacy or transferring a project, be sure to read the caveats below.
 
-<p class="alert alert-danger">
+  - [Project privacy caveats](#caveats-when-converting-public-projects-to-private)
+  - [Transfer caveats](#caveats-when-transferring-projects)
+{% endhint %}
+
+{% hint style="danger" %}
   Looking to delete a project? Before you start: <a class="alert-link" href="/guides/blueprints.md#project-backups">Learn how to create a full project backup</a>
-</p>
+{% endhint %}
 
 To take any of these actions, you can:
 1. Right-click on the [canvas](/overview/map-editor.md#canvas)
