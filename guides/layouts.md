@@ -5,4 +5,4 @@ There are a number of layout options available in Kumu, from [fixed layouts](/gu
 
 This guide will cover the basics you need for whichever layout you choose.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/layouts.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

@@ -74,4 +74,4 @@ And remember: all of these settings are saved in [views](/overview/kumus-archite
   If you notice your map freezing or moving slowly after you bridge, check out our guide on <a class="alert-link" href="/faq/how-much-data-can-kumu-handle.html">Kumu's data limits</a> for more tips on how to improve speed.
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/bridge.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

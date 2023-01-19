@@ -40,4 +40,4 @@ If you're ever having trouble finding a conversation, just use the search bar on
 Issues are an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces.html">Pro workspaces</a>.
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/issues.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

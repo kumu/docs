@@ -23,7 +23,3 @@ After these steps, you'll have two separate elements with the same label.
 3. Fill in the `ID` column with unique IDs for all elements.
 4. Fill in the `Label` column with your labels. As long as the IDs are unique, you are allowed to repeat any Labels you like.
 5. Import the spreadsheet, and Kumu will create one circle for each unique ID, with the Label you assigned in the spreadsheet.
-
-
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-add-more-than-one-element-with-the-same-label.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

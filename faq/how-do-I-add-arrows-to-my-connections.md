@@ -50,5 +50,3 @@ When you're imported from a connected Google Sheet or JSON blueprint, you can on
 Kumu recognizes connection direction from your spreadsheet import (<strong>From</strong> and <strong>To</strong> columns in your connections sheet) or the direction you draw the connection by hand. This connection direction determines which way arrows point when you specify a "directed" connection.
 </p>
 
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-add-arrows-to-my-connections.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

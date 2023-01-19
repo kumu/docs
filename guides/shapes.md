@@ -118,4 +118,4 @@ Finally, if you'd like your categorized shapes to be automatically added to the 
   </p>
 </div>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/shapes.html" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

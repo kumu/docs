@@ -22,4 +22,4 @@ Before you dive in: if you're not sure what we mean by `slug` in the table below
 <!-- Lightbox and Focus should be documented here -->
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/urls.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

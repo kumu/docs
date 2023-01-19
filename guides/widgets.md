@@ -279,4 +279,4 @@ You can also add a descriptive title:
 Need any other widgets? <a href="mailto:support@kumu.io">Send us an email!</a>
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/widgets.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

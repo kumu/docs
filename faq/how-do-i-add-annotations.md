@@ -34,6 +34,3 @@ annotation {
 <p class="alert alert-info">
   You don't have to use the type <code>Annotation</code> for your annotations—you can use any element type, as long as the <a href="/guides/selectors.html">selector</a> (e.g. <code>annotation</code>) in your Advanced Editor code matches what you chose.
 </p>
-
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-add-annotations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

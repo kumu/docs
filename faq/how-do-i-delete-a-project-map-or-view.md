@@ -23,4 +23,4 @@ There's two ways to delete a view:
 - Right-click on your map > click on View > choose "Delete view".
 - Click the Settings button on the right side of your map to open the Basic Editor > click on the three dots in the top-right corner for your [View Settings](/overview/settings.html#view-settings) >  choose "Delete view".
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-delete-a-project.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

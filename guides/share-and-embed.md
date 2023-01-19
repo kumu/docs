@@ -49,4 +49,4 @@ For more information on how to do that, check out our guide on [hiding the setti
 In Kumu, you can create [presentations](/guides/presentations.md) to walk your readers through a map, step-by-step. You can also embed presentations on other websites—[check out the presentations guide](/guides/presentations.md#embed-a-presentation).
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/share-and-embed.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

@@ -148,4 +148,4 @@ For all other fields (including Element Type, Connection Type, and Loop Type), f
 After you follow these steps, the field value(s) you deleted will no longer show up in prompted lists, in legends, or in controls.
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/fields.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

@@ -185,4 +185,4 @@ However, anyone who has view-only access to the map or is viewing a [presentatio
 If you're building popovers and just want to see how they look before you publish, you can either follow the instructions above to turn off the direct decorations toolbar, or click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the bottom right corner and select "Switch to preview mode".
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/direct-decorations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

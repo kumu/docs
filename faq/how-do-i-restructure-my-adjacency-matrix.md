@@ -48,4 +48,4 @@ The `KUMU_CONNECTION_LIST` formula will store your connection strengths in a col
 4. Enter your custom Strength column header in cell `C1`
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-restructure-my-adjacency-matrix.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

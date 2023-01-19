@@ -255,4 +255,4 @@ If you want to quickly start from scratch without any of Kumu's built-in control
 }
 ```
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/controls.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

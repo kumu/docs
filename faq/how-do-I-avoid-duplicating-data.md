@@ -114,6 +114,3 @@ Before you start: <a class="alert-link" href="/guides/blueprints.html#project-ba
 We get it—sometimes, you just don't want to think through the complexity of Kumu's import rules; all you want is a nice, clean map with no duplicates. In that case, your best option might be to [delete all the data from your project](/faq/how-do-i-delete-data-from-my-project.md) and start over with a fresh import.
 
 Happy importing!
-
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-avoid-duplicating-data.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

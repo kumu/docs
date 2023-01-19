@@ -4,5 +4,3 @@ If you are seeing entries in your legend that you donʻt recognize and want to r
 automatically created for you based on the template you select. To remove them, click the project settings menu in the upper left corner,
 click on "fields", and then click on "element type". You can then click the delete icon for the values you want to remove and when you 
 refresh the page you will no longer see them listed.
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-can-i-remove-unwanted-legend-entries.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

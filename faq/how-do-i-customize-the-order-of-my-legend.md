@@ -21,4 +21,4 @@ In the code above, you can replace `Element Type` with the name of the field you
 
 You can add as many color + value combinations as you want to the comma-separated list inside your `categorize()` parentheses.
 
-<span class="edit-link"><a href="https://github.com/kumu/compass-docs/blob/master/guides/faq/how-do-i-customize-the-order-of-my-legend.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

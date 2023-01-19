@@ -16,4 +16,4 @@ Then, in Kumu, [set the field's type to "Text"](/guides/fields.html#customize-a-
 
 ![](/images/popover-link-custom-text.png)
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-customize-link-text-in-popovers.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

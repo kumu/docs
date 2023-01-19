@@ -18,4 +18,4 @@ You will only be able to convert a **public** project to **private** if you have
 
 If you are on an annual billing plan, you may also need to go to your billing settings to raise your private project limit.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-convert-a-project-from-public-to-private.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

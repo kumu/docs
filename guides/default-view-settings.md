@@ -52,4 +52,4 @@ In the [Advanced Editor](/overview/view-editors.html#advanced-editor), you can u
 Replace `property` with any property from the [settings reference](/guides/settings-reference.html), and replace `value` with any valid value for that property, as described in the settings reference.
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/default-view-settings.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

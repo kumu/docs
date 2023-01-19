@@ -29,4 +29,4 @@ element {
 When using the <strong>Type</strong> field in label templates, you need to specify whether it is <strong>Element</strong> Type, <strong>Connection</strong> Type, or <strong>Loop</strong> Type. For example, use <code>{% raw %}{{connection type}}{% endraw %}</code> when adding Type to a connection's popover.
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/label-templates.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

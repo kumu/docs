@@ -131,4 +131,4 @@ For more information on sharing Kumu maps or collaborating with others, [check o
 
 Still have questions? Don't hesitate to [ask for help](/about/where-can-i-get-help.html)!
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/sna-network-mapping.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

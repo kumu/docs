@@ -73,6 +73,3 @@ Paste that into the Advanced Editor, and delete `your-map-name/`, so that you ar
     curvature: -0.25;
 }
 ```
-
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-change-connection-curvature.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

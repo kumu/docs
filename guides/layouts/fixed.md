@@ -24,4 +24,4 @@ If you would rather do this in the [Advanced Editor](/overview/view-editors.md#a
 If you were previously using a force-directed layout, you may need to pin all the existing elements in place. You can do this by pressing `A` on your keyboard to select all, and then by clicking the pin button in the lower right of the element profile or pressing `P` on your keyboard.
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/layouts/fixed.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

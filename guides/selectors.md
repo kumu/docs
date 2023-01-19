@@ -397,4 +397,4 @@ woman.young.influential                     // select all elements with the type
 :directed[connection-type = "donation"]     // select all directed connections whose connection type is Donation
 ```
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/selectors.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

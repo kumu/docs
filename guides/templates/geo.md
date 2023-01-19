@@ -91,4 +91,4 @@ Use `geo-style: dark` for a dark version of the `auto` map.
 - By default, the geo template limits you to squares and straight lines, but if you want to test out the full range of decorations (circles, borders, curved lines, flags, etc.), add `renderer: canvas;` to your `@settings` block.
 - You can use the `scale-max` and `scale-min` properties to adjust the minimum and maximum allowed zoom levels for your readers. [See the settings reference](/guides/settings-reference.html) for more guidance.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/templates/geo.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

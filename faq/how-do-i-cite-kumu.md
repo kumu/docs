@@ -17,4 +17,4 @@ _Relationship mapping software_. Kumu, `current year`. Print.
 Kumu. “Kumu relationship mapping software.” Kumu, (`current year`). https://kumu.io (`date accessed`).
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-cite-kumu.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

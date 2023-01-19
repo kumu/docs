@@ -44,4 +44,4 @@ connection["level of influence"="low"] {
 
 ```
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-to-change-length-of-connections.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

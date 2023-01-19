@@ -220,4 +220,4 @@ For more info on collaboration in Kumu, visit [our full guide on collaboration](
 <a class="btn" href="http://chat.kumu.io">Join us on Slack</a>
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/getting-started/overview.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

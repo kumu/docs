@@ -226,4 +226,4 @@ All prose aside, the trash is where your project stores the items that have been
 But, we should give credit where credit is due: the trash is your last line of defense against accidentally deleting data (a.k.a. hard work, time, and effort) from your project. If you ever think that you've deleted something accidentally, and you need to recover it from the trash, just [ask for help](/about/where-can-i-get-help.html), and the Kumu team and community will find a solution.
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/kumus-architecture.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

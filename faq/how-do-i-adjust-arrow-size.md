@@ -36,5 +36,3 @@ margin: 10;
 ```
 
 You can change the number 10 to any other number to increase/decrease the space between element and arrow.
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-adjust-arrow-size.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

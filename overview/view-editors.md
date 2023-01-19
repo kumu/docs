@@ -143,4 +143,4 @@ Whether you're using the Basic Editor or Advanced Editor, your changes don't get
 
 A best practice when working in the view editors is to save your changes frequently! This will allow you to revert when you need to, without undoing a lot of progress that you wanted to keep.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/view-editors.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

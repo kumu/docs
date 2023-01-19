@@ -14,4 +14,4 @@ _Please note that you can't pin elements in place if you're importing data from 
 
 For more information about layout options, or to set the default element behavior (fixed vs. floating) check out the guides on the [fixed layout](/guides/layouts/fixed.md) and [force-directed layout](/guides/layouts/force-directed.md).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-keep-elements-from-moving.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

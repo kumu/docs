@@ -20,4 +20,4 @@ Activate the Disqus add-on by pasting in the shortname you copied before.
 
 Voila! You'll now see the Disqus comment box on each element, connection and loop profile (as well as the map overview).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/disqus.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

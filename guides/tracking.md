@@ -10,4 +10,4 @@ To add a tracking id, first [create a new Google Analytics account](https://supp
 
 Copy the tracking id, paste it into the tracking section within the settings for your Pro workspace, and you're all set!
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/tracking.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

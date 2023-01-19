@@ -23,4 +23,4 @@ For more info on how and why this works, check out [our full guide on built-in c
 Even if the settings button is hidden, it's always possible to open the settings panel by pressing <code>T</code> on your keyboard.
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-hide-the-settings-button.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

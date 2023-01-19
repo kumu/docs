@@ -21,4 +21,4 @@ Here's how the invoice pictured above was produced:
 
 Hopefully, that example illustrates the basic concepts! But if you ever have trouble making sense of a receipt, don't hesitate to email us at [support@kumu.io](/mailt:support@kumu.io).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/how-do-i-make-sense-of-my-receipt.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

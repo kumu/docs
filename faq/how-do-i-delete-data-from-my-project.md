@@ -25,4 +25,4 @@ The data will disappear from your map, but it's not gone yet—it still exists i
 - If you delete data that exists on another map inside the same project, that data won't get sent to the Trash. The Trash only stores data that is not being used by any map in the project.
 - To bring an element back from the Trash, along with its description, type, tags, or any other data you might have added, just return to your map, click the green `+` sign, select "Add element", and type the label of the element. Kumu will bring it back with all of its original data.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-delete-data-from-my-project.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

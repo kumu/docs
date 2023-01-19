@@ -65,5 +65,3 @@ If you run into any challenges, send us an email at [support@kumu.io](mailto:sup
 <a class="btn" href="/getting-started/first-steps.html">Ready to dive in? Read the First Steps guide</a>
 
 <span class="quiet">These docs are a work in progress and will be continuously updated. Pull requests are welcome so if you would like to contribute, please <a href="https://github.com/kumu/docs">fork me on GitHub.</a></span>
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/welcome.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

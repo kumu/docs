@@ -40,4 +40,4 @@ In the code above, replace `My Field` with the name of the field you originally 
 
 To learn what other settings you can customize in the control, check out [our full guide on controls](/guides/controls.html).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-edit-virtual-elements.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

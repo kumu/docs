@@ -116,4 +116,4 @@ For this to work, you first need to host your blueprint publicly online, so that
 1. Copy the URL of the page that opens up, and use that URL in the function above
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/blueprints.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

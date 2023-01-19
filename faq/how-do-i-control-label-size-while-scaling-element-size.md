@@ -73,4 +73,4 @@ If you don't want this setting to apply to all elements, replace `element` with 
 <b>Tip:</b> Find the largest scaled element on the map. Tweak the maximum <code>font-size</code> until the largest element's label looks good. Then, find the smallest scaled element, and adjust the minimum <code>font-size</code> until the label looks good.<br><br>From there, make slight tweaks to the minimum and maximum until all elements on the map look good.
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-control-label-size-while-scaling-element-size.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

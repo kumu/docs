@@ -13,4 +13,4 @@ There are two types of decorations in Kumu:
 **Data-driven decorations** are the right choice if you want Kumu to decorate your map automatically, based on the data stored in [profiles](/guides/profiles.html). They're excellent in any situation where decorating each item individually would be tedious, and they're the best choice choice if your map is going to grow and add more data in the future.
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/decorations.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

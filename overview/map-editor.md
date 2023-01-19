@@ -73,4 +73,4 @@ If you ever want to remove or reposition the search bar, zoom toolbar, settings 
 
 Happy mapping!
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/map-editor.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

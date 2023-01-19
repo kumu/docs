@@ -152,4 +152,4 @@ If you want to disable clustering on any of the core fields (label, description,
 ![advanced settings clustering menu](/images/clustering-menu-advanced.png)
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/clustering.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

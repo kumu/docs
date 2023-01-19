@@ -282,4 +282,4 @@ If you include special characters or multiple words, you'll have to use longer s
 Still have questions? Having trouble structuring your data? [Let us know!](/about/where-can-i-get-help.html) We've massaged _a lot_ of data to get it into Kumu's format, and we're happy to help.
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/import.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

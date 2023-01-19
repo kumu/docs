@@ -96,5 +96,3 @@ If Microsoft Azure is your single sign-on provider, you can follow the instructi
 
     ![Azure SSO step 13](/images/azure-sso/14.png)
 
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/enterprise/single-sign-on.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

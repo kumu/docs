@@ -38,4 +38,4 @@ To check the trash, click the menu icon <i class="fa fa-bars"></i> in the top le
 
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/my-map-disappeared-how-do-i-bring-it-back.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

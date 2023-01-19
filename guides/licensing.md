@@ -50,4 +50,4 @@ And if you make any changes you must:
 
 > indicate if you modified the material and retain an indication of previous modifications
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/licensing.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

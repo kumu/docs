@@ -570,4 +570,4 @@ If you find a property or a value that's not documented here, [let us know](mail
 })()
 </script>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/controls/controls-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

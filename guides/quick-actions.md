@@ -10,4 +10,4 @@ Search for the feature you're looking for, and the list of options will filter i
 
 We're always adding new items to the list of options in the quick actions menu. If you think we missed something important, just email [support@kumu.io](mailto:support@kumu.io) and let us know!
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/quick-actions.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

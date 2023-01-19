@@ -7,5 +7,3 @@ We may be a small team, but our customer service is mighty. If you ever need hel
 ![slack](/images/slack.png)
 
 If you've found a bug or want to propose a new feature, please use our community [issue tracker](https://kumu.io/kumu/help/discussions) so others can chime in too.
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/about/where-can-i-get-help.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

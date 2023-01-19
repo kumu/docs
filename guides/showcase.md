@@ -58,4 +58,4 @@ Using the Advanced Editor, you can also control the extent to which items are fa
 
 If you'd like to make it easy for readers to activate showcase on their own with predefined options, check out the [showcase control](/guides/controls/showcase-control.html).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/showcase.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

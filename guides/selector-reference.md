@@ -191,4 +191,4 @@ In the first table, you'll notice that the word "slug" appears a lot. A [slug](/
 })()
 </script>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/selector-reference.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

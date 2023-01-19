@@ -157,4 +157,4 @@ You can replace `olympic` with the name of any of our [color palettes](/guides/c
 
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/what-are-loops.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

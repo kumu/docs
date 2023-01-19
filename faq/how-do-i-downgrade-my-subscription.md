@@ -32,4 +32,4 @@ To downgrade to a Basic Workspace, please take the following steps:
 
 You'll now automatically stop being billed for the Pro Workspace. 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-downgrade-to-free.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

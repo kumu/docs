@@ -27,4 +27,4 @@ Login attempts are logged but not closely monitored. Users are encouraged to use
 The audit trails we maintain internally only cover major events (such as account creation/deletion and project updates). These logs are retained indefinitely.
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/security.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

@@ -47,4 +47,4 @@ At the end, where `KUMU_COLLAPSE` lists the number of duplicate connections and 
 For the number of duplicates, it's most common to put `Strength` as the connection header. For the connection direction, you can put `direction` in all lowercase letters, and when you import the data, Kumu will understand that you are using that column to [add arrows to connections](/faq/how-do-I-add-arrows-to-my-connections.html).
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-collapse-duplicate-connections.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

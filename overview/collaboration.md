@@ -105,4 +105,4 @@ PDFs can only be created for maps, not for full <a class="alert-link" href="/gui
 </p>
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/collaboration.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

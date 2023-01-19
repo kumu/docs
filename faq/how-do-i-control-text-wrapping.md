@@ -41,4 +41,4 @@ The table below has a description of all the possible values you can use for the
 | `clip` | Shorthand for `clip 20` (see `clip [number]` explanation). |
 | `clip [number]` | Text will clip and be replaced with an ellipsis after `[number]` characters (e.g. `10` characters if you specify `clip 10`). Text will never wrap.  |
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-control-text-wrapping.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

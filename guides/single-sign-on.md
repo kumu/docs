@@ -10,4 +10,4 @@ You can manage your single sign-on settings from your [Pro workspace's dashboard
   Single sign-on is an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces.html">Pro workspaces</a>.
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/single-sign-on.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

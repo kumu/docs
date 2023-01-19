@@ -178,4 +178,4 @@ To get started with training or consulting, send an email to [support@kumu.io](m
 
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/accounts-and-plans.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

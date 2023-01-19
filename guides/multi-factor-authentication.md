@@ -11,4 +11,4 @@ To enable multi-factor authentication on your account, go to the [MFA section of
 <!-- For increased security with a Pro workspace, you can require that all members of your workspace enable MFA in their accounts. To do this, go to the MFA section of your [workspace's dashboard](/overview/dashboard.html#pro-workspace-dashboard), and click "Require MFA for all members". -->
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/multi-factor-authentication.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

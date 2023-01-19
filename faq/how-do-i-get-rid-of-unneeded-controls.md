@@ -15,4 +15,4 @@ If you don't want _any_ controls or "No values found for [some field name]" mess
 
 If you have some controls in there that you would like to preserve, you'll first need to learn the basics of how to read `@controls` code, so that you can tell which controls you want to delete and which you want to keep. You can learn more about reading `@controls` code in [our full guide on controls](/guides/controls.html#add-controls-through-the-advanced-editor).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-get-rid-of-unneeded-controls.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

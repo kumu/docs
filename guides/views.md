@@ -20,4 +20,4 @@ If you want to rename or delete a view, first select the view in the dropdown at
 * Duplicate view
 * Delete view
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/views.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

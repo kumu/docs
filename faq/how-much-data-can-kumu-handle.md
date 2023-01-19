@@ -37,4 +37,4 @@ Finally, there are a few other steps that are unlikely to have a big impact, but
 1. Close as many browser tabs as possible.
 2. Exit any applications on your computer that are using a lot of CPU. On Mac, you can use the built-in Activity Monitor tool to help find those applications, and on Windows, you can use Task Manager.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-much-data-can-kumu-handle.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

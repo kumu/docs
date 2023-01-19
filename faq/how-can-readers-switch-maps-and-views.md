@@ -49,5 +49,3 @@ If you're linking to the default view for a map, you can omit the `view slug`. Y
 
 When you're done creating all the map and view links, you can [create a new share/embed link](/guides/share-and-embed.md) and send it to your audience.
 
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-can-readers-switch-maps-and-views.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

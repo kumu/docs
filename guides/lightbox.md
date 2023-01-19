@@ -31,4 +31,4 @@ Use this:
 <b>Tip:</b> Add the lightbox to a custom field named <code>URL</code> with its type set to URL, and the lightbox will open when your element, connection, or loop is double-clicked.
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/lightbox.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

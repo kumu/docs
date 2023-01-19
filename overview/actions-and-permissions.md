@@ -81,4 +81,4 @@ You can also figure out who owns any project by looking at the project's URL. Ev
 ![project owner in URL](/images/project-owner-url.png)
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/actions-and-permissions.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

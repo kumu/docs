@@ -36,4 +36,4 @@ While Kumu is easy to get started, it also packs a lot of depth. Use these guide
 * [Tracking](/tracking.md)
 * [Widgets](/widgets.md)
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/guides.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

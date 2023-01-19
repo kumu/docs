@@ -42,5 +42,3 @@ In our example above, imagine we want the order of our options to be "Finance", 
   }
 }
 ```
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-change-the-order-of-control-options.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

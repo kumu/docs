@@ -102,4 +102,4 @@ Need a slug for your project? Use this tool to create your own:
   }
 </script>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/slugs.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

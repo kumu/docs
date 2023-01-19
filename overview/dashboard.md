@@ -35,4 +35,4 @@ If you're an owner of the Pro workspace, you can scroll down on this dashboard t
 
 That's it for dashboards! Don't miss our guides on Kumu's other key interfaces, the [map editor](/overview/map-editor.md), [view editors](/overview/view-editors.md), and [settings menus](/overview/settings.md)
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/dashboard.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

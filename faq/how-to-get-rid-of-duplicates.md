@@ -15,4 +15,4 @@ If you find lots of duplicates in your map, try following these steps to remove 
 
 **Still struggling?** Email [support@kumu.io](mailto:support@kumu.io) for additional help!
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-to-get-rid-of-duplicates.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

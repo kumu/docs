@@ -19,4 +19,4 @@ If you see an "Unable to transfer project" error after trying to transfer a proj
 1. Ensure that the recipient (the workspace you're transferring to) does not have a project with the same name. If they do have a project with the same name, rename one of the projects, and try transferring again.
 2. If you are transferring a private project, make sure that the recipient has added a credit card in their billing settings, and that they have not met or exceeded their private project limit (annual plans only).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-transfer-a-project.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

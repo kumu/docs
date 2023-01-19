@@ -66,4 +66,4 @@ In that section, you can use the Template dropdown menu to select a different te
 If you've applied a few different templates to test them out, you probably have leftover field values (especially Element Type values) that you aren't using and want to delete. To solve that problem, check out our guide on [deleting field values](/guides/fields.md#deleting-field-values).
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/templates.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

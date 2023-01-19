@@ -90,4 +90,4 @@ You can downgrade or cancel your plan at any moment. Follow [this guide](https:/
 _Note: When your bill is increased or decreased during a billing cycle, Kumu's billing system automatically **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill._
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/billing.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

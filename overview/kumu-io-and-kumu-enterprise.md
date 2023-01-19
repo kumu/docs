@@ -15,4 +15,4 @@ If you need help with installing, configuring, or upgrading your Enterprise vers
 
 For anyone who doesn't have these higher security needs, Kumu.io will be a much more streamlined and just as powerful option.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/kumu-io-and-kumu-enterprise.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

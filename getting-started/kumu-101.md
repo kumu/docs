@@ -63,4 +63,4 @@ If you get stuck and need advice, feel free to email us at [support@kumu.io](mai
 And if you have awesome work to share, we’d love to see it in either of those channels!
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/getting-started/kumu-101.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

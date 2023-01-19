@@ -47,4 +47,4 @@ If you really want your custom control to be in the top right, and you'd rather 
 Even if the settings button is hidden, it's always possible to open the settings panel by pressing <code>T</code> on your keyboard.
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-show-the-settings-button.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

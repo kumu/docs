@@ -27,8 +27,3 @@ https://www.scribd.com/embeds/416217686/content?lightbox=full
 ![scribd lightbox](/images/lightbox-scribd.png)
 
 For more info on the ligthbox feature, [see the full guide](/guides/lightbox.html).
-
-
-
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-add-documents-to-profiles.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

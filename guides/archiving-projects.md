@@ -16,4 +16,4 @@ To archive one of your projects: open the project, then click the menu icon <i c
 Project archiving is an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces.html">Pro workspaces</a>.
 </p>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/archiving-projects.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

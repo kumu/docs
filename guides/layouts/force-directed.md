@@ -58,4 +58,4 @@ If you would rather do steps 1-4 in the [Advanced Editor](/overview/view-editors
 After you complete all five steps, you just need to move one element, and they will all start to float into the force-directed layout.
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/layouts/force-directed.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

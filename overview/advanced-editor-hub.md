@@ -54,4 +54,3 @@ We ordered and organized these links based on what we feel is the best path for 
 
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/overview/advanced-editor-hub.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

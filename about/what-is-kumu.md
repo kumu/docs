@@ -18,5 +18,3 @@ Kumu is more than just a tool. It's also a robust community of do-ers who are pa
 
 <iframe src="https://player.vimeo.com/video/135341213" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/about/what-is-kumu.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>

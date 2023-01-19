@@ -96,4 +96,4 @@ Pro workspaces can use Google Analytics tracking to see how many people are visi
 
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/pro-workspaces.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

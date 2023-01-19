@@ -41,4 +41,4 @@ Pro workspaces give you fine-grained access control: give others view, edit, or 
 To see the full list of Pro workspace features, check out [our pricing page](https://kumu.io/pricing) and [our full guide on Pro workspaces](/guides/pro-workspaces.html).
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/accounts-and-workspaces.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

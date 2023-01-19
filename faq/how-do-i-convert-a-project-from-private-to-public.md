@@ -13,4 +13,4 @@ Alternatively, you can:
 3. Select **Change privacy**
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-convert-a-project-from-private-to-public.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

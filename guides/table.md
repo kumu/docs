@@ -41,4 +41,4 @@ Table is built for fast navigation using keystrokes.
 * Hit **tab** to move horizontally across columns
 * Use **ctrl + c** to copy and **ctrl + v** to paste
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/table.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

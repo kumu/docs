@@ -49,4 +49,4 @@ If you see an "Unable to transfer project" error after trying to transfer a proj
 2. If you are transferring a private project, make sure that the recipient has added a credit card in their billing settings, and that they have not met or exceeded their private project limit (annual plans only).
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/project-admin.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

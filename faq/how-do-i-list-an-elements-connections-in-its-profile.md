@@ -85,4 +85,4 @@ Then, you can simply import that data back into Kumu, and when you open any elem
 
 
 
- <span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-list-an-elements-connections-in-its-profile.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+ 

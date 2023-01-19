@@ -141,4 +141,4 @@ To do that, you'll use **filter**, **focus**, **showcase**—four different ways
 </p>
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/systems-practice.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

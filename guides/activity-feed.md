@@ -17,4 +17,4 @@ Click on "Activity" in the sidebar to see all kinds of project changes—adding 
   </p>
 </div>
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/activity-feed.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

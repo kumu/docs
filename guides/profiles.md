@@ -53,4 +53,4 @@ To enable the profile only for elements and connections that have a description 
 
 You can swap out `[description]` for any selector. Values for the `profile` property can be either `true` or `false`.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/profiles.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

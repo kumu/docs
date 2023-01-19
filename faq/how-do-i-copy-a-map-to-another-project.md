@@ -7,4 +7,4 @@ But, if the project you're transferring _to_ already has some content of its own
 
 If you're encountering any difficulties, please reach out to support@kumu.io, and we can help you move the map and any accompanying views safely, without deleting or overriding data in the target project.
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/faq/how-do-i-copy-a-map-to-another-project.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

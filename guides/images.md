@@ -128,4 +128,4 @@ As always, if you have any questions on how this works, email us at [support@kum
 
 
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/images.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

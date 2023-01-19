@@ -122,4 +122,4 @@ You can customize your radars extensively, changing the color, font color, the d
 
 For full instructions on adding a background image, see [our full images guide](https://docs.kumu.io/guides/images.html#add-a-background-image).
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/underlays.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+

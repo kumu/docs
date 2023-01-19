@@ -26,4 +26,4 @@ You can use the [Advanced Editor](/overview/view-editors.html#advanced-editor) t
 
 Replace `my-view` with the [slug](/guides/slugs.html) of your original view's name, and you'll be ready to go!
 
-<span class="edit-link"><a href="https://github.com/kumu/docs/blob/master/guides/imported-views.md" target="_blank"><i class="fa fa-github"></i> edit this page</a></span>
+
