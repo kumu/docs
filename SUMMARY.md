@@ -130,13 +130,11 @@
 
 * [How do I add annotations?](faq/how-do-i-add-annotations.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
-* [How do I add contributors?](frequently-asked-questions/how-do-i-add-contributors.md)
 * [How do I add documents to profiles?](faq/how-do-i-add-documents-to-profiles.md)
 * [How do I add more than one element with the same label?](faq/how-do-i-add-more-than-one-element-with-the-same-label.md)
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
 * [How do I avoid duplicating data?](faq/how-do-I-avoid-duplicating-data.md)
 * [How do I change connection curvature?](faq/how-do-i-change-connection-curvature.md)
-* [How do I change elements' shape?](frequently-asked-questions/how-do-i-change-elements-shape.md)
 * [How do I change font color?](faq/how-do-i-change-font-color.md)
 * [How do I change font size?](faq/how-do-i-change-font-size.md)
 * [How do I change the length or strength of connections?](faq/how-to-change-length-of-connections.md)
@@ -180,4 +178,3 @@
 * [My PDF won't export. What can I do?](faq/my-PDF-wont-export.md)
 * [What pricing plans does Kumu have?](faq/what-pricing-plans-does-Kumu-have.md)
 * [Where can I find my invoices?](faq/where-can-i-find-invoices.md)
-* [Who is allowed to edit my project?](frequently-asked-questions/who-is-allowed-to-edit-my-project.md)
