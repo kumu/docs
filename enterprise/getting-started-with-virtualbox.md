@@ -31,7 +31,3 @@ your network settings.
 
 Follow the instructions given to you by the console to complete your installation.
 Your enterprise license (.kli) can be installed by going to `<hostname>/enterprise/install`.
-
-<footer class="page-footer">
-  <div class="next">Next: <a href="configuration.md">Configuration</a></div>
-</footer>

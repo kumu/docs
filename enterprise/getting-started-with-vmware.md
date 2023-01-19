@@ -38,7 +38,3 @@ If you see an IP listed here, you're all set.  If not, you'll need to adjust you
 
 Follow the instructions given to you by the console to complete your installation.
 Your enterprise license (.kli) can be installed by going to `<hostname>/enterprise/install`.
-
-<footer class="page-footer">
-  <div class="next">Next: <a href="configuration.md">Configuration</a></div>
-</footer>

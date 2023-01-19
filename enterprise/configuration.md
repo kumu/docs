@@ -66,11 +66,4 @@ The geocoding service used for the [geo template](/guides/templates/geo.md) is n
 
 ![enterprise configure geocoding](/images/enterprise-configuration-geocoding.png)
 
-
-
-<footer class="page-footer">
-  <div class="next">Next: <a href="creating-user-accounts.md">Creating user accounts</a></div>
-</footer>
-
-
 [ssh]: ssh-access.md

@@ -12,9 +12,9 @@ recommend that you restore your enterprise data on a fresh installation.
 ssh admin@hostname -- "kumu-import" < kumu-backup.tar.gz
 ```
 
-<footer class="page-footer">
-  <div class="next">Have questions? <a href="mailto:enterprise@kumu.io">Contact Support</a></div>
-</footer>
+{% hint style="info" %}
+Have questions? <a href="mailto:enterprise@kumu.io">Contact Support</a>
+{% endhint %}
 
 [cmd]: command-line-utilities.md
 [ssh]: ssh-access.md

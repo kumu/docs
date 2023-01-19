@@ -81,10 +81,9 @@ ssh admin@<hostname> -- "kumu-ssl-install-key" < privkey.pem
 NOTE: After you have uploaded your certificate and key, you must run
 `kumu-ssl-enable` to apply the changes.
 
-<footer class="page-footer">
-  <div class="next">Have questions? <a href="mailto:enterprise@kumu.io">Contact Support</a></div>
-</footer>
-
+{% hint style="info" %}
+Have questions? <a href="mailto:enterprise@kumu.io">Contact Support</a>
+{% endhint %}
 
 ## kumu-ssl-enable-selfsigned
 

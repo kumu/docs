@@ -12,11 +12,6 @@ back up your data immediately prior to any database migrations or upgrades.
 ssh admin@hostname -- "kumu-export" > kumu-backup.tar.gz
 ```
 
-<footer class="page-footer">
-  <div class="next">Next: <a href="restoring-enterprise-data.md">Restoring enterprise data</a></div>
-</footer>
-
-
 [1]: command-line-utilities.md
 [2]: restoring-enterprise-data.md
 [3]: ssh-access.md

@@ -34,10 +34,6 @@ not as simple as the basic upgrade, the process only requires a few steps.
 1. [Add your ssh key][ssh] to the new instance
 1. [Restore your existing data][restore] onto the new instance
 
-<footer class="page-footer">
-  <div class="next">Have questions? <a href="mailto:enterprise@kumu.io">Contact Support</a></div>
-</footer>
-
 [cmd]: command-line-utilities.md
 [backup]: backing-up-enterprise-data.md
 [restore]: restoring-enterprise-data.md
