@@ -54,7 +54,7 @@
   * [Label templates](guides/label-templates.md)
   * [Popovers](guides/popovers.md)
 * [Default view settings](guides/default-view-settings.md)
-* [Disciplines](<README (1).md>)
+* [Disciplines](guides/disciplines/README.md)
   * [SNA / Network Mapping](guides/sna-network-mapping.md)
   * [System mapping](guides/system-mapping.md)
   * [Systems practice](guides/systems-practice.md)
