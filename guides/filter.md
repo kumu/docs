@@ -9,7 +9,7 @@ Before you start: <a class="alert-link" href="/guides/fields.md">use fields</a> 
 
 ## Filter in the Basic Editor
 
-Click the Settings icon ![](/icons/sliders-h.svg) on the right side of the map, then click the icon to the right of **Filter** to open up your filter settings.
+Click the Settings icon <img width="24" height="24" src="/icons/sliders-h.svg" /> on the right side of the map, then click the icon to the right of **Filter** to open up your filter settings.
 
 ![filter](/images/overview-filter.png)
 
