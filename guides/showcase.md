@@ -16,7 +16,7 @@ Click the Settings icon on the right side of your map to open the Basic Editor. 
 
 ![Showcase basic editor](/images/overview-showcase.png)
 
-Click the rocketship icon <i class="fa fa-rocket"></i> to build the selection of items that you want to showcase, or type a [selector](/guides/selectors.md) into the box.
+Click the rocketship icon  to build the selection of items that you want to showcase, or type a [selector](/guides/selectors.md) into the box.
 
 
 ## Showcase in the Advanced Editor

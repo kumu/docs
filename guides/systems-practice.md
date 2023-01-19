@@ -33,9 +33,9 @@ If you'd like to collaborate on your map with other team members, open your map 
 Watch this video for an overview on how to build your first loop in Kumu:
 <iframe src="https://player.vimeo.com/video/201363477" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-#### The green <i class="fa fa-plus"></i> button
+#### The green  button
 
-Click on the green <i class="fa fa-plus"></i> button at the bottom of the map, and you'll see several options:
+Click on the green  button at the bottom of the map, and you'll see several options:
 * Add element
 * Add connection
 * Add loop
@@ -53,7 +53,7 @@ Add a few more elements, then try selecting **Add connection** from that menu to
 
 #### Sketch mode
 
-If you're building your map by hand, you should definitely give sketch mode a try! Click the green <i class="fa fa-plus"></i> button and select **Sketch** to activated sketch mode.
+If you're building your map by hand, you should definitely give sketch mode a try! Click the green  button and select **Sketch** to activated sketch mode.
 
 Once sketch mode is activated, you can add an element by clicking anywhere on the map, and you can add a connection by clicking and dragging from an existing element.
 
@@ -73,13 +73,13 @@ Whenever you add a connection, it's a good practice to indicate the causality of
 To indicate the causality of a connection, first click on the connection so that the [profile](/guides/profiles.md) appears on the left side of your screen. You'll see a placeholder at the top that says "add connection type". Click that placeholder, then choose which of the above best represents the causality of the connection. You'll then see the corresponding "+" or "-" appear at the ends of the connection.
 
 #### Creating a loop label
-You'll continue adding elements and connections until you have one or more loops. It can be helpful to explicitly name the loops you are building by adding a loop label. To add a loop label, click the green <i class="fa fa-plus"></i> button and then choose "add loop". You then need to click on each connection that is part of the loop, then add a loop label, and finally hit enter.
+You'll continue adding elements and connections until you have one or more loops. It can be helpful to explicitly name the loops you are building by adding a loop label. To add a loop label, click the green  button and then choose "add loop". You then need to click on each connection that is part of the loop, then add a loop label, and finally hit enter.
 
 Now if you click on the loop label, you'll see a profile for the loop show up on the left hand side. Use this to include a narrative of the dynamics of the loop.
 
 **What should I use as a loop label?** We recommend using a combination of "R" or "B" (for reinforcing and balancing) plus a short label for the dynamic at play (R: Trust in Government) and even a numerical label if that further helps differentiate your loops (R15: Trust in Government).
 
-**Made a mistake or need to edit the loop?** To edit an existing loop, click on the loop label and then click the edit icon <i class="fa fa-pencil"></i>. You can then click connections to add/remove them from the loop.
+**Made a mistake or need to edit the loop?** To edit an existing loop, click on the loop label and then click the edit icon . You can then click connections to add/remove them from the loop.
 
 #### Moving elements and loops and reshaping connections
 You can click and drag any element to move its location. You can also change the curvature of a connection by clicking and dragging the middle of the connection. If you want to move just the loop label, simply click and drag the label. If you'd like to move the loop label along with all the elements and connections in that loop, hold `alt` or `option` on your keyboard, then click and drag the label.
@@ -113,7 +113,7 @@ Looking to track more information about each element, connection or loop? You ca
 ## Bringing your map to life with decorations
 Once you've added additional background and context using the profile, you can then bring that context to life by creating [decorations](/guides/decorate.md) based on the values you've saved to the profile. Let's run through an example to color-code elements by the values in their leverage analysis field.
 
-1. Click the settings icon <i class="fa fa-sliders"></i> on the right side of the map to open the [Basic Editor](/overview/view-editors.md#basic-editor)
+1. Click the settings icon  on the right side of the map to open the [Basic Editor](/overview/view-editors.md#basic-editor)
 1. Next to **Color by**, use the dropdown to select "leverage analysis"
 
 And you're done! All elements will now be be marked with colored arcs, and each colored arc represents one of the different options in your leverage analysis field.

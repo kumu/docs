@@ -8,7 +8,7 @@ There are also some features of Kumu that can only be accessed through the Advan
 
 ## Basic Editor
 
-To open the Basic Editor, open your map and click the Settings icon <i class="fa fa-sliders"></i> on the right side of the map.
+To open the Basic Editor, open your map and click the Settings icon  on the right side of the map.
 
 <span class="small plain">
 ![](/images/overview-basic-editor.png)
@@ -20,7 +20,7 @@ You'll see Kumu's most commonly used view settings.
 
 **Size by** allows you to scale the size of your elements based on numbers stored inside them. For example, if you have a map of organizations, you could create a field called "Net Assets" and fill out the numbers for each element. Then you can use the Basic Editor to scale the size the organizations according to their Net Assets, allowing you to quickly compare everyone's resources.
 
-Don't like the default sizes? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Size by** dropdown to fine-tune your sizing options.
+Don't like the default sizes? Click the expand icon  next to the **Size by** dropdown to fine-tune your sizing options.
 
 Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it. If you don't have this kind of data available, try using Kumu's [Metrics](/guides/metrics.md) feature to create some!
 
@@ -35,7 +35,7 @@ Need more precise control over your sizes? Check out our guide on [refining your
 
 **Color by** allows you to color-code your elements based on any field. Select a field from the dropdown, and any elements that have data in that field will be colored!
 
-Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
+Don't like the default colors? Click the expand icon  next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
 
 ![bujumbra color by](/images/color-by-element-type-bujumbra.png)
 
@@ -102,7 +102,7 @@ This section of the Basic Editor shows each decoration's legend label, if you ha
 
 ## Advanced Editor
 
-To open the Advanced Editor, click the Settings icon <i class="fa fa-sliders"></i> to open the Basic Editor, then click **SWITCH TO ADVANCED EDITOR** at the bottom of the Basic Editor.
+To open the Advanced Editor, click the Settings icon  to open the Basic Editor, then click **SWITCH TO ADVANCED EDITOR** at the bottom of the Basic Editor.
 
 <span class="small plain">
 ![](/images/advanced-editor-hf.png)

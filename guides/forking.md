@@ -3,7 +3,7 @@
 A fork is a copy of a project. Forking a project allows you to experiment with changes without affecting the original project. Forks are commonly used to propose changes to someone else's project or to use someone else's project as a starting point for your own.
 
 ## Creating a fork
-To fork a public project, click the menu in the upper left corner of the map and then click fork project (<i class="fa fa-code-fork"></i>). This will:
+To fork a public project, click the menu in the upper left corner of the map and then click fork project (). This will:
 
 * Create a copy ("fork") of the entire project, including all views, maps and presentations
 * The fork will be created under your personal account with the same name as the original project

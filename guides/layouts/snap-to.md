@@ -7,7 +7,7 @@ Snap-to makes it easy to arrange a group of elements as a circle or a line. This
 ![snap to line](/images/linesnapto.png)
 
 ## Pick a selection
-To get started using snap-to, select one or more elements. You can do this by holding `shift` on your keyboard and dragging your mouse to draw a selection box over part of the map, or by clicking the search bar at the top of the map and then using the rocket icon <i class="fa fa-rocket"></i> to build a [selector](/guides/selectors.md).
+To get started using snap-to, select one or more elements. You can do this by holding `shift` on your keyboard and dragging your mouse to draw a selection box over part of the map, or by clicking the search bar at the top of the map and then using the rocket icon  to build a [selector](/guides/selectors.md).
 
 ## Arrange as a circle or line
 After you've selected multiple elements, right click the map and choose "snap to" from the menu. Then, you can choose whether you want to arrange the elements as a circle ("snap to circle") or a line ("snap to line").

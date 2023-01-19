@@ -23,12 +23,12 @@ Building your map by hand is a great choice for most system maps. If your map wi
 
 There are two ways to build a map by hand:
 
-1. The green <i class="fa fa-plus"></i> button
+1. The green  button
 1. Sketch mode
 
-#### The green <i class="fa fa-plus"></i> button
+#### The green  button
 
-Click on the green <i class="fa fa-plus"></i> button at the bottom of the map, and you'll see several options:
+Click on the green  button at the bottom of the map, and you'll see several options:
 * Add element
 * Add connection
 * Add loop
@@ -45,7 +45,7 @@ Add a label for the loop and hit `enter` on your keyboard to finish up.
 
 Some systems thinkers like to mark their loops as "reinforcing" or "balancing". To do this, we recommend adding "R" or "B" (for reinforcing and balancing) to your loop label, which will describe the dynamic at play (R: Trust in Government). You can even add a numerical label if that further helps differentiate your loops or guide readers through the story (R15: Trust in Government).
 
-To edit an existing loop, click on its label on the map, then click the edit icon (<i class="fa fa-pencil"></i>) in the profile, or press `L` on your keyboard. You can then click connections to add/remove them from the loop. We automatically position the loop label at the center of the connections, but you can click-and-drag the loop label to another location if you want to reposition it.
+To edit an existing loop, click on its label on the map, then click the edit icon () in the profile, or press `L` on your keyboard. You can then click connections to add/remove them from the loop. We automatically position the loop label at the center of the connections, but you can click-and-drag the loop label to another location if you want to reposition it.
 
 To move an entire loop (including all of its connections), hold down the `alt` key on your keyboard, then click-and-drag the loop label.
 
@@ -55,7 +55,7 @@ To move an entire loop (including all of its connections), hold down the `alt` k
 
 #### Sketch mode
 
-If you're building a system map by hand, you should definitely give sketch mode a try! Click the green <i class="fa fa-plus"></i> button and select **Sketch** to activated sketch mode.
+If you're building a system map by hand, you should definitely give sketch mode a try! Click the green  button and select **Sketch** to activated sketch mode.
 
 Once sketch mode is activated, you can add an element by clicking anywhere on the map, and you can add a connection by clicking and dragging from an existing element.
 
@@ -79,7 +79,7 @@ Note this only work for connections where both elements that are part of that co
 
 In the systems template, connections are "directed" by default, meaning that they will show up with an arrow on one end. But, you might sometimes want to flip the direction of the arrow, remove the arrow, or add arrows to both ends of the connection.
 
-To flip the direction of a connection, you can click on the connection that you want to change, then click the direction button <i class="fa fa-exchange">  </i> in the lower right of the connection's profile. Next to "Directed", click <i class="fa fa-random"></i> **REVERSE** to flip the connection.
+To flip the direction of a connection, you can click on the connection that you want to change, then click the direction button  **REVERSE** to flip the connection.
 
 To remove an arrow, you can click "Undirected", and the arrow will disappear. To add an arrow on the other side of the connection, select "Mutual".
 
@@ -89,7 +89,7 @@ To change the arrows for multiple connections at a time, hold down <code>Shift</
 
 #### Add delay markings
 
-Sometimes, system mappers will add two parallel lines intersecting a connection to indicate that there is an implicit time delay in the relationship—one factor _does_ affect the other, but it might take a long time to do so. To add this delay marking to a connection, you can select the connection, then click the delay icon <i class="fa fa-hourglass-half"></i> in the lower right of the connection's profile.
+Sometimes, system mappers will add two parallel lines intersecting a connection to indicate that there is an implicit time delay in the relationship—one factor _does_ affect the other, but it might take a long time to do so. To add this delay marking to a connection, you can select the connection, then click the delay icon  in the lower right of the connection's profile.
 
 {% hint style="info" %}
 To add delay markings for multiple connections at a time, hold down <code>Shift</code> on your keyboard and click on connections to select more than one. Then, follow the same steps above to make your changes.<br><br>You can also press <code>Shift</code> + <code>C</code> on your keyboard to select all connections.

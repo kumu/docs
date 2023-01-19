@@ -7,7 +7,7 @@ You can edit settings for each [project](/overview/kumus-architecture.md#project
 
 ## Project settings
 
-Project settings are accessed via the menu icon <i class="fa fa-bars"></i> in the upper left of your screen (on the [top toolbar](/overview/map-editor.md#top-toolbar)).
+Project settings are accessed via the menu icon  in the upper left of your screen (on the [top toolbar](/overview/map-editor.md#top-toolbar)).
 
 <span class="small plain">
 ![project settings](/images/project-settings.jpg)

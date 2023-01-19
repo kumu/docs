@@ -8,7 +8,7 @@ If you're building a fixed map with [Sketch Mode](/getting-started/first-steps.m
 
 ## Changing from force-directed to fixed layout:
 
-1. Click on the Settings icon <i class="fa fa-sliders"></i> on the right side of the map
+1. Click on the Settings icon  on the right side of the map
 1. Click **MORE OPTIONS** and select **Customize view defaults**
 1. Scroll down to the **General settings** section to change the "Layout" to "off"
 1. In the same section, change "Default element behavior" to "fixed"

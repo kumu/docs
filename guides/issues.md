@@ -2,7 +2,7 @@
 
 With issues (an exclusive feature for [Pro workspaces](/guides/pro-workspaces.md)) you can chat with your team and attach comments to items in your map—all within Kumu, all in real time!
 
-To open up the issues pane, click the issues icon <i class="fa fa-comments-o"></i> in the [bottom toolbar](/overview/map-editor.md#bottom-toolbar).
+To open up the issues pane, click the issues icon  in the [bottom toolbar](/overview/map-editor.md#bottom-toolbar).
 
 ![Picture of the issues pane](/images/issues.png)
 
@@ -14,7 +14,7 @@ You can also attach an issue directly to an element, connection, or loop on the 
 
 <!-- screenshot -->
 
-To collapse the issues pane, click the issues icon <i class="fa fa-comments-o"></i> again.
+To collapse the issues pane, click the issues icon  again.
 
 
 ## Email notifications

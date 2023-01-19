@@ -16,7 +16,7 @@ If you're looking to share or embed your public or private maps, click the "Shar
 
 When you're done adjusting the settings, click "Create embed / share link". Then, just copy the share link and send it to a friend, or copy and paste the iframe code into your website to embed.
 
-You can also use the external link button (<i class="fa fa-external-link-square"></i>) to open the map link in a new tab.
+You can also use the external link button () to open the map link in a new tab.
 
 {% hint style="warn" %}
   Anyone who has access to the the share link or the embedded version (and, when applicable, the password) will be able to view the map, even if the project is private.

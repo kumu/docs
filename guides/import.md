@@ -126,7 +126,7 @@ Then, you can import that file into Kumu in two different ways:
 
 OR
 
-**2)** Click the green <i class="fa fa-plus"></i> button at the bottom of your map, select **Import**, and click "Select .xslx file" (this button works for .csv files as well)
+**2)** Click the green  button at the bottom of your map, select **Import**, and click "Select .xslx file" (this button works for .csv files as well)
 
 Either way, you'll have the option to review the import before finalizing to double-check that everything imported correctly. After you review the import, just click save, and you're all set!
 
@@ -151,7 +151,7 @@ Seeing errors during your Google Sheets import? You can use the <a class="alert-
 1. Create your spreadsheet in Google Drive
 1. [Structure your data](#structure-your-data-for-kumu)
 1. Copy the private spreadsheet link from the URL bar in your browser, and go back to your Kumu map
-1. Click the green <i class="fa fa-plus"></i> button, select **Import**, and click the "Google Sheets" tab
+1. Click the green  button, select **Import**, and click the "Google Sheets" tab
 1. Under **Link to private Google Sheet**, paste your Google Sheets link into the box
 
 #### Public Google Sheets Instructions
@@ -162,7 +162,7 @@ Seeing errors during your Google Sheets import? You can use the <a class="alert-
 1. Click "Get shareable link"
 1. Set the permissions to "**On** - public on the web (Anyone on the internet can find and access. No sign-in required.)"
 1. Copy the shareable link URL, and go back to your Kumu map
-1. Click the green <i class="fa fa-plus"></i> button, select **Import**, and click the "Google Sheets" tab
+1. Click the green  button, select **Import**, and click the "Google Sheets" tab
 1. Paste your Google Sheets link into the box under **Link to public Google Sheet**
 
 

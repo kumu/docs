@@ -70,7 +70,7 @@ If there are multiple conflicts, you'll be taken through each conflict one by on
 
 ## Create a presentation
 
-Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You can create a new presentation and edit existing presentations by clicking the menu icon <i class="fa fa-bars"></i> in the upper left of your map, then clicking **PRESENTATIONS**. For more info on the power of presentations, watch the video below, or [check out our full guide on presentations](/guides/presentations.md)
+Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You can create a new presentation and edit existing presentations by clicking the menu icon  in the upper left of your map, then clicking **PRESENTATIONS**. For more info on the power of presentations, watch the video below, or [check out our full guide on presentations](/guides/presentations.md)
 
 <iframe src="https://player.vimeo.com/video/118975099" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
