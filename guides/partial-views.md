@@ -138,7 +138,7 @@ You can also use the `option {}` syntax if you'd like to customize the list of o
 
 ## The partial view cascade
 
-Kumu's advanced editor applies decorations in a cascading order. This means that your most recently created decorations _can_ override your older decorations. Read more about this basic rule [here](https://docs.kumu.io/guides/data-driven-decorations.html#the-decorations-cascade). When using partial views, you might sometimes notice that your partial view isn't overriding the decorations of your default view. Read on below to learn how that works, and how you can work around it. 
+Kumu's advanced editor applies decorations in a cascading order. This means that your most recently created decorations _can_ override your older decorations. Read more about this basic rule [here](/guides/data-driven-decorations.html#the-decorations-cascade). When using partial views, you might sometimes notice that your partial view isn't overriding the decorations of your default view. Read on below to learn how that works, and how you can work around it. 
 
 **Basic rule:** 
 A separate element block of code will always override an @settings block, even when dealing with partial views. 

@@ -1,7 +1,7 @@
 # How do I add arrows to my connections?
 
 <p class="alert alert-warning">
-Arrows can't be added to connections if you're using the <a class="alert-link" href="https://docs.kumu.io/guides/templates.html#sna-social-network-analysis-template">SNA template</a>.
+Arrows can't be added to connections if you're using the <a class="alert-link" href="/guides/templates.html#sna-social-network-analysis-template">SNA template</a>.
 </p>
 
 If you want to add arrows to your connections to specify direction, here are a couple ways to do so:

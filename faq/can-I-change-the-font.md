@@ -4,7 +4,7 @@ Many Kumu users have wondered if they can use the typefaces/fonts specified in t
 
 ## Custom font work around for static images of your Kumu map
 
-There are two places with editable text in a Kumu project - on the map itself (element and connection labels, controls, and the legend) and in the side panel (see the documentation [here](https://docs.kumu.io/overview/map-editor.html#side-panel) to learn how to use the sidepanel). 
+There are two places with editable text in a Kumu project - on the map itself (element and connection labels, controls, and the legend) and in the side panel (see the documentation [here](/overview/map-editor.html#side-panel) to learn how to use the sidepanel). 
 
 > If you have a font downloaded on your computer, you can use it in a project, but anyone without the font installed on their system or cached in their browser will see whatever the browser defaults to, which is usually Times New Roman.
 
@@ -12,7 +12,7 @@ This workaround works on the Chrome and Firefox browsers but not Safari.
 
 ### Change map font
 
-If you'd like to change the font/typeface that is showing up on element and connection labels, controls, and the legend, you can use the @settings block in the advanced editor ([explanation of the settings block](https://docs.kumu.io/guides/settings-reference.html#settings-reference)), and the font-family property. 
+If you'd like to change the font/typeface that is showing up on element and connection labels, controls, and the legend, you can use the @settings block in the advanced editor ([explanation of the settings block](/guides/settings-reference.html#settings-reference)), and the font-family property. 
 
 > :heavy_exclamation_mark:Remember, this is most useful if you need the map for a screenshot, because there is no guarantee other users will see the correct font.
 
@@ -27,7 +27,7 @@ If you'd like to change the font/typeface that is showing up on element and conn
 
 ### Change sidebar font
 
-In the sidebar you can [use markdown](https://docs.kumu.io/guides/markdown.html) to format your text and add richness to the panel. Kumu has pre-specified fonts for different elements such as headers, call outs, and body text, so there is no guarantee here, but you can play around with html to add the font of your choice. 
+In the sidebar you can [use markdown](/guides/markdown.html) to format your text and add richness to the panel. Kumu has pre-specified fonts for different elements such as headers, call outs, and body text, so there is no guarantee here, but you can play around with html to add the font of your choice. 
 
 > :heavy_exclamation_mark: Remember, there is no guarantee other users will see the correct font as you are only seeing it because it is installed on your computer or cached in your browser.
 

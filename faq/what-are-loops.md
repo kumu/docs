@@ -121,7 +121,7 @@ To detect loops, follow these steps:
 - Loops can only be [exported with JSON](/guides/export.html). You can't export loops to Excel.
 
 <p class="alert alert-warning">
-Automatic loop detection is not (yet) available for maps imported with Google Sheets. If you'd like to use loop detection, please <a class="alert-link" href="https://docs.kumu.io/guides/import.html#import-from-excel-or-csv">import your map with Excel</a>.
+Automatic loop detection is not (yet) available for maps imported with Google Sheets. If you'd like to use loop detection, please <a class="alert-link" href="/guides/import.html#import-from-excel-or-csv">import your map with Excel</a>.
 </p>
 
 ## Decorating loops

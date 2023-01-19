@@ -16,13 +16,13 @@ First, you'll have to run metrics to let Kumu calculate the number of connection
 
 - To rerun metrics (for example, if you added new elements and connections), just follow the same steps again.
 - Metrics will not be calculated for elements that are filtered out of the map.
-- To save multiple versions of the same metric, follow [this guide](https://docs.kumu.io/guides/metrics.html#saving-multiple-versions-of-a-single-metric)
-- You can run any of the metrics mentioned [in this guide](https://docs.kumu.io/guides/metrics.html#sna-metrics), and then size based on them.
+- To save multiple versions of the same metric, follow [this guide](/guides/metrics.html#saving-multiple-versions-of-a-single-metric)
+- You can run any of the metrics mentioned [in this guide](/guides/metrics.html#sna-metrics), and then size based on them.
 
 ## Size your elements
 
 Once the metrics are calculated, you can size your elements by going into Settings on the right, and changing the "Size By" dropdown of the Basic Editor to the field of the metric you calculated (e.g. "degree").
-More information on sizing can be found in [this guide](https://docs.kumu.io/guides/data-driven-decorations.html#size-by)
+More information on sizing can be found in [this guide](/guides/data-driven-decorations.html#size-by)
 
 
 ![size by metric](/images/Size-by-metrics.png)

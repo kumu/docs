@@ -26,7 +26,7 @@ If you imported your data through Google Sheets, then that link is the lifeline 
   
 ## Do you have pinned elements in a map with a geo template?
 
-On rare occasions, elements in one map might disappear because elements on a geo template were [pinned down](https://docs.kumu.io/faq/how-do-keep-elements-from-moving.html) in _another_ map. If you have a geo template in any of your maps, please navigate there and: click "A" on your keyboard to select all elements on the map, and then click Alt + P (option + P for mac) to unpin the elements. Wait for the message "You unpinned X elements in your map" in the bottom-left corner, and then navigate to the map that was blank. Your data should now be back!
+On rare occasions, elements in one map might disappear because elements on a geo template were [pinned down](/faq/how-do-keep-elements-from-moving.html) in _another_ map. If you have a geo template in any of your maps, please navigate there and: click "A" on your keyboard to select all elements on the map, and then click Alt + P (option + P for mac) to unpin the elements. Wait for the message "You unpinned X elements in your map" in the bottom-left corner, and then navigate to the map that was blank. Your data should now be back!
 
 ## Has the data been deleted?
 

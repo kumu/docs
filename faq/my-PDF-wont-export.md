@@ -14,7 +14,7 @@ You can usually update this through your image hosting provider.
 ### You're using background items that can't be exported
 Our PDF builder doesn't know how to handle different "layers" in your map. 
 So when you're stacking elements on top of each other to use some sort of "grouping", this won't be reflected well in the PDF. 
-In that case we recommend to [export to PNG](https://docs.kumu.io/guides/export.html). 
+In that case we recommend to [export to PNG](/guides/export.html). 
 
 Also note that geo maps cannot be exported to PDF nor PNG, as the background won't render. 
 
@@ -23,8 +23,8 @@ It doesn't happen often, but sometimes our browsers or certain settings can inte
 We recommend to try your export in a different browser before contacting us!
 
 ### Some other points to note
-- [Underlays](https://docs.kumu.io/guides/underlays.html) won't export to PDF
-- You can't export [geo maps](https://docs.kumu.io/guides/templates/geo.html) to PDF or PNG
+- [Underlays](/guides/underlays.html) won't export to PDF
+- You can't export [geo maps](/guides/templates/geo.html) to PDF or PNG
 - Unfortunately, Chinese and Hebrew characters do not render well in PDFs at the moment. We hope to be able to offer this in the future!
 
 If you've gone through all of the above points and you still can't find the reason as to why your PDF isn't downloading, don't hesitate to reach out to us at support@kumu.io. We're happy to help!

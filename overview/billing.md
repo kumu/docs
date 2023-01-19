@@ -11,7 +11,7 @@ To change the credit card you use with Kumu, you can do the following:
 
 Kumu charges you based on two factors:
 
-1. Whether you have a Basic Workspace or a [Pro Workspace](https://docs.kumu.io/guides/pro-workspaces.html)
+1. Whether you have a Basic Workspace or a [Pro Workspace](/guides/pro-workspaces.html)
 2. The number of private projects you have in your workspace
 
 #### Monthly billing
@@ -85,7 +85,7 @@ Kumu charges you based on two factors:
 1. Whether you have a Basic Workspace or a Pro Workspace
 2. The number of private projects you have in your workspace
 
-You can downgrade or cancel your plan at any moment. Follow [this guide](https://docs.kumu.io/faq/how-do-i-downgrade-to-free.html) to learn how to do this in your account. 
+You can downgrade or cancel your plan at any moment. Follow [this guide](/faq/how-do-i-downgrade-to-free.html) to learn how to do this in your account. 
 
 _Note: When your bill is increased or decreased during a billing cycle, Kumu's billing system automatically **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill._
 

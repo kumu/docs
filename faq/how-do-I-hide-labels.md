@@ -12,7 +12,7 @@ element {
 }
 ```
 
-To only change the _position_ of element labels, go to [this guide](https://docs.kumu.io/faq/how-do-i-change-element-text-position.html). 
+To only change the _position_ of element labels, go to [this guide](/faq/how-do-i-change-element-text-position.html). 
 
 ## Hide connection labels
 To hide the connection labels in your map, add the following code to your Advanced Editor:

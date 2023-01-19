@@ -1,6 +1,6 @@
 # How do I convert a project from public to private?
 
-_Learn more about the difference between a public and a private project [here](https://docs.kumu.io/overview/collaboration.html#public-vs-private-projects)._
+_Learn more about the difference between a public and a private project [here](/overview/collaboration.html#public-vs-private-projects)._
 
 To convert a project from public to private, you can:
 1. Right-click on the [canvas](/overview/map-editor.html#canvas)
