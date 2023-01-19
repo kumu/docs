@@ -9,8 +9,7 @@ This guide walks you through the basics of network analysis using Kumu. We'll wa
 
 Looking for more background about network analysis before you get started? Check out [Social Network Analysis Made Easy](https://speakerdeck.com/jeffcmohr/social-network-analysis-made-easy):
 
-<script async class="speakerdeck-embed" data-id="5c286ba03f9b01327c755690da73e3c1" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
+{% embed url="https://speakerdeck.com/jeffcmohr/social-network-analysis-made-easy" %}
 
 ## Collect the data
 
