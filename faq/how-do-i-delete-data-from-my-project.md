@@ -16,7 +16,7 @@ Here's basic step-by-step:
 
 The data will disappear from your map, but it's not gone yet—it still exists in your [project's Trash](/overview/kumus-architecture.md#trash). To delete data from the Trash, follow these additional steps:
 
-1. Click the menu icon <i class="fa fa-bars"></i> in the upper left corner to bring up the project menu
+1. Click the menu icon  in the upper left corner to bring up the project menu
 1. Select <i class="icon-trash"></i> TRASH from the menu on the left
 1. Use the dropdown menu to review and destroy items individually, or just click **Destroy All**. After you do this, there's no going back!
 

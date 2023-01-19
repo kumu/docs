@@ -65,12 +65,12 @@ In this guide, we'll cover how to build your map by hand. If you'd rather import
 
 Building your map by hand is a good choice for system maps or smaller network maps. If your map will have less than 50 elements, you can probably build it comfortably by hand. There are two ways to build a map by hand.
 
-1. The green <i class="fa fa-plus"></i> button
+1. The green  button
 1. Sketch mode
 
-#### The green <i class="fa fa-plus"></i> button
+#### The green  button
 
-Click on the green <i class="fa fa-plus"></i> button at the bottom of the map, and you'll see several options:
+Click on the green  button at the bottom of the map, and you'll see several options:
 * Add element
 * Add connection
 * Add loop
@@ -88,7 +88,7 @@ Add a few more elements, then try selecting **Add connection** from that menu to
 
 #### Sketch mode
 
-If you're building your map by hand, you should definitely give sketch mode a try! Click the green <i class="fa fa-plus"></i> button and select **Sketch** to activated sketch mode.
+If you're building your map by hand, you should definitely give sketch mode a try! Click the green  button and select **Sketch** to activated sketch mode.
 
 Once sketch mode is activated, you can add an element by clicking anywhere on the map, and you can add a connection by clicking and dragging from an existing element.
 
@@ -116,13 +116,13 @@ For this walkthrough, fill out the Type field for each of your elements—try to
 
 ### Create your first decoration
 
-Click the Settings icon <i class="fa fa-sliders"></i> on the right side of the map to open up the Basic Editor. You'll see the three most popular settings listed, allowing you to size or color elements by a field, or connect your elements by shared values (we'll cover that third option a bit later).
+Click the Settings icon  on the right side of the map to open up the Basic Editor. You'll see the three most popular settings listed, allowing you to size or color elements by a field, or connect your elements by shared values (we'll cover that third option a bit later).
 
 <img src="/images/overview-basic-editor.png" class="plain" style="width: 600px;">
 
-If you have filled out the Type field for your elements, try selecting **Element Type** from the dropdown menu next to **Color by**. Kumu will automatically color-code all of your elements by Type, and you can click the expand icon <i class="fa fa-angle-down"></i> to choose a different color scale.
+If you have filled out the Type field for your elements, try selecting **Element Type** from the dropdown menu next to **Color by**. Kumu will automatically color-code all of your elements by Type, and you can click the expand icon  to choose a different color scale.
 
-Your first decoration is complete! If you like what you see, click **SAVE** at the bottom of the Basic Editor, and click the Settings icon <i class="fa fa-sliders"></i> again (or press `T` on your keyboard) to return to your map.
+Your first decoration is complete! If you like what you see, click **SAVE** at the bottom of the Basic Editor, and click the Settings icon  again (or press `T` on your keyboard) to return to your map.
 
 When you're ready to add more customized, detailed decorations, take a look at our [decorations guide](/guides/decorate.md).
 
@@ -144,7 +144,7 @@ Filters make it easy to show and hide elements, connections or loops based on da
 
 <img src="/images/overview-filter.png" class="plain">
 
-If you're filtering by element or connection type, simply un-check the types you want to hide. To filter using other fields, use the **Also include** and **But ignore** tools. Click the rocketship icon <i class="fa fa-rocket"></i> in each of those tools to select what you want to hide or make visible.
+If you're filtering by element or connection type, simply un-check the types you want to hide. To filter using other fields, use the **Also include** and **But ignore** tools. Click the rocketship icon  in each of those tools to select what you want to hide or make visible.
 
 {% hint style="info" %}
   If you've hidden certain elements and connections using the Type checkboxes above, you can use the <b>Also include</b> tool to bring things back into view. But, you first have to un-check some of the boxes above, or this tool will have no effect.
@@ -163,7 +163,7 @@ Once focus is activated, everything except your selected items will be hidden fr
 
 ![focus animation](../images/focus.gif)
 
-If you'd like to clear your focus and bring back the full map, click the focus icon on the right (underneath the Settings icon <i class="fa fa-sliders"></i>) and select **Clear**.
+If you'd like to clear your focus and bring back the full map, click the focus icon on the right (underneath the Settings icon ) and select **Clear**.
 
 {% hint style="info" %}
 To extend focus to a specific degree, use the numbers <code>0-9</code> on your keyboard. To quickly clear your focus, press the <code>esc</code> key.
@@ -182,7 +182,7 @@ Experiment with showcase by opening the Basic Editor, clicking **MORE OPTIONS**,
 
 ![Showcase basic editor](/images/overview-showcase.png)
 
-Click the rocketship icon <i class="fa fa-rocket"></i> to build the selection of items that you want to showcase.
+Click the rocketship icon  to build the selection of items that you want to showcase.
 
 
 ### Cluster

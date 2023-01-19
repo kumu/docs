@@ -1,6 +1,6 @@
 # How do I hide the settings button?
 
-When you're building a map, it's usually helpful to have the settings button <i class="fa fa-sliders"></i> close by, so you can access the [view editors](/overview/view-editors.md). But, when you're showing a map to your audience, you'll most likely want to hide it, so that they don't get confused by all of Kumu's features and options.
+When you're building a map, it's usually helpful to have the settings button  close by, so you can access the [view editors](/overview/view-editors.md). But, when you're showing a map to your audience, you'll most likely want to hide it, so that they don't get confused by all of Kumu's features and options.
 
 To hide the settings button, you can use [controls](/guides/controls.md). Specifically, you can copy/paste this snippet of code into your [Advanced Editor](/overview/view-editors.md#advanced-editor), right at the top:
 

@@ -33,7 +33,7 @@ If you **cluster** these people by their organizations, you can start to get a b
 
 ## Cluster in the Basic Editor
 
-To set up your first cluster, click the Settings icon <i class="fa fa-sliders"></i> on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
+To set up your first cluster, click the Settings icon  on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
 
 **If your elements are people, cluster by...**
 * Tags
@@ -143,11 +143,11 @@ But, if you set the element types to "Skill" for both clustering rules, Kumu wil
 
 ## Limiting which fields can be clustered
 
-If you'd like to hide certain fields from your Cluster Settings dropdown menus, you can click on an element, click on the downward arrow <i class="fa fa-angle-down"></i> next to the field name, and use the field settings to disable clustering:
+If you'd like to hide certain fields from your Cluster Settings dropdown menus, you can click on an element, click on the downward arrow  next to the field name, and use the field settings to disable clustering:
 
 ![clustering menu](/images/clustering-menu.jpg)
 
-If you want to disable clustering on any of the core fields (label, description, tags, or type), you can click the menu icon <i class="fa fa-bars"></i>, click **FIELDS**, select the field you want to disable, and un-check the clustering box in the Advanced Settings:
+If you want to disable clustering on any of the core fields (label, description, tags, or type), you can click the menu icon , click **FIELDS**, select the field you want to disable, and un-check the clustering box in the Advanced Settings:
 
 ![advanced settings clustering menu](/images/clustering-menu-advanced.png)
 

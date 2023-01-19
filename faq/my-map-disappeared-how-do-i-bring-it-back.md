@@ -32,7 +32,7 @@ On rare occasions, elements in one map might disappear because elements on a geo
 
 If all else fails, it's possible that the data may have (accidentally) been deleted from the map. That's not an immediate cause for concern—before data is _really_ deleted from your project, it goes to the project's trash.
 
-To check the trash, click the menu icon <i class="fa fa-bars"></i> in the top left corner of the screen, then select **Trash** from the sidebar. If the Trash panel shows that there is data in the trash, send an email to [support@kumu.io](mailto:support@kumu.io), and we can help you get that data out of the trash and back into the map.
+To check the trash, click the menu icon  in the top left corner of the screen, then select **Trash** from the sidebar. If the Trash panel shows that there is data in the trash, send an email to [support@kumu.io](mailto:support@kumu.io), and we can help you get that data out of the trash and back into the map.
 
 
 

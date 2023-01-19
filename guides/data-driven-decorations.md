@@ -62,7 +62,7 @@ After you fill out data in the profiles, you can use the [Basic Editor](/overvie
 
 ## Decorate in the Basic Editor
 
-To open the Basic Editor, open your map and click the Settings icon <i class="fa fa-sliders"></i> on the right side of the map.
+To open the Basic Editor, open your map and click the Settings icon  on the right side of the map.
 
 ![basic editor](/images/overview-basic-editor.png)
 
@@ -74,7 +74,7 @@ You'll see four of Kumu's most commonly used view settings, and the first two—
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/ej9IONabGH8" frameborder="0" allowfullscreen></iframe></p>
 
-Don't like the default sizes? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Size by** dropdown to fine-tune your sizing options.
+Don't like the default sizes? Click the expand icon  next to the **Size by** dropdown to fine-tune your sizing options.
 
 In this example, we sized people by the number of views they received on their videos of the ALS ice bucket challenge:
 
@@ -93,7 +93,7 @@ Note that if you don't have any fields with numbers, the **Size by** dropdown me
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/a0FgR7gXFVk" frameborder="0" allowfullscreen></iframe></p>
 
-Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
+Don't like the default colors? Click the expand icon  next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
 
 ![bujumbra color by](/images/color-by-element-type-bujumbra.png)
 
@@ -146,7 +146,7 @@ After you have built your selection, feel free to play with all the decoration o
 
 ![Element decoration options](/images/element-decorations.png)
 
-Click the **Done** button to apply your decoration, and if you don't like the way it looks, just find the decoration rule in the [existing decorations](/overview/view-editors.md#existing-decorations) section of the Basic Editor, and click the pencil icon <i class="fa fa-pencil"></i> to edit it.
+Click the **Done** button to apply your decoration, and if you don't like the way it looks, just find the decoration rule in the [existing decorations](/overview/view-editors.md#existing-decorations) section of the Basic Editor, and click the pencil icon  to edit it.
 
 ![Existing decorations](/images/basic-editor-existing-decorations.png)
 
