@@ -2,7 +2,7 @@
 
 When you're working with a map that displays labels for elements, connections, or loops, Kumu will only display the text in the Label [field](/guides/fields.md) by default. If you want to include other fields in the label, **label templates** can help you do that.
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/tqF5xJ9MfZo" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/tqF5xJ9MfZo" %}
 
 Label templates are customized through the Advanced Editor, using a simple syntax.
 

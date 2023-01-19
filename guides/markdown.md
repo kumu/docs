@@ -55,7 +55,7 @@ Looks like:
 
 We also support linking to elements, connections and loops (even other maps in your account).
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/iORN_mRpkMI" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/iORN_mRpkMI" %}
 
 You can use the following syntax:
 

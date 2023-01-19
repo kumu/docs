@@ -6,7 +6,7 @@ System maps, network maps, stakeholder/actor maps, community and asset maps, min
 
 In this guide, we'll explain each of the building blocks that make up Kumu's architecture. Take 10 minutes to read through and learn the difference between each building block—it will be really helpful in the long run!
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/VzNdrLLlJIU" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/VzNdrLLlJIU" %}
 
 #### Jump to a section
 - [Elements, connections, and loops](#elements-connections-and-loops)

@@ -111,7 +111,7 @@ To detect loops, follow these steps:
 3. Click "detect loops automatically".
 4. A menu will pop up on the left side of your map with the detected loops. 
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/-jiUmyiPhLk" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/-jiUmyiPhLk" %}
  
 **Some things to note: **
 - Loops are ranked from shortest (least amount of elements) to longest (most elements).  

@@ -15,7 +15,7 @@ You can also check out some of the Kumu team's thoughts on the system mapping pr
 
 Kumu comes with several pre-built templates that help you hit the ground running. When you're creating a new system map, you'll be prompted to pick one of these templates—we suggest you start with our system template.
 
-<iframe src="//player.vimeo.com/video/120851694" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="//player.vimeo.com/video/120851694" %}
 
 ## Build your map by hand
 

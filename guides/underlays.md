@@ -6,7 +6,7 @@
 - [Radars](#add-a-radar)
 - [Background images](#add-a-background-image)
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2dmzQ-2rIrQ" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/2dmzQ-2rIrQ" %}
 
 
 ## Add a grid

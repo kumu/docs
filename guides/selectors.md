@@ -26,7 +26,7 @@ Think of selectors as a super-powered mouse & keyboard—they allow you to click
 
 Check out the overview video below to learn the basics of selectors, then read through the rest of this guide for detailed instructions.
 
-<iframe src="https://player.vimeo.com/video/171843678" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="https://player.vimeo.com/video/171843678" %}
 
 
 ## Where can I use selectors?
@@ -304,7 +304,7 @@ Traversals allow you to select elements based on the structure of your map. For 
 - Which other elements they are connected to or from
 - The information stored in connection's profiles (including connection direction)
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/tw7Q-Kuzo8g" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/tw7Q-Kuzo8g" %}
 
 The basic syntax is `selector arrow selector`. You'll replace the first and last `selector` with any valid selector (including another traversal), and you'll replace `arrow` with one of the following options:
 

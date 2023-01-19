@@ -19,7 +19,7 @@ Systems maps help you make sense of complex issues by visualizing the underlying
 
 By default, the systems template changes the style of opposite connections from "solid" to "dashed", and adds a legend entry called "Opposite" (follow [this guide](/faq/how-do-i-remove-opposite.md) to learn how to take that away).
 
-<iframe src="//player.vimeo.com/video/120851694" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="//player.vimeo.com/video/120851694" %}
 
 ## Causal loop template
 This is a simplified version of our systems template, which draws each factor as text-only instead of including a shape. Great for capturing the basic structure of a system, or to create a mind map. 
@@ -29,7 +29,7 @@ Stakeholder maps help you explore the people, projects, groups and organizations
 
 The stakeholder template has two default Element Types in the legend, namely "Person" and "Organization" (learn how to delete these from your legend [here](/guides/legends.md#removing-legend-entries)). 
 
-<iframe src="//player.vimeo.com/video/120964653" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="//player.vimeo.com/video/120964653" %}
 
 ## Big Data Template
 The big data template is tuned for performance with datasets of greater than a few thousand elements or connections. You won't have access to all the decorations in other templates, but you'll be able to support much larger maps. The big data template uses the dark layout by default (visit the [default view settings](/guides/default-view-settings.md) to change that under "Themes"). 
@@ -37,7 +37,7 @@ The big data template is tuned for performance with datasets of greater than a f
 The big data template is great for large networks, Social Network Analysis (SNA), network science, or Graph Theory. 
 
 _Note: the big data template was formerly known as the SNA (Social Network Analyis) template_
-<iframe src="//player.vimeo.com/video/120999753" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="//player.vimeo.com/video/120999753" %}
 
 ## Stock and Flow Template
 The stock and flow diagram is a common tool in system dynamics. These diagrams contain "stocks" which are quantities of a certain factor, and "flows" which describe changes in stock quantities over time. The stock and flow template uses a manual layout, meaning that you can drag and drop the elements to any place on the map. 

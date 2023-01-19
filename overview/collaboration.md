@@ -72,7 +72,7 @@ If there are multiple conflicts, you'll be taken through each conflict one by on
 
 Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You can create a new presentation and edit existing presentations by clicking the menu icon  in the upper left of your map, then clicking **PRESENTATIONS**. For more info on the power of presentations, watch the video below, or [check out our full guide on presentations](/guides/presentations.md)
 
-<iframe src="https://player.vimeo.com/video/118975099" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="https://player.vimeo.com/video/118975099" %}
 
 
 ## Create a share/embed link
@@ -87,7 +87,7 @@ If you need to share a static screenshot of your map (for example, in another pr
 #### PNG
 To quickly snap a PNG screenshot of your map, click on the export icon in the bottom-right corner of your project and select "Export to PNG". Note that the screenshot will be taken at your current position and scale on the map—if you'd like everything to be centered, click the zoom-fit icon <i  class="glyphicon glyphicon-resize-small">  </i> in the zoom toolbar, or press `\` on your keyboard.
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/66dz3DFJZi4" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/66dz3DFJZi4" %}
 
 When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
 

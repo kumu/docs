@@ -27,7 +27,7 @@ The ChangeLabs blueprint includes the following maps:
 
 Watch the intro video for Week 1:
 
-<iframe src="https://player.vimeo.com/video/123519426" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="https://player.vimeo.com/video/123519426" %}
 
 ### Driving dynamics
 
@@ -151,7 +151,7 @@ As you are connecting each of the phenomena, mark whether the connections are "s
 
 Watch the intro video for Week 3:
 
-<iframe src="https://player.vimeo.com/video/125299609" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="https://player.vimeo.com/video/125299609" %}
 
 ### Getting at the driving dynamics
 

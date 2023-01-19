@@ -16,7 +16,7 @@ To use widgets, start editing the Map Overview, or the Description of an element
 
 ## Create lists of elements, connections, loops, or field values
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/4m_f4Mu03nI" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/4m_f4Mu03nI" %}
 
 The list widget allows you to create lists of elements, connections, and loops inside the Map Overview or a Description.
 

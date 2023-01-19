@@ -6,7 +6,7 @@ Before you start: <a class="alert-link" href="/guides/blueprints.md#project-back
 
 Whether you want to import an entirely new dataset or just clear out some old elements and connections, you'll need to know how to delete data (elements, connections, loops) from your project.
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2fHS2DzPDMU" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/2fHS2DzPDMU" %}
 
 Here's basic step-by-step:
 

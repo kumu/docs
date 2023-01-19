@@ -24,7 +24,7 @@ PDFs can only be created for regular maps, not for geo templates or full <a clas
 ## Export to PNG: create a screenshot
 To quickly snap a screenshot of your map, click the download icon in the bottom right corner, and select "Export to PNG". Note that the screenshot will be taken at your current position and scale on the map—if you'd like everything to be centered, click the zoom-fit icon <i  class="glyphicon glyphicon-resize-small">  </i> in the zoom toolbar, or press `\` on your keyboard.
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/66dz3DFJZi4" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/66dz3DFJZi4" %}
 
 When Kumu brings up your screenshot, you can right-click the image and select "Save image as..." to save the image to your computer.
 

@@ -4,7 +4,7 @@ There are two types of Kumu accounts that you can own: **personal** accounts and
 
 This guide will explain the differences between these three options—if you're not sure which is the right choice for you, you're in the right place!
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Tr2V2mGT550" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/Tr2V2mGT550" %}
 
 
 ## Personal accounts

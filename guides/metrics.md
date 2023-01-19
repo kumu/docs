@@ -13,7 +13,7 @@ Kumu has a powerful metrics engine which includes a number of popular social net
 - To rerun metrics (for example, if you added new elements and connections), just follow the same steps again.
 - Metrics will not be calculated for elements that are filtered out of the map.
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1o0AraW1MbM" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/1o0AraW1MbM" %}
 
 ## SNA metrics
 You can run the following metrics in Kumu:
@@ -84,7 +84,7 @@ You can choose any numerical field for the weighting, but make sure you have val
 
 By default, all metrics are saved to a field with the name of the metric (betweenness calculations are saved to the "betweenness" field). Each time you run the metric the previous values are overwritten. If you'd like to keep the previous values, rename the field (maybe it's "2014 betweeness" or "betweeness before") so that future saves don't overwrite the values.
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/YZuJheC3zNc" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/YZuJheC3zNc" %}
 
 **Using metrics for a social network analysis?** Don't miss our [SNA / Network Mapping guide](sna-network-mapping.md).
 

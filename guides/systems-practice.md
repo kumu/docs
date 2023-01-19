@@ -31,7 +31,7 @@ If you'd like to collaborate on your map with other team members, open your map 
 ## Building your first loop
 
 Watch this video for an overview on how to build your first loop in Kumu:
-<iframe src="https://player.vimeo.com/video/201363477" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="https://player.vimeo.com/video/201363477" %}
 
 #### The green  button
 

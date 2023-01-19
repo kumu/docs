@@ -2,7 +2,7 @@
 
 Every element, connection and loop has a **profile** that you can use to add narrative and any data that is important for you to track.
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Nsu1vXD_v0s" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/Nsu1vXD_v0s" %}
 
 By using [views](/guides/views.md) you can bring any of the information in the profile to life through [decorations](/guides/decorate.md), [filters](/guides/filter.md), [geo maps](/guides/templates/geo.md), and more. We'll look at each of the parts of the profile one by one:
 

@@ -65,7 +65,7 @@ Wave-2 | Pipeline | Double overhead
 Wave-3 | Sunset Beach | Head high
 Wave-4 | Pua'ena Point | Head high
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/hoEJ-FXkbnA" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/hoEJ-FXkbnA" %}
 
 In the earlier example, before we added ID, Kumu was creating two elements with the label `Pipeline`. One of those elements had the type `Head high`, and the other had the type `Double overhead`. But now that we're using ID, Kumu understands that those are the same element with the ID `Wave-2`.
 

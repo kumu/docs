@@ -83,7 +83,7 @@ Field prompt is managed by clicking "more" and then "settings" in the dropdown. 
 - **Autocomplete** - Use when you'd like a tag-like interface for prompting values that match the current input
 - **List** - Use when you want to pick from a list of defined values
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Y-HZbKc3VRs" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/Y-HZbKc3VRs" %}
 
 ### Field category
 By default, all fields are ordered alphabetically based on the name of the field. You can also group fields by assigning them a category. For example, you may want to have all financial information (FY 2012 Investment, FY 2013 Investment and Cumulative Investment) under the category "Financials". You can create multiple categories and each will be ordered alphabetically.

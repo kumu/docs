@@ -16,5 +16,5 @@ Kumu is more than just a tool. It's also a robust community of do-ers who are pa
 
 ## This is Kumu
 
-<iframe src="https://player.vimeo.com/video/135341213" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="https://player.vimeo.com/video/135341213" %}
 

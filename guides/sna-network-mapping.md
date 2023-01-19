@@ -125,7 +125,7 @@ Map overviews can be added to the [side panel of the map editor](/overview/map-e
 
 If you have a lot of information to give to your readers, or many different views of your map that you want them to see, try [creating a presentation](/guides/presentations.md). Presentations in Kumu can seamlessly walk readers through different sections or views of your network, slide by slide.
 
-<iframe src="https://player.vimeo.com/video/118975099" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% embed url="https://player.vimeo.com/video/118975099" %}
 <br>
 For more information on sharing Kumu maps or collaborating with others, [check out the full guide](/overview/collaboration.md).
 

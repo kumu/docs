@@ -4,7 +4,7 @@
 
 **Popovers** allow you to display fields from the profiles when someone hovers over an element, connection, or loop.
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/8BsjL6iXO5g" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/8BsjL6iXO5g" %}
 
 
 <div class="alert alert-warning">

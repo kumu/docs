@@ -76,7 +76,7 @@ When your team is all set up, click on one of your Pro workspace's projects to b
 
 Now that you've mastered the basics of adding users, check out the next sections to learn how to use other features exclusive to Pro workspaces.
 
-<!-- <iframe src="https://player.vimeo.com/video/135484585" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<!-- {% embed url="https://player.vimeo.com/video/135484585" %}
  -->
 
 

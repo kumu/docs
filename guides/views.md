@@ -2,7 +2,7 @@
 
 A [view](/overview/kumus-architecture.md#views) is a collection of decorations, filters, and other settings that change what is visible on your map and how it is styled. You can create any number of views, and a view can apply to multiple maps (a map defines the elements and connections that should be part of a map, and their positions on the map).
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/3zyf7sbgO7I" frameborder="0" allowfullscreen></iframe></p>
+{% embed url="https://www.youtube.com/embed/3zyf7sbgO7I" %}
 
 ## Creating a new view
 Use the navigation at the top of your map and click the view dropdown menu on the right. Click "+ new view" and give the view a name.
