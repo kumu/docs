@@ -1,5 +1,4 @@
 redirects:
-  introduction: /overview/the-essentials.md
   about/five-minute-quickstart: /getting-started/five-minute-quickstart.md
   faq/how-do-I-avoid-duplicates-in-imports: /faq/how-do-I-avoid-duplicating-data.md
   faq/how-do-i-add-images-to-my-elements: /guides/images.md
