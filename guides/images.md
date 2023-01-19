@@ -11,11 +11,11 @@ In Kumu, there are a number of different places where you can use images to enri
 
 ## Add images to elements
 
-If you are [building a map by hand](/getting-started/first-steps.html#build-your-map-by-hand), you can easily upload an image file from your computer directly to Kumu. Just click an item (element, connection, or loop) on your map, click the camera icon in the upper right of the [profile](/guides/profiles.html), and click "select a file" to upload your image.
+If you are [building a map by hand](/getting-started/first-steps.md#build-your-map-by-hand), you can easily upload an image file from your computer directly to Kumu. Just click an item (element, connection, or loop) on your map, click the camera icon in the upper right of the [profile](/guides/profiles.md), and click "select a file" to upload your image.
 
 ![Gif showing how to upload an image to Kumu](/images/upload-image.gif)
 
-You can upload images to descriptions and the map overview as well. To do this, click to edit any text area in the [side panel](/overview/map-editor.html#side-panel), and look for "select a file" below the text area.
+You can upload images to descriptions and the map overview as well. To do this, click to edit any text area in the [side panel](/overview/map-editor.md#side-panel), and look for "select a file" below the text area.
 
 <p class="alert alert-info">
 Note: when you're uploading images, only JPEG, PNG, and GIF files smaller than 5mb are supported at this time.
@@ -24,14 +24,14 @@ Note: when you're uploading images, only JPEG, PNG, and GIF files smaller than 5
 
 #### Importing image(s) through Google Sheets
 
-If you're [importing data with Google Sheets](/guides/import.html), then you'll have to include a URL to an image hosted publicly on the web. First, add an "Image" column in the "Elements" sheet of your Google Sheets file, and then add the public URL for the image that you want to add to each element (e.g. each row). Please note that the URL should lead _directly_ to the image, so you might need to create such a URL first through an image hosting platform. 
+If you're [importing data with Google Sheets](/guides/import.md), then you'll have to include a URL to an image hosted publicly on the web. First, add an "Image" column in the "Elements" sheet of your Google Sheets file, and then add the public URL for the image that you want to add to each element (e.g. each row). Please note that the URL should lead _directly_ to the image, so you might need to create such a URL first through an image hosting platform. 
 
 
 #### Troubleshooting images
 
 Have you uploaded images, but are not seeing images on the map? Here are a few steps you can take to troubleshoot the problem:
 
-- Make sure you're not using the SNA template, which doesn't support images. If you are using that template, you can [switch to a different one](/guides/templates.html#switching-templates).
+- Make sure you're not using the SNA template, which doesn't support images. If you are using that template, you can [switch to a different one](/guides/templates.md#switching-templates).
 - If you're entering image links directly:
   - Make sure your link leads directly to the image, rather than a webpage with the image on it. There are many places where you can host your images, but [this website](https://imgbb.com/) is generally a good place to start. 
   - Make sure your image URL is using a secure connection—that is, the link starts with `https` instead of just `http`
@@ -40,9 +40,9 @@ Have you uploaded images, but are not seeing images on the map? Here are a few s
 
 #### Using decorations to add images
 
-With decorations, you can create rules that add the same image to multiple elements. To do this, [open the element decoration builder](/guides/decorate.html#refine-your-decorations), select which elements the rule will apply to, and check the box next to "Add image". You'll be prompted to add an image URL or upload an image from your computer, and your image will be added to the selected elements.
+With decorations, you can create rules that add the same image to multiple elements. To do this, [open the element decoration builder](/guides/decorate.md#refine-your-decorations), select which elements the rule will apply to, and check the box next to "Add image". You'll be prompted to add an image URL or upload an image from your computer, and your image will be added to the selected elements.
 
-You can also use [advanced decorations](/guides/decorate.html#decorate-in-the-advanced-editor) to add images and tweak their appearance on the map. In a decoration in the Advanced Editor, use the `image-url` property to set the image url for your selection, and use the `image-visibility` property to hide images or make them visible on the map. You can also use the `image-size` property to choose whether images on the map will completely cover their parent elements, or be fully contained inside the parent element.
+You can also use [advanced decorations](/guides/decorate.md#decorate-in-the-advanced-editor) to add images and tweak their appearance on the map. In a decoration in the Advanced Editor, use the `image-url` property to set the image url for your selection, and use the `image-visibility` property to hide images or make them visible on the map. You can also use the `image-size` property to choose whether images on the map will completely cover their parent elements, or be fully contained inside the parent element.
 
 ```prev
 #my-element {
@@ -52,7 +52,7 @@ You can also use [advanced decorations](/guides/decorate.html#decorate-in-the-ad
 }
 ```
 
-Be sure to check out our [property reference](/guides/property-reference.html) for full documentation on properties that can be used in the Advanced Editor.
+Be sure to check out our [property reference](/guides/property-reference.md) for full documentation on properties that can be used in the Advanced Editor.
 
 
 ## Add icons to elements
@@ -61,7 +61,7 @@ Using the Advanced Editor, you can easily bring in any [Font Awesome icon](https
 
 ![elements with icons to show element type](/images/icons.png)
 
-For more guidance, check out [our full guide on icons](/guides/icons.html).
+For more guidance, check out [our full guide on icons](/guides/icons.md).
 
 ## Add a background image
 
@@ -114,7 +114,7 @@ If you need to adjust the position of the image element in the map, you'll need 
 
 
 **Notes:**
-* "background" is the label of the element that will contain the background image in this example, but the label can be anything you want. Just make sure you update the `#background` [selector](/guides/selectors.html) in your code to match your new label.
+* "background" is the label of the element that will contain the background image in this example, but the label can be anything you want. Just make sure you update the `#background` [selector](/guides/selectors.md) in your code to match your new label.
 * `image-resolution` can have values of `auto`, `original`, or any number. The number you include (e.g. `1000`) will adapt the resolution for an image of that width (1000px).
 
 <p class="alert alert-info">

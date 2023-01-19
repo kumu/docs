@@ -90,7 +90,7 @@ When you're finished creating your blueprint, save the file with a `.json` exten
 
 You can create a full backup of your Kumu project at any time, thanks to our JSON blueprint exports. All you need to do is open your project, click the download icon in the lower right corner, and select **Export .json**. The file that downloads to your computer is a full backup of your project, including all data (elements, connections, loops, and data stored in their fields), element positions, views, maps, map overviews, field relevance settings, etc.
 
-The backup will also include anything that is in [your project's Trash](/overview/kumus-architecture.html#trash), so it can be a helpful tool when you need to restore large groups of deleted elements and connections.
+The backup will also include anything that is in [your project's Trash](/overview/kumus-architecture.md#trash), so it can be a helpful tool when you need to restore large groups of deleted elements and connections.
 
 To restore this backup in a brand new project, go to your Kumu dashboard and click the New Project button. Name your project and set it to private or public, and advance to the next screen:
 
@@ -105,9 +105,9 @@ Not seeing the <b>restore backup</b> link on your screen? Make sure you're impor
 
 ### Set a remote blueprint
 
-If you have a blueprint that is regularly receiving new data (for example, from a social network analysis survey), you can tell Kumu to automatically fetch the most up-to-date version each time the page is refreshed, just like a [Google Sheets import](/guides/import.html#integrating-with-google-sheets).
+If you have a blueprint that is regularly receiving new data (for example, from a social network analysis survey), you can tell Kumu to automatically fetch the most up-to-date version each time the page is refreshed, just like a [Google Sheets import](/guides/import.md#integrating-with-google-sheets).
 
-If your blueprint is already hosted online, just open up the [import modal](/guides/import.html) in your browser and paste your JSON's public link into the "Link map to remote JSON" box.
+If your blueprint is already hosted online, just open up the [import modal](/guides/import.md) in your browser and paste your JSON's public link into the "Link map to remote JSON" box.
 
 For this to work, you first need to host your blueprint publicly online, so that Kumu can find it. One option is to use GitHub:
 1. Sign into GitHub (or create an account if you don't have one)

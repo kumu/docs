@@ -19,16 +19,16 @@ If you have admin access to a project, you can take the following actions:
 </p>
 
 <p class="alert alert-danger">
-  Looking to delete a project? Before you start: <a class="alert-link" href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
+  Looking to delete a project? Before you start: <a class="alert-link" href="/guides/blueprints.md#project-backups">Learn how to create a full project backup</a>
 </p>
 
 To take any of these actions, you can:
-1. Right-click on the [canvas](/overview/map-editor.html#canvas)
+1. Right-click on the [canvas](/overview/map-editor.md#canvas)
 2. Select **Project**
 3. Select the action you want to perform
 
 Alternatively, you can:
-1. Open the [project settings menu](/overview/settings.html#project-settings)
+1. Open the [project settings menu](/overview/settings.md#project-settings)
 2. Select **Admin** from the sidebar
 3. Select the action you want to perform
 
@@ -42,7 +42,7 @@ If you are on an annual billing plan, you may also need to go to your billing se
 
 ## Caveats when transferring projects
 
-To transfer a project into a Pro workspace, you first need to be [added as an owner](/guides/pro-workspaces.html#add-users-to-a-pro-workspace) of the Pro workspace (if you created the Pro workspace, you are an owner by default).
+To transfer a project into a Pro workspace, you first need to be [added as an owner](/guides/pro-workspaces.md#add-users-to-a-pro-workspace) of the Pro workspace (if you created the Pro workspace, you are an owner by default).
 
 If you see an "Unable to transfer project" error after trying to transfer a project, here is how you can troubleshoot:
 1. Ensure that the recipient (the workspace you're transferring to) does not have a project with the same name. If they do have a project with the same name, rename one of the projects, and try transferring again.

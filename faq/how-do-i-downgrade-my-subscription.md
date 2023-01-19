@@ -6,13 +6,13 @@ Kumu charges you based on two factors:
 - The number of private projects you have in your workspace
 
 ## Basic Workspace
-If you want to downgrade your Basic Workspace (which includes unlimited public projects), all you need to do is make sure your account has less or no private projects. If you currently have private projects: please click on the Project Settings menu in the top-left corner of your map, and then click on [Admin](/guides/project-admin.html) to take one of these three actions:
+If you want to downgrade your Basic Workspace (which includes unlimited public projects), all you need to do is make sure your account has less or no private projects. If you currently have private projects: please click on the Project Settings menu in the top-left corner of your map, and then click on [Admin](/guides/project-admin.md) to take one of these three actions:
 
 - Convert the private project(s) to public
 - Transfer the private project(s) to another user
 - Delete the private project(s)
 
-_Want to download a backup file of your project before you delete it? Learn how to do that [here](/guides/blueprints.html?q=convert#project-backups)._
+_Want to download a backup file of your project before you delete it? Learn how to do that [here](/guides/blueprints.md?q=convert#project-backups)._
 
 If you are being billed **monthly**, Kumu's billing system will automatically put you on the free plan as soon as you have removed all private projects from your account. If you are being billed **annually**, please take the following steps to downgrade your plan: 
 

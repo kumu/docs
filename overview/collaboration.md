@@ -21,13 +21,13 @@ We love it when you share your work, but we know that it's sometimes necessary t
 
 Both public and private projects can be shared using [presentations](#create-a-presentation) and [share/embed links](#create-a-shareembed-link), and private projects allow you to password-protect your presentations for an added layer of security.
 
-Finally, you can learn more about privacy and security by visiting our [privacy policy](https://kumu.io/privacy) and our [security policy](https://kumu.io/security). And, if your privacy needs are particularly strict (e.g. data needs to be stored in a specific geographic area, or you need to have deeper control over security technology), we recommend checking out the [Enterprise version of Kumu](/overview/accounts-and-plans.html#enterprise-version).
+Finally, you can learn more about privacy and security by visiting our [privacy policy](https://kumu.io/privacy) and our [security policy](https://kumu.io/security). And, if your privacy needs are particularly strict (e.g. data needs to be stored in a specific geographic area, or you need to have deeper control over security technology), we recommend checking out the [Enterprise version of Kumu](/overview/accounts-and-plans.md#enterprise-version).
 
 ## Add a contributor
 
 #### Add a contributor to a Basic workspace project
 
-To add a contributor to a project inside a [Basic workspace](/overview/accounts-and-workspaces.html), you first need to make sure the contributor has their own Kumu account. If they don't have one yet, they can [sign up for free](https://kumu.io/join). Once they have signed up, you can [open your project settings](/overview/settings.md), click on **MEMBERS**, type in the contributor's Kumu username, and click "Add contributor".
+To add a contributor to a project inside a [Basic workspace](/overview/accounts-and-workspaces.md), you first need to make sure the contributor has their own Kumu account. If they don't have one yet, they can [sign up for free](https://kumu.io/join). Once they have signed up, you can [open your project settings](/overview/settings.md), click on **MEMBERS**, type in the contributor's Kumu username, and click "Add contributor".
 
 ![add contributor](/images/add-collaborator.png)
 
@@ -40,7 +40,7 @@ When you're adding a contributor to a project in a Pro workspace, you have a few
 
 For simpler use cases, you can follow exactly the same steps outlined above for adding collaborators to a Basic workspace. After you add someone to a project, you'll be able to choose whether they have view-only, edit, or admin access.
 
-In more complex cases, though, you might want to give somebody a certain level of access to all projects in the Pro workspace. To do that efficiently, you'll invite them as a **member** of your Pro workspace. See [our full guide on Pro workspaces](/guides/pro-workspaces.html) for more info on how to add members and set their access levels for your projects.
+In more complex cases, though, you might want to give somebody a certain level of access to all projects in the Pro workspace. To do that efficiently, you'll invite them as a **member** of your Pro workspace. See [our full guide on Pro workspaces](/guides/pro-workspaces.md) for more info on how to add members and set their access levels for your projects.
 
 
 ## Handle conflicting changes
@@ -97,11 +97,11 @@ If you need a hi-res screenshot that can scale up or down to any size (for examp
 Click the export icon in the bottom-right corner of your project and select "Export to PDF". Fill out any of the layout info for your PDF and click "Export PDF" at the bottom. PDFs are free and unlimited for all projects in all workspaces.
 
 <p class="alert alert-info">
-Want to make sure your labels are readable on your PDF or screenshot? <a class="alert-link" href="/guides/layouts/remove-overlap.html">Learn how to remove label overlap</a>.
+Want to make sure your labels are readable on your PDF or screenshot? <a class="alert-link" href="/guides/layouts/remove-overlap.md">Learn how to remove label overlap</a>.
 </p>
 
 <p class="alert alert-warning">
-PDFs can only be created for maps, not for full <a class="alert-link" href="/guides/presentations.html">presentations</a>.
+PDFs can only be created for maps, not for full <a class="alert-link" href="/guides/presentations.md">presentations</a>.
 </p>
 
 

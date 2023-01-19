@@ -1,8 +1,8 @@
 # @settings reference
 
-In the [Advanced Editor](/overview/view-editors.html#advanced-editor), the `@settings` block can be used to tweak default settings and add all kinds of powerful features to your view.
+In the [Advanced Editor](/overview/view-editors.md#advanced-editor), the `@settings` block can be used to tweak default settings and add all kinds of powerful features to your view.
 
-The `@settings` block supports all decoration properties listed in the [property reference](/guides/property-reference.html), as long as you prefix each property with one of the following:
+The `@settings` block supports all decoration properties listed in the [property reference](/guides/property-reference.md), as long as you prefix each property with one of the following:
 - `*-` if you want to apply the rule to all items
 - `element-` to apply the rule to elements only
 - `connection-` to apply the rule to connections only
@@ -20,7 +20,7 @@ There are just few more things you should know about the valid values listed bel
     </tr>
     <tr>
       <td><code>selector</code></td>
-      <td>Any <a href="/guides/selectors.html">selector</a></td>
+      <td>Any <a href="/guides/selectors.md">selector</a></td>
     </tr>
     <tr>
       <td><code>color</code></td>
@@ -32,7 +32,7 @@ There are just few more things you should know about the valid values listed bel
     </tr>
     <tr>
       <td><code>'field name'</code></td>
-      <td>The name of any of your <a href="/guides/fields.html">fields</a>, wrapped in single or double quotes</td>
+      <td>The name of any of your <a href="/guides/fields.md">fields</a>, wrapped in single or double quotes</td>
     </tr>
     <tr>
       <td><code>element type</code></td>
@@ -78,12 +78,12 @@ All values are unitless.
     },
     {
       "Property": "bridge",
-      "Description": "Activates bridging. See the <a href=\"/guides/bridge.html#bridge-in-the-advanced-editor\">bridge guide</a> for more information.",
+      "Description": "Activates bridging. See the <a href=\"/guides/bridge.md#bridge-in-the-advanced-editor\">bridge guide</a> for more information.",
       "Possible values": ["element-selector"]
     },
     {
       "Property": "cluster",
-      "Description": "Activates clustering. See the <a href=\"/guides/clustering.html#activate-clustering-in-the-advanced-editor\">cluster guide</a> for more information.",
+      "Description": "Activates clustering. See the <a href=\"/guides/clustering.md#activate-clustering-in-the-advanced-editor\">cluster guide</a> for more information.",
       "Possible values": ["'field name'", "element-selector by 'field name'", "element-selector by 'field name' as 'element type'"]
     },
     {
@@ -93,7 +93,7 @@ All values are unitless.
     },
     {
       "Property": "focus",
-      "Description": "Activates focus. See the <a href=\"/guides/focus.html#activate-focus-in-the-advanced-editor\">focus guide</a> for more information.",
+      "Description": "Activates focus. See the <a href=\"/guides/focus.md#activate-focus-in-the-advanced-editor\">focus guide</a> for more information.",
       "Possible values": ["selector out number"]
     },
     {
@@ -118,17 +118,17 @@ All values are unitless.
     },
     {
       "Property": "ignore",
-      "Description": "Ignores a selection. See the <a href=\"/guides/filter.html#filter-in-the-advanced-editor\">filter guide</a> for more information.",
+      "Description": "Ignores a selection. See the <a href=\"/guides/filter.md#filter-in-the-advanced-editor\">filter guide</a> for more information.",
       "Possible values": ["selector"]
     },
     {
       "Property": "ignore-orphans",
-      "Description": "Hides any orphans (elements that have no connections). See the <a href=\"/guides/filter.html#ignore-orphans\">filter guide</a> for more information.",
+      "Description": "Hides any orphans (elements that have no connections). See the <a href=\"/guides/filter.md#ignore-orphans\">filter guide</a> for more information.",
       "Possible values": ["true", "false"]
     },
     {
       "Property": "include",
-      "Description": "Includes a selection. See the <a href=\"/guides/filter.html#filter-in-the-advanced-editor\">filter guide</a> for more information.",
+      "Description": "Includes a selection. See the <a href=\"/guides/filter.md#filter-in-the-advanced-editor\">filter guide</a> for more information.",
       "Possible values": ["selector"]
     },
     {
@@ -238,7 +238,7 @@ All values are unitless.
     },
     {
       "Property": "notification-color",
-      "Description": "Sets the color of asterisks created by <a href=\"/guides/issues.html\">Issues</a>",
+      "Description": "Sets the color of asterisks created by <a href=\"/guides/issues.md\">Issues</a>",
       "Possible values": ["color"]
     },
     {
@@ -323,7 +323,7 @@ All values are unitless.
     },
     {
       "Property": "showcase",
-      "Description": "Activates showcase. See the <a href=\"/guides/showcase.html#customize-showcase-settings-in-the-advanced-editor\">showcase guide</a> for more information.",
+      "Description": "Activates showcase. See the <a href=\"/guides/showcase.md#customize-showcase-settings-in-the-advanced-editor\">showcase guide</a> for more information.",
       "Possible values": ["selector"]
     },
     {

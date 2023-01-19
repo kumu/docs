@@ -1,6 +1,6 @@
 # View Editors
 
-You can edit [views](/overview/kumus-architecture.html#views) with two different editors: the Basic Editor and the Advanced Editor.
+You can edit [views](/overview/kumus-architecture.md#views) with two different editors: the Basic Editor and the Advanced Editor.
 
 The Basic Editor allows you to click through different menus to access many of Kumu's powerful features—decorations, filtering, clustering, layouts, and more. The Advanced Editor allows you to write code in Kumu's CSS-inspired coding language to access all of the same features.
 
@@ -22,12 +22,12 @@ You'll see Kumu's most commonly used view settings.
 
 Don't like the default sizes? Click the expand icon <i class="fa fa-angle-down"></i> next to the **Size by** dropdown to fine-tune your sizing options.
 
-Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it. If you don't have this kind of data available, try using Kumu's [Metrics](/guides/metrics.html) feature to create some!
+Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it. If you don't have this kind of data available, try using Kumu's [Metrics](/guides/metrics.md) feature to create some!
 
-Need more precise control over your sizes? Check out our guide on [refining your decorations](/guides/decorate.html#refine-your-decorations).
+Need more precise control over your sizes? Check out our guide on [refining your decorations](/guides/decorate.md#refine-your-decorations).
 
 <p class="alert alert-warning">
-    Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try <a class="alert-link" href="/guides/fields.html#customize-a-field">changing the field type to "Number"</a>.
+    Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try <a class="alert-link" href="/guides/fields.md#customize-a-field">changing the field type to "Number"</a>.
 </p>
 
 
@@ -39,15 +39,15 @@ Don't like the default colors? Click the expand icon <i class="fa fa-angle-down"
 
 ![bujumbra color by](/images/color-by-element-type-bujumbra.png)
 
-The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](/guides/color-reference.html) to find a scale that will work for your data.
+The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](/guides/color-reference.md) to find a scale that will work for your data.
 
 If you color by a multi-pick field like Tags, Kumu will color code your elements with flags (colored arcs around the outside of your elements). Each flag represents one of the possible values in the multi-pick field.
 
 ![Flags example](/images/flags-with-filter.png)
 
-To learn more about flags, [read the full guide](/guides/flags.html).
+To learn more about flags, [read the full guide](/guides/flags.md).
 
-Need more precise control over your colors? Check out our guide on [refining your decorations](/guides/decorate.html#refine-your-decorations).
+Need more precise control over your colors? Check out our guide on [refining your decorations](/guides/decorate.md#refine-your-decorations).
 
 
 ### Shape by
@@ -56,7 +56,7 @@ Need more precise control over your colors? Check out our guide on [refining you
 
 ![shape by](/images/shape-by-element-type.png)
 
-To learn more about shapes, [read the full guide](/guides/shapes.html).
+To learn more about shapes, [read the full guide](/guides/shapes.md).
 
 
 ### Connect by
@@ -65,7 +65,7 @@ To learn more about shapes, [read the full guide](/guides/shapes.html).
 
 When clustering is activated, Kumu will create new elements to represent each possible value for a field of your choice, and it will draw a connection between your elements and the value(s) in their field.
 
-[Check out our full clustering guide](/guides/clustering.html) to learn more.
+[Check out our full clustering guide](/guides/clustering.md) to learn more.
 
 
 ### Filter
@@ -74,7 +74,7 @@ When clustering is activated, Kumu will create new elements to represent each po
 
 ![filter](../images/overview-filter.png)
 
-[Check out our full filtering guide](/guides/filter.html) to learn more.
+[Check out our full filtering guide](/guides/filter.md) to learn more.
 
 
 ### More Options
@@ -84,11 +84,11 @@ Underneath the four core tools in the Basic Editor, you'll see a **MORE OPTIONS*
 ![More options in the basic editor](/images/basic-editor-more-options.png)
 
 Follow these links below to learn more about any of these individual options:
-* [Customize defaults](/guides/default-view-settings.html)
-* [Decorate elements and connections](/guides/direct-decorations.html#refine-your-decorations)
-* [Filter elements and connections](/guides/filter.html)
-* [Showcase elements and connections](/guides/showcase.html)
-* [Connect elements with similar values](/guides/clustering.html)
+* [Customize defaults](/guides/default-view-settings.md)
+* [Decorate elements and connections](/guides/direct-decorations.md#refine-your-decorations)
+* [Filter elements and connections](/guides/filter.md)
+* [Showcase elements and connections](/guides/showcase.md)
+* [Connect elements with similar values](/guides/clustering.md)
 
 
 ### Existing decorations
@@ -114,7 +114,7 @@ selector {
     property: value;
 }
 ```
-`selector` can be replaced with any valid [selector](/guides/selectors.html), and you can read our [property reference](/guides/property-reference.html) to find documentation on `properties` and their possible `values`. You can also use some standard [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) throughout the Advanced Editor.
+`selector` can be replaced with any valid [selector](/guides/selectors.md), and you can read our [property reference](/guides/property-reference.md) to find documentation on `properties` and their possible `values`. You can also use some standard [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) throughout the Advanced Editor.
 
 ### At-rules
 
@@ -123,19 +123,19 @@ At-rules are pieces of code in the Advanced Editor that look and behave a bit di
 
 #### @controls
 
-`@controls` allow you to customize how people interact with your maps. If you have coded in any `@controls`, they will show up at the top of your Advanced Editor code. To learn more about `@controls`, [read the full guide](/guides/controls.html).
+`@controls` allow you to customize how people interact with your maps. If you have coded in any `@controls`, they will show up at the top of your Advanced Editor code. To learn more about `@controls`, [read the full guide](/guides/controls.md).
 
 #### @import
 
-`@import` rules allow you to import code from one of your project's views to another. To learn more about `@import` rules, [see our full guide](/guides/imported-views.html).
+`@import` rules allow you to import code from one of your project's views to another. To learn more about `@import` rules, [see our full guide](/guides/imported-views.md).
 
 #### @settings
 Unless you have coded in `@controls` or `@import` rules, your Advanced Editor code will have a block of `@settings` code right at the top, where you can adjust default view settings like layout, template, render quality, and more.
 
-[Check out our default view settings guide](/guides/default-view-settings.html#change-default-view-settings-in-the-advanced-editor) to learn more about `@settings`.
+[Check out our default view settings guide](/guides/default-view-settings.md#change-default-view-settings-in-the-advanced-editor) to learn more about `@settings`.
 
 #### @view
-`@view` can be used to define partial views. You can find more info in the [full guide on partial views](/guides/partial-views.html).
+`@view` can be used to define partial views. You can find more info in the [full guide on partial views](/guides/partial-views.md).
 
 ## Saving changes
 

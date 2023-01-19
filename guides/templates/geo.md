@@ -5,7 +5,7 @@ The **geo template** lets you build your visualizations on top of geographic map
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/0WQ0dS5CIGM" frameborder="0" allowfullscreen></iframe></p>
 
 <p class="alert alert-warning">
-In Kumu Enterprise, the geo template will not work out of the box—first, you need to configure geocoding. For more information, <a href="/enterprise/configuration.html#geocoding" class="alert alert-link">see the Configuration guide</a>.
+In Kumu Enterprise, the geo template will not work out of the box—first, you need to configure geocoding. For more information, <a href="/enterprise/configuration.md#geocoding" class="alert alert-link">see the Configuration guide</a>.
 </p>
 
 
@@ -89,6 +89,6 @@ Use `geo-style: dark` for a dark version of the `auto` map.
 - You can use different types of location data to place your elements, even in the same map, as long as all the data is stored in the same field.
 - Screenshots and PDFs are not currently supported for geo.
 - By default, the geo template limits you to squares and straight lines, but if you want to test out the full range of decorations (circles, borders, curved lines, flags, etc.), add `renderer: canvas;` to your `@settings` block.
-- You can use the `scale-max` and `scale-min` properties to adjust the minimum and maximum allowed zoom levels for your readers. [See the settings reference](/guides/settings-reference.html) for more guidance.
+- You can use the `scale-max` and `scale-min` properties to adjust the minimum and maximum allowed zoom levels for your readers. [See the settings reference](/guides/settings-reference.md) for more guidance.
 
 

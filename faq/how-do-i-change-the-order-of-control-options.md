@@ -1,6 +1,6 @@
 # How do I change the order of control options?
 
-After you add a [control](/guides/controls.html) to your map, you might need to rearrange the order of buttons or dropdown options in that control. The best way to accomplish this is to use the `only` option in your control in the Advanced Editor.
+After you add a [control](/guides/controls.md) to your map, you might need to rearrange the order of buttons or dropdown options in that control. The best way to accomplish this is to use the `only` option in your control in the Advanced Editor.
 
 Normally, the `only` option is used to restrict the available options in your control. Imagine we have a "Sector" field with the following values:
 - Finance

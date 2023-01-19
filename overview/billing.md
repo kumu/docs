@@ -1,17 +1,17 @@
 # Billing
 
-At Kumu, we use an automated billing system to accept payments for private projects and [Pro workspace](/guides/pro-workspaces.html) fees. Amounts can be billed on either a monthly or annual basis. If you choose to be billed on an annual basis, you'll receive a 20% discount.
+At Kumu, we use an automated billing system to accept payments for private projects and [Pro workspace](/guides/pro-workspaces.md) fees. Amounts can be billed on either a monthly or annual basis. If you choose to be billed on an annual basis, you'll receive a 20% discount.
 
 We handle all payments with [full PCI-compliance](https://www.pcisecuritystandards.org/) through [Stripe](https://stripe.com/), the industry standard, and you can use any credit card that is [accepted by Stripe](https://stripe.com/payments/payment-methods-guide#cards). We do not store any sensitive billing information on our own servers.
 
 To change the credit card you use with Kumu, you can do the following:
-1. Decide which [workspace](/overview/workspaces.html) you want to add card details to (you can add different credit cards to each of your workspaces, making it easy to separate personal bills and work-related bills).
+1. Decide which [workspace](/overview/workspaces.md) you want to add card details to (you can add different credit cards to each of your workspaces, making it easy to separate personal bills and work-related bills).
 2. [Go to your list of workspaces](https://kumu.io/dashboard#workspaces) and select the workspace from the list
 3. In the Billing section of the workspace's settings, add your credit card details.
 
 Kumu charges you based on two factors:
 
-1. Whether you have a Basic Workspace or a [Pro Workspace](/guides/pro-workspaces.html)
+1. Whether you have a Basic Workspace or a [Pro Workspace](/guides/pro-workspaces.md)
 2. The number of private projects you have in your workspace
 
 #### Monthly billing
@@ -22,7 +22,7 @@ To add more private projects to a monthly Basic or Pro workspace, you can [creat
 
 ![New private project](/images/new-private-project.png)
 
-To remove private projects from the monthly bill in a Basic workspace, you can use the [project admin menu](/guides/project-admin.html) to delete the project, transfer it, or make it public. In a Pro workspace, you can do the same, but you also have the option to [archive](/guides/archiving-projects.html) the project.
+To remove private projects from the monthly bill in a Basic workspace, you can use the [project admin menu](/guides/project-admin.md) to delete the project, transfer it, or make it public. In a Pro workspace, you can do the same, but you also have the option to [archive](/guides/archiving-projects.md) the project.
 
 When your bill is increased or decreased during a billing cycle, Kumu's billing system automatically **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill.
 
@@ -54,7 +54,7 @@ When you increase your private project limit on an annual plan, a prorated charg
 
 #### Enterprise billing
 
-If you're using the [Enterprise version of Kumu](/overview/kumu-io-and-kumu-enterprise.html), you'll be billed according to how many users you have, instead of how many projects you have. Enterprise customers are billed annually, and seats are sold in packs of 5 users.
+If you're using the [Enterprise version of Kumu](/overview/kumu-io-and-kumu-enterprise.md), you'll be billed according to how many users you have, instead of how many projects you have. Enterprise customers are billed annually, and seats are sold in packs of 5 users.
 
 ## Free trials
 
@@ -67,7 +67,7 @@ If you haven't added a credit card before the free trial ends, your private proj
 
 Our billing system automatically sends a receipt to the email on file each time a payment is made. From time to time, these receipts might get sent to your email's spam folder—if you don't see a receipt, be sure to check there first.
 
-For a personal account, if you want to change the email that receipts are sent to, you can go to the [profile section of your account settings](https://kumu.io/settings#profile). To do this for an organization, you can go to your [organization's dashboard](/overview/dashboard.html#organization-dashboard) and scroll down to profile section.
+For a personal account, if you want to change the email that receipts are sent to, you can go to the [profile section of your account settings](https://kumu.io/settings#profile). To do this for an organization, you can go to your [organization's dashboard](/overview/dashboard.md#organization-dashboard) and scroll down to profile section.
 
 
 ## Paying by invoice
@@ -85,7 +85,7 @@ Kumu charges you based on two factors:
 1. Whether you have a Basic Workspace or a Pro Workspace
 2. The number of private projects you have in your workspace
 
-You can downgrade or cancel your plan at any moment. Follow [this guide](/faq/how-do-i-downgrade-to-free.html) to learn how to do this in your account. 
+You can downgrade or cancel your plan at any moment. Follow [this guide](/faq/how-do-i-downgrade-to-free.md) to learn how to do this in your account. 
 
 _Note: When your bill is increased or decreased during a billing cycle, Kumu's billing system automatically **prorates** the final charge based on the amount of time left in your cycle, and incorporates the proration into the next bill._
 

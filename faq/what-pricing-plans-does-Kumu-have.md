@@ -2,7 +2,7 @@
 
 Kumu charges you based on two factors:
 
-1. Whether you have a Basic workspace or a [Pro workspace](/guides/pro-workspaces.html)
+1. Whether you have a Basic workspace or a [Pro workspace](/guides/pro-workspaces.md)
 2. The number of _private_ projects you have in your workspace
 
 ## Which workspace should I choose? 
@@ -12,7 +12,7 @@ If you click on the Workspaces tab in your Dashboard, you can see all the worksp
 #### Basic workspace
 
 The Basic workspace is the default workspace that you get when you open an account. The Basic workspace is free and has all basic features to use Kumu.
-Within a Basic workspace you can have both public or private projects. Learn about the difference between public and private projects in [this guide](/overview/collaboration.html#public-vs-private-projects).
+Within a Basic workspace you can have both public or private projects. Learn about the difference between public and private projects in [this guide](/overview/collaboration.md#public-vs-private-projects).
 
 Public projects are always free and unlimited. Private projects on the Basic workspace are **$9 per private project per month** (or $86.40 per private project per year).
 
@@ -33,10 +33,10 @@ Pro workspaces have a **flat fee of $10 per month** (or $96 per year), which inc
 
 Private projects in a Pro workspace are **$20 per private project per month** (or $192 per private project per year). 
 
-Learn more about how to set up and use the Pro workspace in [this guide](/guides/pro-workspaces.html)
+Learn more about how to set up and use the Pro workspace in [this guide](/guides/pro-workspaces.md)
 
 <p class="alert alert-info">
-  Note that you can downgrade your subscription at any time. Click <a class="alert-link" href="/faq/how-do-i-downgrade-to-free.html">here</a> to find out how to do this.
+  Note that you can downgrade your subscription at any time. Click <a class="alert-link" href="/faq/how-do-i-downgrade-to-free.md">here</a> to find out how to do this.
 </p>
 
 
@@ -110,7 +110,7 @@ Learn more about how to set up and use the Pro workspace in [this guide](/guides
 </table>
 
 <p class="alert alert-info">
-  Note that you can pay montly or annually. If you choose the annual plan, you get a 20% discount included in the final price. Click <a class="alert-link" href="/overview/billing.html">here</a> for more information.
+  Note that you can pay montly or annually. If you choose the annual plan, you get a 20% discount included in the final price. Click <a class="alert-link" href="/overview/billing.md">here</a> for more information.
 </p>
 
 ## Enterprise

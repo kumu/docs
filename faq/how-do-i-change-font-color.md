@@ -17,7 +17,7 @@ To change the color of all text in your map, use the following steps:
 *Note that changing the default font color of your map also changes the font color of your legend.*
 
 ## Change font color with Direct Decorations
-[Direct Decorations](/guides/direct-decorations.html) are best used when wanting to change the font color of only one or a few elements in your map.
+[Direct Decorations](/guides/direct-decorations.md) are best used when wanting to change the font color of only one or a few elements in your map.
 To do so: hover over the element or connection whose font color you'd like to change so the edit pencil shows up. Click on the Pencil and then Click on the Text icon to change its color there. 
 
 ![Direct Decorations Font Color](/images/dir-dec-font-color.png)
@@ -41,4 +41,4 @@ element {
 }
 ```
 
-Note that the code snippet above will only change the font size for elements, but will leave connections and loops at the default font size. For more information on how to change the `element` selector to something even more specific (for example, just the elements whose Element Type is "Organization"), see [our full guide on selectors](/guides/selectors.html).
+Note that the code snippet above will only change the font size for elements, but will leave connections and loops at the default font size. For more information on how to change the `element` selector to something even more specific (for example, just the elements whose Element Type is "Organization"), see [our full guide on selectors](/guides/selectors.md).

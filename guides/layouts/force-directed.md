@@ -8,7 +8,7 @@ With the force-directed layout, Kumu positions everything automatically based pr
 The force-directed layout also allows you to override any element's position by pinning it in place. After you pin an element, it will stay where you left it and won't be affected by any of the usual forces.
 
 <p class="alert alert-info">
-  The <a href="/guides/templates.html#stakeholder-template">stakeholder template</a> and <a href="/guides/templates.html#sna-social-network-analysis-template">SNA template</a> use the force-directed layout by default.
+  The <a href="/guides/templates.md#stakeholder-template">stakeholder template</a> and <a href="/guides/templates.md#sna-social-network-analysis-template">SNA template</a> use the force-directed layout by default.
 </p>
 
 We've picked default strengths for each of these forces in order to create comfortable layouts for most maps, but if things are looking a little off, you can customize the layout forces in two different ways.
@@ -27,7 +27,7 @@ To do that, click the Settings icon <i class="fa fa-sliders"></i> to open the Ba
 
 ## Change the forces' underlying strengths
 
-If none of the layout presets look good for your map, you can use the [Advanced Editor](/overview/view-editors.html#advanced-editor) to fine-tune the forces' underlying strengths. Here's some sample code to get you started:
+If none of the layout presets look good for your map, you can use the [Advanced Editor](/overview/view-editors.md#advanced-editor) to fine-tune the forces' underlying strengths. Here's some sample code to get you started:
 
 ```
 @settings {

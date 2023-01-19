@@ -9,7 +9,7 @@ Shapes are are a useful visual tool when you need to differentiate between diffe
 
 ## Assigning shapes manually
 
-If you just need to assign shapes to a handful of elements, we recommend using the [direct decoration toolbar](/guides/direct-decorations.html). Hover over any element, then click the Size/Shape icon <i class="fa fa-arrows-alt">  </i>, and pick a shape from the dropdown.
+If you just need to assign shapes to a handful of elements, we recommend using the [direct decoration toolbar](/guides/direct-decorations.md). Hover over any element, then click the Size/Shape icon <i class="fa fa-arrows-alt">  </i>, and pick a shape from the dropdown.
 
 ![shapes direct decoration](/images/shapes-direct-decoration.png)
 
@@ -17,7 +17,7 @@ If you just need to assign shapes to a handful of elements, we recommend using t
 ## Assigning shapes to specific selections
 
 To assign a shape to a specific selection of elements, use the **element decoration builder**.
-1. Open the [Basic Editor](/overview/view-editors.html#basic-editor)
+1. Open the [Basic Editor](/overview/view-editors.md#basic-editor)
 2. Click **More Options**, then **Decorate elements**
 3. Check the **Add shape** box, and pick a shape
 4. If you'd like to add your shape decoration to the legend, fill in the **Legend** box
@@ -46,7 +46,7 @@ element {
 }
 ```
 
-You can replace `element` with any element [selector](/guides/selectors.html), and `circle` with any valid shape:
+You can replace `element` with any element [selector](/guides/selectors.md), and `circle` with any valid shape:
 - `circle`
 - `triangle`
 - `square`
@@ -114,7 +114,7 @@ Finally, if you'd like your categorized shapes to be automatically added to the 
 
 <div class="alert alert-warning">
   <p>
-    By default, the <a href="/guides/templates/geo.html" class="alert-link">geo template</a> limits you to squares and straight lines, but if you want it to support all shapes, add <code>@settings { renderer: canvas; }</code> to your Advanced Editor.
+    By default, the <a href="/guides/templates/geo.md" class="alert-link">geo template</a> limits you to squares and straight lines, but if you want it to support all shapes, add <code>@settings { renderer: canvas; }</code> to your Advanced Editor.
   </p>
 </div>
 

@@ -35,7 +35,7 @@ With your account, you also get a **Basic workspace**. In Kumu, workspaces are l
 
 If you have projects that multiple people need to collaborate on, you can create a **Pro workspace** (or upgrade your initial Basic workspace to Pro), and invite your collaborators to join the workspace.
 
-For more info on the differences between accounts and workspaces, be sure to check out our [pricing page](https://kumu.io/pricing) and [our full guide on workspaces](/overview/accounts-and-workspaces.html).
+For more info on the differences between accounts and workspaces, be sure to check out our [pricing page](https://kumu.io/pricing) and [our full guide on workspaces](/overview/accounts-and-workspaces.md).
 
 <div class="alert alert-warning">
   <p>
@@ -46,7 +46,7 @@ For more info on the differences between accounts and workspaces, be sure to che
 
 ## Once I have an account, how do I get started with my first project?
 
-Awesome, you’ve signed up for an account! From there, I recommend working through our [First Steps](/getting-started/first-steps.html) guide, which goes through everything you need to know to hit the ground running.
+Awesome, you’ve signed up for an account! From there, I recommend working through our [First Steps](/getting-started/first-steps.md) guide, which goes through everything you need to know to hit the ground running.
 
 
 ## Where can I go to learn more about Kumu?

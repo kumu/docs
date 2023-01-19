@@ -1,6 +1,6 @@
 # How do I edit virtual elements?
 
-[Kumu's clustering feature](/guides/clustering.html) creates new elements and connections in your map and marks them as "Virtual".
+[Kumu's clustering feature](/guides/clustering.md) creates new elements and connections in your map and marks them as "Virtual".
 
 This is a useful way to explicitly indicate which items are part of your permanent dataset and which ones are simply created on the fly by clustering, but one downside is that you can't edit a virtual element or connection directly. In other words, you can't save descriptions, tags, or any other custom profile data for virtual elements and connections.
 
@@ -15,9 +15,9 @@ The imported data will include the elements and connections created by clusterin
 
 ## Showing and hiding the virtual elements after converting to permanent
 
-Unless you [fine-tuned your cluster settings](/guides/clustering.html#fine-tune-cluster-settings), each now-permanent element and connection will have the name of the original field stored as its Type. For example, if you cluster by a "Sector" field to connect organizations by their sector, each Sector element and connection will have the type "Sector".
+Unless you [fine-tuned your cluster settings](/guides/clustering.md#fine-tune-cluster-settings), each now-permanent element and connection will have the name of the original field stored as its Type. For example, if you cluster by a "Sector" field to connect organizations by their sector, each Sector element and connection will have the type "Sector".
 
-Given that information, you can create a [filter control](/guides/controls/filter-control.html) to show and hide the elements and connections. Here is some sample code to get you started:
+Given that information, you can create a [filter control](/guides/controls/filter-control.md) to show and hide the elements and connections. Here is some sample code to get you started:
 
 ```
 @controls {
@@ -38,6 +38,6 @@ Given that information, you can create a [filter control](/guides/controls/filte
 
 In the code above, replace `My Field` with the name of the field you originally connected by (e.g. `Sector`, using the example from before). If you fine-tuned cluster settings, replace `My Field` with the custom Type you assigned instead.
 
-To learn what other settings you can customize in the control, check out [our full guide on controls](/guides/controls.html).
+To learn what other settings you can customize in the control, check out [our full guide on controls](/guides/controls.md).
 
 

@@ -1,8 +1,8 @@
 # Quick actions
 
-Kumu's quick actions menu is your one-stop-shop for useful functions, features, and how-to videos. If you can't quite remember where to find something in Kumu's [user interfaces](/overview/user-interfaces.html), you can use the quick actions menu to search the entire software.
+Kumu's quick actions menu is your one-stop-shop for useful functions, features, and how-to videos. If you can't quite remember where to find something in Kumu's [user interfaces](/overview/user-interfaces.md), you can use the quick actions menu to search the entire software.
 
-To bring up the quick actions menu, click the magic wand <i class="fa fa-magic"></i> on the [bottom toolbar](/overview/map-editor.html#bottom-toolbar) or press `W` on your keyboard. You'll be greeted with a list of helpful options:
+To bring up the quick actions menu, click the magic wand <i class="fa fa-magic"></i> on the [bottom toolbar](/overview/map-editor.md#bottom-toolbar) or press `W` on your keyboard. You'll be greeted with a list of helpful options:
 
 ![quick actions modal](/images/quick-actions.png)
 

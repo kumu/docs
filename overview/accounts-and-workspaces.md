@@ -14,7 +14,7 @@ When you first sign up for a new Kumu account, Kumu automatically creates your f
   </p>
 </div>
 
-Each workspace has a name, and the [slug](/guides/slugs.html) of a workspace's name will appear in all of the URLs for the workspace's projects and presentations. Your default Basic workspace's name will match your account username.
+Each workspace has a name, and the [slug](/guides/slugs.md) of a workspace's name will appear in all of the URLs for the workspace's projects and presentations. Your default Basic workspace's name will match your account username.
 
 
 ## Types of workspaces
@@ -38,7 +38,7 @@ Pro workspaces are also really useful when you're creating Kumu projects for cli
 
 Pro workspaces give you fine-grained access control: give others view, edit, or admin rights to a project. Add members to the organization and group them into teams to assign permissions more efficiently. You'll also be able to see detailed activity feeds, comment on your map in real time, enhance security with two-factor authentication, and much more.
 
-To see the full list of Pro workspace features, check out [our pricing page](https://kumu.io/pricing) and [our full guide on Pro workspaces](/guides/pro-workspaces.html).
+To see the full list of Pro workspace features, check out [our pricing page](https://kumu.io/pricing) and [our full guide on Pro workspaces](/guides/pro-workspaces.md).
 
 
 

@@ -44,7 +44,7 @@ Instead, you should copy/paste you original column headers over, placing them in
 
 At the end, where `KUMU_COLLAPSE` lists the number of duplicate connections and the connection direction, you'll have two blank column headers.
 
-For the number of duplicates, it's most common to put `Strength` as the connection header. For the connection direction, you can put `direction` in all lowercase letters, and when you import the data, Kumu will understand that you are using that column to [add arrows to connections](/faq/how-do-I-add-arrows-to-my-connections.html).
+For the number of duplicates, it's most common to put `Strength` as the connection header. For the connection direction, you can put `direction` in all lowercase letters, and when you import the data, Kumu will understand that you are using that column to [add arrows to connections](/faq/how-do-I-add-arrows-to-my-connections.md).
 
 
 

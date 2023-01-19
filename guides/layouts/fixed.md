@@ -4,7 +4,7 @@ With the fixed layout, you position everything manually. Just click and drag an 
 
 If you're building a fixed map with [Sketch Mode](/getting-started/first-steps.md#sketch-mode), you can hold the `Alt` key on your keyboard, then click and drag elements and connections to move them.
 
-**Good to know:** The [system templates](/guides/templates.html#system-template) are set to a fixed layout by default.
+**Good to know:** The [system templates](/guides/templates.md#system-template) are set to a fixed layout by default.
 
 ## Changing from force-directed to fixed layout:
 

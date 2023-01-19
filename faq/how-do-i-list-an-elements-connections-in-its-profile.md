@@ -1,13 +1,13 @@
 # How do I list an element's connections in its profile?
 
 In the profile of each element in your map, it's possible to list that element's connections, using three tools:
-- Kumu's [list widget](/guides/widgets.html#lists)
-- [`:from` and `:to` pseudo-selectors](/guides/selectors.html#connected-from-and-connected-to)
+- Kumu's [list widget](/guides/widgets.md#lists)
+- [`:from` and `:to` pseudo-selectors](/guides/selectors.md#connected-from-and-connected-to)
 - A field with its **Type** set to **Text** (e.g. the **Description** field)
 
 ![List of element's connections in its profile](/images/list-widget-element-connections.png)
 
-To get started, open one of your element profiles. If you want the connection list to be in a custom field, create that field, and [set its type to **Text**](/guides/fields.html#customize-a-field). Alternatively, you can use the Description field, since its type is Text by default.
+To get started, open one of your element profiles. If you want the connection list to be in a custom field, create that field, and [set its type to **Text**](/guides/fields.md#customize-a-field). Alternatively, you can use the Description field, since its type is Text by default.
 
 In your custom Text field or in the Description field, add the following:
 
@@ -37,7 +37,7 @@ Again, replace `My Element Label` in all of these examples with the actual label
   If your map has multiple elements with the same label, your list widget will list all connections to or from <em>any</em> of the elements with that label. To avoid that, you would need to replace <code>[label = 'My Element Label']</code> with a more specific selector.
 </p>
 <p>
-  <a class="alert-link" href="/guides/selectors.html">Visit the full guide on selectors</a> or <a href="mailto:support@kumu.io">contact support</a> to learn how to write a more specific selector for your use case.
+  <a class="alert-link" href="/guides/selectors.md">Visit the full guide on selectors</a> or <a href="mailto:support@kumu.io">contact support</a> to learn how to write a more specific selector for your use case.
 </p>
 </div>
 
@@ -53,7 +53,7 @@ To get access to the custom formula, you can open our ["With custom Kumu formula
 Delete the example tabs in the Google Sheet, then create a new tab and copy/paste your list of elements into it, starting from cell `A1`. Make sure that **Label** is in Column A, or that you have an **ID** column in the sheet, filled with unique IDs for your elements.
 
 <p class="alert alert-info">
-  If you don't have your list of elements on hand, you can use Kumu to <a class="alert-link" href="/guides/export.html">export it to Excel</a>.
+  If you don't have your list of elements on hand, you can use Kumu to <a class="alert-link" href="/guides/export.md">export it to Excel</a>.
 </p>
 
 In your dataset, start editing the cell directly below the column header for the field where your list of connections should go. For example, if you want to put the connection list in the Description field, and your Descrition field is in Column B of your spreadsheet, start editing cell `B2` underneath the Description column header.
@@ -74,7 +74,7 @@ In that cell, type `=KUMU_LIST_WIDGET_ELEMENT_CONNECTIONS(` to get started.
 
 | Parameter | Description |
 | --- | --- |
-| `element_identifier` | <p>The cell that contains the unique identifier for the element.</p><p>In most projects, this will be the element Label, but <a href="/faq/how-do-I-avoid-duplicating-data.html">you can also use an ID column</a> to identify elements.</p> |
+| `element_identifier` | <p>The cell that contains the unique identifier for the element.</p><p>In most projects, this will be the element Label, but <a href="/faq/how-do-I-avoid-duplicating-data.md">you can also use an ID column</a> to identify elements.</p> |
 | `connection_direction` | Enter `"both"` to list all connections from and to the element. Enter `"from"` to list only the connections from the element, and enter `"to"` to list only the connections to the element. This parameter is not case sensitive. |
 | `identify_by_label` | <p>Enter <code>TRUE</code> if the element's unique identifier is coming from the Label column. Enter <code>FALSE</code> if the element's unique identifier is coming from the ID column.</p><p>If you don't specify this parameter, it defaults to <code>TRUE</code>.</p> |
 

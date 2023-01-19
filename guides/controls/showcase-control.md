@@ -2,7 +2,7 @@
 
 **Use**
 
-Add a control to activate [showcase](/guides/showcase.html) for a given field or set of selectors via a list of labels, buttons or a dropdown menu.
+Add a control to activate [showcase](/guides/showcase.md) for a given field or set of selectors via a list of labels, buttons or a dropdown menu.
 
 **Example**
 
@@ -19,7 +19,7 @@ Showcase by field:
 
 ```
 
-Showcase using custom [selectors](/guides/selectors.html#selectors):
+Showcase using custom [selectors](/guides/selectors.md#selectors):
 
 ```
 @controls {
@@ -66,7 +66,7 @@ Showcase using custom [selectors](/guides/selectors.html#selectors):
 If you want to use custom selectors to build the showcase, you'll need to list each option out separately. The options are defined by `option` blocks nested within the control and each `option` supports the following properties:
 
 * `label` the text to display for that option
-* `selector` the [selector](/guides/selectors.html#selectors) to use for the showcase
+* `selector` the [selector](/guides/selectors.md#selectors) to use for the showcase
 * `default`
   * `true` value is selected by default
   * `false` value is unselected by default

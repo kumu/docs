@@ -8,7 +8,7 @@ If you'd like to **temporarily** stop moving elements in your map, press the `sp
 
 If you'd like to **permanently** stop all elements from moving, you'll want to pin elements in place. Do this by pressing `A` on your keyboard to select all elements, then click the pin icon in the left side panel, or press `P` on your keyboard. This will pin all existing elements in place.
 
-_Please note that you can't pin elements in place if you're importing data from Google Sheets. In that case, you'd have to disconnect your Google Sheet and [import your data with Excel](/guides/import.html#import-from-excel-or-csv)_
+_Please note that you can't pin elements in place if you're importing data from Google Sheets. In that case, you'd have to disconnect your Google Sheet and [import your data with Excel](/guides/import.md#import-from-excel-or-csv)_
 
 ### More layout options
 

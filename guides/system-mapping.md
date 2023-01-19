@@ -106,7 +106,7 @@ A long element label // no line break
 A long  element label // line break betwen "long" and "element"
 ```
 
-Or you can choose to have Kumu enter a line break automatically at a certain number of characters. Visit [this guide](/faq/how-do-i-control-text-wrapping.html) to learn how to do that. 
+Or you can choose to have Kumu enter a line break automatically at a certain number of characters. Visit [this guide](/faq/how-do-i-control-text-wrapping.md) to learn how to do that. 
 
 #### Change colors and sizes
 

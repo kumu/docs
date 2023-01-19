@@ -2,7 +2,7 @@ Yes, there's a few different ways to handle sub-systems inside Kumu. Here's a li
 
 #### Use filtering to show/hide subsystems
 1. Tag each element and connection with the layer it belongs too. For example, you could create a custom field called "Layer", make sure the field's "Limit" setting is set to "One or more", and then add tags like "Layer 1", "Layer 2", etc. (or however you want to name your layers)
-2. [Add a filter control](/guides/controls.html) to filter elements and connections by layer.
+2. [Add a filter control](/guides/controls.md) to filter elements and connections by layer.
 
 That process will allow you to see the entire system at once, if you want, and still allow you to filter down to a very specific layer/sub-system.
 

@@ -15,7 +15,7 @@ Click the focus icon again to bring the full map back into view.
 
 ## Focus in the Advanced Editor
 
-You can pre-define a focus within `@settings` in the [Advanced Editor](/overview/view-editors.html#advanced-editor) of any view.
+You can pre-define a focus within `@settings` in the [Advanced Editor](/overview/view-editors.md#advanced-editor) of any view.
 
 ```
 @settings {

@@ -88,16 +88,16 @@ Controls can be assigned to one of six **regions** on the map:
 
 After you set the region, you can choose what **type of control** you are adding. Here are the available control types:
 
-- `title`: [Title control](controls/title-control.html)
-- `text`: [Text control](controls/text-control.html)
-- `label`: [Label control](controls/label-control.html)
-- `showcase`: [Showcase control](controls/showcase-control.html)
-- `filter`: [Filter control](controls/filter-control.html)
-- `cluster`: [Cluster control](controls/cluster-control.html)
-- `tagged-timeline`: [Tagged-timeline control](controls/tagged-timeline-control.html)
-- `color-legend`: [Color-legend control](controls/color-legend-control.html)
-- `image`: [Image control](controls/image-control.html)
-- `sna-dashboard`: [Social Network Analysis Dashboard control](controls/sna-dashboard-control.html)
+- `title`: [Title control](controls/title-control.md)
+- `text`: [Text control](controls/text-control.md)
+- `label`: [Label control](controls/label-control.md)
+- `showcase`: [Showcase control](controls/showcase-control.md)
+- `filter`: [Filter control](controls/filter-control.md)
+- `cluster`: [Cluster control](controls/cluster-control.md)
+- `tagged-timeline`: [Tagged-timeline control](controls/tagged-timeline-control.md)
+- `color-legend`: [Color-legend control](controls/color-legend-control.md)
+- `image`: [Image control](controls/image-control.md)
+- `sna-dashboard`: [Social Network Analysis Dashboard control](controls/sna-dashboard-control.md)
 
 
 
@@ -115,9 +115,9 @@ Controls are customized using **properties**, and each control understands a sli
 }
 ```
 
-For a full list of the properties that each control understands, read the individual control guides (linked above), or check out the [controls reference](controls/controls-reference.html).
+For a full list of the properties that each control understands, read the individual control guides (linked above), or check out the [controls reference](controls/controls-reference.md).
 
-Looking to change the order of the controls in your map? Have a look at [this guide](/faq/how-do-i-change-the-order-of-control-options.html). 
+Looking to change the order of the controls in your map? Have a look at [this guide](/faq/how-do-i-change-the-order-of-control-options.md). 
 
 
 #### Children
@@ -175,9 +175,9 @@ The properties that get set underneath `group` will apply to all controls nested
 
 ### Remove unneeded controls
 
-When you're adding [controls](/guides/controls.html) through the Basic Editor, you might sometimes add a duplicate control by accident, or add a control that says "No values found for [some field name]". To remove any of those unneeded controls, you can use the Advanced Editor.
+When you're adding [controls](/guides/controls.md) through the Basic Editor, you might sometimes add a duplicate control by accident, or add a control that says "No values found for [some field name]". To remove any of those unneeded controls, you can use the Advanced Editor.
 
-Open up the Advanced Editor, and, unless you have added [partial views](/guides/partial-views.html), there will be a block of code right at the top starting with `@controls`.
+Open up the Advanced Editor, and, unless you have added [partial views](/guides/partial-views.md), there will be a block of code right at the top starting with `@controls`.
 
 ```
 // Line 1 of your Advanced Editor:
@@ -188,11 +188,11 @@ Open up the Advanced Editor, and, unless you have added [partial views](/guides/
 
 If you don't want _any_ controls or "No values found for [some field name]" messages on your map, simply delete the entire `@controls` block, then click "Save" at the bottom of the editor.
 
-If you have some controls in there that you would like to preserve, you'll first need to learn the basics of how to read `@controls` code, so that you can tell which controls you want to delete and which you want to keep. You can learn more about reading `@controls` code in [our full guide on controls](/guides/controls.html#add-controls-through-the-advanced-editor). Of course you can always send us an email at support@kumu.io to help out!
+If you have some controls in there that you would like to preserve, you'll first need to learn the basics of how to read `@controls` code, so that you can tell which controls you want to delete and which you want to keep. You can learn more about reading `@controls` code in [our full guide on controls](/guides/controls.md#add-controls-through-the-advanced-editor). Of course you can always send us an email at support@kumu.io to help out!
 
 ### Built-in controls
 
-All of Kumu's built-in controls (search, zoom buttons, settings buttons, the [legend](/guides/legends.html)) are handled by the same platform that custom controls are built on. That means you can move the built-in controls around, omit ones you don't need, or even reset the built-in controls and start from scratch.
+All of Kumu's built-in controls (search, zoom buttons, settings buttons, the [legend](/guides/legends.md)) are handled by the same platform that custom controls are built on. That means you can move the built-in controls around, omit ones you don't need, or even reset the built-in controls and start from scratch.
 
 Although you won't see it in your Advanced Editor, here's the default `@controls` code working behind the scenes:
 

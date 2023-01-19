@@ -75,7 +75,7 @@ You can use these visual tools in all kinds of different ways, but here are some
 
 To create a loop, you can click the green <i class="fa fa-plus"></i> button at the bottom of your map and select "Add loop". Then, click on the connections you want to include in the loop, then add a descriptive loop label below and press `enter` on your keyboard.
 
-If you want to edit a loop, click on the loop's label to open its [profile](/guides/profiles.html) in the left side panel. In the bottom right corner of the profile, click the pencil icon <i class="fa fa-pencil"></i> to select and de-select connections that are a part of the loop.
+If you want to edit a loop, click on the loop's label to open its [profile](/guides/profiles.md) in the left side panel. In the bottom right corner of the profile, click the pencil icon <i class="fa fa-pencil"></i> to select and de-select connections that are a part of the loop.
 
 Click & drag the loop label to move it, or hold down `Option` on your keyboard (`Alt` on Windows) and click & drag to move the entire loop, including all its elements and connections, while maintaining their structure.
 
@@ -118,10 +118,10 @@ To detect loops, follow these steps:
 - You can hover over any loop name to showcase it on the map and see which elements/connections are a part of it.
 - Click on any loop number to give it a name and save it. Unnamed loops are not saved in your dataset!
 - Adding a name to a loop will add that label to your map in the center of the loop.
-- Loops can only be [exported with JSON](/guides/export.html). You can't export loops to Excel.
+- Loops can only be [exported with JSON](/guides/export.md). You can't export loops to Excel.
 
 <p class="alert alert-warning">
-Automatic loop detection is not (yet) available for maps imported with Google Sheets. If you'd like to use loop detection, please <a class="alert-link" href="/guides/import.html#import-from-excel-or-csv">import your map with Excel</a>.
+Automatic loop detection is not (yet) available for maps imported with Google Sheets. If you'd like to use loop detection, please <a class="alert-link" href="/guides/import.md#import-from-excel-or-csv">import your map with Excel</a>.
 </p>
 
 ## Decorating loops
@@ -134,7 +134,7 @@ loop {
 }
 ```
 
-This code will change the font size for all loops. If you just want to change the size for a specific loop, you can use a [selector](/guides/selectors.html). Here's an example that selects by label to decorate one loop:
+This code will change the font size for all loops. If you just want to change the size for a specific loop, you can use a [selector](/guides/selectors.md). Here's an example that selects by label to decorate one loop:
 
 ```
 // replace My Specific Loop with the label of your loop
@@ -151,7 +151,7 @@ loop {
 }
 ```
 
-You can replace `olympic` with the name of any of our [color palettes](/guides/color-reference.html).
+You can replace `olympic` with the name of any of our [color palettes](/guides/color-reference.md).
 
 
 

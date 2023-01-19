@@ -13,7 +13,7 @@ There are several factors involved that will affect your Kumu project's limit:
 
 If you notice that your project is starting to lag or move slowly in any way, you can try switching to a lower quality or different renderer.
 
-To switch to a lower quality, open your [default view settings](/guides/default-view-settings.html), and change the **quality** from **best** to **low/fast**.
+To switch to a lower quality, open your [default view settings](/guides/default-view-settings.md), and change the **quality** from **best** to **low/fast**.
 
 Switching to the faster WebGL renderer will have a comparable if not slightly better effect on performance. To do that, copy/paste the following code into your Advanced Editor:
 
@@ -31,7 +31,7 @@ If you're not a fan of the squares and straight lines that come with lower quali
 }
 ```
 
-If none of these steps seem to be helping enough, [prompted focus mode](/guides/focus.html#prompted-mode) is worth considering. It's a different reading experience, but it's good for large maps, because it allows the reader to start with nothing on the screen, and work their way up to a larger map, instead of starting with the entire map and whittling their way down to the portion they actually want to read.
+If none of these steps seem to be helping enough, [prompted focus mode](/guides/focus.md#prompted-mode) is worth considering. It's a different reading experience, but it's good for large maps, because it allows the reader to start with nothing on the screen, and work their way up to a larger map, instead of starting with the entire map and whittling their way down to the portion they actually want to read.
 
 Finally, there are a few other steps that are unlikely to have a big impact, but might help a little:
 1. Close as many browser tabs as possible.

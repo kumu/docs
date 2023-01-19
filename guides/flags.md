@@ -1,6 +1,6 @@
 # Flags
 
-Flags are a [data-driven decoration](/guides/data-driven-decorations.html) created specifically for multi-pick fields (fields like Tags that can hold more than one value). When you decorate elements with flags, Kumu draws colored arcs around the outside of those elements. Each flag represents one of the possible values in the multi-pick field.
+Flags are a [data-driven decoration](/guides/data-driven-decorations.md) created specifically for multi-pick fields (fields like Tags that can hold more than one value). When you decorate elements with flags, Kumu draws colored arcs around the outside of those elements. Each flag represents one of the possible values in the multi-pick field.
 
 ![Flags example](/images/flags-with-filter.png)
 
@@ -58,7 +58,7 @@ The syntax is `color "value"`. You can replace `color` with a named color or an 
 
 <div class="alert alert-warning">
   <p>
-    By default, the <a href="/guides/templates/geo.html" class="alert-link">geo template</a> limits you to squares and straight lines, but if you want it to support flags as well, add <code>@settings { renderer: canvas; }</code> to your Advanced Editor.
+    By default, the <a href="/guides/templates/geo.md" class="alert-link">geo template</a> limits you to squares and straight lines, but if you want it to support flags as well, add <code>@settings { renderer: canvas; }</code> to your Advanced Editor.
   </p>
 </div>
 

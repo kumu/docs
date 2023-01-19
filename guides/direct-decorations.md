@@ -1,6 +1,6 @@
 # Direct decorations
 
-Usually, it's faster and easier to decorate elements, connections, and loops according to the data in their [fields](/guides/fields.html)—for example, creating a decoration rule that selects all elements with the element type "Organization", and color-codes them based on their tags.
+Usually, it's faster and easier to decorate elements, connections, and loops according to the data in their [fields](/guides/fields.md)—for example, creating a decoration rule that selects all elements with the element type "Organization", and color-codes them based on their tags.
 
 But, if you haven't added field data, or you just want to tweak the style of one single item on the map, **direct decorations** is the perfect tool.
 
@@ -8,7 +8,7 @@ To use them, simply hover over an element, connection, or loop, and the direct d
 
 ![direct decorations toolbar](/images/direct-decoration-toolbar.png)
 
-If you'd rather have the toolbar appear when you click on an item instead of hover, add the following in the [Advanced Editor](/overview/view-editors.html#advanced-editor):
+If you'd rather have the toolbar appear when you click on an item instead of hover, add the following in the [Advanced Editor](/overview/view-editors.md#advanced-editor):
 
 ```
 @controls {
@@ -168,19 +168,19 @@ There are just a few additional things you should know about direct decorations:
 
 If you're data is coming in from a Google Sheet, you'll notice that the direct decorations toolbar doesn't show up. If you'd still like to use direct decorations, please switch to importing your data with Excel. 
 
-#### Direct decorations always override decorations in your [Views](/guides/views.html).
+#### Direct decorations always override decorations in your [Views](/guides/views.md).
 
 This includes all the code in your Advanced Editor. For example, if you direct decorate an element to color it blue, and then you use the view to color it red, it will still be blue.
 
 
 #### Direct decorations, just like element position and connection curvature, are stored separately for each map in the project.
 
-If you want to change the direct decoration for an item, you can [duplicate the map](/overview/settings.html#map-settings) and make your changes in the new copy.
+If you want to change the direct decoration for an item, you can [duplicate the map](/overview/settings.md#map-settings) and make your changes in the new copy.
 
 
-#### When you're editing the map, the direct decorations toolbar will hide [popovers](/guides/popovers.html).
+#### When you're editing the map, the direct decorations toolbar will hide [popovers](/guides/popovers.md).
 
-However, anyone who has view-only access to the map or is viewing a [presentation](/guides/presentations.html) or a [shared/embedded map](/guides/share-and-embed.html) will still see your popovers (the direct decorations toolbar is hidden for them, since they can't make edits to your map).
+However, anyone who has view-only access to the map or is viewing a [presentation](/guides/presentations.md) or a [shared/embedded map](/guides/share-and-embed.md) will still see your popovers (the direct decorations toolbar is hidden for them, since they can't make edits to your map).
 
 If you're building popovers and just want to see how they look before you publish, you can either follow the instructions above to turn off the direct decorations toolbar, or click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the bottom right corner and select "Switch to preview mode".
 

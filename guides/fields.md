@@ -5,27 +5,27 @@ Fields allow you to save additional data about the elements, connections and loo
 
 ## Core fields
 
-Kumu comes with a set of core fields. Putting data in _all_ of these fields isn't necessary, but they get special visual treatment in [profiles](/guides/profiles.html) and have special functionality, so it's great to use them when you can!
+Kumu comes with a set of core fields. Putting data in _all_ of these fields isn't necessary, but they get special visual treatment in [profiles](/guides/profiles.md) and have special functionality, so it's great to use them when you can!
 
 #### Label
-Use the Label field to give names to elements, connections, and loops. Your element and loop labels will appear on the map by default, and connection labels can be shown on the map as well, using the <code>label-visibility</code> <a href="/guides/property-reference.html">property</a> in the Advanced Editor.
+Use the Label field to give names to elements, connections, and loops. Your element and loop labels will appear on the map by default, and connection labels can be shown on the map as well, using the <code>label-visibility</code> <a href="/guides/property-reference.md">property</a> in the Advanced Editor.
 
 #### Type
 Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family.
 
 #### Connection direction
-In a connection's profile, you'll see whether a connection is directed, undirected, or mutual. When you export your map to Excel, you'll also see this field included in the Connections tab of your sheet. To change the connection direction, please visit [this guide](/faq/how-do-I-add-arrows-to-my-connections.html).
+In a connection's profile, you'll see whether a connection is directed, undirected, or mutual. When you export your map to Excel, you'll also see this field included in the Connections tab of your sheet. To change the connection direction, please visit [this guide](/faq/how-do-I-add-arrows-to-my-connections.md).
 
 #### Description
-The description field is designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even multimedia content. You can use <a href="/guides/markdown.html">Markdown</a> to format your text and <a href="/guides/widgets.html">widgets</a> to add multimedia content.
+The description field is designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even multimedia content. You can use <a href="/guides/markdown.md">Markdown</a> to format your text and <a href="/guides/widgets.md">widgets</a> to add multimedia content.
 
 #### Tags
 The tags field is designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.
 
-In the profile, tags appear under the description, and hovering your cursor over a tag will <a href="/guides/showcase.html">showcase</a> other items with that same tag.
+In the profile, tags appear under the description, and hovering your cursor over a tag will <a href="/guides/showcase.md">showcase</a> other items with that same tag.
 
 #### Image
-Include an image URL or upload an image from your computer, and Kumu will display it on the map and in the profile. Learn more from <a href="/guides/images.html">our full guide on images</a>.
+Include an image URL or upload an image from your computer, and Kumu will display it on the map and in the profile. Learn more from <a href="/guides/images.md">our full guide on images</a>.
 
 #### URL
 Add any link to the URL, and the link will open when the element, connection, or loop is double-clicked.
@@ -34,7 +34,7 @@ Add any link to the URL, and the link will open when the element, connection, or
 Add an email and Kumu will automatically include their <a href="http://en.gravatar.com/">gravatar</a> on the map and in the profile. Gravatars can be a huge time saver when working with social network data!
 
 #### ID
-Add a unique ID to each element and connection when you want to have fine-tuned control over Kumu's decision to create or update items during a <a href="/guides/import.html">spreadsheet import</a>. To learn more about this, check out <a href="/faq/how-do-I-avoid-duplicating-data.html">our guide on avoiding duplicate data</a>.
+Add a unique ID to each element and connection when you want to have fine-tuned control over Kumu's decision to create or update items during a <a href="/guides/import.md">spreadsheet import</a>. To learn more about this, check out <a href="/faq/how-do-I-avoid-duplicating-data.md">our guide on avoiding duplicate data</a>.
 
 
 ## Add a custom field
@@ -100,8 +100,8 @@ We reserve a few category names that we give special treatment to:
 By default, all fields are shown in the profiles of all elements, connections, and loops while you're editing the map. Even if a field has a blank value, it will still show up in the profile.
 
 But, in each profile, Kumu will automatically _hide_ all blank fields in the following cases:
-- When someone is viewing a [presentation](/guides/presentations.html)
-- When someone is viewing a [shared/embedded map](/guides/share-and-embed.html)
+- When someone is viewing a [presentation](/guides/presentations.md)
+- When someone is viewing a [shared/embedded map](/guides/share-and-embed.md)
 - When someone is viewing the source project, but they don't have edit access
 
 If you'd rather hide irrelevant fields while you're editing the map, you can use **field relevance** in your project settings. Click the menu in the top left of your map and then click "fields". Scroll down and you'll see a "relevance" section. To edit which fields should be included for each of the element, connection, and loop types in your project, click edit, uncheck the relevant fields, and click "Done" at the bottom of the field list.
@@ -136,7 +136,7 @@ If you've created a field and want to delete it and all corresponding values, cl
 ## Deleting field values
 Occasionally you may want to delete the prompted choices for a given field, or the options that show up in your legend or in a [control](/guides/controls.md). To do this, you need to delete the underlying field value. This process is different depending on the field's [prompt](#customize-a-field).
 
-For fields that have their prompt set to "Autocomplete" or "None" (this includes the Tags field), you can only delete the field value by removing it from every element, connection, and loop in the project, including the [trash](/overview/kumus-architecture.html#trash).
+For fields that have their prompt set to "Autocomplete" or "None" (this includes the Tags field), you can only delete the field value by removing it from every element, connection, and loop in the project, including the [trash](/overview/kumus-architecture.md#trash).
 
 For all other fields (including Element Type, Connection Type, and Loop Type), follow these steps:
 1. Click the menu in the upper left of your map and choose **FIELDS**

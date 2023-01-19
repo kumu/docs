@@ -13,7 +13,7 @@ To change the thickness of the connections, follow these steps:
 
 ## Scale the thickness of connections
 6. Follow the steps above, but in step 4 check the "Change size" checkbox and then choose "Scale connection widths by field" to scale the thickness based on a field. 
-7. Select the attribute you want to scale by. Please note that the field must have the Type set to Number or Currency for the option to show up. Learn how to change Field Type [here](/guides/fields.html#customize-a-field).
+7. Select the attribute you want to scale by. Please note that the field must have the Type set to Number or Currency for the option to show up. Learn how to change Field Type [here](/guides/fields.md#customize-a-field).
 8. Set the scale you'd like to use and click Done!  
 
 ## Scale length/strength by field in the Advanced Editor

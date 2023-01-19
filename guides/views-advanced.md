@@ -60,7 +60,7 @@ project.pending[priority=high] // all high priority projects tagged "pending"
 
 <p class="alert alert-info">
   The full list of supported selectors can be found in our
-  <a class="alert-link" href="/guides/selector-reference.html">Selector Reference</a>.
+  <a class="alert-link" href="/guides/selector-reference.md">Selector Reference</a>.
 </p>
 
 ### Step 2: Build your decorations
@@ -79,7 +79,7 @@ Now it's time to do some decorating! Below we'll increase Jack's size, change hi
 
 <p class="alert alert-info">
   The full suite of available properties can be found in our
-  <a class="alert-link" href="/guides/property-reference.html">Property Reference</a>.
+  <a class="alert-link" href="/guides/property-reference.md">Property Reference</a>.
 </p>
 
 ### Step 3: Add it to the legend (optional)

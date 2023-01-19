@@ -38,7 +38,7 @@ You can also bring numbers into your expression:
 
 #### Doing math in computed fields
 
-We use [mathjs](http://mathjs.org/docs/expressions/syntax.html) to power computed fields and you have their complete expression syntax to use within Kumu. It's pretty similar to writing an equation in Excel or Google Sheets (with the caveat that we don't support all the functions you'd find in a spreadsheet, like `vlookup`).
+We use [mathjs](http://mathjs.org/docs/expressions/syntax.md) to power computed fields and you have their complete expression syntax to use within Kumu. It's pretty similar to writing an equation in Excel or Google Sheets (with the caveat that we don't support all the functions you'd find in a spreadsheet, like `vlookup`).
 
 If the field you are using in your expression is a single word, you can just write it as-is in the expression. If it is more than one word, you'll need to wrap the field name with two mustaches on either end {% raw %} `{{my longer than neccessary field name}}` {% endraw %}. For all field names, be sure that they are written in all lowercase letters.
 
@@ -50,7 +50,7 @@ Here's some examples:
 * Check for a value and output a number `(archetype == "yes" ? 1 : 0)`
 * Take the log of a value `log(networth)`
 
-That's just the tip of the iceberg. Head over to [mathjs](http://mathjs.org/docs/expressions/syntax.html) if you're interested in what else is possible.
+That's just the tip of the iceberg. Head over to [mathjs](http://mathjs.org/docs/expressions/syntax.md) if you're interested in what else is possible.
 
 
 ## Things to watch out for

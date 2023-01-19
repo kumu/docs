@@ -57,12 +57,12 @@ _Warning: Once the hostname is set the site can only be accessed via the custom 
 
 ## SSL
 
-By default, SSL is **not** enabled on self-hosted Kumu Enterprise instances. To add an SSL certificate and allow users to connect through HTTPS, use the `kumu-ssl-install-cert` and `kumu-ssl-install-key` [command line utilities](/enterprise/command-line-utilities.html) to upload a custom certificate and key, then use the `kumu-ssl-enable` command to finish the process.
+By default, SSL is **not** enabled on self-hosted Kumu Enterprise instances. To add an SSL certificate and allow users to connect through HTTPS, use the `kumu-ssl-install-cert` and `kumu-ssl-install-key` [command line utilities](/enterprise/command-line-utilities.md) to upload a custom certificate and key, then use the `kumu-ssl-enable` command to finish the process.
 
 
 ## Geocoding
 
-The geocoding service used for the [geo template](/guides/templates/geo.html) is not configured by default. To enable geocoding, follow the instructions in the Geocoding section of `<hostname>/enterprise/admin/settings`.
+The geocoding service used for the [geo template](/guides/templates/geo.md) is not configured by default. To enable geocoding, follow the instructions in the Geocoding section of `<hostname>/enterprise/admin/settings`.
 
 ![enterprise configure geocoding](/images/enterprise-configuration-geocoding.png)
 

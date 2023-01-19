@@ -1,12 +1,12 @@
 # How do I show the settings button?
 
-If you've been playing around with [controls](/guides/controls.html), there's a chance you may have hidden the settings button, the zoom toolbar, and the focus toolbar. This happens anytime you place a control in the "top right" region, without explicitly telling Kumu you still want to see the other buttons that normally live there.
+If you've been playing around with [controls](/guides/controls.md), there's a chance you may have hidden the settings button, the zoom toolbar, and the focus toolbar. This happens anytime you place a control in the "top right" region, without explicitly telling Kumu you still want to see the other buttons that normally live there.
 
 To bring those buttons back, this guide offers quick fixes you can pick from.
 
 <div class="alert alert-info">
   <p>
-    For more context on why custom controls are able to hide the default buttons, <a href="/guides/controls.html#built-in-controls" class="alert-link">see our full guide on controls</a>.
+    For more context on why custom controls are able to hide the default buttons, <a href="/guides/controls.md#built-in-controls" class="alert-link">see our full guide on controls</a>.
   </p>
 </div>
 

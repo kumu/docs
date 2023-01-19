@@ -1,6 +1,6 @@
 # Selectors
 
-Selectors are a powerful tool, allowing you to select multiple items within your project based on the information stored in their [fields](/guides/fields.html).
+Selectors are a powerful tool, allowing you to select multiple items within your project based on the information stored in their [fields](/guides/fields.md).
 
 #### Jump to a section:
 
@@ -16,7 +16,7 @@ In Kumu, you can always select items using your mouse and keyboard:
 - Hold the `shift` key and click to select multiple items
 - Hold the `shift` key, then click-and-drag to select a group of items
 
-Once you have an active selection, you can do all sorts of things: [decorate](/guides/decorate.html) your selection, [change field values](/overview/map-editor.html#multiple-selections) for your selection, [focus](/guides/focus.html) on your selection, etc. Long story short, selections are extremely useful in Kumu!
+Once you have an active selection, you can do all sorts of things: [decorate](/guides/decorate.md) your selection, [change field values](/overview/map-editor.md#multiple-selections) for your selection, [focus](/guides/focus.md) on your selection, etc. Long story short, selections are extremely useful in Kumu!
 
 But what if you need to select a large group of items that are densely interconnected with other items that you _don't_ want to select? You can't hold `shift` & click-and-drag, because you'll select some unwanted items in that area. You could hold `shift` and click on each individual item, but that could take a _reaaally_ long time for bigger maps.
 
@@ -32,7 +32,7 @@ Check out the overview video below to learn the basics of selectors, then read t
 ## Where can I use selectors?
 
 <p class="alert alert-info">
-Before you start: <a class="alert-link" href="/guides/fields.html">use fields</a> to add additional information to your elements, connections, and loops.
+Before you start: <a class="alert-link" href="/guides/fields.md">use fields</a> to add additional information to your elements, connections, and loops.
 </p>
 
 #### Search bar
@@ -48,19 +48,19 @@ If you'd rather write your selector instead of use the selector builder, just ty
 
 #### In the Basic Editor
 
-There are several places in the [Basic Editor](/overview/view-editors.html#basic-editor) where you can use selectors:
+There are several places in the [Basic Editor](/overview/view-editors.md#basic-editor) where you can use selectors:
 
-- [Filter tool](/guides/filter.html)
-- [Connect By tool (clustering)](/guides/clustering.html)
-- [Showcase tool](/guides/showcase.html)
-- [Decoration builder](/guides/decorate.html)
+- [Filter tool](/guides/filter.md)
+- [Connect By tool (clustering)](/guides/clustering.md)
+- [Showcase tool](/guides/showcase.md)
+- [Decoration builder](/guides/decorate.md)
 
 The Connect By tool and decoration builder allow you to use the same selector builder from the search bar, and the filter and showcase tools allow you to either use the selector builder or write your own selector.
 
 
 #### In the Advanced Editor
 
-The [Advanced Editor](/overview/view-editors.html#advanced-editor) is where selectors _really_ shine. Advanced decorations, filters, focuses, controls—you name it! Almost every block of code in the Advanced Editor contains some sort of selector.
+The [Advanced Editor](/overview/view-editors.md#advanced-editor) is where selectors _really_ shine. Advanced decorations, filters, focuses, controls—you name it! Almost every block of code in the Advanced Editor contains some sort of selector.
 
 In all of the guides on this documentation site, keep an eye out for Advanced Editor instructions—they'll teach you how to use selectors to enhance all of Kumu's most powerful tools.
 
@@ -76,7 +76,7 @@ In this section, we'll teach you how to write all kinds of selectors, which fall
 
 We'll also teach you how to [chain selectors together](#chain-selectors) to run complex queries involving AND and OR logic.
 
-After you read this section, check out our [selector reference](/guides/selector-reference.html)—it's a great cheat sheet for every possible selector in Kumu.
+After you read this section, check out our [selector reference](/guides/selector-reference.md)—it's a great cheat sheet for every possible selector in Kumu.
 
 You can also use our experimental [selector builder interface](https://selector-builder.netlify.app/) to write selectors for you!
 
@@ -85,7 +85,7 @@ You can also use our experimental [selector builder interface](https://selector-
 
 #### Slugs
 
-All shorthand selectors use slugs—pieces of text that have had all letters converted to lowercase, all special characters removed, and all spaces and replaced with hyphens. To learn more about recognizing, reading, and writing slugs, check out [our full guide on slugs](/guides/slugs.html).
+All shorthand selectors use slugs—pieces of text that have had all letters converted to lowercase, all special characters removed, and all spaces and replaced with hyphens. To learn more about recognizing, reading, and writing slugs, check out [our full guide on slugs](/guides/slugs.md).
 
 
 #### Universal selector
@@ -109,7 +109,7 @@ loop                   // select all loops
 
 #### Select by type
 
-Selecting all of a specific type is pretty simple too. For elements, just take the element type and turn it into a [slug](/guides/slugs.html). For connections, turn the connection type into a slug and add `-connection`.
+Selecting all of a specific type is pretty simple too. For elements, just take the element type and turn it into a [slug](/guides/slugs.md). For connections, turn the connection type into a slug and add `-connection`.
 
 ```
 person                 // select all elements with "Person" element type
@@ -130,7 +130,7 @@ Selecting specific items by label is—you guessed it—pretty simple! Just turn
 
 #### Select by assigned ID
 
-In Kumu, you might sometimes assign custom, unique IDs—see our guide on [avoiding duplicates](/faq/how-do-I-avoid-duplicating-data.html) for more info on when and why you would want to do this.
+In Kumu, you might sometimes assign custom, unique IDs—see our guide on [avoiding duplicates](/faq/how-do-I-avoid-duplicating-data.md) for more info on when and why you would want to do this.
 
  If you have custom IDs in your project, you can use those IDs in shorthand selectors. The syntax is the exact same as the label selector: create a slug of the ID, then add `#` in front of it:
 
@@ -191,7 +191,7 @@ And the syntax is as follows:
 
 Replace `field name` and `field value` with a name and value from your project, depending on what you are trying to select, and keep them wrapped in `""` double quotes. `field name` and `field value` are **not** case-sensitive in selectors.
 
-Then, replace `operator` with a logical operator recognized by Kumu, for example, `=` (equal to) or `>` (greater than). You can see the full list of operators and their meanings in the [selector reference](/guides/selector-reference.html#operators).
+Then, replace `operator` with a logical operator recognized by Kumu, for example, `=` (equal to) or `>` (greater than). You can see the full list of operators and their meanings in the [selector reference](/guides/selector-reference.md#operators).
 
 Here are some examples:
 
@@ -225,7 +225,7 @@ You can also use relative operators with the built-in `created` and `updated` fi
 
 ## Pseudo-selectors
 
-Pseudo-selectors allow you to select elements, connections, and loops based on information stored outside of their profiles—for example, in the profile of an adjacent element, or in the [focus](/guides/focus.html) settings of your view.
+Pseudo-selectors allow you to select elements, connections, and loops based on information stored outside of their profiles—for example, in the profile of an adjacent element, or in the [focus](/guides/focus.md) settings of your view.
 
 
 #### Connected from and connected to
@@ -275,7 +275,7 @@ In graphs and networks, an element that has zero connections is often referred t
 
 #### Loop contents
 
-If you're using [loops](/faq/what-are-loops.html) in your map, you can use the `:loop` pseudo-selector to select elements and connections that are part of a specific loop or loops.
+If you're using [loops](/faq/what-are-loops.md) in your map, you can use the `:loop` pseudo-selector to select elements and connections that are part of a specific loop or loops.
 
 The syntax is an element or connection selector with `:loop()` at the end of it. You can also put a loop selector inside the parentheses to specify the loop or loops.
 

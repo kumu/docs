@@ -70,7 +70,7 @@ Whenever you add a connection, it's a good practice to indicate the causality of
 * +- (as one factor increases, the other decreases)
 * -+ (as one factor decreases, the other increases)
 
-To indicate the causality of a connection, first click on the connection so that the [profile](/guides/profiles.html) appears on the left side of your screen. You'll see a placeholder at the top that says "add connection type". Click that placeholder, then choose which of the above best represents the causality of the connection. You'll then see the corresponding "+" or "-" appear at the ends of the connection.
+To indicate the causality of a connection, first click on the connection so that the [profile](/guides/profiles.md) appears on the left side of your screen. You'll see a placeholder at the top that says "add connection type". Click that placeholder, then choose which of the above best represents the causality of the connection. You'll then see the corresponding "+" or "-" appear at the ends of the connection.
 
 #### Creating a loop label
 You'll continue adding elements and connections until you have one or more loops. It can be helpful to explicitly name the loops you are building by adding a loop label. To add a loop label, click the green <i class="fa fa-plus"></i> button and then choose "add loop". You then need to click on each connection that is part of the loop, then add a loop label, and finally hit enter.
@@ -86,7 +86,7 @@ You can click and drag any element to move its location. You can also change the
 
 ## Adding additional background and context using profiles
 
-Kumu makes it easy to add additional information about each element, connection, and loop using the [profile](/guides/profiles.html).
+Kumu makes it easy to add additional information about each element, connection, and loop using the [profile](/guides/profiles.md).
 
 #### Leverage analysis
 If you're using the +Acumen Systems Practice Course project, you'll automatically have a field listed in the profile called "leverage analysis". Click to edit the value of this field and you'll see there are 5 choices:
@@ -111,18 +111,18 @@ Here's an example of a profile for an element with additional context included:
 Looking to track more information about each element, connection or loop? You can easily add a new field by clicking the "+ New Field" button in the profile of any element, connection or loop. For example, you might add a "Stakeholder working on this area" field and use that to list the relevant people and organizations working on a given element, connection, or loop.
 
 ## Bringing your map to life with decorations
-Once you've added additional background and context using the profile, you can then bring that context to life by creating [decorations](/guides/decorate.html) based on the values you've saved to the profile. Let's run through an example to color-code elements by the values in their leverage analysis field.
+Once you've added additional background and context using the profile, you can then bring that context to life by creating [decorations](/guides/decorate.md) based on the values you've saved to the profile. Let's run through an example to color-code elements by the values in their leverage analysis field.
 
-1. Click the settings icon <i class="fa fa-sliders"></i> on the right side of the map to open the [Basic Editor](/overview/view-editors.html#basic-editor)
+1. Click the settings icon <i class="fa fa-sliders"></i> on the right side of the map to open the [Basic Editor](/overview/view-editors.md#basic-editor)
 1. Next to **Color by**, use the dropdown to select "leverage analysis"
 
 And you're done! All elements will now be be marked with colored arcs, and each colored arc represents one of the different options in your leverage analysis field.
 
-These arcs are called [flags](/guides/flags.html), and they are a decoration created specifically for fields that can hold more than one value. Flags are just one of many different element decorations in Kumu:
+These arcs are called [flags](/guides/flags.md), and they are a decoration created specifically for fields that can hold more than one value. Flags are just one of many different element decorations in Kumu:
 
 ![Element decoration options](/images/element-decorations.jpeg)
 
-To learn how to create different element decorations, how to decorate connections, how to decorate specific groups of elements, and more, be sure to check out our [full guide on decorations](/guides/decorate.html).
+To learn how to create different element decorations, how to decorate connections, how to decorate specific groups of elements, and more, be sure to check out our [full guide on decorations](/guides/decorate.md).
 
 
 ## Refine your view
@@ -131,9 +131,9 @@ Great work so far—you've created a project, started building your first map, a
 
 To do that, you'll use **filter**, **focus**, **showcase**—four different ways to refine what is visible or dominant in the map. Follow these links for the full guides for each tool:
 
-- [Filter](/guides/filter.html)
-- [Focus](/guides/focus.html)
-- [Showcase](/guides/showcase.html)
+- [Filter](/guides/filter.md)
+- [Focus](/guides/focus.md)
+- [Showcase](/guides/showcase.md)
 
 
 <p class="alert alert-success">

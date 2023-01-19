@@ -1,9 +1,9 @@
 # Filter
 
-Filters allow you to show and hide elements, connections or loops based on information stored in their [fields](/guides/fields.html). This guide will help you master filters, one of the most powerful tools in Kumu!
+Filters allow you to show and hide elements, connections or loops based on information stored in their [fields](/guides/fields.md). This guide will help you master filters, one of the most powerful tools in Kumu!
 
 <p class="alert alert-info">
-Before you start: <a class="alert-link" href="/guides/fields.html">use fields</a> to add additional information to your elements, connections, and loops.
+Before you start: <a class="alert-link" href="/guides/fields.md">use fields</a> to add additional information to your elements, connections, and loops.
 </p>
 
 
@@ -31,7 +31,7 @@ If you prefer working in the Advanced Editor, you can use the `include` and `ign
 }
 ```
 
-You can replace `selector` with any valid [selector](/guides/selectors.html). For example, here is the code for a view that includes elements with the element type "Person" but ignores all elements who have no Tags in their profile:
+You can replace `selector` with any valid [selector](/guides/selectors.md). For example, here is the code for a view that includes elements with the element type "Person" but ignores all elements who have no Tags in their profile:
 
 ```
 @settings {

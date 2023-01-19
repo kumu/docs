@@ -65,7 +65,7 @@ You can use the following syntax:
 [link text](= selector)
 ```
 
-Replace `link text` with the text for your link, and replace `selector` with any valid [selector](/guides/selectors.html).
+Replace `link text` with the text for your link, and replace `selector` with any valid [selector](/guides/selectors.md).
 
 
 #### Maps
@@ -74,7 +74,7 @@ Replace `link text` with the text for your link, and replace `selector` with any
 [link text](#map-slug)
 ```
 
-Replace `link text` with the text for your link, and replace `map-slug` with the [slug](/guides/slugs.html) of your map.
+Replace `link text` with the text for your link, and replace `map-slug` with the [slug](/guides/slugs.md) of your map.
 
 #### Views
 
@@ -82,7 +82,7 @@ Replace `link text` with the text for your link, and replace `map-slug` with the
 [link text](#map-slug/view-slug)
 ```
 
-Replace `link text` with the text for your link, replace `map-slug` with the [slug](/guides/slugs.html) of your map, and replace `view-slug` .with the [slug](/guides/slugs.html) of your view.
+Replace `link text` with the text for your link, replace `map-slug` with the [slug](/guides/slugs.md) of your map, and replace `view-slug` .with the [slug](/guides/slugs.md) of your view.
 
 
 ## Images
@@ -339,7 +339,7 @@ Here's what you would see:
 
 ![rendered block latex](/images/latex-block.png)
 
-Kumu uses a tool called KaTeX to render these equations. For a full list of supported equations, [visit the KaTeX docs](https://katex.org/docs/supported.html).
+Kumu uses a tool called KaTeX to render these equations. For a full list of supported equations, [visit the KaTeX docs](https://katex.org/docs/supported.md).
 
 
 

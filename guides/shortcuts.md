@@ -13,8 +13,8 @@
   <li class="shortcut"><span class="keystroke">Up/down/left/right</span> Pan</li>
   <li class="shortcut"><span class="keystroke">Space</span> Pause</li>
   <li class="shortcut"><span class="keystroke">Tab</span> Toggle Sidebar</li>
-  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">F</span> Full screen <a href="/overview/map-editor.html">Map Editor</a></li>
-  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">F</span> Full screen <a href="/overview/map-editor.html#canvas">canvas</a></li>
+  <li class="shortcut"><span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">F</span> Full screen <a href="/overview/map-editor.md">Map Editor</a></li>
+  <li class="shortcut"><span class="keystroke">SHIFT</span> <strong>+</strong> <span class="keystroke">ALT</span> <strong>+</strong> <span class="keystroke">F</span> Full screen <a href="/overview/map-editor.md#canvas">canvas</a></li>
 </ul>
 
 ### Editing

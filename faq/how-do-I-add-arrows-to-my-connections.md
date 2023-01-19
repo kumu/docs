@@ -1,7 +1,7 @@
 # How do I add arrows to my connections?
 
 <p class="alert alert-warning">
-Arrows can't be added to connections if you're using the <a class="alert-link" href="/guides/templates.html#sna-social-network-analysis-template">SNA template</a>.
+Arrows can't be added to connections if you're using the <a class="alert-link" href="/guides/templates.md#sna-social-network-analysis-template">SNA template</a>.
 </p>
 
 If you want to add arrows to your connections to specify direction, here are a couple ways to do so:
@@ -31,9 +31,9 @@ If you want to add arrows to your connections to specify direction, here are a c
 
 ### For imported connections and connections created by clustering
 
-If your connections are imported from Excel, imported from a remote source ([Google Sheets](/guides/import.html#import-from-google-sheets) or a [JSON blueprint](/guides/blueprints.html#set-a-remote-blueprint)), or created by [clustering](/guides/clustering.html), you can add arrows by changing the default map settings:
+If your connections are imported from Excel, imported from a remote source ([Google Sheets](/guides/import.md#import-from-google-sheets) or a [JSON blueprint](/guides/blueprints.md#set-a-remote-blueprint)), or created by [clustering](/guides/clustering.md), you can add arrows by changing the default map settings:
 
-* [Open the map settings](/overview/settings.html#map-settings)
+* [Open the map settings](/overview/settings.md#map-settings)
 * Click **Default connection direction**
 * Choose **Directed** to add arrows to one end, and choose **Mutual** to add arrows to both ends
 

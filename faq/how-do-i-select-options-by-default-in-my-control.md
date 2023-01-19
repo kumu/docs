@@ -1,6 +1,6 @@
 # How do I select options by default in my control?
 
-[Controls](/guides/controls.html) offer a lot of flexibility to your readers, enabling them to transform your data and gain new insights in just a few clicks.
+[Controls](/guides/controls.md) offer a lot of flexibility to your readers, enabling them to transform your data and gain new insights in just a few clicks.
 
 Sometimes, though, you might want to give your controls default settings that guide readers toward a particular insight you found.
 
@@ -56,7 +56,7 @@ With those `default` settings in place, our readers will land on a visualization
 
 <div class="alert alert-info">
   <p>
-    Setting default options on controls is particularly useful in <a href="/guides/presentations.html" class="alert-link">presentations</a> when you want a sequence of slides to show different default control settings.
+    Setting default options on controls is particularly useful in <a href="/guides/presentations.md" class="alert-link">presentations</a> when you want a sequence of slides to show different default control settings.
   </p>
   <p>
     A lower-tech, no-code solution that works equally well is to use the side panel of the presentation to give readers instructions, for example, "On this slide, select "Person" from the buttons at the top and "Africa" and "Asia" from the buttons at the bottom.

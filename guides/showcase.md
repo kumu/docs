@@ -16,7 +16,7 @@ Click the Settings icon on the right side of your map to open the Basic Editor. 
 
 ![Showcase basic editor](/images/overview-showcase.png)
 
-Click the rocketship icon <i class="fa fa-rocket"></i> to build the selection of items that you want to showcase, or type a [selector](/guides/selectors.html) into the box.
+Click the rocketship icon <i class="fa fa-rocket"></i> to build the selection of items that you want to showcase, or type a [selector](/guides/selectors.md) into the box.
 
 
 ## Showcase in the Advanced Editor
@@ -28,7 +28,7 @@ To activate showcase using the advanced editor, add the `showcase` property with
   showcase: person;
 }
 ```
-In the code above, `person` is a selector that will showcase all elements with the element type "Person" on the map. Replace `person` with any [selector](/guides/selectors.html) to showcase different data.
+In the code above, `person` is a selector that will showcase all elements with the element type "Person" on the map. Replace `person` with any [selector](/guides/selectors.md) to showcase different data.
 
 You can further customize what is included in the showcase by changing the showcase mode:
 
@@ -56,6 +56,6 @@ Using the Advanced Editor, you can also control the extent to which items are fa
 
 ## Activating showcase using controls
 
-If you'd like to make it easy for readers to activate showcase on their own with predefined options, check out the [showcase control](/guides/controls/showcase-control.html).
+If you'd like to make it easy for readers to activate showcase on their own with predefined options, check out the [showcase control](/guides/controls/showcase-control.md).
 
 

@@ -16,12 +16,12 @@ The first dropdown menu allows you to create new maps and navigate to different 
 
 In the bottom right corner of your map editor, you'll see a toolbar with several icons that let you take useful actions within your project.
 
-- <i class="fa fa-magic"></i> The magic wand brings up a [quick actions](/guides/quick-actions.html) menu that allows you to search for tools, actions, and how-to videos
+- <i class="fa fa-magic"></i> The magic wand brings up a [quick actions](/guides/quick-actions.md) menu that allows you to search for tools, actions, and how-to videos
 - <i class="fa fa-flask"></i> The flask gives you access to [social network analysis metrics](/guides/metrics.md) and [community detection](/guides/metrics.md#community-detection)
-- <i class="fa fa-comments-o"></i> The chat bubble opens up <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.html">issues</a></span>, where you can chat with your team and attach comments to the map
+- <i class="fa fa-comments-o"></i> The chat bubble opens up <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.md">issues</a></span>, where you can chat with your team and attach comments to the map
 - <i class="fa fa-table"></i> The table brings up Kumu's [Table](/guides/table.md) tool
 - <i class="fa fa-download"></i> The download icon exposes several [export](/guides/export.md) options
-- <i class="fa fa-share-alt"></i> The share icon will help you [share or embed](/guides/share-and-embed.html) your project
+- <i class="fa fa-share-alt"></i> The share icon will help you [share or embed](/guides/share-and-embed.md) your project
 - <i class="fa fa-ellipsis-h"></i> The ellipsis brings up miscellaneous actions, like entering fullscreen or preview mode
 
 
@@ -38,7 +38,7 @@ When you select an individual element, connection, or loop on the map, the side 
 ![profile](/images/introduction-profile.png)
 
 Inside the profile, you can add and edit information about the selected item. You can also use the icons in the bottom right of the profile to:
-- <i class="fa fa-comments-o"></i> <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.html">Attach a comment</a></span> to your selected item
+- <i class="fa fa-comments-o"></i> <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.md">Attach a comment</a></span> to your selected item
 - <i class="fa fa-thumb-tack"></i> Pin an element in a [fixed position](/guides/layouts/fixed.md)
 - <i class="fa fa-exchange"></i> Change [connection direction](/faq/how-do-I-add-arrows-to-my-connections.md)
 - <i class="fa fa-hourglass-half"></i> Add [delay markings](/guides/system-mapping.md#add-delay-markings)

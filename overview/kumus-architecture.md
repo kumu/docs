@@ -85,7 +85,7 @@ You can use these visual components in all kinds of different ways, but here are
 </tbody>
 </table>
 
-For instructions on how to create elements, connections, and loops in Kumu, check out the [Building your first map](/getting-started/first-steps.html#build-your-first-map) section of our First Steps guide.
+For instructions on how to create elements, connections, and loops in Kumu, check out the [Building your first map](/getting-started/first-steps.md#build-your-first-map) section of our First Steps guide.
 
 ## Fields
 
@@ -96,11 +96,11 @@ The most basic field is named "Label". Any value you add to an element's or loop
 1. **Description** — a field designed to hold longer descriptions of an item. Descriptions can include multiple paragraphs, and even images and videos.
 1. **Tags** - a field designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to the person's relationship with the organization.
 
-Beyond those four pre-named fields, you can create as many custom fields as you want—you can have a "Website" field, a "Net Assets" field, a "What do you want to learn?" field, etc. Fields can be created and edited using [profiles](/guides/profiles.html):
+Beyond those four pre-named fields, you can create as many custom fields as you want—you can have a "Website" field, a "Net Assets" field, a "What do you want to learn?" field, etc. Fields can be created and edited using [profiles](/guides/profiles.md):
 
 ![profile](/images/introduction-profile.png)
 
-For more information on fields and how to create and customize them, [check out our full guide on fields](/guides/fields.html).
+For more information on fields and how to create and customize them, [check out our full guide on fields](/guides/fields.md).
 
 
 ## Projects
@@ -115,12 +115,12 @@ If you only have one map in your project, don't sweat this detail!
 
 Projects can also remember a few more important things:
 - The project's privacy level (public or private)
-- Any [presentations](/guides/presentations.html) you have created to share your work
-- Any [contributors](/overview/collaboration.html) that can edit your project
-- Any [add-ons](/guides/add-ons.html) that have been installed on the project
-- Any [license](/guides/licensing.html) you have added, to tell people how they can or cannot share or re-use your work
+- Any [presentations](/guides/presentations.md) you have created to share your work
+- Any [contributors](/overview/collaboration.md) that can edit your project
+- Any [add-ons](/guides/add-ons.md) that have been installed on the project
+- Any [license](/guides/licensing.md) you have added, to tell people how they can or cannot share or re-use your work
 
-You create new projects and see all your existing projects on your [dashboard](/overview/dashboard.html).
+You create new projects and see all your existing projects on your [dashboard](/overview/dashboard.md).
 
 
 ## Maps
@@ -138,7 +138,7 @@ Finally, a map can remember a rich description about itself, called a "Map Overv
 
 ![map overview with video](/images/map-overview-with-video.png)
 
-For more info on how to build the basic structure of your map, check out our [full guide on the map editor](/overview/map-editor.html).
+For more info on how to build the basic structure of your map, check out our [full guide on the map editor](/overview/map-editor.md).
 
 
 ## Views
@@ -173,43 +173,43 @@ To learn more about building views and creating specific types of rules, check o
         <th>Main idea</th>
     </tr>
     <tr>
-        <td><a href="/overview/view-editors.html">View editors</a></td>
+        <td><a href="/overview/view-editors.md">View editors</a></td>
         <td>Learn your way around the user interfaces that allow you to edit views.</td>
     </tr>
     <tr>
-        <td><a href="/guides/decorate.html">Decorate</a></td>
+        <td><a href="/guides/decorate.md">Decorate</a></td>
         <td>Change visual appearance of items (color, size, pattern, shadow, image, etc.).</td>
     </tr>
     <tr>
-        <td><a href="/guides/filter.html">Filter</a></td>
+        <td><a href="/guides/filter.md">Filter</a></td>
         <td>Temporarily show or hide items.</td>
     </tr>
     <tr>
-        <td><a href="/guides/showcase.html">Showcase</a></td>
+        <td><a href="/guides/showcase.md">Showcase</a></td>
         <td>Make certain items translucent, fading them subtly into the background.</td>
     </tr>
     <tr>
-        <td><a href="/guides/focus.html">Focus</a></td>
+        <td><a href="/guides/focus.md">Focus</a></td>
         <td>Focus on a single element, hiding everything else. Then, expand outward to reveal more elements and connections, step-by-step.</td>
     </tr>
     <tr>
-        <td><a href="/guides/clustering.html">Cluster</a></td>
+        <td><a href="/guides/clustering.md">Cluster</a></td>
         <td>Connect elements automatically, based on the information in their fields.</td>
     </tr>
     <tr>
-        <td><a href="/guides/bridge.html">Bridge</a></td>
+        <td><a href="/guides/bridge.md">Bridge</a></td>
         <td>Connect elements based on their "mutual friends" (elements they're both connected to).</td>
     </tr>
     <tr>
-        <td><a href="/guides/imported-views.html">Imported views</a></td>
+        <td><a href="/guides/imported-views.md">Imported views</a></td>
         <td>Import rules from another view, so that you don't have to re-build them.</td>
     </tr>
     <tr>
-        <td><a href="/guides/controls.html">Controls</a></td>
+        <td><a href="/guides/controls.md">Controls</a></td>
         <td>Customize the way people interact with your map.</td>
     </tr>
     <tr>
-        <td><a href="/guides/layouts.html">Layouts</a></td>
+        <td><a href="/guides/layouts.md">Layouts</a></td>
         <td>Change the way Kumu positions your elements.</td>
     </tr>
 </table>
@@ -219,11 +219,11 @@ To learn more about building views and creating specific types of rules, check o
 
 Last but not least, Kumu's architecture includes the **trash**.
 
-The trash is a list of all the elements, connections, and loops that, once upon a time, were the the lifeblood of your system map, the all-powerful hubs of your network map, the social-media-savvy influencers of your stakeholder map...until you realized that the data was totally inaccurate, imprecise, full of typos (_\*gasp\*_), or duplicated (_\*shudder\*_), and deleted it using the [little trash can icon](/overview/map-editor.html#side-panel) <i class="fa fa-trash">  </i>.
+The trash is a list of all the elements, connections, and loops that, once upon a time, were the the lifeblood of your system map, the all-powerful hubs of your network map, the social-media-savvy influencers of your stakeholder map...until you realized that the data was totally inaccurate, imprecise, full of typos (_\*gasp\*_), or duplicated (_\*shudder\*_), and deleted it using the [little trash can icon](/overview/map-editor.md#side-panel) <i class="fa fa-trash">  </i>.
 
-All prose aside, the trash is where your project stores the items that have been deleted from every single map. From time to time, you may want to [follow this guide](/faq/how-do-i-delete-data-from-my-project.html) to empty it out!
+All prose aside, the trash is where your project stores the items that have been deleted from every single map. From time to time, you may want to [follow this guide](/faq/how-do-i-delete-data-from-my-project.md) to empty it out!
 
-But, we should give credit where credit is due: the trash is your last line of defense against accidentally deleting data (a.k.a. hard work, time, and effort) from your project. If you ever think that you've deleted something accidentally, and you need to recover it from the trash, just [ask for help](/about/where-can-i-get-help.html), and the Kumu team and community will find a solution.
+But, we should give credit where credit is due: the trash is your last line of defense against accidentally deleting data (a.k.a. hard work, time, and effort) from your project. If you ever think that you've deleted something accidentally, and you need to recover it from the trash, just [ask for help](/about/where-can-i-get-help.md), and the Kumu team and community will find a solution.
 
 
 

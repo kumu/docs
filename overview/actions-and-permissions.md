@@ -6,10 +6,10 @@ When you're using Kumu, every action you take falls into one of the following ca
 - Viewing a project
 - Editing a project (e.g. adding elements, adding fields, changing the view, changing settings, etc.)
 - Exporting a project (to Excel, JSON, or as a screenshot or PDF)
-- [Forking](/guides/forking.html) a project
-- [Administrating a project](/guides/project-admin.html) (changing project privacy, renaming a project, transferring project ownership to another workspace, or deleting a project)
-- [Granting project access](/overview/collaboration.html#add-a-contributor) to other Kumu users
-- [Commenting on a project](/guides/issues.html) (only available for [Pro workspaces](/guides/pro-workspaces.html))
+- [Forking](/guides/forking.md) a project
+- [Administrating a project](/guides/project-admin.md) (changing project privacy, renaming a project, transferring project ownership to another workspace, or deleting a project)
+- [Granting project access](/overview/collaboration.md#add-a-contributor) to other Kumu users
+- [Commenting on a project](/guides/issues.md) (only available for [Pro workspaces](/guides/pro-workspaces.md))
 - Adding members to a Pro workspace
 - Creating teams in a Pro workspace
 
@@ -32,7 +32,7 @@ The table below breaks down all other actions, and who has permission to take th
 | Granting project access to other Kumu users | The Basic workspace owner | The Basic workspace owner |
 | Commenting on a project | No one (Pro workspaces only)  | No one (Pro workspaces only) |
 
-For more info on how to add project contributors, check out our guide on [collaboration and sharing](/overview/collaboration.html).
+For more info on how to add project contributors, check out our guide on [collaboration and sharing](/overview/collaboration.md).
 
 
 ## Pro workspace actions and permissions
@@ -67,16 +67,16 @@ Each of these roles has different **permissions** to take **actions** in the Pro
 | Granting project access to other Kumu users | <ul><li>Pro workspace owners, and the workspace member that created the project, if applicable</li><li>Teams with admin access to the project</li><li>Project managers</li></ul> | <ul><li>Pro workspace owners, and the workspace member that created the project, if applicable</li><li>Teams with admin access to the project</li><li>Project managers</li></ul> |
 | Commenting on a project | <ul><li>Pro workspace owners, and the workspace member that created the project, if applicable</li><li>Teams with any kind of access to the project</li><li>Project observers, contributors, and managers</li></ul> | <ul><li>Pro workspace owners, and the workspace member that created the project, if applicable</li><li>Teams with any kind of access to the project</li><li>Project observers, contributors, and managers</li></ul> |
 
-For more info on how to add project contributors, check out [our full guide on Pro workspaces](/guides/pro-workspaces.html).
+For more info on how to add project contributors, check out [our full guide on Pro workspaces](/guides/pro-workspaces.md).
 
 
 ## Finding out which workspace a project is in
 
-There are two different ways to find out which workspace a project is in. First, if you have been [added as a contributor](/overview/collaboration.html#add-a-contributor) to the project, you can go to your [account dashboard](https://kumu.io/dashboard) and find the project in the list. Underneath the project's name, you'll see the workspace's name.
+There are two different ways to find out which workspace a project is in. First, if you have been [added as a contributor](/overview/collaboration.md#add-a-contributor) to the project, you can go to your [account dashboard](https://kumu.io/dashboard) and find the project in the list. Underneath the project's name, you'll see the workspace's name.
 
 ![project owner username under project name](/images/project-owner-dashboard.png)
 
-You can also figure out who owns any project by looking at the project's URL. Every Kumu project URL starts with `https://kumu.io/`, followed by a [slug](/guides/slugs.html) or the workspace's name. For example, the project pictured below is owned by our Pro workspace, which is named "Kumu":
+You can also figure out who owns any project by looking at the project's URL. Every Kumu project URL starts with `https://kumu.io/`, followed by a [slug](/guides/slugs.md) or the workspace's name. For example, the project pictured below is owned by our Pro workspace, which is named "Kumu":
 
 ![project owner in URL](/images/project-owner-url.png)
 

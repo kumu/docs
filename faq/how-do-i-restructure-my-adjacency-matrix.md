@@ -1,6 +1,6 @@
 # How do I restructure my adjacency matrix?
 
-If your data is structured as an [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix), the matrix will need to be restructured as a list of connections, before it can be [imported](/guides/import.html). Restructuring an adjacency matrix can be complex, so we created two tools to help you.
+If your data is structured as an [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix), the matrix will need to be restructured as a list of connections, before it can be [imported](/guides/import.md). Restructuring an adjacency matrix can be complex, so we created two tools to help you.
 
 The first tool is [a website](https://matrix-expander.netlify.com/) where you can upload your matrix, click a button, and download a CSV, XLSX, or JSON file that you can drag-and-drop into Kumu to import the data.
 

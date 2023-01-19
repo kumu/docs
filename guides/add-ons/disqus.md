@@ -11,7 +11,7 @@ As you work through that guide, you'll set up a new Disqus site and be given a *
 
 ![Disqus shortname](/images/disqus-shortname.png)
 
-Copy that shortname, then return to Kumu, and open up the Add-ons menu in [project settings](/overview/settings.html#project-settings).
+Copy that shortname, then return to Kumu, and open up the Add-ons menu in [project settings](/overview/settings.md#project-settings).
 
 ![](/images/disqus-step-3.jpg)
 

@@ -17,7 +17,7 @@ This overview is a great place to start if you're new to Kumu. Take some time to
 
 ## Create an account
 
-Create an account by visiting [https://kumu.io/join](https://kumu.io/join). You'll use this account to sign in to Kumu and manage all of your projects inside of [workspaces](/overview/accounts-and-workspaces.html).
+Create an account by visiting [https://kumu.io/join](https://kumu.io/join). You'll use this account to sign in to Kumu and manage all of your projects inside of [workspaces](/overview/accounts-and-workspaces.md).
 
 
 ## Create your first project
@@ -99,7 +99,7 @@ Quickly enter sketch mode by pressing <code>K</code> on your keyboard, and press
 
 ## Decorate elements and connections
 
-Once you have built part of your map, it's the perfect time to learn how to use decorations to bring the data to life. It's possible to [change the color or size of individual elements and connections](/guides/direct-decorations.html), but it's much faster and more scaleable to create decoration rules based on the  information stored inside your elements and connections.
+Once you have built part of your map, it's the perfect time to learn how to use decorations to bring the data to life. It's possible to [change the color or size of individual elements and connections](/guides/direct-decorations.md), but it's much faster and more scaleable to create decoration rules based on the  information stored inside your elements and connections.
 
 To add that information, you'll use the panel on the left side of the map, which is called the **profile**.
 
@@ -211,7 +211,7 @@ To add a contributor to a project, click the menu icon <i class="fa fa-bars">  <
 
 In the **Username** box, type the Kumu username of the person you want to add (if they don't have a username, they can get one for free at https://kumu.io/join) and click **Add contributor**.
 
-For more info on collaboration in Kumu, visit [our full guide on collaboration](/overview/collaboration.html).
+For more info on collaboration in Kumu, visit [our full guide on collaboration](/overview/collaboration.md).
 
 <p class="alert alert-success">
   <b>You've completed the Getting Started series!</b> For additional help, you can browse our other guides, <a class="alert-link" href="http://chat.kumu.io">join our open Slack team</a>, or email us at <a class="alert-link" href="mailto:support@kumu.io">support@kumu.io</a>.

@@ -20,7 +20,7 @@ To fork a public project, click the menu in the upper left corner of the map and
   </p>
   <ol>
     <li>Have the project owner make their own fork of the project.</li>
-    <li>Have the project owner use the <a class="alert-link" href="/guides/project-admin.html">project admin menu</a> to transfer the project to your account.</li>
+    <li>Have the project owner use the <a class="alert-link" href="/guides/project-admin.md">project admin menu</a> to transfer the project to your account.</li>
   </ol>
 </div>
 

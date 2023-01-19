@@ -1,11 +1,11 @@
 # How do I customize the order of my legend?
 
-When you use the [Color by](/guides/data-driven-decorations.html#color-by) tool to color code your elements, legend entries are created automatically, but not always in the order you might want.
+When you use the [Color by](/guides/data-driven-decorations.md#color-by) tool to color code your elements, legend entries are created automatically, but not always in the order you might want.
 
 There are two ways to customize the order of your legend entries. The simpler solution, appropriate in most cases, is:
 1. Set the **Color by** tool to "select a field" to turn it off.
-2. Use the [element decoration builder](/guides/data-driven-decorations.html#use-decoration-builders-to-create-custom-decorations) to recreate each color coding rule individually. For example, instead of using **Color by** to automatically color by Type, you would instead create a separate, custom decoration for each possible value in the Type field. Be sure to fill out the **Label for legend** box at the bottom of the decoration builder to make sure rules are added to the legend.
-3. At the bottom of the [Basic Editor](/overview/view-editors.html#basic-editor), you'll see your decorations listed. Drag and drop items in the list to change their order in the legend.
+2. Use the [element decoration builder](/guides/data-driven-decorations.md#use-decoration-builders-to-create-custom-decorations) to recreate each color coding rule individually. For example, instead of using **Color by** to automatically color by Type, you would instead create a separate, custom decoration for each possible value in the Type field. Be sure to fill out the **Label for legend** box at the bottom of the decoration builder to make sure rules are added to the legend.
+3. At the bottom of the [Basic Editor](/overview/view-editors.md#basic-editor), you'll see your decorations listed. Drag and drop items in the list to change their order in the legend.
 
 Again, this is the fastest and most straightforward solution in most cases, but it's also possible to customize the order of **Color by** color-coded legend entries, using the Advanced Editor:
 

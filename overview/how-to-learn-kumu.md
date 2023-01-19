@@ -3,12 +3,12 @@
 ## Getting started
 
 - [Kumu homepage](https://kumu.io/)
-- [System mapping background](/guides/system-mapping.html)
+- [System mapping background](/guides/system-mapping.md)
 - [System mapping example](https://www.kumu.io/hewlettfoundation/hewlett-foundation-madison-initiative)
-- [Network mapping overview](/guides/sna-network-mapping.html)
+- [Network mapping overview](/guides/sna-network-mapping.md)
 - [Network mapping example](https://kumu.kumu.io/stewardship-networks-in-baltimore)
-- [Kumu first steps guide](/getting-started/first-steps.html)
-- [Kumu terminology guide](/overview/kumus-architecture.html)
+- [Kumu first steps guide](/getting-started/first-steps.md)
+- [Kumu terminology guide](/overview/kumus-architecture.md)
 
 - What are the main use cases for Kumu?
 - What are the key difference between personal and organizations?

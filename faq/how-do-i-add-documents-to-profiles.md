@@ -13,7 +13,7 @@ If you upload your document to [Scribd](https://www.scribd.com/), you can use ou
 
 ![scribd widget](/images/widgets-scribd.png)
 
-For more info on how to use the Scribd widget, [visit the widgets docs](/guides/widgets.html#embed-documents).
+For more info on how to use the Scribd widget, [visit the widgets docs](/guides/widgets.md#embed-documents).
 
 
 ## Embed a document using lightbox
@@ -26,4 +26,4 @@ https://www.scribd.com/embeds/416217686/content?lightbox=full
 
 ![scribd lightbox](/images/lightbox-scribd.png)
 
-For more info on the ligthbox feature, [see the full guide](/guides/lightbox.html).
+For more info on the ligthbox feature, [see the full guide](/guides/lightbox.md).

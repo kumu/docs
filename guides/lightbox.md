@@ -9,10 +9,10 @@ In Kumu, you can embed content from external providers into a **lightbox**.
 To show content in a lightbox, start by finding a link to the embeddable version of the external content. Once you have the link, just add add `?lightbox` to the end for the default lightbox, or add `?lightbox=full` for a nearly-fullscreen lightbox.
 
 Add the completed link into one of the following places in your map:
-- The Map Overview located in the [side panel](/overview/map-editor.html#side-panel)
-- The text for any [presentation](/guides/presentations.html) slide
-- The Description field in any [profile](/guides/profiles.html)
-- Any custom field with its [field type](/guides/fields.html#customize-a-field) set to Text or URL
+- The Map Overview located in the [side panel](/overview/map-editor.md#side-panel)
+- The text for any [presentation](/guides/presentations.md) slide
+- The Description field in any [profile](/guides/profiles.md)
+- Any custom field with its [field type](/guides/fields.md#customize-a-field) set to Text or URL
 
 <!-- content's URL. For Kumu maps, you can simply open the map and copy the link from the URL bar. For content from other providers, you'll need to find a link  -->
 

@@ -8,7 +8,7 @@ Want to see a finished scatter plot before you get started? Check out our [scatt
 
 ## Set up your scatter plot
 
-To apply the scatter layout to your map, the first step is to open the [Advanced Editor](/overview/view-editors.html#advanced-editor) add `layout: scatter` to your `@settings`.
+To apply the scatter layout to your map, the first step is to open the [Advanced Editor](/overview/view-editors.md#advanced-editor) add `layout: scatter` to your `@settings`.
 
 ```
 @settings {
@@ -57,8 +57,8 @@ Notice there's no need to use the `-multiplier` settings if you're comfortable w
 
 We're using the [mathjs](http://mathjs.org) library under the hood so if you want to learn more we recommend checking out the following links:
 
-- http://mathjs.org/docs/expressions/syntax.html
-- http://mathjs.org/docs/reference/functions.html
+- http://mathjs.org/docs/expressions/syntax.md
+- http://mathjs.org/docs/reference/functions.md
 
 
 ##Put it all together
@@ -77,6 +77,6 @@ In this guide, we broke down the code into pieces for clarity, but in an actual 
 
 ## Add grids, bounds, and guides
 
-To learn how to add a grid and bounds to your scatter plot, check out [our full guide on underlays](/guides/underlays.html).
+To learn how to add a grid and bounds to your scatter plot, check out [our full guide on underlays](/guides/underlays.md).
 
 

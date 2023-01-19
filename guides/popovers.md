@@ -1,6 +1,6 @@
 # Popovers
 
-[Profiles](/guides/profiles.html) are great for including detailed background information about what you’re mapping. But sometimes they can be a bit overkill, and they do take up a lot of precious screen space. Sometimes you want to share just a little bit more context about an element or connection without having to open the profile.
+[Profiles](/guides/profiles.md) are great for including detailed background information about what you’re mapping. But sometimes they can be a bit overkill, and they do take up a lot of precious screen space. Sometimes you want to share just a little bit more context about an element or connection without having to open the profile.
 
 **Popovers** allow you to display fields from the profiles when someone hovers over an element, connection, or loop.
 
@@ -9,13 +9,13 @@
 
 <div class="alert alert-warning">
   <p>
-    When you're editing the map, the <a href="/guides/direct-decorations.html" class="alert-link">direct decorations toolbar</a> will hide popovers.
+    When you're editing the map, the <a href="/guides/direct-decorations.md" class="alert-link">direct decorations toolbar</a> will hide popovers.
   </p>
   <p>
-    However, anyone who has view-only access to the map or is viewing a <a href="/guides/presentations.html" class="alert-link">presentation</a> or a <a href="/guides/share-and-embed.html" class="alert-link">shared/embedded map</a> will still see your popovers (the direct decorations toolbar is hidden for them, since they can't make edits to your map).
+    However, anyone who has view-only access to the map or is viewing a <a href="/guides/presentations.md" class="alert-link">presentation</a> or a <a href="/guides/share-and-embed.md" class="alert-link">shared/embedded map</a> will still see your popovers (the direct decorations toolbar is hidden for them, since they can't make edits to your map).
   </p>
   <p>
-    If you're building popovers and just want to see how they look before you publish, you can either follow the instructions in the <a href="/guides/direct-decorations.html" class="alert-link">direct decorations guide</a> to turn off the direct decorations toolbar, or simply click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the bottom right corner and select "Switch to preview mode".
+    If you're building popovers and just want to see how they look before you publish, you can either follow the instructions in the <a href="/guides/direct-decorations.md" class="alert-link">direct decorations guide</a> to turn off the direct decorations toolbar, or simply click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the bottom right corner and select "Switch to preview mode".
   </p>
 </div>
 
@@ -32,7 +32,7 @@ selector {
 ```
 {% endraw %}
 
-Replace `selector` with any valid [selector](/guides/selectors.html), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets {% raw %} `{{}}` {% endraw %} and wrap the entire popover value in double quotes.
+Replace `selector` with any valid [selector](/guides/selectors.md), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets {% raw %} `{{}}` {% endraw %} and wrap the entire popover value in double quotes.
 
 For example, here is the code for an **element** popover that includes the **label** and **element type**:
 
@@ -50,7 +50,7 @@ When using the <strong>Type</strong> field in popovers, you need to specify whet
 
 ## Using markdown to style the popover
 
-You can use [markdown](/guides/markdown.html) to add italics, bold text, videos, and more to your popover. You can also add double spaces to create line breaks.
+You can use [markdown](/guides/markdown.md) to add italics, bold text, videos, and more to your popover. You can also add double spaces to create line breaks.
 
 Here's a popover that uses markdown to style the label, add a horizontal rule, and add line breaks in between the fields:
 

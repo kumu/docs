@@ -1,6 +1,6 @@
 # Widgets
 
-We've built a flexible widget framework to give superpowers to the [Map Overview](/overview/map-editor.html#side-panel) and the Description field in [profiles](/guides/profiles.html).
+We've built a flexible widget framework to give superpowers to the [Map Overview](/overview/map-editor.md#side-panel) and the Description field in [profiles](/guides/profiles.md).
 
 ![image of list of connections belonging to an element](/images/list-widget-element-connections.png)
 
@@ -33,9 +33,9 @@ For a basic list, just type `list/` inside your double square brackets, and  the
 
 ![List widget](/images/list-loops.png)
 
-All the items in the list are links—you can hover over a link to [showcase](/guides/showcase.html) an item on the map, or you can click a link to jump to the profile for that item.
+All the items in the list are links—you can hover over a link to [showcase](/guides/showcase.md) an item on the map, or you can click a link to jump to the profile for that item.
 
-Basic lists can also be sorted by any field in your [profiles](/guides/profiles.html). To do so, add `?sort=field-name` after `elements`, `connections`, or `loops`, and replace `field-name` with a [slug](/guides/slugs.html) of the field name you want to sort by.
+Basic lists can also be sorted by any field in your [profiles](/guides/profiles.md). To do so, add `?sort=field-name` after `elements`, `connections`, or `loops`, and replace `field-name` with a [slug](/guides/slugs.md) of the field name you want to sort by.
 
 ```
 [[list/connection?sort=strength]]
@@ -58,7 +58,7 @@ To list only specific types of elements, connections, or loops,
 **Limiting by type.**
 Rather than including all elements, you may want to build a list of only elements of a certain type. Entering `[[list/person]]` would create a list of only the elements with type "person". Note: This only works for single-word values. If you have more complex values for the type field, use the selector guidance below. -->
 
-To create a list that is more specific that "all elements", for example, you can type `list` and a [selector](/guides/selectors.html) in double quotes.
+To create a list that is more specific that "all elements", for example, you can type `list` and a [selector](/guides/selectors.md) in double quotes.
 
 ```
 [[list "person"]]                   --> List elements with "Person" in the Type field
@@ -74,11 +74,11 @@ Having trouble writing the right selector for your use case? Feel free to [email
 </div>
 
 <p class="alert alert-info">
-  If you want to list all of an element's connections in it's profile, we wrote <a class="alert-link" href="/faq/how-do-i-list-an-elements-connections-in-its-profile.html">a more detailed article</a> on how to achieve that.
+  If you want to list all of an element's connections in it's profile, we wrote <a class="alert-link" href="/faq/how-do-i-list-an-elements-connections-in-its-profile.md">a more detailed article</a> on how to achieve that.
 </p>
 
 
-These more specific lists, like basic lists, can also be sorted by any field in your [profiles](/guides/profiles.html). To do so, add `?sort=field-name` after `list` and before the selector, and replace `field-name` with a [slug](/guides/slugs.html) of the field name you want to sort by.
+These more specific lists, like basic lists, can also be sorted by any field in your [profiles](/guides/profiles.md). To do so, add `?sort=field-name` after `list` and before the selector, and replace `field-name` with a [slug](/guides/slugs.md) of the field name you want to sort by.
 
 ```
 [[list?sort=net-worth "person"]]

@@ -4,7 +4,7 @@ Using the Advanced Editor, you can easily bring in any [Font Awesome icon](https
 
 ![elements with icons to show element type](/images/icons.png)
 
-To get started, add a new block of code. You can use any element [selector](/guides/selectors.html) to open the block, then use the icon property to specify which icon you’d like to bring in, and use the icon-color property to specify its color:
+To get started, add a new block of code. You can use any element [selector](/guides/selectors.md) to open the block, then use the icon property to specify which icon you’d like to bring in, and use the icon-color property to specify its color:
 
 ```
 person {

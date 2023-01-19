@@ -1,6 +1,6 @@
 # Clustering
 
-Clustering is a powerful tool that allows you to connect elements based on the data in their [fields](/guides/fields.html), and it's particularly useful on stakeholder and network maps.
+Clustering is a powerful tool that allows you to connect elements based on the data in their [fields](/guides/fields.md), and it's particularly useful on stakeholder and network maps.
 
 When clustering is activated, Kumu will create new elements to represent each possible value for a field of your choice, and it will draw a connection between your elements and the value(s) in their field.
 
@@ -12,7 +12,7 @@ Here's a visual example—musical artists clustered by their genre:
 This guide will make you an expert on clustering, one of Kumu's most unique and powerful tools!
 
 <p class="alert alert-info">
-Before you start: <a class="alert-link" href="/guides/fields.html">use fields</a> to add additional information to your elements, connections, and loops.
+Before you start: <a class="alert-link" href="/guides/fields.md">use fields</a> to add additional information to your elements, connections, and loops.
 </p>
 
 

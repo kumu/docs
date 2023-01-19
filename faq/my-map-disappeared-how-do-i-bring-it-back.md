@@ -5,16 +5,16 @@ If it seems like your entire map, or parts of your map, have suddenly disappeare
 
 ## Is focus turned on?
 
-Kumu's [focus feature](/guides/focus.html) has the ability to hide entire sections of your map, narrowing focus to just a small selection. This is really useful when you need it—but can be pretty scary if you see most of your map disappear without explanation!
+Kumu's [focus feature](/guides/focus.md) has the ability to hide entire sections of your map, narrowing focus to just a small selection. This is really useful when you need it—but can be pretty scary if you see most of your map disappear without explanation!
 
 To know when focus is turned on, look for a blue target icon <i class="fa fa-crosshairs"> on the right side of the map. If it's blue, click it to turn focus off, or just press `Esc` on your keyboard.
 
 
 ## Has a filter been applied?
 
-Kumu's [filter feature](/guides/filter.html) can show and hide elements, connections, and loops based on the content in their profiles.
+Kumu's [filter feature](/guides/filter.md) can show and hide elements, connections, and loops based on the content in their profiles.
 
-To check if a filter has been applied and might be hiding some or all of your content, open up the [Basic Editor](/overview/view-editors.html#basic-editor), and look at the text next to **Filter**, which tells you the number of hidden items. If that text indicates there are hidden items, click the settings icon to the right of **Filter**, and see if you can adjust the filter settings to bring your data back into view.
+To check if a filter has been applied and might be hiding some or all of your content, open up the [Basic Editor](/overview/view-editors.md#basic-editor), and look at the text next to **Filter**, which tells you the number of hidden items. If that text indicates there are hidden items, click the settings icon to the right of **Filter**, and see if you can adjust the filter settings to bring your data back into view.
   
 Another option is to go into your Advanced Editor and see if you can find a line of code saying ignore: "element code or name";. You can delete that line and it will bring that/those element(s)back. Don't forget to click Save at the bottom!
 
@@ -26,7 +26,7 @@ If you imported your data through Google Sheets, then that link is the lifeline 
   
 ## Do you have pinned elements in a map with a geo template?
 
-On rare occasions, elements in one map might disappear because elements on a geo template were [pinned down](/faq/how-do-keep-elements-from-moving.html) in _another_ map. If you have a geo template in any of your maps, please navigate there and: click "A" on your keyboard to select all elements on the map, and then click Alt + P (option + P for mac) to unpin the elements. Wait for the message "You unpinned X elements in your map" in the bottom-left corner, and then navigate to the map that was blank. Your data should now be back!
+On rare occasions, elements in one map might disappear because elements on a geo template were [pinned down](/faq/how-do-keep-elements-from-moving.md) in _another_ map. If you have a geo template in any of your maps, please navigate there and: click "A" on your keyboard to select all elements on the map, and then click Alt + P (option + P for mac) to unpin the elements. Wait for the message "You unpinned X elements in your map" in the bottom-left corner, and then navigate to the map that was blank. Your data should now be back!
 
 ## Has the data been deleted?
 

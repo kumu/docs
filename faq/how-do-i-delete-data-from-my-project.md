@@ -1,7 +1,7 @@
 # How do delete data from my project?
 
 <p class="alert alert-danger">
-Before you start: <a class="alert-link" href="/guides/blueprints.html#project-backups">Learn how to create a full project backup</a>
+Before you start: <a class="alert-link" href="/guides/blueprints.md#project-backups">Learn how to create a full project backup</a>
 </p>
 
 Whether you want to import an entirely new dataset or just clear out some old elements and connections, you'll need to know how to delete data (elements, connections, loops) from your project.

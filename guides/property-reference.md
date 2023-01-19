@@ -25,11 +25,11 @@ There are just few more things you should know about the valid values listed bel
     </tr>
     <tr>
       <td><code>colorPalette</code></td>
-      <td>The name of one of our <a href="/guides/color-reference.html">color palettes</a></td>
+      <td>The name of one of our <a href="/guides/color-reference.md">color palettes</a></td>
     </tr>
     <tr>
       <td><code>'Field name'</code></td>
-      <td>The name of any of your <a href="/guides/fields.html">fields</a>, wrapped in single or double quotes</td>
+      <td>The name of any of your <a href="/guides/fields.md">fields</a>, wrapped in single or double quotes</td>
     </tr>
     <tr>
       <td><code>number</code> or <code>[number]</code></td>
@@ -69,7 +69,7 @@ There are just few more things you should know about the valid values listed bel
     </tr>
     <tr>
       <td><code>string template</code></td>
-      <td>Any combination of letters, numbers, <a href="/guides/markdown.html">supported markdown (including raw HTML)</a>, or names of your fields wrapped in double curly brackets <code>{% raw %}{{}}{% endraw %}</code>. Wrap the entire thing in double quotes. See our <a href="/guides/label-templates.html">label templates guide</a> for examples.</td>
+      <td>Any combination of letters, numbers, <a href="/guides/markdown.md">supported markdown (including raw HTML)</a>, or names of your fields wrapped in double curly brackets <code>{% raw %}{{}}{% endraw %}</code>. Wrap the entire thing in double quotes. See our <a href="/guides/label-templates.md">label templates guide</a> for examples.</td>
     </tr>
     <tr>
       <td><code>auto</code>, <code>background</code>, <code>bold</code>, <code>bottom</code>, <code>center</code>, <code>circle</code>, <code>clip</code>, <code>contain</code>, <code>cover</code>, <code>dashed</code>, <code>gradient</code>, <code>hidden</code>, <code>inherit</code>, <code>italic</code>, <code>manual</code>, <code>map</code>, <code>none</code>, <code>normal</code>, <code>off</code>, <code>rectangle</code>, <code>solid</code>, <code>square</code>, <code>url</code>, <code>visible</code>, or <code>wrap</code></td>

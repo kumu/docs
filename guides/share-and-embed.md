@@ -41,7 +41,7 @@ embed.kumu.io/abc123?scroll=1
 
 When you're editing a map, it's usually helpful to have the search bar, settings button, zoom buttons, etc. For the shareable version of a map, though, you might want to hide some or all of these parts of the interface.
 
-For more information on how to do that, check out our guide on [hiding the settings button](/faq/how-do-i-hide-the-settings-button.html).
+For more information on how to do that, check out our guide on [hiding the settings button](/faq/how-do-i-hide-the-settings-button.md).
 
 
 ## Embed a presentation

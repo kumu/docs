@@ -12,7 +12,7 @@ element {
 }
 ```
 
-To only change the _position_ of element labels, go to [this guide](/faq/how-do-i-change-element-text-position.html). 
+To only change the _position_ of element labels, go to [this guide](/faq/how-do-i-change-element-text-position.md). 
 
 ## Hide connection labels
 To hide the connection labels in your map, add the following code to your Advanced Editor:
@@ -24,5 +24,5 @@ connection {
 ```
 
 <p class="alert alert-info">
-If you'd like to refine which elements or connections to show labels for and which not, please visit our <a class="alert-link" href="/guides/selectors.html">Selectors guide</a> to change the selector to something more precise. 
+If you'd like to refine which elements or connections to show labels for and which not, please visit our <a class="alert-link" href="/guides/selectors.md">Selectors guide</a> to change the selector to something more precise. 
 </p>

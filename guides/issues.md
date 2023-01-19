@@ -1,16 +1,16 @@
 # Issues
 
-With issues (an exclusive feature for [Pro workspaces](/guides/pro-workspaces.html)) you can chat with your team and attach comments to items in your map—all within Kumu, all in real time!
+With issues (an exclusive feature for [Pro workspaces](/guides/pro-workspaces.md)) you can chat with your team and attach comments to items in your map—all within Kumu, all in real time!
 
-To open up the issues pane, click the issues icon <i class="fa fa-comments-o"></i> in the [bottom toolbar](/overview/map-editor.html#bottom-toolbar).
+To open up the issues pane, click the issues icon <i class="fa fa-comments-o"></i> in the [bottom toolbar](/overview/map-editor.md#bottom-toolbar).
 
 ![Picture of the issues pane](/images/issues.png)
 
-To create an issue, click the **New issue** button, and to join an existing issue, simply select it from the list. When you're commenting on an issue, you can use [Markdown](/guides/markdown.html) to add basic formatting, as well as links, images, and even videos.
+To create an issue, click the **New issue** button, and to join an existing issue, simply select it from the list. When you're commenting on an issue, you can use [Markdown](/guides/markdown.md) to add basic formatting, as well as links, images, and even videos.
 
 To tag team members, you can use `@username`. You can reference elements and labelled connections & loops on the map with `[[label]]`. Or, just type `[[`, and the comment box will prompt you with a list of available labels.
 
-You can also attach an issue directly to an element, connection, or loop on the map. To do that, select your item(s), and click the comment icon <i class="fa fa-comment-o">  </i> in the [side panel](/overview/map-editor.html#side-panel). An asterisk <i class="fa fa-asterisk">  </i> will appear on the map next to each item that was selected when you created the issue.
+You can also attach an issue directly to an element, connection, or loop on the map. To do that, select your item(s), and click the comment icon <i class="fa fa-comment-o">  </i> in the [side panel](/overview/map-editor.md#side-panel). An asterisk <i class="fa fa-asterisk">  </i> will appear on the map next to each item that was selected when you created the issue.
 
 <!-- screenshot -->
 
@@ -37,7 +37,7 @@ If you're ever having trouble finding a conversation, just use the search bar on
 
 
 <p class="alert alert-info">
-Issues are an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces.html">Pro workspaces</a>.
+Issues are an exclusive feature for <a class="alert-link" href="/guides/pro-workspaces.md">Pro workspaces</a>.
 </p>
 
 

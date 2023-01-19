@@ -1,6 +1,6 @@
 # Partial views
 
-[Views](/guides/views.html) offer a lot of powerful features—[decorations](/guides/decorate.html) for sizing and coloring your data, [filters](/guides/filter.html) for showing/hiding different items, [controls](/guides/controls.html) for adding rich interactivity to your maps, and much more.
+[Views](/guides/views.md) offer a lot of powerful features—[decorations](/guides/decorate.md) for sizing and coloring your data, [filters](/guides/filter.md) for showing/hiding different items, [controls](/guides/controls.md) for adding rich interactivity to your maps, and much more.
 
 For most maps, you'll probably curate one view that highlights your data in the best way possible, but more complex data demands a more complex visual. Different color-coding and sizing rules, levels of focus, cluster connections...in short, to get the most value out of a more complex dataset, you'll need to create several different visual variations.
 
@@ -17,7 +17,7 @@ A **partial view** is almost exactly like a normal view—in the Advanced Editor
 
 If you want to build partial views, some Advanced Editor work will be required, but you definitely don't need to code everything by hand if you don't want to.
 
-For an alternative, potentially easier workflow, create a new view in your project and use the [Basic Editor](/overview/view-editors.html#basic-editor) to build out your desired view there, isolated from everything else.
+For an alternative, potentially easier workflow, create a new view in your project and use the [Basic Editor](/overview/view-editors.md#basic-editor) to build out your desired view there, isolated from everything else.
 
 When you're satisfied with your view, open the Advanced Editor and copy all of its code to your clipboard. Return to the original view, and follow the rest of this guide to make sure your copied code ends up in the correct place. You can also watch the quick tip above to see a real-world example of how this works.
 
@@ -30,7 +30,7 @@ Use an `@view` block to define a partial view:
   // any view code can go in here, including @settings, @controls, @imports, and anything you have copied from other views in your project
 }
 ```
-Replace `name` with the name of your partial view (keep the double quotes). This `name` should be unique to the partial view—you'll use it in [`@import`](/guides/imported-views.html) rules and in the view toggle control to refer to your partial view.
+Replace `name` with the name of your partial view (keep the double quotes). This `name` should be unique to the partial view—you'll use it in [`@import`](/guides/imported-views.md) rules and in the view toggle control to refer to your partial view.
 
 Here's how you use a partial view's `name` to `@import` it into other partial views:
 
@@ -138,7 +138,7 @@ You can also use the `option {}` syntax if you'd like to customize the list of o
 
 ## The partial view cascade
 
-Kumu's advanced editor applies decorations in a cascading order. This means that your most recently created decorations _can_ override your older decorations. Read more about this basic rule [here](/guides/data-driven-decorations.html#the-decorations-cascade). When using partial views, you might sometimes notice that your partial view isn't overriding the decorations of your default view. Read on below to learn how that works, and how you can work around it. 
+Kumu's advanced editor applies decorations in a cascading order. This means that your most recently created decorations _can_ override your older decorations. Read more about this basic rule [here](/guides/data-driven-decorations.md#the-decorations-cascade). When using partial views, you might sometimes notice that your partial view isn't overriding the decorations of your default view. Read on below to learn how that works, and how you can work around it. 
 
 **Basic rule:** 
 A separate element block of code will always override an @settings block, even when dealing with partial views. 

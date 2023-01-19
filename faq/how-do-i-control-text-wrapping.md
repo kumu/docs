@@ -1,12 +1,12 @@
 # How do I control text wrapping?
 
 <p class="alert alert-warning">
-It's not possible to control text-wrapping when you're using the <a href="/guides/templates.html#sna-social-network-analysis-template" class="alert-link">SNA template</a>, or any view that has "fast" quality or uses the WebGL renderer.
+It's not possible to control text-wrapping when you're using the <a href="/guides/templates.md#sna-social-network-analysis-template" class="alert-link">SNA template</a>, or any view that has "fast" quality or uses the WebGL renderer.
 </p>
 
 When you want to fit text inside of an element, or just make sure that labels underneath elements aren't too wide, you can customize your **text-wrapping**.
 
-As long as you aren't using the [SNA template](/guides/templates.html#sna-social-network-analysis-template), "fast" quality, or the WebGL renderer, you can force a line break in the label of an element, connection, or loop by adding a **double-space** inside the label.
+As long as you aren't using the [SNA template](/guides/templates.md#sna-social-network-analysis-template), "fast" quality, or the WebGL renderer, you can force a line break in the label of an element, connection, or loop by adding a **double-space** inside the label.
 
 Here's a screenshot of an element before adding any double-spaces:
 
@@ -16,7 +16,7 @@ And here's a screenshot of that same element, with a double-space between the wo
 
 ![element with unusually long label broken up using double-spaces](/images/unusually-long-label-double-space.png)
 
-For a solution that's a bit more automated, and doesn't require you to open each profile and tinker with double-spaces in every label, you can use the `text-overflow` property in the Advanced Editor. You can use `text-overflow` inside of [`@settings`](/guides/default-view-settings.html#change-default-view-settings-in-the-advanced-editor), or inside of a block that starts with any [selector](/guides/selectors.html).
+For a solution that's a bit more automated, and doesn't require you to open each profile and tinker with double-spaces in every label, you can use the `text-overflow` property in the Advanced Editor. You can use `text-overflow` inside of [`@settings`](/guides/default-view-settings.md#change-default-view-settings-in-the-advanced-editor), or inside of a block that starts with any [selector](/guides/selectors.md).
 
 ```
 @settings {

@@ -42,10 +42,10 @@ After you create the required column headers, you can start filling out the rows
 
 ...etc.
 
-All of these optional columns can be used to add data to [fields](/guides/fields.html) inside your elements and connections. If you want to store multiple values inside of one cell (for example, tags or keywords), just separate each value with the pipe character `|`. If you put multiple elements in the "To" cell of a connection, separating each element with the pipe character `|`, Kumu will draw a connection from the "From" element to each separate element in the "To" cell.
+All of these optional columns can be used to add data to [fields](/guides/fields.md) inside your elements and connections. If you want to store multiple values inside of one cell (for example, tags or keywords), just separate each value with the pipe character `|`. If you put multiple elements in the "To" cell of a connection, separating each element with the pipe character `|`, Kumu will draw a connection from the "From" element to each separate element in the "To" cell.
 
 <p class="alert alert-info">
-  It's also possible to use <b>ID</b> as the first column header in element and connection sheets. To learn how and why you would do that, <a class="alert-link" href="/faq/how-do-I-avoid-duplicating-data.html">check out our guide on avoiding duplicate data</a>.
+  It's also possible to use <b>ID</b> as the first column header in element and connection sheets. To learn how and why you would do that, <a class="alert-link" href="/faq/how-do-I-avoid-duplicating-data.md">check out our guide on avoiding duplicate data</a>.
 </p>
 
 Here's a sample element import spreadsheet:
@@ -108,7 +108,7 @@ And here's a sample connection import spreadsheet:
 </p>
 
 <p class="alert alert-info">
-  If you need to convert an <a class="alert-link" href="https://en.wikipedia.org/wiki/Adjacency_matrix" target="_blank" rel="noopener">adjacency matrix</a> to meet Kumu's format, see our <a class="alert-link" href="/faq/how-do-i-restructure-my-adjacency-matrix.html" target="_blank" rel="noopener">"How do I restructure my adjacency matrix"</a> FAQ.
+  If you need to convert an <a class="alert-link" href="https://en.wikipedia.org/wiki/Adjacency_matrix" target="_blank" rel="noopener">adjacency matrix</a> to meet Kumu's format, see our <a class="alert-link" href="/faq/how-do-i-restructure-my-adjacency-matrix.md" target="_blank" rel="noopener">"How do I restructure my adjacency matrix"</a> FAQ.
 </p>
 
 #### Ignore unneeded sheets
@@ -233,7 +233,7 @@ If you prefer keeping everything within a single sheet, you can use two blank ro
 
 #### 2. Take advantage of pre-named fields
 
-Our pre-named fields aren't required in your spreadsheet, but they get special visual treatment in [profiles](/guides/profiles.html), so it's great to use them when you can!
+Our pre-named fields aren't required in your spreadsheet, but they get special visual treatment in [profiles](/guides/profiles.md), so it's great to use them when you can!
 
 <dl>
     <dt>Type</dt>
@@ -243,7 +243,7 @@ Our pre-named fields aren't required in your spreadsheet, but they get special v
 
     <dt>Description</dt>
     <dd>
-      The description field designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even images and videos. <a href="/guides/markdown.html">You can use Markdown</a> to format each description's content.
+      The description field designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even images and videos. <a href="/guides/markdown.md">You can use Markdown</a> to format each description's content.
     </dd>
 
     <dt>Tags</dt>
@@ -268,9 +268,9 @@ For columns with multiple values in a single cell (such as tags, skills, hobbies
 
 #### 4. Try to be selector friendly
 
-[Selectors](/guides/selectors.html) provide a simple way to slice up your data. By keeping your field names and values selector-friendly, you'll be able to write much shorter queries.
+[Selectors](/guides/selectors.md) provide a simple way to slice up your data. By keeping your field names and values selector-friendly, you'll be able to write much shorter queries.
 
-Use single words for your element types, connection types, and tags. By doing so you'll be able to use shorthand selectors in the [Advanced Editor](/overview/view-editors.html#advanced-editor), such as:
+Use single words for your element types, connection types, and tags. By doing so you'll be able to use shorthand selectors in the [Advanced Editor](/overview/view-editors.md#advanced-editor), such as:
 -  `person` To select all elements with type "Person"
 -  `personal-connection` To select all connections with type "Personal"
 -  `project.priority` To select all projects tagged "priority"
@@ -279,7 +279,7 @@ If you include special characters or multiple words, you'll have to use longer s
 
 #### 5. Ask for help!
 
-Still have questions? Having trouble structuring your data? [Let us know!](/about/where-can-i-get-help.html) We've massaged _a lot_ of data to get it into Kumu's format, and we're happy to help.
+Still have questions? Having trouble structuring your data? [Let us know!](/about/where-can-i-get-help.md) We've massaged _a lot_ of data to get it into Kumu's format, and we're happy to help.
 
 
 

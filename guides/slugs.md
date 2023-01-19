@@ -3,9 +3,9 @@
 In Kumu, a **slug** is a piece of text that has had all letters converted to lowercase, all special characters removed, and all spaces replaced with hyphens. Kumu uses slugs in many different places:
 
 - In the URL bar
-- Inside of [selectors](/guides/selectors.html)
-- In [Markdown](/guides/markdown.html)
-- In the [Advanced Editor](/overview/view-editors.html#advanced-editor)
+- Inside of [selectors](/guides/selectors.md)
+- In [Markdown](/guides/markdown.md)
+- In the [Advanced Editor](/overview/view-editors.md#advanced-editor)
 
 Knowing how to recognize, read, and write slugs is a skill that will come in handy, especially if you work in the Advanced Editor! Here are some sample slugs:
 

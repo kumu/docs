@@ -3,11 +3,11 @@
 **Pro workspaces** are shared workspaces that allow multiple Kumu users to collaborate seamlessly, with fine-tuned permissions (view, edit, and admin) for each of the workspace's projects. This makes Pro workspaces a great fit for teams of people that have several active Kumu users.
 
 In addition to flexible user management, Pro workspaces also have access to these exclusive features:
-- **[Private project archiving](/guides/archiving-projects.html).** Have private projects you want to continue to share through Kumu but don’t need to edit? Simply archive the project and you’ll no longer need to pay for it.
-- **[Project-wide activity feed](/guides/activity-feed.html).** Collaborating with a large team to build out your map? Use the activity feed to keep tabs on who’s making each change across your project.
-- **[Real-time, embedded comments](/guides/issues.html).** You’ve done the work of building your map, let us do the heavy lifting to collect the feedback. Engage in discussions and link them to specific elements, connections, and loops. Use comments to brainstorm ideas and make it easy for others to give feedback while you’re building out your map.
-<!-- - **[Single sign-on](/guides/single-sign-on.html).** Enable authentication for your Pro workspace through your SAML 2.0 provider (only Azure AD supported at this time). -->
-<!-- - **Required [multi-factor authentication](/guides/multi-factor-authentication.html).** Multi-factor authentication (MFA) helps keep your account and projects. With a Pro workspace, you can require MFA for everyone accessing your projects. -->
+- **[Private project archiving](/guides/archiving-projects.md).** Have private projects you want to continue to share through Kumu but don’t need to edit? Simply archive the project and you’ll no longer need to pay for it.
+- **[Project-wide activity feed](/guides/activity-feed.md).** Collaborating with a large team to build out your map? Use the activity feed to keep tabs on who’s making each change across your project.
+- **[Real-time, embedded comments](/guides/issues.md).** You’ve done the work of building your map, let us do the heavy lifting to collect the feedback. Engage in discussions and link them to specific elements, connections, and loops. Use comments to brainstorm ideas and make it easy for others to give feedback while you’re building out your map.
+<!-- - **[Single sign-on](/guides/single-sign-on.md).** Enable authentication for your Pro workspace through your SAML 2.0 provider (only Azure AD supported at this time). -->
+<!-- - **Required [multi-factor authentication](/guides/multi-factor-authentication.md).** Multi-factor authentication (MFA) helps keep your account and projects. With a Pro workspace, you can require MFA for everyone accessing your projects. -->
 - **Hourly backups, retained for six months.** Map freely, knowing you have backups of your project data in case you make a mistake.
 - **Customized branding.** Replace Kumu's logos with your own to align your projects with your brand.
 
@@ -45,7 +45,7 @@ Next, you'll want to create a project for your Pro workspace. This works just li
 
 ## Grant direct access to projects
 
-Once you have a project, you can start granting access to other users. If you have the project open, you can go into the [project settings](/overview/settings.html#project-settings) menu and click **Members** to search for and add other users to the project.
+Once you have a project, you can start granting access to other users. If you have the project open, you can go into the [project settings](/overview/settings.md#project-settings) menu and click **Members** to search for and add other users to the project.
 
 ![project add users](/images/pro-workspace-project-users.png)
 
@@ -85,14 +85,14 @@ Now that you've mastered the basics of adding users, check out the next sections
 When you sign up for a Pro workspace, you can tweak Kumu's branding to be more aligned with your brand. Currently, you can:
 
 - Upload a logo to use on the project loading screen
-- Upload a logo to use as a watermark on [embedded maps](/guides/share-and-embed.html)
+- Upload a logo to use as a watermark on [embedded maps](/guides/share-and-embed.md)
 
-To manage your branding settings, go to your [Pro workspace's dashboard](/overview/dashboard.html#pro-workspace-dashboard) and scroll down to the **Branding** section.
+To manage your branding settings, go to your [Pro workspace's dashboard](/overview/dashboard.md#pro-workspace-dashboard) and scroll down to the **Branding** section.
 
 
 ## Tracking
 
-Pro workspaces can use Google Analytics tracking to see how many people are visiting their maps, what items those people are clicking on, and when all that activity is happening. To learn how to set up tracking for your Pro workspace, check out our [full guide on tracking](/guides/tracking.html).
+Pro workspaces can use Google Analytics tracking to see how many people are visiting their maps, what items those people are clicking on, and when all that activity is happening. To learn how to set up tracking for your Pro workspace, check out our [full guide on tracking](/guides/tracking.md).
 
 
 
