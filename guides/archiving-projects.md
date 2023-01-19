@@ -8,7 +8,7 @@ Note, however, that you won't be able to edit the archived project, create new p
 
 To unarchive a project, send an email to [support@kumu.io](mailto:support@kumu.io) with a link to the project, and our team will take the next steps. A $20 unarchiving fee will be billed to the account owner when we unarchive the project, and unarchiving may take a few days.
 
-To archive one of your projects: open the project, then click the menu icon  in the upper left corner to open the [project settings](/overview/settings.md#project-settings). Select **Admin**, and click **Archive project**.
+To archive one of your projects: open the project, then click the menu icon ![](/icons/bars.svg)  in the upper left corner to open the [project settings](/overview/settings.md#project-settings). Select **Admin**, and click **Archive project**.
 
 ![Admin settings](/images/admin-settings.png)
 

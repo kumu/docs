@@ -7,7 +7,7 @@ The map editor is where you'll build the basic structure of your [map](/overview
 
 ## Top toolbar
 
-In the upper left of your map editor, you can find the **top toolbar**. First, you'll see a menu icon , which you can use to access [project settings](/overview/settings.md#project-settings). Next to that icon, you'll see the project name, followed by two dropdown menus.
+In the upper left of your map editor, you can find the **top toolbar**. First, you'll see a menu icon ![](/icons/bars.svg) , which you can use to access [project settings](/overview/settings.md#project-settings). Next to that icon, you'll see the project name, followed by two dropdown menus.
 
 The first dropdown menu allows you to create new maps and navigate to different maps within your [project](/overview/kumus-architecture.md#projects). The second dropdown menu allows you to create new [views](/overview/kumus-architecture.md#views) and apply different views to the current map.
 
@@ -38,14 +38,13 @@ When you select an individual element, connection, or loop on the map, the side 
 ![profile](/images/introduction-profile.png)
 
 Inside the profile, you can add and edit information about the selected item. You can also use the icons in the bottom right of the profile to:
--  <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.md">Attach a comment</a></span> to your selected item
--  Pin an element in a [fixed position](/guides/layouts/fixed.md)
--  Change [connection direction](/faq/how-do-I-add-arrows-to-my-connections.md)
--  Add [delay markings](/guides/system-mapping.md#add-delay-markings)
--  Activate [focus](/guides/focus.md)
--  [Decorate](/guides/decorate.md) the item
--  [Delete](/faq/how-do-i-delete-data-from-my-project.md) the item
-
+- ![](/icons/comments.svg) <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.md">Attach a comment</a></span> to your selected item
+- ![](/icons/thumb-tack.svg) Pin an element in a [fixed position](/guides/layouts/fixed.md)
+- ![](/icons/exchange.svg) Change [connection direction](/faq/how-do-I-add-arrows-to-my-connections.md)
+- ![](/icons/hourglass-half.svg) Add [delay markings](/guides/system-mapping.md#add-delay-markings)
+- ![](/icons/crosshairs.svg) Activate [focus](/guides/focus.md)
+- ![](/icons/tint.svg) [Decorate](/guides/decorate.md) the item
+- ![](/icons/trash.svg) [Delete](/faq/how-do-i-delete-data-from-my-project.md) the item
 
 #### Multiple selections
 
@@ -65,9 +64,9 @@ You can show and hide the side panel by pressing `Tab` on your keyboard or by cl
 
 The star of the show, of course, is the map's canvas, where all of your elements, connections, and loops are displayed. To add new items to the map, click the green  button at the bottom of the canvas. For more guidance on building your map, [check out our First Steps guide](/getting-started/first-steps.md#build-your-first-map).
 
-By default, your canvas will have a search bar in the upper left, a zoom toolbar in the upper right, and a settings icon <i class="fa fa-sliders">  </i> under the zoom toolbar. If you have added a [legend](/guides/legends.md) to your map, it will appear in the lower left of your map's canvas by default.
+By default, your canvas will have a search bar in the upper left, a zoom toolbar in the upper right, and a settings icon ![](/icons/sliders-h.svg)<i class="fa fa-sliders">  </i> under the zoom toolbar. If you have added a [legend](/guides/legends.md) to your map, it will appear in the lower left of your map's canvas by default.
 
-Click on the search bar to search across the current map or across all maps. After you click on the search bar, you can also click on the rocket icon <i class="fa fa-rocket">  </i> to bring up the [selector](/guides/selectors.md) builder, which is useful when you want to select multiple items based on the information in their profiles. Use the zoom toolbar (or scroll up and down with your mouse/touchpad) to change your zoom level, and click the settings icon to access Kumu's [view editors](/overview/view-editors.md).
+Click on the search bar to search across the current map or across all maps. After you click on the search bar, you can also click on the rocket icon ![](/icons/rocket.svg) <i class="fa fa-rocket">  </i> to bring up the [selector](/guides/selectors.md) builder, which is useful when you want to select multiple items based on the information in their profiles. Use the zoom toolbar (or scroll up and down with your mouse/touchpad) to change your zoom level, and click the settings icon ![](/icons/sliders-h.svg)to access Kumu's [view editors](/overview/view-editors.md).
 
 If you ever want to remove or reposition the search bar, zoom toolbar, settings icon, or legend, [check out our guide on controls](/guides/controls.md).
 

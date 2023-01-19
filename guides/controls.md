@@ -10,7 +10,7 @@ and clustering.
 
 ### Add controls through the Basic Editor
 
-You can use the [Basic Editor](/overview/view-editors.md#basic-editor) to add a few simple types of controls to your map. Click the Settings icon  to open the editor, then click **MORE OPTIONS** and select **Add custom control**. Kumu will open up the controls builder, with a few options pre-selected:
+You can use the [Basic Editor](/overview/view-editors.md#basic-editor) to add a few simple types of controls to your map. Click the settings icon ![](/icons/sliders-h.svg) to open the editor, then click **MORE OPTIONS** and select **Add custom control**. Kumu will open up the controls builder, with a few options pre-selected:
 
 ![controls builder ui](/images/control-builder.png)
 

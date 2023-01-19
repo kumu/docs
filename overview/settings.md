@@ -7,7 +7,7 @@ You can edit settings for each [project](/overview/kumus-architecture.md#project
 
 ## Project settings
 
-Project settings are accessed via the menu icon  in the upper left of your screen (on the [top toolbar](/overview/map-editor.md#top-toolbar)).
+Project settings are accessed via the menu icon ![](/icons/bars.svg)  in the upper left of your screen (on the [top toolbar](/overview/map-editor.md#top-toolbar)).
 
 <span class="small plain">
 ![project settings](/images/project-settings.jpg)
@@ -56,7 +56,7 @@ And each map has the following settings:
 
 ## View settings
 
-View settings are accessed via the Settings icon <i class="fa fa-sliders">  </i> on the right side of the map. If you want to save, rename, duplicate, or delete a view, you can click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the upper right. You can also use that icon to set the default view for the current map.
+View settings are accessed via the settings icon ![](/icons/sliders-h.svg)<i class="fa fa-sliders">  </i> on the right side of the map. If you want to save, rename, duplicate, or delete a view, you can click the ellipsis icon <i class="fa fa-ellipsis-h">  </i> in the upper right. You can also use that icon to set the default view for the current map.
 
 <span class="small plain">
 ![view settings](/images/view-settings.png)

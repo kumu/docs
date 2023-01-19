@@ -59,7 +59,7 @@ The customer template allows you to start from scratch: without any default deco
 
 If you tested out one template, but realized it wasn't right for your project, don't worry—switching to a different template just takes a few clicks!
 
-Click the Settings icon  on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS** and select **Customize view defaults** from the list. In the **Customize view defaults** menu that appears, scroll down to the **General settings** section.
+Click the settings icon ![](/icons/sliders-h.svg) on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS** and select **Customize view defaults** from the list. In the **Customize view defaults** menu that appears, scroll down to the **General settings** section.
 
 In that section, you can use the Template dropdown menu to select a different template. Move back to the main Basic Editor panel, then click **SAVE** to finish the process.
 

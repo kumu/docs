@@ -116,13 +116,13 @@ For this walkthrough, fill out the Type field for each of your elements—try to
 
 ### Create your first decoration
 
-Click the Settings icon  on the right side of the map to open up the Basic Editor. You'll see the three most popular settings listed, allowing you to size or color elements by a field, or connect your elements by shared values (we'll cover that third option a bit later).
+Click the settings icon ![](/icons/sliders-h.svg) on the right side of the map to open up the Basic Editor. You'll see the three most popular settings listed, allowing you to size or color elements by a field, or connect your elements by shared values (we'll cover that third option a bit later).
 
 <img src="/images/overview-basic-editor.png" class="plain" style="width: 600px;">
 
 If you have filled out the Type field for your elements, try selecting **Element Type** from the dropdown menu next to **Color by**. Kumu will automatically color-code all of your elements by Type, and you can click the expand icon  to choose a different color scale.
 
-Your first decoration is complete! If you like what you see, click **SAVE** at the bottom of the Basic Editor, and click the Settings icon  again (or press `T` on your keyboard) to return to your map.
+Your first decoration is complete! If you like what you see, click **SAVE** at the bottom of the Basic Editor, and click the settings icon ![](/icons/sliders-h.svg) again (or press `T` on your keyboard) to return to your map.
 
 When you're ready to add more customized, detailed decorations, take a look at our [decorations guide](/guides/decorate.md).
 
@@ -163,7 +163,7 @@ Once focus is activated, everything except your selected items will be hidden fr
 
 ![focus animation](../images/focus.gif)
 
-If you'd like to clear your focus and bring back the full map, click the focus icon on the right (underneath the Settings icon ) and select **Clear**.
+If you'd like to clear your focus and bring back the full map, click the focus icon on the right (underneath the settings icon ![](/icons/sliders-h.svg)) and select **Clear**.
 
 {% hint style="info" %}
 To extend focus to a specific degree, use the numbers <code>0-9</code> on your keyboard. To quickly clear your focus, press the <code>esc</code> key.
@@ -191,7 +191,7 @@ Clustering allows you to connect elements based on the data in their fields, and
 
 When clustering is activated, Kumu will create new elements to represent each possible value for the field that you chose, and it will draw a connection between your elements and the value(s) in their field. For example, if you have an element with the element type "Organization", Kumu will create an element labelled "Organization" and connect your element to it.
 
-To add multiple cluster rules, click the settings icon to the right of the **Connect by** tool.
+To add multiple cluster rules, click the settings icon ![](/icons/sliders-h.svg)to the right of the **Connect by** tool.
 
 ![Cluster basic editor](/images/overview-cluster.png)
 
@@ -205,7 +205,7 @@ Just click **Add rule** to cluster by any of the information inside your element
 
 Building maps in Kumu can be a lot of work! Inviting somebody else to contribute to your project is a great way to reach your final destination more quickly. Even if your project is small and manageable, it's a good idea to let someone else weigh in on your data and design to make sure your story gets told effectively.
 
-To add a contributor to a project, click the menu icon <i class="fa fa-bars">  </i> in the upper left of your project, then select **MEMBERS** from the sidebar.
+To add a contributor to a project, click the menu icon ![](/icons/bars.svg) <i class="fa fa-bars">  </i> in the upper left of your project, then select **MEMBERS** from the sidebar.
 
 <span class="small plain">
 ![](/images/settings-members.png)

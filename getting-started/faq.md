@@ -19,7 +19,7 @@ Kumu has a custom layout engine which attempts to arrange elements in the best p
 
 ### How can I get arrows to show up for the connections on my map?
 
-Use the `a` keystroke to select all connections. You can then click the direction icon in the lower right of the selection profile and choose directed, mutual, or undirected. If you find yourself needing to do this often, make sure you've set the right default for connection direction in the settings.
+Use the `a` keystroke to select all connections. You can then click the direction icon ![](/icons/exchange-alt.svg) in the lower right of the selection profile and choose directed, mutual, or undirected. If you find yourself needing to do this often, make sure you've set the right default for connection direction in the settings.
 
 ### Is there a limit to how many collaborators I can have in an account?
 

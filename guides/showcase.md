@@ -12,7 +12,7 @@ Showcase settings can be saved to a [view](/guides/views.md), and these settings
 
 ## Showcase in the Basic Editor
 
-Click the Settings icon on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS**, and select **Showcase elements and connections**.
+Click the settings icon ![](/icons/sliders-h.svg)on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS**, and select **Showcase elements and connections**.
 
 ![Showcase basic editor](/images/overview-showcase.png)
 

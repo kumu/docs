@@ -13,7 +13,7 @@ In Kumu Enterprise, the geo template will not work out of the box—first, you n
 
 To apply the Geo template using the Basic Editor:
 
-1. Click the Settings icon <i class="fa fa-sliders">  </i> on the right side of your map to open the Basic Editor.
+1. Click the settings icon ![](/icons/sliders-h.svg)<i class="fa fa-sliders">  </i> on the right side of your map to open the Basic Editor.
 2. Click **MORE OPTIONS** and select **Customize view defaults** from the list.
 3. Scroll down to the **General settings** section.
 4. In that section, you can use the Template dropdown menu to select the geo template. Move back to the main Basic Editor panel, then click **SAVE** to finish the process.

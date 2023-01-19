@@ -8,7 +8,7 @@ There are also some features of Kumu that can only be accessed through the Advan
 
 ## Basic Editor
 
-To open the Basic Editor, open your map and click the Settings icon  on the right side of the map.
+To open the Basic Editor, open your map and click the settings icon ![](/icons/sliders-h.svg) on the right side of the map.
 
 <span class="small plain">
 ![](/images/overview-basic-editor.png)
@@ -70,7 +70,7 @@ When clustering is activated, Kumu will create new elements to represent each po
 
 ### Filter
 
-**Filter** allows you to show and hide elements, connections or loops based on data stored in the profile. Click the settings icon to the right of **Filter** to open up your filter settings.
+**Filter** allows you to show and hide elements, connections or loops based on data stored in the profile. Click the settings icon ![](/icons/sliders-h.svg)to the right of **Filter** to open up your filter settings.
 
 ![filter](../images/overview-filter.png)
 
@@ -102,7 +102,7 @@ This section of the Basic Editor shows each decoration's legend label, if you ha
 
 ## Advanced Editor
 
-To open the Advanced Editor, click the Settings icon  to open the Basic Editor, then click **SWITCH TO ADVANCED EDITOR** at the bottom of the Basic Editor.
+To open the Advanced Editor, click the settings icon ![](/icons/sliders-h.svg) to open the Basic Editor, then click **SWITCH TO ADVANCED EDITOR** at the bottom of the Basic Editor.
 
 <span class="small plain">
 ![](/images/advanced-editor-hf.png)

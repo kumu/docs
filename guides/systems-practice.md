@@ -23,7 +23,7 @@ Since you're building a system map, make sure to choose the "system" template.
 
 #### Inviting someone to collaborate
 
-If you'd like to collaborate on your map with other team members, open your map and then use the menu icon <i class=
+If you'd like to collaborate on your map with other team members, open your map and then use the menu icon ![](/icons/bars.svg) <i class=
 "fa fa-bars"></i> in the upper left corner to access the project settings. Click on the **MEMBERS** section, then add an email address to invite someone to collaborate. If that person already has a Kumu account, they'll immediately get access. If not, we'll send an invitation asking them to sign up for Kumu, then we'll automatically add their new account to the project.
 
 ![](/images/add-collaborator.png)
@@ -113,7 +113,7 @@ Looking to track more information about each element, connection or loop? You ca
 ## Bringing your map to life with decorations
 Once you've added additional background and context using the profile, you can then bring that context to life by creating [decorations](/guides/decorate.md) based on the values you've saved to the profile. Let's run through an example to color-code elements by the values in their leverage analysis field.
 
-1. Click the settings icon  on the right side of the map to open the [Basic Editor](/overview/view-editors.md#basic-editor)
+1. Click the settings icon ![](/icons/sliders-h.svg) on the right side of the map to open the [Basic Editor](/overview/view-editors.md#basic-editor)
 1. Next to **Color by**, use the dropdown to select "leverage analysis"
 
 And you're done! All elements will now be be marked with colored arcs, and each colored arc represents one of the different options in your leverage analysis field.

@@ -62,7 +62,7 @@ After you fill out data in the profiles, you can use the [Basic Editor](/overvie
 
 ## Decorate in the Basic Editor
 
-To open the Basic Editor, open your map and click the Settings icon  on the right side of the map.
+To open the Basic Editor, open your map and click the settings icon ![](/icons/sliders-h.svg) on the right side of the map.
 
 ![basic editor](/images/overview-basic-editor.png)
 

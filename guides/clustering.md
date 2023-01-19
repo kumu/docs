@@ -33,7 +33,7 @@ If you **cluster** these people by their organizations, you can start to get a b
 
 ## Cluster in the Basic Editor
 
-To set up your first cluster, click the Settings icon  on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
+To set up your first cluster, click the settings icon ![](/icons/sliders-h.svg) on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
 
 **If your elements are people, cluster by...**
 * Tags
@@ -84,7 +84,7 @@ These default rules often won't cause any problems for your map, but there are s
 
 ### Fine-tune in the Basic Editor
 
-To fine-tune your cluster settings in the Basic Editor, click the settings icon to the right of the **Connect by** tool, and your Basic Editor will show you the **Cluster Settings** menu:
+To fine-tune your cluster settings in the Basic Editor, click the settings icon ![](/icons/sliders-h.svg)to the right of the **Connect by** tool, and your Basic Editor will show you the **Cluster Settings** menu:
 
 ![Cluster basic editor](/images/overview-cluster.png)
 
@@ -147,7 +147,7 @@ If you'd like to hide certain fields from your Cluster Settings dropdown menus, 
 
 ![clustering menu](/images/clustering-menu.jpg)
 
-If you want to disable clustering on any of the core fields (label, description, tags, or type), you can click the menu icon , click **FIELDS**, select the field you want to disable, and un-check the clustering box in the Advanced Settings:
+If you want to disable clustering on any of the core fields (label, description, tags, or type), you can click the menu icon ![](/icons/bars.svg) , click **FIELDS**, select the field you want to disable, and un-check the clustering box in the Advanced Settings:
 
 ![advanced settings clustering menu](/images/clustering-menu-advanced.png)
 

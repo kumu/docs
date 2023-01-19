@@ -85,7 +85,7 @@ Some legend entries get added automatically when you apply different [templates]
 
 There are two ways to re-order legend entries, depending on how they were added. If you added legend entries using the **Color by** tool, follow these steps to change the order:
 
-1. Click the menu icon to bring up the [project settings](../overview/settings.md#project-settings)
+1. Click the menu icon ![](/icons/bars.svg) to bring up the [project settings](../overview/settings.md#project-settings)
 2. Select **Fields** from the sidebar on the left
 3. Select the same field you selected in the **Color by** tool—it's settings panel will open up
 4. Drag and drop field values to change their order

@@ -35,7 +35,7 @@ Have you uploaded images, but are not seeing images on the map? Here are a few s
 - If you're entering image links directly:
   - Make sure your link leads directly to the image, rather than a webpage with the image on it. There are many places where you can host your images, but [this website](https://imgbb.com/) is generally a good place to start. 
   - Make sure your image URL is using a secure connection—that is, the link starts with `https` instead of just `http`
-  - Disable image proxy: click the menu icon  in the upper left of the map editor, then click **Admin** and click **disable it**.
+  - Disable image proxy: click the menu icon ![](/icons/bars.svg)  in the upper left of the map editor, then click **Admin** and click **disable it**.
 
 
 #### Using decorations to add images
@@ -99,7 +99,7 @@ Some images won't be displayed in Kumu, because they are using an insecure conne
 You can also use the [Basic Editor](/overview/view-editors.md#basic-editor) to upload an image from your computer to your Kumu project—this will override the `image-url` in your code. Follow these steps:
 
 1. Complete the initial steps above to create your background element, add your Advanced Editor code, and save your changes.
-2. Click the Settings icon  to open the Basic Editor.
+2. Click the settings icon ![](/icons/sliders-h.svg) to open the Basic Editor.
 3. Click **More Options**
 4. Select **Decorate elements**
 5. In the element decoration builder, set the dropdown at the top to "Decorate custom selection"

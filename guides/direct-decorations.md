@@ -28,7 +28,22 @@ If the toolbar is a distraction and you prefer to use rule-based decorations, yo
 
 The table below lists all of the icons you'll find in the direct decorations toolbar for elements, connections, and loops, and what action each icon exposes to you.
 
-<table><thead><tr><th>Action</th><th data-type="checkbox">Elements</th><th data-type="checkbox">Connections</th><th data-type="checkbox">Loops</th></tr></thead><tbody><tr><td>Edit label and type</td><td>true</td><td>true</td><td>true</td></tr><tr><td>Edit font color, font size, font style, and font alignment</td><td>true</td><td>true</td><td>true</td></tr><tr><td>Edit color</td><td>true</td><td>true</td><td>true</td></tr><tr><td>Edit size and/or shape</td><td>true</td><td>true</td><td>false</td></tr><tr><td>Add an image</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Delete item</td><td>true</td><td>true</td><td>true</td></tr><tr><td>More options</td><td>true</td><td>true</td><td>true</td></tr><tr><td>Add a border</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Add a bullseye</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Add a shadow</td><td>true</td><td>false</td><td>false</td></tr><tr><td>Change connection direction</td><td>false</td><td>true</td><td>false</td></tr><tr><td>Add delay markings</td><td>false</td><td>true</td><td>false</td></tr><tr><td>Reset direct decorations</td><td>true</td><td>true</td><td>true</td></tr><tr><td>Visit these docs!</td><td>true</td><td>true</td><td>true</td></tr></tbody></table>
+<table><thead>
+<tr><th>Icon</th><th>Action</th><th data-type="checkbox">Elements</th><th data-type="checkbox">Connections</th><th data-type="checkbox">Loops</th></tr></thead><tbody>
+<tr><td><img src="/icons/pencil.svg" /></td><td>Edit label and type</td><td>true</td><td>true</td><td>true</td></tr>
+<tr><td><img src="/icons/font.svg" /></td><td>Edit font color, font size, font style, and font alignment</td><td>true</td><td>true</td><td>true</td></tr>
+<tr><td><img src="/icons/tint.svg" /></td><td>Edit color</td><td>true</td><td>true</td><td>true</td></tr>
+<tr><td><img src="/icons/arrows-alt.svg" /></td><td>Edit size and/or shape</td><td>true</td><td>true</td><td>false</td></tr>
+<tr><td><img src="/icons/image.svg" /></td><td>Add an image</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td><img src="/icons/trash.svg" /></td><td>Delete item</td><td>true</td><td>true</td><td>true</td></tr>
+<tr><td><img src="/icons/ellipsis-h.svg" /></td><td>More options</td><td>true</td><td>true</td><td>true</td></tr>
+<tr><td><img src="/icons/circle.svg" /></td><td>Add a border</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td><img src="/icons/dot-circle.svg" /></td><td>Add a bullseye</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td><img src="/icons/adjust.svg" /></td><td>Add a shadow</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td><img src="/icons/exchange.svg" /></td><td>Change connection direction</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td><img src="/icons/hourglass-half.svg" /></td><td>Add delay markings</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td><img src="/icons/eye-slash.svg" /></td><td>Reset direct decorations</td><td>true</td><td>true</td><td>true</td></tr>
+<tr><td>Visit these docs!</td><td>true</td><td>true</td><td>true</td></tr></tbody></table>
 
 ## Undo direct decorations
 
