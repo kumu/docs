@@ -16,14 +16,13 @@ The first dropdown menu allows you to create new maps and navigate to different 
 
 In the bottom right corner of your map editor, you'll see a toolbar with several icons that let you take useful actions within your project.
 
--  The magic wand brings up a [quick actions](/guides/quick-actions.md) menu that allows you to search for tools, actions, and how-to videos
--  The flask gives you access to [social network analysis metrics](/guides/metrics.md) and [community detection](/guides/metrics.md#community-detection)
--  The chat bubble opens up <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.md">issues</a></span>, where you can chat with your team and attach comments to the map
--  The table brings up Kumu's [Table](/guides/table.md) tool
--  The download icon exposes several [export](/guides/export.md) options
--  The share icon will help you [share or embed](/guides/share-and-embed.md) your project
--  The ellipsis brings up miscellaneous actions, like entering fullscreen or preview mode
-
+- ![](/icons/magic.svg) The magic wand brings up a [quick actions](/guides/quick-actions.md) menu that allows you to search for tools, actions, and how-to videos
+- ![](/icons/flask.svg) The flask gives you access to [social network analysis metrics](/guides/metrics.md) and [community detection](/guides/metrics.md#community-detection)
+- ![](/icons/comment.svg) The chat bubble opens up <span data-placement="top" data-html="true" title="Available for Pro workspaces only"><a href="/guides/issues.md">issues</a></span>, where you can chat with your team and attach comments to the map
+- ![](/icons/table.svg) The table brings up Kumu's [Table](/guides/table.md) tool
+- ![](/icons/download.svg) The download icon exposes several [export](/guides/export.md) options
+- ![](/icons/share.svg) The share icon will help you [share or embed](/guides/share-and-embed.md) your project
+- ![](/icons/ellipsis-h.svg) The ellipsis brings up miscellaneous actions, like entering fullscreen or preview mode
 
 ## Side panel
 
