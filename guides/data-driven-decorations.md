@@ -158,7 +158,7 @@ If you've seen or used [Cascading Style Sheets (CSS)](https://developer.mozilla.
 
 If you haven't seen or used CSS, don't worry! Most Advanced Editor code follows the same straightforward pattern:
 
-```
+```scss
 selector {
     property: value;
 }
@@ -168,7 +168,7 @@ selector {
 
 For example, if you were mapping a network of politicians, you could add a field called "Political Party", fill out the data for each element, then use this code to add a few decorations:
 
-```
+```scss
 element ["Political Party"] {
     size: 40;
     border-width: 2;
@@ -198,7 +198,7 @@ You can click and drag decorations in the [existing decorations](/overview/view-
 
 If you're decorating via the Advanced Editor, Kumu will read and apply your decoration code from top to bottom. In the example below, all elements will first be colored blue (`#428cba`), but then will be changed to green (`#5cb85c`).
 
-```
+```scss
 /* Color everything blue */
 element {
   color: #428cba;

@@ -4,7 +4,7 @@ When you're building a map, it's usually helpful to have the settings button  cl
 
 To hide the settings button, you can use [controls](/guides/controls.md). Specifically, you can copy/paste this snippet of code into your [Advanced Editor](/overview/view-editors.md#advanced-editor), right at the top:
 
-```
+```scss
 @controls {
   top-right {
     zoom-toolbar {}

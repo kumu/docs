@@ -128,7 +128,7 @@ Automatic loop detection is not (yet) available for maps imported with Google Sh
 
 Once you've identified your loops, you might want to customize how they look! One common thing to change is your loops' font size. This can be done in the Advanced Editor, like so:
 
-```
+```scss
 loop {
   font-size: 40; // Replace with any number
 }
@@ -136,7 +136,7 @@ loop {
 
 This code will change the font size for all loops. If you just want to change the size for a specific loop, you can use a [selector](/guides/selectors.md). Here's an example that selects by label to decorate one loop:
 
-```
+```scss
 // replace My Specific Loop with the label of your loop
 loop[Label = "My Specific Loop"] {
   font-size: 40;
@@ -145,7 +145,7 @@ loop[Label = "My Specific Loop"] {
 
 Less common, but still useful, is to categorize loops with types like Vicious, Virtuous, Stagnating, and Stabilizing, then color-code by those loop types. If you add those types to the Loop Type field (under the Label in the profile), you can use this code to color code automatically:
 
-```
+```scss
 loop {
   font-color: categorize("Loop Type", olympic)
 }

@@ -12,7 +12,7 @@ Is the <b>Color by</b> tool applying flags for a field that isn't a multi-pick f
 
 In the Advanced Editor, you can use the `flags` property to add flags. Here's the basic syntax:
 
-```
+```scss
 element {
     flag: "Field" with colorPalette;
 }
@@ -22,7 +22,7 @@ You can replace `element` with any element [selector](/guides/selectors.md), `Fi
 
 You can also activate flags using the `@settings` block, like so:
 
-```
+```scss
 @settings {
   element-flag: "Leverage Analysis" with neon2;
 }
@@ -32,7 +32,7 @@ The advantage of using `@settings` to apply flags is that all of your colors and
 
 The downside of using `@settings` to apply flags is that the decoration will always be applied to *all* the elements on your map—which might not always be desirable! But, it's easy to turn off flags for certain elements using `flag: none`, like so:
 
-```
+```scss
 @settings {
   element-flag: "Leverage Analysis" with neon2;
 }
@@ -46,7 +46,7 @@ This code uses the `@settings` block to add flags to all elements, then, taking 
 
 You can also manually assign colors to values if you just want to choose specific colors for specific values, or if you don't want to highlight the whole set.
 
-```
+```scss
 @settings {
   element-flag: "Leverage Analysis" with yellow "bright spot", #2dc63f "frozen";
 }

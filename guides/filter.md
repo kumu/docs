@@ -24,7 +24,7 @@ Use the **But ignore** tool to hide elements and connections from your map. Anyt
 
 If you prefer working in the Advanced Editor, you can use the `include` and `ignore` properties in the `@settings` block to activate filters. Here's the basic syntax:
 
-```
+```scss
 @settings {
     include: selector;
     ignore: selector;
@@ -33,7 +33,7 @@ If you prefer working in the Advanced Editor, you can use the `include` and `ign
 
 You can replace `selector` with any valid [selector](/guides/selectors.md). For example, here is the code for a view that includes elements with the element type "Person" but ignores all elements who have no Tags in their profile:
 
-```
+```scss
 @settings {
     include: person;
     ignore: element[!"tags"];
@@ -45,7 +45,7 @@ If you want to include or ignore multiple different selections, you can separate
 1. All elements with the element type "Organization"
 1. All people with the tag "Board of Directors"
 
-```
+```scss
 @settings {
     include: connection, organization, element["tags"*="Board of Directors"];
 }
@@ -55,7 +55,7 @@ If you want to include or ignore multiple different selections, you can separate
 
 You can also use the `ignore-orphans` property in the `@settings` block to automatically filter out any elements that have no connections. Possible values for this property are `true` or `false`.
 
-```
+```scss
 @settings {
     ignore-orphans: true;
 }

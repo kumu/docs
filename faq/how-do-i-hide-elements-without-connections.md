@@ -4,7 +4,7 @@ Elements without any connections are called "orphans" and might sometimes distra
 
 To hide orphans in your map, use the `ignore-orphans` property in the `@settings` block to automatically filter out any elements that have no connections. Possible values for this property are `true` or `false`.
 
-```
+```scss
 @settings {
     ignore-orphans: true;
 }
@@ -15,7 +15,7 @@ To hide orphans in your map, use the `ignore-orphans` property in the `@settings
 You might not _always_ want to hide the orphans in your map. 
 To add a handy control to your map that toggles orphans on and off whenever needed, add this code to your advanced editor: 
 
-```
+```scss
 @controls {
  top {
  filter {

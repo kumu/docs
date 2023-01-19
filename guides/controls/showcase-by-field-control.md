@@ -6,7 +6,7 @@ Add a control to activate [showcase](../advanced-settings.md#showcasing) for a g
 
 **Example**
 
-```
+```scss
 @controls {
   bottom {
     showcase-by-field {

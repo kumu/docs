@@ -10,7 +10,7 @@ Normally, the `only` option is used to restrict the available options in your co
 
 If we only want "Finance" and "Agriculture" to appear in our control, we could use the `only` option to do that:
 
-```
+```scss
 @controls {
   top {
     filter {
@@ -28,7 +28,7 @@ However, when you pass options to the `only` property, Kumu will list the option
 
 In our example above, imagine we want the order of our options to be "Finance", "Education", "Healthcare", and finally "Agriculture". To accomplish that, we can pass that list to the `only` option:
 
-```
+```scss
 @controls {
   top {
     filter {

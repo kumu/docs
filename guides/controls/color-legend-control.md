@@ -8,7 +8,7 @@ Add a color legend to your map.
 
 Build a color-legend manually:
 
-```
+```scss
 @controls {
   bottom-left {
     color-legend {
@@ -28,7 +28,7 @@ Build a color-legend manually:
 
 Automatically build the `color-legend` from the `element-color` value in `@settings`:
 
-```
+```scss
 @controls {
   bottom-left {
     color-legend {

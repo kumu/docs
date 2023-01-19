@@ -6,7 +6,7 @@ Certain features of Kumu are only exposed via the advanced editor of your curren
 
 You can activate clustering automatically within a view by using the <code>cluster</code> setting within the <code>@settings</code> block. Here's the basic format:
 
-```
+```scss
 @settings {
  cluster: "selector" by "field" as "type";
 }
@@ -20,14 +20,14 @@ The <code>selector</code> determines which elements to cluster, <code>field</cod
 
 To showcase a selection (muting all other map content except that selection), use the `showcase` setting within `@settings` and add a selector:
 
-```
+```scss
 @settings {
   showcase: selector;
 }
 ```
 This will highlight the selection and any connections between that selection. You can further customize what is include in the showcase by including `!strict` (only the selection) or `!loose` (selection and anything directly connected to it):
 
-```
+```scss
 @settings {
   showcase: selector !strict;
 }
@@ -37,7 +37,7 @@ This will highlight the selection and any connections between that selection. Yo
 
 When you hover over any element or connection we'll automatically showcase that selection, meaning that we mute the other elements in the map that are beyond one degree from the selection. If you'd like to disable this or tweak how muted the showcase behavior is, use the `background-opacity` setting:
 
-```
+```scss
 @settings {
   background-opacity: 1;
 }
@@ -48,7 +48,7 @@ When you hover over any element or connection we'll automatically showcase that 
 
 To activate a focus automatically within a view, use the `focus` setting within `@settings` and add a selector:
 
-```
+```scss
 @settings {
   focus: selector out n;
 }
@@ -60,7 +60,7 @@ The `selector` determines which elements to focus on, and `n` is the number of d
 
 By default, Kumu wraps longer labels and allows you to force a line break at any point by including a double space. If you need more granularity, we expose a number of settings within @settings for you to use:
 
-```
+```scss
 @settings {
   text-overflow: off; // single line
   text-overflow: auto; // break on double space if present, or auto wrap at 20
@@ -75,7 +75,7 @@ By default, Kumu wraps longer labels and allows you to force a line break at any
 
 By default our layout algorithm treats all connections the same (same spring strength and length). If you'd like to modify that behavior to have shorter or stronger connections based on a given connection field, you can do so by adding the following (example based on using a quantitative "strength" field):
 
-```
+```scss
 @settings {
   connection-strength: scale("strength", 0, 1);
   connection-size: scale("strength", 1, 20);
@@ -84,7 +84,7 @@ By default our layout algorithm treats all connections the same (same spring str
 
 This also works for `connection-length` as well. You can also use this to assign specific strength and size values based on qualitative values for connections:
 
-```
+```scss
 connection["level of influence"="high"] {
   connection-strength: 1;
 }
@@ -99,7 +99,7 @@ connection["level of influence"="low"] {
 
 You can add a grid to the background of your map using this line in the @settings block:
 
-```
+```scss
 @settings {
   layout-grid: auto;
 }
@@ -107,7 +107,7 @@ You can add a grid to the background of your map using this line in the @setting
 
 For more control over the grid settings, use these settings:
 
-```
+```scss
 @settings {
   layout-grid: on;
   layout-guides: x(0) y(0) circle(100);
@@ -124,7 +124,7 @@ For more control over the grid settings, use these settings:
 
 By default we'll hide the connections between any elements that aren't within the current view. This helps boost performance but isn't always the desired behavior. To turn culling off, use these settings:
 
-```
+```scss
 @settings {
   culling: off;
 }
@@ -137,7 +137,7 @@ For example, say a connection went from one corner of a systems map to anotherâ€
 
 When you select an element you'll see a colored ring appear around it (or rectangle based on which template you are using). This color is also based on whether you are using a light or dark theme. If you'd like to change this color, use `selection-color` within `@settings`:
 
-```
+```scss
 @settings {
   selection-color: orange;
 }
@@ -148,7 +148,7 @@ When you select an element you'll see a colored ring appear around it (or rectan
 
 You can switch from using our standard canvas-based renderer to a WebGL renderer. The WebGL renderer is helpful when working with large maps and should be able to handle networks with thousands of elements and connections. To switch renderers, just add:
 
-```
+```scss
 @settings {
   renderer: webgl;
 }

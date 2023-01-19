@@ -3,32 +3,32 @@
 Markdown is an easy and powerful way to format your descriptions and long text fields using simple, natural syntax.
 
 ## The basics
-```
+```md
 *italic* and **bold**
 ```
 
 *italic* and **bold**
 
-```
+```md
 An inline link: [Kumu](http://launch.kumupowered.com)
 ```
 
 An inline link: [Kumu](http://launch.kumupowered.com)
 
-```
+```md
 http://launch.kumupowered.com
 ```
 
 An auto-generated link:
 
-```
+```md
 <a href="http://launch.kumupowered.com">http://launch.kumupowered.com</a>
 ```
 
 
 ## Lists
 
-```
+```md
 * Milk
 * Cookies
 * Marshmallows
@@ -39,7 +39,7 @@ Looks like:
 * Cookies
 * Marshmallows
 
-```
+```md
 1. California
 2. Texas
 3. New York
@@ -61,7 +61,7 @@ You can use the following syntax:
 
 #### Selectors
 
-```
+```md
 [link text](= selector)
 ```
 
@@ -70,7 +70,7 @@ Replace `link text` with the text for your link, and replace `selector` with any
 
 #### Maps
 
-```
+```md
 [link text](#map-slug)
 ```
 
@@ -78,7 +78,7 @@ Replace `link text` with the text for your link, and replace `map-slug` with the
 
 #### Views
 
-```
+```md
 [link text](#map-slug/view-slug)
 ```
 
@@ -87,7 +87,7 @@ Replace `link text` with the text for your link, replace `map-slug` with the [sl
 
 ## Images
 
-```
+```md
 ![alt text](image-url)
 ```
 
@@ -102,7 +102,7 @@ Look at the embed code of the video you want to embed and grab the URL within **
 
 ## Headings
 
-```
+```md
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -124,14 +124,14 @@ Looks like:
 
 Simply indent lines with four spaces or wrap the code with three backticks:
 
-    ```
+    ```md
     <div class="footer">
         &copy; 2013 Kumu Systems LLC
     </div>
     ```
 Looks like:
 
-```
+```md
 <div class="footer">
     &copy; 2013 Kumu Systems LLC
 </div>
@@ -148,7 +148,7 @@ Looks like:
 
 ## Tables
 
-```
+```md
 One | Two | Three
 --- | --- | ---
 Blue | White | Gray
@@ -157,7 +157,7 @@ Green | Yellow | Red
 
 If you are using Markdown in the Description column of an [import](/guides/import.md), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
 
-```
+```md
 <table><tr><th>One</th><th>Two</th><th>Three</th></tr><tr><td>Blue</td><td>White</td><td>Gray</td></tr><tr><td>Green</td><td>Yellow</td><td>Red</td></tr></table>
 ```
 
@@ -178,7 +178,7 @@ Now you know the basics of formatting with markdown! For more information, visit
 ## Inline HTML
 
 Kumu's markdown editor also recognizes a limited amount of inline HTML. Here are the tags you can use in Kumu, anywhere that accepts markdown:
-```
+```md
 <a>
 <aside>
 <b>
@@ -229,7 +229,7 @@ Kumu's markdown editor also recognizes a limited amount of inline HTML. Here are
 
 And here are the HTML attributes that use can use for each tag:
 
-```
+```md
 <a>
   href
 
@@ -318,7 +318,7 @@ Good news for people using Kumu in science, math, or academia—anywhere you wri
 
 You can write LaTeX inline or on its own separate line. To write inline, put two dollar signs on either side of your LaTeX code, like so:
 
-```
+```md
 24 minutes are $$\frac{24}{60}=0.4h$$ and $$\sin(30^o)=0.5$$
 ```
 

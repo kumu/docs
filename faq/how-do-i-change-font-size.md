@@ -13,7 +13,7 @@ One way to do that is in the `@settings` block:
 
 ```css
 @settings { font-size: 100;}
-```
+```scss
 
 This gives you precise control over the font size—you can change the `100` to any positive number. However, this solution still applies your font size to everything on the map.
 

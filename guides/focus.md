@@ -17,7 +17,7 @@ Click the focus icon again to bring the full map back into view.
 
 You can pre-define a focus within `@settings` in the [Advanced Editor](/overview/view-editors.md#advanced-editor) of any view.
 
-```
+```scss
 @settings {
   focus: #jack out 2;
 }
@@ -25,7 +25,7 @@ You can pre-define a focus within `@settings` in the [Advanced Editor](/overview
 
 The above will load the map with Jack and any other elements that are within 2 degrees. You can add multiple hubs by using a comma to separate them:
 
-```
+```scss
 @settings {
   focus: #jack out 2, #companyxyz out 1;
 }
@@ -35,7 +35,7 @@ This will load the map with Jack and any other elements that are within 2 degree
 
 You can use any [selector](/guides/selector-reference.md) to set the focus of the map. For example, you could set the focus to show only influential people, out 2 degrees:
 
-```
+```scss
 @settings {
   focus: person["level of influence"="High"] out 2;
 }
@@ -46,7 +46,7 @@ You can use any [selector](/guides/selector-reference.md) to set the focus of th
 
 In the Advanced Editor, you can also customize **focus direction** to specify which connections should be shown.
 
-```
+```scss
 @settings {
   focus-direction: all;
 }
@@ -73,7 +73,7 @@ Hit escape on your keyboard to start over, or use the focus menu and choose "bac
 
 To enable prompted mode, you'll need to add the following to the advanced tab of any view you'd like it active within:
 
-```
+```scss
 @settings {
   focus: prompt;
 }

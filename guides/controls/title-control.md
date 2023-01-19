@@ -6,7 +6,7 @@ Add a custom title to your map.
 
 **Example**
 
-```
+```scss
 @controls {
   top {
     title {

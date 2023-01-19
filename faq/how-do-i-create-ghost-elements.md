@@ -3,7 +3,7 @@
 3. In the profile of the ghost element, choose how you want to mark it as a ghost. For example, you could set the element type to "Ghost" add a "Ghost" tag, or even create a new field called "Ghost" and set its value to True.
 4. Using that profile data, add decorations to make all ghost elements visually distinct. For example, you could make them translucent:
 
-```
+```scss
 element["Ghost" = "True"] {
   opacity: 0.5;
 }

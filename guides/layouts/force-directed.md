@@ -29,7 +29,7 @@ To do that, click the settings icon ![](/icons/sliders-h.svg) to open the Basic 
 
 If none of the layout presets look good for your map, you can use the [Advanced Editor](/overview/view-editors.md#advanced-editor) to fine-tune the forces' underlying strengths. Here's some sample code to get you started:
 
-```
+```scss
 @settings {
   layout-gravity: 0.0001;
   layout-particle-charge: 300;
@@ -49,7 +49,7 @@ If none of the layout presets look good for your map, you can use the [Advanced 
 
 If you would rather do steps 1-4 in the [Advanced Editor](/overview/view-editors.md#advanced-editor), here is the code you can use to switch to a force-directed layout:
 
-```
+```scss
 @settings {
     layout: force;
 }

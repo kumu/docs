@@ -8,7 +8,7 @@ Add a control to activate [showcase](/guides/showcase.md) for a given field or s
 
 Showcase by field:
 
-```
+```scss
 @controls {
   bottom {
     showcase {
@@ -21,7 +21,7 @@ Showcase by field:
 
 Showcase using custom [selectors](/guides/selectors.md#selectors):
 
-```
+```scss
 @controls {
   bottom {
     showcase {
@@ -75,7 +75,7 @@ If you want to use custom selectors to build the showcase, you'll need to list e
 
 Showcase by state and include neighboring elements, allowing multiple states to be selected at the same time:
 
-```
+```scss
 @controls {
   bottom {
     showcase {
@@ -89,7 +89,7 @@ Showcase by state and include neighboring elements, allowing multiple states to 
 
 Showcase by state using a dropdown menu, and include a placeholder with instructions:
 
-```
+```scss
 @controls {
   bottom {
     showcase {
@@ -103,7 +103,7 @@ Showcase by state using a dropdown menu, and include a placeholder with instruct
 
 Showcase by state and select all states by default:
 
-```
+```scss
 @controls {
   bottom {
     showcase {

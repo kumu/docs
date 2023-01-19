@@ -15,7 +15,7 @@ To make sure your labels always maintains a constant size, even while the circle
 
 Open the Advanced Editor, and find the code that looks similar to this:
 
-```
+```scss
 @settings {
     element-scale: scale("Field", 1, 10);
 }
@@ -23,7 +23,7 @@ Open the Advanced Editor, and find the code that looks similar to this:
 
 In your code, `Field` will be replaced by the name of the field you sized by, and the `1` and `10` will be replaced by the numbers you set when creating the decoration. At this point, you need to change the `element-scale` property to `element-size`, like so:
 
-```
+```scss
 @settings {
     element-size: scale("Field", 1, 10);
 }
@@ -33,7 +33,7 @@ Then, you'll need to change the numbers inside the `scale()` function to create 
 
 Try starting with numbers like this:
 
-```
+```scss
 @settings {
     element-size: scale("Field", 20, 200);
 }
@@ -43,7 +43,7 @@ Then, change the `20` and `200` until you see a visual effect on your map that y
 
 At this point, your label will maintains a constant size, but if you want to change that size, you can use the `element-font-size` property in the `@settings` block:
 
-```
+```scss
 @settings {
     element-size: scale("Field", 20, 200);
     element-font-size: 20;
@@ -59,7 +59,7 @@ If you like the look of scaled label sizes, but you don't quite like the way Kum
 
 Open up the Advanced Editor, and use the `font-size` property and `scale()` function to set a minimum and maximum label size:
 
-```
+```scss
 element {
     font-size: scale("Field", 10, 50)
 }

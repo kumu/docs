@@ -31,7 +31,7 @@ If you really want your custom control to be in the top right, and you'd rather 
 3. On the next line, type the name of a different controls region: `top`, `bottom`, `top-left`, `bottom-left`, or `bottom-right`. Type a space, then a curly bracket `{`, then hit `Enter` again to open a new block.
 4. Inside that block of code, add the controls code for the settings toolbar, zoom toolbar, and focus toolbar, as shown in the complete example below:
 
-```
+```scss
 @controls {
   // Replace top-left with any region other than top-right
   top-left {

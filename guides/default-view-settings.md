@@ -43,7 +43,7 @@ The General settings section allows you change your theme, template, quality, an
 
 In the [Advanced Editor](/overview/view-editors.md#advanced-editor), you can use the `@settings` at-rule to change default view settings:
 
-```
+```scss
 @settings {
   property: value;
 }

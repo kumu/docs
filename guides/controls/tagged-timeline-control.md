@@ -8,7 +8,7 @@ Filter a network over time using years defined in the tag field.
 
 **Example**
 
-```
+```scss
 @controls {
   bottom {
     tagged-timeline {

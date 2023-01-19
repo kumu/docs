@@ -102,16 +102,16 @@ This section of the Basic Editor shows each decoration's legend label, if you ha
 
 To open the Advanced Editor, click the settings icon ![](/icons/sliders-h.svg) to open the Basic Editor, then click **SWITCH TO ADVANCED EDITOR** at the bottom of the Basic Editor.
 
-<span class="small plain">
 ![](/images/advanced-editor-hf.png)
-</span>
 
 Everything you change in the Basic Editor is automatically coded into the Advanced Editor, and most Advanced Editor code follows the same pattern:
-```
+
+```scss
 selector {
     property: value;
 }
 ```
+
 `selector` can be replaced with any valid [selector](/guides/selectors.md), and you can read our [property reference](/guides/property-reference.md) to find documentation on `properties` and their possible `values`. You can also use some standard [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) throughout the Advanced Editor.
 
 ### At-rules

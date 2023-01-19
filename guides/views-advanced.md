@@ -4,7 +4,7 @@ Congrats! You're ready to roll up your sleeves and do a little coding. Trust us,
 Let's warmup with a few basic decorations you can add for elements, connections and loops.
 
 ### Elements
-```
+```scss
 element {
  size: 20;
  color: #fafafa;
@@ -16,7 +16,7 @@ element {
 ```
 
 ### Connections
-```
+```scss
 connection {
  width: 5;
  color: #888;
@@ -25,7 +25,7 @@ connection {
 ```
 
 ### Loops
-```
+```scss
 loop {
  font-color: #7B6834;
  font-weight: 700;
@@ -37,7 +37,7 @@ loop {
 
 The basic syntax goes like this:
 
-```
+```scss
 selector {
   property: value;
 }
@@ -52,7 +52,7 @@ Becoming comfortable writing selectors by hand is the first step to mastering vi
 
 The selector can be a single selector, or a comma-separated list of selectors:
 
-```
+```scss
 person                         // all people
 #joe, #jane                    // just the elements labelled "Joe" and "Jane"
 project.pending[priority=high] // all high priority projects tagged "pending"
@@ -67,7 +67,7 @@ project.pending[priority=high] // all high priority projects tagged "pending"
 
 Now it's time to do some decorating! Below we'll increase Jack's size, change his color and add a shadow:
 
-```
+```scss
 #jack {
   size: 40;
   color: #3596c0;
@@ -86,7 +86,7 @@ Now it's time to do some decorating! Below we'll increase Jack's size, change hi
 
 If you want to include the decoration in the legend, simply add a comment:
 
-```
+```scss
 /* Person */
 element["element type"="person"]{
   color: #3596c0;
@@ -110,7 +110,7 @@ Below we've highlighted the [properties](/guides/property-reference.md) we commo
 
 ### Element decorations
 
-```
+```scss
 element {
   size: 20;     // base size
   scale: 2;     // multiple of base size (also scales labels)
@@ -123,7 +123,7 @@ element {
 
 ### Connection decorations
 
-```
+```scss
 connection {
   width: 1;     // base width
   scale: 2;     // multiple of base width (also scales labels)
@@ -137,7 +137,7 @@ The following properties come in handy for all types of decorations:
 
 **Font styles**
 
-```
+```scss
 element {
   font-size: 20;
   font-weight: bold;
@@ -155,7 +155,7 @@ We salute you! Here's some of the neat things you can do with `@settings`:
 If you want to set default styles that apply across the entire map, it's much more
 efficient to assign them through the settings block.
 
-```
+```scss
 @settings {
   font-size: 20;
   font-family: "Helvetica Neue", sans-serif;
@@ -168,7 +168,7 @@ efficient to assign them through the settings block.
 
 Not a fan of our light theme? Changing the background color is easy:
 
-```
+```scss
 @settings {
   background-color: #252525;
 }
@@ -183,7 +183,7 @@ For dark backgrounds, make sure to change the theme too (see below) or things ca
 Kumu's default theme looks great on light backgrounds, but it looks horrible on dark ones.
 If you're using a dark background, make sure to change to the dark theme:
 
-```
+```scss
 @settings {
   theme: dark;
   background-color: #252525;
@@ -194,7 +194,7 @@ If you're using a dark background, make sure to change to the dark theme:
 
 Focus is a powerful feature that let's you hone in on certain portions of your map. Instead of only being able to activate a focus by clicking and holding on the map, we support the ability to include a focus within any view.
 
-```
+```scss
 @settings {
   focus: #jack out 2;
 }
@@ -202,7 +202,7 @@ Focus is a powerful feature that let's you hone in on certain portions of your m
 
 The above will load the map with Jack and any other elements that are within 2 degrees. You can add multiple hubs by using a comma to separate them:
 
-```
+```scss
 @settings {
   focus: #jack out 2, #companyxyz out 1;
 }
@@ -212,7 +212,7 @@ This will load the map with Jack and any other elements that are within 2 degree
 
 You can use any [selector](/guides/selector-reference.md) to set the focus of the map. For example, you could set the focus to show only influential people, out 2 degrees:
 
-```
+```scss
 @settings {
   focus: person["level of influence"="High"] out 2;
 }
@@ -234,7 +234,7 @@ Hit escape on your keyboard to start over, or use the focus menu and choose "bac
 
 To enable prompted mode, you'll need to add the following to the advanced tab of any view you'd like it active within:
 
-```
+```scss
 @settings {
   focus: prompt;
 }
@@ -244,7 +244,7 @@ To enable prompted mode, you'll need to add the following to the advanced tab of
 
 The default mapping engine is optimized for creating great looking maps. As you start working with larger and larger maps (1000+ elements) or you experience slowness on your computer, try shifting to our high performance mode. You can do this by hitting the **q** keystroke or by adding the following to your advanced CSS:
 
-```
+```scss
 @settings {
   quality: fast;
 }

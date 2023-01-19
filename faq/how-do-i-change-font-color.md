@@ -27,7 +27,7 @@ By adding code to the Advanced Editor you can change font color driven by the da
 
 For example, to change all fonts of element labels to blue, you can use:
 
-```
+```scss
 element {
   font-color: blue;
 }
@@ -35,7 +35,7 @@ element {
 
 Or use [hex codes](https://htmlcolorcodes.com/) to find more specific colors: 
 
-```
+```scss
 element {
   font-color: #3EF4B5;
 }

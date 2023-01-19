@@ -15,7 +15,7 @@ If you're building a fixed map with [Sketch Mode](/getting-started/first-steps.m
 
 If you would rather do this in the [Advanced Editor](/overview/view-editors.md#advanced-editor), here is the code you can use to switch to a fixed layout:
 
-```
+```scss
 @settings {
     layout: static;
 }

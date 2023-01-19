@@ -8,7 +8,7 @@ Using the `default` property in your control, that's possible!
 
 For example, imagine we want to let our reader filter by Element Type and Continent. We could set up two separate filter controls to accomplish this. If we build these controls using the Controls Builder interface in the Basic Editor, the code below is what Kumu would write for us in the Advanced Editor:
 
-```
+```scss
 @controls {
   top {
     filter {
@@ -33,7 +33,7 @@ We can change the value of that same `default` property to change the default se
 
 For example, if we want our filter controls to show elements whose type is "Person" and whose continent is "Africa" or "Asia", we can change our Advanced Editor code to this:
 
-```
+```scss
 @controls {
   top {
     filter {

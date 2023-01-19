@@ -32,7 +32,7 @@ Custom fields can also be grouped together using their "Category" setting. Assig
 
 You can choose to disable the profile entirely or only for specific elements and connections. To disable the profile for all elements and connections, use the `profile` property within `@settings`:
 
-```
+```scss
 @settings {
   profile: false;
 }
@@ -41,7 +41,7 @@ You can choose to disable the profile entirely or only for specific elements and
 
 To enable the profile only for elements and connections that have a description field, you could use the following:
 
-```
+```scss
 @settings {
   profile: false;
 }

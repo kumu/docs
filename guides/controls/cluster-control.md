@@ -8,7 +8,7 @@ Add a control to activate [clustering](../clustering.md) for a given field or se
 
 Cluster by field:
 
-```
+```scss
 @controls {
   bottom {
     cluster {
@@ -21,7 +21,7 @@ Cluster by field:
 
 Cluster using custom [selectors](../selectors.md#selectors):
 
-```
+```scss
 @controls {
   top {
     cluster {

@@ -4,7 +4,7 @@ It’s easy to import existing data into Kumu without having to mess with spread
 
 To get started, use any text editor to organize your data into elements and connections:
 
-```
+```json
 {
   "elements": [
     {"label": "A"},
@@ -20,7 +20,7 @@ If you've worked with the JSON format before, you'll notice that this Kumu bluep
 
 Once you’ve got the basics in place you can add additional key-value pairs to the objects that represent your data—for example, "type", "description" and "tags", along with any custom keys you’d like as well:
 
-```
+```json
 {
   "elements": [
     {
@@ -47,7 +47,7 @@ Once you’ve got the basics in place you can add additional key-value pairs to 
 
 In your connection objects, you can assign a value to the `"direction"` key to control whether connections are undirected, directed, or mutual:
 
-```
+```json
 {
   ...
   "connections": [
@@ -61,7 +61,7 @@ In your connection objects, you can assign a value to the `"direction"` key to c
 
 If you’re working with multiple elements with the same label, you can assign values to the `"id"` key to differentiate them. Just make sure to use the ids, not the labels, when building the connections:
 
-```
+```json
 {
   "elements": [
     {

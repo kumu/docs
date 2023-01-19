@@ -99,7 +99,7 @@ If you added legend entries using the decoration builder or the Advanced Editor,
 
 If you're working on decorations in the [Advanced Editor](../overview/view-editors.md#advanced-editor), you can add a comment above a decoration to tell Kumu that it should be included in the legend. The syntax is:
 
-```
+```scss
 /* entry-type: Entry Label */
 ```
 
@@ -107,7 +107,7 @@ Replace `entry-type` with either `elements` or `connections` to tell Kumu what y
 
 Here's a working example from a decoration in one of the screenshots above:
 
-```
+```scss
 /* elements: Authors, sized by number of articles written */
 author {
   color: #918dc2;
@@ -127,7 +127,7 @@ For a full list of legend icons and how to use them from the Advanced Editor, [j
 
 If you'd like to change the title of your legend from "Legend" to something more descriptive, you can use the following code:
 
-```
+```scss
 @controls {
   bottom-left {
     legend {
@@ -145,7 +145,7 @@ This is what it'll look like:
 
 If you want to completely hide the legend, you can use the Advanced Editor to do so. Here's some sample code to get you started:
 
-```
+```scss
 @controls {
   bottom-left {}
 }

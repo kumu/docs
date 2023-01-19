@@ -6,7 +6,7 @@ Add small bold text to your map.
 
 **Example**
 
-```
+```scss
 @controls {
   bottom-right {
     label {

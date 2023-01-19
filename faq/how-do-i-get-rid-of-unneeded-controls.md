@@ -4,7 +4,7 @@ When you're adding [controls](/guides/controls.md) through the Basic Editor, you
 
 Open up the Advanced Editor, and, unless you have added [partial views](/guides/partial-views.md), there will be a block of code right at the top starting with `@controls`.
 
-```
+```scss
 // Line 1 of your Advanced Editor:
 @controls {
   ...There will be other code inside this block

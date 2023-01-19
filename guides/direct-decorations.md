@@ -10,7 +10,7 @@ To use them, simply hover over an element, connection, or loop, and the direct d
 
 If you'd rather have the toolbar appear when you click on an item instead of hover, add the following in the [Advanced Editor](../overview/view-editors.md#advanced-editor):
 
-```
+```scss
 @controls {
   toolbar: click;
 }
@@ -18,7 +18,7 @@ If you'd rather have the toolbar appear when you click on an item instead of hov
 
 If the toolbar is a distraction and you prefer to use rule-based decorations, you can disable the toolbar altogether:
 
-```
+```scss
 @controls {
   toolbar: false;
 }

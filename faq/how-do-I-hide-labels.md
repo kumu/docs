@@ -6,7 +6,7 @@ If you prefer to take them out, you'll have to add a bit of code to your Advance
 ## Hide element labels
 To hide the element labels in your map, add the following code to your Advanced Editor:
 
-```
+```scss
 element {
   label-visibility: hidden; 
 }
@@ -17,7 +17,7 @@ To only change the _position_ of element labels, go to [this guide](/faq/how-do-
 ## Hide connection labels
 To hide the connection labels in your map, add the following code to your Advanced Editor:
 
-```
+```scss
 connection {
   label-visibility: hidden; 
 }

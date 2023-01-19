@@ -15,7 +15,7 @@
 
 You can use the `layout-grid` property of `@settings` in the Advanced Editor to add a grid:
 
-```
+```scss
 @settings {
   layout-grid: on;
 }
@@ -23,7 +23,7 @@ You can use the `layout-grid` property of `@settings` in the Advanced Editor to 
 
 Once you have the grid turned on, you can customize the distance between gridlines using `layout-grid-offset` and customize the width of lines using `layout-grid-width`.
 
-```
+```scss
 @settings {
   layout-grid: on;
   layout-grid-offset: 20;
@@ -33,7 +33,7 @@ Once you have the grid turned on, you can customize the distance between gridlin
 
 By default, gridlines will extend infinitely. But, you can use the `layout-bounds-xmin`, `layout-bounds-xmax`, `layout-bounds-ymin`, and `layout-bounds-ymax` properties to set a stopping point for the gridlines.
 
-```
+```scss
 @settings {
   layout-grid: on;
   layout-bounds-xmin: 0;
@@ -47,7 +47,7 @@ By default, gridlines will extend infinitely. But, you can use the `layout-bound
 
 Finally, you can use the `layout-grid-color` property to customize the color of gridlines (replace `color` with any CSS web color or hex color code):
 
-```
+```scss
 @settings {
   layout-grid-color: color;
 }
@@ -57,7 +57,7 @@ Finally, you can use the `layout-grid-color` property to customize the color of 
 
 You can use the Advanced Editor to add vertical, circular, or horizontal guidelines. Here's the basic syntax for vertical and horizontal lines:
 
-```
+```scss
 @settings {
   layout-guides: x(coordinate), y(coordinate);
 }
@@ -67,7 +67,7 @@ Replace `coordinate` with any number, indicating the x or y coordinate where you
 
 To draw circular guidelines, you can choose between two different syntaxes:
 
-```
+```scss
 @settings {
   layout-guides: circle(radius), circle(x, y, radius);
 }
@@ -79,7 +79,7 @@ If you'd like to center your circle somewhere else, for example, an x coordinate
 
 **Note:** to add more than one guide, just leave a space between the guide declarations. Here's an example that adds two vertical lines, one horizontal line, one circle with radius `100` centered at `0, 0`, and one circle with radius `100` centered at `100, 50`:
 
-```
+```scss
 @settings {
   theme: dark;
   layout-guides: x(0) x(100) y(0) circle(100) circle(100, 50, 100);
@@ -97,7 +97,7 @@ For additional styling, use the `layout-guide-width` and `layout-guide-color` pr
 
 You can use the `radar` property of `@settings` in the Advanced Editor to add a radar:
 
-```
+```scss
 @settings {
   radar: on;
 }
@@ -105,7 +105,7 @@ You can use the `radar` property of `@settings` in the Advanced Editor to add a 
 
 The radar will come with a few default rings and axes, which you can easily override using the `radar-rings` and `radar-axes` properties. Each comma-separated value in those properties will create and label a new ring or axis:
 
-```
+```scss
 @settings {
   radar: on;
   radar-rings: INTENT, DESIGN, FEEDBACKS, PARAMETERS;

@@ -17,7 +17,7 @@ To switch to a lower quality, open your [default view settings](/guides/default-
 
 Switching to the faster WebGL renderer will have a comparable if not slightly better effect on performance. To do that, copy/paste the following code into your Advanced Editor:
 
-```
+```scss
 @settings {
   renderer: webgl;
 }
@@ -25,7 +25,7 @@ Switching to the faster WebGL renderer will have a comparable if not slightly be
 
 If you're not a fan of the squares and straight lines that come with lower quality and the WebGL renderer, you could alternatively hide all images from the map. To do this, open the Advanced Editor and paste in this code snippet:
 
-```
+```scss
 * {
   image-visibility: hidden;
 }

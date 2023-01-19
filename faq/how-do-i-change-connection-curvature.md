@@ -26,7 +26,7 @@ After you fill out data in the profiles, you can use the [Advanced Editor](/over
 
 To change connection curvature in the Advanced Editor, you'll need to write a [selector](/guides/selectors.md) to tell Kumu which connections you are changing, then use the `curvature` property to set the curvature. Here's an example:
 
-```
+```scss
 connection["connection type"="shared resources"] {
     curvature: 0.5;
 }
@@ -40,7 +40,7 @@ Note that if you are selecting by the Type field, you should use `connection typ
 
 Here are a few more examples of selectors you might find useful (explained by the comments after the `//`):
 
-```
+```scss
 connection
 // selects all connections on the map
 
@@ -68,7 +68,7 @@ Copy the part on the left that starts with the `#` symbol. It should look someth
 
 Paste that into the Advanced Editor, and delete `your-map-name/`, so that you are left with something similar to `#conn-wxmcqzxu` (the letters after `conn-` are random and unique for each connection). This remaining piece is your selector, you can continue writing your curvature code the same way:
 
-```
+```scss
 #conn-wxmcqzxu {
     curvature: -0.25;
 }

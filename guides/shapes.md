@@ -40,7 +40,7 @@ When you use Shape By, legend entries will be created for you automatically.
 
 In the Advanced Editor, you can use the `shape` property to assign shapes. Here's the basic syntax:
 
-```
+```scss
 element {
   shape: circle;
 }
@@ -61,7 +61,7 @@ You can replace `element` with any element [selector](/guides/selectors.md), and
 
 - When choosing the `rectangle` or `pill` shape, you also need to indicate their `width` and `height`:
 
-```
+```scss
 element {
   shape: rectangle; 
   height: 100;
@@ -71,7 +71,7 @@ element {
 
 - To change the size of any shape other than the `square`, `rectangle`, or `pill`, use the `size` property, instead of width & height:
 
-```
+```scss
 element {
   shape: triangle; 
   size: 200;
@@ -82,7 +82,7 @@ element {
 
 Instead of setting a shape directly, you can also use the `categorize()` function to assign shapes based on a field:
 
-```
+```scss
 element {
   shape: categorize("Element Type");
 }
@@ -90,7 +90,7 @@ element {
 
 The `categorize()` function has its own list of default shapes, but you can list your own shapes to customize which ones are used, and in what order:
 
-```
+```scss
 element {
   shape: categorize("Element Type", diamond, hexagon, triangle);
 }
@@ -98,7 +98,7 @@ element {
 
 Or, list a shape and a specific field value to control precisely how those shapes get assigned:
 
-```
+```scss
 element {
   shape: categorize("Element Type", diamond "Person", hexagon "Organization");
 }
@@ -106,7 +106,7 @@ element {
 
 Finally, if you'd like your categorized shapes to be automatically added to the legend, use the `element-shape` rule inside a `@settings` block:
 
-```
+```scss
 @settings {
   element-shape: categorize("Element Type", diamond, hexagon, triangle);
 }

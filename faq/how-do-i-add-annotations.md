@@ -6,7 +6,7 @@ Sometimes, it's useful to add plain text to a map to annotate or explain differe
 
 First, create a new element, and use the full text of your annotation as the element's label. Then, change the element's type to `Annotation` and add the following code to your Advanced Editor:
 
-```
+```scss
 annotation {
   color: transparent;
   text-align: center;
@@ -21,7 +21,7 @@ You can change the `50` in the `text-overflow` property to adjust the number of 
 
 With your annotation styled, you can drag it into place on your map. Once your satisfied with its location, return to the Advanced Editor and add one more line of code to your block: `layer: background`.
 
-```
+```scss
 annotation {
   color: transparent;
   ...

@@ -21,7 +21,7 @@ Click the rocketship icon  to build the selection of items that you want to show
 
 To activate showcase using the advanced editor, add the `showcase` property within `@settings`:
 
-```
+```scss
 @settings {
   showcase: person;
 }
@@ -37,7 +37,7 @@ You can further customize what is included in the showcase by changing the showc
 
 Simply add the mode you'd like to use to the end of the selector with an `!` in front of the mode. If we use the above example but wanted to have the showcase be `strict`, we'd use:
 
-```
+```scss
 @settings {
   showcase: person !strict;
 }
@@ -45,7 +45,7 @@ Simply add the mode you'd like to use to the end of the selector with an `!` in 
 
 Using the Advanced Editor, you can also control the extent to which items are faded out during showcase. To set the opacity of showcased items, use the `foreground-opacity` property in `@settings`, and to set the opacity of items outside of the showcase, use the `background-opacity` property:
 
-```
+```scss
 @settings {
   foreground-opacity: 1;
   background-opacity: 0.1;

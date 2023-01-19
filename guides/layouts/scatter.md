@@ -10,7 +10,7 @@ Want to see a finished scatter plot before you get started? Check out our [scatt
 
 To apply the scatter layout to your map, the first step is to open the [Advanced Editor](/overview/view-editors.md#advanced-editor) add `layout: scatter` to your `@settings`.
 
-```
+```scss
 @settings {
     layout: scatter;
 }
@@ -18,7 +18,7 @@ To apply the scatter layout to your map, the first step is to open the [Advanced
 
 Then, use `layout-x` and `layout-y` to tell Kumu which element fields contain the x and y coordinates.
 
-```
+```scss
 @settings {
     layout-x: "field1";
     layout-y: "field2";
@@ -29,7 +29,7 @@ Replace `field1` and `field2` with the appropriate fields in your map, but don't
 
 After you set up your fields, you will probably need to multiply them by a constant value in order to improve the map's zoom-in and zoom-out interaction.
 
-```
+```scss
 @settings {
     layout-x-multiplier: 100;
     layout-y-multiplier: 100;
@@ -42,7 +42,7 @@ We've found that `100` is a sensible default multiplier, but depending on your d
 
 The values for `layout-x` and `layout-y` can be simple field expressions such as `layout-x: "degree"`. But that's not all they can be. You can also use complex mathematical expressions to build your scatter plots.
 
-```
+```scss
 @settings {
   layout: scatter;
   layout-x: "1000 * betweenness";
@@ -65,7 +65,7 @@ We're using the [mathjs](http://mathjs.org) library under the hood so if you wan
 
 In this guide, we broke down the code into pieces for clarity, but in an actual Kumu view, you'll put it all into one `@settings` block.
 
-```
+```scss
 @settings {
   layout: scatter;
   layout-x: "field1";

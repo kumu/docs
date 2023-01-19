@@ -25,7 +25,7 @@ When you're satisfied with your view, open the Advanced Editor and copy all of i
 ## Define partial views in the Advanced Editor
 
 Use an `@view` block to define a partial view:
-```
+```scss
 @view "name" {
   // any view code can go in here, including @settings, @controls, @imports, and anything you have copied from other views in your project
 }
@@ -34,7 +34,7 @@ Replace `name` with the name of your partial view (keep the double quotes). This
 
 Here's how you use a partial view's `name` to `@import` it into other partial views:
 
-```
+```scss
 // Here's where the base settings are defined
 @view "base-settings" {
   element {
@@ -63,7 +63,7 @@ Here's how you use a partial view's `name` to `@import` it into other partial vi
 
 If you just need to define some base settings that will apply to all your partial views, you can also simply do that at the top of the Advanced Editor, outside of any `@view` block, like so:
 
-```
+```scss
 // Here's where the base settings are defined
 element {
   size: 40;
@@ -89,7 +89,7 @@ element {
 
 To allow readers to switch between your partial views, you can add a view toggle control. Here's the syntax for adding the view toggle control in the Advanced Editor:
 
-```
+```scss
 @controls {
   top {
     view-toggle {}
@@ -99,7 +99,7 @@ To allow readers to switch between your partial views, you can add a view toggle
 
 You can use the `options` property inside the control to list exactly which partial views should be included as options:
 
-```
+```scss
 @controls {
   top {
     view-toggle {
@@ -111,7 +111,7 @@ You can use the `options` property inside the control to list exactly which part
 
 You can also use the `option {}` syntax if you'd like to customize the list of options _and_ how they're labelled on the map:
 
-```
+```scss
 @controls {
   top {
     view-toggle {
@@ -154,7 +154,7 @@ This means that the simplified loading order with a "default view" and an "activ
 **Example:**
 In the following code, you can see that the default view is using an element block to color the elements "orange", while the partial view is set up to color the elements either red, green, or blue based on the value in their Tags field. 
 
-```
+```scss
 @view "My Partial View" {
   @settings{
     element-color: categorize("Tags", red, green, blue);
@@ -182,7 +182,7 @@ As a result, activating the partial view will _not_ change the color of your ele
 
 To work around that, use the following code: 
 
-```
+```scss
 @view "My Partial View" {
   @settings{
     element-color: categorize("Tags", red, green, blue);

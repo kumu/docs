@@ -16,7 +16,7 @@ Use the **Bridge** interface to set up rules for bridging over elements that mee
 
 To bridge using the [Advanced Editor](../overview/view-editors.md#advanced-editor), here's the basic syntax:
 
-```
+```scss
 @settings {
   bridge: selector;
 }
@@ -26,7 +26,7 @@ To bridge using the [Advanced Editor](../overview/view-editors.md#advanced-edito
 
 For example, lets say you had a map of people connected to projects and organizations, and you wanted to connect people to people. Here's how you could use bridging to accomplish that (assuming project elements have the element type "Project", and organization elements have the element type "Organization"):
 
-```
+```scss
 @settings {
   bridge: project, organization;
 }
@@ -46,7 +46,7 @@ In the example above, imagine that, instead of a network of people, projects, an
 
 Here's how you would cluster and bridge to build a network of people connected to other people, based on the projects and organizations in their fields:
 
-```
+```scss
 @settings {
   cluster: person by "Projects" as "Project", person by "Organization" as "Organization";
   bridge: project, organization;
@@ -61,7 +61,7 @@ When reading this code, Kumu will follow these steps:
 
 You can also bridge between the elements created by clustering. Let's say you were working with that same dataset (elements represent people, with project and organization data stored in fields) and you wanted to see a network of organizations connected to other organizations. Here's how you can do that:
 
-```
+```scss
 @settings {
   cluster: person by "Organization" as "Organization";
   bridge: person;

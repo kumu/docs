@@ -19,7 +19,7 @@ Unless you [fine-tuned your cluster settings](/guides/clustering.md#fine-tune-cl
 
 Given that information, you can create a [filter control](/guides/controls/filter-control.md) to show and hide the elements and connections. Here is some sample code to get you started:
 
-```
+```scss
 @controls {
   top {
     filter {

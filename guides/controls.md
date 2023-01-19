@@ -24,7 +24,7 @@ Want to remove unneeded controls? You can use the <a class="alert-link" href="#r
 
 To unlock the full set of flexible controls features, you can use the [Advanced Editor](/overview/view-editors.md#advanced-editor). Here's an example of what controls look like in the Advanced Editor:
 
-```
+```scss
 @controls {
   top {
     showcase {
@@ -36,7 +36,7 @@ To unlock the full set of flexible controls features, you can use the [Advanced 
 
 In general, controls are defined with the `@controls` block, grouped into regions, and customized using properties. You can add multiple controls to a region, and even override or move Kumu's built-in controls. Here's the general syntax that shows how multiple regions can be used, and how multiple controls can be added to the same region:
 
-```
+```scss
 @controls {
   region {
     control {
@@ -74,7 +74,7 @@ Controls can be assigned to one of six **regions** on the map:
 * `bottom-left`
 * `bottom-right`
 
-```
+```scss
 @controls {
   top-left {
     title {
@@ -105,7 +105,7 @@ After you set the region, you can choose what **type of control** you are adding
 
 Controls are customized using **properties**, and each control understands a slightly different set of properties. In the example below, `by` is a property of the `showcase` control that accepts a field name (wrapped in quotes).
 
-```
+```scss
 @controls {
   bottom {
     showcase {
@@ -126,7 +126,7 @@ Sometimes, controls need to work with complex lists of options. Since these woul
 
 In the example below, we call the `option` blocks the "children" of the `showcase` control, and each child includes its own set of properties.
 
-```
+```scss
 @controls {
   top-left {
     showcase {
@@ -153,7 +153,7 @@ By default, controls are each stored on their own line, and they each have their
 
 To group controls, use the following `group` syntax:
 
-```
+```scss
 @controls {
   region {
     group {
@@ -179,7 +179,7 @@ When you're adding [controls](/guides/controls.md) through the Basic Editor, you
 
 Open up the Advanced Editor, and, unless you have added [partial views](/guides/partial-views.md), there will be a block of code right at the top starting with `@controls`.
 
-```
+```scss
 // Line 1 of your Advanced Editor:
 @controls {
   ...There will be other code inside this block
@@ -196,7 +196,7 @@ All of Kumu's built-in controls (search, zoom buttons, settings buttons, the [le
 
 Although you won't see it in your Advanced Editor, here's the default `@controls` code working behind the scenes:
 
-```
+```scss
 @controls {
   top-left {
     search {}
@@ -216,7 +216,7 @@ Although you won't see it in your Advanced Editor, here's the default `@controls
 
 You can omit individual controls by including the region in your `@controls` block, without the control inside of it. For example, if you wanted to keep the search bar, but omit all other built-in controls, you could use:
 
-```
+```scss
 @controls {
   top-right {}
   bottom-left {}
@@ -225,7 +225,7 @@ You can omit individual controls by including the region in your `@controls` blo
 
 Note that if you add controls to a region in your code, but don't explicitly include the default control, it will be hidden. For example, this code will hide the `zoom-toolbar`, `settings-toolbar`, and `focus-toolbar`:
 
-```
+```scss
 @controls {
   top-right {
     title {
@@ -237,7 +237,7 @@ Note that if you add controls to a region in your code, but don't explicitly inc
 
 If you want to quickly start from scratch without any of Kumu's built-in controls, you can use `reset: true`.
 
-```
+```scss
 @controls {
   reset: true;
 

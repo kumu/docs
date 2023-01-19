@@ -16,7 +16,7 @@ If you'd like to change the font/typeface that is showing up on element and conn
 
 > :heavy_exclamation_mark:Remember, this is most useful if you need the map for a screenshot, because there is no guarantee other users will see the correct font.
 
-```
+```scss
 @settings {
   font-family: your-font-name-here;
     }

@@ -6,7 +6,7 @@ The image control can be used to overlay an image on top of your map. This is a 
 
 **Example**
 
-```
+```scss
 @controls {
   bottom-right {
     image {

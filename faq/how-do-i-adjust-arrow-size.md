@@ -12,7 +12,7 @@ These properties can be used within `@settings` or within a [connection decorati
 Generally you'll want to set `arrow-min-width` and `arrow-min-height` to `0` if you're
 sizing arrows manually.
 
-```
+```scss
 @settings {
   arrow-min-width: 0;
   arrow-min-height: 0;
@@ -31,7 +31,7 @@ into consideration when setting the values._
 You can also increase the offset between the element and the connection to make the arrow more distinctive. 
 To do so, add this code to your advanced editor: 
 
-```
+```scss
 element {
   margin: 10;
 }

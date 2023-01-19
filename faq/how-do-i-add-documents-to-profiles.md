@@ -20,7 +20,7 @@ For more info on how to use the Scribd widget, [visit the widgets docs](/guides/
 
 Many document hosting platforms allow you to create a share/embed link that you can use to embed the document in other platforms. In Kumu, all you need to do is retrieve that share/embed link, then add `?lightbox` or `?lightbox=full` to the end of the URL.
 
-```
+```scss
 https://www.scribd.com/embeds/416217686/content?lightbox=full
 ```
 

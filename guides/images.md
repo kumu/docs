@@ -44,7 +44,7 @@ With decorations, you can create rules that add the same image to multiple eleme
 
 You can also use [advanced decorations](/guides/decorate.md#decorate-in-the-advanced-editor) to add images and tweak their appearance on the map. In a decoration in the Advanced Editor, use the `image-url` property to set the image url for your selection, and use the `image-visibility` property to hide images or make them visible on the map. You can also use the `image-size` property to choose whether images on the map will completely cover their parent elements, or be fully contained inside the parent element.
 
-```prev
+```scss
 #my-element {
   image-url: url(https://example.com/my-element-image.png);
   image-size: contain;
@@ -70,7 +70,8 @@ To add a background image to a map, you can use a snippet of code in the [Advanc
 1. Create an element and change its label to `background`.
 1. Pin the element (press `P` on your keyboard, or click the pin icon in the left side panel).
 1. Copy/paste the following code into your Advanced Editor:
-```
+
+```scss
 @settings {
   culling: off;
 }

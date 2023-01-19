@@ -6,7 +6,7 @@ With the SNA Dashboard control, you can add a dashboard that shows key metrics f
 
 Here's the syntax for adding the SNA Dashboard control in the Advanced Editor:
 
-```
+```scss
 @controls {
   bottom {
     sna-dashboard {}
@@ -16,7 +16,7 @@ Here's the syntax for adding the SNA Dashboard control in the Advanced Editor:
 
 You can also use the `metrics` property to specify exactly which metrics get included:
 
-```
+```scss
 @controls {
   bottom {
     sna-dashboard {

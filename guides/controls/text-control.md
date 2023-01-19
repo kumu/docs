@@ -6,7 +6,7 @@ Add custom text to your map.
 
 **Example**
 
-```
+```scss
 @controls {
   top {
     text {

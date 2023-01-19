@@ -60,7 +60,7 @@ If you need to restrict clustering to certain elements, cluster by more than one
 
 If you prefer working in the Advanced Editor, you can use the `cluster` property in the `@settings` block to activate clustering. Here's the simplest version of the cluster syntax:
 
-```
+```scss
 @settings {
     cluster: "Field";
 }
@@ -98,7 +98,7 @@ If you want to cluster by more than one field, just click the **Add rule** butto
 
 In the Advanced Editor, here's the syntax for fine-tuned clustering:
 
-```
+```scss
 @settings {
  cluster: selector by "Field" as "Type";
 }
@@ -110,7 +110,7 @@ Replace `selector` with any valid [selector](/guides/selectors.md). Replace `Fie
 
 Here's an example that clusters all elements with the element type "Person" by their organization. The organizations that are added to the map will have the type "Organization".
 
-```
+```scss
 @settings {
  cluster: person by "Organization" as "Organization";
 }
@@ -118,7 +118,7 @@ Here's an example that clusters all elements with the element type "Person" by t
 
 Multiple cluster rules can be added by separating them with a comma:
 
-```
+```scss
 @settings {
  cluster: person by "Organization" as "Organization", organization by "Sector" as "Sector";
 }

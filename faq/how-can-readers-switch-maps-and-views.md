@@ -28,14 +28,16 @@ Partial views can be used with the [view toggle control](/guides/controls/view-t
 It's possible to add hyperlinks to the Map Overview that readers can click to apply different views to the current map, or switch between maps. To edit the Map Overview, click anywhere on the white space of the map, then click the left side panel to start editing.
 
 To create a link to another view, you'll use this pattern:
-```
+
+```md
 [link label](#map-slug/view-slug)
 ```
+
 Replace `link label` with descriptive text. This is what your readers will see when they're looking at your links.
 
 Then, replace `map-slug` with the [slug](/guides/slugs.md) of your map. The easiest way to find your `map-slug` is to look at the URL bar when your map is open. The pattern of the URL on any project is:
 
-```
+```scss
 https://kumu.io/YourUsername/project-slug#map-slug/view-slug
 ```
 
@@ -43,7 +45,7 @@ The `#map-slug` will start with the `#` symbol and come after the project name a
 
 If you're linking to the default view for a map, you can omit the `view slug`. Your end result would look similar to this:
 
-```
+```scss
 [link label](#map-slug)
 ```
 

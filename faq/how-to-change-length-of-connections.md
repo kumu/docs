@@ -20,7 +20,7 @@ To change the thickness of the connections, follow these steps:
 
 If you'd like to modify connections to be shorter or longer connections based on a given connection field, you can do so by adding the code below (example based on using a quantitative "strength" field).
 
-```
+```scss
 @settings {
   connection-strength: scale("strength", 0, 1);
   connection-size: scale("strength", 1, 20);
@@ -33,7 +33,7 @@ This works for `connection-length` as well.
 
 You can also use this to assign specific strength and size values based on qualitative values for connections:
 
-```
+```scss
 connection["level of influence"="high"] {
   strength: 1;
 }

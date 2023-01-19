@@ -6,7 +6,7 @@ When you're working with a map that displays labels for elements, connections, o
 
 Label templates are customized through the Advanced Editor, using a simple syntax.
 
-```
+```scss
 selector {
     label: "{{Field name}}";
 }
@@ -19,7 +19,7 @@ Some <a class="alert-link" href="/guides/fields.md#field-type">field types</a> w
 {% endhint %}
 
 For example, below is the code for an **element** label that includes the **label** and **element type**.
-```
+```scss
 element {
     label: "{{label}} {{element type}}";
 }

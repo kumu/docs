@@ -582,7 +582,7 @@ Qualitative color palettes are best when you are trying to show data with discre
 
 Here's an example of how to use a named color scale:
 
-```
+```scss
 element {
   color: scale("net worth", bujumbra);
 }
@@ -624,7 +624,7 @@ Any color scale can be inverted by adding `-inverted` to the name. For example:
 
 You can define your own color palette for elements by using a comma separated list of color values.
 
-```
+```scss
 @settings {
   element-color: categorize("community", #5BC1AE, #009CDB, #F6882B, #8E278F)
 }
@@ -632,7 +632,7 @@ You can define your own color palette for elements by using a comma separated li
 
 For [flags](/guides/flags.md), the code is slightly different: 
 
-```
+```scss
 @settings {
   element-flag: "Tags" with #5BC1AE, #009CDB, #F6882B, #8E278F;
 }
@@ -642,7 +642,7 @@ For [flags](/guides/flags.md), the code is slightly different:
 
 It's also possible to specify which value should receive a certain color for elements.
 
-```
+```scss
 @settings {
   element-color: categorize("element type", #5BC1AE "Person", #009CDB "Organization", #F6882B "Region")
 }
@@ -650,7 +650,7 @@ It's also possible to specify which value should receive a certain color for ele
 
 For [flags](/guides/flags.md), the code is slightly different: 
 
-```
+```scss
 @settings {
   element-flag: "Tags" with #5BC1AE "Person", #009CDB "Organization", #F6882B "Region;
 }

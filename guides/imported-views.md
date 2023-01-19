@@ -20,7 +20,7 @@ Use the **Imported Views** interface to select another view in your project that
 
 You can use the [Advanced Editor](/overview/view-editors.md#advanced-editor) to import views. Here's the basic syntax:
 
-```
+```scss
 @import "my-view";
 ```
 

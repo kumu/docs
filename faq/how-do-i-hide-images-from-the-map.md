@@ -6,7 +6,7 @@ If you want to keep the image associated with an element in the element profile 
 
 To hide images from all the elements in the map, add this line to the @settings code:
 
-```
+```scss
 @settings {
   element-image-visibility: hidden;
 }
@@ -16,7 +16,7 @@ To hide images from all the elements in the map, add this line to the @settings 
 
 To hide images from just a subset of elements in the map, you'll need to add the following line of code to just the subset of elements:
 
-```
+```scss
 Organization {
   image-visibility: hidden;
 }

@@ -9,7 +9,7 @@ There are two ways to customize the order of your legend entries. The simpler so
 
 Again, this is the fastest and most straightforward solution in most cases, but it's also possible to customize the order of **Color by** color-coded legend entries, using the Advanced Editor:
 
-```
+```scss
 @settings {
   // When you use the Color By tool, Kumu creates this 
   // element-color rule in the @settings block automatically.

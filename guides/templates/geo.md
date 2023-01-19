@@ -23,7 +23,7 @@ To apply the Geo template using the Basic Editor:
 
 You can activate the geo template by opening the Advanced Editor (keyboard shortcut: press `.`) and adding `template: geo;` to the `@settings` block, like so:
 
-```
+```scss
 @settings {
     template: geo;
 }
@@ -42,7 +42,7 @@ Note that latitudes in the Southern hemisphere and longitudes in the Western hem
 
 If you already have your location data in the map and don't want to duplicate it in a new field name "Location", don't worry - you can use the `geo-location` property in the `@settings` block to tell Kumu where your location data is:
 
-```
+```scss
 @settings {
   template: geo;
   geo-location: "zipcode";
@@ -51,7 +51,7 @@ If you already have your location data in the map and don't want to duplicate it
 
 And if the default geocoding results aren’t accurate, you can scope them to a specific region using expressions. For an element with something like "Main Street" in the `location` field, the addition of `, Hawaii` would help Kumu know which Main Street you're talking about:
 
-```
+```scss
 @settings {
   template: geo;
   geo-location: "{{location}}, Hawaii";

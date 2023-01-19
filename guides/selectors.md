@@ -92,7 +92,7 @@ All shorthand selectors use slugs—pieces of text that have had all letters con
 
 The universal selector is just an asterisk `*`, and it matches all elements, connections, and loops—everything on the map!
 
-```
+```scss
 *       // select everything
 ```
 
@@ -101,7 +101,7 @@ The universal selector is just an asterisk `*`, and it matches all elements, con
 
 Selecting all elements, connections, or loops is simple:
 
-```
+```scss
 element                // select all elements
 connection             // select all connections
 loop                   // select all loops
@@ -111,7 +111,7 @@ loop                   // select all loops
 
 Selecting all of a specific type is pretty simple too. For elements, just take the element type and turn it into a [slug](/guides/slugs.md). For connections, turn the connection type into a slug and add `-connection`.
 
-```
+```scss
 person                 // select all elements with "Person" element type
 future-project         // select all elements with "Future Project" element type
 personal-connection    // select all connections with "Personal" connection type
@@ -122,7 +122,7 @@ business-connection    // select all connections with "Business" connection type
 
 Selecting specific items by label is—you guessed it—pretty simple! Just turn the item's label into a slug, then add `#` in front of it:
 
-```
+```scss
 #jeff-mohr             // select element "Jeff Mohr"
 #thinking-in-systems   // select element "Thinking in Systems"
 #b1                    // select loop "B1"
@@ -134,7 +134,7 @@ In Kumu, you might sometimes assign custom, unique IDs—see our guide on [avoid
 
  If you have custom IDs in your project, you can use those IDs in shorthand selectors. The syntax is the exact same as the label selector: create a slug of the ID, then add `#` in front of it:
 
-```
+```scss
 #project-1234          // select the item with id "project-1234"
 ```
 
@@ -144,7 +144,7 @@ Behind the scenes, Kumu assigns a unique ID to each element, connection, and loo
 
 System IDs are created as slugs by default, so to turn turn them into selectors, all you need to do is add a `#` in front:
 
-```
+```scss
 elem-1h04vQRH          // select the element with the system id "elem-1h04vQRH"
 conn-9Gp2zuYg          // select the connection with the system id "conn-9Gp2zuYg"
 loop-mt57r8Gb          // select the loop with the system id "loop-mt57r8Gb"
@@ -156,7 +156,7 @@ System IDs are guaranteed to be unique and permanent.
 
 To select by tag, simply turn the tag into a slug, then add a `.` to the front of it:
 
-```
+```scss
 .mission-critical      // select anything tagged with "Mission Critical"
 ```
 
@@ -164,13 +164,13 @@ To select by tag, simply turn the tag into a slug, then add a `.` to the front o
 
 The presence/absence selector allows you to select items based on whether they have **any** value or **no** values in a given field. To select by presence (**any** value in the field), turn the field name into a slug, and put it inside of square brackets:
 
-```
+```scss
 [element-type]         // select any item with anything in the "element type" field
 ```
 
 To select by absence (**no** values in the field), just follow the same steps, but put a `!` in front of the field name's slug:
 
-```
+```scss
 [!element-type]        // select any item (including connections and loops) with no value in the "element type" field
 ```
 
@@ -185,7 +185,7 @@ While the shorthand selectors are great for many cases, they're only supported f
 
 And the syntax is as follows:
 
-```
+```scss
 ["field name" operator "field value"]
 ```
 
@@ -195,7 +195,7 @@ Then, replace `operator` with a logical operator recognized by Kumu, for example
 
 Here are some examples:
 
-```
+```scss
 ["element type" = "person"] // select all items whose element type equals "Person"
 ["description" *= "kumu"]   // select all items whose description text contains "kumu"
 ```
@@ -206,7 +206,7 @@ When using the <strong>Type</strong> field in longhand selectors, you need to sp
 
 Here are a few more examples, using **relative** operators (greater-than, less-than, greater-than-or-equal-to, and less-than-or-equal-to):
 
-```
+```scss
 [team-members < 20]         // select all items that have a number less than 20 in the Team Members field
 [team-members > 20]         // select all items that have a number greater than 20 in the Team Members field
 [team-members <= 20]        // select all items that have a number less than or equal to 20 in the Team Members field
@@ -217,7 +217,7 @@ Note also that these examples use `team-members` as the field name, instead of `
 
 You can also use relative operators with the built-in `created` and `updated` fields to select items by when they were created or most recently updated in Kumu:
 
-```
+```scss
 [created > 2017]            // select all items that were created after the year 2017
 [updated < 2017-10-01]      // select all items that were updated before October 1, 2017
 ```
@@ -234,7 +234,7 @@ With the `:from` and `:to` pseudo-selectors, you can select connections based on
 
 To build your own, just replace `selector` with any valid selector. For example:
 
-```
+```scss
 :from(organization)    // select all connections that are coming from elements with type "organization"
 :to(#my-element)       // select all connections pointing to an element with the label "My Element"
 ```
@@ -244,7 +244,7 @@ To build your own, just replace `selector` with any valid selector. For example:
 
 Use the `:directed`, `:undirected`, and `:mutual` pseudo-selectors to select connections based on their direction.
 
-```
+```scss
 :directed              // select all directed connections
 :undirected            // select all undirected connections
 :mutual                // select all mutual connections
@@ -259,7 +259,7 @@ You can also select multiple elements or connections before you apply the focus 
 
 Use the `:focus` selector to select your focus root(s).
 
-```
+```scss
 :focus                 // select all focus roots
 ```
 
@@ -268,7 +268,7 @@ Use the `:focus` selector to select your focus root(s).
 
 In graphs and networks, an element that has zero connections is often referred to as an **orphan**. In Kumu, you can use the `:orphan` pseudo-selector to select all the orphans on your map.
 
-```
+```scss
 :orphan                // select all orphaned elements
 ```
 
@@ -279,7 +279,7 @@ If you're using [loops](/faq/what-are-loops.md) in your map, you can use the `:l
 
 The syntax is an element or connection selector with `:loop()` at the end of it. You can also put a loop selector inside the parentheses to specify the loop or loops.
 
-```
+```scss
 element:loop()                          // select any element that is part of any loop
 *:loop(["loop type" = "reinforcing"])   // select anything that is part of a reinforcing loop
 ```
@@ -291,7 +291,7 @@ The `:not` pseudo-selector is useful when you want to select items that **do not
 
 To build your own, just replace `selector` with any valid selector. For example:
 
-```
+```scss
 :not(organization)       // select any item that doesn't have the element type "Organization"
 :not(:orphan)            // select any item that is not an orphan, i.e. any item that has 1 or more connections
 :not([tags ~= "blue"])   // select any item whose Tags field does not include the tag "blue"
@@ -329,7 +329,7 @@ The basic syntax is `selector arrow selector`. You'll replace the first and last
 
 Here are some examples:
 
-```
+```scss
 person --> organization                     // Select all elements with the type "Person" that are connected to elements with the type "Organization"
 person <-- organization                     // Select all people that are connected from organizations
 person.democrat <--> person.republican      // Select all people tagged as Democrats who are connected to or from a person tagged as Republican
@@ -337,13 +337,13 @@ person.democrat <--> person.republican      // Select all people tagged as Democ
 
 You can also add any valid connection selector inside of the arrow to specify exactly which connections are allowed:
 
-```
+```scss
 person.democrat --[strength > 5]--> person.republican      // Select all people tagged as Democrats who are connected to a person tagged as Republican, via a a connection whose strength is greater than 5
 ```
 
 When you add connection selectors in the middle, be sure to put two dashes on the outside:
 
-```
+```scss
 /* Two dashes, then a connection selector, then two more dashes. */
 --strong-connection-->      // Connected to, via a connection with the type Strong
 <--weak-connection--        // Connected to, via a connection with the type Weak
@@ -352,7 +352,7 @@ When you add connection selectors in the middle, be sure to put two dashes on th
 
 If you're writing a shorthand selector for connection type, for example, `strong-connection`, you can omit the `-connection`. Taking the example from above:
 
-```
+```scss
 // These two selectors select the exact same thing
 person.democrat --strong--> person.republican
 person.democrat --strong-connection--> person.republican
@@ -383,7 +383,7 @@ The selectors we've covered so far are building blocks. You can combine those bu
 
 Here are some examples of selectors chained in different ways:
 
-```
+```scss
 person[description]                         // select all items with the element type "Person" AND any value in the Description field
 
 organization, person, project               // select all elements with the element type "Organization" OR "Person" OR "Project"

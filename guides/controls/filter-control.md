@@ -8,7 +8,7 @@ Add a toggle control that allows viewers to filter by field values or custom sel
 
 Filter by field:
 
-```
+```scss
 @controls {
   top {
     filter {
@@ -20,7 +20,7 @@ Filter by field:
 
 Filter using custom [selectors](../selectors.md#selectors):
 
-```
+```scss
 @controls {
   top {
     filter {
@@ -72,7 +72,7 @@ If you don't supply a field to filter by, each option must be listed separately.
 
 Filter elements by one or more skills using a dropdown:
 
-```
+```scss
 @controls {
   top {
     filter {
@@ -88,7 +88,7 @@ Filter elements by one or more skills using a dropdown:
 
 Filter by location, but only for items that have a location:
 
-```
+```scss
 @controls {
   top {
     filter {
@@ -101,7 +101,7 @@ Filter by location, but only for items that have a location:
 
 Filter connections by toggling between two types (with personal selected by default):
 
-```
+```scss
 @controls {
   top {
     filter {
@@ -126,7 +126,7 @@ Filter connections by toggling between two types (with personal selected by defa
 
 Filter elements by type but select all types by default:
 
-```
+```scss
 @controls {
   top {
     filter {
