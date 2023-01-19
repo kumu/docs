@@ -5,13 +5,6 @@
 * [Welcome](README.md)
 * [Kumu 101](getting-started/kumu-101.md)
 * [First steps](getting-started/first-steps.md)
-  *
-  *
-  *
-  *
-  *
-  *
-  *
 * [Quick tips](getting-started/quick-tips.md)
 * [Webinars](getting-started/webinars.md)
 
@@ -185,7 +178,6 @@
 * [My Kumu embed is not working. What can I do?](faq/embed-doesnt-work-what-do-i-do.md)
 * [My map disappeared. How do I bring it back?](faq/my-map-disappeared-how-do-i-bring-it-back.md)
 * [My PDF won't export. What can I do?](faq/my-PDF-wont-export.md)
-*
 * [What pricing plans does Kumu have?](faq/what-pricing-plans-does-Kumu-have.md)
 * [Where can I find my invoices?](faq/where-can-i-find-invoices.md)
 * [Who is allowed to edit my project?](frequently-asked-questions/who-is-allowed-to-edit-my-project.md)
