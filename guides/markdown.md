@@ -16,15 +16,10 @@ An inline link: [Kumu](http://launch.kumupowered.com)
 An inline link: [Kumu](http://launch.kumupowered.com)
 
 ```md
-http://launch.kumupowered.com
+An auto-generated link: http://kumu.io
 ```
 
-An auto-generated link:
-
-```md
-<a href="http://launch.kumupowered.com">http://launch.kumupowered.com</a>
-```
-
+An auto-generated link: [https://kumu.io](https://kumu.io)
 
 ## Lists
 
@@ -154,9 +149,20 @@ Green | Yellow | Red
 
 If you are using Markdown in the Description column of an [import](/guides/import.md), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
 
+<<<<<<< HEAD
 ```md
+=======
+<<<<<<< HEAD
+```
+>>>>>>> 542c98f (GitBook: [#18] fixes some busted content in markdown docs)
 <table><tr><th>One</th><th>Two</th><th>Three</th></tr><tr><td>Blue</td><td>White</td><td>Gray</td></tr><tr><td>Green</td><td>Yellow</td><td>Red</td></tr></table>
 ```
+=======
+| One   | Two    | Three |
+| ----- | ------ | ----- |
+| Blue  | White  | Gray  |
+| Green | Yellow | Red   |
+>>>>>>> 7a77431 (GitBook: [#18] fixes some busted content in markdown docs)
 
 ## Horizontal Rules
 
@@ -166,9 +172,13 @@ If you are using Markdown in the Description column of an [import](/guides/impor
 
 Looks like:
 
+<<<<<<< HEAD
 ---
 
 <br />
+=======
+\
+>>>>>>> 7a77431 (GitBook: [#18] fixes some busted content in markdown docs)
 Now you know the basics of formatting with markdown! For more information, visit [Daring Fireball's markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax#precode).
 
 
