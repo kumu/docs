@@ -93,12 +93,9 @@ Replace `link text` with the text for your link, replace `map-slug` with the [sl
 
 Replace `alt text` with an image caption that screen readers can read, and replace `image-url` with a link to your image.
 
+### Widgets
 
-## Videos
-
-Look at the embed code of the video you want to embed and grab the URL within ***src=" "***
-
-    ![I Believe I Can Fly](//player.vimeo.com/video/31240369?color=ffffff)
+See our guide to [widgets](markdown.md#widgets) to learn more about embedding videos, podcasts, slideshows, and other interactive content inside markdown.
 
 ## Headings
 
