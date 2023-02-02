@@ -18,6 +18,10 @@ md5 kumu-enterprise.kli
 md5sum kumu-enterprise.kli
 ```
 
+{% hint style="danger" %}
+Note that the above credentials are only for logging in to the Enterprise instance settings via `<hostname>/enterprise/admin`. Please see [Creating user accounts](creating-user-accounts.md) for information about creating admin and user accounts for the Enterprise application.
+{% endhint %}
+
 ## Support
 
 **Add a support email.** This address will be linked to any support links within the application. Set this to the email address you want to send your user's support requests to. Defaults to enterprise@kumu.io.
