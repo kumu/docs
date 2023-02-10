@@ -13,17 +13,17 @@ If you're new to Kumu, try working through the Getting Started section.
 
 Once you've gotten the hang of Kumu, explore the Guides section.
 
-* [Decorate](guides/decorate/)
-* [Filter](guides/filter/)
-* [Cluster](guides/clustering/)
+* [Decorate](guides/decorate.md)
+* [Filter](guides/filter.md)
+* [Cluster](guides/clustering.md)
 
 ### I think I'm missing something...
 
 Feeling a bit lost in the Guides section? No worries! Try getting some more background information on Kumu from the Overview section.
 
-* [Types of accounts](overview/accounts-and-plans/)
-* [Kumu's architecture](overview/kumus-architecture/)
-* [User interfaces](overview/user-interfaces/)
+* [Types of accounts](overview/accounts-and-workspaces.md)
+* [Kumu's architecture](overview/kumus-architecture.md)
+* [User interfaces](overview/user-interfaces.md)
 
 ## Five-minute quickstart
 
@@ -33,6 +33,6 @@ Feeling a bit lost in the Guides section? No worries! Try getting some more back
 
 If you run into any challenges, send us an email at [support@kumu.io](mailto:support@kumu.io) or join our [Slack group](http://chat.kumu.io) for even faster support.
 
-[Ready to dive in? Read the First Steps guide](getting-started/first-steps/)
+[Ready to dive in? Read the First Steps guide](getting-started/first-steps.md)
 
-These docs are a work in progress and will be continuously updated. Pull requests are welcome so if you would like to contribute. [Fork the repo on GitHub](https://github.com/kumu/docs).
+These docs are a work in progress and will be continuously updated.&#x20;
