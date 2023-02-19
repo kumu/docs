@@ -9,6 +9,7 @@ redirects:
   faq/how-to-add-background-image: /guides/images.md
   faq/how-to-add-contributors: /overview/collaboration.md#add-a-contributor
   faq/how-to-scale-elements-no-text-size-change: /faq/how-do-i-control-label-size-while-scaling-element-size.md
+  faq/my-pdf-wont-export: faq/my-PDF-wont-export.md
   faq/who-is-allowed-to-edit-my-project: /overview/actions-and-permissions.md
   getting-started/adding-a-collaborator: /getting-started/overview.md#adding-a-collaborator-permalink
   getting-started/basic-vs-advanced-editor: /overview/view-editors.md
@@ -33,7 +34,7 @@ redirects:
   guides/index: /guides/guides.md
   guides/layout: /guides/layouts.md
   guides/organizations: /guides/pro-workspaces.md
-  guides/perspectives-advanced: /guides/views-advanced.md
+  guides/perspectives-advanced: /overview/user-interfaces/view-editors.md#advanced-editor
   guides/perspectives: /guides/views.md
   guides/project-architecture: /overview/kumus-architecture.md
   guides/sharing: /guides/embeds.md
@@ -152,8 +153,10 @@ redirects:
   guides/data-driven-decorations.html: guides/data-driven-decorations.md
   guides/decorate.html: guides/decorate.md
   guides/default-view-settings.html: guides/default-view-settings.md
+  guides/default-settings.html: guides/default-view-settings.md
   guides/direct-decorations.html: guides/direct-decorations.md
   guides/disciplines/README.html: guides/disciplines/README.md
+  guides/embeds.html: guides/share-and-embed.md
   guides/export.html: guides/export.md
   guides/fields.html: guides/fields.md
   guides/filter.html: guides/filter.md
@@ -181,6 +184,7 @@ redirects:
   guides/metrics.html: guides/metrics.md
   guides/multi-factor-authentication.html: guides/multi-factor-authentication.md
   guides/partial-views.html: guides/partial-views.md
+  guides/perspectives-advanced.html: overview/user-interfaces/view-editors.md#advanced-editor
   guides/popovers.html: guides/popovers.md
   guides/presentations.html: guides/presentations.md
   guides/pro-workspaces.html: guides/pro-workspaces.md
@@ -198,6 +202,7 @@ redirects:
   guides/single-sign-on.html: guides/single-sign-on.md
   guides/slugs.html: guides/slugs.md
   guides/sna-network-mapping.html: guides/sna-network-mapping.md
+  guides/snap-to.html: /guides/layouts/snap-to.md
   guides/stakeholder-analysis.html: guides/stakeholder-analysis.md
   guides/system-mapping.html: guides/system-mapping.md
   guides/systems-practice.html: guides/systems-practice.md
