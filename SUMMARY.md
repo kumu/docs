@@ -80,7 +80,7 @@
 * [Multi-factor authentication](guides/multi-factor-authentication.md)
 * [Pro workspaces](guides/pro-workspaces.md)
   * [Archiving projects](guides/archiving-projects.md)
-  * [Discussions](guides/issues.md)
+  * [Discussions](guides/discussions.md)
 * [Partial views](guides/partial-views.md)
 * [Presentations](guides/presentations.md)
 * [Profiles](guides/profiles.md)
