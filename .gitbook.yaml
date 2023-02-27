@@ -37,6 +37,7 @@ redirects:
   guides/perspectives-advanced: /guides/views-advanced.md
   guides/perspectives: /guides/views.md
   guides/project-architecture: /overview/kumus-architecture.md
+  guides/pro-workspaces/issues: /guides/discussions.md
   guides/sharing: /guides/embeds.md
   guides/snap-to: /guides/layouts/snap-to.md
   guides/views-advanced: /overview/view-editors.md#advanced-editor
