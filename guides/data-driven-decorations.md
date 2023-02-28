@@ -5,42 +5,47 @@ When you're visually decorating your maps in Kumu (e.g. color-coding, changing s
 However, data-driven decorations is a feature you may not have come across in other graphic tools you've used. This guide will help with the learning curve!
 
 In this guide, you'll find:
-- [Defining "data-driven decorations"](#defining-data-driven-decorations)
-- [Adding your data](#adding-your-data)
-- [Decorate in the Basic Editor](#decorate-in-the-basic-editor)
-    - [Size by](#size-by)
-    - [Color by](#color-by)
-    - [Shape by](#shape-by)
-    - [Fine-tune your decorations](#use-decoration-builders-to-create-custom-decorations)
-- [Decorate in the Advanced Editor](#decorate-in-the-advanced-editor)
-- [The decorations cascade](#the-decorations-cascade)
 
+* [Defining "data-driven decorations"](data-driven-decorations.md#defining-data-driven-decorations)
+* [Adding your data](data-driven-decorations.md#adding-your-data)
+* [Decorate in the Basic Editor](data-driven-decorations.md#decorate-in-the-basic-editor)
+  * [Size by](data-driven-decorations.md#size-by)
+  * [Color by](data-driven-decorations.md#color-by)
+  * [Shape by](data-driven-decorations.md#shape-by)
+  * [Fine-tune your decorations](data-driven-decorations.md#use-decoration-builders-to-create-custom-decorations)
+* [Decorate in the Advanced Editor](data-driven-decorations.md#decorate-in-the-advanced-editor)
+* [The decorations cascade](data-driven-decorations.md#the-decorations-cascade)
 
 ## Defining "data-driven decorations"
 
 Data-driven decorations are rules that tell Kumu how to style your map. Those rules accomplish two tasks:
-- Tell Kumu which items (i.e. elements, connections, or loops) the rule should apply to.
-- Tell Kumu which visual style should be applied to those items.
+
+* Tell Kumu which items (i.e. elements, connections, or loops) the rule should apply to.
+* Tell Kumu which visual style should be applied to those items.
 
 Here are some examples of rules you could create:
 
 **All elements should be colored blue.**
+
 1. _Which items?_ All elements.
 2. _Which visual style?_ Change color to blue.
 
 **Elements with "Person" in their Type field should have a green shadow.**
+
 1. _Which items?_ All elements with "Person" in their Type field.
 2. _Which visual style?_ Add a green shadow.
 
 **Connections' thickness should vary based on the number in their "Strength" field.**
+
 1. _Which items?_ All connections.
 2. _Which visual style?_ Scale the connection thickness based on its strength.
 
 **Loops that have something in their "Type" field should be color coded based on that value**
+
 1. _Which items?_ Only the loops that have something in their "Type" field.
 2. _Which visual style?_ Assign a color automatically, so that each loop's color corresponds with its type.
 
-Note that these rules are not tied to specific elements, connections, or loops, but instead are designed to act on groups of items, based on data and information inside of their [profiles](/guides/profiles.md)—in other words, the rules are all **data-driven**.
+Note that these rules are not tied to specific elements, connections, or loops, but instead are designed to act on groups of items, based on data and information inside of their [profiles](profiles.md)—in other words, the rules are all **data-driven**.
 
 Whether you have ten, one-hundred, or even one-thousand elements, the first rule from the list above is going to find every single element and color it blue.
 
@@ -48,25 +53,23 @@ It gets better! Let's say you add some elements and connections to Kumu and appl
 
 All data-driven decorations are completely scaleable—Kumu will apply them to any and all new items you add, whether you're adding new elements, connections, and loops, or just editing the information in existing profiles.
 
-
 ## Adding your data
 
 Each element, connection, and loop has a profile that can be used to store additional information in various fields.
 
-<img src="/images/introduction-profile.png" class="plain">
+![](../images/introduction-profile.png)
 
 Label, Type, Description, and Tags are all examples of fields. Use these fields to provide additional context for each element and connection, and click **+NEW FIELD** to add a custom field.
 
-After you fill out data in the profiles, you can use the [Basic Editor](/overview/view-editors.md#basic-editor) or the [Advanced Editor](/overview/view-editors.md#advanced-editor) to add decorations.
-
+After you fill out data in the profiles, you can use the [Basic Editor](../overview/view-editors.md#basic-editor) or the [Advanced Editor](../overview/view-editors.md#advanced-editor) to add decorations.
 
 ## Decorate in the Basic Editor
 
-To open the Basic Editor, open your map and click the settings icon ![](/icons/sliders-h.svg) on the right side of the map.
+To open the Basic Editor, open your map and click the settings icon ![](../icons/sliders-h.svg) on the right side of the map.
 
-![basic editor](/images/overview-basic-editor.png)
+<figure><img src="../.gitbook/assets/Basic Editor.png" alt=""><figcaption><p>Basic Editor</p></figcaption></figure>
 
-You'll see four of Kumu's most commonly used view settings, and the first two—**Size by** and **Color by**—can help you create basic decorations.
+You'll see some of Kumu's most commonly used view settings, and the first three—**Size by,** **Color by,** and **Shape by**—can help you create basic decorations.
 
 ### Size by
 
@@ -74,16 +77,16 @@ You'll see four of Kumu's most commonly used view settings, and the first two—
 
 {% embed url="https://www.youtube.com/embed/ej9IONabGH8" %}
 
-Don't like the default sizes? Click the expand icon  next to the **Size by** dropdown to fine-tune your sizing options.
+Don't like the default sizes? Click the expand icon next to the **Size by** dropdown to fine-tune your sizing options.
 
 In this example, we sized people by the number of views they received on their videos of the ALS ice bucket challenge:
 
-![Ice bucket challenge map](/images/size-scaled-elements.png)
+![Ice bucket challenge map](../images/size-scaled-elements.png)
 
-Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it. If you don't have this kind of data available, try using Kumu's [Metrics](/guides/metrics.md) feature to create some!
+Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it. If you don't have this kind of data available, try using Kumu's [Metrics](metrics.md) feature to create some!
 
-{% hint style="warn" %}
-  Are your fields with numbers not showing up in the <b>Size by</b> dropdown? Try [changing the field type to "Number"](/guides/fields.md#customize-a-field).
+{% hint style="info" %}
+Are your fields with numbers not showing up in the Size by dropdown? Try [changing the field type to "Number"](fields.md#customize-a-field).
 {% endhint %}
 
 ### Color by
@@ -92,69 +95,64 @@ Note that if you don't have any fields with numbers, the **Size by** dropdown me
 
 {% embed url="https://www.youtube.com/embed/a0FgR7gXFVk" %}
 
-Don't like the default colors? Click the expand icon  next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
+Don't like the default colors? Click the expand icon next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
 
-![bujumbra color by](/images/color-by-element-type-bujumbra.png)
+![bujumbra color by](../images/color-by-element-type-bujumbra.png)
 
-The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](/guides/color-reference.md) to find a scale that will work for your data.
+The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](color-reference.md) to find a scale that will work for your data.
 
 If you color by a multi-pick field like Tags, Kumu will color code your elements with flags (colored arcs around the outside of your elements). Each flag represents one of the possible values in the multi-pick field.
 
-![Flags example](/images/flags-with-filter.png)
+![Flags example](../images/flags-with-filter.png)
 
-To learn more about flags, [read the full guide](/guides/flags.md).
-
+To learn more about flags, [read the full guide](flags.md).
 
 ### Shape by
 
 **Shape by** allows you to shape your elements based on any field that can hold only one value. Select a field from the dropdown, and any elements that have data in that field will get a new shape!
 
-![shape by](/images/shape-by-element-type.png)
+<figure><img src="../.gitbook/assets/Shapes 2 (1).png" alt=""><figcaption></figcaption></figure>
 
-To learn more about shapes, [read the full guide](/guides/shapes.md).
-
+To learn more about shapes, [read the full guide](shapes.md).
 
 ### Use decoration builders to create custom decorations
 
-If you need more precise control over your size and color decorations, you can click the **MORE OPTIONS** link underneath the four core tools in the Basic Editor.
-
-![More options in the basic editor](/images/overview-customize-this-view.png)
+If you need more precise control over the size and color of your decorations, you can choose either of the last two options on the list.&#x20;
 
 Select **Decorate elements** to bring up the Decoration Builder for elements.
 
-![Element decoration builder](/images/element-decoration-builder.png)
+![Element decoration builder](../images/element-decoration-builder.png)
 
 Or, select **Decorate connections** to bring up the Decoration Builder for connections.
 
-![Connection decoration builder](/images/connection-decoration-builder.png)
+![Connection decoration builder](../images/connection-decoration-builder.png)
 
 Use the dropdown menus at the top of the builders to choose which elements or connections you are decorating. The options are:
 
-- Decorate all elements/connections
-- Decorate custom selection
-- Decorate selected elements/connections
-- Decorate similar elements/connections
+* Decorate all elements/connections
+* Decorate custom selection
+* Decorate selected elements/connections
+* Decorate similar elements/connections
 
-Note that the last two options won't appear in the dropdown menu unless you selected one or more elements/connections *before* you opened up the Decoration Builder.
+Note that the last two options won't appear in the dropdown menu unless you selected one or more elements/connections _before_ you opened up the Decoration Builder.
 
-If you chose to decorate a custom selection, you can use the tools below the first dropdown menu to build your custom selection. For example, you can set the three boxes to `Element Type` `is` `Person` to tell Kumu that you are only decorating elements who have the type "Person" in their [profile](/guides/profiles.md).
+If you chose to decorate a custom selection, you can use the tools below the first dropdown menu to build your custom selection. For example, you can set the three boxes to `Element Type` `is` `Person` to tell Kumu that you are only decorating elements who have the type "Person" in their [profile](profiles.md).
 
 After you have built your selection, feel free to play with all the decoration options to find a visual effect that brings insight to your map!
 
-![Element decoration options](/images/element-decorations.png)
+![Element decoration options](../images/element-decorations.png)
 
-Click the **Done** button to apply your decoration, and if you don't like the way it looks, just find the decoration rule in the [existing decorations](/overview/view-editors.md#existing-decorations) section of the Basic Editor, and click the pencil icon  to edit it.
+Click the **Done** button to apply your decoration, and if you don't like the way it looks, just find the decoration rule in the [existing decorations](../overview/view-editors.md#existing-custom-decorations) section of the Basic Editor, and click the pencil icon to edit it.
 
-![Existing decorations](/images/basic-editor-existing-decorations.png)
+<figure><img src="../.gitbook/assets/custom decorations (1).png" alt=""><figcaption><p>Custom decorations</p></figcaption></figure>
 
-You can also add your decorations to the legend by filling out the **Legend** box at the bottom of the Decoration Builder. For more information on legends, [check out the full legends guide](/guides/legends.md).
-
+You can also add your decorations to the legend by filling out the **Legend** box at the bottom of the Decoration Builder. For more information on legends, [check out the full legends guide](legends.md).
 
 ## Decorate in the Advanced Editor
 
 If you've seen or used [Cascading Style Sheets (CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS), decorating in the Advanced Editor will look and feel very familiar.
 
-![Advanced Editor](/images/advanced-editor-hf.png)
+![Advanced Editor](../images/advanced-editor-hf.png)
 
 If you haven't seen or used CSS, don't worry! Most Advanced Editor code follows the same straightforward pattern:
 
@@ -164,7 +162,7 @@ selector {
 }
 ```
 
-`selector` can be replaced with any valid [selector](/guides/selectors.md), and you can read our [property reference](/guides/property-reference.md) to find documentation on `properties` and their possible `values`.
+`selector` can be replaced with any valid [selector](selectors.md), and you can read our [property reference](property-reference.md) to find documentation on `properties` and their possible `values`.
 
 For example, if you were mapping a network of politicians, you could add a field called "Political Party", fill out the data for each element, then use this code to add a few decorations:
 
@@ -185,16 +183,15 @@ element["Political Party"="Republican"] {
 
 The first section, starting with `element ["Political Party"]` changes the size and border width of all elements with any value in the "Political Party" field. The section section, which refines the selector to `element["Political Party"="Democrat"]`, gives the Democrats a blue border. The third section changes the selector again to target Republicans, then gives them all a red border.
 
-There's much more you can do with the Advanced Editor—it's one of the most powerful tools in Kumu! [Read the full Advanced Editor guide](/overview/view-editors.md#advanced-editor) to learn more.
-
+There's much more you can do with the Advanced Editor—it's one of the most powerful tools in Kumu! [Read the full Advanced Editor guide](../overview/view-editors.md#advanced-editor) to learn more.
 
 ## The decorations cascade
 
 Decorations are applied in a cascading order. If you're decorating via the Basic Editor, this means that your most recently created decorations can override your older decorations. For example, if you save a decoration that makes half of the elements blue, then you add another decoration that makes all of the elements green, your end result will be a map full of green elements. The second rule you created will override the first rule.
 
-You can click and drag decorations in the [existing decorations](/overview/view-editors.md#existing-decorations) section of the Basic Editor to reorder them, changing which rule gets applied in the end.
+You can click and drag decorations in the [existing decorations](../overview/view-editors.md#existing-custom-decorations) section of the Basic Editor to reorder them, changing which rule gets applied in the end.
 
-![Cascading decorations](/images/cascading-decorations.gif)
+![Cascading decorations](../images/cascading-decorations.gif)
 
 If you're decorating via the Advanced Editor, Kumu will read and apply your decoration code from top to bottom. In the example below, all elements will first be colored blue (`#428cba`), but then will be changed to green (`#5cb85c`).
 
@@ -212,11 +209,4 @@ element {
 }
 ```
 
-<div class="alert alert-warning">
-  <p>
-    If you're using <a href="/guides/direct-decorations.md" class="alert-link">direct decorations</a>, keep in mind that direct decorations don't follow the rules of the cascade—they always override data-driven decorations.
-  </p>
-</div>
-
-
-
+If you're using [direct decorations](direct-decorations.md), keep in mind that direct decorations don't follow the rules of the cascade—they always override data-driven decorations.

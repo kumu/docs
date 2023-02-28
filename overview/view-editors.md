@@ -10,7 +10,7 @@ There are also some features of Kumu that can only be accessed through the Advan
 
 To open the Basic Editor, open your map and click the settings icon ![](../icons/sliders-h.svg) on the right side of the map.
 
-<figure><img src="../.gitbook/assets/Basic Editor.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Basic Editor (1).png" alt=""><figcaption></figcaption></figure>
 
 You'll see Kumu's most commonly used view settings:
 

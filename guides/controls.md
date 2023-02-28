@@ -1,28 +1,24 @@
 # Controls
 
-Controls allow you to customize how people interact with your maps. You can use them to overlay buttons, images, text and more! Interactive controls can be used to transform the current view's setting too, such as filter, focus,
-and clustering.
+Controls allow you to customize how people interact with your maps. You can use them to overlay buttons, images, text and more! Interactive controls can be used to transform the current view's setting too, such as filter, focus, and clustering.
 
 {% embed url="https://www.youtube.com/embed/eBo1St2laTw" %}
 
-<!-- ![Image of a custom control](/images/custom-controls-intro.png) -->
-
-
 ### Add controls through the Basic Editor
 
-You can use the [Basic Editor](/overview/view-editors.md#basic-editor) to add a few simple types of controls to your map. Click the settings icon ![](/icons/sliders-h.svg) to open the editor, then click **MORE OPTIONS** and select **Add custom control**. Kumu will open up the controls builder, with a few options pre-selected:
+You can use the [Basic Editor](../overview/view-editors.md#basic-editor) to add a few simple types of controls to your map. Click the settings icon ![](../icons/sliders-h.svg) to open the editor, then click **Add custom control**. Kumu will open up the controls builder, with a few options pre-selected:
 
-![controls builder ui](/images/control-builder.png)
+![controls builder ui](../images/control-builder.png)
 
-Use the dropdown menus in the controls builder to set up your control, then, when you're done, click the back arrow  to return to the main screen, and click **SAVE**.
+Use the dropdown menus in the controls builder to set up your control, then, when you're done, click the back arrow to return to the main screen, and click **SAVE**.
 
-{% hint style="warn" %}
-Want to remove unneeded controls? You can use the <a class="alert-link" href="#remove-unneeded controls">remove unneeded controls</a> section of this guide to help troubleshoot.
+{% hint style="info" %}
+Want to remove unneeded controls? You can use the [remove unneeded controls](<controls.md#remove-unneeded controls>) section of this guide to help troubleshoot.
 {% endhint %}
 
 ### Add controls through the Advanced Editor
 
-To unlock the full set of flexible controls features, you can use the [Advanced Editor](/overview/view-editors.md#advanced-editor). Here's an example of what controls look like in the Advanced Editor:
+To unlock the full set of flexible controls features, you can use the [Advanced Editor](../overview/view-editors.md#advanced-editor). Here's an example of what controls look like in the Advanced Editor:
 
 ```scss
 @controls {
@@ -60,12 +56,9 @@ In general, controls are defined with the `@controls` block, grouped into region
 }
 ```
 
-
-
 #### Regions
 
-Adding a custom control to your map starts by picking where you want to place the control.
-Controls can be assigned to one of six **regions** on the map:
+Adding a custom control to your map starts by picking where you want to place the control. Controls can be assigned to one of six **regions** on the map:
 
 * `top`
 * `top-left`
@@ -88,18 +81,16 @@ Controls can be assigned to one of six **regions** on the map:
 
 After you set the region, you can choose what **type of control** you are adding. Here are the available control types:
 
-- `title`: [Title control](controls/title-control.md)
-- `text`: [Text control](controls/text-control.md)
-- `label`: [Label control](controls/label-control.md)
-- `showcase`: [Showcase control](controls/showcase-control.md)
-- `filter`: [Filter control](controls/filter-control.md)
-- `cluster`: [Cluster control](controls/cluster-control.md)
-- `tagged-timeline`: [Tagged-timeline control](controls/tagged-timeline-control.md)
-- `color-legend`: [Color-legend control](controls/color-legend-control.md)
-- `image`: [Image control](controls/image-control.md)
-- `sna-dashboard`: [Social Network Analysis Dashboard control](controls/sna-dashboard-control.md)
-
-
+* `title`: [Title control](controls/title-control.md)
+* `text`: [Text control](controls/text-control.md)
+* `label`: [Label control](controls/label-control.md)
+* `showcase`: [Showcase control](controls/showcase-control.md)
+* `filter`: [Filter control](controls/filter-control.md)
+* `cluster`: [Cluster control](controls/cluster-control.md)
+* `tagged-timeline`: [Tagged-timeline control](controls/tagged-timeline-control.md)
+* `color-legend`: [Color-legend control](controls/color-legend-control.md)
+* `image`: [Image control](controls/image-control.md)
+* `sna-dashboard`: [Social Network Analysis Dashboard control](controls/sna-dashboard-control.md)
 
 #### Properties
 
@@ -117,8 +108,7 @@ Controls are customized using **properties**, and each control understands a sli
 
 For a full list of the properties that each control understands, read the individual control guides (linked above), or check out the [controls reference](controls/controls-reference.md).
 
-Looking to change the order of the controls in your map? Have a look at [this guide](/faq/how-do-i-change-the-order-of-control-options.md). 
-
+Looking to change the order of the controls in your map? Have a look at [this guide](../faq/how-do-i-change-the-order-of-control-options.md).
 
 #### Children
 
@@ -145,7 +135,6 @@ In the example below, we call the `option` blocks the "children" of the `showcas
 ```
 
 You can read through the individual control guides (linked above) to see which controls accept children and which properties their children understand.
-
 
 #### Groups
 
@@ -175,9 +164,9 @@ The properties that get set underneath `group` will apply to all controls nested
 
 ### Remove unneeded controls
 
-When you're adding [controls](/guides/controls.md) through the Basic Editor, you might sometimes add a duplicate control by accident, or add a control that says "No values found for [some field name]". To remove any of those unneeded controls, you can use the Advanced Editor.
+When you're adding [controls](controls.md) through the Basic Editor, you might sometimes add a duplicate control by accident, or add a control that says "No values found for \[some field name]". To remove any of those unneeded controls, you can use the Advanced Editor.
 
-Open up the Advanced Editor, and, unless you have added [partial views](/guides/partial-views.md), there will be a block of code right at the top starting with `@controls`.
+Open up the Advanced Editor, and, unless you have added [partial views](partial-views.md), there will be a block of code right at the top starting with `@controls`.
 
 ```scss
 // Line 1 of your Advanced Editor:
@@ -186,13 +175,13 @@ Open up the Advanced Editor, and, unless you have added [partial views](/guides/
 }
 ```
 
-If you don't want _any_ controls or "No values found for [some field name]" messages on your map, simply delete the entire `@controls` block, then click "Save" at the bottom of the editor.
+If you don't want _any_ controls or "No values found for \[some field name]" messages on your map, simply delete the entire `@controls` block, then click "Save" at the bottom of the editor.
 
-If you have some controls in there that you would like to preserve, you'll first need to learn the basics of how to read `@controls` code, so that you can tell which controls you want to delete and which you want to keep. You can learn more about reading `@controls` code in [our full guide on controls](/guides/controls.md#add-controls-through-the-advanced-editor). Of course you can always send us an email at support@kumu.io to help out!
+If you have some controls in there that you would like to preserve, you'll first need to learn the basics of how to read `@controls` code, so that you can tell which controls you want to delete and which you want to keep. You can learn more about reading `@controls` code in [our full guide on controls](controls.md#add-controls-through-the-advanced-editor). Of course you can always send us an email at support@kumu.io to help out!
 
 ### Built-in controls
 
-All of Kumu's built-in controls (search, zoom buttons, settings buttons, the [legend](/guides/legends.md)) are handled by the same platform that custom controls are built on. That means you can move the built-in controls around, omit ones you don't need, or even reset the built-in controls and start from scratch.
+All of Kumu's built-in controls (search, zoom buttons, settings buttons, the [legend](legends.md)) are handled by the same platform that custom controls are built on. That means you can move the built-in controls around, omit ones you don't need, or even reset the built-in controls and start from scratch.
 
 Although you won't see it in your Advanced Editor, here's the default `@controls` code working behind the scenes:
 
@@ -254,5 +243,3 @@ If you want to quickly start from scratch without any of Kumu's built-in control
   }
 }
 ```
-
-
