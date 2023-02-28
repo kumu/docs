@@ -18,6 +18,8 @@ You'll see Kumu's most commonly used view settings:
 
 **Size by** allows you to scale the size of your elements based on numbers stored inside them. For example, if you have a map of organizations, you could create a field called "Net Assets" and fill out the numbers for each element. Then you can use the Basic Editor to scale the size the organizations according to their Net Assets, allowing you to quickly compare everyone's resources.
 
+<figure><img src="../.gitbook/assets/Size by.png" alt=""><figcaption><p>Size by</p></figcaption></figure>
+
 Don't like the default sizes? Click the expand icon next to the **Size by** dropdown to fine-tune your sizing options.
 
 Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it. If you don't have this kind of data available, try using Kumu's [Metrics](../guides/metrics.md) feature to create some!
@@ -52,7 +54,7 @@ Need more precise control over your colors? Check out our guide on [refining you
 
 **Shape by** allows you to shape your elements based on any field that can hold only one value. Select a field from the dropdown, and any elements that have data in that field will get a new shape!
 
-![shape by](../images/shape-by-element-type.png)
+<figure><img src="../.gitbook/assets/Shapes 2.png" alt=""><figcaption><p>Shapes</p></figcaption></figure>
 
 To learn more about shapes, [read the full guide](../guides/shapes.md).
 
@@ -60,11 +62,15 @@ To learn more about shapes, [read the full guide](../guides/shapes.md).
 
 The [default view settings](../guides/default-view-settings.md) is your one-stop-shop for adjusting the underlying settings in your [view](../guides/views.md). Templates, layouts, default element and connection styles, and more, can all be changed with default view settings.
 
+<figure><img src="../.gitbook/assets/Customize defaults.png" alt=""><figcaption><p>Customize defaults</p></figcaption></figure>
+
 ### Connect by
 
 **Connect by** allows you to activate clustering on your map. Clustering is a powerful tool that allows you to connect elements based on the data in their fields, and it's particularly useful on stakeholder and network maps.
 
 When clustering is activated, Kumu will create new elements to represent each possible value for a field of your choice, and it will draw a connection between your elements and the value(s) in their field.
+
+<figure><img src="../.gitbook/assets/Cluster2.png" alt=""><figcaption></figcaption></figure>
 
 [Check out our full clustering guide](../guides/clustering.md) to learn more.
 
@@ -94,15 +100,29 @@ Follow these links below to learn more about any of these individual options:
 * [Snap-to](../guides/layouts/snap-to.md): arrange a custom selection of elements in a perfect _circle_ or _line_
 * [Grids & Guides](../guides/underlays.md): use a grid-based layout for arranging with numerical field data.
 
-### Ad
+### Add custom control
+
+**Controls** is a super powerful feature that allows you to customize how people interact with your maps. You can use them to add buttons, images, text and more to your map! You can also use interactive controls to transform the current view's setting, such as filter, focus, and clustering.&#x20;
+
+<figure><img src="../.gitbook/assets/Controls.png" alt=""><figcaption><p>Controls in the upper left corner</p></figcaption></figure>
+
+Check out [our full controls guide](../guides/controls.md) to learn more.&#x20;
+
+### Decorate Elements & Decorate Connections
+
+If you need more precise control over the size and color of your decorations, you can choose either of the last two options on the list. If you click **Decorate elements,** Kumu will bring up the custom decoration builder for elements, which allows you to decorate your map in great detail. Similarly, if you wish to decorate your connections, choose **Decorate connections** to bring up the decoration builder for connections.&#x20;
+
+<figure><img src="../.gitbook/assets/spaces_kXSW1nEf49ISqGxYuRfS_uploads_git-blob-fdece80c97876a3822bfe8ba09cd47fcb9732171_element-decoration-builder.webp" alt=""><figcaption><p>Custom decorations builder for elements</p></figcaption></figure>
+
+To learn more about how to add custom decorations, find the [full guide here](../guides/data-driven-decorations.md#use-decoration-builders-to-create-custom-decorations).&#x20;
 
 ### Existing custom decorations&#x20;
 
-If you have already one or more decorations to your map, the Basic Editor will show those existing decorations underneath the **MORE OPTIONS** link. They'll be listed in chronological order from top to bottom (the most recently created decoration rules will be at the bottom of the list).
+If you have already one or more decorations to your map, the Basic Editor will show those existing decorations underneath the **Rules** section (below Decorate connections). They'll be listed in chronological order from top to bottom (the most recently created decoration rules will be at the bottom of the list).
 
-![Existing decorations](../images/basic-editor-existing-decorations.png)
+This section of the Basic Editor shows each decoration's legend label you added through the Decoration Builder. You can click the pencil icon next to a decoration to edit it, or click the delete icon to delete it.
 
-This section of the Basic Editor shows each decoration's legend label, if you have added them through the Decoration Builder. You can click the pencil icon next to a decoration to edit it, or click the delete icon to delete it.
+<figure><img src="../.gitbook/assets/custom decorations.png" alt=""><figcaption><p>Custom decorations</p></figcaption></figure>
 
 ## Advanced Editor
 
