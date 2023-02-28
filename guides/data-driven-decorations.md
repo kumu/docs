@@ -67,7 +67,7 @@ After you fill out data in the profiles, you can use the [Basic Editor](../overv
 
 To open the Basic Editor, open your map and click the settings icon ![](../icons/sliders-h.svg) on the right side of the map.
 
-<figure><img src="../.gitbook/assets/Basic Editor.png" alt=""><figcaption><p>Basic Editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Basic Editor (2).png" alt=""><figcaption><p>Basic Editor</p></figcaption></figure>
 
 You'll see some of Kumu's most commonly used view settings, and the first three—**Size by,** **Color by,** and **Shape by**—can help you create basic decorations.
 
