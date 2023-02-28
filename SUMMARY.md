@@ -168,7 +168,7 @@
 * [How do I restructure my adjacency matrix?](faq/how-do-i-restructure-my-adjacency-matrix.md)
 * [How do I select options by default in my control?](faq/how-do-i-select-options-by-default-in-my-control.md)
 * [How do I size elements based on number of connections?](faq/how-do-i-size-elements-by-number-of-connections.md)
-* [How do I show the settings button?](faq/how-do-i-show-the-settings-button.md)
+* [How do I show the Settings button?](faq/how-do-i-show-the-settings-button.md)
 * [How do I transfer a project?](faq/how-do-i-transfer-a-project.md)
 * [How do I update my credit card information?](faq/how-do-i-update-credit-card.md)
 * [How much data can my Kumu project handle?](faq/how-much-data-can-kumu-handle.md)
