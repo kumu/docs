@@ -2,8 +2,8 @@
 
 The quickest way to change font size on your map is through the [default view settings](../guides/default-view-settings.md) menu.
 
-1. Click the settings icon ![](/icons/sliders-h.svg)to open the [_Basic Editor_](../overview/view-editors.md#basic-editor)
-2. Click **More Options**, then select **Customize view defaults**, scroll down to the **Font defaults** section, and use the slider to adjust your view's base font size.
+1. Click the settings icon ![](../icons/sliders-h.svg)to open the [_Basic Editor_](../overview/view-editors.md#basic-editor)
+2. Click **Customize defaults**, scroll down to the **Font defaults** section, and use the slider to adjust your view's base font size.
 
 This solution is quick, but not the most flexible. Your font size changes will apply to everything on the map, and you're constrained to a maximum font size of `60` and a minimum font size of `1`.
 
@@ -11,7 +11,7 @@ For a more flexible solution, you can use the [_Advanced Editor_](../overview/vi
 
 One way to do that is in the `@settings` block:
 
-```css
+````css
 @settings { font-size: 100;}
 ```scss
 
@@ -21,7 +21,7 @@ If you want to change the font size for a specific group of elements and connect
 
 ```css
 element { font-size: 75; }
-```
+````
 
 The code snippet above will only change the font size for elements, but will leave connections and loops at the default font size.
 

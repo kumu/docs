@@ -13,7 +13,7 @@
 
 **In the Basic Editor**
 
-1. Click on the Settings icon on the right side of the map to
+1. Click the settings icon ![](../icons/sliders-h.svg)to open the [Basic Editor](../overview/view-editors.md#basic-editor)
 2. Click "More" and then select Grids & Guides to open the menu
 3. Check the "Show grid" checkbox to make the grid appear&#x20;
 
@@ -71,7 +71,7 @@ Finally, you can use the `layout-grid-color` property to customize the color of 
 
 To add a guide to your map, follow the following steps:&#x20;
 
-1. Click on the Settings icon on the right side of the map to
+1. Click the settings icon ![](../icons/sliders-h.svg)to open the [Basic Editor](../overview/view-editors.md#basic-editor)
 2. Click "More" and then select Grids & Guides to open the menu
 3. Adjust the guide settings and click "Add guide" to make the guide show up on your map
 
