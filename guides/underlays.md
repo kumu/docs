@@ -1,17 +1,29 @@
 # Underlays
 
 **Underlays** are a great tool when you need to add some structure or context to the background of your map. Kumu supports the following underlays:
-- [Grids](#add-a-grid)
-- [Guides](#add-guides)
-- [Radars](#add-a-radar)
-- [Background images](#add-a-background-image)
+
+* [Grids](underlays.md#add-a-grid)
+* [Guides](underlays.md#add-guides)
+* [Radars](underlays.md#add-a-radar)
+* [Background images](underlays.md#add-a-background-image)
 
 {% embed url="https://www.youtube.com/embed/2dmzQ-2rIrQ" %}
 
-
 ## Add a grid
 
-![grid showcase](/images/grid-showcase.png)
+**In the Basic Editor**
+
+1. Click on the Settings icon on the right side of the map to
+2. Click "More" and then select Grids & Guides to open the menu
+3. Check the "Show grid" checkbox to make the grid appear&#x20;
+
+You can use the settings below **Grid** to adjust color, offset and width of your grid.
+
+<figure><img src="../.gitbook/assets/Grids and guides.png" alt=""><figcaption><p>Add a grid</p></figcaption></figure>
+
+**In the Advanced Editor**
+
+![grid showcase](../images/grid-showcase.png)
 
 You can use the `layout-grid` property of `@settings` in the Advanced Editor to add a grid:
 
@@ -43,7 +55,7 @@ By default, gridlines will extend infinitely. But, you can use the `layout-bound
 }
 ```
 
-![grid with bounds](/images/grid-guides-bounds.png)
+![grid with bounds](../images/grid-guides-bounds.png)
 
 Finally, you can use the `layout-grid-color` property to customize the color of gridlines (replace `color` with any CSS web color or hex color code):
 
@@ -54,6 +66,20 @@ Finally, you can use the `layout-grid-color` property to customize the color of 
 ```
 
 ## Add guides
+
+**In the Basic Editor**
+
+To add a guide to your map, follow the following steps:&#x20;
+
+1. Click on the Settings icon on the right side of the map to
+2. Click "More" and then select Grids & Guides to open the menu
+3. Adjust the guide settings and click "Add guide" to make the guide show up on your map
+
+<figure><img src="../.gitbook/assets/Guides.png" alt=""><figcaption><p>Add guides</p></figcaption></figure>
+
+Guides can be _horizontal_, _vertical_, or even a _circle_. To remove an existing guide, click the "Remove" button.
+
+**In the Advanced Editor**&#x20;
 
 You can use the Advanced Editor to add vertical, circular, or horizontal guidelines. Here's the basic syntax for vertical and horizontal lines:
 
@@ -86,14 +112,13 @@ If you'd like to center your circle somewhere else, for example, an x coordinate
 }
 ```
 
-![guides example](/images/guides-dark.png)
+![guides example](../images/guides-dark.png)
 
 For additional styling, use the `layout-guide-width` and `layout-guide-color` properties to customize the width and color of guides.
 
-
 ## Add a radar
 
-![default radar](/images/radar-default.png)
+![default radar](../images/radar-default.png)
 
 You can use the `radar` property of `@settings` in the Advanced Editor to add a radar:
 
@@ -113,13 +138,10 @@ The radar will come with a few default rings and axes, which you can easily over
 }
 ```
 
-![systems leverage radar](/images/systems-leverage-radar.png)
+![systems leverage radar](../images/systems-leverage-radar.png)
 
-You can customize your radars extensively, changing the color, font color, the distance between rings, etc. To see a full list of supported properties and learn how they customize the radar, head over to our [@settings reference](/guides/settings-reference.md) (type "radar" to filter the list).
-
+You can customize your radars extensively, changing the color, font color, the distance between rings, etc. To see a full list of supported properties and learn how they customize the radar, head over to our [@settings reference](settings-reference.md) (type "radar" to filter the list).
 
 ## Add a background image
 
-For full instructions on adding a background image, see [our full images guide](/guides/images.md#add-a-background-image).
-
-
+For full instructions on adding a background image, see [our full images guide](images.md#add-a-background-image).

@@ -54,7 +54,7 @@ Need more precise control over your colors? Check out our guide on [refining you
 
 **Shape by** allows you to shape your elements based on any field that can hold only one value. Select a field from the dropdown, and any elements that have data in that field will get a new shape!
 
-<figure><img src="../.gitbook/assets/Shapes 2.png" alt=""><figcaption><p>Shapes</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Shapes 2 (1).png" alt=""><figcaption><p>Shapes</p></figcaption></figure>
 
 To learn more about shapes, [read the full guide](../guides/shapes.md).
 
@@ -122,7 +122,7 @@ If you have already one or more decorations to your map, the Basic Editor will s
 
 This section of the Basic Editor shows each decoration's legend label you added through the Decoration Builder. You can click the pencil icon next to a decoration to edit it, or click the delete icon to delete it.
 
-<figure><img src="../.gitbook/assets/custom decorations.png" alt=""><figcaption><p>Custom decorations</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/custom decorations (2).png" alt=""><figcaption><p>Custom decorations</p></figcaption></figure>
 
 ## Advanced Editor
 

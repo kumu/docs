@@ -6,12 +6,12 @@ Note that you can only create a legend through data-driven decorations. If you'r
 
 ## Add legend entries through the Basic Editor
 
-There are two ways to create your legend from the [Basic Editor](../overview/view-editors.md#basic-editor).
+There are two ways to create your legend from the [Basic Editor](../overview/view-editors.md#basic-editor):
 
-1. Using the **Color by**
-2. Using the [decoration builders](decorate.md#refine-your-decorations)
+1. Using the **Color by,** or **Shape by** options
+2. Using the [decoration builders](decorate.md#refine-your-decorations) (Decorate Elements & Decorate Connections)
 
-**Color by** is a great way to get a legend up and running quickly, and the decoration builders are useful when your legend needs to be a bit more customized. Read on to learn more about both options.
+**Color by** is a great way to get a legend up and running quickly, while the decoration builders are useful when your legend needs to be a bit more customized. Read on to learn more about both options.
 
 #### Use the Color by tool to create a legend
 
@@ -53,9 +53,9 @@ You can use the decoration builders to add many different kinds of items to your
 
 For a full list of legend icons you can add, [jump to the legend reference](legends.md#legend-reference).
 
-The legend entries added from the decoration builder will be listed in the Basic Editor among other existing decorations. Decorations that are labelled with bold text are the ones that appear in your legend, and you can click the pencil icon next to a decoration to edit it and its legend label.
+The legend entries added from the decoration builder will be listed in the Basic Editor among other [existing decorations](../overview/view-editors.md#existing-custom-decorations). If you hover over a custom decoration, you can click the pencil icon next to it to edit that entry, or you can click the trash can to delete that decoration.&#x20;
 
-![Existing decorations for network map](../images/existing-decorations-scale.png)
+<figure><img src="../.gitbook/assets/custom decorations.png" alt=""><figcaption></figcaption></figure>
 
 #### Removing legend entries
 

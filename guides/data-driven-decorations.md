@@ -111,7 +111,7 @@ To learn more about flags, [read the full guide](flags.md).
 
 **Shape by** allows you to shape your elements based on any field that can hold only one value. Select a field from the dropdown, and any elements that have data in that field will get a new shape!
 
-<figure><img src="../.gitbook/assets/Shapes 2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Shapes 2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To learn more about shapes, [read the full guide](shapes.md).
 

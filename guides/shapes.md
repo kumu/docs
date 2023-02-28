@@ -1,40 +1,38 @@
 # Shapes
 
 Shapes are are a useful visual tool when you need to differentiate between different types of elements. Kumu has several tools you can use to customize elements' shapes—this guide will help you pick which tool is the right one for your use case:
-- [Assigning shapes manually](#Assigning-shapes-manually)
-- [Assigning shapes to specific selections](#Assigning-shapes-to-specific-selections)
-- [Assigning shapes to all elements automatically](#Assigning-shapes-to-all-elements-automatically)
-- [Assigning shapes from the Advanced Editor](#Assigning-shapes-from-the-Advanced-Editor)
 
+* [Assigning shapes manually](shapes.md#Assigning-shapes-manually)
+* [Assigning shapes to specific selections](shapes.md#Assigning-shapes-to-specific-selections)
+* [Assigning shapes to all elements automatically](shapes.md#Assigning-shapes-to-all-elements-automatically)
+* [Assigning shapes from the Advanced Editor](shapes.md#Assigning-shapes-from-the-Advanced-Editor)
 
 ## Assigning shapes manually
 
-If you just need to assign shapes to a handful of elements, we recommend using the [direct decoration toolbar](/guides/direct-decorations.md). Hover over any element, then click the Size/Shape icon <i class="fa fa-arrows-alt">  </i>, and pick a shape from the dropdown.
+If you just need to assign shapes to a handful of elements, we recommend using the [direct decoration toolbar](direct-decorations.md). Hover over any element, then click the Size/Shape icon , and pick a shape from the dropdown.
 
-![shapes direct decoration](/images/shapes-direct-decoration.png)
-
+![shapes direct decoration](../images/shapes-direct-decoration.png)
 
 ## Assigning shapes to specific selections
 
 To assign a shape to a specific selection of elements, use the **element decoration builder**.
-1. Open the [Basic Editor](/overview/view-editors.md#basic-editor)
-2. Click **More Options**, then **Decorate elements**
+
+1. Open the [Basic Editor](../overview/view-editors.md#basic-editor)
+2. Click **Decorate elements**
 3. Check the **Add shape** box, and pick a shape
 4. If you'd like to add your shape decoration to the legend, fill in the **Legend** box
 
-![decoration builder shapes](/images/shapes-decoration-builder.png)
-
+![decoration builder shapes](../images/shapes-decoration-builder.png)
 
 ## Categorizing your elements with shapes automatically
 
 The quickest way to assign shapes to all elements automatically based on their profile data is the **Shape By** tool. Open the Basic Editor, and use the Shape By tool to pick a field from your elements' profiles. Note that Shape By only works with fields that can hold one value, like Element Type.
 
-![simple shape by](/images/shape-by-simple.png)
+<figure><img src="../.gitbook/assets/Shapes 2.png" alt=""><figcaption><p>Automatic shaping by element type</p></figcaption></figure>
 
 When you use Shape By, legend entries will be created for you automatically.
 
-![legend shapes](/images/shapes-legend.png)
-
+![legend shapes](../images/shapes-legend.png)
 
 ## Assigning shapes from the Advanced Editor
 
@@ -46,20 +44,21 @@ element {
 }
 ```
 
-You can replace `element` with any element [selector](/guides/selectors.md), and `circle` with any valid shape:
-- `circle`
-- `triangle`
-- `square`
-- `rectangle`
-- `pill`
-- `diamond`
-- `pentagon`
-- `hexagon`
-- `octagon`
+You can replace `element` with any element [selector](selectors.md), and `circle` with any valid shape:
+
+* `circle`
+* `triangle`
+* `square`
+* `rectangle`
+* `pill`
+* `diamond`
+* `pentagon`
+* `hexagon`
+* `octagon`
 
 **Two things to note:**
 
-- When choosing the `rectangle` or `pill` shape, you also need to indicate their `width` and `height`:
+* When choosing the `rectangle` or `pill` shape, you also need to indicate their `width` and `height`:
 
 ```scss
 element {
@@ -69,14 +68,14 @@ element {
 }
 ```
 
-- To change the size of any shape other than the `square`, `rectangle`, or `pill`, use the `size` property, instead of width & height:
+* To change the size of any shape other than the `square`, `rectangle`, or `pill`, use the `size` property, instead of width & height:
 
 ```scss
 element {
   shape: triangle; 
   size: 200;
 }
-``` 
+```
 
 ### More tips for shapes
 
@@ -112,10 +111,4 @@ Finally, if you'd like your categorized shapes to be automatically added to the 
 }
 ```
 
-<div class="alert alert-warning">
-  <p>
-    By default, the <a href="/guides/templates/geo.md" class="alert-link">geo template</a> limits you to squares and straight lines, but if you want it to support all shapes, add <code>@settings { renderer: canvas; }</code> to your Advanced Editor.
-  </p>
-</div>
-
-
+By default, the [geo template](templates/geo.md) limits you to squares and straight lines, but if you want it to support all shapes, add `@settings { renderer: canvas; }` to your Advanced Editor.
