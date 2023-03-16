@@ -6,9 +6,20 @@ In addition to flexible user management, Pro workspaces also have access to thes
 
 * [**Private project archiving**](archiving-projects.md)**.** Have private projects you want to continue to share through Kumu but don’t need to edit? Simply archive the project and you’ll no longer need to pay for it.
 * [**Project-wide activity feed**](activity-feed.md)**.** Collaborating with a large team to build out your map? Use the activity feed to keep tabs on who’s making each change across your project.
-* [**Real-time, embedded comments**](broken-reference)**.** You’ve done the work of building your map, let us do the heavy lifting to collect the feedback. Engage in Discussions and link them to specific elements, connections, and loops. Use comments to brainstorm ideas and make it easy for others to give feedback while you’re building out your map.
+* [**Real-time, embedded comments**](discussions.md)**.** You’ve done the work of building your map, let us do the heavy lifting to collect the feedback. Engage in Discussions and link them to specific elements, connections, and loops. Use comments to brainstorm ideas and make it easy for others to give feedback while you’re building out your map.
 * **Hourly backups, retained for six months.** Map freely, knowing you have backups of your project data in case you make a mistake.
 * **Customized branding.** Replace Kumu's logos with your own to align your projects with your brand.
+
+## Pricing
+
+Pro workspaces are $10 per month for unlimited _public_ projects. \
+Private projects on the Pro workspace plan are $20 per private project per month.&#x20;
+
+**Example**: if you have a Pro workspace with 2 private projects, then your monthly invoice would be $10 + (2 \* $20) = $50.&#x20;
+
+For more information about billing, downgrading your subscription, and/or annual plans, visit our [Billing guide here](../overview/billing.md).&#x20;
+
+Find an overview of all of Kumu's pricing plans [here](../faq/what-pricing-plans-does-Kumu-have.md).&#x20;
 
 ## Create a Pro workspace
 
