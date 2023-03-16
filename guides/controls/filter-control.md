@@ -1,12 +1,26 @@
 # Filter control
 
-**Use**
+**When do you use it?**
 
 Add a toggle control that allows viewers to filter by field values or custom selectors.
 
-**Example**
+## **Basic editor**
 
-Filter by field:
+To create a filter control, follow these steps:&#x20;
+
+1. Click the settings icon on the right ![](../../icons/sliders-h.svg) to open the editor, then click "Add custom control"**.**&#x20;
+2. In the menu that opens up, the filter control will be activated automatically in the first dropdown "Filter elements by field".
+3. Use the other dropdowns to customize the look and location of your controls
+4. Click Save at the bottom to save your changes
+5. To add multiple controls, repeat steps 1-4 for each control.&#x20;
+
+Note: The filter control works with AND logic. This means that if you combine multiple controls on one map, the view will be filtered down to only those elements that satisfy _all_ of the conditions of the controls. Looking for OR logic (showing elements that satisfy _at_ _least_ _one_ of the conditions)? Take a look at our [Showcase control guide](showcase-control.md).
+
+## Advanced Editor&#x20;
+
+If you like to get into the nitty-gritty of the advanced editor, you can type out controls directly. The advanced editor also allows for more advanced controls, as explained below.&#x20;
+
+Filter by field, basic syntax:
 
 ```scss
 @controls {
@@ -56,7 +70,7 @@ Filter using custom [selectors](../selectors.md#selectors):
 * `except` allows you to remove field values from the available choices. Wrap the values you want to remove in quotes and separate multiple values by commas.
 * `only` is similar to except but allows you to explicitly define which field values should be included as available choices.
 
-[Check out our controls reference](/guides/controls/controls-reference.md) to see the full list of properties and values recognized by the filter control.
+[Check out our controls reference](controls-reference.md) to see the full list of properties and values recognized by the filter control.
 
 **Supported children**
 
@@ -137,5 +151,3 @@ Filter elements by type but select all types by default:
   }
 }
 ```
-
-
