@@ -10,6 +10,8 @@ Kumu has built-in support for a number of named color scales, including all [Col
 
 Both sequential and diverging color palettes are great when you are trying to show quantitative data or data that has a meaningful order.
 
+|           |                                                        |
+| --------- | ------------------------------------------------------------------ |
 | YlGn      | <img src="../images/colors/ylgn.svg" alt="YlGn" data-size="line">     |
 | YlGnBu    | <img src="../images/colors/ylgnbu.svg" alt="YlGnBu" data-size="line"> |
 | GnBu      | <img src="../images/colors/gnbu.svg" alt="GnBu" data-size="line">|
@@ -48,6 +50,8 @@ Both sequential and diverging color palettes are great when you are trying to sh
 
 Qualitative color palettes are best when you are trying to show data with discrete values that don't have an inherent order.
 
+|          |                                                                    |
+| -------- | ------------------------------------------------------------------ |
 | bujumbra | <img src="../images/colors/bujumbra.svg" alt="bujumbra" data-size="line">|
 | neon     | <img src="../images/colors/neon.svg" alt="neon" data-size="line">|
 | neon2    | <img src="../images/colors/neon2.svg" alt="neon2" data-size="line">|
