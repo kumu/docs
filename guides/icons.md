@@ -2,9 +2,9 @@
 
 Using the Advanced Editor, you can easily bring in any [Font Awesome icon](https://fontawesome.com/icons) to decorate your elements.
 
-![elements with icons to show element type](/images/icons.png)
+![elements with icons to show element type](../images/icons.png)
 
-To get started, add a new block of code. You can use any element [selector](/guides/selectors.md) to open the block, then use the icon property to specify which icon you’d like to bring in, and use the icon-color property to specify its color:
+To get started, add a new block of code. You can use any element [selector](selectors.md) to open the block, then use the icon property to specify which icon you’d like to bring in, and use the icon-color property to specify its color:
 
 ```scss
 person {
@@ -22,6 +22,10 @@ organization {
   color: transparent;
 }
 ```
+
+{% hint style="info" %}
+**Note:** are your icons not showing up on the map? Unfortunately not _all_ icons from the icon database work in Kumu. If the icon you want is not showing up, but another one is, then you can safely assume that the specific icon is not available for your Kumu map, sorry!
+{% endhint %}
 
 In the value for the `icon` property, you can also specify `solid` or `regular` to change the icon style:
 
@@ -41,7 +45,3 @@ element[image] {
   icon: off; // Setting 'icon' to 'off' will remove any icons you've added further up in the Advanced Editor
 }
 ```
-
-
-
-
