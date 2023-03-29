@@ -55,7 +55,7 @@ For a full list of legend icons you can add, [jump to the legend reference](lege
 
 The legend entries added from the decoration builder will be listed in the Basic Editor among other [existing decorations](../overview/view-editors.md#existing-custom-decorations). If you hover over a custom decoration, you can click the pencil icon next to it to edit that entry, or you can click the trash can to delete that decoration.&#x20;
 
-<figure><img src="../.gitbook/assets/custom decorations.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/custom decorations (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Removing legend entries
 

@@ -67,7 +67,7 @@ After you fill out data in the profiles, you can use the [Basic Editor](../overv
 
 To open the Basic Editor, open your map and click the settings icon ![](../icons/sliders-h.svg) on the right side of the map.
 
-<figure><img src="../.gitbook/assets/Basic Editor (2).png" alt=""><figcaption><p>Basic Editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Basic Editor (2) (1).png" alt=""><figcaption><p>Basic Editor</p></figcaption></figure>
 
 You'll see some of Kumu's most commonly used view settings, and the first three—**Size by,** **Color by,** and **Shape by**—can help you create basic decorations.
 
@@ -111,7 +111,7 @@ To learn more about flags, [read the full guide](flags.md).
 
 **Shape by** allows you to shape your elements based on any field that can hold only one value. Select a field from the dropdown, and any elements that have data in that field will get a new shape!
 
-<figure><img src="../.gitbook/assets/Shapes 2 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Shapes 2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To learn more about shapes, [read the full guide](shapes.md).
 

@@ -28,7 +28,7 @@ To assign a shape to a specific selection of elements, use the **element decorat
 
 The quickest way to assign shapes to all elements automatically based on their profile data is the **Shape By** tool. Open the Basic Editor, and use the Shape By tool to pick a field from your elements' profiles. Note that Shape By only works with fields that can hold one value, like Element Type.
 
-<figure><img src="../.gitbook/assets/Shapes 2.png" alt=""><figcaption><p>Automatic shaping by element type</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Shapes 2 (1).png" alt=""><figcaption><p>Automatic shaping by element type</p></figcaption></figure>
 
 When you use Shape By, legend entries will be created for you automatically.
 
