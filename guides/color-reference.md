@@ -5,6 +5,736 @@ Below are details on the different color palettes and scales that Kumu supports.
 ## Named color scales
 Kumu has built-in support for a number of named color scales, including all [ColorBrewer](http://bl.ocks.org/mbostock/5577023) scales.
 
+<table>
+  <tbody>
+    <tr>
+      <td>nautical</td>
+      <td>
+        <svg width="300" height="30">
+          <rect fill="#003250" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#5893ac" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#bbd2e0" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#f2f2f5" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#a7a7a7" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#787878" x="250" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>deepsea</td>
+      <td>
+        <svg width="250" height="30">
+          <rect fill="#005F98" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#296F98" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#3C779A" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#60849A" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#788D9A" x="200" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>heat</td>
+      <td>
+        <svg width="300" height="30">
+          <rect fill="#000000" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#4D0600" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#9C0200" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#FF6100" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#FFF60B" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#FFFFFF" x="250" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>flamingo</td>
+      <td>
+        <svg width="300" height="30">
+          <rect fill="#CC66A4" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#CE8DAD" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#D4AFBD" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#DECED2" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#EDE9E9" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#FFFFFF" x="250" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>coffee</td>
+      <td>
+        <svg width="300" height="30">
+          <rect fill="#684F19" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#86723D" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#A49561" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#C3B984" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#E1DCA8" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#FFFFCC" x="250" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>stoplight</td>
+      <td>
+        <svg width="150" height="30">
+          <rect fill="#62B944" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#FDBE0F" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#E02D28" x="100" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>bujumbra</td>
+      <td>
+        <svg width="350" height="30">
+          <rect fill="#BE420E" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#BE6D0E" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#6B4F2E" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#CCA066" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#E0D752" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#A5BE0E" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#4197E3" x="300" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>neon</td>
+      <td>
+        <svg width="400" height="30">
+          <rect fill="#9FDE00" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#E7000C" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#EC008C" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#FF7404" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#FFBE2A" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#8FB9E1" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#D5EAFF" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#F6F4F4" x="350" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>neon2</td>
+      <td>
+        <svg width="350" height="30">
+          <rect fill="#00B9FC" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#FEE300" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#8EDC0C" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#F69010" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#FD0100" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#F33389" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#0B080F" x="300" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>olympic</td>
+      <td>
+        <svg width="250" height="30">
+          <rect fill="#007AC3" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#FDBE0F" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#4CC9E9" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#E02D28" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#62B944" x="200" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>paired</td>
+      <td>
+        <svg width="600" height="30">
+          <rect fill="#a6cee3" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#1f78b4" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#b2df8a" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#33a02c" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fb9a99" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#e31a1c" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#fdbf6f" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#ff7f00" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#cab2d6" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#6a3d9a" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#ffff99" x="500" y="0" width="50" height="30"></rect>
+          <rect fill="#b15928" x="550" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>set2</td>
+      <td>
+        <svg width="400" height="30">
+          <rect fill="#66c2a5" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#fc8d62" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#8da0cb" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#e78ac3" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#a6d854" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ffd92f" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#e5c494" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#b3b3b3" x="350" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>set3</td>
+      <td>
+        <svg width="600" height="30">
+          <rect fill="#8dd3c7" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#ffffb3" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#bebada" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fb8072" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#80b1d3" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#fdb462" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#b3de69" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#fccde5" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#d9d9d9" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#bc80bd" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#ccebc5" x="500" y="0" width="50" height="30"></rect>
+          <rect fill="#ffed6f" x="550" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>orrd</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#fff7ec" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#fee8c8" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#fdd49e" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fdbb84" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fc8d59" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ef6548" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#d7301f" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#b30000" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#7f0000" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>pubu</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#fff7fb" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#ece7f2" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#d0d1e6" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#a6bddb" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#74a9cf" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#3690c0" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#0570b0" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#045a8d" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#023858" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>bupu</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#f7fcfd" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#e0ecf4" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#bfd3e6" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#9ebcda" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#8c96c6" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#8c6bb1" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#88419d" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#810f7c" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#4d004b" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>oranges</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#fff5eb" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#fee6ce" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#fdd0a2" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fdae6b" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fd8d3c" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#f16913" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#d94801" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#a63603" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#7f2704" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>bugn</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#f7fcfd" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#e5f5f9" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#ccece6" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#99d8c9" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#66c2a4" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#41ae76" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#238b45" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#006d2c" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#00441b" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>ylorbr</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#ffffe5" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#fff7bc" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#fee391" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fec44f" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fe9929" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ec7014" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#cc4c02" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#993404" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#662506" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>ylgn</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#ffffe5" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#f7fcb9" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#d9f0a3" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#addd8e" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#78c679" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#41ab5d" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#238443" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#006837" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#004529" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>reds</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#fff5f0" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#fee0d2" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#fcbba1" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fc9272" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fb6a4a" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ef3b2c" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#cb181d" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#a50f15" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#67000d" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>rdpu</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#fff7f3" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#fde0dd" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#fcc5c0" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fa9fb5" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#f768a1" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#dd3497" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#ae017e" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#7a0177" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#49006a" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>greens</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#f7fcf5" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#e5f5e0" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#c7e9c0" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#a1d99b" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#74c476" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#41ab5d" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#238b45" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#006d2c" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#00441b" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>ylgnbu</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#ffffd9" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#edf8b1" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#c7e9b4" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#7fcdbb" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#41b6c4" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#1d91c0" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#225ea8" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#253494" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#081d58" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>purples</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#fcfbfd" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#efedf5" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#dadaeb" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#bcbddc" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#9e9ac8" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#807dba" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#6a51a3" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#54278f" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#3f007d" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>gnbu</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#f7fcf0" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#e0f3db" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#ccebc5" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#a8ddb5" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#7bccc4" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#4eb3d3" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#2b8cbe" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#0868ac" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#084081" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>greys</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#ffffff" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#f0f0f0" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#d9d9d9" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#bdbdbd" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#969696" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#737373" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#525252" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#252525" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#000000" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>ylorrd</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#ffffcc" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#ffeda0" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#fed976" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#feb24c" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fd8d3c" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#fc4e2a" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#e31a1c" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#bd0026" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#800026" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>purd</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#f7f4f9" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#e7e1ef" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#d4b9da" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#c994c7" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#df65b0" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#e7298a" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#ce1256" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#980043" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#67001f" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>blues</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#f7fbff" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#deebf7" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#c6dbef" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#9ecae1" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#6baed6" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#4292c6" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#2171b5" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#08519c" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#08306b" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>pubugn</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#fff7fb" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#ece2f0" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#d0d1e6" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#a6bddb" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#67a9cf" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#3690c0" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#02818a" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#016c59" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#014636" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>viridis</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#440154" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#482777" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#3f4a8a" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#31678e" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#26838f" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#1f9d8a" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#6cce5a" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#b6de2b" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#fee825" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>spectral</td>
+      <td>
+        <svg width="550" height="30">
+          <rect fill="#9e0142" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#d53e4f" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#f46d43" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fdae61" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fee08b" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ffffbf" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#e6f598" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#abdda4" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#66c2a5" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#3288bd" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#5e4fa2" x="500" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>rdylgn</td>
+      <td>
+        <svg width="550" height="30">
+          <rect fill="#a50026" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#d73027" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#f46d43" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fdae61" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fee08b" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ffffbf" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#d9ef8b" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#a6d96a" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#66bd63" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#1a9850" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#006837" x="500" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>rdbu</td>
+      <td>
+        <svg width="550" height="30">
+          <rect fill="#67001f" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#b2182b" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#d6604d" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#f4a582" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fddbc7" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#f7f7f7" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#d1e5f0" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#92c5de" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#4393c3" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#2166ac" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#053061" x="500" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>piyg</td>
+      <td>
+        <svg width="550" height="30">
+          <rect fill="#8e0152" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#c51b7d" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#de77ae" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#f1b6da" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fde0ef" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#f7f7f7" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#e6f5d0" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#b8e186" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#7fbc41" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#4d9221" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#276419" x="500" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>prgn</td>
+      <td>
+        <svg width="550" height="30">
+          <rect fill="#40004b" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#762a83" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#9970ab" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#c2a5cf" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#e7d4e8" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#f7f7f7" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#d9f0d3" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#a6dba0" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#5aae61" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#1b7837" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#00441b" x="500" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>rdylbu</td>
+      <td>
+        <svg width="550" height="30">
+          <rect fill="#a50026" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#d73027" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#f46d43" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fdae61" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fee090" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ffffbf" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#e0f3f8" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#abd9e9" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#74add1" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#4575b4" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#313695" x="500" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>brbg</td>
+      <td>
+        <svg width="550" height="30">
+          <rect fill="#543005" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#8c510a" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#bf812d" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#dfc27d" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#f6e8c3" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#f5f5f5" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#c7eae5" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#80cdc1" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#35978f" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#01665e" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#003c30" x="500" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>rdgy</td>
+      <td>
+        <svg width="550" height="30">
+          <rect fill="#67001f" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#b2182b" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#d6604d" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#f4a582" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fddbc7" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ffffff" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#e0e0e0" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#bababa" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#878787" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#4d4d4d" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#1a1a1a" x="500" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>puor</td>
+      <td>
+        <svg width="550" height="30">
+          <rect fill="#7f3b08" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#b35806" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#e08214" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#fdb863" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fee0b6" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#f7f7f7" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#d8daeb" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#b2abd2" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#8073ac" x="400" y="0" width="50" height="30"></rect>
+          <rect fill="#542788" x="450" y="0" width="50" height="30"></rect>
+          <rect fill="#2d004b" x="500" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>accent</td>
+      <td>
+        <svg width="400" height="30">
+          <rect fill="#7fc97f" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#beaed4" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#fdc086" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#ffff99" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#386cb0" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#f0027f" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#bf5b17" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#666666" x="350" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>set1</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#e41a1c" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#377eb8" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#4daf4a" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#984ea3" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#ff7f00" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ffff33" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#a65628" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#f781bf" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#999999" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>dark2</td>
+      <td>
+        <svg width="400" height="30">
+          <rect fill="#1b9e77" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#d95f02" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#7570b3" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#e7298a" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#66a61e" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#e6ab02" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#a6761d" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#666666" x="350" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>pastel2</td>
+      <td>
+        <svg width="400" height="30">
+          <rect fill="#b3e2cd" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#fdcdac" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#cbd5e8" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#f4cae4" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#e6f5c9" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#fff2ae" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#f1e2cc" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#cccccc" x="350" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+    <tr>
+      <td>pastel1</td>
+      <td>
+        <svg width="450" height="30">
+          <rect fill="#fbb4ae" x="0" y="0" width="50" height="30"></rect>
+          <rect fill="#b3cde3" x="50" y="0" width="50" height="30"></rect>
+          <rect fill="#ccebc5" x="100" y="0" width="50" height="30"></rect>
+          <rect fill="#decbe4" x="150" y="0" width="50" height="30"></rect>
+          <rect fill="#fed9a6" x="200" y="0" width="50" height="30"></rect>
+          <rect fill="#ffffcc" x="250" y="0" width="50" height="30"></rect>
+          <rect fill="#e5d8bd" x="300" y="0" width="50" height="30"></rect>
+          <rect fill="#fddaec" x="350" y="0" width="50" height="30"></rect>
+          <rect fill="#f2f2f2" x="400" y="0" width="50" height="30"></rect>
+        </svg>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Sequential and diverging
 Both sequential and diverging color palettes are great when you are trying to show quantitative data or data that has a meaningful order.
 
