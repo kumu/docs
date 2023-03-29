@@ -106,7 +106,7 @@ For this walkthrough, fill out the Type field for each of your elements—try to
 
 Click the settings icon ![](../icons/sliders-h.svg) on the right side of the map to open up the Basic Editor. You'll see the most popular settings listed, allowing you to easily size or color elements by a field. There's more options here, but let's start with the most basic ones! For the full explanation of each possible setting, visit [the Basic Editor guide](../overview/view-editors.md#basic-editor).&#x20;
 
-<figure><img src="../.gitbook/assets/Basic Editor (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Basic Editor (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you have filled out the Type field for your elements, try selecting **Element Type** from the dropdown menu next to **Color by**. Kumu will automatically color-code all of your elements by Type, and you can click the expand icon to choose a different color scale.
 
