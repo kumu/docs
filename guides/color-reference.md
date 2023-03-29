@@ -1,206 +1,67 @@
-# Color Reference
+# Color reference
 
-Below are details on the different color palettes and scales that Kumu supports. Use these with the [Color by](/guides/decorate.md#color-by) tool in the Basic Editor, or use them in the [Advanced Editor](/guides/decorate.md#decorate-in-the-advanced-editor) with the `categorize()` and `scale()` functions.
+Below are details on the different color palettes and scales that Kumu supports. Use these with the [Color by](decorate.md#color-by) tool in the Basic Editor, or use them in the [Advanced Editor](decorate.md#decorate-in-the-advanced-editor) with the `categorize()` and `scale()` functions.
 
 ## Named color scales
+
 Kumu has built-in support for a number of named color scales, including all [ColorBrewer](http://bl.ocks.org/mbostock/5577023) scales.
 
 ### Sequential and diverging
+
 Both sequential and diverging color palettes are great when you are trying to show quantitative data or data that has a meaningful order.
 
-<table>
-  <tbody>
-    <tr>
-      <td>YlGn</td>
-      <td><img src="/images/colors/ylgn.svg" alt="YlGn"></td>
-    </tr>
-    <tr>
-      <td>YlGnBu</td>
-      <td><img src="/images/colors/ylgnbu.svg" alt="YlGnBu"></td>
-    </tr>
-    <tr>
-      <td>GnBu</td>
-      <td><img src="/images/colors/gnbu.svg" alt="GnBu"></td>
-    </tr>
-    <tr>
-      <td>BuGn</td>
-      <td><img src="/images/colors/bugn.svg" alt="BuGn"></td>
-    </tr>
-    <tr>
-      <td>PuBuGn</td>
-      <td><img src="/images/colors/pubugn.svg" alt="PuBuGn"></td>
-    </tr>
-    <tr>
-      <td>PuBu</td>
-      <td><img src="/images/colors/pubu.svg" alt="PuBu"></td>
-    </tr>
-    <tr>
-      <td>BuPu</td>
-      <td><img src="/images/colors/bupu.svg" alt="BuPu"></td>
-    </tr>
-    <tr>
-      <td>RdPu</td>
-      <td><img src="/images/colors/rdpu.svg" alt="RdPu"></td>
-    </tr>
-    <tr>
-      <td>PuRd</td>
-      <td><img src="/images/colors/purd.svg" alt="PuRd"></td>
-    </tr>
-    <tr>
-      <td>OrRd</td>
-      <td><img src="/images/colors/orrd.svg" alt="OrRd"></td>
-    </tr>
-    <tr>
-      <td>YlOrRd</td>
-      <td><img src="/images/colors/ylorrd.svg" alt="YlOrRd"></td>
-    </tr>
-    <tr>
-      <td>YlOrBr</td>
-      <td><img src="/images/colors/ylorbr.svg" alt="YlOrBr"></td>
-    </tr>
-    <tr>
-      <td>Purples</td>
-      <td><img src="/images/colors/purples.svg" alt="Purples"></td>
-    </tr>
-    <tr>
-      <td>Blues</td>
-      <td><img src="/images/colors/blues.svg" alt="Blues"></td>
-    </tr>
-    <tr>
-      <td>Greens</td>
-      <td><img src="/images/colors/greens.svg" alt="Greens"></td>
-    </tr>
-    <tr>
-      <td>Oranges</td>
-      <td><img src="/images/colors/oranges.svg" alt="Oranges"></td>
-    </tr>
-    <tr>
-      <td>Reds</td>
-      <td><img src="/images/colors/reds.svg" alt="Reds"></td>
-    </tr>
-    <tr>
-      <td>Greys</td>
-      <td><img src="/images/colors/greys.svg" alt="Greys"></td>
-    </tr>
-    <tr>
-      <td>PuOr</td>
-      <td><img src="/images/colors/puor.svg" alt="PuOr"></td>
-    </tr>
-    <tr>
-      <td>BrBG</td>
-      <td><img src="/images/colors/brbg.svg" alt="BrBG"></td>
-    </tr>
-    <tr>
-      <td>PRGn</td>
-      <td><img src="/images/colors/prgn.svg" alt="PRGn"></td>
-    </tr>
-    <tr>
-      <td>PiYG</td>
-      <td><img src="/images/colors/piyg.svg" alt="PiYG"></td>
-    </tr>
-    <tr>
-      <td>RdBu</td>
-      <td><img src="/images/colors/rdbu.svg" alt="RdBu"></td>
-    </tr>
-    <tr>
-      <td>RdGy</td>
-      <td><img src="/images/colors/rdgy.svg" alt="RdGy"></td>
-    </tr>
-    <tr>
-      <td>RdYlBu</td>
-      <td><img src="/images/colors/rdylbu.svg" alt="RdYlBu"></td>
-    </tr>
-    <tr>
-      <td>Spectral</td>
-      <td><img src="/images/colors/spectral.svg" alt="Spectral"></td>
-    </tr>
-    <tr>
-      <td>RdYlGn</td>
-      <td><img src="/images/colors/rdylgn.svg" alt="RdYlGn"></td>
-    </tr>
-    <tr>
-      <td>nautical</td>
-      <td><img src="/images/colors/nautical.svg" alt="nautical"></td>
-    </tr>
-    <tr>
-      <td>deepsea</td>
-      <td><img src="/images/colors/deepsea.svg" alt="deepsea"></td>
-    </tr>
-    <tr>
-      <td>heat</td>
-      <td><img src="/images/colors/heat.svg" alt="heat"></td>
-    </tr>
-    <tr>
-      <td>flamingo</td>
-      <td><img src="/images/colors/flamingo.svg" alt="flamingo"></td>
-    </tr>
-    <tr>
-      <td>coffee</td>
-      <td><img src="/images/colors/coffee.svg" alt="coffee"></td>
-    </tr>
-    <tr>
-      <td>stoplight</td>
-      <td><img src="/images/colors/stoplight.svg" alt="stoplight"></td>
-    </tr>
-  </tbody>
-</table>
+| YlGn      | <img src="../images/colors/ylgn.svg" alt="YlGn" data-size="line">     |
+| --------- | --------------------------------------------------------------------- |
+| YlGnBu    | <img src="../images/colors/ylgnbu.svg" alt="YlGnBu" data-size="line"> |
+| GnBu      | ![GnBu](../images/colors/gnbu.svg)                                    |
+| BuGn      | ![BuGn](../images/colors/bugn.svg)                                    |
+| PuBuGn    | ![PuBuGn](../images/colors/pubugn.svg)                                |
+| PuBu      | ![PuBu](../images/colors/pubu.svg)                                    |
+| BuPu      | ![BuPu](../images/colors/bupu.svg)                                    |
+| RdPu      | ![RdPu](../images/colors/rdpu.svg)                                    |
+| PuRd      | ![PuRd](../images/colors/purd.svg)                                    |
+| OrRd      | ![OrRd](../images/colors/orrd.svg)                                    |
+| YlOrRd    | ![YlOrRd](../images/colors/ylorrd.svg)                                |
+| YlOrBr    | ![YlOrBr](../images/colors/ylorbr.svg)                                |
+| Purples   | ![Purples](../images/colors/purples.svg)                              |
+| Blues     | ![Blues](../images/colors/blues.svg)                                  |
+| Greens    | ![Greens](../images/colors/greens.svg)                                |
+| Oranges   | ![Oranges](../images/colors/oranges.svg)                              |
+| Reds      | ![Reds](../images/colors/reds.svg)                                    |
+| Greys     | ![Greys](../images/colors/greys.svg)                                  |
+| PuOr      | ![PuOr](../images/colors/puor.svg)                                    |
+| BrBG      | ![BrBG](../images/colors/brbg.svg)                                    |
+| PRGn      | ![PRGn](../images/colors/prgn.svg)                                    |
+| PiYG      | ![PiYG](../images/colors/piyg.svg)                                    |
+| RdBu      | ![RdBu](../images/colors/rdbu.svg)                                    |
+| RdGy      | ![RdGy](../images/colors/rdgy.svg)                                    |
+| RdYlBu    | ![RdYlBu](../images/colors/rdylbu.svg)                                |
+| Spectral  | ![Spectral](../images/colors/spectral.svg)                            |
+| RdYlGn    | ![RdYlGn](../images/colors/rdylgn.svg)                                |
+| nautical  | ![nautical](../images/colors/nautical.svg)                            |
+| deepsea   | ![deepsea](../images/colors/deepsea.svg)                              |
+| heat      | ![heat](../images/colors/heat.svg)                                    |
+| flamingo  | ![flamingo](../images/colors/flamingo.svg)                            |
+| coffee    | ![coffee](../images/colors/coffee.svg)                                |
+| stoplight | ![stoplight](../images/colors/stoplight.svg)                          |
 
 ### Qualitative
 
 Qualitative color palettes are best when you are trying to show data with discrete values that don't have an inherent order.
 
-<table>
-  <tbody>
-    <tr>
-      <td>bujumbra</td>
-      <td><img src="/images/colors/bujumbra.svg" alt="bujumbra"></td>
-    </tr>
-    <tr>
-      <td>neon</td>
-      <td><img src="/images/colors/neon.svg" alt="neon"></td>
-    </tr>
-    <tr>
-      <td>neon2</td>
-      <td><img src="/images/colors/neon2.svg" alt="neon2"></td>
-    </tr>
-    <tr>
-      <td>olympic</td>
-      <td><img src="/images/colors/olympic.svg" alt="olympic"></td>
-    </tr>
-    <tr>
-      <td>Accent</td>
-      <td><img src="/images/colors/accent.svg" alt="Accent"></td>
-    </tr>
-    <tr>
-      <td>Dark2</td>
-      <td><img src="/images/colors/dark2.svg" alt="Dark2"></td>
-    </tr>
-    <tr>
-      <td>Paired</td>
-      <td><img src="/images/colors/paired.svg" alt="Paired"></td>
-    </tr>
-    <tr>
-      <td>Pastel1</td>
-      <td><img src="/images/colors/pastel1.svg" alt="Pastel1"></td>
-    </tr>
-    <tr>
-      <td>Pastel2</td>
-      <td><img src="/images/colors/pastel2.svg" alt="Pastel2"></td>
-    </tr>
-    <tr>
-      <td>Set1</td>
-      <td><img src="/images/colors/set1.svg" alt="Set1"></td>
-    </tr>
-    <tr>
-      <td>Set2</td>
-      <td><img src="/images/colors/set2.svg" alt="Set2"></td>
-    </tr>
-    <tr>
-      <td>Set3</td>
-      <td><img src="/images/colors/set3.svg" alt="Set3"></td>
-    </tr>
-  </tbody>
-</table>
+| bujumbra | ![bujumbra](../images/colors/bujumbra.svg) |
+| -------- | ------------------------------------------ |
+| neon     | ![neon](../images/colors/neon.svg)         |
+| neon2    | ![neon2](../images/colors/neon2.svg)       |
+| olympic  | ![olympic](../images/colors/olympic.svg)   |
+| Accent   | ![Accent](../images/colors/accent.svg)     |
+| Dark2    | ![Dark2](../images/colors/dark2.svg)       |
+| Paired   | ![Paired](../images/colors/paired.svg)     |
+| Pastel1  | ![Pastel1](../images/colors/pastel1.svg)   |
+| Pastel2  | ![Pastel2](../images/colors/pastel2.svg)   |
+| Set1     | ![Set1](../images/colors/set1.svg)         |
+| Set2     | ![Set2](../images/colors/set2.svg)         |
+| Set3     | ![Set3](../images/colors/set3.svg)         |
 
 Here's an example of how to use a named color scale:
 
@@ -224,7 +85,7 @@ You can define your own color palette for elements by using a comma separated li
 }
 ```
 
-For [flags](/guides/flags.md), the code is slightly different: 
+For [flags](flags.md), the code is slightly different:
 
 ```scss
 @settings {
@@ -242,7 +103,7 @@ It's also possible to specify which value should receive a certain color for ele
 }
 ```
 
-For [flags](/guides/flags.md), the code is slightly different: 
+For [flags](flags.md), the code is slightly different:
 
 ```scss
 @settings {
