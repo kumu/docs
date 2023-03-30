@@ -1,14 +1,14 @@
 # Import
 
-Kumu's import feature makes it possible to map your existing data, without recreating every bit of it by hand. Whether your data is in [Excel](#import-from-excel-or-csv), a [comma-separated values (CSV) file](#import-from-excel-or-csv), or [Google Sheets](#import-from-google-sheets), you can follow this guide to quickly bring it into Kumu.
+Kumu's import feature makes it possible to map your existing data, without recreating every bit of it by hand. Whether your data is in [Excel](import.md#import-from-excel-or-csv), a [comma-separated values (CSV) file](import.md#import-from-excel-or-csv), or [Google Sheets](import.md#import-from-google-sheets), you can follow this guide to quickly bring it into Kumu.
 
 ## Structure your data for Kumu
+
 Before you can import your data into Kumu, you'll need to structure your spreadsheet so that Kumu can read it. First, make sure your spreadsheet contains the following required column headers:
 
 **For elements**
 
 * Label (must be in the first cell of Column A)
-
 
 **For connections**
 
@@ -37,83 +37,41 @@ After you create the required column headers, you can start filling out the rows
 
 ...etc.
 
-All of these optional columns can be used to add data to [fields](/guides/fields.md) inside your elements and connections. If you want to store multiple values inside of one cell (for example, tags or keywords), just separate each value with the pipe character `|`. If you put multiple elements in the "To" cell of a connection, separating each element with the pipe character `|`, Kumu will draw a connection from the "From" element to each separate element in the "To" cell.
+All of these optional columns can be used to add data to [fields](fields.md) inside your elements and connections. If you want to store multiple values inside of one cell (for example, tags or keywords), just separate each value with the pipe character `|`. If you put multiple elements in the "To" cell of a connection, separating each element with the pipe character `|`, Kumu will draw a connection from the "From" element to each separate element in the "To" cell.
 
 {% hint style="info" %}
-  It's also possible to use <b>ID</b> as the first column header in element and connection sheets. To learn how and why you would do that, <a class="alert-link" href="/faq/how-do-I-avoid-duplicating-data.md">check out our guide on avoiding duplicate data</a>.
+It's also possible to use ID as the first column header in element and connection sheets. To learn how and why you would do that, [check out our guide on avoiding duplicate data](../faq/how-do-I-avoid-duplicating-data.md).
 {% endhint %}
 
 Here's a sample element import spreadsheet:
 
-<table class="table table-condensed">
-      <thead>
-        <tr>
-          <th>Label</th>
-          <th>Type</th>
-          <th>Description</th>
-          <th>Tags</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Jeff Mohr</td>
-          <td>Person</td>
-          <td>Co-Founder and CEO, always<br /> up for learning</td>
-          <td>Founder|Male|Runner</td>
-        </tr>
-        <tr>
-          <td>Kumu</td>
-          <td>Company</td>
-          <td>A web-based platform<br />for mapping relationships...</td>
-          <td>Mapping|Technology</td>
-        </tr>
-      </tbody>
-</table>
-
+| Label     | Type    | Description                                                 | Tags                  |
+| --------- | ------- | ----------------------------------------------------------- | --------------------- |
+| Jeff Mohr | Person  | <p>Co-Founder and CEO, always<br>up for learning</p>        | Founder\|Male\|Runner |
+| Kumu      | Company | <p>A web-based platform<br>for mapping relationships...</p> | Mapping\|Technology   |
 
 And here's a sample connection import spreadsheet:
 
-<table class="table table-condensed">
-      <thead>
-        <tr>
-          <th>From</th>
-          <th>To</th>
-          <th>Type</th>
-          <th>Strength</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Barack</td>
-          <td>Michelle</td>
-          <td>Personal</td>
-          <td>Strong</td>
-        </tr>
-        <tr>
-          <td>Ed Snowden</td>
-          <td>NSA</td>
-          <td>Contractor</td>
-          <td>It's complicated</td>
-        </tr>
-      </tbody>
-</table>
+| From       | To       | Type       | Strength         |
+| ---------- | -------- | ---------- | ---------------- |
+| Barack     | Michelle | Personal   | Strong           |
+| Ed Snowden | NSA      | Contractor | It's complicated |
 
 {% hint style="success" %}
-  <b>Get your hands dirty!</b> <a class="alert-link" href="../content/paypal-mafia.xlsx" target="_blank" class="_">Click here to download a sample import file</a> for the <a class="alert-link" target="_blank" class="_" href="https://kumu.io/jeff/paypal-mafia">PayPal Mafia map</a>. You can examine this file to see how imports work with real data before creating your import file.
+Get your hands dirty! [Click here to download a sample import file](../content/paypal-mafia.xlsx) for the [PayPal Mafia map](https://kumu.io/jeff/paypal-mafia). You can examine this file to see how imports work with real data before creating your import file.
 {% endhint %}
 
 {% hint style="info" %}
-  If you need to convert an <a class="alert-link" href="https://en.wikipedia.org/wiki/Adjacency_matrix" target="_blank" rel="noopener">adjacency matrix</a> to meet Kumu's format, see our <a class="alert-link" href="/faq/how-do-i-restructure-my-adjacency-matrix.md" target="_blank" rel="noopener">"How do I restructure my adjacency matrix"</a> FAQ.
+If you need to convert an [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency\_matrix) to meet Kumu's format, see our ["How do I restructure my adjacency matrix"](../faq/how-do-i-restructure-my-adjacency-matrix.md) FAQ.
 {% endhint %}
 
 #### Ignore unneeded sheets
 
 Sometimes, you'll have other sheets in your Excel or Google Sheets workbook that aren't formatted for Kumu and shouldn't be imported, but need to stay in the workbook. If that's the case, just add `(ignore)` to the name of the sheet, and Kumu will ignore it during the upload.
 
-
 ## Import from Excel or CSV
 
-After you've [structured your data](#structure-your-data), save your spreadsheet file with either the .xslx or .csv extension (Kumu doesn't support the .xls file extension).
+After you've [structured your data](import.md#structure-your-data), save your spreadsheet file with either the .xslx or .csv extension (Kumu doesn't support the .xls file extension).
 
 Then, you can import that file into Kumu in two different ways:
 
@@ -121,12 +79,12 @@ Then, you can import that file into Kumu in two different ways:
 
 OR
 
-**2)** Click the green  button at the bottom of your map, select **Import**, and click "Select .xslx file" (this button works for .csv files as well)
+**2)** Click the green button at the bottom of your map, select **Import**, and click "Select .xslx file" (this button works for .csv files as well)
 
 Either way, you'll have the option to review the import before finalizing to double-check that everything imported correctly. After you review the import, just click save, and you're all set!
 
-{% hint style="warn" %}
-Seeing errors during your Excel import? You can use the <a class="alert-link" href="#common-pitfalls">common pitfalls</a> section of this guide to help troubleshoot.
+{% hint style="info" %}
+Seeing errors during your Excel import? You can use the [common pitfalls](import.md#common-pitfalls) section of this guide to help troubleshoot.
 {% endhint %}
 
 ## Import from Google Sheets
@@ -137,29 +95,28 @@ Our Google Sheets integration populates a map using the contents of a spreadshee
 
 There are two versions of the Google Sheets integration, private and public. Private is more secure and uses oAuth to authorize Kumu to access the sheet, while the public integration requires you to make your data publicly viewable on the internet.
 
-{% hint style="warn" %}
-Seeing errors during your Google Sheets import? You can use the <a class="alert-link" href="#common-pitfalls">common pitfalls</a> section of this guide to help troubleshoot.
+{% hint style="info" %}
+Seeing errors during your Google Sheets import? You can use the [common pitfalls](import.md#common-pitfalls) section of this guide to help troubleshoot.
 {% endhint %}
 
 #### Private Google Sheets Instructions
 
 1. Create your spreadsheet in Google Drive
-1. [Structure your data](#structure-your-data-for-kumu)
-1. Copy the private spreadsheet link from the URL bar in your browser, and go back to your Kumu map
-1. Click the green  button, select **Import**, and click the "Google Sheets" tab
-1. Under **Link to private Google Sheet**, paste your Google Sheets link into the box
+2. [Structure your data](import.md#structure-your-data-for-kumu)
+3. Copy the private spreadsheet link from the URL bar in your browser, and go back to your Kumu map
+4. Click the green button, select **Import**, and click the "Google Sheets" tab
+5. Under **Link to private Google Sheet**, paste your Google Sheets link into the box
 
 #### Public Google Sheets Instructions
 
 1. Create your spreadsheet in Google Drive
-1. [Structure your data](#structure-your-data-for-kumu)
-1. Click the "Share" button in the upper right
-1. Click "Get shareable link"
-1. Set the permissions to "**On** - public on the web (Anyone on the internet can find and access. No sign-in required.)"
-1. Copy the shareable link URL, and go back to your Kumu map
-1. Click the green  button, select **Import**, and click the "Google Sheets" tab
-1. Paste your Google Sheets link into the box under **Link to public Google Sheet**
-
+2. [Structure your data](import.md#structure-your-data-for-kumu)
+3. Click the "Share" button in the upper right
+4. Click "Get shareable link"
+5. Set the permissions to "**On** - public on the web (Anyone on the internet can find and access. No sign-in required.)"
+6. Copy the shareable link URL, and go back to your Kumu map
+7. Click the green button, select **Import**, and click the "Google Sheets" tab
+8. Paste your Google Sheets link into the box under **Link to public Google Sheet**
 
 #### Caveats for the Google Sheets integration
 
@@ -168,16 +125,13 @@ Unlike file-based imports, the Google Sheets integration is an ongoing import. T
 * Elements and connections are read-only within Kumu—all edits to the underlying data must be made within the spreadsheet.
 * You can't pin elements in place when they're created from a Google Sheet.
 
-
 ## Common pitfalls
 
-Having trouble with your import? If Kumu is giving you an error message, click on the triangular error icon to see what is wrong. 
-If Kumu just loads indefinitely, there's also likely something wrong with the format of your sheet(s). 
-Here are a few common pitfalls...
+Having trouble with your import? If Kumu is giving you an error message, click on the triangular error icon to see what is wrong. If Kumu just loads indefinitely, there's also likely something wrong with the format of your sheet(s). Here are a few common pitfalls...
 
 #### Not starting your file with the correct column headers
 
-**Label** should be the first column header in your spreadsheet (cell `A1`) for an element import, and for a connection import, you should have **From** and **To** in the first two columns (cells `A1` and `B1`). The only exception to this is when you're using IDs in the first column, please read more about that [here](/faq/how-do-i-avoid-duplicating-data#use-ids-to-separate-identical-labels)
+**Label** should be the first column header in your spreadsheet (cell `A1`) for an element import, and for a connection import, you should have **From** and **To** in the first two columns (cells `A1` and `B1`). The only exception to this is when you're using IDs in the first column, please read more about that [here](../faq/how-do-I-avoid-duplicating-data.md#use-ids-to-separate-identical-labels).
 
 #### Not having column headers in the first row
 
@@ -196,14 +150,15 @@ If it seems like your spreadsheet is taking _forever_ to load, or it's consisten
 If you run into this error message...
 
 {% hint style="danger" %}
-Sorry, there was an error with your import. <br/>Error: Import format not recognized: auto
+Sorry, there was an error with your import.\
+Error: Import format not recognized: auto
 {% endhint %}
 
 ...you're trying to import an .xls file. Save it as .xlsx and try again!
 
 #### Importing an Excel file in Google Drive as a Google Sheet
 
-If you add an XLSX file to Google Drive, it will still open as an Excel sheet, only inside Google Drive. Make sure you're file is actually a Google Sheet by clicking on "Open with" at the top of the page and choosing Google Sheets, or by clicking File in the top-left corner and then choose "Save as Google Sheets". You can enter that sheet's link as your Google Sheet link. 
+If you add an XLSX file to Google Drive, it will still open as an Excel sheet, only inside Google Drive. Make sure you're file is actually a Google Sheet by clicking on "Open with" at the top of the page and choosing Google Sheets, or by clicking File in the top-left corner and then choose "Save as Google Sheets". You can enter that sheet's link as your Google Sheet link.
 
 #### Funny character issues?
 
@@ -213,12 +168,11 @@ If you're running into funny character issues, please make sure your import file
 
 Looking to hone your importing skills? These tips will turn you into a master importer:
 
-1. [Separate elements (or element types) and connections into their own sheets](#1-separate-elements-or-element-types-and-connections-into-their-own-sheets)
-1. [Take advantage of pre-named fields](#2-take-advantage-of-pre-named-fields)
-1. [Use pipes to separate | multiple | values](#3-use-pipes-to-separate-multiple-values)
-1. [Try to be selector friendly](#4-try-to-be-selector-friendly)
-1. [Ask for help!](#5-ask-for-help)
-
+1. [Separate elements (or element types) and connections into their own sheets](import.md#1-separate-elements-or-element-types-and-connections-into-their-own-sheets)
+2. [Take advantage of pre-named fields](import.md#2-take-advantage-of-pre-named-fields)
+3. [Use pipes to separate | multiple | values](import.md#3-use-pipes-to-separate-multiple-values)
+4. [Try to be selector friendly](import.md#4-try-to-be-selector-friendly)
+5. [Ask for help!](import.md#5-ask-for-help)
 
 #### 1. Separate elements (or element types) and connections into their own sheets
 
@@ -228,30 +182,11 @@ If you prefer keeping everything within a single sheet, you can use two blank ro
 
 #### 2. Take advantage of pre-named fields
 
-Our pre-named fields aren't required in your spreadsheet, but they get special visual treatment in [profiles](/guides/profiles.md), so it's great to use them when you can!
+Our pre-named fields aren't required in your spreadsheet, but they get special visual treatment in [profiles](profiles.md), so it's great to use them when you can!
 
-<dl>
-  <dt>Type</dt>
-  <dd>
-    Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family. <a href="#try-to-be-selector-friendly">Try to be selector friendly</a> with your types, when you can.
-  </dd>
-  <dt>Description</dt>
-  <dd>
-    The description field designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even images and videos. <a href="/guides/markdown.md">You can use Markdown</a> to format each description's content.
-  </dd>
-  <dt>Tags</dt>
-  <dd>
-    The tags field is designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.<br><br>Make sure to separate multiple tags using a pipe "|" in your spreadsheet cells, and <a href="#try-to-be-selector-friendly">try to be selector friendly</a> with your tags, when you can.
-  </dd>
-  <dt>Image</dt>
-  <dd>
-    Include an image URL and Kumu will display it on the map and in the profile.
-  </dd>
-  <dt>Email</dt>
-  <dd>
-    Add an email and Kumu will automatically include their <a href="http://en.gravatar.com/">gravatar</a> on the map and in the profile. Gravatars can be a huge time saver when working with social network data!
-  </dd>
-</dl>
+TypeUse the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family. [Try to be selector friendly](import.md#try-to-be-selector-friendly) with your types, when you can.DescriptionThe description field designed to hold longer-form content that describes an item. Descriptions can include multiple paragraphs, and even images and videos. [You can use Markdown](markdown.md) to format each description's content.TagsThe tags field is designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.\
+\
+Make sure to separate multiple tags using a pipe "|" in your spreadsheet cells, and [try to be selector friendly](import.md#try-to-be-selector-friendly) with your tags, when you can.ImageInclude an image URL and Kumu will display it on the map and in the profile.EmailAdd an email and Kumu will automatically include their [gravatar](http://en.gravatar.com/) on the map and in the profile. Gravatars can be a huge time saver when working with social network data!
 
 #### 3. Use pipes to separate multiple values
 
@@ -259,18 +194,16 @@ For columns with multiple values in a single cell (such as tags, skills, hobbies
 
 #### 4. Try to be selector friendly
 
-[Selectors](/guides/selectors.md) provide a simple way to slice up your data. By keeping your field names and values selector-friendly, you'll be able to write much shorter queries.
+[Selectors](selectors.md) provide a simple way to slice up your data. By keeping your field names and values selector-friendly, you'll be able to write much shorter queries.
 
-Use single words for your element types, connection types, and tags. By doing so you'll be able to use shorthand selectors in the [Advanced Editor](/overview/view-editors.md#advanced-editor), such as:
--  `person` To select all elements with type "Person"
--  `personal-connection` To select all connections with type "Personal"
--  `project.priority` To select all projects tagged "priority"
+Use single words for your element types, connection types, and tags. By doing so you'll be able to use shorthand selectors in the [Advanced Editor](../overview/view-editors.md#advanced-editor), such as:
+
+* `person` To select all elements with type "Person"
+* `personal-connection` To select all connections with type "Personal"
+* `project.priority` To select all projects tagged "priority"
 
 If you include special characters or multiple words, you'll have to use longer selector code instead (e.g. `["element type"="Government Sector"]`)—and that's just not nearly as much fun!
 
 #### 5. Ask for help!
 
-Still have questions? Having trouble structuring your data? [Let us know!](/about/where-can-i-get-help.md) We've massaged _a lot_ of data to get it into Kumu's format, and we're happy to help.
-
-
-
+Still have questions? Having trouble structuring your data? [Let us know!](../about/where-can-i-get-help.md) We've massaged _a lot_ of data to get it into Kumu's format, and we're happy to help.

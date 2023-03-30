@@ -173,6 +173,7 @@
 * [How do I update my credit card information?](faq/how-do-i-update-credit-card.md)
 * [How much data can my Kumu project handle?](faq/how-much-data-can-kumu-handle.md)
 * [How do my readers switch between maps and views?](faq/how-can-readers-switch-maps-and-views.md)
+* [My data won't import. What can I do?](frequently-asked-questions/my-data-wont-import.-what-can-i-do.md)
 * [My Kumu embed is not working. What can I do?](faq/embed-doesnt-work-what-do-i-do.md)
 * [My map disappeared. How do I bring it back?](faq/my-map-disappeared-how-do-i-bring-it-back.md)
 * [My PDF won't export. What can I do?](faq/my-PDF-wont-export.md)
