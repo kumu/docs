@@ -1,22 +1,22 @@
 # Selectors
 
-Selectors are a powerful tool, allowing you to select multiple items within your project based on the information stored in their [fields](/guides/fields.md).
+Selectors are a powerful tool, allowing you to select multiple items within your project based on the information stored in their [fields](fields.md).
 
 #### Jump to a section:
 
-- [Why should I use selectors?](#why-should-i-use-selectors)
-- [Where can I use selectors?](#where-can-i-use-selectors)
-- [How do I write selectors?](#how-do-i-write-selectors)
-
+* [Why should I use selectors?](selectors.md#why-should-i-use-selectors)
+* [Where can I use selectors?](selectors.md#where-can-i-use-selectors)
+* [How do I write selectors?](selectors.md#how-do-i-write-selectors)
 
 ## Why should I use selectors?
 
 In Kumu, you can always select items using your mouse and keyboard:
-- Clicking one element, connection, or loop to select it
-- Hold the `shift` key and click to select multiple items
-- Hold the `shift` key, then click-and-drag to select a group of items
 
-Once you have an active selection, you can do all sorts of things: [decorate](/guides/decorate.md) your selection, [change field values](/overview/map-editor.md#multiple-selections) for your selection, [focus](/guides/focus.md) on your selection, etc. Long story short, selections are extremely useful in Kumu!
+* Clicking one element, connection, or loop to select it
+* Hold the `shift` key and click to select multiple items
+* Hold the `shift` key, then click-and-drag to select a group of items
+
+Once you have an active selection, you can do all sorts of things: [decorate](decorate.md) your selection, [change field values](../overview/map-editor.md#multiple-selections) for your selection, [focus](focus.md) on your selection, etc. Long story short, selections are extremely useful in Kumu!
 
 But what if you need to select a large group of items that are densely interconnected with other items that you _don't_ want to select? You can't hold `shift` & click-and-drag, because you'll select some unwanted items in that area. You could hold `shift` and click on each individual item, but that could take a _reaaally_ long time for bigger maps.
 
@@ -28,65 +28,59 @@ Check out the overview video below to learn the basics of selectors, then read t
 
 {% embed url="https://player.vimeo.com/video/171843678" %}
 
-
 ## Where can I use selectors?
 
 {% hint style="info" %}
-Before you start: <a class="alert-link" href="/guides/fields.md">use fields</a> to add additional information to your elements, connections, and loops.
+Before you start: [use fields](fields.md) to add additional information to your elements, connections, and loops.
 {% endhint %}
 
 #### Search bar
 
 You can use selectors in the search bar on your map to select multiple items.
 
-In the upper left of the map, click "Search" next to the search icon <i class="fa fa-search">  </i> to start searching. Then, click the rocket icon ![](/icons/rocket.svg) <i class="fa fa-rocket">  </i> on the far right to bring up the selector builder, and use it to build out your selector.
+In the upper left of the map, click "Search" next to the search icon to start searching. Then, click the rocket icon ![](../icons/rocket.svg) on the far right to bring up the selector builder, and use it to build out your selector.
 
-![selector rocket](/images/search-selector.png)
+![selector rocket](../images/search-selector.png)
 
 If you'd rather write your selector instead of use the selector builder, just type an equal sign `=` in the search bar, then write your selector. Press `enter` on your keyboard to select all items that match your selector.
 
-
 #### In the Basic Editor
 
-There are several places in the [Basic Editor](/overview/view-editors.md#basic-editor) where you can use selectors:
+There are several places in the [Basic Editor](../overview/view-editors.md#basic-editor) where you can use selectors:
 
-- [Filter tool](/guides/filter.md)
-- [Connect By tool (clustering)](/guides/clustering.md)
-- [Showcase tool](/guides/showcase.md)
-- [Decoration builder](/guides/decorate.md)
+* [Filter tool](filter.md)
+* [Connect By tool (clustering)](clustering.md)
+* [Showcase tool](showcase.md)
+* [Decoration builder](decorate.md)
 
 The Connect By tool and decoration builder allow you to use the same selector builder from the search bar, and the filter and showcase tools allow you to either use the selector builder or write your own selector.
 
-
 #### In the Advanced Editor
 
-The [Advanced Editor](/overview/view-editors.md#advanced-editor) is where selectors _really_ shine. Advanced decorations, filters, focuses, controls—you name it! Almost every block of code in the Advanced Editor contains some sort of selector.
+The [Advanced Editor](../overview/view-editors.md#advanced-editor) is where selectors _really_ shine. Advanced decorations, filters, focuses, controls—you name it! Almost every block of code in the Advanced Editor contains some sort of selector.
 
 In all of the guides on this documentation site, keep an eye out for Advanced Editor instructions—they'll teach you how to use selectors to enhance all of Kumu's most powerful tools.
-
 
 ## How do I write selectors?
 
 In this section, we'll teach you how to write all kinds of selectors, which fall into these categories:
 
-1. [Shorthand selectors](#shorthand-selectors)
-1. [Longhand selectors](#longhand-selectors)
-1. [Pseudo-selectors](#pseudo-selectors)
-1. [Traversals](#traversals)
+1. [Shorthand selectors](selectors.md#shorthand-selectors)
+2. [Longhand selectors](selectors.md#longhand-selectors)
+3. [Pseudo-selectors](selectors.md#pseudo-selectors)
+4. [Traversals](selectors.md#traversals)
 
-We'll also teach you how to [chain selectors together](#chain-selectors) to run complex queries involving AND and OR logic.
+We'll also teach you how to [chain selectors together](selectors.md#chain-selectors) to run complex queries involving AND and OR logic.
 
-After you read this section, check out our [selector reference](/guides/selector-reference.md)—it's a great cheat sheet for every possible selector in Kumu.
+After you read this section, check out our [selector reference](selector-reference.md)—it's a great cheat sheet for every possible selector in Kumu.
 
 You can also use our experimental [selector builder interface](https://selector-builder.netlify.app/) to write selectors for you!
-
 
 ## Shorthand selectors
 
 #### Slugs
 
-All shorthand selectors use slugs—pieces of text that have had all letters converted to lowercase, all special characters removed, and all spaces and replaced with hyphens. To learn more about recognizing, reading, and writing slugs, check out [our full guide on slugs](/guides/slugs.md).
-
+All shorthand selectors use slugs—pieces of text that have had all letters converted to lowercase, all special characters removed, and all spaces and replaced with hyphens. To learn more about recognizing, reading, and writing slugs, check out [our full guide on slugs](slugs.md).
 
 #### Universal selector
 
@@ -95,7 +89,6 @@ The universal selector is just an asterisk `*`, and it matches all elements, con
 ```scss
 *       // select everything
 ```
-
 
 #### Select elements, connections, or loops
 
@@ -109,7 +102,7 @@ loop                   // select all loops
 
 #### Select by type
 
-Selecting all of a specific type is pretty simple too. For elements, just take the element type and turn it into a [slug](/guides/slugs.md). For connections, turn the connection type into a slug and add `-connection`.
+Selecting all of a specific type is pretty simple too. For elements, just take the element type and turn it into a [slug](slugs.md). For connections, turn the connection type into a slug and add `-connection`.
 
 ```scss
 person                 // select all elements with "Person" element type
@@ -130,9 +123,9 @@ Selecting specific items by label is—you guessed it—pretty simple! Just turn
 
 #### Select by assigned ID
 
-In Kumu, you might sometimes assign custom, unique IDs—see our guide on [avoiding duplicates](/faq/how-do-I-avoid-duplicating-data.md) for more info on when and why you would want to do this.
+In Kumu, you might sometimes assign custom, unique IDs—see our guide on [avoiding duplicates](../faq/how-do-I-avoid-duplicating-data.md) for more info on when and why you would want to do this.
 
- If you have custom IDs in your project, you can use those IDs in shorthand selectors. The syntax is the exact same as the label selector: create a slug of the ID, then add `#` in front of it:
+If you have custom IDs in your project, you can use those IDs in shorthand selectors. The syntax is the exact same as the label selector: create a slug of the ID, then add `#` in front of it:
 
 ```scss
 #project-1234          // select the item with id "project-1234"
@@ -174,14 +167,13 @@ To select by absence (**no** values in the field), just follow the same steps, b
 [!element-type]        // select any item (including connections and loops) with no value in the "element type" field
 ```
 
-
 ## Longhand selectors
 
 While the shorthand selectors are great for many cases, they're only supported for the fields and selections described above. For all other fields, or for more complex selections, you can use longhand selectors. Longhand selectors have three parts:
 
 1. Field name
-1. Operator
-1. Field value
+2. Operator
+3. Field value
 
 And the syntax is as follows:
 
@@ -191,7 +183,7 @@ And the syntax is as follows:
 
 Replace `field name` and `field value` with a name and value from your project, depending on what you are trying to select, and keep them wrapped in `""` double quotes. `field name` and `field value` are **not** case-sensitive in selectors.
 
-Then, replace `operator` with a logical operator recognized by Kumu, for example, `=` (equal to) or `>` (greater than). You can see the full list of operators and their meanings in the [selector reference](/guides/selector-reference.md#operators).
+Then, replace `operator` with a logical operator recognized by Kumu, for example, `=` (equal to) or `>` (greater than). You can see the full list of operators and their meanings in the [selector reference](selector-reference.md#operators).
 
 Here are some examples:
 
@@ -201,7 +193,7 @@ Here are some examples:
 ```
 
 {% hint style="info" %}
-When using the <strong>Type</strong> field in longhand selectors, you need to specify whether it is <strong>Element</strong> Type, <strong>Connection</strong> Type, or <strong>Loop</strong> Type. For example, use <code>"connection type"</code> instead of just <code>"type"</code> when selecting by connection type.
+When using the **Type** field in longhand selectors, you need to specify whether it is **Element** Type, **Connection** Type, or **Loop** Type. For example, use `"connection type"` instead of just `"type"` when selecting by connection type.
 {% endhint %}
 
 Here are a few more examples, using **relative** operators (greater-than, less-than, greater-than-or-equal-to, and less-than-or-equal-to):
@@ -222,11 +214,9 @@ You can also use relative operators with the built-in `created` and `updated` fi
 [updated < 2017-10-01]      // select all items that were updated before October 1, 2017
 ```
 
-
 ## Pseudo-selectors
 
-Pseudo-selectors allow you to select elements, connections, and loops based on information stored outside of their profiles—for example, in the profile of an adjacent element, or in the [focus](/guides/focus.md) settings of your view.
-
+Pseudo-selectors allow you to select elements, connections, and loops based on information stored outside of their profiles—for example, in the profile of an adjacent element, or in the [focus](focus.md) settings of your view.
 
 #### Connected from and connected to
 
@@ -239,7 +229,6 @@ To build your own, just replace `selector` with any valid selector. For example:
 :to(#my-element)       // select all connections pointing to an element with the label "My Element"
 ```
 
-
 #### Connection direction
 
 Use the `:directed`, `:undirected`, and `:mutual` pseudo-selectors to select connections based on their direction.
@@ -250,10 +239,9 @@ Use the `:directed`, `:undirected`, and `:mutual` pseudo-selectors to select con
 :mutual                // select all mutual connections
 ```
 
-
 #### Focus root
 
-When you click and hold on an element, you'll apply the [focus](/guides/focus.md) effect to your map. The element you clicked will be the **root** of the focus, and the focus will extend a certain distance away from the root.
+When you click and hold on an element, you'll apply the [focus](focus.md) effect to your map. The element you clicked will be the **root** of the focus, and the focus will extend a certain distance away from the root.
 
 You can also select multiple elements or connections before you apply the focus effect. In that case, all the elements and connections you selected will be considered **focus roots**.
 
@@ -263,7 +251,6 @@ Use the `:focus` selector to select your focus root(s).
 :focus                 // select all focus roots
 ```
 
-
 #### Orphaned elements
 
 In graphs and networks, an element that has zero connections is often referred to as an **orphan**. In Kumu, you can use the `:orphan` pseudo-selector to select all the orphans on your map.
@@ -272,10 +259,9 @@ In graphs and networks, an element that has zero connections is often referred t
 :orphan                // select all orphaned elements
 ```
 
-
 #### Loop contents
 
-If you're using [loops](/faq/what-are-loops.md) in your map, you can use the `:loop` pseudo-selector to select elements and connections that are part of a specific loop or loops.
+If you're using [loops](../faq/what-are-loops.md) in your map, you can use the `:loop` pseudo-selector to select elements and connections that are part of a specific loop or loops.
 
 The syntax is an element or connection selector with `:loop()` at the end of it. You can also put a loop selector inside the parentheses to specify the loop or loops.
 
@@ -283,7 +269,6 @@ The syntax is an element or connection selector with `:loop()` at the end of it.
 element:loop()                          // select any element that is part of any loop
 *:loop(["loop type" = "reinforcing"])   // select anything that is part of a reinforcing loop
 ```
-
 
 #### Not
 
@@ -297,35 +282,22 @@ To build your own, just replace `selector` with any valid selector. For example:
 :not([tags ~= "blue"])   // select any item whose Tags field does not include the tag "blue"
 ```
 
-
 ### Traversals
 
 Traversals allow you to select elements based on the structure of your map. For example, you can select elements based on:
-- Which other elements they are connected to or from
-- The information stored in connection's profiles (including connection direction)
+
+* Which other elements they are connected to or from
+* The information stored in connection's profiles (including connection direction)
 
 {% embed url="https://www.youtube.com/embed/tw7Q-Kuzo8g" %}
 
 The basic syntax is `selector arrow selector`. You'll replace the first and last `selector` with any valid selector (including another traversal), and you'll replace `arrow` with one of the following options:
 
-<table class="table border-bottom">
-  <tr>
-    <th class="text-left">Arrow</th>
-    <th class="text-left">Meaning</th>
-  </tr>
-  <tr>
-    <td><code>--&gt;</code></th>
-    <td>Connected to</td>
-  </tr>
-  <tr>
-    <td><code>&lt;--</code></th>
-    <td>Connected from</td>
-  </tr>
-  <tr>
-    <td><code>&lt;--&gt;</code></th>
-    <td>Connected to or from</td>
-  </tr>
-</table>
+| Arrow  | Meaning              |
+| ------ | -------------------- |
+| `-->`  | Connected to         |
+| `<--`  | Connected from       |
+| `<-->` | Connected to or from |
 
 Here are some examples:
 
@@ -338,6 +310,7 @@ person.democrat <--> person.republican      // Select all people tagged as Democ
 You can also add any valid connection selector inside of the arrow to specify exactly which connections are allowed:
 
 ```scss
+element <--["field name" = "field value"]-- element       // Basic syntax for traversals. Select an element based on specific field information in the profile of a connection from another eleement
 person.democrat --[strength > 5]--> person.republican      // Select all people tagged as Democrats who are connected to a person tagged as Republican, via a a connection whose strength is greater than 5
 ```
 
@@ -358,28 +331,14 @@ person.democrat --strong--> person.republican
 person.democrat --strong-connection--> person.republican
 ```
 
-
 ### Chain selectors
 
 The selectors we've covered so far are building blocks. You can combine those building blocks to create complex queries involving AND and OR logic—this action is called **chaining selectors**.
 
-<table class="table borderless">
-  <tr>
-    <th>Logic</th>
-    <th>Description</th>
-    <th>How to use in Kumu</th>
-  </tr>
-  <tr>
-    <td>AND</td>
-    <td>Only items that match <b>all</b> selectors in the chain will be selected</td>
-    <td>Write selectors back-to-back, with no white space or punctuation in between</td>
-  </tr>
-  <tr>
-    <td>OR</td>
-    <td>Items that match <b>any</b> selector in the chain will be selected</td>
-    <td>Join selectors with a comma</td>
-  </tr>
-</table>
+| Logic | Description                                                       | How to use in Kumu                                                          |
+| ----- | ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| AND   | Only items that match all selectors in the chain will be selected | Write selectors back-to-back, with no white space or punctuation in between |
+| OR    | Items that match any selector in the chain will be selected       | Join selectors with a comma                                                 |
 
 Here are some examples of selectors chained in different ways:
 
@@ -396,5 +355,3 @@ woman.young.influential                     // select all elements with the type
 
 :directed[connection-type = "donation"]     // select all directed connections whose connection type is Donation
 ```
-
-
