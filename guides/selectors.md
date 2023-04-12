@@ -310,7 +310,7 @@ person.democrat <--> person.republican      // Select all people tagged as Democ
 You can also add any valid connection selector inside of the arrow to specify exactly which connections are allowed:
 
 ```scss
-element <--["field name" = "field value"]-- element       // Basic syntax for traversals. Select an element based on specific field information in the profile of a connection from another eleement
+element <--["field name" = "field value"]-- element       // Basic syntax for traversals. Select an element based on specific field information in the profile of a connection from another element
 person.democrat --[strength > 5]--> person.republican      // Select all people tagged as Democrats who are connected to a person tagged as Republican, via a a connection whose strength is greater than 5
 ```
 
