@@ -2,33 +2,21 @@
 
 In Kumu, you can embed content from external providers into a **lightbox**.
 
-<!-- ![Lightbox showing a loop in Kumu](/images/lightbox-kumu.png) -->
-
-![Lightbox showing a YouTube video in Kumu](/images/lightbox-youtube.png)
+![Lightbox showing a YouTube video in Kumu](../images/lightbox-youtube.png)
 
 To show content in a lightbox, start by finding a link to the embeddable version of the external content. Once you have the link, just add add `?lightbox` to the end for the default lightbox, or add `?lightbox=full` for a nearly-fullscreen lightbox.
 
 Add the completed link into one of the following places in your map:
-- The Map Overview located in the [side panel](/overview/map-editor.md#side-panel)
-- The text for any [presentation](/guides/presentations.md) slide
-- The Description field in any [profile](/guides/profiles.md)
-- Any custom field with its [field type](/guides/fields.md#customize-a-field) set to Text or URL
 
-<!-- content's URL. For Kumu maps, you can simply open the map and copy the link from the URL bar. For content from other providers, you'll need to find a link  -->
-
-<!-- Note: if your lightbox embeds Kumu content from another location in the same Kumu project, feel free to omit the first part of the URL:
-
-```
-Instead of this:
-https://kumu.io/MyUsername/my-project/#my-map
-
-Use this:
-#my-map
-``` -->
-
+* The Map Overview located in the [side panel](../overview/map-editor.md#side-panel)
+* The text for any [presentation](presentations.md) slide
+* The Description field in any [profile](profiles.md)
+* Any custom field with its [field type](fields.md#customize-a-field) set to Text or URL
 
 {% hint style="info" %}
-<b>Tip:</b> Add the lightbox to a custom field named <code>URL</code> with its type set to URL, and the lightbox will open when your element, connection, or loop is double-clicked.
+Tip: Add the lightbox to a custom field named `URL` with its type set to URL, and the lightbox will open when your element, connection, or loop is double-clicked.
 {% endhint %}
 
-
+{% hint style="info" %}
+**Note:** If you're looking to put a Youtube video in a lightbox, make sure to use the full URL. More info [here](widgets.md#youtube).&#x20;
+{% endhint %}
