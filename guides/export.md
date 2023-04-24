@@ -51,4 +51,4 @@ _Note: If you're working with loops, you'll need to continue to edit them within
 
 ## Export to JSON: downloading a project blueprint
 
-If you need to backup your entire project (all maps, views, and underlying data **except presentations**), click the download icon in the lower right corner and choose "Export to JSON". This will create a [JSON blueprint](blueprints.md) which can be used as a snapshot in time of your project, and can be imported into a blank project to restore it.
+If you need to backup your entire project (all maps, views, and underlying data **except presentations**), click the download icon in the lower right corner and choose "Export to JSON". This will create a [JSON blueprint](import/blueprints.md) which can be used as a snapshot in time of your project, and can be imported into a blank project to restore it.

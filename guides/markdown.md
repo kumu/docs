@@ -1,13 +1,16 @@
 # Markdown
 
+## Markdown
+
 Markdown is an easy and powerful way to format your descriptions and long text fields using simple, natural syntax.
 
-## The basics
+### The basics
+
 ```md
 *italic* and **bold**
 ```
 
-*italic* and **bold**
+_italic_ and **bold**
 
 ```md
 An inline link: [Kumu](http://launch.kumupowered.com)
@@ -21,13 +24,14 @@ An auto-generated link: http://kumu.io
 
 An auto-generated link: [https://kumu.io](https://kumu.io)
 
-## Lists
+### Lists
 
 ```md
 * Milk
 * Cookies
 * Marshmallows
 ```
+
 Looks like:
 
 * Milk
@@ -39,14 +43,14 @@ Looks like:
 2. Texas
 3. New York
 ```
+
 Looks like:
 
 1. California
 2. Texas
 3. New York
 
-
-## Links within your account
+### Links within your account
 
 We also support linking to elements, connections and loops (even other maps in your account).
 
@@ -54,33 +58,31 @@ We also support linking to elements, connections and loops (even other maps in y
 
 You can use the following syntax:
 
-#### Selectors
+**Selectors**
 
 ```md
 [link text](= selector)
 ```
 
-Replace `link text` with the text for your link, and replace `selector` with any valid [selector](/guides/selectors.md).
+Replace `link text` with the text for your link, and replace `selector` with any valid [selector](selectors.md).
 
-
-#### Maps
+**Maps**
 
 ```md
 [link text](#map-slug)
 ```
 
-Replace `link text` with the text for your link, and replace `map-slug` with the [slug](/guides/slugs.md) of your map.
+Replace `link text` with the text for your link, and replace `map-slug` with the [slug](slugs.md) of your map.
 
-#### Views
+**Views**
 
 ```md
 [link text](#map-slug/view-slug)
 ```
 
-Replace `link text` with the text for your link, replace `map-slug` with the [slug](/guides/slugs.md) of your map, and replace `view-slug` .with the [slug](/guides/slugs.md) of your view.
+Replace `link text` with the text for your link, replace `map-slug` with the [slug](slugs.md) of your map, and replace `view-slug` .with the [slug](slugs.md) of your view.
 
-
-## Images
+### Images
 
 ```md
 ![alt text](image-url)
@@ -88,11 +90,11 @@ Replace `link text` with the text for your link, replace `map-slug` with the [sl
 
 Replace `alt text` with an image caption that screen readers can read, and replace `image-url` with a link to your image.
 
-### Widgets
+#### Widgets
 
 See our guide to [widgets](markdown.md#widgets) to learn more about embedding videos, podcasts, slideshows, and other interactive content inside markdown.
 
-## Headings
+### Headings
 
 ```md
 # Heading 1
@@ -102,25 +104,33 @@ See our guide to [widgets](markdown.md#widgets) to learn more about embedding vi
 ##### Heading 5
 ###### Heading 6
 ```
+
 Looks like:
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+## Heading 1
 
+### Heading 2
 
-## Code
+#### Heading 3
+
+**Heading 4**
+
+**Heading 5**
+
+**Heading 6**
+
+### Code
 
 Simply indent lines with four spaces or wrap the code with three backticks:
 
-    ```md
-    <div class="footer">
-        &copy; 2013 Kumu Systems LLC
-    </div>
-    ```
+````
+```md
+<div class="footer">
+    &copy; 2013 Kumu Systems LLC
+</div>
+```
+````
+
 Looks like:
 
 ```md
@@ -129,16 +139,17 @@ Looks like:
 </div>
 ```
 
+### Blockquotes
 
-## Blockquotes
-
-    > Add quote text here
+```
+> Add quote text here
+```
 
 Looks like:
 
 > Add quote text here
 
-## Tables
+### Tables
 
 ```md
 One | Two | Three
@@ -147,44 +158,43 @@ Blue | White | Gray
 Green | Yellow | Red
 ```
 
-If you are using Markdown in the Description column of an [import](/guides/import.md), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
+If you are using Markdown in the Description column of an [import](import/), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag\_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
 
 <<<<<<< HEAD
+
 ```md
 =======
 <<<<<<< HEAD
 ```
->>>>>>> 542c98f (GitBook: [#18] fixes some busted content in markdown docs)
-<table><tr><th>One</th><th>Two</th><th>Three</th></tr><tr><td>Blue</td><td>White</td><td>Gray</td></tr><tr><td>Green</td><td>Yellow</td><td>Red</td></tr></table>
-```
-=======
+
+> > > > > > > 542c98f (GitBook: \[#18] fixes some busted content in markdown docs)
+
 | One   | Two    | Three |
 | ----- | ------ | ----- |
 | Blue  | White  | Gray  |
 | Green | Yellow | Red   |
->>>>>>> 7a77431 (GitBook: [#18] fixes some busted content in markdown docs)
 
-## Horizontal Rules
+\`\`\` ======= | One | Two | Three | | ----- | ------ | ----- | | Blue | White | Gray | | Green | Yellow | Red | >>>>>>> 7a77431 (GitBook: \[#18] fixes some busted content in markdown docs)
 
-    Three or more dashes or asterisks
-    ---
-    ***
+### Horizontal Rules
+
+```
+Three or more dashes or asterisks
+---
+***
+```
 
 Looks like:
 
-<<<<<<< HEAD
----
+### <<<<<<< HEAD
 
-<br />
-=======
 \
->>>>>>> 7a77431 (GitBook: [#18] fixes some busted content in markdown docs)
-Now you know the basics of formatting with markdown! For more information, visit [Daring Fireball's markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax#precode).
+\======= \ >>>>>>> 7a77431 (GitBook: \[#18] fixes some busted content in markdown docs) Now you know the basics of formatting with markdown! For more information, visit \[Daring Fireball's markdown syntax documentation]\(http://daringfireball.net/projects/markdown/syntax#precode).
 
-
-## Inline HTML
+### Inline HTML
 
 Kumu's markdown editor also recognizes a limited amount of inline HTML. Here are the tags you can use in Kumu, anywhere that accepts markdown:
+
 ```md
 <a>
 <aside>
@@ -318,8 +328,7 @@ all tags
   itemprop
 ```
 
-
-## LaTeX
+### LaTeX
 
 Good news for people using Kumu in science, math, or academia—anywhere you write Markdown in Kumu, you can also write LaTeX to include equations!
 
@@ -331,22 +340,20 @@ You can write LaTeX inline or on its own separate line. To write inline, put two
 
 Here's what you would see:
 
-![rendered inline latex](/images/latex-inline.png)
+![rendered inline latex](../images/latex-inline.png)
 
 Or, for more complex expressions, you can write inside a codeblock marked as `latex`, like so:
 
-
-    ```latex
-    f(x) = \int_{-\infty}^\infty
-        \hat f(\xi)\,e^{2 \pi i \xi x}
-        \,d\xi
-    ```
+````
+```latex
+f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+```
+````
 
 Here's what you would see:
 
-![rendered block latex](/images/latex-block.png)
+![rendered block latex](../images/latex-block.png)
 
 Kumu uses a tool called KaTeX to render these equations. For a full list of supported equations, [visit the KaTeX docs](https://katex.org/docs/supported.md).
-
-
-

@@ -18,7 +18,7 @@ For all other fields (including **Element Type, Connection Type,** and **Loop Ty
 After you follow these steps, the field value(s) you deleted will no longer show up in prompted lists, in legends, or in controls.
 
 **2.Delete custom decorations from the legend**\
-****If you used the decoration builder to add a legend entry, you can go to the existing decorations section, click the pencil icon next to the decoration, and clear out the Label for Legend box. This will remove the legend item, but keep the decoration—if you'd rather delete both, you can click the trash icon in the existing decorations section.
+If you used the decoration builder to add a legend entry, you can go to the existing decorations section, click the pencil icon next to the decoration, and clear out the Label for Legend box. This will remove the legend item, but keep the decoration—if you'd rather delete both, you can click the trash icon in the existing decorations section.
 
 **3.Delete automatic legend entries**\
 Some legend entries get added automatically when you apply different [templates](../guides/templates.md). Here's how to delete those entries:
@@ -28,4 +28,4 @@ Some legend entries get added automatically when you apply different [templates]
 * **Opposite** entry (systems template): Open the Basic Editor on the right-hand side, click Customize Defaults, and in the **Template settings** section, clear out the "Opposite connection label" box and click **SAVE** at the bottom.
 
 **4.Delete manual legend entries created in the advanced editor**\
-****Any legend entries that you created by [adding code to the advanced editor](../guides/color-reference.md#defining-your-own-color-palette) can be deleted by simply deleting the code again from the advanced editor.&#x20;
+Any legend entries that you created by [adding code to the advanced editor](../guides/color-reference.md#defining-your-own-color-palette) can be deleted by simply deleting the code again from the advanced editor.&#x20;

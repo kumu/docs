@@ -75,7 +75,7 @@ To detect loops, follow these steps:
 * Loops can only be [exported with JSON](../guides/export.md). You can't export loops to Excel.
 
 {% hint style="info" %}
-Automatic loop detection is not (yet) available for maps imported with Google Sheets. If you'd like to use loop detection, please [import your map with Excel](../guides/import.md#import-from-excel-or-csv).
+Automatic loop detection is not (yet) available for maps imported with Google Sheets. If you'd like to use loop detection, please [import your map with Excel](../guides/import/#import-from-excel-or-csv).
 {% endhint %}
 
 **NOTE:** Some maps are simply too large for Kumu to automatically detect loops, as the number of loops on a highly inter-connected system map can quickly run into the thousands. If you notice that loop detection is not giving you any results, you can try one of two things: &#x20;

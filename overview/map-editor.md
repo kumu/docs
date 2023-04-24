@@ -60,7 +60,7 @@ You can show and hide the side panel by pressing `Tab` on your keyboard or by cl
 
 The star of the show, of course, is the map's canvas, where all of your elements, connections, and loops are displayed. To add new items to the map, click the green button at the bottom of the canvas. For more guidance on building your map, [check out our First Steps guide](../getting-started/first-steps.md#build-your-first-map).
 
-By default, your canvas will have a search bar in the upper left, a zoom toolbar in the upper right, and a settings icon ![](../icons/sliders-h.svg) __ under the zoom toolbar. If you have added a [legend](../guides/legends.md) to your map, it will appear in the lower left of your map's canvas by default.
+By default, your canvas will have a search bar in the upper left, a zoom toolbar in the upper right, and a settings icon ![](../icons/sliders-h.svg) under the zoom toolbar. If you have added a [legend](../guides/legends.md) to your map, it will appear in the lower left of your map's canvas by default.
 
 Click on the search bar to search across the current map or across all maps. After you click on the search bar, you can also click on the rocket icon ![](../icons/rocket.svg) to bring up the [selector](../guides/selectors.md) builder, which is useful when you want to select multiple items based on the information in their profiles. Use the zoom toolbar (or scroll up and down with your mouse/touchpad) to change your zoom level, and click the settings icon ![](../icons/sliders-h.svg)to access Kumu's [view editors](view-editors.md).
 

@@ -49,7 +49,7 @@ At this point, you need to decide how to get all of this information into the ma
 
 ![](../images/three-ways-to-build.png)
 
-In this guide, we'll cover how to build your map by hand. If you'd rather import from a spreadsheet or Google Sheets, [check out our full guide on imports](../guides/import.md).
+In this guide, we'll cover how to build your map by hand. If you'd rather import from a spreadsheet or Google Sheets, [check out our full guide on imports](../guides/import/).
 
 ### Build your map by hand
 

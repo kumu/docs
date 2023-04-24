@@ -6,7 +6,7 @@ By default our layout algorithm treats all connections the same (same spring str
 
 To change the thickness of the connections, follow these steps:
 
-1. Click on the settings icon ![](../icons/sliders-h.svg) __ on the right side of the map to open the Basic Editor.
+1. Click on the settings icon ![](../icons/sliders-h.svg) on the right side of the map to open the Basic Editor.
 2. Choose "Decorate Connections" to open the decorations editor.
 3. Set the dropdown at the top to "Decorate all connections" (or use the other options to specify which connections you'd like to target)
 4. Use the slider to change the connection manually, and click Done at the bottom.

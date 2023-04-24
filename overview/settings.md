@@ -50,7 +50,7 @@ And each map has the following settings:
 
 ## View settings
 
-View settings are accessed via the settings icon ![](../icons/sliders-h.svg) __ on the right side of the map. If you want to save, rename, duplicate, or delete a view, you can click the ellipsis icon in the upper right. You can also use that icon to set the default view for the current map.
+View settings are accessed via the settings icon ![](../icons/sliders-h.svg) on the right side of the map. If you want to save, rename, duplicate, or delete a view, you can click the ellipsis icon in the upper right. You can also use that icon to set the default view for the current map.
 
 ![view settings](../images/view-settings.png)
 
