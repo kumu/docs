@@ -1,6 +1,6 @@
-# Underlays
+# Grids & Guides
 
-**Underlays** are a great tool when you need to add some structure or context to the background of your map. Kumu supports the following underlays:
+Grids & guides are a great tool when you need to add some structure or context to the background of your map. Kumu supports the following underlays:
 
 * [Grids](underlays.md#add-a-grid)
 * [Guides](underlays.md#add-guides)
@@ -14,7 +14,7 @@
 **In the Basic Editor**
 
 1. Click the settings icon ![](../icons/sliders-h.svg)to open the [Basic Editor](../overview/view-editors.md#basic-editor)
-2. Click "More" and then select Grids & Guides to open the menu
+2. Click "More" and then select "Grids & Guides" to open the menu
 3. Check the "Show grid" checkbox to make the grid appear&#x20;
 
 You can use the settings below **Grid** to adjust color, offset and width of your grid.
@@ -72,7 +72,7 @@ Finally, you can use the `layout-grid-color` property to customize the color of 
 To add a guide to your map, follow the following steps:&#x20;
 
 1. Click the settings icon ![](../icons/sliders-h.svg)to open the [Basic Editor](../overview/view-editors.md#basic-editor)
-2. Click "More" and then select Grids & Guides to open the menu
+2. Click "More" and then select "Grids & Guides" to open the menu
 3. Adjust the guide settings and click "Add guide" to make the guide show up on your map
 
 <figure><img src="../.gitbook/assets/Guides.png" alt=""><figcaption><p>Add guides</p></figcaption></figure>
@@ -117,6 +117,8 @@ If you'd like to center your circle somewhere else, for example, an x coordinate
 For additional styling, use the `layout-guide-width` and `layout-guide-color` properties to customize the width and color of guides.
 
 ## Add a radar
+
+You can add a radar of concentric circles to your background to play with positining of your elements. If you want to pin elements in place, visit [this guide here](../faq/how-do-keep-elements-from-moving.md).
 
 ![default radar](../images/radar-default.png)
 
