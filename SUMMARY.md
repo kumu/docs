@@ -182,3 +182,7 @@
 * [My PDF won't export. What can I do?](faq/my-PDF-wont-export.md)
 * [What pricing plans does Kumu have?](faq/what-pricing-plans-does-Kumu-have.md)
 * [Where can I find my invoices?](faq/where-can-i-find-invoices.md)
+
+***
+
+* [How do I set a minimum or maximum zoom level for my map?](how-do-i-set-a-minimum-or-maximum-zoom-level-for-my-map.md)
