@@ -1,6 +1,8 @@
 # Images
 
-In Kumu, there are a number of different places where you can use images to enrich your project. This guide covers:
+In Kumu, there are a number of different places where you can use images to enrich your project.&#x20;
+
+**Skip to section:**
 
 * [Adding images to elements](images.md#add-images-to-elements)
 * [Adding icons to elements](images.md#add-icons-to-elements)
@@ -20,19 +22,26 @@ You can upload images to descriptions and the map overview as well. To do this, 
 Note: when you're uploading images, only JPEG, PNG, and GIF files smaller than 5mb are supported at this time.
 {% endhint %}
 
-#### Importing image(s) through Google Sheets
+#### Importing images through Google Sheets
 
-If you're [importing data with Google Sheets](import/), then you'll have to include a URL to an image hosted publicly on the web. First, add an "Image" column in the "Elements" sheet of your Google Sheets file, and then add the public URL for the image that you want to add to each element (e.g. each row). Please note that the URL should lead _directly_ to the image, so you might need to create such a URL first through an image hosting platform.
+If you're [importing data with Google Sheets](import/), then you'll have to include a URL to an image hosted publicly on the web. First, add an "Image" column in the "Elements" sheet of your Google Sheets file, and then add the public URL for the image that you want to add to each element (e.g. each row).&#x20;
+
+{% hint style="info" %}
+Note that the URL should lead _directly_ to the image, so you might need to create such a URL first through an [image hosting platform](https://imgbb.com/). Some images allow you to simply right-click on them and choose "Copy image address". You can then use that link as the image URL.&#x20;
+{% endhint %}
 
 #### Troubleshooting images
 
 Have you uploaded images, but are not seeing images on the map? Here are a few steps you can take to troubleshoot the problem:
 
 * Make sure you're not using the SNA template, which doesn't support images. If you are using that template, you can [switch to a different one](templates.md#switching-templates).
-* If you're entering image links directly:
-  * Make sure your link leads directly to the image, rather than a webpage with the image on it. There are many places where you can host your images, but [this website](https://imgbb.com/) is generally a good place to start.
-  * Make sure your image URL is using a secure connection—that is, the link starts with `https` instead of just `http`
-  * Disable image proxy: click the menu icon ![](../icons/bars.svg) in the upper left of the map editor, then click **Admin** and click **disable it**.
+*   If you're entering image links directly:
+
+    * Make sure your link leads directly to the image, rather than a webpage with the image on it. There are many places where you can host your images, but [this website](https://imgbb.com/) is generally a good place to start. Some images also allow you to simply right-click on them and choose "Copy image address".
+    * Make sure your image URL is using a secure connection—that is, the link starts with `https` instead of just `http`
+    * Disable image proxy: click the menu icon ![](../icons/bars.svg) in the upper left of the map editor, then click **Admin** and click **disable it**.
+
+
 
 #### Using decorations to add images
 
