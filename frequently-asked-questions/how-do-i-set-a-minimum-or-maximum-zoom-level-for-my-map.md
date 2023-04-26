@@ -1,6 +1,6 @@
 # How do I set a minimum or maximum zoom level for my map?
 
-When scrolling on a map, Kumu allows you to zoom in or out indefinitely. Yet, sometimes you just don't want a viewer to be able to zoom out too much (e.g. in [a geo map](guides/templates/geo.md) of a specific region), or to zoom in too much.&#x20;
+When scrolling on a map, Kumu allows you to zoom in or out indefinitely. Yet, sometimes you just don't want a viewer to be able to zoom out too much (e.g. in [a geo map](../guides/templates/geo.md) of a specific region), or to zoom in too much.&#x20;
 
 Luckily, you can set a minimum and a maximum zoom level for your Kumu map, by adding code to your advanced editor. You can use these properties within an @settings block:&#x20;
 

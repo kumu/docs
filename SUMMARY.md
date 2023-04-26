@@ -164,14 +164,16 @@
 * [How do I keep elements from moving?](faq/how-do-keep-elements-from-moving.md)
 * [How do I list an element's connections in its profile?](faq/how-do-i-list-an-elements-connections-in-its-profile.md)
 * [How do I make sense of my receipt?](faq/how-do-i-make-sense-of-my-receipt.md)
-* [How do I remove unneeded controls?](faq/how-do-i-get-rid-of-unneeded-controls.md)
+* [How do I open a sub-system when clicking on an element?](frequently-asked-questions/how-do-i-open-a-sub-system-when-clicking-on-an-element.md)
 * [How do I remove the Opposite entry from my legend?](faq/how-do-i-remove-opposite.md)
+* [How do I remove unneeded controls?](faq/how-do-i-get-rid-of-unneeded-controls.md)
 * [How do I remove unwanted legend entries?](faq/how-can-i-remove-unwanted-legend-entries.md)
 * [How do I rename my map/view?](faq/how-do-i-rename-map-view.md)
 * [How do I restructure my adjacency matrix?](faq/how-do-i-restructure-my-adjacency-matrix.md)
 * [How do I select options by default in my control?](faq/how-do-i-select-options-by-default-in-my-control.md)
-* [How do I size elements based on number of connections?](faq/how-do-i-size-elements-by-number-of-connections.md)
+* [How do I set a minimum or maximum zoom level for my map?](frequently-asked-questions/how-do-i-set-a-minimum-or-maximum-zoom-level-for-my-map.md)
 * [How do I show the Settings button?](faq/how-do-i-show-the-settings-button.md)
+* [How do I size elements based on number of connections?](faq/how-do-i-size-elements-by-number-of-connections.md)
 * [How do I transfer a project?](faq/how-do-i-transfer-a-project.md)
 * [How do I update my credit card information?](faq/how-do-i-update-credit-card.md)
 * [How much data can my Kumu project handle?](faq/how-much-data-can-kumu-handle.md)
@@ -182,7 +184,3 @@
 * [My PDF won't export. What can I do?](faq/my-PDF-wont-export.md)
 * [What pricing plans does Kumu have?](faq/what-pricing-plans-does-Kumu-have.md)
 * [Where can I find my invoices?](faq/where-can-i-find-invoices.md)
-
-***
-
-* [How do I set a minimum or maximum zoom level for my map?](how-do-i-set-a-minimum-or-maximum-zoom-level-for-my-map.md)
