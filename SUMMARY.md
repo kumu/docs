@@ -81,7 +81,7 @@
 * [Lightbox](guides/lightbox.md)
 * [Loops](faq/what-are-loops.md)
 * [Metrics](guides/metrics.md)
-* [Multi-factor authentication](guides/multi-factor-authentication.md)
+* [Two-factor authentication](guides/two-factor-authentication.md)
 * [Pro workspaces](guides/pro-workspaces.md)
   * [Archiving projects](guides/archiving-projects.md)
   * [Discussions](guides/discussions.md)

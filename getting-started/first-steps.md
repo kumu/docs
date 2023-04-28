@@ -106,7 +106,7 @@ For this walkthrough, fill out the Type field for each of your elements—try to
 
 Click the settings icon ![](../icons/sliders-h.svg) on the right side of the map to open up the Basic Editor. You'll see the most popular settings listed, allowing you to easily size or color elements by a field. There's more options here, but let's start with the most basic ones! For the full explanation of each possible setting, visit [the Basic Editor guide](../overview/view-editors.md#basic-editor).&#x20;
 
-<figure><img src="../.gitbook/assets/Basic Editor (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Basic Editor (1).png" alt=""><figcaption></figcaption></figure>
 
 If you have filled out the Type field for your elements, try selecting **Element Type** from the dropdown menu next to **Color by**. Kumu will automatically color-code all of your elements by Type, and you can click the expand icon to choose a different color scale.
 
@@ -161,7 +161,7 @@ To extend focus to a specific degree, use the numbers `0-9` on your keyboard. To
 
 Showcase is similar to filter, which allows you to show or hide elements, connections, and loops based on the information they contain. But, instead of hiding your data, showcase will make it translucent, fading it into the background.
 
-<figure><img src="../.gitbook/assets/spaces_kXSW1nEf49ISqGxYuRfS_uploads_git-blob-d093a1a5301691c450470eaae9942f573ea8c3ce_showcase-control.gif" alt=""><figcaption><p>Showcase</p></figcaption></figure>
+<figure><img src="../images/showcase-control.gif" alt=""><figcaption><p>Showcase</p></figcaption></figure>
 
 Experiment with showcase by opening the Basic Editor, and clicking **Showcase**.
 

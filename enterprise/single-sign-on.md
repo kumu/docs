@@ -31,7 +31,7 @@ If you are using Enterprise Cloud, please provide Kumu with the following so we 
 
 If you are self-hosting, please visit https://example.com/enterprise/admin/settings and sign in with your admin account. From your SSO provider, you can get an entity ID, service URL, and a base-64 encoded public certificate. Check the box to enable SSO for your enterprise instance and copy/paste those items into your instance's settings:
 
-![Kumu Enterprise SSO settings](../images/azure-sso/13.png)
+![Kumu Enterprise SSO settings](../images/enterprise-sso.png)
 
 With Kumu and your SSO provider configured, you can use your SSO provider to give users access to Kumu. Users can begin the sign-in flow by visiting the url below and clicking the "Sign in via single sign-on (SSO)" button:
 
@@ -80,7 +80,7 @@ If Microsoft Azure is your single sign-on provider, you can follow the instructi
 
     ![Azure SSO step 12](../images/azure-sso/12.png)
 
-    ![Azure SSO step 12.5](../images/enterprise-sso.png)
+    ![Azure SSO step 12.5](../images/azure-sso/13.png)
 13. Within Azure AD, assign users to the Kumu app you just created to enable SSO
 
     ![Azure SSO step 13](../images/azure-sso/14.png)

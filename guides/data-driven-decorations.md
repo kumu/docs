@@ -67,7 +67,7 @@ After you fill out data in the profiles, you can use the [Basic Editor](../overv
 
 To open the Basic Editor, open your map and click the settings icon ![](../icons/sliders-h.svg) on the right side of the map.
 
-<figure><img src="../.gitbook/assets/Basic Editor (2) (1).png" alt=""><figcaption><p>Basic Editor</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Basic Editor (1) (1).png" alt=""><figcaption><p>Basic Editor</p></figcaption></figure>
 
 You'll see some of Kumu's most commonly used view settings, and the first three—**Size by,** **Color by,** and **Shape by**—can help you create basic decorations.
 
@@ -111,7 +111,7 @@ To learn more about flags, [read the full guide](flags.md).
 
 **Shape by** allows you to shape your elements based on any field that can hold only one value. Select a field from the dropdown, and any elements that have data in that field will get a new shape!
 
-<figure><img src="../.gitbook/assets/Shapes 2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Shapes 2 (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 To learn more about shapes, [read the full guide](shapes.md).
 
@@ -144,7 +144,7 @@ After you have built your selection, feel free to play with all the decoration o
 
 Click the **Done** button to apply your decoration, and if you don't like the way it looks, just find the decoration rule in the [existing decorations](../overview/view-editors.md#existing-custom-decorations) section of the Basic Editor, and click the pencil icon to edit it.
 
-<figure><img src="../.gitbook/assets/custom decorations (1).png" alt=""><figcaption><p>Custom decorations</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/custom decorations (2) (1) (1).png" alt=""><figcaption><p>Custom decorations</p></figcaption></figure>
 
 You can also add your decorations to the legend by filling out the **Legend** box at the bottom of the Decoration Builder. For more information on legends, [check out the full legends guide](legends.md).
 

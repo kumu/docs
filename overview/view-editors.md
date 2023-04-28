@@ -10,7 +10,7 @@ There are also some features of Kumu that can only be accessed through the Advan
 
 To open the Basic Editor, open your map and click the settings icon ![](../icons/sliders-h.svg) on the right side of the map.
 
-<figure><img src="../.gitbook/assets/Basic Editor (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Basic Editor (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You'll see Kumu's most commonly used view settings:
 
@@ -54,7 +54,7 @@ Need more precise control over your colors? Check out our guide on [refining you
 
 **Shape by** allows you to shape your elements based on any field that can hold only one value. Select a field from the dropdown, and any elements that have data in that field will get a new shape!
 
-<figure><img src="../.gitbook/assets/Shapes 2 (1) (1) (2).png" alt=""><figcaption><p>Shapes</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Shapes 2 (1) (1) (1) (1).png" alt=""><figcaption><p>Shapes</p></figcaption></figure>
 
 To learn more about shapes, [read the full guide](../guides/shapes.md).
 
@@ -62,7 +62,7 @@ To learn more about shapes, [read the full guide](../guides/shapes.md).
 
 The [default view settings](../guides/default-view-settings.md) is your one-stop-shop for adjusting the underlying settings in your [view](../guides/views.md). Templates, layouts, default element and connection styles, and more, can all be changed with default view settings.
 
-<figure><img src="../.gitbook/assets/Customize defaults.png" alt=""><figcaption><p>Customize defaults</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Customize defaults (1).png" alt=""><figcaption><p>Customize defaults</p></figcaption></figure>
 
 ### Connect by
 
@@ -86,7 +86,7 @@ When clustering is activated, Kumu will create new elements to represent each po
 
 **Showcase** is similar to Filter, which allows you to show or hide elements, connections, and loops based on the information they contain. But, instead of _hiding_ your unselected data, showcase will make it translucent, effectively _fading it_ into the background.&#x20;
 
-<figure><img src="../.gitbook/assets/spaces_kXSW1nEf49ISqGxYuRfS_uploads_git-blob-d093a1a5301691c450470eaae9942f573ea8c3ce_showcase-control.gif" alt=""><figcaption><p>Showcase</p></figcaption></figure>
+<figure><img src="../images/showcase-control.gif" alt=""><figcaption><p>Showcase</p></figcaption></figure>
 
 To learn more about Showcase, [find our full guide here](../guides/showcase.md).
 
@@ -122,7 +122,7 @@ If you have already one or more decorations to your map, the Basic Editor will s
 
 This section of the Basic Editor shows each decoration's legend label you added through the Decoration Builder. You can click the pencil icon next to a decoration to edit it, or click the delete icon to delete it.
 
-<figure><img src="../.gitbook/assets/custom decorations (2) (1) (1).png" alt=""><figcaption><p>Custom decorations</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/custom decorations (1).png" alt=""><figcaption><p>Custom decorations</p></figcaption></figure>
 
 ## Advanced Editor
 

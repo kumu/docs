@@ -19,7 +19,7 @@ Grids & guides are a great tool when you need to add some structure or context t
 
 You can use the settings below **Grid** to adjust color, offset and width of your grid.
 
-<figure><img src="../.gitbook/assets/Grids and guides.png" alt=""><figcaption><p>Add a grid</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Grids and guides (1).png" alt=""><figcaption><p>Add a grid</p></figcaption></figure>
 
 **In the Advanced Editor**
 

@@ -6,7 +6,7 @@ In Kumu, **default view settings** is your one-stop-shop for adjusting the under
 
 You can find the **Default view settings** tool in the [Basic Editor](../overview/view-editors.md#basic-editor) by clicking the settings icon ![](../icons/sliders-h.svg) on the right side of your map, and selecting **Customize defaults**.
 
-<figure><img src="../.gitbook/assets/Customize defaults (1).png" alt=""><figcaption><p>Customize defaults</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Customize defaults.png" alt=""><figcaption><p>Customize defaults</p></figcaption></figure>
 
 The tool has up to six sections, depending on the [template](templates.md) and [layout](layouts.md) you're using: Template settings, Element defaults, Connection defaults, Font defaults, Layout settings, and General settings.
 
