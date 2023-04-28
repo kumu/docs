@@ -33,6 +33,7 @@ redirects:
   guides/index: /guides/guides.md
   guides/issues: /guides/discussions.md
   guides/layout: /guides/layouts.md
+  guides/multi-factor-authentication: /guides/two-factor-authentication.md
   guides/organizations: /guides/pro-workspaces.md
   guides/perspectives-advanced: /guides/views-advanced.md
   guides/perspectives: /guides/views.md
