@@ -86,7 +86,3 @@ When you sign up for a Pro workspace, you can tweak Kumu's branding to be more a
 * Upload a logo to use as a watermark on [embedded maps](share-and-embed.md)
 
 To manage your branding settings, go to your [Pro workspace's dashboard](../overview/dashboard.md#pro-workspace-dashboard) and scroll down to the **Branding** section.
-
-## Tracking
-
-Pro workspaces can use Google Analytics tracking to see how many people are visiting their maps, what items those people are clicking on, and when all that activity is happening. To learn how to set up tracking for your Pro workspace, check out our [full guide on tracking](tracking.md).

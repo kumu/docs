@@ -100,7 +100,6 @@
 * [Table](guides/table.md)
 * [Templates](guides/templates.md)
   * [Geo template](guides/templates/geo.md)
-* [Tracking](guides/tracking.md)
 * [URLs](guides/urls.md)
 * [Views](guides/views.md)
   * [Color reference](guides/color-reference.md)
