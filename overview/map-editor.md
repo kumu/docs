@@ -10,6 +10,13 @@ In the upper left of your map editor, you can find the **top toolbar**. First, y
 
 The first dropdown menu allows you to create new maps and navigate to different maps within your [project](kumus-architecture.md#projects). The second dropdown menu allows you to create new [views](kumus-architecture.md#views) and apply different views to the current map.
 
+## Create, rename, duplicate or delete a map
+
+* To create a new map: click on the first dropdown next to the project title in the top-left corner of your screen, and choose **+ NEW MAP.**&#x20;
+* To rename a map: click on the first dropdown next to the project title in the top-left corner of your screen, hover over a map, and choose the edit pencil. Alternatively, right-click on any blank space in your map, click on Map, choose Rename Map.&#x20;
+* To duplicate a map: right-click on any blank space in your map, click on Map, choose Duplicate Map. **NOTE:** making changes to a duplicate map _may_ affect your original map. Read more about that in [this guide](kumus-architecture.md#projects).&#x20;
+* To delete a map, click on the first dropdown next to the project title in the top-left corner of your screen, hover over a map, and choose the trash icon. Alternatively, right-click on any blank space in your map, click on Map, choose Delete Map.&#x20;
+
 ## Bottom toolbar
 
 In the bottom right corner of your map editor, you'll see a toolbar with several icons that let you take useful actions within your project.

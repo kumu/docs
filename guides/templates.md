@@ -4,6 +4,13 @@ When creating a new map, you have the option of picking one of our templates.
 
 Templates provide an easy way to have a great looking map right from the start. Simply choose the template that best fits your use case and we'll add the proper decorations, adjust default settings, and even bootstrap the project with relevant fields.
 
+{% hint style="info" %}
+**Note:**&#x20;
+
+* You can [change a map's template](templates.md#switching-templates) at any point, so you're never stuck with your first choice!&#x20;
+* You can use different templates for [each map within the same project](../overview/map-editor.md). This is useful when you'd like to visualize your data in multiple ways.
+{% endhint %}
+
 **Jump to:**
 
 * [Systems template](templates.md#system-template)

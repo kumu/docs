@@ -1,5 +1,16 @@
 # View editors
 
+Kumu allows you to create multiple different views to visualize your data in multiple different ways.&#x20;
+
+## Create, rename, duplicate or delete a view
+
+* To create a new view: click on the first dropdown next to the project title in the top-left corner of your screen, and choose **+ NEW VIEW.**&#x20;
+* To rename a view: click on the first dropdown next to the project title in the top-left corner of your screen, hover over a view, and choose the edit pencil. Alternatively, right-click on any blank space in your map, click on View, choose Rename  View.&#x20;
+* To duplicate a view: right-click on any blank space in your map, click on View, choose Duplicate View. **NOTE:** making changes to a duplicate view _may_ affect your original view. Read more about that in [this guide](kumus-architecture.md#projects).&#x20;
+* To delete a view, click on the first dropdown next to the project title in the top-left corner of your screen, hover over a view, and choose the trash icon. Alternatively, right-click on any blank space in your map, click on View, choose Delete View.&#x20;
+
+## Visualizing your data with views
+
 You can edit [views](kumus-architecture.md#views) with two different editors: the Basic Editor and the Advanced Editor.
 
 The Basic Editor allows you to click through different menus to access many of Kumu's powerful features—decorations, filtering, clustering, layouts, and more. The Advanced Editor allows you to write code in Kumu's CSS-inspired coding language to access all of the same features.
