@@ -61,7 +61,7 @@ And here's a sample connection import spreadsheet:
 | Ed Snowden | NSA      | Contractor | It's complicated |
 
 {% hint style="success" %}
-Get your hands dirty! [Click here to download a sample import file](../../content/paypal-mafia.xlsx) for the [PayPal Mafia map](https://kumu.io/jeff/paypal-mafia). You can examine this file to see how imports work with real data before creating your import file.
+Get your hands dirty! [Click here for a sample import file](https://docs.google.com/spreadsheets/d/1f0OesdZ32eqKWG77v3fsL7htW5TxeBSX/edit?usp=sharing\&ouid=107261106798466659559\&rtpof=true\&sd=true) for the [PayPal Mafia map](https://kumu.io/jeff/paypal-mafia). You can examine this file to see how imports work with real data before creating your import file. If you're importing it into Kumu, make sure to [ignore](import.md#ignore-unneeded-sheets) the first tab!
 {% endhint %}
 
 {% hint style="info" %}
