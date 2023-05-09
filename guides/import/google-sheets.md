@@ -16,7 +16,7 @@ There are two versions of the Google Sheets integration, private and public:
 5. Paste the shareable link in the correct box below the text "Link map to public / private Google Sheet"
 6. Click “Import spreadsheet”&#x20;
 7. Wait for Kumu to review your data, and then click Save Import
-8. Voilá, your data will appear!
+8. Voilà, your data will appear!
 
 {% hint style="info" %}
 Seeing errors during your Google Sheets import? Visit the [common pitfalls](./#common-pitfalls) guide to help troubleshoot.&#x20;
