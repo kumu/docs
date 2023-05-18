@@ -3,7 +3,7 @@
 Kumu's import feature makes it possible to map your existing data, without recreating every bit of it by hand.&#x20;
 
 {% hint style="warning" %}
-Before you import your data, make sure to [structure it for Kumu to understand](import.md). Finding&#x20;
+Before you import your data, make sure to [structure it for Kumu to understand](import.md).
 {% endhint %}
 
 Kumu offers three different options for importing data:&#x20;
