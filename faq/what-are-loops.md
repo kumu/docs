@@ -66,7 +66,7 @@ To detect loops, follow these steps:
 
 {% embed url="https://www.youtube.com/embed/-jiUmyiPhLk" %}
 
-\*\*Some things to know: \*\*
+**Some things to know:**
 
 * Loops are ranked from shortest (least amount of elements) to longest (most elements).
 * You can hover over any loop name to showcase it on the map and see which elements/connections are a part of it.
