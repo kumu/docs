@@ -22,6 +22,10 @@ There are two versions of the Google Sheets integration, private and public:
 Seeing errors during your Google Sheets import? Visit the [common pitfalls](./#common-pitfalls) guide to help troubleshoot.&#x20;
 {% endhint %}
 
+{% hint style="success" %}
+Get your hands dirty! Find some example data sets, and their accompanying maps, in our [public data samples folder](https://drive.google.com/drive/folders/1\_xoIFJ2snCcxta1Fw8AwrxWCe5YlKXCW?usp=sharing).
+{% endhint %}
+
 ## Caveats for the Google Sheets integration
 
 Unlike file-based imports, the Google Sheets integration is an ongoing import. The elements and connections will be fetched from the spreadsheet on the fly each time you refresh the page. None of the data will be saved to your project or Kumu's servers.

@@ -3,7 +3,7 @@
 Kumu's import feature makes it possible to map your existing data, without recreating every bit of it by hand.&#x20;
 
 {% hint style="warning" %}
-Before you import your data, make sure to [structure it for Kumu to understand](import.md).&#x20;
+Before you import your data, make sure to [structure it for Kumu to understand](import.md). Finding&#x20;
 {% endhint %}
 
 Kumu offers three different options for importing data:&#x20;
@@ -23,7 +23,7 @@ An Excel sheet or a Comma Separated Value (CSV) file is one of the most common w
 * Re-imports into Kumu increase the chances of duplicating data. Read how to prevent this in [this guide](../../faq/how-do-I-avoid-duplicating-data.md)
 * As soon as you make changes to your data directly in Kumu, your Excel sheet will be outdated. (Luckily, you can always [export your Kumu map](../export.md) into an Excel sheet to get the most updated version again)
 
-[Visit our guide to import data with Excel/CSV here](excel-csv.md).&#x20;
+[Visit our guide to import data with Excel/CSV here](excel-csv.md)
 
 ## **Google Sheets**
 
@@ -41,7 +41,7 @@ Google Sheets provides online spreadsheets that can be edited by multiple people
 * Data in Kumu is read-only. Any changes to underlying data must be made in the Google Sheet.&#x20;
 * Some Kumu features (such as [pinning elements in place](../../faq/how-do-keep-elements-from-moving.md), [popovers](../popovers.md), and [direct decorations](../direct-decorations.md)) don’t work for maps connected to a Google Sheet
 
-[Visit our guide to import data with Google Sheets here.](google-sheets.md)
+[Visit our guide to import data with Google Sheets here](google-sheets.md)
 
 ## **JSON / Blueprints**
 
@@ -57,4 +57,8 @@ You can create our JSON imports—we call them **blueprints**—in any language 
 * Not easy for bulk-editing data
 * Requires knowledge of JSON-structured data or a willingness to learn
 
-[Visit our guide to import data with JSON here.](blueprints.md)
+[Visit our guide to import data with JSON here](blueprints.md)
+
+{% hint style="success" %}
+Want to dive right in? [Find some example data sets here](https://drive.google.com/drive/folders/1\_xoIFJ2snCcxta1Fw8AwrxWCe5YlKXCW?usp=sharing).
+{% endhint %}

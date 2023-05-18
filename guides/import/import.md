@@ -1,5 +1,7 @@
 # Structure your data for Kumu
 
+This guide explains how to structure your data in Excel or Google Sheets. Finding it challenging to start from scratch? Do it the other way around! Manually create a few elements, connections, and some profile fields in Kumu, and click the [export](../export.md) icon in the bottom-right corner of your project.&#x20;
+
 **Skip to section:**&#x20;
 
 * [Common Import Pitfalls](import.md#common-pitfalls)
@@ -61,7 +63,7 @@ And here's a sample connection import spreadsheet:
 | Ed Snowden | NSA      | Contractor | It's complicated |
 
 {% hint style="success" %}
-Get your hands dirty! [Click here for a sample import file](https://docs.google.com/spreadsheets/d/1f0OesdZ32eqKWG77v3fsL7htW5TxeBSX/edit?usp=sharing\&ouid=107261106798466659559\&rtpof=true\&sd=true) for the [PayPal Mafia map](https://kumu.io/jeff/paypal-mafia). You can examine this file to see how imports work with real data before creating your import file. If you're importing it into Kumu, make sure to [ignore](import.md#ignore-unneeded-sheets) the first tab!
+Get your hands dirty! [Click here for a sample import file](https://docs.google.com/spreadsheets/d/1f0OesdZ32eqKWG77v3fsL7htW5TxeBSX/edit?usp=sharing\&ouid=107261106798466659559\&rtpof=true\&sd=true) for the [PayPal Mafia map](https://kumu.io/jeff/paypal-mafia), or find our [folder of public data samples here](https://drive.google.com/drive/folders/1\_xoIFJ2snCcxta1Fw8AwrxWCe5YlKXCW?usp=sharing). You can examine these files to see how imports work with real data before creating your own import file.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
