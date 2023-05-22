@@ -10,7 +10,9 @@ When you're editing the map, the [direct decorations toolbar](direct-decorations
 
 However, anyone who has view-only access to the map or is viewing a [presentation](presentations.md) or a [shared/embedded map](share-and-embed.md) will still see your popovers (the direct decorations toolbar is hidden for them, since they can't make edits to your map).
 
-If you're building popovers and just want to see how they look before you publish, you can either follow the instructions in the [direct decorations guide](direct-decorations.md) to turn off the direct decorations toolbar, or simply click the ellipsis icon in the bottom right corner and select "Switch to preview mode".
+{% hint style="info" %}
+If you're building popovers and want to see how they look before you publish, you can either follow the instructions in the [direct decorations guide](direct-decorations.md) to turn off the direct decorations toolbar, or simply click the ellipsis icon in the bottom right corner and select "Switch to preview mode".
+{% endhint %}
 
 ## Basic popover syntax
 
