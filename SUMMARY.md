@@ -130,6 +130,7 @@
 
 ## Frequently Asked Questions
 
+* [Does Kumu have a public API?](frequently-asked-questions/does-kumu-have-a-public-api.md)
 * [How do I add annotations?](faq/how-do-i-add-annotations.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
 * [How do I add documents to profiles?](faq/how-do-i-add-documents-to-profiles.md)
