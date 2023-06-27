@@ -9,6 +9,12 @@ If you're new to Kumu, try working through the Getting Started section.
 * [Five-minute quickstart](./#five-minute-quickstart)
 * [Building your first map](getting-started/first-steps.md)
 
+{% hint style="info" %}
+Need some inspiration? [Find some Kumu Projects in the Wild here.](https://kumu.io/kumu/kumu-projects-in-the-wild#kumus-projects-in-the-wild)&#x20;
+
+Want to add your Kumu project to this map? [Submit it here.](https://form.typeform.com/to/aUUuSLnj)&#x20;
+{% endhint %}
+
 ### I'm ready to dive deeper
 
 Once you've gotten the hang of Kumu, explore the Guides section.
@@ -35,4 +41,4 @@ If you run into any challenges, send us an email at [support@kumu.io](mailto:sup
 
 [Ready to dive in? Read the First Steps guide](getting-started/first-steps.md)
 
-These docs are a work in progress and will be continuously updated.&#x20;
+_These docs are a work in progress and will be continuously updated._&#x20;

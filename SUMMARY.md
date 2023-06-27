@@ -184,3 +184,4 @@
 * [My PDF won't export. What can I do?](faq/my-PDF-wont-export.md)
 * [What pricing plans does Kumu have?](faq/what-pricing-plans-does-Kumu-have.md)
 * [Where can I find my invoices?](faq/where-can-i-find-invoices.md)
+* [Where can I find example Kumu projects?](frequently-asked-questions/where-can-i-find-example-kumu-projects.md)
