@@ -178,7 +178,7 @@ If you are using Markdown in the Description column of an [import](import/), you
 | Blue  | White  | Gray  |
 | Green | Yellow | Red   |
 
-\`\`\` ======= | One | Two | Three | | ----- | ------ | ----- | | Blue | White | Gray | | Green | Yellow | Red | >>>>>>> 7a77431 (GitBook: \[#18] fixes some busted content in markdown docs)
+\`\`\` ======= | One | Two | Three | | ----- | ------ | ----- | | Blue | White | Gray | | Green | Yellow | Red |
 
 ### Horizontal Rules
 
@@ -188,12 +188,8 @@ Three or more dashes or asterisks
 ***
 ```
 
-Looks like:
-
-### <<<<<<< HEAD
-
 \
-\======= \ >>>>>>> 7a77431 (GitBook: \[#18] fixes some busted content in markdown docs) Now you know the basics of formatting with markdown! For more information, visit \[Daring Fireball's markdown syntax documentation]\(http://daringfireball.net/projects/markdown/syntax#precode).
+Now you know the basics of formatting with markdown! For more information, visit [Daring Fireball's markdown syntax documentation](http://daringfireball.net/projects/markdown/syntax#precode).
 
 ### Inline HTML
 
