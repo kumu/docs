@@ -119,6 +119,10 @@ Looks like:
 
 **Heading 6**
 
+{% hint style="info" %}
+Learn how to create anchors that skip to certain sections of your map description [with this guide](../frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md).&#x20;
+{% endhint %}
+
 ### Code
 
 Simply indent lines with four spaces or wrap the code with three backticks:
@@ -193,7 +197,13 @@ Looks like:
 
 ### Inline HTML
 
-Kumu's markdown editor also recognizes a limited amount of inline HTML. Here are the tags you can use in Kumu, anywhere that accepts markdown:
+Kumu's markdown editor also recognizes a limited amount of inline HTML.&#x20;
+
+{% hint style="info" %}
+Learn how to create anchors that skip to certain sections of your map description [with this guide](../frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md).&#x20;
+{% endhint %}
+
+Here are the tags you can use in Kumu, anywhere that accepts markdown:
 
 ```md
 <a>

@@ -132,6 +132,7 @@
 
 * [Does Kumu have a public API?](frequently-asked-questions/does-kumu-have-a-public-api.md)
 * [How do I add annotations?](faq/how-do-i-add-annotations.md)
+* [How do I add anchors to my map description?](frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
 * [How do I add documents to profiles?](faq/how-do-i-add-documents-to-profiles.md)
 * [How do I add more than one element with the same label?](faq/how-do-i-add-more-than-one-element-with-the-same-label.md)

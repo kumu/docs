@@ -10,7 +10,7 @@ If you're new to Kumu, try working through the Getting Started section.
 * [Building your first map](getting-started/first-steps.md)
 
 {% hint style="info" %}
-Need some inspiration? [Find some Kumu Projects in the Wild here.](https://kumu.io/kumu/kumu-projects-in-the-wild#kumus-projects-in-the-wild)&#x20;
+Need some inspiration? [Find some Kumu Projects in the Wild here.](https://kumu.io/kumu/projects-in-the-wild#projects-in-the-wild)&#x20;
 
 Want to add your Kumu project to this map? [Submit it here.](https://form.typeform.com/to/aUUuSLnj)&#x20;
 {% endhint %}

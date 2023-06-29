@@ -62,7 +62,7 @@ You can create our JSON imports—we call them **blueprints**—in any language 
 {% hint style="success" %}
 Want to dive right in? [Find some example data sets here](https://drive.google.com/drive/folders/1\_xoIFJ2snCcxta1Fw8AwrxWCe5YlKXCW?usp=sharing).
 
-Need some inspiration? [Find some Kumu Projects in the Wild here.](https://kumu.io/kumu/kumu-projects-in-the-wild#kumus-projects-in-the-wild)&#x20;
+Need some inspiration? [Find some Kumu Projects in the Wild here.](https://kumu.io/kumu/projects-in-the-wild#projects-in-the-wild)&#x20;
 
 Want to add your Kumu project to this map? [Submit it here.](https://form.typeform.com/to/aUUuSLnj)&#x20;
 {% endhint %}
