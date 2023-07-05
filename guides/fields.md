@@ -24,7 +24,7 @@ The description field is designed to hold longer-form content that describes an 
 
 #### Tags
 
-The tags field is designed to hold multiple values that each describe your item in a different way. For example, a connection between a person and a non-profit might have "Strong relationship", "Board Member", "Donor", and "Advocate" all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.
+The tags field is designed to hold multiple values that each describe your item in a different way. This field is usually used when an element can belong to _one or more_ categories. For example, a connection between a person and a non-profit might have the following tags: "Strong relationship", "Board Member", "Donor", and "Advocate", all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.
 
 In the profile, tags appear under the description, and hovering your cursor over a tag will [showcase](showcase.md) other items with that same tag.
 
