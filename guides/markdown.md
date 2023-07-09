@@ -10,19 +10,27 @@ Markdown is an easy and powerful way to format your descriptions and long text f
 *italic* and **bold**
 ```
 
-_italic_ and **bold**
+\-> Creates _italic_ and **bold**
 
 ```md
 An inline link: [Kumu](http://launch.kumupowered.com)
 ```
 
-An inline link: [Kumu](http://launch.kumupowered.com)
+\-> Creates an inline link: [Kumu](http://launch.kumupowered.com)
+
+{% hint style="info" %}
+Note that inline links always open the website in the same tab and direct your viewer away from your Kumu map. If you wish to open the link in a separate tab, you can use the following HTML syntax:&#x20;
+
+`<a href="https://kumu.io" target="_blank">Kumu website</a>`
+
+Replace the URL with your own and swap the word "Kumu website" for any word(s) you'd like your viewers to click. Make sure that target= stays the same.&#x20;
+{% endhint %}
 
 ```md
 An auto-generated link: http://kumu.io
 ```
 
-An auto-generated link: [https://kumu.io](https://kumu.io)
+\-> Creates an auto-generated link: [https://kumu.io](https://kumu.io)
 
 ### Lists
 
