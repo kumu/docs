@@ -1,10 +1,10 @@
-# Label
+# Label control
 
-**Use**
+**When do you use it?**
 
 Add small bold text to your map.
 
-**Example**
+## **Advanced Editor**
 
 ```scss
 @controls {
@@ -20,4 +20,4 @@ Add small bold text to your map.
 
 * `value` is any plain text string.
 
-[Check out our controls reference](/guides/controls/controls-reference.md) to see the full list of properties and values recognized by the label control.
+[Check out our controls reference](controls-reference.md) to see the full list of properties and values recognized by the label control.

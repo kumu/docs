@@ -1,10 +1,10 @@
 # Text Control
 
-**Use**
+**When do you use it?**
 
 Add custom text to your map.
 
-**Example**
+## **Advanced Editor**
 
 ```scss
 @controls {
@@ -21,4 +21,4 @@ Add custom text to your map.
 
 * `value` is any plain text string.
 
-[Check out our controls reference](/guides/controls/controls-reference.md) to see the full list of properties and values recognized by the text control.
+[Check out our controls reference](controls-reference.md) to see the full list of properties and values recognized by the text control.

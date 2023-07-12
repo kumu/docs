@@ -1,10 +1,20 @@
 # Cluster control
 
-**Use**
+**When do you use it?**
 
 Add a control to activate [clustering](../clustering.md) for a given field or set of selectors via a list of labels, buttons or a dropdown menu.
 
-**Example**
+## Basic Editor
+
+To create a cluster control, follow these steps:&#x20;
+
+1. Click the settings icon on the right ![](../../icons/sliders-h.svg) to open the editor, then click "Add custom control"**.**&#x20;
+2. In the menu that opens up, click on the first dropdown and change the value to "Cluster elements".
+3. Use the other dropdowns to customize the look and location of your controls.
+4. Click Save at the bottom to save your changes.
+5. To add multiple controls, repeat steps 1-4 for each control.
+
+## Advanced Editor
 
 Cluster by field:
 
@@ -51,17 +61,17 @@ Cluster using custom [selectors](../selectors.md#selectors):
 
 * `by` is the field you'd like to use for clustering wrapped in double quotes. If you don't include `by: field` you need to list out each option - see "supported children" guidance below.
 * `as` controls how the control is presented. Do you want a list of labels, buttons, or a dropdown for activating clustering?
- * `labels` show options as a list of clickable labels
- * `buttons` show options as a group of buttons
- * `dropdown` show options as dropdown
+* `labels` show options as a list of clickable labels
+* `buttons` show options as a group of buttons
+* `dropdown` show options as dropdown
 * `multiple` controls whether more than one value can be selected at a time
- * `true` allow multiple values to be selected
- * `false` only allow one value to be selected at a time
+* `true` allow multiple values to be selected
+* `false` only allow one value to be selected at a time
 * `placeholder` the text to display when nothing is selected (for `as: dropdown` only)
 * `summary` override the summary that's shown for the current selection (for `as: dropdown`). The summary will be shown regardless of what's selected so there's no need to use `placeholder` in this case.
 * `default` defines which field values should be selected by default (for `by: "field"` only). Use `select-all` to select everything by default.
 
-[Check out our controls reference](/guides/controls/controls-reference.md) to see the full list of properties and values recognized by the cluster control.
+[Check out our controls reference](controls-reference.md) to see the full list of properties and values recognized by the cluster control.
 
 **Supported children**
 

@@ -1,6 +1,6 @@
 # Showcase control
 
-**Use**
+**When do you use it?**
 
 Add a control to activate [showcase](../showcase.md) for a given field or set of selectors via a list of labels, buttons or a dropdown menu.
 
