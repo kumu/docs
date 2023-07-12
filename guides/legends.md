@@ -2,7 +2,20 @@
 
 Adding a legend to your map is an important step to make sure your readers can easily understand your decorations. There are a number of different ways to add and remove legend entries—this guide will explain all of them!
 
-Note that you can only create a legend through data-driven decorations. If you're using direct decorations (the toolbar) to color, then you won't have a legend.
+Note that you can only create a legend through [data-driven decorations](data-driven-decorations.md). If you're using [direct decorations](direct-decorations.md) (the toolbar) to color, then you won't have a legend.
+
+**Skip to section:**&#x20;
+
+* [Use the Color by tool to create a legend](legends.md#use-the-color-by-tool-to-create-a-legend)
+* [Use the decoration builder to add custom legend entries](legends.md#use-the-decoration-builders-to-add-legend-entries)
+* [Removing legend entries](legends.md#removing-legend-entries)
+* [Reordering legend entries](legends.md#reordering-legend-entries)
+* [Add legend entries through the Advanced Editor](legends.md#add-legend-entries-through-the-advanced-editor)
+  * [Change the legend title](legends.md#change-the-legend-title)
+  * [Hide the legend](legends.md#hide-the-legend)
+  * [Legend code reference](legends.md#hide-the-legend)
+
+***
 
 ## Add legend entries through the Basic Editor
 
