@@ -2,6 +2,20 @@
 
 Fields allow you to save additional data about the elements, connections and loops in your map. Create whatever fields you need and modify the settings to enable things like checklists, prompts, currencies, and much more.
 
+**Skip to section:**
+
+* [Add a custom field](fields.md#add-a-custom-field)
+* [Customize a field](fields.md#customize-a-field)
+  * &#x20;[Field type](fields.md#field-type)
+  * [Field prompt](fields.md#field-prompt)
+  * [Field category](fields.md#field-category)
+  * [Field relevance or privacy](fields.md#field-relevance-or-privacy)
+  * [Field ordering](fields.md#field-ordering)
+* [Deleting a field](fields.md#deleting-a-field)
+* [Deleting field values](fields.md#deleting-field-values)
+
+***
+
 ## Core fields
 
 Kumu comes with a set of core fields. Putting data in _all_ of these fields isn't necessary, but they get special visual treatment in [profiles](profiles.md) and have special functionality, so it's great to use them when you can!
@@ -105,8 +119,9 @@ We reserve a few category names that we give special treatment to:
 * **Footnotes** - This category is meant for things like attribution and citing your sources. Fields in this category will always be listed at the bottom of the profile.
 * **Metrics** - This category holds any of the data you create using Kumu's [Metrics](metrics.md) tool.
 
-## Field relevance or privacy
+### Field relevance or privacy
 
+**When do I see a field?**\
 By default, all fields are shown in the profiles of all elements, connections, and loops while you're editing the map. Even if a field has a blank value, it will still show up in the profile.
 
 But, in each profile, Kumu will automatically _hide_ all blank fields in the following cases:
@@ -115,19 +130,31 @@ But, in each profile, Kumu will automatically _hide_ all blank fields in the fol
 * When someone is viewing a [shared/embedded map](share-and-embed.md)
 * When someone is viewing the source project, but they don't have edit access
 
+**Hide fields across all profiles**\
 If you'd rather hide irrelevant fields while you're editing the map, you can use **field relevance** in your project settings. Click the menu in the top left of your map and then click "fields". Scroll down and you'll see a "relevance" section. To edit which fields should be included for each of the element, connection, and loop types in your project, click edit, uncheck the relevant fields, and click "Done" at the bottom of the field list.
 
 ![field relevance](../images/field-relevance.png)
 
 If you'd like to limit the fields that are shown, simply click edit and then uncheck the field you'd like to hide in the profile for a given type. Label, type, description, and tags are always shown for all types regardless of what you enter. Above is an example of customizing the profile of elements with type of "Company" to only show Image, Website, URL and Attribution.
 
+**Hide fields for viewers only**\
 You might also want to hide a field for anyone who is not a contributor. For example, this is handy when you're working with confidential information such as email addresses etc. In this case, you can make a field "private" and hide it from any one who is not a contributor.
 
 To do so, click on any custom field and then check the Privacy checkbox:
 
 ![field privacy](../images/field-privacy.png)
 
-## Field ordering
+**Hide fields in certain "entity" profiles only**\
+You can also indicate whether you'd like profile fields to show up in element, connection, or loop profiles (or all of them). The field (and any field values) will then be hidden in any profiles in which you don’t want it to show up, whether it contains any values or not.
+
+<figure><img src="../.gitbook/assets/Jul-05-2023 12-19-18.gif" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+* By default, a field is ‘relevant’ (shows up) in all profiles.
+* Default fields such as `element type`, `tags`, `description` etc. cannot use field relevance, as they must always be visible to editors in each profile.
+{% endhint %}
+
+### Field ordering
 
 You can also use the field relevance menu to change the order fields are listed in the profile. By default all fields are listed alphabetically (and optionally broken into sections if you've assigned categories). The order of fields is unique to each element or connection type.
 
