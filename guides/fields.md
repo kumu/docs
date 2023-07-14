@@ -172,6 +172,10 @@ When you are finished, click "Done" and you'll see the new order reflected in th
 
 If you've created a field and want to delete it and all corresponding values, click on the label of the field in any profile and then go to more -> delete. Alternatively, you can use the menu in the upper left corner to go to the field settings page (choose fields). This will delete the field and any values assigned for any content in your project.
 
+{% hint style="warning" %}
+Note: when [importing data from a Google Sheet](import/#google-sheets), you have to add/edit/delete your fields in the Google Sheet directly. You're not able to make these changes within Kumu.
+{% endhint %}
+
 ## Deleting field values
 
 Occasionally you may want to delete the prompted choices for a given field, or the options that show up in your legend or in a [control](controls.md). To do this, you need to delete the underlying field value. This process is different depending on the field's [prompt](fields.md#customize-a-field).
