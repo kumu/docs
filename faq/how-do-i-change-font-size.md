@@ -11,17 +11,23 @@ For a more flexible solution, you can use the [_Advanced Editor_](../overview/vi
 
 One way to do that is in the `@settings` block:
 
-````css
-@settings { font-size: 100;}
-```scss
+```
+@settings { 
+  font-size: 100;
+}
+
+
+```
 
 This gives you precise control over the font size—you can change the `100` to any positive number. However, this solution still applies your font size to everything on the map.
 
-If you want to change the font size for a specific group of elements and connections, you can use [_selectors_](../guides/selectors.md):
+If you want to change the font size for a specific group of elements and connections, you can use any [selectors](../guides/selectors.md):
 
-```css
-element { font-size: 75; }
-````
+```
+element { 
+  font-size: 75;
+}
+```
 
 The code snippet above will only change the font size for elements, but will leave connections and loops at the default font size.
 
