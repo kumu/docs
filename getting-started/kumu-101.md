@@ -1,20 +1,18 @@
 # Kumu 101
 
-Kumu can be used in many different ways, and for many different projects, but there's definitely a shared set of skills you need to know to get started with Kumu.
+Kumu can be used in many different ways and for many different types of projects, but there's definitely a shared set of skills you need to know to get started with Kumu.
 
 To make sure you have a solid foundation of knowledge to build on, you can use this list of questions to guide you through all of the core Kumu concepts:
 
-- What are the main use cases for Kumu?
-- What are the key difference between accounts and workspaces?
-- Once I have an account, how do I get started with my first project?
-- Where can I go to learn more about Kumu?
-- If I get stuck, where can I go for help?
+* [What are the main use cases for Kumu?](kumu-101.md#what-are-the-main-use-cases-for-kumu)
+* [What are the key difference between accounts and workspaces?](kumu-101.md#what-are-the-key-differences-between-accounts-and-workspaces)
+* [Once I have an account, how do I get started with my first project?](kumu-101.md#once-i-have-an-account-how-do-i-get-started-with-my-first-project)
+* [Where can I go to learn more about Kumu?](kumu-101.md#where-can-i-go-to-learn-more-about-kumu)
+* [If I get stuck, where can I go for help?](kumu-101.md#where-can-i-go-for-help-or-to-show-off-my-awesome-work)
 
 In the past, we've run live webinars to work through each of these questions. You can check out a live recording of a Kumu 101 webinar below, or, if you would rather get the answers in writing, keep reading!
 
-
 {% embed url="https://www.youtube.com/embed/icDP7ohfABQ" %}
-
 
 ## What are the main use cases for Kumu?
 
@@ -26,7 +24,6 @@ But compelling maps aren’t just shapes and lines—a great map takes multiple 
 
 So—whether you’re mapping systems, networks, causal loops, or stakeholders—as long as you’re goal is to make sense of complexity, Kumu would love to help!
 
-
 ## What are the key differences between accounts and workspaces?
 
 Each person who wants to edit any Kumu projects needs an account. An account is free to create, and it allows you to log into Kumu and access all of your projects, and projects that you’ve been given access to.
@@ -35,19 +32,13 @@ With your account, you also get a **Basic workspace**. In Kumu, workspaces are l
 
 If you have projects that multiple people need to collaborate on, you can create a **Pro workspace** (or upgrade your initial Basic workspace to Pro), and invite your collaborators to join the workspace.
 
-For more info on the differences between accounts and workspaces, be sure to check out our [pricing page](https://kumu.io/pricing) and [our full guide on workspaces](/overview/accounts-and-workspaces.md).
+For more info on the differences between accounts and workspaces, be sure to check out our [pricing page](https://kumu.io/pricing) and [our full guide on workspaces](../overview/accounts-and-workspaces.md).
 
-<div class="alert alert-warning">
-  <p>
-    In the Kumu 101 recording, you'll hear me refer to "personal accounts" and "organizations". We renamed "organizations" to "workspaces", but their features and functionality did not change.
-  </p>
-</div>
-
+In the Kumu 101 recording, you'll hear me refer to "personal accounts" and "organizations". We renamed "organizations" to "workspaces", but their features and functionality did not change.
 
 ## Once I have an account, how do I get started with my first project?
 
-Awesome, you’ve signed up for an account! From there, I recommend working through our [First Steps](/getting-started/first-steps.md) guide, which goes through everything you need to know to hit the ground running.
-
+Awesome, you’ve signed up for an account! From there, I recommend working through our [First Steps](first-steps.md) guide, which goes through everything you need to know to hit the ground running.
 
 ## Where can I go to learn more about Kumu?
 
@@ -55,12 +46,8 @@ To help you learn more about Kumu, we've put together some great resources. Firs
 
 You can also subscribe to [our blog, In Too Deep](https://blog.kumu.io/) and check out the [In Too Deep podcast](https://intoodeep.buzzsprout.com/). In those two spaces, we talk and write not only about Kumu and its features, but also about systems thinking, network science, other products we build at Kumu, and the big ideas that inspire us.
 
-
 ## Where can I go for help (or to show off my awesome work)?
 
 If you get stuck and need advice, feel free to email us at [support@kumu.io](mailto:support@kumu.io), or post in our public Slack workspace at [chat.kumu.io](https://chat.kumu.io).
 
 And if you have awesome work to share, we’d love to see it in either of those channels!
-
-
-

@@ -4,10 +4,10 @@ Looking to learn how to use Kumu? You're in the right place. We've broken up the
 
 ### I'm just getting started
 
-If you're new to Kumu, try working through the Getting Started section.
+If you're new to Kumu, try working through the Getting Started section:
 
 * [Five-minute quickstart](./#five-minute-quickstart)
-* [Building your first map](getting-started/first-steps.md)
+* [Building your first map](getting-started/first-steps.md#build-your-first-map)
 
 {% hint style="info" %}
 Need some inspiration? [Find some Kumu Projects in the Wild here.](https://kumu.io/kumu/projects-in-the-wild#projects-in-the-wild)&#x20;
@@ -17,7 +17,7 @@ Want to add your Kumu project to this map? [Submit it here.](https://form.typefo
 
 ### I'm ready to dive deeper
 
-Once you've gotten the hang of Kumu, explore the Guides section.
+Once you've gotten the hang of Kumu, explore the Guides section:
 
 * [Decorate](guides/decorate.md)
 * [Filter](guides/filter.md)
@@ -25,7 +25,7 @@ Once you've gotten the hang of Kumu, explore the Guides section.
 
 ### I think I'm missing something...
 
-Feeling a bit lost in the Guides section? No worries! Try getting some more background information on Kumu from the Overview section.
+Feeling a bit lost in the Guides section? No worries! Try getting some more background information on Kumu from the Overview section:
 
 * [Types of accounts](overview/accounts-and-workspaces.md)
 * [Kumu's architecture](overview/kumus-architecture.md)
@@ -35,10 +35,10 @@ Feeling a bit lost in the Guides section? No worries! Try getting some more back
 
 {% embed url="https://player.vimeo.com/video/217904181" %}
 
+[Ready to dive in? Read the First Steps guide](getting-started/first-steps.md)
+
 ## Want to talk to a human?
 
 If you run into any challenges, send us an email at [support@kumu.io](mailto:support@kumu.io) or join our [Slack group](http://chat.kumu.io) for even faster support.
-
-[Ready to dive in? Read the First Steps guide](getting-started/first-steps.md)
 
 _These docs are a work in progress and will be continuously updated._&#x20;

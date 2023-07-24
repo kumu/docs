@@ -55,8 +55,8 @@ In this guide, we'll cover how to build your map by hand. If you'd rather import
 
 Building your map by hand is a good choice for system maps or smaller network maps. If your map will have less than 50 elements, you can probably build it comfortably by hand. There are two ways to build a map by hand.
 
-1. The green ![](../icons/plus-circle.svg) button
-2. Sketch mode
+1. [The green ![](../icons/plus-circle.svg) button](first-steps.md#the-green-button)
+2. [Sketch mode](first-steps.md#sketch-mode)
 
 #### The green button
 
@@ -78,7 +78,7 @@ Tip: Speed up this process by using keyboard shortcuts! Press `E` to add an elem
 
 #### Sketch mode
 
-If you're building your map by hand, you should definitely give sketch mode a try! Click the green button and select **Sketch** to activated sketch mode.
+If you're building your map by hand, you should definitely give sketch mode a try! Click the green button and select **Sketch** to activate sketch mode.
 
 Once sketch mode is activated, you can add an element by clicking anywhere on the map, and you can add a connection by clicking and dragging from an existing element.
 

@@ -10,7 +10,7 @@ When you're using Kumu, every action you take falls into one of the following ca
 * [Forking](../guides/forking.md) a project
 * [Administrating a project](../guides/project-admin.md) (changing project privacy, renaming a project, transferring project ownership to another workspace, or deleting a project)
 * [Granting project access](collaboration.md#add-a-contributor) to other Kumu users
-* [Commenting on a project](broken-reference) (only available for [Pro workspaces](../guides/pro-workspaces.md))
+* [Commenting on a project](../guides/discussions.md) (only available for [Pro workspaces](../guides/pro-workspaces.md))
 * Adding members to a Pro workspace
 * Creating teams in a Pro workspace
 

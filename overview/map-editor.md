@@ -23,7 +23,7 @@ In the bottom right corner of your map editor, you'll see a toolbar with several
 
 * ![](../icons/magic.svg) The magic wand brings up a [quick actions](../guides/quick-actions.md) menu that allows you to search for tools, actions, and how-to videos
 * ![](../icons/flask.svg) The flask gives you access to [social network analysis metrics](../guides/metrics.md) and [community detection](../guides/metrics.md#community-detection)
-* ![](../icons/comment.svg) The chat bubble opens up [Discussions](broken-reference), where you can chat with your team and attach comments to the map
+* ![](../icons/comment.svg) The chat bubble opens up [Discussions](../guides/discussions.md), where you can chat with your team and attach comments to the map
 * ![](../icons/table.svg) The table brings up Kumu's [Table](../guides/table.md) tool
 * ![](../icons/download.svg) The download icon exposes several [export](../guides/export.md) options
 * ![](../icons/share.svg) The share icon will help you [share or embed](../guides/share-and-embed.md) your project
@@ -43,7 +43,7 @@ When you select an individual element, connection, or loop on the map, the side 
 
 Inside the profile, you can add and edit information about the selected item. You can also use the icons in the bottom right of the profile to:
 
-* ![](../icons/comments.svg) [Attach a comment](broken-reference) to your selected item
+* ![](../icons/comments.svg) Attach a comment to your selected item
 * ![](../icons/thumbtack.svg) Pin an element in a [fixed position](../guides/layouts/fixed.md)
 * ![](../icons/exchange-alt.svg) Change [connection direction](../faq/how-do-I-add-arrows-to-my-connections.md)
 * ![](../icons/hourglass-half.svg) Add [delay markings](../guides/system-mapping.md#add-delay-markings)

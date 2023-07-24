@@ -10,7 +10,7 @@ The main section of your dashboard lists all the [projects](kumus-architecture.m
 
 If you're looking for a specific project or group of projects, use the dropdown menus above your project list to filter and sort. Or, if you don't have any projects yet, click the **New Project** button to get started!
 
-You'll notice that, above the project list and dropdown menus, there are two tabs: **Projects** and **Workspaces**. Click the Workspaces tab to see a list of which [workspaces](../guides/account-and-workspaces.md) you belong to, or create a new workspace.
+You'll notice that, above the project list and dropdown menus, there are two tabs: **Projects** and **Workspaces**. Click the Workspaces tab to see a list of which [workspaces](accounts-and-workspaces.md) you belong to, or create a new workspace.
 
 ![workspaces tab](../images/dashboard-workspaces-list.png)
 
