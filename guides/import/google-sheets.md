@@ -7,6 +7,10 @@ There are two versions of the Google Sheets integration, private and public:
 * **Private** is more secure and uses oAuth to authorize Kumu to access the sheet. It means that your Google Sheet is private to you and anyone you explicitly give permission to view and/or edit your file.
 * The **Public** integration requires you to make your data publicly viewable on the internet. Anyone with the link to your Google Sheet will be able to view and/or edit and/or comment your data
 
+{% hint style="info" %}
+Pssst! We wrote ["The Ultimate Guide to using Google Sheets with Kumu"](https://blog.kumu.io/the-ultimate-guide-to-using-google-sheets-with-kumu-d46e96fd47a8) to help you unlock all of the Google Sheets superpowers. Have a look if you're interested in external integrations, crowdsourcing, visualizing surveys etc!&#x20;
+{% endhint %}
+
 ## Connect your Google Sheet to Kumu
 
 1. Create a spreadsheet with Google Sheets
