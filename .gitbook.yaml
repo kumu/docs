@@ -184,6 +184,7 @@ redirects:
   guides/metrics.html: guides/metrics.md
   guides/multi-factor-authentication.html: guides/multi-factor-authentication.md
   guides/partial-views.html: guides/partial-views.md
+  guides/perspectives-advanced.html: overview/advanced-editor-hub.md
   guides/popovers.html: guides/popovers.md
   guides/presentations.html: guides/presentations.md
   guides/pro-workspaces.html: guides/pro-workspaces.md
@@ -229,3 +230,4 @@ redirects:
   overview/settings.html: overview/settings.md
   overview/user-interfaces.html: overview/user-interfaces.md
   overview/view-editors.html: overview/view-editors.md
+  
