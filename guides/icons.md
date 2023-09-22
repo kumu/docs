@@ -1,6 +1,6 @@
 # Icons
 
-Using the Advanced Editor, you can easily bring in any [Font Awesome icon](https://fontawesome.com/icons) to decorate your elements.
+Using the Advanced Editor, you can easily bring in any [Font Awesome icon](https://fontawesome.com/v4/icons/) to decorate your elements.
 
 ![elements with icons to show element type](../images/icons.png)
 
@@ -22,10 +22,6 @@ organization {
   color: transparent;
 }
 ```
-
-{% hint style="info" %}
-**Note:** are your icons not showing up on the map? Unfortunately not _all_ icons from the icon database work in Kumu. If the icon you want is not showing up, but another one is, then you can safely assume that the specific icon is not available for your Kumu map, sorry!
-{% endhint %}
 
 In the value for the `icon` property, you can also specify `solid` or `regular` to change the icon style:
 
