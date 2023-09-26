@@ -7,6 +7,8 @@ Grids & guides are a great tool when you need to add some structure or context t
 * [Radars](underlays.md#add-a-radar)
 * [Background images](underlays.md#add-a-background-image)
 
+_This video below explains how to create Grids & Guides in the advanced editor. Want to know how to use them in the Basic Editor? Please jump to the sections listed above._&#x20;
+
 {% embed url="https://www.youtube.com/embed/2dmzQ-2rIrQ" %}
 
 ## Add a grid
