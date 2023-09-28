@@ -8,7 +8,7 @@ Whether you want to import an entirely new dataset or just clear out some old el
 
 {% embed url="https://www.youtube.com/embed/2fHS2DzPDMU" %}
 
-Here's basic step-by-step:
+**Here's basic step-by-step:**
 
 1. Open your project and select the data that you want to delete (Tip: to select all data, press `A` on your keyboard)
 2. Press `delete` or `backspace` on your keyboard
