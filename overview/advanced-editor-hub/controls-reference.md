@@ -1,6 +1,6 @@
-# Controls reference
+# @controls reference
 
-While it's possible to [build controls using the Basic Editor](../controls.md#add-controls-through-the-basic-editor), using the [Advanced Editor](../../overview/view-editors.md#advanced-editor) is the only way to unlock the full flexibility of controls. This guide lists each `property` that can be used in the Advanced Editor, each possible `value` the properties can accept, and which `@controls` can recognize the properties and values.
+While it's possible to [build controls using the Basic Editor](../../guides/controls.md#add-controls-through-the-basic-editor), using the [Advanced Editor](../view-editors.md#advanced-editor) is the only way to unlock the full flexibility of controls. This guide lists each `property` that can be used in the Advanced Editor, each possible `value` the properties can accept, and which `@controls` can recognize the properties and values.
 
 There are two reference tables in this guide—the first lists properties for **static** controls (nothing happens when map readers click on these controls), and the second lists properties for **interactive** controls (map readers can interact with the map by clicking on these controls).
 

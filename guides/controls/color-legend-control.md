@@ -46,7 +46,7 @@ Automatically build the `color-legend` from the `element-color` value in `@setti
 
 * `colors` defaults to `auto` and tries to build the list of colors and labels
 
-[Check out our controls reference](controls-reference.md) to see the full list of properties and values recognized by the color legend control.
+[Check out our controls reference](../../overview/advanced-editor-hub/controls-reference.md) to see the full list of properties and values recognized by the color legend control.
 
 The `color-legend` can be customized using nested `color` blocks which support the following properties:
 

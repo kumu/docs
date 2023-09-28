@@ -26,4 +26,4 @@ _Note: If you include timeline data using the tag field, this controls provides 
 * `multiple` by default the timeline allows you to select multiple years. Use `multiple: false` to only allow a single year to be selected instead.
 * `default` defines which values should be selected by default. Use `select-all` to select everything by default (or `show-all` for a similar effect without selecting).
 
-[Check out our controls reference](controls-reference.md) to see the full list of properties and values recognized by the tagged timeline control.
+[Check out our controls reference](../../overview/advanced-editor-hub/controls-reference.md) to see the full list of properties and values recognized by the tagged timeline control.

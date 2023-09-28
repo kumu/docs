@@ -70,7 +70,7 @@ Filter using custom [selectors](../selectors.md#selectors):
 * `except` allows you to remove field values from the available choices. Wrap the values you want to remove in quotes and separate multiple values by commas.
 * `only` is similar to except but allows you to explicitly define which field values should be included as available choices.
 
-[Check out our controls reference](controls-reference.md) to see the full list of properties and values recognized by the filter control.
+[Check out our controls reference](../../overview/advanced-editor-hub/controls-reference.md) to see the full list of properties and values recognized by the filter control.
 
 **Supported children**
 

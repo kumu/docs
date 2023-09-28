@@ -27,6 +27,7 @@
   * [Property reference](overview/advanced-editor-hub/property-reference.md)
   * [Selector reference](overview/advanced-editor-hub/selector-reference.md)
   * [@settings reference](overview/advanced-editor-hub/settings-reference.md)
+  * [@controls reference](overview/advanced-editor-hub/controls-reference.md)
 
 ## Guides
 
@@ -38,7 +39,6 @@
 * [Controls](guides/controls.md)
   * [Cluster control](guides/controls/cluster-control.md)
   * [Color-legend control](guides/controls/color-legend-control.md)
-  * [Controls reference](guides/controls/controls-reference.md)
   * [Filter control](guides/controls/filter-control.md)
   * [Focus control](guides/controls/focus-control.md)
   * [Image control](guides/controls/image-control.md)

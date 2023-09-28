@@ -32,7 +32,7 @@ We ordered and organized these links based on what we feel is the best path for 
 * [Focus](../../guides/focus.md#focus-in-the-advanced-editor)
 * [Cluster](../../guides/clustering.md#cluster-in-the-advanced-editor)
 * [Controls](../../guides/controls.md#add-controls-through-the-advanced-editor)
-  * [Controls reference](../../guides/controls/controls-reference.md)
+  * [Controls reference](controls-reference.md)
 
 ## Less commonly used features
 

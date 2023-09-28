@@ -20,4 +20,4 @@ Add a custom title to your map.
 
 * `value` is any plain text string.
 
-[Check out our controls reference](controls-reference.md) to see the full list of properties and values recognized by the title control.
+[Check out our controls reference](../../overview/advanced-editor-hub/controls-reference.md) to see the full list of properties and values recognized by the title control.

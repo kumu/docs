@@ -75,7 +75,7 @@ Showcase using custom [selectors](../selectors.md#selectors):
 * `summary` override the summary that's shown for the current selection (for `as: dropdown`). The summary will be shown regardless of what's selected so there's no need to use `placeholder` in this case.
 * `default` defines which field values should be selected by default (for `by: "field"` only). Use `select-all` to select everything by default.
 
-[Check out our controls reference](controls-reference.md) to see the full list of properties and values recognized by the showcase control.
+[Check out our controls reference](../../overview/advanced-editor-hub/controls-reference.md) to see the full list of properties and values recognized by the showcase control.
 
 **Supported children**
 

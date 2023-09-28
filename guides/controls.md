@@ -107,7 +107,7 @@ Controls are customized using **properties**, and each control understands a sli
 }
 ```
 
-For a full list of the properties that each control understands, read the individual control guides (linked above), or check out the [controls reference](controls/controls-reference.md).
+For a full list of the properties that each control understands, read the individual control guides (linked above), or check out the [controls reference](../overview/advanced-editor-hub/controls-reference.md).
 
 Looking to change the order of the controls in your map? Have a look at [this guide](../faq/how-do-i-change-the-order-of-control-options.md).
 
