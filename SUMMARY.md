@@ -22,7 +22,11 @@
 * [Collaborating and sharing](overview/collaboration.md)
 * [Actions and permissions](overview/actions-and-permissions.md)
 * [Security](overview/security.md)
-* [Advanced Editor hub](overview/advanced-editor-hub.md)
+* [Advanced Editor hub](overview/advanced-editor-hub/README.md)
+  * [Color reference](overview/advanced-editor-hub/color-reference.md)
+  * [Property reference](overview/advanced-editor-hub/property-reference.md)
+  * [Selector reference](overview/advanced-editor-hub/selector-reference.md)
+  * [@settings reference](overview/advanced-editor-hub/settings-reference.md)
 
 ## Guides
 
@@ -103,10 +107,6 @@
   * [Geo template](guides/templates/geo.md)
 * [URLs](guides/urls.md)
 * [Views](guides/views.md)
-  * [Color reference](guides/color-reference.md)
-  * [Property reference](guides/property-reference.md)
-  * [Selector reference](guides/selector-reference.md)
-  * [@settings reference](guides/settings-reference.md)
 * [Widgets](guides/widgets.md)
 
 ## About Kumu

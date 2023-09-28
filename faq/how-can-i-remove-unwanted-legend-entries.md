@@ -28,4 +28,4 @@ Some legend entries get added automatically when you apply different [templates]
 * **Opposite** entry (systems template): Open the Basic Editor on the right-hand side, click Customize Defaults, and in the **Template settings** section, clear out the "Opposite connection label" box and click **SAVE** at the bottom.
 
 **4.Delete manual legend entries created in the advanced editor**\
-Any legend entries that you created by [adding code to the advanced editor](../guides/color-reference.md#defining-your-own-color-palette) can be deleted by simply deleting the code again from the advanced editor.&#x20;
+Any legend entries that you created by [adding code to the advanced editor](../overview/advanced-editor-hub/color-reference.md#defining-your-own-color-palette) can be deleted by simply deleting the code again from the advanced editor.&#x20;

@@ -49,7 +49,7 @@ Don't like the default colors? Click the expand icon next to the **Color by** dr
 
 ![bujumbra color by](../images/color-by-element-type-bujumbra.png)
 
-The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](../guides/color-reference.md) to find a scale that will work for your data.
+The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](advanced-editor-hub/color-reference.md) to find a scale that will work for your data.
 
 If you color by a multi-pick field like Tags, Kumu will color code your elements with flags (colored arcs around the outside of your elements). Each flag represents one of the possible values in the multi-pick field.
 
@@ -147,7 +147,7 @@ selector {
 }
 ```
 
-`selector` can be replaced with any valid [selector](../guides/selectors.md), and you can read our [property reference](../guides/property-reference.md) to find documentation on `properties` and their possible `values`. You can also use some standard [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) throughout the Advanced Editor.
+`selector` can be replaced with any valid [selector](../guides/selectors.md), and you can read our [property reference](advanced-editor-hub/property-reference.md) to find documentation on `properties` and their possible `values`. You can also use some standard [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) throughout the Advanced Editor.
 
 ### At-rules
 

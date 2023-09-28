@@ -144,7 +144,7 @@ The radar will come with a few default rings and axes, which you can easily over
 
 ![systems leverage radar](../images/systems-leverage-radar.png)
 
-You can customize your radars extensively, changing the color, font color, the distance between rings, etc. To see a full list of supported properties and learn how they customize the radar, head over to our [@settings reference](settings-reference.md) (type "radar" to filter the list).
+You can customize your radars extensively, changing the color, font color, the distance between rings, etc. To see a full list of supported properties and learn how they customize the radar, head over to our [@settings reference](../overview/advanced-editor-hub/settings-reference.md) (type "radar" to filter the list).
 
 ## Add a background image
 

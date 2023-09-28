@@ -46,4 +46,4 @@ In the [Advanced Editor](../overview/view-editors.md#advanced-editor), you can u
 }
 ```
 
-Replace `property` with any property from the [settings reference](settings-reference.md), and replace `value` with any valid value for that property, as described in the settings reference.
+Replace `property` with any property from the [settings reference](../overview/advanced-editor-hub/settings-reference.md), and replace `value` with any valid value for that property, as described in the settings reference.

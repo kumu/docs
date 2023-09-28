@@ -57,7 +57,7 @@ You can also use [advanced decorations](decorate.md#decorate-in-the-advanced-edi
 }
 ```
 
-Be sure to check out our [property reference](property-reference.md) for full documentation on properties that can be used in the Advanced Editor.
+Be sure to check out our [property reference](../overview/advanced-editor-hub/property-reference.md) for full documentation on properties that can be used in the Advanced Editor.
 
 ## Add icons to elements
 

@@ -1,6 +1,6 @@
 # @settings reference
 
-In the [Advanced Editor](../overview/view-editors.md#advanced-editor), the `@settings` block can be used to tweak default settings and add all kinds of powerful features to your view.
+In the [Advanced Editor](../view-editors.md#advanced-editor), the `@settings` block can be used to tweak default settings and add all kinds of powerful features to your view.
 
 The `@settings` block supports all decoration properties listed in the [property reference](property-reference.md), as long as you prefix each property with one of the following:
 
@@ -13,13 +13,13 @@ But, `@settings` also supports its own list of exclusive properties. The table b
 
 There are just few more things you should know about the valid values listed below:
 
-| Where you see... | You can use...                                                                  |
-| ---------------- | ------------------------------------------------------------------------------- |
-| `selector`       | Any [selector](selectors.md)                                                    |
-| `color`          | Any CSS web color or hex color code                                             |
-| `number`         | Any number                                                                      |
-| `'field name'`   | The name of any of your [fields](fields.md), wrapped in single or double quotes |
-| `element type`   | Any text/string value                                                           |
+| Where you see... | You can use...                                                                               |
+| ---------------- | -------------------------------------------------------------------------------------------- |
+| `selector`       | Any [selector](../../guides/selectors.md)                                                    |
+| `color`          | Any CSS web color or hex color code                                                          |
+| `number`         | Any number                                                                                   |
+| `'field name'`   | The name of any of your [fields](../../guides/fields.md), wrapped in single or double quotes |
+| `element type`   | Any text/string value                                                                        |
 
 All values are unitless.
 
@@ -31,17 +31,17 @@ All values are unitless.
 |                        |                                                                                                                                                    |                                                                                                  |
 | background-color       | Sets the canvas' background color                                                                                                                  | `color`                                                                                          |
 | background-opacity     | Sets the opacity of items outside of a showcased selection                                                                                         | `0..1`                                                                                           |
-| bridge                 | Activates bridging. See the [bridge guide](bridge.html#bridge-in-the-advanced-editor) for more information.                                        | `element-selector`                                                                               |
-| cluster                | Activates clustering. See the [cluster guide](clustering.html#activate-clustering-in-the-advanced-editor) for more information.                    | `'field name'element-selector by 'field name'element-selector by 'field name' as 'element type'` |
+| bridge                 | Activates bridging. See the [bridge guide](../../guides/bridge.html#bridge-in-the-advanced-editor) for more information.                           | `element-selector`                                                                               |
+| cluster                | Activates clustering. See the [cluster guide](../../guides/clustering.html#activate-clustering-in-the-advanced-editor) for more information.       | `'field name'element-selector by 'field name'element-selector by 'field name' as 'element type'` |
 | culling                | Determines whether elements and connections are hidden when the reader zooms in very close                                                         | `on` `off`                                                                                       |
-| focus                  | Activates focus. See the [focus guide](focus.html#activate-focus-in-the-advanced-editor) for more information.                                     | `selector out number`                                                                            |
+| focus                  | Activates focus. See the [focus guide](../../guides/focus.html#activate-focus-in-the-advanced-editor) for more information.                        | `selector out number`                                                                            |
 | font-cutoff            | Sets the minimum font size at which labels will display when the map is zoomed out. Set to `0` to always display labels, regardless of zoom level. | `number`                                                                                         |
 | foreground-opacity     | Sets the opacity of showcased items                                                                                                                | `0..1`                                                                                           |
 | geo-location           | Sets the field that will be used to geo-locate elements                                                                                            | `'field name'string template`                                                                    |
 | geo-style              | Sets the style of the geo map                                                                                                                      | `auto` `streets` `satellite`                                                                     |
-| ignore                 | Ignores a selection. See the [filter guide](filter.html#filter-in-the-advanced-editor) for more information.                                       | `selector`                                                                                       |
-| ignore-orphans         | Hides any orphans (elements that have no connections). See the [filter guide](filter.html#ignore-orphans) for more information.                    | `true` `false`                                                                                   |
-| include                | Includes a selection. See the [filter guide](filter.html#filter-in-the-advanced-editor) for more information.                                      | `selector`                                                                                       |
+| ignore                 | Ignores a selection. See the [filter guide](../../guides/filter.html#filter-in-the-advanced-editor) for more information.                          | `selector`                                                                                       |
+| ignore-orphans         | Hides any orphans (elements that have no connections). See the [filter guide](../../guides/filter.html#ignore-orphans) for more information.       | `true` `false`                                                                                   |
+| include                | Includes a selection. See the [filter guide](../../guides/filter.html#filter-in-the-advanced-editor) for more information.                         | `selector`                                                                                       |
 | layout                 | Sets the layout type                                                                                                                               | `force` `static` `scatter`                                                                       |
 | layout-bounds-xmax     | Sets a maximum x coordinate that grid and guide lines can extend to                                                                                | `number`                                                                                         |
 | layout-bounds-xmin     | Sets a minimum x coordinate that grid and guide lines can extend to                                                                                | `number`                                                                                         |
@@ -63,7 +63,7 @@ All values are unitless.
 | layout-x-multiplier    | Sets a number that will be multiplied by each elements `layout-x` field to determine their final x coordinate                                      | `number`                                                                                         |
 | layout-y               | Sets the field used to determine elements' x coordinate in the scatter layout                                                                      | `'field name'`                                                                                   |
 | layout-y-multiplier    | Sets a number that will be multiplied by each elements `layout-y` field to determine their final y coordinate                                      | `number`                                                                                         |
-| notification-color     | Sets the color of asterisks created by [Issues](issues.html)                                                                                       | `color`                                                                                          |
+| notification-color     | Sets the color of asterisks created by [Issues](../../guides/issues.html)                                                                          | `color`                                                                                          |
 | profile                | Controls whether or not profiles can be opened                                                                                                     | `on` `off`                                                                                       |
 | quality                | Sets the render quality                                                                                                                            | `fast` `best`                                                                                    |
 | radar                  | Determines whether a radar will be shown                                                                                                           | `on` `off`                                                                                       |
@@ -80,6 +80,6 @@ All values are unitless.
 | scale-max              | Sets the maximum allowed zoom level                                                                                                                | `number`                                                                                         |
 | scale-min              | Sets the minimum allowed zoom level                                                                                                                | `number`                                                                                         |
 | selection-color        | Sets the color of the ring that appears around selected elements                                                                                   | `color`                                                                                          |
-| showcase               | Activates showcase. See the [showcase guide](showcase.html#customize-showcase-settings-in-the-advanced-editor) for more information.               | `selector`                                                                                       |
+| showcase               | Activates showcase. See the [showcase guide](../../guides/showcase.html#customize-showcase-settings-in-the-advanced-editor) for more information.  | `selector`                                                                                       |
 | template               | Chooses a template                                                                                                                                 | `causal-loopcustomgeosnastakeholderstock-and-flowsystemssystems-leverage`                        |
 | theme                  | Sets the view's overall theme                                                                                                                      | `light` `dark`                                                                                   |

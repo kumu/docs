@@ -34,9 +34,9 @@ When you use the [Color by](decorate.md#color-by) tool in the Basic Editor, Kumu
 
 This automatic legend feature also works when you're using **Color by** to add [flags](flags.md).
 
-Note that the **Color by** tool will stop adding legend entries after it runs out of colors in its default color palette (seven colors). To make sure all your field values get included in the legend, you might need to click the expand icon and choose a [larger color palette](color-reference.md). If the **Color by** tool is including some unwanted field values in your legend, try [deleting the unwanted values](fields.md#deleting-field-values).
+Note that the **Color by** tool will stop adding legend entries after it runs out of colors in its default color palette (seven colors). To make sure all your field values get included in the legend, you might need to click the expand icon and choose a [larger color palette](../overview/advanced-editor-hub/color-reference.md). If the **Color by** tool is including some unwanted field values in your legend, try [deleting the unwanted values](fields.md#deleting-field-values).
 
-One more caveat about **Color by**: when you're using this tool, it's not possible to remove, replace, or edit individual colors from the color palette. To fully customize the colors in the palette, you can follow the guide to [define your own palette](color-reference.md#defining-your-own-color-palette). Alternatively, you can read through [the section below](legends.md#use-the-decoration-builders-to-add-legend-entries) to learn how to create a custom legend without using the **Color by** tool.
+One more caveat about **Color by**: when you're using this tool, it's not possible to remove, replace, or edit individual colors from the color palette. To fully customize the colors in the palette, you can follow the guide to [define your own palette](../overview/advanced-editor-hub/color-reference.md#defining-your-own-color-palette). Alternatively, you can read through [the section below](legends.md#use-the-decoration-builders-to-add-legend-entries) to learn how to create a custom legend without using the **Color by** tool.
 
 **Only color by the values being used**
 
@@ -72,7 +72,7 @@ The legend entries added from the decoration builder will be listed in the Basic
 
 #### Removing legend entries
 
-Legend entries added using the **Color by** tool can only be removed by [defining your own color palette](color-reference.md#defining-your-own-color-palette) or [deleting the field values](fields.md#deleting-field-values) that you don't want to see. To do this, you need to delete the underlying field value. This process is different depending on the field's [prompt](legends.md#customize-a-field).
+Legend entries added using the **Color by** tool can only be removed by [defining your own color palette](../overview/advanced-editor-hub/color-reference.md#defining-your-own-color-palette) or [deleting the field values](fields.md#deleting-field-values) that you don't want to see. To do this, you need to delete the underlying field value. This process is different depending on the field's [prompt](legends.md#customize-a-field).
 
 For fields that have their prompt set to "Autocomplete" or "None" (this includes the Tags field), you can only delete the field value by removing it from every element, connection, and loop in the project, including the [trash](../overview/kumus-architecture.md#trash).
 

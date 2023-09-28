@@ -72,7 +72,7 @@ In this section, we'll teach you how to write all kinds of selectors, which fall
 
 We'll also teach you how to [chain selectors together](selectors.md#chain-selectors) to run complex queries involving AND and OR logic.
 
-After you read this section, check out our [selector reference](selector-reference.md)—it's a great cheat sheet for every possible selector in Kumu.
+After you read this section, check out our [selector reference](../overview/advanced-editor-hub/selector-reference.md)—it's a great cheat sheet for every possible selector in Kumu.
 
 You can also use our experimental [selector builder interface](https://selector-builder.netlify.app/) to write selectors for you!
 
@@ -183,7 +183,7 @@ And the syntax is as follows:
 
 Replace `field name` and `field value` with a name and value from your project, depending on what you are trying to select, and keep them wrapped in `""` double quotes. `field name` and `field value` are **not** case-sensitive in selectors.
 
-Then, replace `operator` with a logical operator recognized by Kumu, for example, `=` (equal to) or `>` (greater than). You can see the full list of operators and their meanings in the [selector reference](selector-reference.md#operators).
+Then, replace `operator` with a logical operator recognized by Kumu, for example, `=` (equal to) or `>` (greater than). You can see the full list of operators and their meanings in the [selector reference](../overview/advanced-editor-hub/selector-reference.md#operators).
 
 Here are some examples:
 

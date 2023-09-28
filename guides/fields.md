@@ -22,7 +22,7 @@ Kumu comes with a set of core fields. Putting data in _all_ of these fields isn'
 
 #### Label
 
-Use the Label field to give names to elements, connections, and loops. Your element and loop labels will appear on the map by default, and connection labels can be shown on the map as well, using the `label-visibility` [property](property-reference.md) in the Advanced Editor.
+Use the Label field to give names to elements, connections, and loops. Your element and loop labels will appear on the map by default, and connection labels can be shown on the map as well, using the `label-visibility` [property](../overview/advanced-editor-hub/property-reference.md) in the Advanced Editor.
 
 #### Type
 

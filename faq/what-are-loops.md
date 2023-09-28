@@ -110,4 +110,4 @@ loop {
 }
 ```
 
-You can replace `olympic` with the name of any of our [color palettes](../guides/color-reference.md).
+You can replace `olympic` with the name of any of our [color palettes](../overview/advanced-editor-hub/color-reference.md).
