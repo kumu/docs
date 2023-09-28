@@ -21,7 +21,7 @@ The first dropdown menu allows you to create new maps and navigate to different 
 
 In the bottom right corner of your map editor, you'll see a toolbar with several icons that let you take useful actions within your project.
 
-* ![](../icons/magic.svg) The magic wand brings up a [quick actions](../guides/quick-actions.md) menu that allows you to search for tools, actions, and how-to videos
+* ![](../icons/magic.svg) The magic wand brings up a [quick actions](user-interfaces/quick-actions.md) menu that allows you to search for tools, actions, and how-to videos
 * ![](../icons/flask.svg) The flask gives you access to [social network analysis metrics](../guides/metrics.md) and [community detection](../guides/metrics.md#community-detection)
 * ![](../icons/comment.svg) The chat bubble opens up [Discussions](../guides/discussions.md), where you can chat with your team and attach comments to the map
 * ![](../icons/table.svg) The table brings up Kumu's [Table](../guides/table.md) tool
