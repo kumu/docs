@@ -62,8 +62,6 @@ Looks like:
 
 We also support linking to elements, connections and loops (even other maps in your account).
 
-{% embed url="https://www.youtube.com/embed/iORN_mRpkMI" %}
-
 You can use the following syntax:
 
 **Selectors**
