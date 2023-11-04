@@ -26,6 +26,9 @@ You can choose to upgrade your Basic workspace to a Pro workspace. Pro workspace
 * **Hourly backups, retained for six months.** Map freely, knowing you have backups of your project data in case you make a mistake.
 * **Customized branding.** Replace Kumu's logos with your own to align your projects with your brand.
 * **Google Analytics tracking.** See how many people are visiting your maps, what items those people are clicking on, and when all that activity is happening.
+*   **Discussions,** With Discussions you can chat with your team and attach comments to items on your map—all within Kumu, all in real time!
+
+
 
 Pro workspaces have a **flat fee of $10 per month** (or $96 per year), which includes unlimited public projects.
 
