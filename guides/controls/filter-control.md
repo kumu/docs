@@ -14,7 +14,9 @@ To create a filter control, follow these steps:&#x20;
 4. Click Save at the bottom to save your changes
 5. To add multiple controls, repeat steps 1-4 for each control.&#x20;
 
-Note: The filter control works with AND logic. This means that if you combine multiple controls on one map, the view will be filtered down to only those elements that satisfy _all_ of the conditions of the controls. Looking for OR logic (showing elements that satisfy _at_ _least_ _one_ of the conditions)? Take a look at our [Showcase control guide](showcase-control.md).
+{% hint style="info" %}
+**Note**: The filter control works with AND logic. This means that if you combine multiple controls on one map, the view will be filtered down to only those elements that satisfy _all_ of the conditions of the controls. Looking for OR logic (showing elements that satisfy _at_ _least_ _one_ of the conditions)? Take a look at our [Showcase control guide](showcase-control.md).
+{% endhint %}
 
 ## Advanced Editor&#x20;
 

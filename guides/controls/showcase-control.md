@@ -14,7 +14,9 @@ To create a showcase control, follow these steps:&#x20;
 4. Click Save at the bottom to save your changes
 5. To add multiple controls, repeat steps 1-4 for each control.&#x20;
 
-Note: The showcase control works with OR logic. This means that if you combine multiple controls on one map, the view will be filtered down to any elements that satisfy _at least one_ of the conditions of the controls. Looking for AND logic (showing only elements that satisfy _all_ of the conditions)? Take a look at our [Filter control guide](filter-control.md).
+{% hint style="info" %}
+**Note:** The showcase control works with OR logic. This means that if you combine multiple controls on one map, the view will be filtered down to any elements that satisfy _at least one_ of the conditions of the controls. Looking for AND logic (showing only elements that satisfy _all_ of the conditions)? Take a look at our [Filter control guide](filter-control.md).
+{% endhint %}
 
 ## Advanced Editor
 

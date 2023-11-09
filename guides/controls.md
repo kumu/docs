@@ -174,7 +174,7 @@ When you're adding [controls](controls.md) through the Basic Editor, you might s
 
 **Advanced Editor**
 
-Open up the Advanced Editor (click Settings ![](<../.gitbook/assets/image (1).png>) and then choose Switch to Advanced Editor at the bottom). Unless you have added [partial views](partial-views.md), there will be a block of code right at the top starting with `@controls`.
+Open up the Advanced Editor (click Settings ![](<../.gitbook/assets/image (1) (1).png>) and then choose Switch to Advanced Editor at the bottom). Unless you have added [partial views](partial-views.md), there will be a block of code right at the top starting with `@controls`.
 
 ```scss
 // Line 1 of your Advanced Editor:
