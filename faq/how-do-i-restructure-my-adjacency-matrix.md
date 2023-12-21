@@ -10,6 +10,12 @@ To get access to the custom formula, you can open our ["With custom Kumu formula
 
 Delete all the example tabs in your spreadsheet, then create a new tab, and put your matrix in that tab. Be sure to add `(ignore)` to the tab name to make sure Kumu doesn't try to import it. Next, add a new tab, and type `=KUMU_CONNECTION_LIST(` in cell `A1` to get started.
 
+## Video explanation
+
+{% embed url="https://youtu.be/_WHD_-lbEMc" %}
+How to use the matrix expander
+{% endembed %}
+
 ## Sample usages
 
 `KUMU_CONNECTION_LIST(A1:J10)`
