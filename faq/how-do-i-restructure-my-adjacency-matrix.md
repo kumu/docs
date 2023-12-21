@@ -12,7 +12,7 @@ Delete all the example tabs in your spreadsheet, then create a new tab, and put 
 
 ## Video explanation
 
-{% embed url="https://youtu.be/_WHD_-lbEMc" %}
+{% embed url="https://youtu.be/2hNgEqzIjQA" %}
 How to use the matrix expander
 {% endembed %}
 
