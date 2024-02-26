@@ -10,6 +10,6 @@ Kumu Enterprise is the right choice for teams that are working with highly sensi
 
 To get started with Kumu Enterprise and learn more about its security features, please [visit our Enterprise website here](https://kumu.io/enterprise).&#x20;
 
-If you need help with installing, configuring, or upgrading your Enterprise version, [see our full Enterprise guides](../enterprise/).
+If you need help with installing, configuring, or upgrading your Enterprise version, [see our full Enterprise guides](../enterprise/index.md).
 
 For anyone who doesn't have these higher security needs, Kumu.io will be a much more streamlined, and a just as powerful option.
