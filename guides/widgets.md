@@ -160,34 +160,6 @@ Optionally, you can change the aspect ratio from `hd` (the default) to `sd`:
 
 ## Embed audio
 
-#### Pippa
-
-To embed audio from Pippa, type `pippa/` inside your double square brackets, followed by everything after `https://player.pippa.io/` in the URL of your episode:
-
-```
-Full URL:
-https://player.pippa.io/teamhuman/episodes/ep-92-dr-mark-filippi
-
-Widget code:
-[[pippa/teamhuman/episodes/ep-92-dr-mark-filippi]]
-```
-
-#### Anchor
-
-To embed audio from [Anchor](https://anchor.fm):
-
-1. Type `anchor/` inside your double square brackets
-2. Add your account username and another slash `/`
-3. Add the ID of the episode
-
-```
-Full URL for an episode:
-https://anchor.fm/my-username/episodes/my-episode-id
-
-Widget code:
-[[anchor/my-username/episodes/my-episode-id]]
-```
-
 #### Soundcloud
 
 To embed audio from Soundcloud, type `soundcloud/` inside your double square brackets, followed by the ID of the audio file:
