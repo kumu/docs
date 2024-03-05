@@ -36,7 +36,7 @@ Unlike file-based imports, the Google Sheets integration is an ongoing import. T
 
 * Elements and connections are read-only within Kumu—all edits to the underlying data must be made within the spreadsheet. You can’t make edits in [Table](../table.md) either.&#x20;
 * The above also implies that Google Sheets provides a _one-way_ synchronization: Kumu pulls data from Google Sheets _into_ the Kumu project, but can’t send updated information _back_ from Kumu to Google Sheets.
-* Some Kumu features (such as [pinning elements in place](../../faq/how-do-keep-elements-from-moving.md), [popovers](../popovers.md), and [direct decorations](../direct-decorations.md)) don’t work for maps connected to a Google Sheet.
+* Some Kumu features (such as [pinning elements in place](../../faq/how-do-keep-elements-from-moving.md) and [direct decorations](../direct-decorations.md)) don’t work for maps connected to a Google Sheet.
 
 ## Crowdsourcing data through Google Sheets
 
