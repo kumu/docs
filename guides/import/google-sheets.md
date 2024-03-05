@@ -23,7 +23,7 @@ Pssst! We wrote ["The Ultimate Guide to using Google Sheets with Kumu"](https://
 8. Voilà, your data will appear!
 
 {% hint style="info" %}
-Seeing errors during your Google Sheets import? Visit the [common pitfalls](./#common-pitfalls) guide to help troubleshoot.&#x20;
+Seeing errors during your Google Sheets import? Visit the [common pitfalls](import.md#common-pitfalls) guide to help troubleshoot.&#x20;
 {% endhint %}
 
 {% hint style="success" %}
