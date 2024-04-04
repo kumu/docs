@@ -4,7 +4,12 @@
 
 Filter a network over time using years defined in the tag field.
 
-_Note: If you include timeline data using the tag field, this controls provides clickable dates that can be used to filter the map. We recommend using years to define when an element/connection was present. You can supply multiple years to be able to allow disjointed timelines (e.g. 2012, 2013, 2016 for an element that was part of the network until 2013, then left and joined again in 2016)._
+_Note: If you include timeline data using the "tags" field, the controls will provide clickable dates that can be used to filter the map. We recommend using years to define when an element/connection was present. You can supply multiple years to be able to allow disjointed timelines (e.g. 2012, 2013, 2016 for an element that was part of the network until 2013, then left and joined again in 2016)._
+
+{% hint style="info" %}
+Want to learn more about why and how to use a Tagged-Timeline Control? \
+[Check out this blog](https://blog.kumu.io/filtering-networks-over-time-using-custom-controls-dcb1382c9b7c).&#x20;
+{% endhint %}
 
 ## **Advanced Editor**
 
