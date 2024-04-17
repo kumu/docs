@@ -1,6 +1,6 @@
 # Controls
 
-Controls allow you to customize how people interact with your maps. You can use them to overlay buttons, images, text and more! Interactive controls can be used to transform the current view's setting too, such as filter, focus, and clustering.
+Controls allow you to customize how people interact with your maps by adding buttons, dropdowns or toggles to your map. You can also use them to overlay metrics, images, text and more on! Interactive controls can be used to transform the current view's setting too, such as filter, focus, and clustering.
 
 {% embed url="https://www.youtube.com/embed/eBo1St2laTw" %}
 

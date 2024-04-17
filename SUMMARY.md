@@ -152,6 +152,7 @@
 * [How do I control text wrapping?](faq/how-do-i-control-text-wrapping.md)
 * [How do I convert a project from private to public?](faq/how-do-i-convert-a-project-from-private-to-public.md)
 * [How do I convert a project from public to private?](faq/how-do-i-convert-a-project-from-public-to-private.md)
+* [How do I create dynamic on/off toggles for my map?](frequently-asked-questions/how-do-i-create-dynamic-on-off-toggles-for-my-map.md)
 * [How do I customize link text in popovers?](faq/how-do-i-customize-link-text-in-popovers.md)
 * [How do I customize the order of my legend?](faq/how-do-i-customize-the-order-of-my-legend.md)
 * [How do I delete a project, map, or view?](faq/how-do-i-delete-a-project-map-or-view.md)
