@@ -4,8 +4,8 @@ Snap-to makes it easy to arrange a group of elements as a circle or a line. This
 
 There's two ways to use Snap-to:
 
-1. [Set Snap-to manually](snap-to.md#use-snap-to-manually)
-2. [Set Snap-to automatically](snap-to.md#use-snap-to-automatically)
+1. [Set Snap-to manually](snap-to.md#set-snap-to-manually)
+2. [Set Snap-to automatically](snap-to.md#set-snap-to-automatically)
 
 ![snap to line](../../images/linesnapto.png)
 
