@@ -92,6 +92,7 @@ After you set the region, you can choose what **type of control** you are adding
 * `color-legend`: [Color-legend control](controls/color-legend-control.md)
 * `image`: [Image control](controls/image-control.md)
 * `sna-dashboard`: [Social Network Analysis Dashboard control](controls/sna-dashboard-control.md)
+* `view-toggle`: [View toggle control](controls/view-toggle-control.md)
 
 #### Properties
 
