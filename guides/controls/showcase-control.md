@@ -66,9 +66,9 @@ Showcase using custom [selectors](../selectors.md#selectors):
 * `loose` showcase the selection plus neighboring elements
 * `strict` only showcase the selection itself
 * `as` controls how the control is presented. Do you want a list of labels, buttons, or a dropdown for activating showcase?
-* `labels` show options as a list of clickable labels
-* `buttons` show options as a group of buttons
-* `dropdown` show options as dropdown
+  * `labels` show options as a list of clickable labels
+  * `buttons` show options as a group of buttons
+  * `dropdown` show options as dropdown
 * `multiple` controls whether more than one value can be selected at a time
   * `false` allows the reader to only select a single option
   * `true` allows the reader to select multiple options
