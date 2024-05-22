@@ -62,9 +62,9 @@ Showcase using custom [selectors](../selectors.md#selectors):
 
 * `by` is the field you'd like to use for showcasing wrapped in double quotes. If you don't include `by: field` you need to list out each option - see "supported children" guidance below.
 * `mode` controls how the selection is showcased
-* `normal` showcase the selection plus any connections between the showcased elements (default)
-* `loose` showcase the selection plus neighboring elements
-* `strict` only showcase the selection itself
+  * `normal` showcase the selection plus any connections between the showcased elements (default)
+  * `loose` showcase the selection plus neighboring elements
+  * `strict` only showcase the selection itself
 * `as` controls how the control is presented. Do you want a list of labels, buttons, or a dropdown for activating showcase?
   * `labels` show options as a list of clickable labels
   * `buttons` show options as a group of buttons
