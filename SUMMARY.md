@@ -132,6 +132,7 @@
 ## Frequently Asked Questions
 
 * [Does Kumu have a public API?](frequently-asked-questions/does-kumu-have-a-public-api.md)
+* [Does Kumu make use of AI?](frequently-asked-questions/does-kumu-make-use-of-ai.md)
 * [How do I add annotations?](faq/how-do-i-add-annotations.md)
 * [How do I add anchors to my map description?](frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md)
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
