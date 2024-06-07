@@ -93,7 +93,7 @@ loop {
 }
 ```
 
-This code will change the font size for all loops. If you just want to change the size for a specific loop, you can use a [selector](../guides/selectors.md). Here's an example that selects by label to decorate one loop:
+This code will change the font size for all loops. If you just want to change the size for a specific loop, you can use a [selector](../overview/advanced-editor-hub/selectors.md). Here's an example that selects by label to decorate one loop:
 
 ```scss
 // replace My Specific Loop with the label of your loop

@@ -16,7 +16,7 @@ If you want to change the position of your element labels for all elements, foll
 
 To change the element label position for a specific set of elements, you'll need to use the [advanced editor](../overview/view-editors.md#advanced-editor). You'll be using the `text-align` [property](../overview/advanced-editor-hub/property-reference.md) to make the change, where the options are `bottom` and `center`.
 
-To change the element label position from "bottom" to "center" so that the labels will appear inside of the elements, you'll want to add `text-align: center;` under a [selector](../guides/selectors.md) for the specific set of elements. For example, if you want to change the element label position from "bottom" to "center" for all your elements of the type "person" add this to the advanced editor:
+To change the element label position from "bottom" to "center" so that the labels will appear inside of the elements, you'll want to add `text-align: center;` under a [selector](../overview/advanced-editor-hub/selectors.md) for the specific set of elements. For example, if you want to change the element label position from "bottom" to "center" for all your elements of the type "person" add this to the advanced editor:
 
 ```scss
 person {

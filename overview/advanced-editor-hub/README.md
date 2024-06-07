@@ -13,7 +13,7 @@ We ordered and organized these links based on what we feel is the best path for 
 * [Advanced Editor section](../view-editors.md#advanced-editor) of the View Editors guide. Definitely start here!
 * [Default view settings](../../guides/default-view-settings.md#change-default-view-settings-in-the-advanced-editor)
   * [Default view settings reference table](settings-reference.md)
-* [Selectors](../../guides/selectors.md)\*
+* [Selectors](selectors.md)\*
   * [Selector reference](selector-reference.md)
   * [Property reference](property-reference.md)
 

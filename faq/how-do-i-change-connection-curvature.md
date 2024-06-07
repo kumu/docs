@@ -6,12 +6,11 @@ If the elements on either end of the connections are pinned, you can simply clic
 
 The first step is to add information to the connections' profiles—we'll use that information to apply different curvatures to groups of connections later on.
 
-
 ## Use the profile to add additional information
 
-Each connection has a profile that can be used to store additional information in various [fields](/guides/fields.md).
+Each connection has a profile that can be used to store additional information in various [fields](../guides/fields.md).
 
-<img src="/images/introduction-profile.png" class="plain">
+![](../images/introduction-profile.png)
 
 Label, Type, Description, and Tags are all examples of fields. Use these fields to provide additional context for each connection, and click **+NEW FIELD** to add a custom field.
 
@@ -19,22 +18,23 @@ Label, Type, Description, and Tags are all examples of fields. Use these fields 
 
 Then, in the left side panel, use the dropdown menu to select the field you want to edit. Enter a value for that field, and you're all set!
 
-After you fill out data in the profiles, you can use the [Advanced Editor](/overview/view-editors.md#advanced-editor) to change connection curvature.
-
+After you fill out data in the profiles, you can use the [Advanced Editor](../overview/view-editors.md#advanced-editor) to change connection curvature.
 
 ## Change connection curvature in the Advanced Editor
 
-To change connection curvature in the Advanced Editor, you'll need to write a [selector](/guides/selectors.md) to tell Kumu which connections you are changing, then use the `curvature` property to set the curvature. Here's an example:
+To change connection curvature in the Advanced Editor, you'll need to write a [selector](../overview/advanced-editor-hub/selectors.md) to tell Kumu which connections you are changing, then use the `curvature` property to set the curvature. Here's an example:
 
 ```scss
 connection["connection type"="shared resources"] {
     curvature: 0.5;
 }
 ```
+
 To break this down:
-- `connection["connection type"="shared resources"]` is the selector. It tells Kumu, "Apply the following settings to all **connections** whose **Type** is **Shared Resources**."
-- The curly braces `{}` enclose the settings that Kumu will apply to the selected connections.
-- `curvature: 0.5;` tells Kumu to set those connections' curvature to `0.5`. The value for `curvature` can be any real number—positive or negative—and the default is `0.25`.
+
+* `connection["connection type"="shared resources"]` is the selector. It tells Kumu, "Apply the following settings to all **connections** whose **Type** is **Shared Resources**."
+* The curly braces `{}` enclose the settings that Kumu will apply to the selected connections.
+* `curvature: 0.5;` tells Kumu to set those connections' curvature to `0.5`. The value for `curvature` can be any real number—positive or negative—and the default is `0.25`.
 
 Note that if you are selecting by the Type field, you should use `connection type` in your selector instead of just `type` to make sure Kumu reads the correct field. Also note that selectors are not case-sensitive: `Shared Resources` is the same as `shared resources`.
 

@@ -12,7 +12,7 @@ selector {
 }
 ```
 
-Replace `selector` with any valid [selector](selectors.md), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets `{{}}` and wrap the entire `label` value in double quotes.
+Replace `selector` with any valid [selector](../overview/advanced-editor-hub/selectors.md), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets `{{}}` and wrap the entire `label` value in double quotes.
 
 {% hint style="info" %}
 Some [field types](fields.md#field-type) will give unwanted results when used as label templates. If a field type is set to **text**, **url** or **e-mail**, you'll either get an error or find HTML code being added to your labels on the map. For example, the "Description" field is set to type "text" by default, and can't be changed to another type. In that case, please use a different field for your label template and make sure the Type is set to either **string**, **number**, **currency** or **date**.

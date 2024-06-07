@@ -8,7 +8,7 @@ For example, if two people are connected to an organization on your map, you can
 
 The easiest way to bridge over elements is with the [Basic Editor](../overview/view-editors.md#basic-editor). Open the Basic Editor, then click **More Options**, and select **Build bridges across mutual connections**.
 
-Use the **Bridge** interface to set up rules for bridging over elements that meet a given [selector](selectors.md).
+Use the **Bridge** interface to set up rules for bridging over elements that meet a given [selector](../overview/advanced-editor-hub/selectors.md).
 
 ![](../images/bridge-ui.png)
 
@@ -22,7 +22,7 @@ To bridge using the [Advanced Editor](../overview/view-editors.md#advanced-edito
 }
 ```
 
-`selector` can be any valid [element selector](selectors.md). You can separate multiple selectors with commas to bridge over multiple different groups of elements.
+`selector` can be any valid [element selector](../overview/advanced-editor-hub/selectors.md). You can separate multiple selectors with commas to bridge over multiple different groups of elements.
 
 For example, lets say you had a map of people connected to projects and organizations, and you wanted to connect people to people. Here's how you could use bridging to accomplish that (assuming project elements have the element type "Project", and organization elements have the element type "Organization"):
 

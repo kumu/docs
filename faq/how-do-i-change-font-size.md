@@ -21,7 +21,7 @@ One way to do that is in the `@settings` block:
 
 This gives you precise control over the font size—you can change the `100` to any positive number. However, this solution still applies your font size to everything on the map.
 
-If you want to change the font size for a specific group of elements and connections, you can use any [selectors](../guides/selectors.md):
+If you want to change the font size for a specific group of elements and connections, you can use any [selectors](../overview/advanced-editor-hub/selectors.md):
 
 ```
 element { 
@@ -31,4 +31,4 @@ element {
 
 The code snippet above will only change the font size for elements, but will leave connections and loops at the default font size.
 
-For more information on how to change the `element` selector to something even more specific (for example, just the elements whose Element Type is "Organization"), see [_our full guide on selectors_](../guides/selectors.md).
+For more information on how to change the `element` selector to something even more specific (for example, just the elements whose Element Type is "Organization"), see [_our full guide on selectors_](../overview/advanced-editor-hub/selectors.md).

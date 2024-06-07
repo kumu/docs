@@ -13,7 +13,7 @@ There's two ways to use Snap-to:
 
 **1. Pick a selection**
 
-To get started using snap-to, select one or more elements. You can do this by holding `shift` on your keyboard and dragging your mouse to draw a selection box over part of the map, or by clicking the search bar at the top of the map and then using the rocket icon ![](../../icons/rocket.svg) to build a [selector](../selectors.md).
+To get started using snap-to, select one or more elements. You can do this by holding `shift` on your keyboard and dragging your mouse to draw a selection box over part of the map, or by clicking the search bar at the top of the map and then using the rocket icon ![](../../icons/rocket.svg) to build a [selector](../../overview/advanced-editor-hub/selectors.md).
 
 **2. Arrange as a circle or line**
 
@@ -45,7 +45,7 @@ If you don't like what it did to your map, simply hit the `escape` (esc) button 
 
 To snap to circle, follow these steps:
 
-1. Select multiple elements by building a [selector](../selectors.md) using the search or by holding down `shift` and dragging a box over the elements
+1. Select multiple elements by building a [selector](../../overview/advanced-editor-hub/selectors.md) using the search or by holding down `shift` and dragging a box over the elements
 2. Right click anywhere on the map and click "snap to" and then "snap to circle"
 3. Adjust the size of the circle by scrolling on your mouse or trackpad (optional)
 4. Group or sort the elements in the circle by right-clicking again on the map (optional)
@@ -55,7 +55,7 @@ To snap to circle, follow these steps:
 
 To snap to line, follow these steps:
 
-1. Select multiple elements by building a [selector](../selectors.md) using the search or by holding down `shift` and dragging a box over the elements
+1. Select multiple elements by building a [selector](../../overview/advanced-editor-hub/selectors.md) using the search or by holding down `shift` and dragging a box over the elements
 2. Right click anywhere on the map and click "snap to" and then "snap to line"
 3. Adjust the spacing of the line by scrolling on your mouse or trackpad (optional)
 4. Group or sort the elements in the circle by right-clicking again on the map (optional)
@@ -67,7 +67,7 @@ You can also have a map snap to a certain shape automatically. This option is gr
 \
 **1. Pick a selection**
 
-Open the Basic Editor by clicking on Settings ![](../../.gitbook/assets/image.png) on the right. Then choose "More" > "Snap To" > "Add a snap-to rule". This will automatically apply the snap to all the elements on your map. If you want to create a more specific selection, click on the little pencil icon to add a [selector](../selectors.md).&#x20;
+Open the Basic Editor by clicking on Settings ![](../../.gitbook/assets/image.png) on the right. Then choose "More" > "Snap To" > "Add a snap-to rule". This will automatically apply the snap to all the elements on your map. If you want to create a more specific selection, click on the little pencil icon to add a [selector](../../overview/advanced-editor-hub/selectors.md).&#x20;
 
 **2. Adjust the settings**
 

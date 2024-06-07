@@ -6,13 +6,13 @@ Add a control to activate [showcase](../showcase.md) for a given field or set of
 
 ## Basic Editor
 
-To create a showcase control, follow these steps:&#x20;
+To create a showcase control, follow these steps:
 
-1. Click the settings icon on the right ![](../../icons/sliders-h.svg) to open the editor, then click "Add custom control"**.**&#x20;
+1. Click the settings icon on the right ![](../../icons/sliders-h.svg) to open the editor, then click "Add custom control"**.**
 2. In the menu that opens up, change the first dropdown to "Showcase elements by field".
 3. Use the other dropdowns to customize the look and location of your controls
 4. Click Save at the bottom to save your changes
-5. To add multiple controls, repeat steps 1-4 for each control.&#x20;
+5. To add multiple controls, repeat steps 1-4 for each control.
 
 {% hint style="info" %}
 **Note:** The showcase control works with OR logic. This means that if you combine multiple controls on one map, the view will be filtered down to any elements that satisfy _at least one_ of the conditions of the controls. Looking for AND logic (showing only elements that satisfy _all_ of the conditions)? Take a look at our [Filter control guide](filter-control.md).
@@ -37,7 +37,7 @@ Showcase by field:
 
 ```
 
-Showcase using custom [selectors](../selectors.md#selectors):
+Showcase using custom [selectors](../../overview/advanced-editor-hub/selectors.md#selectors):
 
 ```scss
 @controls {
@@ -84,7 +84,7 @@ Showcase using custom [selectors](../selectors.md#selectors):
 If you want to use custom selectors to build the showcase, you'll need to list each option out separately. The options are defined by `option` blocks nested within the control and each `option` supports the following properties:
 
 * `label` the text to display for that option
-* `selector` the [selector](../selectors.md#selectors) to use for the showcase
+* `selector` the [selector](../../overview/advanced-editor-hub/selectors.md#selectors) to use for the showcase
 * `default`
   * `true` value is selected by default
   * `false` value is unselected by default

@@ -28,6 +28,7 @@
   * [@controls reference](overview/advanced-editor-hub/controls-reference.md)
   * [Color reference](overview/advanced-editor-hub/color-reference.md)
   * [Property reference](overview/advanced-editor-hub/property-reference.md)
+  * [Selectors](overview/advanced-editor-hub/selectors.md)
   * [Selector reference](overview/advanced-editor-hub/selector-reference.md)
 
 ## Guides
@@ -96,7 +97,6 @@
 * [Profiles](guides/profiles.md)
   * [Markdown](guides/markdown.md)
 * [Project admin](guides/project-admin.md)
-* [Selectors](guides/selectors.md)
 * [Shapes](guides/shapes.md)
 * [Share and embed maps](guides/share-and-embed.md)
 * [Shortcuts](guides/shortcuts.md)

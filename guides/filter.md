@@ -29,7 +29,7 @@ If you prefer working in the Advanced Editor, you can use the `include` and `ign
 }
 ```
 
-You can replace `selector` with any valid [selector](selectors.md). For example, here is the code for a view that includes elements with the element type "Person" but ignores all elements who have no Tags in their profile:
+You can replace `selector` with any valid [selector](../overview/advanced-editor-hub/selectors.md). For example, here is the code for a view that includes elements with the element type "Person" but ignores all elements who have no Tags in their profile:
 
 ```scss
 @settings {

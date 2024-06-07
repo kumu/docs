@@ -4,7 +4,7 @@
 
 ### Toggle elements&#x20;
 
-Before copying the code, make note of the following customizations in the code based on what you want to do:&#x20;
+Before copying the code, make note of the following customizations in the properties based on what you want to do:&#x20;
 
 * **Top** - the region of the control on your map. Switch for "bottom" or "bottom-right" to place the control somewhere else.
 * **Target** -  allows you to indicate which elements you want the toggle control to apply to, through the use of [selectors](https://docs.kumu.io/guides/selectors).
@@ -33,10 +33,10 @@ Now, on to the real deal!
 }
 ```
 
-In this example, from the `target:` property, we can see that we want the control to hide all elements that have "Person" as their "Element type", which is why the `label:` of the control is "Hide all people". You can switch out the target for any other field ("element type") and field value ("Person").&#x20;
+In this example, we can see from the `target:` property  that we want the control to hide all elements that have "Person" as their "Element type", which is why the `label:` of the control is "Hide all people". You can switch out the target for any other field ("element type") and field value ("Person").&#x20;
 
 {% hint style="info" %}
-Though possible, there's few instances where we want to use the `target: element;` selector, because that would hide all elements, thus all connections, effectively hiding your entire map.&#x20;
+Though possible, there's few instances where we want to use the `target: element;` selector, because that would hide all elements, thus all connections; effectively hiding your entire map.&#x20;
 {% endhint %}
 
 **To show or hide elements without connections (so-called orphans), use this code:**

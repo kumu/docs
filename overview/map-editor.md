@@ -69,7 +69,7 @@ The star of the show, of course, is the map's canvas, where all of your elements
 
 By default, your canvas will have a search bar in the upper left, a zoom toolbar in the upper right, and a settings icon ![](../icons/sliders-h.svg) under the zoom toolbar. If you have added a [legend](../guides/legends.md) to your map, it will appear in the lower left of your map's canvas by default.
 
-Click on the search bar to search across the current map or across all maps. After you click on the search bar, you can also click on the rocket icon ![](../icons/rocket.svg) to bring up the [selector](../guides/selectors.md) builder, which is useful when you want to select multiple items based on the information in their profiles. Use the zoom toolbar (or scroll up and down with your mouse/touchpad) to change your zoom level, and click the settings icon ![](../icons/sliders-h.svg)to access Kumu's [view editors](view-editors.md).
+Click on the search bar to search across the current map or across all maps. After you click on the search bar, you can also click on the rocket icon ![](../icons/rocket.svg) to bring up the [selector](advanced-editor-hub/selectors.md) builder, which is useful when you want to select multiple items based on the information in their profiles. Use the zoom toolbar (or scroll up and down with your mouse/touchpad) to change your zoom level, and click the settings icon ![](../icons/sliders-h.svg)to access Kumu's [view editors](view-editors.md).
 
 If you ever want to remove or reposition the search bar, zoom toolbar, settings icon, or legend, [check out our guide on controls](../guides/controls.md).
 

@@ -6,9 +6,9 @@ Add a control to activate [clustering](../clustering.md) for a given field or se
 
 ## Basic Editor
 
-To create a cluster control, follow these steps:&#x20;
+To create a cluster control, follow these steps:
 
-1. Click the settings icon on the right ![](../../icons/sliders-h.svg) to open the editor, then click "Add custom control"**.**&#x20;
+1. Click the settings icon on the right ![](../../icons/sliders-h.svg) to open the editor, then click "Add custom control"**.**
 2. In the menu that opens up, click on the first dropdown and change the value to "Cluster elements".
 3. Use the other dropdowns to customize the look and location of your controls.
 4. Click Save at the bottom to save your changes.
@@ -29,7 +29,7 @@ Cluster by field:
 
 ```
 
-Cluster using custom [selectors](../selectors.md#selectors):
+Cluster using custom [selectors](../../overview/advanced-editor-hub/selectors.md#selectors):
 
 ```scss
 @controls {

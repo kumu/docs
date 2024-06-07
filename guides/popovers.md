@@ -24,7 +24,7 @@ selector {
 }
 ```
 
-Replace `selector` with any valid [selector](selectors.md), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets `{{}}` and wrap the entire popover value in double quotes.
+Replace `selector` with any valid [selector](../overview/advanced-editor-hub/selectors.md), and replace `Field name` with the name of any of your fields. Remember to wrap each field name in double curly brackets `{{}}` and wrap the entire popover value in double quotes.
 
 For example, here is the code for an **element** popover that includes the **label** and **element type**:
 

@@ -70,7 +70,7 @@ You can use the following syntax:
 [link text](= selector)
 ```
 
-Replace `link text` with the text for your link, and replace `selector` with any valid [selector](selectors.md).
+Replace `link text` with the text for your link, and replace `selector` with any valid [selector](../overview/advanced-editor-hub/selectors.md).
 
 **Maps**
 
