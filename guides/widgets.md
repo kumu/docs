@@ -49,7 +49,7 @@ Add `&desc=true` to the end if you want to sort in descending order:
 
 #### More specific lists of elements, connections, or loops
 
-To create a list that is more specific that "all elements", for example, you can type `list` and a [selector](../overview/advanced-editor-hub/selectors.md) in double quotes.
+To create a list that is more specific that "all elements", for example, you can type `list` and a [selector](selectors.md) in double quotes.
 
 ```
 [[list "person"]]                   --> List elements with "Person" in the Type field

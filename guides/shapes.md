@@ -44,7 +44,7 @@ element {
 }
 ```
 
-You can replace `element` with any element [selector](../overview/advanced-editor-hub/selectors.md), and `circle` with any valid shape:
+You can replace `element` with any element [selector](selectors.md), and `circle` with any valid shape:
 
 * `circle`
 * `triangle`

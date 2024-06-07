@@ -25,5 +25,5 @@ connection {
 ```
 
 {% hint style="info" %}
-If you'd like to refine which elements or connections to show labels for and which not, please visit our [Selectors guide](../overview/advanced-editor-hub/selectors.md) to change the selector to something more precise.
+If you'd like to refine which elements or connections to show labels for and which not, please visit our [Selectors guide](../guides/selectors.md) to change the selector to something more precise.
 {% endhint %}

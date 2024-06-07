@@ -18,7 +18,7 @@ element {
 }
 ```
 
-You can replace `element` with any element [selector](../overview/advanced-editor-hub/selectors.md), `Field` with any multi-pick field, and `colorPalette` with any palette from our [color reference](../overview/advanced-editor-hub/color-reference.md). To further customize the flags' appearance, you can use the `flag-size` property to control the thickness of the flags, and the `flag-offset` property to control the distance between the flags and their element.
+You can replace `element` with any element [selector](selectors.md), `Field` with any multi-pick field, and `colorPalette` with any palette from our [color reference](../overview/advanced-editor-hub/color-reference.md). To further customize the flags' appearance, you can use the `flag-size` property to control the thickness of the flags, and the `flag-offset` property to control the distance between the flags and their element.
 
 You can also activate flags using the `@settings` block, like so:
 

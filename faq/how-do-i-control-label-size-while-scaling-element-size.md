@@ -65,7 +65,7 @@ element {
 
 Change the `10` and the `50` while observing the visual changes on your map. Through trial and error, you should be able to find a minimum and maximum value that makes the scale work well for all elements.
 
-If you don't want this setting to apply to all elements, replace `element` with any valid [selector](../overview/advanced-editor-hub/selectors.md).
+If you don't want this setting to apply to all elements, replace `element` with any valid [selector](../guides/selectors.md).
 
 {% hint style="info" %}
 Tip: Find the largest scaled element on the map. Tweak the maximum `font-size` until the largest element's label looks good. Then, find the smallest scaled element, and adjust the minimum `font-size` until the label looks good.\

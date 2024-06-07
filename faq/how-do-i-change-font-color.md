@@ -42,4 +42,4 @@ element {
 }
 ```
 
-Note that the code snippet above will only change the font size for elements, but will leave connections and loops at the default font size. For more information on how to change the `element` selector to something even more specific (for example, just the elements whose Element Type is "Organization"), see [our full guide on selectors](../overview/advanced-editor-hub/selectors.md).
+Note that the code snippet above will only change the font size for elements, but will leave connections and loops at the default font size. For more information on how to change the `element` selector to something even more specific (for example, just the elements whose Element Type is "Organization"), see [our full guide on selectors](../guides/selectors.md).

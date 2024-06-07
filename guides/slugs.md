@@ -3,7 +3,7 @@
 In Kumu, a **slug** is a piece of text that has had all letters converted to lowercase, all special characters removed, and all spaces replaced with hyphens. Kumu uses slugs in many different places:
 
 * In the URL bar
-* Inside of [selectors](../overview/advanced-editor-hub/selectors.md)
+* Inside of [selectors](selectors.md)
 * In [Markdown](markdown.md)
 * In the [Advanced Editor](../overview/view-editors.md#advanced-editor)
 

@@ -29,7 +29,7 @@ Cluster by field:
 
 ```
 
-Cluster using custom [selectors](../../overview/advanced-editor-hub/selectors.md#selectors):
+Cluster using custom [selectors](../selectors.md#selectors):
 
 ```scss
 @controls {

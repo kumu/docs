@@ -162,7 +162,7 @@ selector {
 }
 ```
 
-`selector` can be replaced with any valid [selector](../overview/advanced-editor-hub/selectors.md), and you can read our [property reference](../overview/advanced-editor-hub/property-reference.md) to find documentation on `properties` and their possible `values`.
+`selector` can be replaced with any valid [selector](selectors.md), and you can read our [property reference](../overview/advanced-editor-hub/property-reference.md) to find documentation on `properties` and their possible `values`.
 
 For example, if you were mapping a network of politicians, you could add a field called "Political Party", fill out the data for each element, then use this code to add a few decorations:
 

@@ -3,7 +3,7 @@
 In the profile of each element in your map, it's possible to list that element's connections, using three tools:
 
 * Kumu's [list widget](../guides/widgets.md#lists)
-* [`:from` and `:to` pseudo-selectors](../overview/advanced-editor-hub/selectors.md#connected-from-and-connected-to)
+* [`:from` and `:to` pseudo-selectors](../guides/selectors.md#connected-from-and-connected-to)
 * A field with its **Type** set to **Text** (e.g. the **Description** field)
 
 ![List of element's connections in its profile](../images/list-widget-element-connections.png)
@@ -35,7 +35,7 @@ Again, replace `My Element Label` in all of these examples with the actual label
 {% hint style="warning" %}
 If your map has multiple elements with the same label, your list widget will list all connections to or from _any_ of the elements with that label. To avoid that, you would need to replace `[label = 'My Element Label']` with a more specific selector.
 
-[Visit the full guide on selectors](../overview/advanced-editor-hub/selectors.md) or [contact support](mailto:support@kumu.io) to learn how to write a more specific selector for your use case.
+[Visit the full guide on selectors](../guides/selectors.md) or [contact support](mailto:support@kumu.io) to learn how to write a more specific selector for your use case.
 {% endhint %}
 
 ## Use Google Sheets to generate list widget code for all elements

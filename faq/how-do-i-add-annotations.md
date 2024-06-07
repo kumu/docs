@@ -32,5 +32,5 @@ annotation {
 `layer: background` allows other items (like connections) to cross over the annotation, and it prevents people from clicking the annotation. If you ever need to move the annotation again, you can remove that line of code, move the element, then add the code back in.
 
 {% hint style="info" %}
-You don't have to use the type `Annotation` for your annotations—you can use any element type, as long as the [selector](../overview/advanced-editor-hub/selectors.md) (e.g. `annotation`) in your Advanced Editor code matches what you chose.
+You don't have to use the type `Annotation` for your annotations—you can use any element type, as long as the [selector](../guides/selectors.md) (e.g. `annotation`) in your Advanced Editor code matches what you chose.
 {% endhint %}

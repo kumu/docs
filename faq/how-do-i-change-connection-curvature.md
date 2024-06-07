@@ -22,7 +22,7 @@ After you fill out data in the profiles, you can use the [Advanced Editor](../ov
 
 ## Change connection curvature in the Advanced Editor
 
-To change connection curvature in the Advanced Editor, you'll need to write a [selector](../overview/advanced-editor-hub/selectors.md) to tell Kumu which connections you are changing, then use the `curvature` property to set the curvature. Here's an example:
+To change connection curvature in the Advanced Editor, you'll need to write a [selector](../guides/selectors.md) to tell Kumu which connections you are changing, then use the `curvature` property to set the curvature. Here's an example:
 
 ```scss
 connection["connection type"="shared resources"] {

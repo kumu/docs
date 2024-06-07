@@ -147,7 +147,7 @@ selector {
 }
 ```
 
-`selector` can be replaced with any valid [selector](advanced-editor-hub/selectors.md), and you can read our [property reference](advanced-editor-hub/property-reference.md) to find documentation on `properties` and their possible `values`. You can also use some standard [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) throughout the Advanced Editor.
+`selector` can be replaced with any valid [selector](../guides/selectors.md), and you can read our [property reference](advanced-editor-hub/property-reference.md) to find documentation on `properties` and their possible `values`. You can also use some standard [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) throughout the Advanced Editor.
 
 ### At-rules
 

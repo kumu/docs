@@ -37,7 +37,7 @@ Showcase by field:
 
 ```
 
-Showcase using custom [selectors](../../overview/advanced-editor-hub/selectors.md#selectors):
+Showcase using custom [selectors](../selectors.md#selectors):
 
 ```scss
 @controls {
@@ -84,7 +84,7 @@ Showcase using custom [selectors](../../overview/advanced-editor-hub/selectors.m
 If you want to use custom selectors to build the showcase, you'll need to list each option out separately. The options are defined by `option` blocks nested within the control and each `option` supports the following properties:
 
 * `label` the text to display for that option
-* `selector` the [selector](../../overview/advanced-editor-hub/selectors.md#selectors) to use for the showcase
+* `selector` the [selector](../selectors.md#selectors) to use for the showcase
 * `default`
   * `true` value is selected by default
   * `false` value is unselected by default

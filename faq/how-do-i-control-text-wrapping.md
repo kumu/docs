@@ -16,7 +16,7 @@ And here's a screenshot of that same element, with a double-space between the wo
 
 ![element with unusually long label broken up using double-spaces](../images/unusually-long-label-double-space.png)
 
-For a solution that's a bit more automated, and doesn't require you to open each profile and tinker with double-spaces in every label, you can use the `text-overflow` property in the Advanced Editor. You can use `text-overflow` inside of [`@settings`](../guides/default-view-settings.md#change-default-view-settings-in-the-advanced-editor), or inside of a block that starts with any [selector](../overview/advanced-editor-hub/selectors.md).
+For a solution that's a bit more automated, and doesn't require you to open each profile and tinker with double-spaces in every label, you can use the `text-overflow` property in the Advanced Editor. You can use `text-overflow` inside of [`@settings`](../guides/default-view-settings.md#change-default-view-settings-in-the-advanced-editor), or inside of a block that starts with any [selector](../guides/selectors.md).
 
 ```scss
 @settings {

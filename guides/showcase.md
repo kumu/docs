@@ -14,7 +14,7 @@ Click the settings icon ![](../icons/sliders-h.svg)on the right side of your map
 
 ![Showcase basic editor](../images/overview-showcase.png)
 
-Click the rocketship icon to build the selection of items that you want to showcase, or type a [selector](../overview/advanced-editor-hub/selectors.md) into the box.
+Click the rocketship icon to build the selection of items that you want to showcase, or type a [selector](selectors.md) into the box.
 
 ## Showcase in the Advanced Editor
 
@@ -26,7 +26,7 @@ To activate showcase using the advanced editor, add the `showcase` property with
 }
 ```
 
-In the code above, `person` is a selector that will showcase all elements with the element type "Person" on the map. Replace `person` with any [selector](../overview/advanced-editor-hub/selectors.md) to showcase different data.
+In the code above, `person` is a selector that will showcase all elements with the element type "Person" on the map. Replace `person` with any [selector](selectors.md) to showcase different data.
 
 You can further customize what is included in the showcase by changing the showcase mode:
 

@@ -84,7 +84,7 @@ To fine-tune your cluster settings in the Basic Editor, click the settings icon 
 
 ![Cluster basic editor](../images/overview-cluster.png)
 
-Click the **Add rule** button to create a new cluster rule. Then, click next to "Connect" to bring up the Selector Builder, which allows you to narrow the [selection](../overview/advanced-editor-hub/selectors.md) of elements that will be clustered.
+Click the **Add rule** button to create a new cluster rule. Then, click next to "Connect" to bring up the Selector Builder, which allows you to narrow the [selection](selectors.md) of elements that will be clustered.
 
 Click next to "by" to choose which field those elements will be clustered by, and click next to "as" to change the element type that will be assigned to the elements created by clustering. (Wondering when it's useful to fine-tune the element type? [Jump to the explanation](clustering.md#when-is-it-useful-to-fine-tune-element-type).)
 
@@ -100,7 +100,7 @@ In the Advanced Editor, here's the syntax for fine-tuned clustering:
 }
 ```
 
-Replace `selector` with any valid [selector](../overview/advanced-editor-hub/selectors.md). Replace `Field` with the name of the field you want to cluster by, and replace `Type` with the value that Kumu should set as the element type for each element created by clustering (make sure your `Field` and `Type` are wrapped in double quotes).
+Replace `selector` with any valid [selector](selectors.md). Replace `Field` with the name of the field you want to cluster by, and replace `Type` with the value that Kumu should set as the element type for each element created by clustering (make sure your `Field` and `Type` are wrapped in double quotes).
 
 (Wondering when it's useful to fine-tune the element type? [Jump to the explanation](clustering.md#when-is-it-useful-to-fine-tune-element-type).)
 

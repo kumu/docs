@@ -143,7 +143,7 @@ For columns with multiple values in a single cell (such as tags, skills, hobbies
 
 #### 4. Try to be selector friendly
 
-[Selectors](../../overview/advanced-editor-hub/selectors.md) provide a simple way to slice up your data. By keeping your field names and values selector-friendly, you'll be able to write much shorter queries.
+[Selectors](../selectors.md) provide a simple way to slice up your data. By keeping your field names and values selector-friendly, you'll be able to write much shorter queries.
 
 Use single words for your element types, connection types, and tags. By doing so you'll be able to use shorthand selectors in the [Advanced Editor](../../overview/view-editors.md#advanced-editor), such as:
 

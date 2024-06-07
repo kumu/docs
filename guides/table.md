@@ -14,7 +14,7 @@ Table allows you to view and edit your map's underlying data as a spreadsheet. Y
 
 **Customize which fields are included.** Click on the settings icon ![](../icons/sliders-h.svg)in the upper right to open the sidebar, then select the fields you want to see in the table.
 
-**Filter the results.** Enter a search term or a [selector](../overview/advanced-editor-hub/selectors.md) in the upper left to narrow down the results. The filter will search across all fields included in the table.
+**Filter the results.** Enter a search term or a [selector](selectors.md) in the upper left to narrow down the results. The filter will search across all fields included in the table.
 
 **Sort a column.** Click on the header of any column to sort that column. Click again to reverse the sort order.
 

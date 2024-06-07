@@ -15,7 +15,7 @@ There are just few more things you should know about the valid values listed bel
 
 | Where you see... | You can use...                                                                               |
 | ---------------- | -------------------------------------------------------------------------------------------- |
-| `selector`       | Any [selector](selectors.md)                                                                 |
+| `selector`       | Any [selector](../../guides/selectors.md)                                                    |
 | `color`          | Any CSS web color or hex color code                                                          |
 | `number`         | Any number                                                                                   |
 | `'field name'`   | The name of any of your [fields](../../guides/fields.md), wrapped in single or double quotes |

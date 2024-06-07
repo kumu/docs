@@ -122,7 +122,7 @@ If you need to adjust the position of the image element in the map, you'll need 
 
 **Notes:**
 
-* "background" is the label of the element that will contain the background image in this example, but the label can be anything you want. Just make sure you update the `#background` [selector](../overview/advanced-editor-hub/selectors.md) in your code to match your new label.
+* "background" is the label of the element that will contain the background image in this example, but the label can be anything you want. Just make sure you update the `#background` [selector](selectors.md) in your code to match your new label.
 * `image-resolution` can have values of `auto`, `original`, or any number. The number you include (e.g. `1000`) will adapt the resolution for an image of that width (1000px).
 
 {% hint style="info" %}

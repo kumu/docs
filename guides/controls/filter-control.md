@@ -34,7 +34,7 @@ Filter by field, basic syntax:
 }
 ```
 
-Filter using custom [selectors](../../overview/advanced-editor-hub/selectors.md#selectors):
+Filter using custom [selectors](../selectors.md#selectors):
 
 ```scss
 @controls {
@@ -79,7 +79,7 @@ Filter using custom [selectors](../../overview/advanced-editor-hub/selectors.md#
 If you don't supply a field to filter by, each option must be listed separately. The available options are defined by `option` blocks nested within the control. Each `option` supports the following properties:
 
 * `label` the text to display for that option
-* `selector` the [selector](../../overview/advanced-editor-hub/selectors.md#selectors) to use for the filter
+* `selector` the [selector](../selectors.md#selectors) to use for the filter
 * `default`
   * `true` value is selected by default
   * `false` value is unselected by default
