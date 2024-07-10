@@ -23,7 +23,7 @@ Surveys ask participants both relational and demographic questions. There are a 
 * [Survey Monkey](https://www.surveymonkey.com/) (Free & Paid)
 * [Survey Gizmo](https://www.surveygizmo.com) (Free & Paid)
 
-You can also find survey tools built specifically for social network analysis, for example, [sumApp](http://greaterthanthesum.com/sumapp/), [Polinode](https://polinode.com/), and Kumu's sister product [Weavr](https://weavr.app/about).
+You can also find survey tools built specifically for social network analysis, for example [sumApp](http://greaterthanthesum.com/sumapp/) or [Polinode](https://polinode.com/).&#x20;
 
 Spend time thinking deeply about the questions in your survey. You can ask open-ended questions:
 
