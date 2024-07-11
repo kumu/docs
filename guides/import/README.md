@@ -6,7 +6,13 @@ Kumu's import feature makes it possible to map your existing data, without recre
 Before you import your data, make sure to [structure it for Kumu to understand](import.md).
 {% endhint %}
 
-Kumu offers three different options for importing data:&#x20;
+{% embed url="https://www.youtube.com/watch?v=BltdbB9SYFI" %}
+Full video on importing data
+{% endembed %}
+
+## Three options for importing data
+
+Kumu offers three ways to import data. Read about them below!
 
 ## **Excel /CSV**&#x20;
 
