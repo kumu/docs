@@ -14,7 +14,7 @@ If you added legend entries using the decoration builder or the Advanced Editor,
 
 ![Cascading decorations](../images/cascading-decorations.gif)
 
-Here's an alternative option to the above:
+Here's an alternative option to the above
 
 When you use the [Color by](../guides/data-driven-decorations.md#color-by) tool to color code your elements, legend entries are created automatically, but not always in the order you might want.
 
