@@ -6,6 +6,10 @@ When we wrote these docs, we felt it best to dedicate an article to each individ
 
 To solve that, we created this article, which links to all of the places where we explain how to use the Advanced Editor.
 
+{% hint style="info" %}
+More of a visual learner? [Check out the webinar "Intro to the Advanced Editor" here. ](https://www.youtube.com/watch?v=iPgLHTsQZ\_w\&t)
+{% endhint %}
+
 We ordered and organized these links based on what we feel is the best path for a structured learning experience.
 
 ## Advanced Editor basics
@@ -17,7 +21,9 @@ We ordered and organized these links based on what we feel is the best path for 
   * [Selector reference](selector-reference.md)
   * [Property reference](property-reference.md)
 
-\* It's best to briefly read about selectors, the selector reference, and the property reference, then frequently revisit those guides while you work with the features listed in the next few sections.
+{% hint style="info" %}
+It's best to briefly read about selectors, the selector reference, and the property reference, then frequently revisit those guides while you work with the features listed in the next few sections.
+{% endhint %}
 
 ## Most commonly used features
 
