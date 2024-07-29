@@ -1,8 +1,10 @@
 # How do I customize the order of my legend?
 
-#### Reordering legend entries
+There are three ways to re-order legend entries, depending on how they were added.&#x20;
 
-There are two ways to re-order legend entries, depending on how they were added. If you added legend entries using the **Color by** tool, follow these steps to change the order:
+#### Change the order of the fields
+
+If you added legend entries using the **Color by** tool in the Basic Editor, follow these steps to change the order:
 
 1. Click the menu icon ![](../icons/bars.svg) to bring up the [project settings](../overview/settings.md#project-settings)
 2. Select **Fields** from the sidebar on the left
@@ -10,18 +12,21 @@ There are two ways to re-order legend entries, depending on how they were added.
 4. Drag and drop field values to change their order (see below gif)
 5. Click **Save** at the bottom of the field settings to save your changes, then reload the page
 
+#### Change the order of your customized decoration styles
+
+When you create a customized styling rule for each legend entry, you can drag them in the right order after. Here's how to do this:
+
+1. If applicable, first set the **Color by** tool in the Basic Editor back to "select a field" to turn it off.
+2. Use the [element decoration builder](../guides/data-driven-decorations.md#use-decoration-builders-to-create-custom-decorations) (click Decorate Elements in the Basic Editor)to recreate each color coding rule individually. Instead of using **Color by** to automatically color by Type, you would instead create a separate, custom decoration for each possible value in the Type field. Be sure to fill out the **Label for legend** box at the bottom of the decoration builder to make sure rules are added to the legend!
+3. Once you've created all the colors, you can drag & drop them in the right order:&#x20;
+
 ![Cascading decorations](../images/cascading-decorations.gif)
 
-Here's an alternative option to the above:
 
-When you use the [Color by](../guides/data-driven-decorations.md#color-by) tool to color code your elements, legend entries are created automatically, but not always in the order you might want.
 
-There are two ways to customize the order of your legend entries. The simpler solution, appropriate in most cases, is:
+#### Change the order in the Advanced Editor
 
-1. Set the **Color by** tool to "select a field" to turn it off.
-2. Use the [element decoration builder](../guides/data-driven-decorations.md#use-decoration-builders-to-create-custom-decorations) to recreate each color coding rule individually. For example, instead of using **Color by** to automatically color by Type, you would instead create a separate, custom decoration for each possible value in the Type field. Be sure to fill out the **Label for legend** box at the bottom of the decoration builder to make sure rules are added to the legend.
-
-Again, this is the fastest and most straightforward solution in most cases, but it's also possible to customize the order of **Color by** color-coded legend entries, using the Advanced Editor:
+It's also possible to customize the order of **Color by** color-coded legend entries, using the Advanced Editor:
 
 ```scss
 @settings {
