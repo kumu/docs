@@ -36,7 +36,7 @@ You can define your own color palette for elements by using a comma separated li
 
 ```scss
 @settings {
-  element-color: categorize("community", #5BC1AE, #009CDB, #F6882B, #8E278F)
+  element-color: categorize("community", #5BC1AE, #009CDB, #F6882B, #8E278F);
 }
 ```
 
@@ -54,7 +54,7 @@ It's also possible to specify which value should receive a certain color for ele
 
 ```scss
 @settings {
-  element-color: categorize("element type", #5BC1AE "Person", #009CDB "Organization", #F6882B "Region")
+  element-color: categorize("element type", #5BC1AE "Person", #009CDB "Organization", #F6882B "Region");
 }
 ```
 
