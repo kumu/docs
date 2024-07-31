@@ -12,7 +12,9 @@ To make sure you have a solid foundation of knowledge to build on, you can use t
 
 In the past, we've run live webinars to work through each of these questions. You can check out a live recording of a Kumu 101 webinar below, or, if you would rather get the answers in writing, keep reading!
 
-{% embed url="https://www.youtube.com/embed/icDP7ohfABQ" %}
+
+
+{% embed url="https://www.youtube.com/watch?t=&v=pCfTOPLn220" %}
 
 ## What are the main use cases for Kumu?
 

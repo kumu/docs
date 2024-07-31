@@ -12,6 +12,10 @@ This overview is a great place to start if you're new to Kumu. Take some time to
 * [Refine your view](first-steps.md#refine-your-view)
 * [Add a contributor](first-steps.md#add-a-contributor)
 
+##
+
+{% embed url="https://www.youtube.com/watch?t=&v=pCfTOPLn220" %}
+
 ## Create an account
 
 Create an account by visiting [https://kumu.io/join](https://kumu.io/join). You'll use this account to sign in to Kumu and manage all of your projects inside of [workspaces](../overview/accounts-and-workspaces.md).
