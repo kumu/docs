@@ -1,10 +1,8 @@
 # How do I restructure my adjacency matrix?
 
-If your data is structured as an [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency\_matrix), the matrix will need to be restructured as a list of connections, before it can be [imported](../guides/import/). Restructuring an adjacency matrix can be complex, so we created two tools to help you.
+If your data is structured as an [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency\_matrix), the matrix will need to be restructured as a list of connections, before it can be [imported](../guides/import/). Restructuring an adjacency matrix can be complex, so we created a tool to help you.&#x20;
 
-The first tool is [a website](https://matrix-expander.netlify.com/) where you can upload your matrix, click a button, and download a CSV, XLSX, or JSON file that you can drag-and-drop into Kumu to import the data.
-
-The second tool is a custom Google Sheets formula called `KUMU_CONNECTION_LIST` that will convert any adjacency matrix into a connection list, which can then be imported into Kumu.
+It's a custom Google Sheets formula called `KUMU_CONNECTION_LIST` that will convert any adjacency matrix into a connection list, which can then be imported into Kumu.
 
 To get access to the custom formula, you can open our ["With custom Kumu formulas" Google Sheet](https://docs.google.com/spreadsheets/d/1qRhkn6qECtBaAncWykMa0hAG97jPK6q\_bODrwntqze8/edit?usp=sharing), then click "File" > "Make a copy" to create your own editable copy of the sheet.
 
