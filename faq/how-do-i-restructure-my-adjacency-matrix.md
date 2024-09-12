@@ -11,7 +11,7 @@ Delete all the example tabs in your spreadsheet, then create a new tab, and put 
 ## Video explanation
 
 {% embed url="https://youtu.be/2hNgEqzIjQA" %}
-How to use the matrix expander
+Note: the first tool in this video is currently unavailable. Please refer to the second tool (custom Google Sheets) at 01:41 of the video.
 {% endembed %}
 
 ## Sample usages

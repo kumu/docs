@@ -58,6 +58,13 @@ The stock and flow diagram is a common tool in system dynamics. These diagrams c
 
 The stock and flow template offers numerous default legend entries that help you visualize the flows in your map, such as "Stock", "Flow", "Variable", "Source", "Sink" etc. (learn how to delete these from your legend [here](legends.md#removing-legend-entries)).
 
+**How to use**\
+To use the stock & flow template, first create your elements and connections. Once the basic structure of your stock & flow diagram is in place, click on each entity and edit the element type in the profile (below the label) to the pre-defined options, e.g. "stock", "flow", "variable" etc. Choosing one of the options will automatically update the visual of your stock & flow map.&#x20;
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-09-12 at 3.16.46 PM.png" alt=""><figcaption></figcaption></figure>
+
 ## Geo Template
 
 The geo template lets you build your visualizations on top of geographic maps. When you’re using the geo template, Kumu will automatically position your elements on a world map, using latitude & longitude, addresses, or even just cities and countries. Visit [this guide](templates/geo.md) to learn more about the geo template.
