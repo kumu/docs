@@ -4,6 +4,11 @@ Controls allow you to customize how people interact with your maps by adding but
 
 {% embed url="https://www.youtube.com/embed/eBo1St2laTw" %}
 
+{% hint style="info" %}
+Want to dive a little deeper into controls? \
+Check out our [Taking Control of Kumu webinar](https://youtu.be/H4mPfRw2cqM)
+{% endhint %}
+
 ### Add controls through the Basic Editor
 
 You can use the [Basic Editor](../overview/view-editors.md#basic-editor) to add a few simple types of controls to your map. Click the settings icon ![](../icons/sliders-h.svg) to open the editor, then click **Add custom control**. Kumu will open up the controls builder, with a few options pre-selected:
@@ -170,8 +175,8 @@ When you're adding [controls](controls.md) through the Basic Editor, you might s
 
 **Basic Editor**
 
-1. Click the settings icon on the right ![](../icons/sliders-h.svg) to open the Basic Editor, then scroll down to "Add custom control"**.**  You'll see all existing controls listed out below.
-2. When hovering over an existing control, click on the edit pencil to edit your existing control, or click on the trash icon to delete it.&#x20;
+1. Click the settings icon on the right ![](../icons/sliders-h.svg) to open the Basic Editor, then scroll down to "Add custom control"**.** You'll see all existing controls listed out below.
+2. When hovering over an existing control, click on the edit pencil to edit your existing control, or click on the trash icon to delete it.
 
 **Advanced Editor**
 
@@ -186,10 +191,10 @@ Open up the Advanced Editor (click Settings ![](<../.gitbook/assets/image (1) (1
 
 If you don't want _any_ controls or "No values found for \[some field name]" messages on your map, simply delete the entire `@controls` block, then click "Save" at the bottom of the editor.
 
-If you have some controls in there that you would like to preserve, you'll first need to learn the basics of how to read `@controls` code, so that you can tell which controls you want to delete and which you want to keep.&#x20;
+If you have some controls in there that you would like to preserve, you'll first need to learn the basics of how to read `@controls` code, so that you can tell which controls you want to delete and which you want to keep.
 
-* If you want to delete all controls in a certain region of your map, then delete all the code saying `top`, or `top-left`, or `bottom` etc. Delete the whole block to delete all the controls in that region.&#x20;
-* If you want to delete just one control, locate it in the list of your controls and delete that whole block. You can recognize a control block by the fact that the first line is `filter`, or `showcase`, or `cluster`, or `focus`.&#x20;
+* If you want to delete all controls in a certain region of your map, then delete all the code saying `top`, or `top-left`, or `bottom` etc. Delete the whole block to delete all the controls in that region.
+* If you want to delete just one control, locate it in the list of your controls and delete that whole block. You can recognize a control block by the fact that the first line is `filter`, or `showcase`, or `cluster`, or `focus`.
 
 You can learn more about reading `@controls` code in [our full guide on controls](controls.md#add-controls-through-the-advanced-editor). Of course you can always send us an email at support@kumu.io to help out!
 
