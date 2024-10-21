@@ -46,7 +46,7 @@ Inside the profile, you can add and edit information about the selected item. Yo
 * ![](../icons/comments.svg) Attach a comment to your selected item
 * ![](../icons/thumbtack.svg) Pin an element in a [fixed position](../guides/layouts/fixed.md)
 * ![](../icons/exchange-alt.svg) Change [connection direction](../faq/how-do-I-add-arrows-to-my-connections.md)
-* ![](../icons/hourglass-half.svg) Add [delay markings](../guides/system-mapping.md#add-delay-markings)
+* ![](../icons/hourglass-half.svg) Add [delay markings](../disciplines/system-mapping.md#add-delay-markings)
 * ![](../icons/crosshairs.svg) Activate [focus](../guides/focus.md)
 * ![](../icons/tint.svg) [Decorate](../guides/decorate.md) the item
 * ![](../icons/trash.svg) [Delete](../faq/how-do-i-delete-data-from-my-project.md) the item

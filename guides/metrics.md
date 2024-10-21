@@ -1,82 +1,51 @@
 # Metrics
+
 Kumu has a powerful metrics engine which includes a number of popular social network analysis (SNA) metrics as well as community detection and other helpful calculations.
 
-![metrics tool](/images/metrics-degree.png)
+![metrics tool](../images/metrics-degree.png)
 
 ## How to run basic metrics
+
 1. Click on the Metrics icon in the bottom right corner of the map
 2. Select "Social Network Analysis"
 3. Choose a metric from the dropdown list
 4. Click the large button "Discover ..." (e.g. "Discover the connectors/hubs" for the "degree" metric)
 
 **Good to know:**
-- To rerun metrics (for example, if you added new elements and connections), just follow the same steps again.
-- Metrics will not be calculated for elements that are filtered out of the map.
+
+* To rerun metrics (for example, if you added new elements and connections), just follow the same steps again.
+* Metrics will not be calculated for elements that are filtered out of the map.
 
 {% embed url="https://www.youtube.com/embed/1o0AraW1MbM" %}
 
 ## SNA metrics
+
 You can run the following metrics in Kumu:
 
-<table>
-<tbody>
-<tr>
-<th>Metric</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>Degree</td>
-<td>Degree centrality is the simplest of the centrality metrics, counting the number of connections an element has. In general, elements with high degree are the local connectors / hubs, but aren't necessarily the best connected to the wider network.</td>
-</tr>
-<tr>
-<td>Closeness centrality</td>
-<td>Closeness measures the distance each element is from all other elements. In general, elements with high closeness can spread information to the rest of the network most easily and usually have high visibility into what is happening across the network.</td>
-</tr>
-<tr>
-<td>Betweenness centrality</td>
-<td>Betweenness centrality measures how many times an element lies on the shortest path between two other elements. In general, elements with high betweenness have more control over the flow of information and act as key bridges within the network. They can also be potential single points of failure.</td>
-</tr>
-<tr>
-<td>Size</td>
-<td>Size measures the number of neighbors an elements has (plus the element itself). It's similar to degree, but counts the number of elements instead of connections.</td>
-</tr>
-<tr>
-<td>Indegree</td>
-<td>Indegree measures the number of incoming connections for an element. In general, elements with high indegree are the leaders, looked to by others as a source of advice, expertise, or information.</td>
-</tr>
-<tr>
-<td>Outdegree</td>
-<td>Outdegree measures the number of outgoing connections for an element. In general, elements with high outdegree can reach a high number of elements and spark the flow of information across a network (but may not be the most efficient at spreading the information).</td>
-</tr>
-<tr>
-<td>Eigenvector</td>
-<td>Eigenvector centrality measures how well connected an element is to other well connected elements. In general, elements with high eigenvector centrality are the leaders of the network, though they may not have the strongest local influence.</td>
-</tr>
-<tr>
-<td>Reach (two-step out)</td>
-<td>Reach measures the portion of the network within two steps of an element. In general, elements with high reach can spread information through the network through close friend-of-a-friend contacts.</td>
-</tr>
-<tr>
-<td>Reach efficiency</td>
-<td>Reach efficiency normalizes reach by dividing it by size (number of neighbors). In general, elements with high reach efficiency are less connected but gain more exposure through each direct relationship.</td>
-</tr>
-<tr>
-<td>MICMAC</td>
-<td>MICMAC is a system analysis that explores element exposure (how much a given element is affected by other elements) and influence (how much a given element affects other elements). When plotted on an XY axis, these scores help you identify potential leverage points within the overall system.</td>
-</tr>
-
-</tbody></table>
+| Metric                 | Description                                                                                                                                                                                                                                                                                               |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Degree                 | Degree centrality is the simplest of the centrality metrics, counting the number of connections an element has. In general, elements with high degree are the local connectors / hubs, but aren't necessarily the best connected to the wider network.                                                    |
+| Closeness centrality   | Closeness measures the distance each element is from all other elements. In general, elements with high closeness can spread information to the rest of the network most easily and usually have high visibility into what is happening across the network.                                               |
+| Betweenness centrality | Betweenness centrality measures how many times an element lies on the shortest path between two other elements. In general, elements with high betweenness have more control over the flow of information and act as key bridges within the network. They can also be potential single points of failure. |
+| Size                   | Size measures the number of neighbors an elements has (plus the element itself). It's similar to degree, but counts the number of elements instead of connections.                                                                                                                                        |
+| Indegree               | Indegree measures the number of incoming connections for an element. In general, elements with high indegree are the leaders, looked to by others as a source of advice, expertise, or information.                                                                                                       |
+| Outdegree              | Outdegree measures the number of outgoing connections for an element. In general, elements with high outdegree can reach a high number of elements and spark the flow of information across a network (but may not be the most efficient at spreading the information).                                   |
+| Eigenvector            | Eigenvector centrality measures how well connected an element is to other well connected elements. In general, elements with high eigenvector centrality are the leaders of the network, though they may not have the strongest local influence.                                                          |
+| Reach (two-step out)   | Reach measures the portion of the network within two steps of an element. In general, elements with high reach can spread information through the network through close friend-of-a-friend contacts.                                                                                                      |
+| Reach efficiency       | Reach efficiency normalizes reach by dividing it by size (number of neighbors). In general, elements with high reach efficiency are less connected but gain more exposure through each direct relationship.                                                                                               |
+| MICMAC                 | MICMAC is a system analysis that explores element exposure (how much a given element is affected by other elements) and influence (how much a given element affects other elements). When plotted on an XY axis, these scores help you identify potential leverage points within the overall system.      |
 
 {% hint style="info" %}
-Looking for group metrics that describe your entire network? Check out the <a class="alert-link" href="/guides/controls/sna-dashboard-control.md">SNA Dashboard control</a>.
+Looking for group metrics that describe your entire network? Check out the [SNA Dashboard control](controls/sna-dashboard-control.md).
 {% endhint %}
 
 ### Weighted metrics
+
 Certain fields also support weighting so you can include fields like strength and frequency in the calculations. Betweenness, closeness and degree use connection fields for weighting while size and reach use element fields for weighting.
 
 For the metrics that allow weighting, you'll see an Advanced Options link once you select the metric:
 
-![Weighted metrics](/images/weighted-metrics.jpg)
+![Weighted metrics](../images/weighted-metrics.jpg)
 
 You can choose any numerical field for the weighting, but make sure you have values saved for the elements or connections based on which is used for the weighting. If you don't see the field you want to use listed, make sure the type for that field is set to numeric.
 
@@ -86,7 +55,7 @@ By default, all metrics are saved to a field with the name of the metric (betwee
 
 {% embed url="https://www.youtube.com/embed/YZuJheC3zNc" %}
 
-**Using metrics for a social network analysis?** Don't miss our [SNA / Network Mapping guide](sna-network-mapping.md).
+**Using metrics for a social network analysis?** Don't miss our [SNA / Network Mapping guide](../disciplines/sna-network-mapping.md).
 
 ## Community detection
 
@@ -96,10 +65,10 @@ Kumu includes support for community detection based on the [SLPA algorithm](http
 
 Click the Metrics icon in the lower right corner of your map and choose "community detection". If you haven't run community detection before, clicking this will automatically detect communities. If you're already run community detection, clicking the icon will bring you to a window showing you the previous results.
 
-<img src="../images/community-results.jpg" class="plain">
+![](../images/community-results.jpg)
 
 {% hint style="info" %}
-Good to know: Connection direction <em>does</em> influence community detection.
+Good to know: Connection direction _does_ influence community detection.
 {% endhint %}
 
 ### Reviewing community breakdowns
@@ -113,16 +82,18 @@ When analyzing the communities, you may notice that a common theme runs across a
 Don't forget to click save once you're done!
 
 {% hint style="info" %}
-<b>Note:</b> Some community detection algorithms treat communities as black and white—you're either in, or you're out. While this helps simplify the analysis, it throws away a lot of useful information about the overlapping community structures within the network.<br><br>The SLPA algorithm preserves this data, and we believe the breakdown is even more valuable than simply knowing the primary community an element belongs to.
+Note: Some community detection algorithms treat communities as black and white—you're either in, or you're out. While this helps simplify the analysis, it throws away a lot of useful information about the overlapping community structures within the network.\
+\
+The SLPA algorithm preserves this data, and we believe the breakdown is even more valuable than simply knowing the primary community an element belongs to.
 {% endhint %}
 
 ### Color by communities
 
 First, make sure to save the community results. This will save the best match for each element to the "Community" field so you can use the community values to decorate your maps.
 
-![Les Miserables](/images/les-mis.jpg)
+![Les Miserables](../images/les-mis.jpg)
 
-To quickly color-code elements by community, you can use the [Color by](/guides/decorate.md#color-by) tool in the Basic Editor.
+To quickly color-code elements by community, you can use the [Color by](decorate.md#color-by) tool in the Basic Editor.
 
 ### Rerun from scratch (optional)
 
@@ -131,5 +102,3 @@ When you rerun community detection, we'll use the existing communities to seed t
 Remember, not all networks have meaningful community structure! Use the default settings and try to avoid fiddling too much just to get a pretty picture.
 
 Also remember that the science of community detection is still evolving. Use the results from the algorithm to ask better questions about your maps, but don't take them as fact.
-
-

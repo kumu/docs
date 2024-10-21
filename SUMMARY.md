@@ -30,6 +30,12 @@
   * [Property reference](overview/advanced-editor-hub/property-reference.md)
   * [Selector reference](overview/advanced-editor-hub/selector-reference.md)
 
+## DISCIPLINES
+
+* [SNA / Network Mapping](disciplines/sna-network-mapping.md)
+* [Systems mapping](disciplines/system-mapping.md)
+* [Systems Practice workbook](disciplines/systems-practice.md)
+
 ## Guides
 
 * [Activity feed](guides/activity-feed.md)
@@ -59,10 +65,6 @@
   * [Label templates](guides/label-templates.md)
   * [Popovers](guides/popovers.md)
 * [Default view settings](guides/default-view-settings.md)
-* [Disciplines](guides/disciplines/README.md)
-  * [SNA / Network Mapping](guides/sna-network-mapping.md)
-  * [System mapping](guides/system-mapping.md)
-  * [Systems practice](guides/systems-practice.md)
 * [Export](guides/export.md)
 * [Fields](guides/fields.md)
   * [Computed fields](guides/computed-fields.md)

@@ -13,7 +13,7 @@ Templates provide an easy way to have a great looking map right from the start. 
 
 **Jump to:**
 
-* [Systems template](templates.md#system-template)
+* [Systems template](templates.md#systems-template)
 * [Causal loop template](templates.md#causal-loop-template)
 * [Stakeholder template](templates.md#stakeholder-template)
 * [Big Data Template](templates.md#big-data-template)

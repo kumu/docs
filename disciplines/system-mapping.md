@@ -1,25 +1,31 @@
-# System mapping
+# Systems mapping
 
-Looking to create engaging system maps with the power to change hearts and minds? You've come to the right place. Kumu enables you to build interactive maps with narratives, links, video and other background for each element, connection, and loop in the map.
+Looking to create engaging system maps with the power to change hearts and minds? You've come to the right place! Kumu enables you to build interactive maps with narratives, links, video and other background for each element, connection, and loop in the map.
 
-Need more background about system mapping before you get started? Check out the [Systems Practice course on +Acumen](https://www.plusacumen.org/courses/systems-practice) or download [The Omidyar Group's Systems Practice workbook](../content/Workbook-012617.pdf).
+{% hint style="info" %}
+Need more background about system mapping before you get started? \
+Check out the [Systems Practice course on +Acumen](https://www.plusacumen.org/courses/systems-practice) or download [The Omidyar Group's Systems Practice workbook](../content/Workbook-012617.pdf).
+{% endhint %}
 
-![systems practice workbook](../images/tog-systems-practice-workbook.jpg)
+{% embed url="https://www.youtube.com/watch?t=&v=wrBDy91M7-0" %}
 
-You can also check out some of the Kumu team's thoughts on the system mapping process in our two-part blog post, "Making Systems More Approachable".
+You can also check out some of the Kumu team's thoughts on the system mapping process in one of the following blogs:&#x20;
 
-* [Part 1](https://blog.kumu.io/making-systems-more-approachable-37896c5cd482)
-* [Part 2](https://blog.kumu.io/making-systems-more-approachable-part-2-94c5b552ed3d)
+* [Making Systems More Approachable Part 1](https://blog.kumu.io/making-systems-more-approachable-37896c5cd482)
+* [Making Systems More Approachable Part 2](https://blog.kumu.io/making-systems-more-approachable-part-2-94c5b552ed3d)
+* [Systems Practice, Abridged](https://blog.kumu.io/systems-practice-abridged-a5dc8f0beda6)
+
+Now, let's get practical!
 
 ## Pick a template
 
 Kumu comes with several pre-built templates that help you hit the ground running. When you're creating a new system map, you'll be prompted to pick one of these templates—we suggest you start with our system template.
 
-{% embed url="https://player.vimeo.com/video/120851694" %}
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-21 at 3.17.00 PM.png" alt=""><figcaption><p>The template picker</p></figcaption></figure>
 
 ## Build your map by hand
 
-Building your map by hand is a great choice for most system maps. If your map will have less than 50 elements, you can probably build it comfortably by hand. (If not, check out our guide on [importing data into Kumu](import/).)
+Building your map by hand is a great choice for most system maps. If your map will have less than 50 elements, you can probably build it comfortably by hand. (If not, check out our guide on [importing data into Kumu](../guides/import/).)
 
 There are two ways to build a map by hand:
 
@@ -117,7 +123,7 @@ Or you can choose to have Kumu enter a line break automatically at a certain num
 
 One of the best ways to make your system map look sharp is to decorate your elements and connections with color. If some elements are more important than others, you can also change their size to make sure they stand out.
 
-To learn how to take these steps, [check out our full guide on decorations](decorate.md).
+To learn how to take these steps, [check out our full guide on decorations](../guides/decorate.md).
 
 ## Add rich detail to your map
 
@@ -157,7 +163,7 @@ And we'll automatically add the pre- and post-labels for you:
 
 **Using pre-labels and post-labels**
 
-We also support custom pre-labels and post-labels—just add two new [fields](fields.md) to your connections and name the fields `Prelabel` and `Postlabel`. Anything you type in those fields will appear at the start and end of the connection.
+We also support custom pre-labels and post-labels—just add two new [fields](../guides/fields.md) to your connections and name the fields `Prelabel` and `Postlabel`. Anything you type in those fields will appear at the start and end of the connection.
 
 ![custom post-labels](../images/post-labels-unwanted-pregnancy.png)
 
@@ -175,23 +181,23 @@ Ever gotten lost in someone's description of a system map, wondering why you can
 
 Good news! Kumu allows you to create links to elements and loops within your description. When someone hovers their cursor on the link, the map will pan and zoom to that location on the map.
 
-To learn add these links, [read more about our Lists widget](widgets.md#lists).
+To learn add these links, [read more about our Lists widget](../guides/widgets.md#lists).
 
 #### Add trends, needed change, and other information
 
-To add custom data to your map, like trends or needed change, try [creating new fields](fields.md) and filling them out for each element, connection, or loop.
+To add custom data to your map, like trends or needed change, try [creating new fields](../guides/fields.md) and filling them out for each element, connection, or loop.
 
-It is often quite helpful to walk a group through the exercise of discussing how a given factor has been trending over time. Is the relevance or availability for the factor increasing or decreasing? If you save this information in a custom field, you could, for example, select all the factors that have been decreasing, and use [decorations](decorate.md) to color them dark red.
+It is often quite helpful to walk a group through the exercise of discussing how a given factor has been trending over time. Is the relevance or availability for the factor increasing or decreasing? If you save this information in a custom field, you could, for example, select all the factors that have been decreasing, and use [decorations](../guides/decorate.md) to color them dark red.
 
 Another helpful piece of data is whether a given factor needs to significantly increase, increase, stay the same, decrease, or significantly decrease going forward. By using this data and adding a color scale to the values, you can quickly see where the most change needs to happen in a given map.
 
 You can even add data like **% complete** to be able to track the status of your implementation efforts and your progress with a systems intervention. Use a color scale to automatically darken the elements as they reach a higher completion percentage, and lighten them if the completion percentage is low.
 
-The great part about Kumu is you don't need to just pick one of these ways to decorate! Using [views](views.md), you can easily switch between different perspectives to highlight different information.
+The great part about Kumu is you don't need to just pick one of these ways to decorate! Using [views](../guides/views.md), you can easily switch between different perspectives to highlight different information.
 
 ## Share your system map
 
-Now that your map is built, refined, and enriched in Kumu, it's time for the real work to begin: sharing! In Kumu, it's possible to [create a shareable link](share-and-embed.md) for your map, but we recommend [creating a presentation](presentations.md) instead, so you can break your system map down into smaller pieces, explaining each one to your map readers.
+Now that your map is built, refined, and enriched in Kumu, it's time for the real work to begin: sharing! In Kumu, it's possible to [create a shareable link](../guides/share-and-embed.md) for your map, but we recommend [creating a presentation](../guides/presentations.md) instead, so you can break your system map down into smaller pieces, explaining each one to your map readers.
 
 ![presentation slides](../images/presentation.gif)
 

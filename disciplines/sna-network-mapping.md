@@ -60,13 +60,13 @@ When you're taking this approach, your dataset will usually be smaller than that
 
 The first step, before you can get the data into Kumu, is to [sign up for an account](https://kumu.io/join) and [create a new project](https://kumu.io/new). If you're not sure which account type is right for you, check out our [full guide on accounts and plans](../overview/accounts-and-plans.md).
 
-Once you have your new project open, you can get the data into Kumu in one of two ways: **importing a spreadsheet** or **building by hand**. For more information on imports, [check out our imports guide](import/). If you're building your map by hand, [check out our First Steps guide](../getting-started/first-steps.md#build-your-map-by-hand) for more guidance.
+Once you have your new project open, you can get the data into Kumu in one of two ways: **importing a spreadsheet** or **building by hand**. For more information on imports, [check out our imports guide](../guides/import/). If you're building your map by hand, [check out our First Steps guide](../getting-started/first-steps.md#build-your-map-by-hand) for more guidance.
 
 There are a few subtleties to how you structure your data for easiest use within Kumu. We've laid out some of those below:
 
 **Use connection type to differentiate relationships among people**
 
-Say you ask two questions on your survey: one that asks questions getting at the relationships that represent the **trust** network and another that probes for the relationships that represent the **innovation** network. When structuring your data, use "trust" or "innovation" as the connection type for each connection, and you'll be able to quickly switch between the "trust" and "innovation" network in Kumu using [filters](filter.md).
+Say you ask two questions on your survey: one that asks questions getting at the relationships that represent the **trust** network and another that probes for the relationships that represent the **innovation** network. When structuring your data, use "trust" or "innovation" as the connection type for each connection, and you'll be able to quickly switch between the "trust" and "innovation" network in Kumu using [filters](../guides/filter.md).
 
 **Element types make two (or more) mode networks a cinch**
 
@@ -74,7 +74,7 @@ Sometimes you're looking to understand more than just how people are connected t
 
 **Don't forget about the power of clustering!**
 
-[Clustering](clustering.md)) makes it easy to turn information stored in the [profile](profiles.md) of any element into a dynamic network. Storing information about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver and value-add if you don't already have connection data created.
+[Clustering](../guides/clustering.md)) makes it easy to turn information stored in the [profile](../guides/profiles.md) of any element into a dynamic network. Storing information about the organization someone works for within the profile? Use clustering to then transform that data into explicit connections on your map. This can be a big time saver and value-add if you don't already have connection data created.
 
 ## Use Metrics to analyze your network
 
@@ -86,7 +86,7 @@ Social network analysis metrics provide clues to tell you who may be playing imp
 
 ![metrics tool](../images/metrics-degree.png)
 
-To learn how to calculate these metrics and more in Kumu, check out our [full guide on metrics](metrics.md).
+To learn how to calculate these metrics and more in Kumu, check out our [full guide on metrics](../guides/metrics.md).
 
 ## Help others understand your map
 
@@ -102,9 +102,9 @@ If you have this problem, you can use Kumu's layout settings to spread the map o
 
 ![hairball layout preset](../images/layout-preset-hairball.png)
 
-It's much less dense, and when you zoom in, it's much more readable! To learn how to change layout settings on your map, [check out our guide on default settings](default-view-settings.md).
+It's much less dense, and when you zoom in, it's much more readable! To learn how to change layout settings on your map, [check out our guide on default settings](../guides/default-view-settings.md).
 
-If your network looks like a hairball, you can also use Kumu's **focus** feature to focus on smaller pieces of the network, expanding and contracting your focus with the click of a button. To learn more about focus, [check out the full guide](focus.md).
+If your network looks like a hairball, you can also use Kumu's **focus** feature to focus on smaller pieces of the network, expanding and contracting your focus with the click of a button. To learn more about focus, [check out the full guide](../guides/focus.md).
 
 #### Decorate your map
 
@@ -112,17 +112,17 @@ In Kumu, decorations are one of the best ways to guide your readers through your
 
 ![Innovation Lab Network](../images/innovation-lab.png)
 
-But that's just the tip of the iceberg! To learn how to do this and more with decorations, [check out the full guide](decorate.md).
+But that's just the tip of the iceberg! To learn how to do this and more with decorations, [check out the full guide](../guides/decorate.md).
 
 #### Share your map
 
-Sharing your map can be as simple as sending a [shareable link](share-and-embed.md) to your readers, but there's no guarantee that they'll be familiar with network maps, let alone how to read and draw insight from one. Depending on your audience, you might want to use **map overviews** or **presentations** to add the right amount of additional context and reading instructions.
+Sharing your map can be as simple as sending a [shareable link](../guides/share-and-embed.md) to your readers, but there's no guarantee that they'll be familiar with network maps, let alone how to read and draw insight from one. Depending on your audience, you might want to use **map overviews** or **presentations** to add the right amount of additional context and reading instructions.
 
 Map overviews can be added to the [side panel of the map editor](../overview/map-editor.md#side-panel), and they're a great tool when you need to provide just a few paragraphs of information, or perhaps an embedded video.
 
 ![map overview with video](../images/map-overview-with-video.png)
 
-If you have a lot of information to give to your readers, or many different views of your map that you want them to see, try [creating a presentation](presentations.md). Presentations in Kumu can seamlessly walk readers through different sections or views of your network, slide by slide.
+If you have a lot of information to give to your readers, or many different views of your map that you want them to see, try [creating a presentation](../guides/presentations.md). Presentations in Kumu can seamlessly walk readers through different sections or views of your network, slide by slide.
 
 {% embed url="https://player.vimeo.com/video/118975099" %}
 
