@@ -140,7 +140,7 @@
 * [How do I add arrows to my connections?](faq/how-do-I-add-arrows-to-my-connections.md)
 * [How do I add documents to profiles?](faq/how-do-i-add-documents-to-profiles.md)
 * [How do I add more than one element with the same label?](faq/how-do-i-add-more-than-one-element-with-the-same-label.md)
-* [How do I add text dropdowns to my map description?](frequently-asked-questions/how-do-i-add-text-dropdowns-to-my-map-description.md)
+* [How do I add text dropdowns to my map overview?](frequently-asked-questions/how-do-i-add-text-dropdowns-to-my-map-overview.md)
 * [How do I adjust arrow size?](faq/how-do-i-adjust-arrow-size.md)
 * [How do I avoid duplicating data?](faq/how-do-I-avoid-duplicating-data.md)
 * [How do I change connection curvature?](faq/how-do-i-change-connection-curvature.md)

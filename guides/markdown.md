@@ -202,8 +202,13 @@ Now you know the basics of formatting with markdown! For more information, visit
 Kumu's markdown editor also recognizes a limited amount of inline HTML.&#x20;
 
 {% hint style="info" %}
-Learn how to create anchors that skip to certain sections of your map description [with this guide](../frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md).&#x20;
+More HTML fun:&#x20;
+
+* Learn how to create anchors that skip to certain sections of your map description [with this guide](../frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md).&#x20;
+* Learn how to add text dropdowns that show/hide additional text upon click [with this guide](../frequently-asked-questions/how-do-i-add-text-dropdowns-to-my-map-overview.md).&#x20;
 {% endhint %}
+
+
 
 Here are the tags you can use in Kumu, anywhere that accepts markdown:
 
