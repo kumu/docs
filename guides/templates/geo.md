@@ -63,17 +63,17 @@ Note that your location field should be wrapped in two curly braces if you are s
 
 You can use the `geo-style` property to pick between these different map styles:
 
-#### `geo-style: auto`
+#### `geo-style: auto;`
 
 ![geo-style auto](../../images/geo-style-auto.png)
 
-Use `geo-style: dark` for a dark version of the `auto` map.
+Use `geo-style: dark;` for a dark version of the `auto` map.
 
-#### `geo-style: streets`
+#### `geo-style: streets;`
 
 ![geo-style streets](../../images/geo-style-streets.png)
 
-#### `geo-style: satellite`
+#### `geo-style: satellite;`
 
 ![geo-style satellite](../../images/geo-style-satellite.png)
 
