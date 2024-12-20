@@ -16,7 +16,7 @@ Markdown is an easy and powerful way to format your descriptions and long text f
 An inline link: [Kumu](http://launch.kumupowered.com)
 ```
 
-\-> Creates an inline link: [Kumu](http://launch.kumupowered.com)
+\-> Creates an inline link: [Kumu](http://kumu.io)
 
 {% hint style="info" %}
 Note that inline links always open the website in the same tab and direct your viewer away from your Kumu map. If you wish to open the link in a separate tab, you can use the following HTML syntax:&#x20;
@@ -98,7 +98,7 @@ Replace `alt text` with an image caption that screen readers can read, and repla
 
 #### Widgets
 
-See our guide to [widgets](markdown.md#widgets) to learn more about embedding videos, podcasts, slideshows, and other interactive content inside markdown.
+See our guide to [widgets](widgets.md) to learn more about embedding videos, podcasts, slideshows, and other interactive content inside markdown.
 
 ### Headings
 
@@ -170,21 +170,18 @@ Green | Yellow | Red
 
 If you are using Markdown in the Description column of an [import](import/), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag\_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
 
-<<<<<<< HEAD
 
 ```md
-=======
-<<<<<<< HEAD
-```
-
-> > > > > > > 542c98f (GitBook: \[#18] fixes some busted content in markdown docs)
-
 | One   | Two    | Three |
 | ----- | ------ | ----- |
 | Blue  | White  | Gray  |
 | Green | Yellow | Red   |
+```
 
-\`\`\` ======= | One | Two | Three | | ----- | ------ | ----- | | Blue | White | Gray | | Green | Yellow | Red |
+| One | Two | Three |
+| ----- | ------ | ----- |
+| Blue | White | Gray |
+| Green | Yellow | Red |
 
 ### Horizontal Rules
 
