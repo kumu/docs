@@ -141,7 +141,7 @@ If you'd like to limit the fields that are shown, simply click edit and then unc
 You might also want to hide a field from view for anyone who is not a contributor. For example, this is handy when you're working with information that is not relevant to the viewer. In this case, you can make a field "private" and hide it from view for anyone who is not a contributor.
 
 {% hint style="warning" %}
-**Note:** If you're hiding a field from viewers, the data is never completely hidden from your project. When sharing a map _publicly_, the data is still passed to the browser to enable decorations and other view settings to work for those fields. This means that anyone can get access to your data. This is important to note when working with confidential information, such as names, email addresses etc. In this case, we recommend to keep your map [private](../overview/collaboration.md#public-vs.-private-projects), so the data is kept privately as well. If anything is unclear about this, please contact our support through support@kumu.io.&#x20;
+**Note:** If you're hiding a field from viewers, the data is never completely hidden from your project. When viewing a map, the data is still passed to the browser to enable decorations and other view settings to work for those fields. This means that anyone who has access to view the map can technically get access to the data in hidden fields (even though it is hidden from the profile). If anything is unclear about this, please contact our support through support@kumu.io.&#x20;
 {% endhint %}
 
 To do so, click on any custom field and then check the Privacy checkbox:
