@@ -57,6 +57,16 @@ By default, all metrics are saved to a field with the name of the metric (betwee
 
 **Using metrics for a social network analysis?** Don't miss our [SNA / Network Mapping guide](../disciplines/sna-network-mapping.md).
 
+### Other cool things you can do with metrics
+
+Once you have Metrics calculated, you can use those numbers to decorate your map. For example, you can [size your elements by the number of connections they have](../faq/how-do-i-size-elements-by-number-of-connections.md) or you can use [data-driven decorations](data-driven-decorations.md) to decorate your elements based on Metrics. Here's how to highlight the outliers in your network by coloring all elements with a Betweenness metric _above_ 0.6 blue:
+
+```
+element["betweenness">"0.6"] {
+  color: blue; 
+}
+```
+
 ## Community detection
 
 Kumu includes support for community detection based on the [SLPA algorithm](https://scholar.google.com/scholar?q=slpa+community+detection). With the SLPA algorithm, communities are identified based on communication flows and, unlike older algorithms (such as the Louvain method used by Gephi), the algorithm can detect overlapping communities (which is helpful since community membership is rarely black and white).
