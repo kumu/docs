@@ -20,17 +20,19 @@ Fields allow you to save additional data about the elements, connections and loo
 
 Kumu comes with a set of core fields. Putting data in _all_ of these fields isn't necessary, but they get special visual treatment in [profiles](profiles.md) and have special functionality, so it's great to use them when you can!
 
+<figure><img src="../.gitbook/assets/image (3).png" alt="" width="300"><figcaption></figcaption></figure>
+
 #### Label
 
-Use the Label field to give names to elements, connections, and loops. Your element and loop labels will appear on the map by default, and connection labels can be shown on the map as well, using the `label-visibility` [property](../overview/advanced-editor-hub/property-reference.md) in the Advanced Editor.
+The Label field uniquely identifies an element, connection or loop. Look at it as the name for any of these entities. The label shows up all the way at the top of any element or connection profile. Your element, connection and loop labels will appear on the map by default. An element usually requires a label ([unless you're identifying by IDs](../faq/how-do-I-avoid-duplicating-data.md#use-ids-to-separate-identical-labels)), but a connection doesn't necessarily need to have a label, unless you like to give it one. Your map shows an element, connection or loop's label by default.
 
 #### Type
 
-Use the type field to categorize elements and connections. Common element types include person, project, and company. Common connection types include personal, business, and family.
+Use the Type field to categorize elements and connections. Common element types include 'person', 'project', or 'company'. Common connection types include the nature of the relationship, e.g. 'personal', 'business', or 'family'. What's important to note here is that Type values are _mutually exclusive,_ meaning that an element or connection type can only be one single value. For example, an element cannot be a 'person' and an 'organization' at the same time. &#x20;
 
 #### Connection direction
 
-In a connection's profile, you'll see whether a connection is directed, undirected, or mutual. When you export your map to Excel, you'll also see this field included in the Connections tab of your sheet. To change the connection direction, please visit [this guide](../faq/how-do-I-add-arrows-to-my-connections.md).
+In a connection's profile, you'll see whether a connection is directed, undirected, or mutual. Direction determines where/if an arrow is placed on one or both ends of a connection, and is used in [Metrics](metrics.md) calculations to analyze the structure of a network. When you export your map to Excel, you'll also see this field included in the Connections tab of your sheet. To change the connection direction, please visit [this guide](../faq/how-do-I-add-arrows-to-my-connections.md).
 
 #### Description
 
@@ -38,7 +40,7 @@ The description field is designed to hold longer-form content that describes an 
 
 #### Tags
 
-The tags field is designed to hold multiple values that each describe your item in a different way. This field is usually used when an element can belong to _one or more_ categories. For example, a connection between a person and a non-profit might have the following tags: "Strong relationship", "Board Member", "Donor", and "Advocate", all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.
+The tags field is designed to hold multiple values that each describe your item in a different way. This field is ideal for when an element can belong to _one or more_ categories that do not need to be mutually exclusive. For example, a connection between a person and a non-profit might have the following tags: "Strong relationship", "Board Member", "Donor", and "Advocate", all stored as separate values in the Tags field, adding rich detail to that person's relationship with the non-profit.
 
 In the profile, tags appear under the description, and hovering your cursor over a tag will [showcase](showcase.md) other items with that same tag.
 

@@ -62,7 +62,7 @@ For more info on hiding orphans, [visit this guide](../faq/how-do-i-hide-element
 
 ### Toggle connections
 
-**To toggle **_**all**_** connections with the simple click of a button, use this code:**&#x20;
+**To toggle&#x20;**_**all**_**&#x20;connections with the simple click of a button, use this code:**&#x20;
 
 ```
 @controls {
