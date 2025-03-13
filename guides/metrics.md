@@ -55,11 +55,17 @@ By default, all metrics are saved to a field with the name of the metric (betwee
 
 {% embed url="https://www.youtube.com/embed/YZuJheC3zNc" %}
 
+{% hint style="warning" %}
+**Note:** If you're importing data through Google Sheets, the profile fields will not allow you to edit the field name by clicking on them (as demonstrated in the video above). In that case, please navigate to the Projects Settings in the top-left corner of your project (three stripes) > choose the Fields tab > click on the field of the metric for which you want to change the name and update the value in the Name textbox. Don't forget to click Save at the bottom of the page! You can then return to your Kumu project and run the SNA metrics again.
+{% endhint %}
+
 **Using metrics for a social network analysis?** Don't miss our [SNA / Network Mapping guide](../disciplines/sna-network-mapping.md).
 
 ### Other cool things you can do with metrics
 
-Once you have Metrics calculated, you can use those numbers to decorate your map. For example, you can [size your elements by the number of connections they have](../faq/how-do-i-size-elements-by-number-of-connections.md) or you can use [data-driven decorations](data-driven-decorations.md) to decorate your elements based on Metrics. Here's how to highlight the outliers in your network by coloring all elements with a Betweenness metric _above_ 0.6 blue:
+Once you have Metrics calculated, you can use those numbers to decorate your map. For example, you can [size your elements by the number of connections they have](../faq/how-do-i-size-elements-by-number-of-connections.md) or you can use [data-driven decorations](data-driven-decorations.md) to decorate your elements based on Metrics.&#x20;
+
+Here's how to highlight the outliers in your network by coloring all elements with a Betweenness metric _above_ 0.6 blue:
 
 ```
 element["betweenness">"0.6"] {
