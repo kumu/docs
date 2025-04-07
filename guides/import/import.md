@@ -63,11 +63,11 @@ And here's a sample connection import spreadsheet:
 | Ed Snowden | NSA      | Contractor | It's complicated |
 
 {% hint style="success" %}
-Get your hands dirty! [Click here for a sample import file](https://docs.google.com/spreadsheets/d/1f0OesdZ32eqKWG77v3fsL7htW5TxeBSX/edit?usp=sharing\&ouid=107261106798466659559\&rtpof=true\&sd=true) for the [PayPal Mafia map](https://kumu.io/jeff/paypal-mafia), or find our [folder of public data samples here](https://drive.google.com/drive/folders/1\_xoIFJ2snCcxta1Fw8AwrxWCe5YlKXCW?usp=sharing). You can examine these files to see how imports work with real data before creating your own import file.&#x20;
+Get your hands dirty! [Click here for a sample import file](https://docs.google.com/spreadsheets/d/1f0OesdZ32eqKWG77v3fsL7htW5TxeBSX/edit?usp=sharing\&ouid=107261106798466659559\&rtpof=true\&sd=true) for the [PayPal Mafia map](https://kumu.io/jeff/paypal-mafia), or find our [folder of public data samples here](https://drive.google.com/drive/folders/1_xoIFJ2snCcxta1Fw8AwrxWCe5YlKXCW?usp=sharing). You can examine these files to see how imports work with real data before creating your own import file.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-If you need to convert an [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency\_matrix) to meet Kumu's format, see our ["How do I restructure my adjacency matrix"](../../faq/how-do-i-restructure-my-adjacency-matrix.md) FAQ.
+If you need to convert an [adjacency matrix](https://en.wikipedia.org/wiki/Adjacency_matrix) to meet Kumu's format, see our ["How do I restructure my adjacency matrix"](../../faq/how-do-i-restructure-my-adjacency-matrix.md) FAQ.
 {% endhint %}
 
 #### Ignore unneeded sheets
@@ -108,6 +108,10 @@ Error: Import format not recognized: auto
 #### Importing an Excel file in Google Drive as a Google Sheet
 
 If you add an XLSX file to Google Drive, it will still open as an Excel sheet, only inside Google Drive. Make sure you're file is actually a Google Sheet by clicking on "Open with" at the top of the page and choosing Google Sheets, or by clicking File in the top-left corner and then choose "Save as Google Sheets". You can enter that sheet's link as your Google Sheet link.
+
+**Too much data**
+
+Kumu can only [handle so much data](../../faq/how-much-data-can-kumu-handle.md). Perhaps you're trying to add 10,000+ data points? Try importing a sub-set of your data first. If that imports without a problem, then your dataset is likely too large for one Kumu project.
 
 #### Funny character issues?
 
