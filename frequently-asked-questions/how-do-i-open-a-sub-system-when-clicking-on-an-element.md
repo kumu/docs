@@ -16,4 +16,8 @@ This guide describes how to add a second "layer" of elements + connections to yo
 8. Paste the URL from step 6 as the value in that field
 9. Now if you _double-click_ that element on your map, it'll navigate you to the other map
 
+{% hint style="info" %}
+Looking to make this feature even more interactive? Add a[ Lightbox](../guides/lightbox.md) URL in the URL field (step 8). This way, when you double-click the element, a popup will appear displaying your subsystem—easily dismissible with a quick click of the X in the top-right corner.
+{% endhint %}
+
 You can find the example map from the visual above [by clicking here](https://kumu.io/AlexVipond/sub-system-demo).
