@@ -1,17 +1,12 @@
-# Backing up Enterprise Data
+# Backing up enterprise data
 
-Kumu Enterprise includes [command line utilities][1] to help back up your
-enterprise data.
+Kumu Enterprise includes [command line utilities](command-line-utilities.md) to help back up your enterprise data.
 
-We recommend using this process to regularly back up your data. You should also
-back up your data immediately prior to any database migrations or upgrades.
+We recommend using this process to regularly back up your data. You should also back up your data immediately prior to any database migrations or upgrades.
 
-1. [Add your ssh key][3]
-1. Run "kumu-export" to back up your data
+1. [Add your ssh key](ssh-access.md)
+2. Run "kumu-export" to back up your data
+
 ```
 ssh admin@hostname -- "kumu-export" > kumu-backup.tar.gz
 ```
-
-[1]: command-line-utilities.md
-[2]: restoring-enterprise-data.md
-[3]: ssh-access.md

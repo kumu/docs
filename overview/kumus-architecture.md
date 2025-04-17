@@ -76,7 +76,7 @@ Projects can also remember a few more important things:
 * Any [add-ons](../guides/add-ons.md) that have been installed on the project
 * Any [license](../guides/licensing.md) you have added, to tell people how they can or cannot share or re-use your work
 
-Click on the ![](<../.gitbook/assets/image (1).png>) menu in the top-left corner of your project to change any project settings.
+Click on the ![](<../.gitbook/assets/image (1) (1).png>) menu in the top-left corner of your project to change any project settings.
 
 You create new projects and see all your existing projects on your [dashboard](dashboard.md).
 

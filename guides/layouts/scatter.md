@@ -75,7 +75,7 @@ In this guide, we broke down the code into pieces for clarity, but in an actual 
 
 ## Add grids, bounds, and guides
 
-You can have the scatter plot cover your entire Kumu map, or you can give it bounds, so that it knows where it begins and ends. Similarly, you can also add a guide to your scatter plot, so it has a clearly defined Y and X axis.&#x20;
+You can have the scatter plot cover your entire Kumu map, or you can give it bounds, so that it knows where it begins and ends. Similarly, you can also add a guide to your scatter plot, in order for it to have a clearly defined Y and X axis.&#x20;
 
 This is the code that allows you to do that:&#x20;
 
@@ -100,7 +100,7 @@ You might encounter some maps with scatter plots that have labels on the X and Y
 This method is simply creating transparent elements, so that only the label remains, and placing them where you'd like them to be on the map:
 
 1. Create two elements, one for each label
-2. Make the elements transparent
+2. [Make the elements transparent](../../frequently-asked-questions/how-do-i-make-elements-transparent.md)
 3. Place the elements on the scatter plot (either through their X and Y coordinates, or by simply dragging & [pinning](../../faq/how-do-keep-elements-from-moving.md) them in place)
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-02-18 at 4.16.39 PM.png" alt=""><figcaption></figcaption></figure>

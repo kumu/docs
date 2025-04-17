@@ -35,6 +35,11 @@ Here are some examples of rules you could create:
 1. _Which items?_ All elements with "Person" in their Type field.
 2. _Which visual style?_ Add a green shadow.
 
+**Elements with a value of more than 0.6 in their "Betweenness" field should be shaped like a diamond**
+
+1. _Which items?_ All elements with a Betweenness of higher than 0.6
+2. _Which visual style?_ Shape like a diamond
+
 **Connections' thickness should vary based on the number in their "Strength" field.**
 
 1. _Which items?_ All connections.

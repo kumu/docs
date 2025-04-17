@@ -1,12 +1,9 @@
 # Configuration
 
-The settings for your enterprise installation can be managed at
-`<hostname>/enterprise/admin`.
+The settings for your enterprise installation can be managed at `<hostname>/enterprise/admin`.
 
-<p>
-  <strong>username:</strong> admin<br>
-  <strong>password:</strong> the md5 checksum of your license
-</p>
+**username:** admin\
+**password:** the md5 checksum of your license
 
 The commands below can be used to generate the checksum.
 
@@ -28,7 +25,6 @@ Note that the above credentials are only for logging in to the Enterprise instan
 
 **Add a notifications email.** This address will be used for any notification emails sent by the application. Only used if outbound email is enabled.
 
-
 ## SMTP
 
 In order to enable email notifications, you'll need to add an external SMTP server. No email will be sent if this is disabled. Settings include:
@@ -40,7 +36,6 @@ In order to enable email notifications, you'll need to add an external SMTP serv
 * Password
 * TLS
 * Authentication
-
 
 ## Hostname
 
@@ -57,17 +52,14 @@ _Warning: Once the hostname is set the site can only be accessed via the custom 
 
 ## SSH access
 
-[Add an SSH key][ssh] to enable access to the enterprise command-line utilities.
+[Add an SSH key](ssh-access.md) to enable access to the enterprise command-line utilities.
 
 ## SSL
 
-By default, SSL is **not** enabled on self-hosted Kumu Enterprise instances. To add an SSL certificate and allow users to connect through HTTPS, use the `kumu-ssl-install-cert` and `kumu-ssl-install-key` [command line utilities](/enterprise/command-line-utilities.md) to upload a custom certificate and key, then use the `kumu-ssl-enable` command to finish the process.
-
+By default, SSL is **not** enabled on self-hosted Kumu Enterprise instances. To add an SSL certificate and allow users to connect through HTTPS, use the `kumu-ssl-install-cert` and `kumu-ssl-install-key` [command line utilities](command-line-utilities.md) to upload a custom certificate and key, then use the `kumu-ssl-enable` command to finish the process.
 
 ## Geocoding
 
-The geocoding service used for the [geo template](/guides/templates/geo.md) is not configured by default. To enable geocoding, follow the instructions in the Geocoding section of `<hostname>/enterprise/admin/settings`.
+The geocoding service used for the [geo template](../guides/templates/geo.md) is not configured by default. To enable geocoding, follow the instructions in the Geocoding section of `<hostname>/enterprise/admin/settings`.
 
-![enterprise configure geocoding](/images/enterprise-configuration-geocoding.png)
-
-[ssh]: ssh-access.md
+![enterprise configure geocoding](../images/enterprise-configuration-geocoding.png)

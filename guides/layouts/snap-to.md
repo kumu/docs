@@ -67,7 +67,7 @@ You can also have a map snap to a certain shape automatically. This option is gr
 \
 **1. Pick a selection**
 
-Open the Basic Editor by clicking on Settings ![](../../.gitbook/assets/image.png) on the right. Then choose "More" > "Snap To" > "Add a snap-to rule". This will automatically apply the snap to all the elements on your map. If you want to create a more specific selection, click on the little pencil icon to add a [selector](../selectors.md).&#x20;
+Open the Basic Editor by clicking on Settings ![](<../../.gitbook/assets/image (1).png>) on the right. Then choose "More" > "Snap To" > "Add a snap-to rule". This will automatically apply the snap to all the elements on your map. If you want to create a more specific selection, click on the little pencil icon to add a [selector](../selectors.md).&#x20;
 
 **2. Adjust the settings**
 
