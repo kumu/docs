@@ -13,3 +13,5 @@ To get started with Kumu Enterprise and learn more about its security features, 
 If you need help with installing, configuring, or upgrading your Enterprise version, [see our full Enterprise guides](../enterprise/index.md).
 
 For anyone who doesn't have these higher security needs, Kumu.io will be a much more streamlined, and a just as powerful option.
+
+For any additional questions on Kumu Enterprise, please reach out to enterprise@kumu.io!

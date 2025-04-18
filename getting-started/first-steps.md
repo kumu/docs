@@ -200,7 +200,5 @@ In the **Username** box, type the Kumu username of the person you want to add (i
 For more info on collaboration in Kumu, visit [our full guide on collaboration](../overview/collaboration.md).
 
 {% hint style="success" %}
-You've completed the Getting Started series! For additional help, you can browse our other guides, [join our open Slack team](http://chat.kumu.io), or email us at [support@kumu.io](mailto:support@kumu.io).
+You've completed the Getting Started series! For additional help, you can browse our other guides or email us at [support@kumu.io](mailto:support@kumu.io). We're always happy to help!&#x20;
 {% endhint %}
-
-[Join us on Slack](http://chat.kumu.io)

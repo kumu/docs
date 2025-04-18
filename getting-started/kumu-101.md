@@ -50,6 +50,4 @@ You can also subscribe to [our blog, In Too Deep](https://blog.kumu.io/) and che
 
 ## Where can I go for help (or to show off my awesome work)?
 
-If you get stuck and need advice, feel free to email us at [support@kumu.io](mailto:support@kumu.io), or post in our public Slack workspace at [chat.kumu.io](https://chat.kumu.io).
-
-And if you have awesome work to share, we’d love to see it in either of those channels!
+If you get stuck and need advice, feel free to email us at [support@kumu.io](mailto:support@kumu.io). We're always happy to help. And if you have awesome work to share or showcase, we’d love to see it as well!

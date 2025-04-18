@@ -65,10 +65,10 @@ Quickly enter sketch mode by pressing `K` on your keyboard, and press the `esc` 
 
 Whenever you add a connection, it's a good practice to indicate the causality of a connection (how one factor affects another). The Systems Practice guide recommends using the following options:
 
-* \++ (as one factor increases, the other also increases)
+* ++ (as one factor increases, the other also increases)
 * \-- (as one factor decreases, the other also decreases)
-* \+- (as one factor increases, the other decreases)
-* \-+ (as one factor decreases, the other increases)
+* +- (as one factor increases, the other decreases)
+* -+ (as one factor decreases, the other increases)
 
 To indicate the causality of a connection, first click on the connection so that the [profile](../guides/profiles.md) appears on the left side of your screen. You'll see a placeholder at the top that says "add connection type". Click that placeholder, then choose which of the above best represents the causality of the connection. You'll then see the corresponding "+" or "-" appear at the ends of the connection.
 
@@ -140,5 +140,5 @@ To do that, you'll use **filter**, **focus**, **showcase**—four different ways
 * [Showcase](../guides/showcase.md)
 
 {% hint style="success" %}
-You've worked through Kumu's guide for Systems Practice—nice job! For additional help, you can browse our other guides, [join our open Slack team](http://chat.kumu.io), or email us at [support@kumu.io](mailto:support@kumu.io).
+You've worked through Kumu's guide for Systems Practice—nice job! For additional help, you can browse our other guides or email us at [support@kumu.io](mailto:support@kumu.io).
 {% endhint %}

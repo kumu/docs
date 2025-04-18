@@ -39,6 +39,6 @@ Feeling a bit lost in the Guides section? No worries! Try getting some more back
 
 ## Want to talk to a human?
 
-If you run into any challenges, send us an email at [support@kumu.io](mailto:support@kumu.io) or join our [Slack group](http://chat.kumu.io) for even faster support.
+If you run into any challenges, send us an email at [support@kumu.io](mailto:support@kumu.io). We're always happy to help!
 
 _These docs are a work in progress and will be continuously updated._&#x20;

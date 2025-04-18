@@ -68,13 +68,13 @@ Teams are very useful when you want to assign project permissions quickly, witho
 
 If you have a lot of projects and/or a lot of Kumu users in your Pro workspace, this will be much faster than assigning project permissions to every single individual, for every single project!
 
-To create a team, go to your Pro workspace dashboard and click the **New Team** button. Then, use the modal that pops up to add users to the team. You can also decide whether you want those users to be "maintainers". Maintainers can add and remove users to and from the team.
+To create a team, go to your Pro workspace dashboard and click the **New Team** button. Then, use the modal that pops up to add users to the team. You can also decide whether you want those users to be "members" or "maintainers". Maintainers can add and remove users to and from the team:
 
-![team modal](../images/pro-workspace-team.png)
+<figure><img src="../.gitbook/assets/Screenshot 2025-04-18 at 1.32.42 PM.png" alt=""><figcaption></figcaption></figure>
 
-When your team is all set up, click on one of your Pro workspace's projects to bring up the project access modal. Choose whether the team has no access, view-only access, edit access, or admin access (includes the ability to add users to the project, rename the project, and delete the project).
+When your team is all set up, click on one of your Pro workspace's projects to bring up the project access modal. Choose whether the team has no access, view-only access, edit access, or admin access (includes the ability to add users to the project, rename the project, and delete the project):
 
-![Pro workspace project team access modal](../images/pro-workspace-project-team-access.png)
+<figure><img src="../.gitbook/assets/Screenshot 2025-04-18 at 1.34.07 PM.png" alt=""><figcaption></figcaption></figure>
 
 Now that you've mastered the basics of adding users, check out the next sections to learn how to use other features exclusive to Pro workspaces.
 

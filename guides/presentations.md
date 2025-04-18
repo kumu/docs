@@ -72,6 +72,6 @@ Copy/paste the code onto your website, and you're visitors will see a fully inte
 
 If you want your presentation to automatically advance to the next slide, add an `autoplay` parameter to the URL. This parameter specifies the number of seconds to wait before advancing to the next slide.
 
-For example, if your presentation URL is https://you.kumu.io/presentation and you want it to automatically advance each 10 seconds, then you would use https://you.kumu.io/presentation?autoplay=10.
+For example, if your presentation URL is `https://you.kumu.io/presentation` and you want it to automatically advance each 10 seconds, then you would use `https://you.kumu.io/presentation?autoplay=10`.
 
-If your presentation is private and has a URL like https://you.kumu.io/presentation?token=123 and you want it to advance each 10 seconds, then use https://you.kumu.io?token=123\&autoplay=10.
+If your presentation is private and has a URL like `https://you.kumu.io/presentation?token=123` and you want it to advance each 10 seconds, then use `https://you.kumu.io?token=123&autoplay=10.`

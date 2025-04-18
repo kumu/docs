@@ -6,4 +6,4 @@ If you're just getting started, make sure to watch the [five-minute quickstart v
 
 Already proficient, but looking for deeper understanding? Check our guides on the disciplines of [system mapping](../disciplines/system-mapping.md) and [social network analysis](../disciplines/sna-network-mapping.md), or read more about [Kumu's architecture](../overview/kumus-architecture.md).
 
-We may be a small team, but our customer service is mighty. If you ever need help you can email us at [support@kumu.io](mailto:support@kumu.io) or [chat with us](http://chat.kumu.io/) on Slack.
+We may be a small team, but our customer service is mighty. If you ever need support, you can email us at [support@kumu.io](mailto:support@kumu.io). We're always happy to help!&#x20;

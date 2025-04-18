@@ -37,4 +37,4 @@ If you add an .xlsx file to Google Drive, it will still open as an Excel sheet, 
 
 If you're running into funny character issues, please make sure your import file is [UTF-8 encoded](https://help.alchemer.com/help/encode-an-excel-file-to-utf-8-or-utf-16).
 
-_Is your import still not working after going through all of these steps? Please send (a link to) your data sheet to_ [_support@kumu.io_](mailto:support@kumu.io)_, and we'll be happy to help!_
+Is your import still not working after going through all of these steps? Please send (a link to) your data sheet to [support@kumu.io](mailto:support@kumu.io), and we'll be happy to help!

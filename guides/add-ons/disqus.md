@@ -18,4 +18,4 @@ Copy that shortname, then return to Kumu, and open up the Add-ons menu in [proje
 
 Activate the Disqus add-on by pasting in the shortname you copied before. ![](../../images/disqus-step-4.jpg)
 
-Voila! You'll now see the Disqus comment box on each element, connection and loop profile (as well as the map overview).
+Voilà! You'll now see the Disqus comment box on each element, connection and loop profile (as well as the map overview).
