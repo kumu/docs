@@ -4,7 +4,7 @@ Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-u
 
 ## Create a presentation
 
-Presentations can be accessed through the main menu of your project. When you create a new presentation, you'll land on a title slide, to which you can add a title, subtitle, and background image.
+To create a presentation, navigate to Project Settings in the top-left corner of your project and choose the Presentations tab. When you create a new presentation, you'll land on a title slide, to which you can add a title, subtitle, and background image.
 
 ![presentations interface](../images/presentations-ui.png)
 
@@ -74,4 +74,14 @@ If you want your presentation to automatically advance to the next slide, add an
 
 For example, if your presentation URL is `https://you.kumu.io/presentation` and you want it to automatically advance each 10 seconds, then you would use `https://you.kumu.io/presentation?autoplay=10`.
 
-If your presentation is private and has a URL like `https://you.kumu.io/presentation?token=123` and you want it to advance each 10 seconds, then use `https://you.kumu.io?token=123&autoplay=10.`
+If your presentation is private and has a URL like `https://you.kumu.io/presentation?token=123` and you want it to advance each 10 seconds, then use `https://you.kumu.io?token=123&autoplay=10.`&#x20;
+
+## Deleting a presentation
+
+To delete your presentation, navigate to the Presentations menu again (Project Settings in the top-left corner of your project) and click the Delete button next to the presentation you wish to delete:&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-04-23 at 2.13.02 PM.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+**Note:** Deleting a Kumu project does _not_ automatically delete the presentation connected to it. If you want to make sure that your Kumu presentation is no longer accessible after you delete the project, please delete the presentation first and _then_ delete the project. Do you have a presentation you wish to delete that  no longer belongs to a project? Please send the URL to your presentation, together with your request to delete, to [support@kumu.io](mailto:support@kumu.io).&#x20;
+{% endhint %}
