@@ -2,7 +2,7 @@
 
 If you're looking to share or embed your public or private maps, click the "Share" icon in the lower right corner. You'll be prompted with this window:
 
-![embed modal](/images/embed-modal.png)
+![embed modal](../images/embed-modal.png)
 
 **Title** allows you to add a title to the shareable link. This won't be displayed to your readers—it will simply add a label to the link in your embed modal, so that you can identify it when you have a long list of links that you've created.
 
@@ -12,21 +12,15 @@ If you're looking to share or embed your public or private maps, click the "Shar
 
 **Include current position and scale** allows you to override the default "zoom fit" positioning of the map and instead use a custom position and zoom level.
 
-
-
 When you're done adjusting the settings, click "Create embed / share link". Then, just copy the share link and send it to a friend, or copy and paste the iframe code into your website to embed.
 
 You can also use the external link button () to open the map link in a new tab.
 
-{% hint style="warn" %}
-  Anyone who has access to the the share link or the embedded version (and, when applicable, the password) will be able to view the map, even if the project is private.
+{% hint style="danger" %}
+Anyone who has access to the the share link or the embedded version (and, when applicable, the password) will be able to view the map, even if the project is private. Want to prevent this? Consider [adding users to the a private project directly](../overview/collaboration.md#add-a-contributor).&#x20;
 {% endhint %}
 
-<div class="alert alert-warning">
-  <p>
-    Shared/embedded maps will reflect updates you have made to the content of the map (elements, connections, and loops) and to views. Note that updates may take up to one hour to appear.
-  </p>
-</div>
+Shared/embedded maps will reflect updates you have made to the content of the map (elements, connections, and loops) and to views. Note that updates may take up to one hour to appear.
 
 ## Enable scrolling for embeds
 
@@ -36,17 +30,12 @@ To avoid interfering with page scrolling, scroll-to-zoom is disabled by default 
 embed.kumu.io/abc123?scroll=1
 ```
 
-
 ## Hide the settings button and other tools
 
 When you're editing a map, it's usually helpful to have the search bar, settings button, zoom buttons, etc. For the shareable version of a map, though, you might want to hide some or all of these parts of the interface.
 
-For more information on how to do that, check out our guide on [hiding the settings button](/faq/how-do-i-hide-the-settings-button.md).
-
+For more information on how to do that, check out our guide on [hiding the settings button](../faq/how-do-i-hide-the-settings-button.md).
 
 ## Embed a presentation
 
-In Kumu, you can create [presentations](/guides/presentations.md) to walk your readers through a map, step-by-step. You can also embed presentations on other websites—[check out the presentations guide](/guides/presentations.md#embed-a-presentation).
-
-
-
+In Kumu, you can create [presentations](presentations.md) to walk your readers through a map, step-by-step. You can also embed presentations on other websites—[check out the presentations guide](presentations.md#embed-a-presentation).

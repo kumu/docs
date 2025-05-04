@@ -50,7 +50,7 @@ Embed slides are for interactive web content and support embeds from over [300 d
 
 ## Publish a presentation
 
-Once you're finished creating your presentation, click Save and Exit the presentation builder. Click "Publish" to publish the presentation and choose whether you'd like to make the presentation public (unless your project is public in which case your presentation is automatically public) or if you'd like to make it even more secure by adding a password.
+Once you're finished creating your presentation, click Save and Exit the presentation builder. Click "Publish" to publish the presentation and choose whether you'd like to make the presentation public or if you'd like to make it even more secure by adding a password.
 
 After you publish, Kumu will give you a link that you and your audience can use to view your presentation.
 
@@ -59,6 +59,10 @@ After you publish, Kumu will give you a link that you and your audience can use 
 {% endhint %}
 
 Want to skip your title slide when you view the presentation? Just add `/embed` to the end of the presentation's link (only supported for public presentations, not private ones).
+
+{% hint style="warning" %}
+Changing the [privacy of your project](../overview/collaboration.md#public-vs.-private-projects) does not automatically change the privacy of your presentation. To change the presentation's privacy, first "Unpublish the presentation" and then "Publish" again with the right settings. Changing the privacy settings of a presentation will generate a new URL. If you've already shared the original link, be sure to provide your audience with the updated URL to ensure continued access.
+{% endhint %}
 
 ## Embed a presentation
 

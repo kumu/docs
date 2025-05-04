@@ -16,7 +16,9 @@ Alternatively, you can:
 2. Select **Admin** from the sidebar
 3. Click on "Make this project private" under the **Change privacy** section
 
-## Caveats when converting public projects to private
+## ⚠ Caveats when converting public projects to private
+
+#### Payment
 
 You will only be able to convert a **public** project to **private** if you have a payment method added to your account. To add one, please navigate to the [Workspaces tab](https://kumu.io/dashboard#workspaces) in your Dashboard > choose the workspace for which you'd like to update the payment method > click on Add Card to add your payment information.&#x20;
 
@@ -26,3 +28,13 @@ If you are on an [Annual billing plan](../overview/billing.md#annual-billing), y
 Can't pay with credit card? Kumu only offers invoicing for [annual plans](../overview/billing.md#annual-billing). If you'd like to switch to annual invoicing, please contact [billing@kumu.io](mailto:billing@kumu.io).&#x20;
 {% endhint %}
 
+#### Privacy of embed links & presentations
+
+Note that converting a public project to private **does not** update the privacy of any [embed links](../guides/share-and-embed.md) or [presentations](../guides/presentations.md) that you created when the project was public. Here's how to update their privacy:&#x20;
+
+* If you wish to make your embed links private, please delete the existing URL and [create a new embed](../guides/share-and-embed.md) with password-protection, or consider [adding members to the project directly.](../overview/collaboration.md#add-a-contributor)&#x20;
+* If you wish to make your presentation private, please navigate to the [Presentations](../guides/presentations.md) menu and click "Unpublish the presentation". Once the presentation is unpublished, you can click "Publish" again and choose to keep the presentation private. This will generate a new URL with a randomized token.&#x20;
+
+{% hint style="warning" %}
+Changing the privacy settings of an embed link or presentation will generate a new URL. If you've already shared the original link, be sure to provide your audience with the updated URL to ensure continued access
+{% endhint %}
