@@ -179,6 +179,7 @@
 * [How do I remove unwanted legend entries?](faq/how-can-i-remove-unwanted-legend-entries.md)
 * [How do I rename my map/view?](faq/how-do-i-rename-map-view.md)
 * [How do I restructure my adjacency matrix?](faq/how-do-i-restructure-my-adjacency-matrix.md)
+* [How do I save my changes in Kumu?](frequently-asked-questions/how-do-i-save-my-changes-in-kumu.md)
 * [How do I select options by default in my control?](faq/how-do-i-select-options-by-default-in-my-control.md)
 * [How do I set a minimum or maximum zoom level for my map?](frequently-asked-questions/how-do-i-set-a-minimum-or-maximum-zoom-level-for-my-map.md)
 * [How do I show the Settings button?](faq/how-do-i-show-the-settings-button.md)
