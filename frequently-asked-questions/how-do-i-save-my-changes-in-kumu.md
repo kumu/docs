@@ -34,7 +34,7 @@ Whether you're using the Basic Editor or the Advanced Editor, Kumu **does not** 
 * **SAVE**: Click this to saves your changes.
 * **REVERT**: Select this to discard your recent edits and return to the last saved version of the Advanced Editor.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 6.24.30 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 6.26.37 AM.png" alt=""><figcaption></figcaption></figure>
 
 ## 3. Map description
 
