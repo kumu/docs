@@ -2,7 +2,7 @@
 
 "Oops! Did that change get saved?!" Let’s make sure you never have to ask that again! Saving your work in Kumu is straightforward, but it's essential to know when and how to do it to ensure your changes stick.
 
-## Saving your data
+## 1. Saving your data
 
 There's two distinctions to make based on _how_ you're adding data into your map:&#x20;
 
@@ -24,7 +24,7 @@ If you're importing data, then all elements, connection and profile information 
 **Note:** If you imported your data through [Excel](../guides/import/excel-csv.md) or [JSON file](../guides/import/blueprints.md#import-a-json-file), you can continue editing in Kumu as per the steps in the section "Entering data by hand" above. If you imported your data through [Google Sheets](../guides/import/google-sheets.md) or [remote JSON link](../guides/import/blueprints.md#set-a-remote-json-link) you cannot edit in Kumu directly, and all changes must be made in either of those sources directly.&#x20;
 {% endhint %}
 
-## Basic & Advanced Editor
+## 2. Basic & Advanced Editor
 
 Clicking Settings on the left side of your map opens the [Basic Editor](../overview/view-editors.md#basic-editor) & the [Advanced Editor](../overview/advanced-editor-hub/). Here is where you work on the visualization of your map by creating [decorations](../guides/decorate.md), updating [the structure of your map](../overview/view-editors.md#connect-by), or creating [controls](../guides/controls.md).&#x20;
 
@@ -34,13 +34,13 @@ Whether you're using the Basic Editor or the Advanced Editor, Kumu **does not** 
 * **SAVE**: Click this to saves your changes.
 * **REVERT**: Select this to discard your recent edits and return to the last saved version of the Advanced Editor.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 6.20.51 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-05-15 at 6.24.30 AM.png" alt=""><figcaption></figcaption></figure>
 
-## Map description
+## 3. Map description
 
 To save the changes in your map description, simply click the blue "Done" button at the bottom of the map description.
 
-## Project Settings
+## 4. Project Settings
 
 These are the rules for changing settings in a few of the features in the [Project Settings](../overview/settings.md#project-settings) section:
 
