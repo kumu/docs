@@ -19,8 +19,12 @@ PDFs are free and unlimited for all projects in all workspaces.
 Want to make sure your labels are readable on your PDF or screenshot? [Learn how to remove label overlap](layouts/remove-overlap.md).
 {% endhint %}
 
-{% hint style="info" %}
-PDFs can only be created for regular maps, not for geo templates or full [presentations](presentations.md).
+{% hint style="warning" %}
+PDFs do not render for:\
+\- [Geo templates](templates/geo.md)\
+\- [Presentations](presentations.md)\
+\- [Grids & Guides](underlays.md)\
+\- [Background images](images.md#add-a-background-image)
 {% endhint %}
 
 ## Export to PNG: create a screenshot
