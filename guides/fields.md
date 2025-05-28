@@ -28,11 +28,13 @@ The Label field uniquely identifies an element, connection or loop. Look at it a
 
 #### Type
 
-Use the Type field to categorize elements and connections. Common element types include 'person', 'project', or 'company'. Common connection types include the nature of the relationship, e.g. 'personal', 'business', or 'family'. What's important to note here is that Type values are _mutually exclusive,_ meaning that an element or connection type can only be one single value. For example, an element cannot be a 'person' and an 'organization' at the same time. &#x20;
+Use the Type field to categorize elements and connections. Common element types include 'person', 'project', or 'company'. Common connection types include the nature of the relationship, e.g. 'personal', 'business', or 'family', or whether a connection has a positive affect (+) or a negative effect (-).&#x20;
+
+What's important to note here is that Type values are _mutually exclusive,_ meaning that an element or connection type can only be one single value. For example, an element cannot be a 'person' and an 'organization' at the same time. &#x20;
 
 #### Connection direction
 
-In a connection's profile, you'll see whether a connection is directed, undirected, or mutual. Direction determines where/if an arrow is placed on one or both ends of a connection, and is used in [Metrics](metrics.md) calculations to analyze the structure of a network. When you export your map to Excel, you'll also see this field included in the Connections tab of your sheet. To change the connection direction, please visit [this guide](../faq/how-do-I-add-arrows-to-my-connections.md).
+In a connection's profile, you'll see whether a connection is directed, undirected, or mutual. Direction determines where/if an arrow is depicted on one or both ends of a connection, and is used in [Metrics](metrics.md) calculations to analyze the structure of a network. When you export your map to Excel, you'll also see this field included in the Connections tab of your sheet. To change the connection direction, please visit [this guide](../faq/how-do-I-add-arrows-to-my-connections.md).
 
 #### Description
 
