@@ -1,6 +1,8 @@
 # Share and embed maps
 
-If you're looking to share or embed your public or private maps, click the "Share" icon in the lower right corner. You'll be prompted with this window:
+To share or embed your public or private maps, click the "Share" icon in the lower-right corner of your Kumu map. From there, you can create **a shareable link** or generate an **iframe embed code** to add the Kumu map directly to your website.
+
+You'll be prompted with this window:
 
 ![embed modal](../images/embed-modal.png)
 
@@ -14,13 +16,13 @@ If you're looking to share or embed your public or private maps, click the "Shar
 
 When you're done adjusting the settings, click "Create embed / share link". Then, just copy the share link and send it to a friend, or copy and paste the iframe code into your website to embed.
 
-You can also use the external link button () to open the map link in a new tab.
-
 {% hint style="danger" %}
-Anyone who has access to the the share link or the embedded version (and, when applicable, the password) will be able to view the map, even if the project is private. Want to prevent this? Consider [adding users to the a private project directly](../overview/collaboration.md#add-a-contributor).&#x20;
+Anyone who has access to the the share link or the embedded version (and, when applicable, the password) will be able to view the map, even if the project is private. Want to prevent this? Consider [adding users to a private project directly](../overview/collaboration.md#add-a-contributor).&#x20;
 {% endhint %}
 
+{% hint style="info" %}
 Shared/embedded maps will reflect updates you have made to the content of the map (elements, connections, and loops) and to views. Note that updates may take up to one hour to appear.
+{% endhint %}
 
 ## Enable scrolling for embeds
 
