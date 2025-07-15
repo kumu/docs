@@ -12,6 +12,15 @@ Use the **Bridge** interface to set up rules for bridging over elements that mee
 
 ![](../images/bridge-ui.png)
 
+{% hint style="warning" %}
+**Kumu's Bridging feature has two caveats to remember:**&#x20;
+
+* If your connections are _undirected_, Kumu will create two connections between the bridged elements. If you wish to de-duplicate these connections, [please follow this guide](../faq/how-do-i-collapse-duplicate-connections.md).
+* If your connections are _directed_, Kumu will only bridge the elements where one connection is incoming and the other connection is outgoing. If all the connections are incoming to a common element, it doesn't work. As a workaround, you can use the "KUMU\_BRIDGE example" tab[ in this Google Sheet with custom Kumu formulas](https://docs.google.com/spreadsheets/d/1qRhkn6qECtBaAncWykMa0hAG97jPK6q_bODrwntqze8/edit?usp=sharing) (Click "File" > "Make a copy" to create your own editable copy of the sheet).
+
+If any of the above is unclear, don't hesitate to reach out to [support@kumu.io](mailto:support@kumu.io) for help!&#x20;
+{% endhint %}
+
 ## Bridge in the Advanced Editor
 
 To bridge using the [Advanced Editor](../overview/view-editors.md#advanced-editor), here's the basic syntax:
