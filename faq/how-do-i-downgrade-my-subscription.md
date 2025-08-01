@@ -7,7 +7,7 @@ Kumu charges you based on two factors:
 
 ## Basic Workspace
 
-If you want to downgrade your Basic Workspace (which includes unlimited public projects), all you need to do is make sure your account has less or no private projects. If you currently have private projects: please click on the Project Settings menu in the top-left corner of your map, and then click on [Admin](../guides/project-admin.md) to take one of these three actions:
+If you want to downgrade your Basic Workspace, all you need to do is make sure your account has less or no private projects. If you currently have private projects: please click on the Project Settings menu in the top-left corner of your map, and then click on [Admin](../guides/project-admin.md) to take one of these three actions:
 
 * Convert the private project(s) to public
 * Transfer the private project(s) to another user
@@ -17,14 +17,16 @@ If you want to downgrade your Basic Workspace (which includes unlimited public p
 _Want to download a backup file of your project before you delete it? Learn how to do that_ [_here_](../guides/blueprints.md#project-backups)_._
 {% endhint %}
 
-If you are being billed **monthly**, Kumu's billing system will automatically put you on the free plan as soon as you have removed all private projects from your account. If you are being billed **annually**, please take the following steps to downgrade your plan:
+If you are being billed **monthly**, Kumu's billing system will automatically put you on the free plan as soon as you have removed all private projects from your account.&#x20;
+
+If you are being billed **annually**, please take the following steps to downgrade your plan:
 
 1. Click on the Workspaces tab in your [Dashboard](https://kumu.io/dashboard)
 2. Click on the name of the workspace for which you'd like to make the change
 3. Scroll down to **Annual private project limit**, choose how many private projects you'd like to remove, and click on the "Decrease limit" button.
 
 {% hint style="info" %}
-Note: Project fees will not be refunded when you remove private projects. Instead, a pro-rated amount will be credited to your Kumu account and applied to future invoices. Prefer a refund? Please contact us at \[support@kumu.io]\(mailto: support@kumu.io).
+Note: Project fees will not be automatically refunded when you remove private projects. Instead, a pro-rated amount will be credited to your Kumu account and applied to future invoices.&#x20;
 {% endhint %}
 
 ## Pro Workspace
