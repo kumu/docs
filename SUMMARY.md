@@ -148,7 +148,7 @@
 * [How do I change font size?](faq/how-do-i-change-font-size.md)
 * [How do I change the default for currency fields?](frequently-asked-questions/how-do-i-change-the-default-for-currency-fields.md)
 * [How do I change the length or strength of connections?](faq/how-to-change-length-of-connections.md)
-* [How do I change the order of control options?](faq/how-do-i-change-the-order-of-control-options.md)
+* [How do I hide control options or change their order?](faq/how-do-i-change-the-order-of-control-options.md)
 * [How do I change the position of my element labels?](faq/how-do-i-change-element-text-position.md)
 * [How do I cite Kumu?](faq/how-do-i-cite-kumu.md)
 * [How do I collapse duplicate connections?](faq/how-do-i-collapse-duplicate-connections.md)
