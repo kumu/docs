@@ -14,8 +14,8 @@ Within the project settings, you have the following options:
 
 * **Overview.** Add a project overview and a [license](../guides/licensing.md) for everyone to see.
 * **Presentations.** Create, edit, and publish [presentations](../guides/presentations.md) to walk others through your project. Break down your complex project using the slide format of presentations, adding text, images, videos, and fully interactive map slides.
-* **Activity feed.** Use the activity feed to keep tabs on who’s making each change across your project.
-* **Help.** Access how-to videos, the docs, [our open Slack team](chat.kumu.io), and a list of keyboard shortcuts.
+* **Activity feed.** Use the activity feed to keep tabs on who’s making each change across your project (only visible for projects created in [Pro workspaces](../guides/pro-workspaces.md)).&#x20;
+* **Help.** Access how-to videos, the Kumu Docs and a list of keyboard shortcuts.
 * **Fields.** Manage the [fields](../guides/fields.md) for your project. Add and edit new fields, change field relevance (which fields appear in the profiles for elements, connections, and loops), and manage field appearance and behavior.
 * **Members.** Give other people access to edit your map. [Learn more about collaborating in Kumu](collaboration.md).
 * **Embeds.** Create a shareable link to a map, or create an iFrame to [embed your map](../guides/share-and-embed.md) on another site.
