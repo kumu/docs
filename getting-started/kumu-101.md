@@ -51,3 +51,9 @@ You can also subscribe to [our blog, In Too Deep](https://blog.kumu.io/) and che
 ## Where can I go for help (or to show off my awesome work)?
 
 If you get stuck and need advice, feel free to email us at [support@kumu.io](mailto:support@kumu.io). We're always happy to help. And if you have awesome work to share or showcase, we’d love to see it as well!
+
+## Want to support Kumu?
+
+We build tools that help people tackle tough problems. We believe deeply in the importance of getting Kumu into the hands of the organizations, communities and change makers that need it most. Our commitments to free public projects, reasonable pricing, and non-profit discounts mean that many of you feel like you get tremendous value from the tool without having a way to give back.
+
+If you resonate with [our manifesto](https://kumu.io/manifesto) and would like to support our team as we continue to build the next version of Kumu (and other tools for wrangling complexity), then we’d love to have you here as a [supporter on Patreon](https://www.patreon.com/kumu/membership).
