@@ -27,7 +27,7 @@ Seeing errors during your Google Sheets import? Visit the [common pitfalls](impo
 {% endhint %}
 
 {% hint style="success" %}
-Get your hands dirty! Find some example data sets, and their accompanying maps, in our [public data samples folder](https://drive.google.com/drive/folders/1\_xoIFJ2snCcxta1Fw8AwrxWCe5YlKXCW?usp=sharing).
+Get your hands dirty! Find some example data sets, and their accompanying maps, in our [public data samples folder](https://drive.google.com/drive/folders/1_xoIFJ2snCcxta1Fw8AwrxWCe5YlKXCW?usp=sharing).
 {% endhint %}
 
 ## Caveats for the Google Sheets integration
@@ -46,3 +46,11 @@ This video gives an explanation of how to crowdsource data with Google Sheets:\
 
 
 {% embed url="https://www.youtube.com/embed/0eZQ2MPGzv4" %}
+
+## Unlinking a Google Sheet
+
+If you wish to unlink a Google Sheet (for example, to switch to an Excel import), please click on the green + button at the bottom of your map and choose "Unlink Map".&#x20;
+
+{% hint style="info" %}
+Unlinking your Google Sheet will disconnect your data source, which means your Kumu map will appear empty. Not to worry! Your decoration rules are still saved in both the Basic and Advanced editors. Once you import a new data sheet, your visualization will be restored just as before.
+{% endhint %}
