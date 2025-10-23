@@ -1,5 +1,44 @@
 # Changelog
 
+## Version 3.5
+**Updated ksb, released 2024-05-15**
+
+Changes:
+
+* Improvements to the template picker
+* Added the `legend-scale` property
+* Added option to wipe previous data when importing
+* Redesign of the basic editor
+* Migrated two-factor authentication (2FA) providers, so 2FA will have to be set up again.
+* Fixed a security vulnerability found in an independent security audit by Cure53.
+* Several minor bug fixes and improvements
+
+Known issues:
+
+* IE11 and under are not supported.
+* Importing private google sheets is not supported.
+* Embed slides within presentations do not work out of the box. Kumu uses Embedly to handle these and we restrict requests to known referrers. Please email the hostname you're using to enterprise@kumu.io to fix this.
+* Geocoding does not work out of the box. Customers must supply their own ArcGIS developer credentials.
+
+## Version 3.4
+**Updated ksb, released 2022-05-09**
+
+Changes:
+
+* Redesign of the template picker
+* Add bridging to basic editor
+* Add imported views to basic editor
+* Allow disabling field inference when importing
+* Add Snap-to builder
+* Several minor bug fixes and improvements
+
+Known issues:
+
+* IE11 and under are not supported.
+* Importing private google sheets is not supported.
+* Embed slides within presentations do not work out of the box. Kumu uses Embedly to handle these and we restrict requests to known referrers. Please email the hostname you're using to enterprise@kumu.io to fix this.
+* Geocoding does not work out of the box. Customers must supply their own ArcGIS developer credentials.
+
 ## Version 3.3
 
 **Updated ksb, released 2020-10-01**
