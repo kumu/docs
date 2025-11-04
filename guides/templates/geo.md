@@ -73,10 +73,6 @@ Use `geo-style: dark;` for a dark version of the `auto` map.
 
 ![geo-style streets](../../images/geo-style-streets.png)
 
-#### `geo-style: satellite;`
-
-![geo-style satellite](../../images/geo-style-satellite.png)
-
 **Good to know:**
 
 * By default, the geo template limits you to squares and straight lines.
