@@ -170,68 +170,25 @@ For more info on why and how this works, check out [our full guide on built-in c
 
 Below is a list of all the icons you can add to your legend, as well as instructions on how to access the icons from the Basic and Advanced Editors.
 
-None
-
-| Legend icon                                                         | Basic Editor                                                                       | Advanced Editor                                                               |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| ![element color icon](../images/legend-element-color.png)           | <p>Decorate elements ><br>Change color ><br>Set a fixed element color</p>          | <pre><code>element {
+<table><thead><tr><th>Legend icon</th><th>Basic Editor</th><th>Advanced Editor</th></tr></thead><tbody><tr><td><img src="../images/legend-element-color.png" alt="element color icon"></td><td>Decorate elements ><br>Change color ><br>Set a fixed element color</td><td><pre><code>element {
     color: #34b3eb;
 }
-</code></pre>                      |
-| ![element shadow color icon](../images/legend-shadow-color.png)     | <p>Decorate elements ><br>Add shadow ><br>color</p>                                | <pre><code>element {
+</code></pre></td></tr><tr><td><img src="../images/legend-shadow-color.png" alt="element shadow color icon"></td><td>Decorate elements ><br>Add shadow ><br>color</td><td><pre><code>element {
     shadow-color: #34b3eb;
 }
-</code></pre>               |
-| ![element bullseye color icon](../images/legend-bullseye-color.png) | <p>Decorate elements ><br>Add bullseye ><br>color</p>                              | <pre><code>element {
+</code></pre></td></tr><tr><td><img src="../images/legend-bullseye-color.png" alt="element bullseye color icon"></td><td>Decorate elements ><br>Add bullseye ><br>color</td><td><pre><code>element {
     bullseye-color: #34b3eb;
 }
-</code></pre>             |
-| ![element border color icon](../images/legend-border-color.png)     | <pre><code>element {
+</code></pre></td></tr><tr><td><img src="../images/legend-border-color.png" alt="element border color icon"></td><td><pre><code>element {
     border-color: #34b3eb;
 }
-</code></pre>                    |                                                                               |
-| ![connection scale icon](../images/legend-connection-scale.png)     | <p>Decorate connections ><br>Change size ><br>Scale connection widths by field</p> | <pre><code>connection {
+</code></pre></td><td></td></tr><tr><td><img src="../images/legend-connection-scale.png" alt="connection scale icon"></td><td>Decorate connections ><br>Change size ><br>Scale connection widths by field</td><td><pre><code>connection {
     scale: scale("strength", 0.5, 3);
 }
-</code></pre> |
-| ![connection color icon](../images/legend-connection-color.png)     | <p>Decorate connections ><br>Change color ><br>Set a fixed connection color</p>    | <pre><code>connection {
+</code></pre></td></tr><tr><td><img src="../images/legend-connection-color.png" alt="connection color icon"></td><td>Decorate connections ><br>Change color ><br>Set a fixed connection color</td><td><pre><code>connection {
     color: #34b3eb;
 }
-</code></pre>                   |
-| ![connection dashed icon](../images/legend-connection-dashed.png)   | <p>Decorate connections ><br>Change style ><br>dashed</p>                          | <pre><code>connection {
+</code></pre></td></tr><tr><td><img src="../images/legend-connection-dashed.png" alt="connection dashed icon"></td><td>Decorate connections ><br>Change style ><br>dashed</td><td><pre><code>connection {
     style: dashed;
 }
-</code></pre>                    |
-
-None
-
-| Legend icon                                                         | Basic Editor                                                                       | Advanced Editor                                                               |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| ![element color icon](../images/legend-element-color.png)           | <p>Decorate elements ><br>Change color ><br>Set a fixed element color</p>          | <pre><code>element {
-    color: #34b3eb;
-}
-</code></pre>                      |
-| ![element shadow color icon](../images/legend-shadow-color.png)     | <p>Decorate elements ><br>Add shadow ><br>color</p>                                | <pre><code>element {
-    shadow-color: #34b3eb;
-}
-</code></pre>               |
-| ![element bullseye color icon](../images/legend-bullseye-color.png) | <p>Decorate elements ><br>Add bullseye ><br>color</p>                              | <pre><code>element {
-    bullseye-color: #34b3eb;
-}
-</code></pre>             |
-| ![element border color icon](../images/legend-border-color.png)     | <pre><code>element {
-    border-color: #34b3eb;
-}
-</code></pre>                    |                                                                               |
-| ![connection scale icon](../images/legend-connection-scale.png)     | <p>Decorate connections ><br>Change size ><br>Scale connection widths by field</p> | <pre><code>connection {
-    scale: scale("strength", 0.5, 3);
-}
-</code></pre> |
-| ![connection color icon](../images/legend-connection-color.png)     | <p>Decorate connections ><br>Change color ><br>Set a fixed connection color</p>    | <pre><code>connection {
-    color: #34b3eb;
-}
-</code></pre>                   |
-| ![connection dashed icon](../images/legend-connection-dashed.png)   | <p>Decorate connections ><br>Change style ><br>dashed</p>                          | <pre><code>connection {
-    style: dashed;
-}
-</code></pre>                    |
+</code></pre></td></tr></tbody></table>
