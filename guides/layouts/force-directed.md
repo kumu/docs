@@ -18,7 +18,7 @@ We've picked default strengths for each of these forces in order to create comfo
 
 The easiest way to change how gravity, particle charge, and connections affect the layout is to change your **layout preset**.
 
-To do that, click the settings icon ![](../../icons/sliders-h.svg) to open the Basic Editor, then click **MORE OPTIONS** and select **Customize view defaults**. Scroll down to the **Layout settings** section and use the "Preset" dropdown to switch between three default settings:
+To do that, click the settings icon ![](../../.gitbook/assets/sliders-h.svg) to open the Basic Editor, then click **MORE OPTIONS** and select **Customize view defaults**. Scroll down to the **Layout settings** section and use the "Preset" dropdown to switch between three default settings:
 
 * auto
 * dense
@@ -39,7 +39,7 @@ If none of the layout presets look good for your map, you can use the [Advanced 
 
 ## Changing from fixed to force-directed layout:
 
-1. Click on the settings icon ![](../../icons/sliders-h.svg) on the right side of the map
+1. Click on the settings icon ![](../../.gitbook/assets/sliders-h.svg) on the right side of the map
 2. Select **Customize defaults**
 3. Scroll down to the **General settings** section to change the "Layout" to "force-directed"
 4. Then right-click your mouse on your map to open the quick-access menu. Choose Maps > Default Element Behavor > change it to "floating"

@@ -2,7 +2,7 @@
 
 Kumu has a powerful metrics engine which includes a number of popular social network analysis (SNA) metrics as well as community detection and other helpful calculations.
 
-![metrics tool](../images/metrics-degree.png)
+![metrics tool](../.gitbook/assets/metrics-degree.png)
 
 ## How to run basic metrics
 
@@ -45,7 +45,7 @@ Certain fields also support weighting so you can include fields like strength an
 
 For the metrics that allow weighting, you'll see an Advanced Options link once you select the metric:
 
-![Weighted metrics](../images/weighted-metrics.jpg)
+![Weighted metrics](../.gitbook/assets/weighted-metrics.jpg)
 
 You can choose any numerical field for the weighting, but make sure you have values saved for the elements or connections based on which is used for the weighting. If you don't see the field you want to use listed, make sure the type for that field is set to numeric.
 
@@ -81,7 +81,7 @@ Kumu includes support for community detection based on the [SLPA algorithm](http
 
 Click the Metrics icon in the lower right corner of your map and choose "community detection". If you haven't run community detection before, clicking this will automatically detect communities. If you're already run community detection, clicking the icon will bring you to a window showing you the previous results.
 
-![](../images/community-results.jpg)
+![](../.gitbook/assets/community-results.jpg)
 
 {% hint style="info" %}
 Good to know: Connection direction _does_ influence community detection.
@@ -107,7 +107,7 @@ The SLPA algorithm preserves this data, and we believe the breakdown is even mor
 
 First, make sure to save the community results. This will save the best match for each element to the "Community" field so you can use the community values to decorate your maps.
 
-![Les Miserables](../images/les-mis.jpg)
+![Les Miserables](../.gitbook/assets/les-mis.jpg)
 
 To quickly color-code elements by community, you can use the [Color by](decorate.md#color-by) tool in the Basic Editor.
 

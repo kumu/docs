@@ -8,7 +8,7 @@ If you're building a fixed map with [Sketch Mode](../../getting-started/first-st
 
 ## Changing from force-directed to fixed layout:
 
-1. Click on the settings icon ![](../../icons/sliders-h.svg) on the right side of the map
+1. Click on the settings icon ![](../../.gitbook/assets/sliders-h.svg) on the right side of the map
 2. Select **Customize defaults**
 3. Scroll down to the **General settings** section to change the "Layout" to "off"
 4. In the same section, change "Default element behavior" to "fixed"

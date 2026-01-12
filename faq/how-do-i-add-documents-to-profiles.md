@@ -6,15 +6,13 @@ The simplest solution is to upload your document to any online platform, (Google
 
 If you'd rather allow readers to read the document directly inside Kumu, there are two features that can help: **widgets** and **lightbox**.
 
-
 ## Embed a document using widgets
 
 If you upload your document to [Scribd](https://www.scribd.com/), you can use our Scribd widget to embed the document directly into any profile.
 
-![scribd widget](/images/widgets-scribd.png)
+![scribd widget](../.gitbook/assets/widgets-scribd.png)
 
-For more info on how to use the Scribd widget, [visit the widgets docs](/guides/widgets.md#embed-documents).
-
+For more info on how to use the Scribd widget, [visit the widgets docs](../guides/widgets.md#embed-documents).
 
 ## Embed a document using lightbox
 
@@ -24,6 +22,6 @@ Many document hosting platforms allow you to create a share/embed link that you 
 https://www.scribd.com/embeds/416217686/content?lightbox=full
 ```
 
-![scribd lightbox](/images/lightbox-scribd.png)
+![scribd lightbox](../.gitbook/assets/lightbox-scribd.png)
 
-For more info on the ligthbox feature, [see the full guide](/guides/lightbox.md).
+For more info on the ligthbox feature, [see the full guide](../guides/lightbox.md).

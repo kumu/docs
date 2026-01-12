@@ -8,7 +8,7 @@ It's not possible to control text position when you're using the [SNA template](
 
 If you want to change the position of your element labels for all elements, follow these steps:
 
-1. Click on the settings icon ![](../icons/sliders-h.svg) on the right side of your map
+1. Click on the settings icon ![](../.gitbook/assets/sliders-h.svg) on the right side of your map
 2. Click **Customize defaults**
 3. Look for "Default label position" under "Element defaults". You can change the position of the labels to "bottom" or "center."
 

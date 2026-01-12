@@ -10,7 +10,7 @@ The easiest way to bridge over elements is with the [Basic Editor](../overview/v
 
 Use the **Bridge** interface to set up rules for bridging over elements that meet a given [selector](selectors.md).
 
-![](../images/bridge-ui.png)
+![](../.gitbook/assets/bridge-ui.png)
 
 {% hint style="warning" %}
 **Kumu's Bridging feature has two caveats to remember:**&#x20;

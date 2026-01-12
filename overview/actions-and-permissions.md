@@ -38,15 +38,15 @@ For more info on how to add project contributors, check out our guide on [collab
 
 For a Pro workspace the **workspace owners** are the only people who have permission to change account settings, such as profile info, username and password, or billing info. Pro workspace owners are also the only people who have permission to invite new people to the workspace or give them direct access to a project (without inviting them to the workspace).
 
-![member settings](../images/workspace-add-members.png)
+![member settings](../.gitbook/assets/workspace-add-members.png)
 
 When Pro workspace owners invite a new person to the workspace, they can choose whether that person will be another **owner** or just a **member**. When owners give a new person direct access to a project, they can choose whether that person will be an **observer**, a **contributor**, or a **manager**.
 
-![member settings](../images/settings-members.png)
+![member settings](../.gitbook/assets/settings-members.png)
 
 Finally, Pro workspace owners and members are also allowed to create **teams** within their workspace. Pro workspace owners can add people to any team at any time, then give the entire team a specific kind of access to a project (e.g. one team might have view-only access to a project and edit access for different project). Within teams, certain people can be **maintainers**. Maintainers, like workspace owners, have the ability to add and remove people from the team, and appoint other maintainers.
 
-![pro workspace team members](../images/pro-workspace-team-maintainers.png)
+![pro workspace team members](../.gitbook/assets/pro-workspace-team-maintainers.png)
 
 That's a lot of different roles! Here's a quick recap of the vocabulary:
 
@@ -73,8 +73,8 @@ For more info on how to add project contributors, check out [our full guide on P
 
 There are two different ways to find out which workspace a project is in. First, if you have been [added as a contributor](collaboration.md#add-a-contributor) to the project, you can go to your [account dashboard](https://kumu.io/dashboard) and find the project in the list. Underneath the project's name, you'll see the workspace's name.
 
-![project owner username under project name](../images/project-owner-dashboard.png)
+![project owner username under project name](../.gitbook/assets/project-owner-dashboard.png)
 
 You can also figure out who owns any project by looking at the project's URL. Every Kumu project URL starts with `https://kumu.io/`, followed by a [slug](../guides/slugs.md) or the workspace's name. For example, the project pictured below is owned by our Pro workspace, which is named "Kumu":
 
-![project owner in URL](../images/project-owner-url.png)
+![project owner in URL](../.gitbook/assets/project-owner-url.png)

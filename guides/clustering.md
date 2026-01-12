@@ -6,7 +6,7 @@ When clustering is activated, Kumu will create new elements to represent each po
 
 Here's a visual example—musical artists clustered by their genre:
 
-![cluster by element type](../images/artists-clustered-by-genre.png)
+![cluster by element type](../.gitbook/assets/artists-clustered-by-genre.png)
 
 This guide will make you an expert on clustering, one of Kumu's most unique and powerful tools!
 
@@ -18,19 +18,19 @@ Before you start: [use fields](fields.md) to add additional information to your 
 
 There are hidden relationships in much of the data you have stored in spreadsheets; they're just not stored explicitly as connections. For example, you probably have a spreadsheet full of contacts, with one column storing the person's name and another column storing the organization she works for. If you imported this directly into Kumu, you'd end up with a map like this:
 
-![Elements with no relationships](../images/cluster-before-final.png)
+![Elements with no relationships](../.gitbook/assets/cluster-before-final.png)
 
 Not that eye opening, right? You could click on each element to open its profile, allowing you to see each person's organization, but it would take you a long time to gain any insight into your data.
 
 If you **cluster** these people by their organizations, you can start to get a better understanding of your network:
 
-![Elements with relationships](../images/cluster-after-final.png)
+![Elements with relationships](../.gitbook/assets/cluster-after-final.png)
 
 _Voila!_ We used clustering to transform a rigid spreadsheet into a relationship map of all the people and organizations they work for.
 
 ## Cluster in the Basic Editor
 
-To set up your first cluster, click the settings icon ![](../icons/sliders-h.svg) on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
+To set up your first cluster, click the settings icon ![](../.gitbook/assets/sliders-h.svg) on the right side of the map to open the Basic Editor, and use the dropdown next to **Connect by** to select a field. Every dataset is unique, but here are some ideas to get you started:
 
 **If your elements are people, cluster by...**
 
@@ -80,9 +80,9 @@ These default rules often won't cause any problems for your map, but there are s
 
 ### Fine-tune in the Basic Editor
 
-To fine-tune your cluster settings in the Basic Editor, click the settings icon ![](../icons/sliders-h.svg)to the right of the **Connect by** tool, and your Basic Editor will show you the **Cluster Settings** menu:
+To fine-tune your cluster settings in the Basic Editor, click the settings icon ![](../.gitbook/assets/sliders-h.svg)to the right of the **Connect by** tool, and your Basic Editor will show you the **Cluster Settings** menu:
 
-![Cluster basic editor](../images/overview-cluster.png)
+![Cluster basic editor](../.gitbook/assets/overview-cluster.png)
 
 Click the **Add rule** button to create a new cluster rule. Then, click next to "Connect" to bring up the Selector Builder, which allows you to narrow the [selection](selectors.md) of elements that will be clustered.
 
@@ -130,18 +130,18 @@ One use case for this feature is cross-matching multiple fields, such as "Skills
 
 If you don't customize the type of the elements created by this cluster setting, the types will default to "Skills offered" and "Skills needed", and you'll get two separate elements for each skill: one with the type "Skills offered" and the other with the type "Skills needed".
 
-![cluster default types](../images/cluster-default-type.png)
+![cluster default types](../.gitbook/assets/cluster-default-type.png)
 
 But, if you set the element types to "Skill" for both clustering rules, Kumu will create only one element for each skill value—even though the values originated in different fields.
 
-![cluster customized types](../images/cluster-customized-type.png)
+![cluster customized types](../.gitbook/assets/cluster-customized-type.png)
 
 ## Limiting which fields can be clustered
 
 If you'd like to hide certain fields from your Cluster Settings dropdown menus, you can click on an element, click on the downward arrow next to the field name, and use the field settings to disable clustering:
 
-![clustering menu](../images/clustering-menu.jpg)
+![clustering menu](../.gitbook/assets/clustering-menu.jpg)
 
-If you want to disable clustering on any of the core fields (label, description, tags, or type), you can click the menu icon ![](../icons/bars.svg) , click **FIELDS**, select the field you want to disable, and un-check the clustering box in the Advanced Settings:
+If you want to disable clustering on any of the core fields (label, description, tags, or type), you can click the menu icon ![](../.gitbook/assets/bars.svg) , click **FIELDS**, select the field you want to disable, and un-check the clustering box in the Advanced Settings:
 
-![advanced settings clustering menu](../images/clustering-menu-advanced.png)
+![advanced settings clustering menu](../.gitbook/assets/clustering-menu-advanced.png)

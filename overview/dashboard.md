@@ -2,7 +2,7 @@
 
 Your Kumu dashboard is where the fun begins! After you [sign up for an account](https://kumu.io/join) or [log into your account](https://kumu.io/login), you'll be redirected to your [account dashboard](https://kumu.io/dashboard):
 
-![dashboard](../images/dashboard-projects-list.png)
+![dashboard](../.gitbook/assets/dashboard-projects-list.png)
 
 When you're logged in, you can always find your dashboard at [https://kumu.io/dashboard](https://kumu.io/dashboard).
 
@@ -12,13 +12,13 @@ If you're looking for a specific project or group of projects, use the dropdown 
 
 You'll notice that, above the project list and dropdown menus, there are two tabs: **Projects** and **Workspaces**. Click the Workspaces tab to see a list of which [workspaces](accounts-and-workspaces.md) you belong to, or create a new workspace.
 
-![workspaces tab](../images/dashboard-workspaces-list.png)
+![workspaces tab](../.gitbook/assets/dashboard-workspaces-list.png)
 
 ## Pro workspace dashboard
 
 When you belong to a [Pro workspace](../guides/pro-workspaces.md) in Kumu, you can view a separate dashboard that belongs to the Pro workspace.
 
-![Pro workspace dashboard](../images/dashboard-pro-workspace.png)
+![Pro workspace dashboard](../.gitbook/assets/dashboard-pro-workspace.png)
 
 On this dashboard, you can see a list of projects owned by the Pro workspace, as well as a list of Pro workspace members and teams. For more information about adding members and creating teams, check out the [full guide on Pro workspaces](../guides/pro-workspaces.md).
 

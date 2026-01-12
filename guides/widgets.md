@@ -2,7 +2,7 @@
 
 We've built a flexible widget framework to give superpowers to the [Map Overview](../overview/map-editor.md#side-panel) and the Description field in [profiles](profiles.md).
 
-![image of list of connections belonging to an element](../images/list-widget-element-connections.png)
+![image of list of connections belonging to an element](../.gitbook/assets/list-widget-element-connections.png)
 
 With widgets, you can do the following:
 
@@ -30,7 +30,7 @@ For a basic list, just type `list/` inside your double square brackets, and then
 [[list/loops]]        --> Creates a list of all loops
 ```
 
-![List widget](../images/list-loops.png)
+![List widget](../.gitbook/assets/list-loops.png)
 
 All the items in the list are links—you can hover over a link to [showcase](showcase.md) an item on the map, or you can click a link to jump to the profile for that item.
 
@@ -112,7 +112,7 @@ Simply include the field name in quotes in the standard list format.
 [[list "Level of Influence"]]
 ```
 
-![](../images/list-widget-field.jpg)
+![](../.gitbook/assets/list-widget-field.jpg)
 
 When you hover over a field value in the list, Kumu will showcase all elements, connections, and loops that have that field value in their profile.
 

@@ -29,7 +29,7 @@ Finally, you can learn more about privacy and security by visiting our [privacy 
 
 To add a contributor to a project inside a [Basic workspace](accounts-and-workspaces.md), you first need to make sure the contributor has their own Kumu account. If they don't have one yet, they can [sign up for free](https://kumu.io/join). Once they have signed up, you can [open your project settings](settings.md), click on **MEMBERS**, type in the contributor's Kumu username, and click "Add contributor".
 
-![add contributor](../images/add-collaborator.png)
+![add contributor](../.gitbook/assets/add-collaborator.png)
 
 Anytime you add a contributor to a project (public or private) owned by your personal account, you are granting them view **and** edit access. However, they won't be able to add other contributors, change project privacy, or rename, transfer, or delete the project.
 
@@ -49,25 +49,25 @@ If you happen to edit the same part of the map at the same time (whether that's 
 
 **Let's walk through a quick example.** Say you and a teammate both happened to be mapping influential people in Silicon Valley one afternoon. You both click on Reid and decide that his bio needs a bit of sprucing up. You save your changes and SURPRISE! The below screen pops up to let you know that you're not the only one editing Reid's bio today.
 
-![Conflicts Step 1](../images/merge-1.png)
+![Conflicts Step 1](../.gitbook/assets/merge-1.png)
 
 You click "Get started" and see a window that highlights the changes between your version and the version on our servers. Lines you've added show up as blue text with a "+'' sign in front. Lines that you've deleted or someone else has added show up as red text with a "-" sign in front.
 
-![Conflicts Step 2](../images/merge-2.png)
+![Conflicts Step 2](../.gitbook/assets/merge-2.png)
 
 Now you're in charge. Choose which text you want to keep and which you want to remove. Make any remaining corrections and then remove any "+" or "-" added in the merge process. You're finished when you see all grey text:
 
-![Conflicts Step 3](../images/merge-3.png)
+![Conflicts Step 3](../.gitbook/assets/merge-3.png)
 
 If there are multiple conflicts, you'll be taken through each conflict one by one. Once you see this screen:
 
-![Conflicts Step 4](../images/merge-4.png)
+![Conflicts Step 4](../.gitbook/assets/merge-4.png)
 
 ...you're all set. If only handling conflicts in the real world was this easy!
 
 ## Create a presentation
 
-Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You can create a new presentation and edit existing presentations by clicking the menu icon ![](../icons/bars.svg) in the upper left of your map, then clicking **PRESENTATIONS**. For more info on the power of presentations, watch the video below, or [check out our full guide on presentations](../guides/presentations.md)
+Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. You can create a new presentation and edit existing presentations by clicking the menu icon ![](../.gitbook/assets/bars.svg) in the upper left of your map, then clicking **PRESENTATIONS**. For more info on the power of presentations, watch the video below, or [check out our full guide on presentations](../guides/presentations.md)
 
 {% embed url="https://player.vimeo.com/video/118975099" %}
 

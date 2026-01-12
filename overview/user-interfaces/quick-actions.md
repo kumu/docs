@@ -4,7 +4,7 @@ Kumu's Quick Actions menu is your one-stop-shop for useful functions, features, 
 
 To bring up the Quick Actions menu, click the magic wand on the [bottom toolbar](../map-editor.md#bottom-toolbar) or press `W` on your keyboard. You'll be greeted with a list of helpful options:
 
-![quick actions modal](../../images/quick-actions.png)
+![quick actions modal](../../.gitbook/assets/quick-actions.png)
 
 Search for the feature you're looking for, and the list of options will filter itself to match your keywords.
 

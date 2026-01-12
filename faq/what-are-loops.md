@@ -4,7 +4,7 @@ In Kumu, the three basic items you can create are **elements**, **connections**,
 
 Visually speaking, elements are circles, connections are lines between the elements, and loops are groups of two or more connections.
 
-![Elements, connections, and loops](../images/elements-connections-loops-bold.png)
+![Elements, connections, and loops](../.gitbook/assets/elements-connections-loops-bold.png)
 
 Loops show up on the map as a text label, and the default position of that label is in the middle of all the connections that are part of the group.
 
@@ -41,11 +41,11 @@ If not, the structure is not a loop, but might still be complex enough to deserv
 
 Here’s an example of a structure that looks like a loop, but is not, because no matter which arrow you follow, you always end up at the same factor, escaping the trap:
 
-![not a loop](https://miro.medium.com/max/4992/1\*noatmnqxsIbLdQx3FtM-BA.png)
+![not a loop](https://miro.medium.com/max/4992/1*noatmnqxsIbLdQx3FtM-BA.png)
 
 On the other hand, if you reverse just one of the arrows in the structure, you inevitably get trapped going around and around in a circle:
 
-![this is a system loop](https://miro.medium.com/max/5020/1\*KtuXkBbRz3KVUD9zPePAwQ.png)
+![this is a system loop](https://miro.medium.com/max/5020/1*KtuXkBbRz3KVUD9zPePAwQ.png)
 
 _This_ is the kind of loop you’re looking for in a system map.
 

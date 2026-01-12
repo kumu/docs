@@ -14,7 +14,7 @@ In Kumu, there are a number of different places where you can use images to enri
 
 If you are [building a map by hand](../getting-started/first-steps.md#build-your-map-by-hand), you can easily upload an image file from your computer directly to Kumu. Just click an item (element, connection, or loop) on your map, click the camera icon in the upper right of the [profile](profiles.md), and click "select a file" to upload your image.
 
-![Gif showing how to upload an image to Kumu](../images/upload-image.gif)
+![Gif showing how to upload an image to Kumu](../.gitbook/assets/upload-image.gif)
 
 You can upload images to descriptions and the map overview as well. To do this, click to edit any text area in the [side panel](../overview/map-editor.md#side-panel), and look for "select a file" below the text area.
 
@@ -39,7 +39,7 @@ Have you uploaded images, but are not seeing images on the map? Here are a few s
 
     * Make sure your link leads directly to the image, rather than a webpage with the image on it. There are many places where you can host your images, but [this website](https://imgbb.com/) is generally a good place to start. Some images also allow you to simply right-click on them and choose "Copy image address".
     * Make sure your image URL is using a secure connection—that is, the link starts with `https` instead of just `http`
-    * Disable image proxy: click the menu icon ![](../icons/bars.svg) in the upper left of the map editor, then click **Admin** and click **disable it**.
+    * Disable image proxy: click the menu icon ![](../.gitbook/assets/bars.svg) in the upper left of the map editor, then click **Admin** and click **disable it**.
 
 
 
@@ -63,7 +63,7 @@ Be sure to check out our [property reference](../overview/advanced-editor-hub/pr
 
 Using the Advanced Editor, you can easily bring in any [Font Awesome icon](https://fontawesome.com/icons) to decorate your elements.
 
-![elements with icons to show element type](../images/icons.png)
+![elements with icons to show element type](../.gitbook/assets/icons.png)
 
 For more guidance, check out [our full guide on icons](icons.md).
 
@@ -107,7 +107,7 @@ If your image isn't displaying in Kumu, you can save the file to your computer a
 You can also use the [Basic Editor](../overview/view-editors.md#basic-editor) to upload an image from your computer to your Kumu project—this will override the `image-url` in your code. Follow these steps:
 
 1. Complete the initial steps above to create your background element, add your Advanced Editor code, and save your changes.
-2. Click the settings icon ![](../icons/sliders-h.svg) to open the Basic Editor.
+2. Click the settings icon ![](../.gitbook/assets/sliders-h.svg) to open the Basic Editor.
 3. Click **More Options**
 4. Select **Decorate elements**
 5. In the element decoration builder, set the dropdown at the top to "Decorate custom selection"

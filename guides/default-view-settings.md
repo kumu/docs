@@ -4,7 +4,7 @@ In Kumu, **default view settings** is your one-stop-shop for adjusting the under
 
 ## Change default view settings in the Basic Editor
 
-You can find the **Default view settings** tool in the [Basic Editor](../overview/view-editors.md#basic-editor) by clicking the settings icon ![](../icons/sliders-h.svg) on the right side of your map, and selecting **Customize defaults**.
+You can find the **Default view settings** tool in the [Basic Editor](../overview/view-editors.md#basic-editor) by clicking the settings icon ![](../.gitbook/assets/sliders-h.svg) on the right side of your map, and selecting **Customize defaults**.
 
 <figure><img src="../.gitbook/assets/Customize defaults.png" alt=""><figcaption><p>Customize defaults</p></figcaption></figure>
 

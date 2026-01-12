@@ -6,7 +6,7 @@ There are three ways to re-order legend entries, depending on how they were adde
 
 If you added legend entries using the **Color by** tool in the Basic Editor, follow these steps to change the order:
 
-1. Click the menu icon ![](../icons/bars.svg) to bring up the [project settings](../overview/settings.md#project-settings)
+1. Click the menu icon ![](../.gitbook/assets/bars.svg) to bring up the [project settings](../overview/settings.md#project-settings)
 2. Select **Fields** from the sidebar on the left
 3. Select the same field you selected in the **Color by** tool—it's settings panel will open up
 4. Drag and drop field values to change their order (see below gif)

@@ -2,7 +2,7 @@
 
 Flags are a [data-driven decoration](data-driven-decorations.md) created specifically for multi-pick fields (fields like Tags that can hold more than one value). When you decorate elements with flags, Kumu draws colored arcs around the outside of those elements. Each flag represents one of the possible values in the multi-pick field.
 
-![Flags example](../images/flags-with-filter.png)
+![Flags example](../.gitbook/assets/flags-with-filter.png)
 
 If you're using the **Color by** tool in the Basic Editor, and you select a multi-pick field, Kumu will automatically use flags to color code your elements.
 
@@ -52,8 +52,8 @@ You can also manually assign colors to values if you just want to choose specifi
 }
 ```
 
-The syntax is `color "value"`. You can replace `color` with a named color or an [HTML hex color code](https://www.w3schools.com/colors/colors\_hexadecimal.asp), and you can replace `value` with an actual value from your field. If you're coding more than one `color "value"`, separate them with a comma.
+The syntax is `color "value"`. You can replace `color` with a named color or an [HTML hex color code](https://www.w3schools.com/colors/colors_hexadecimal.asp), and you can replace `value` with an actual value from your field. If you're coding more than one `color "value"`, separate them with a comma.
 
-![flag decorations](../images/flags-manual.png)
+![flag decorations](../.gitbook/assets/flags-manual.png)
 
 By default, the [geo template](templates/geo.md) limits you to squares and straight lines, but if you want it to support flags as well, add `@settings { renderer: canvas; }` to your Advanced Editor.

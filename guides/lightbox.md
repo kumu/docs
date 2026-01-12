@@ -2,7 +2,7 @@
 
 In Kumu, you can embed content from external providers into a **lightbox**.
 
-![Lightbox showing a YouTube video in Kumu](../images/lightbox-youtube.png)
+![Lightbox showing a YouTube video in Kumu](../.gitbook/assets/lightbox-youtube.png)
 
 To show content in a lightbox, start by finding a link to the embeddable version of the external content. Once you have the link, just add add `?lightbox` to the end for the default lightbox, or add `?lightbox=full` for a nearly-fullscreen lightbox.
 

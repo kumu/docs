@@ -10,7 +10,7 @@ The first step is to add information to the connections' profiles—we'll use th
 
 Each connection has a profile that can be used to store additional information in various [fields](../guides/fields.md).
 
-![](../images/introduction-profile.png)
+![](../.gitbook/assets/introduction-profile.png)
 
 Label, Type, Description, and Tags are all examples of fields. Use these fields to provide additional context for each connection, and click **+NEW FIELD** to add a custom field.
 

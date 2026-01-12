@@ -21,7 +21,7 @@ In this guide, we'll explain each of the building blocks that make up Kumu's arc
 
 In Kumu, you can use **elements**, **connections**, and **loops** to represent your system or network. Visually speaking, elements are circles, connections are lines between the elements, and loops are groups of two or more connections.
 
-![Elements, connections, and loops](../images/elements-connections-loops-bold.png)
+![Elements, connections, and loops](../.gitbook/assets/elements-connections-loops-bold.png)
 
 You can use these visual components in all kinds of different ways, but here are some common uses that we see:
 
@@ -52,7 +52,7 @@ The most basic field is named "Label". Any value you add to an element's or loop
 
 Beyond those four pre-named fields, you can create as many custom fields as you want—you can have a "Website" field, a "Net Assets" field, a "What do you want to learn?" field, etc. Fields can be created and edited using [profiles](../guides/profiles.md):
 
-![profile](../images/introduction-profile.png)
+![profile](../.gitbook/assets/introduction-profile.png)
 
 For more information on fields and how to create and customize them, [check out our full guide on fields](../guides/fields.md).
 
@@ -96,7 +96,7 @@ A map can also remember a few default settings:
 
 Finally, a map can remember a rich description about itself, called a "Map Overview", which Kumu displays next to the map so your audience can read it:
 
-![map overview with video](../images/map-overview-with-video.png)
+![map overview with video](../.gitbook/assets/map-overview-with-video.png)
 
 {% hint style="info" %}
 To create a new map: click on the first dropdown next to the project title in the top-left corner of your screen, and choose **+ NEW MAP.**&#x20;

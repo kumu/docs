@@ -2,13 +2,13 @@
 
 If you're using a quantitative value to [scale the size of elements](../guides/decorate.md#size-by), your labels might sometimes be too big or much too small for some elements. When that happens, you can follow this guide to have more precise control over your label size.
 
-![font size example](../images/color-size-decorations.png)
+![font size example](../.gitbook/assets/color-size-decorations.png)
 
 ## Maintain a constant label size
 
 If you used the **Size by** tool in the Basic Editor to create your size decoration, your element labels will have varying sizes:
 
-![scaled label](../images/scaled-text.png)
+![scaled label](../.gitbook/assets/scaled-text.png)
 
 To make sure your labels always maintains a constant size, even while the circles scale up and down, you can tweak your size decoration in the [Advanced Editor](../overview/view-editors.md#advanced-editor).
 

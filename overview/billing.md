@@ -21,7 +21,7 @@ If you are on a monthly billing cycle, Kumu will bill your account on the same d
 
 To add more private projects to a monthly Basic or Pro workspace, you can [create a new project](https://kumu.io/new) and use the New Project form to set the project to **Private**.
 
-![New private project](../images/new-private-project.png)
+![New private project](../.gitbook/assets/new-private-project.png)
 
 To remove private projects from the monthly bill in a Basic workspace, you can use the [project admin menu](../guides/project-admin.md) to delete the project, transfer it, or make it public. In a Pro workspace, you can do the same, but you also have the option to [archive](../guides/archiving-projects.md) the project.
 
@@ -36,7 +36,7 @@ To switch your account to annual billing:
 3. Make sure to use the button "Add card" to add a credit card, if you hadn't already done so
 4. Click on "Switch to yearly billing and save 20%" below the **Billing** header. You'll be charged immediately.
 
-![Switch to annual billing](../images/switch-annual-billing.png)
+![Switch to annual billing](../.gitbook/assets/switch-annual-billing.png)
 
 #### Adding private projects to the annual plan
 
@@ -44,7 +44,7 @@ If you are on an annual billing cycle, Kumu will bill your account once per year
 
 However, you can increase or decrease your private project limit at any time during the year, and this _will_ increase or decrease your next bill. To adjust your private project limit, go to the billing settings for your personal account or organization, and use the interface to add or subtract private projects.
 
-![Annual project limit](../images/settings-annual-project-limit.png)
+![Annual project limit](../.gitbook/assets/settings-annual-project-limit.png)
 
 When your bill is increased or decreased during a billing cycle, Kumu's billing system **prorates** the final charge based on the amount of time left in your cycle, and (if applicable) charges the card on file immediately.
 

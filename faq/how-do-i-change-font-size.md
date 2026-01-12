@@ -2,7 +2,7 @@
 
 The quickest way to change font size on your map is through the [default view settings](../guides/default-view-settings.md) menu.
 
-1. Click the settings icon ![](../icons/sliders-h.svg)to open the [_Basic Editor_](../overview/view-editors.md#basic-editor)
+1. Click the settings icon ![](../.gitbook/assets/sliders-h.svg)to open the [_Basic Editor_](../overview/view-editors.md#basic-editor)
 2. Click **Customize defaults**, scroll down to the **Font defaults** section, and use the slider to adjust your view's base font size.
 
 This solution is quick, but not the most flexible. Your font size changes will apply to everything on the map, and you're constrained to a maximum font size of `60` and a minimum font size of `1`.

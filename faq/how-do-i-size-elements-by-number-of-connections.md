@@ -23,4 +23,4 @@ First, you'll have to run metrics to let Kumu calculate the number of connection
 
 Once the metrics are calculated, you can size your elements by going into Settings on the right, and changing the "Size By" dropdown of the Basic Editor to the field of the metric you calculated (e.g. "degree"). More information on sizing can be found in [this guide](../guides/data-driven-decorations.md#size-by).
 
-![size by metric](../images/Size-by-metrics.png)
+![size by metric](../.gitbook/assets/Size-by-metrics.png)

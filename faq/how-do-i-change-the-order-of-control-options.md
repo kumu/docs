@@ -28,8 +28,7 @@ If we only want "Finance" and "Agriculture" to appear in our control, we could u
 ```
 
 {% hint style="success" %}
-If you only wish to exclude a few values from a large list of options, it might actually be shorter to use the `except:` property for the options you _don't_ wish to see, instead of listing out _all_ the options you _do_ wish to see: \
-
+If you only wish to exclude a few values from a large list of options, it might actually be shorter to use the `except:` property for the options you _don't_ wish to see, instead of listing out _all_ the options you _do_ wish to see: <br>
 
 ```
 @controls {

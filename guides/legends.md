@@ -30,7 +30,7 @@ There are two ways to create your legend from the [Basic Editor](../overview/vie
 
 When you use the [Color by](decorate.md#color-by) tool in the Basic Editor, Kumu will automatically create your color legend, adding an item for each possible value in the field you're coloring by. For example, this map is colored by Element Type using the `bujumbra` scale:
 
-![bujumbra color by](../images/legend-color-by-closeup.png)
+![bujumbra color by](../.gitbook/assets/legend-color-by-closeup.png)
 
 This automatic legend feature also works when you're using **Color by** to add [flags](flags.md).
 
@@ -58,11 +58,11 @@ For bonus points, use [field relevance settings](fields.md#field-relevance) to h
 
 To add custom colors and icons to your legend, use the [element and connection decoration builders](decorate.md#refine-your-decorations). Once you build out your decoration rule, fill in the "Label for Legend" box at the bottom of the decoration builder, and Kumu will add your decoration to the legend.
 
-![label for legend box](../images/decoration-builder-legend-label.png)
+![label for legend box](../.gitbook/assets/decoration-builder-legend-label.png)
 
 You can use the decoration builders to add many different kinds of items to your legend—for example, icons to indicate that elements or connections are being scaled in size:
 
-![Network map with cool legend entries](../images/legend-scale-closeup.png)
+![Network map with cool legend entries](../.gitbook/assets/legend-scale-closeup.png)
 
 For a full list of legend icons you can add, [jump to the legend reference](legends.md#legend-reference).
 
@@ -98,7 +98,7 @@ Some legend entries get added automatically when you apply different [templates]
 
 There are two ways to re-order legend entries, depending on how they were added. If you added legend entries using the **Color by** tool, follow these steps to change the order:
 
-1. Click the menu icon ![](../icons/bars.svg) to bring up the [project settings](../overview/settings.md#project-settings)
+1. Click the menu icon ![](../.gitbook/assets/bars.svg) to bring up the [project settings](../overview/settings.md#project-settings)
 2. Select **Fields** from the sidebar on the left
 3. Select the same field you selected in the **Color by** tool—it's settings panel will open up
 4. Drag and drop field values to change their order
@@ -132,7 +132,7 @@ author {
 
 Note that you can combine multiple decoration rules into one block of code, and Kumu's legend will combine many of your rules into one legend icon. The code above will create the following entry in the legend, complete with color, border color, and scale:
 
-![fancy legend combo](../images/legend-combo.png)
+![fancy legend combo](../.gitbook/assets/legend-combo.png)
 
 For a full list of legend icons and how to use them from the Advanced Editor, [jump to the legend reference](legends.md#legend-reference).
 
@@ -152,7 +152,7 @@ If you'd like to change the title of your legend from "Legend" to something more
 
 This is what it'll look like:
 
-![custom legend title](../images/custom-legend-title.png)
+![custom legend title](../.gitbook/assets/custom-legend-title.png)
 
 ## Hide the legend
 
@@ -170,25 +170,25 @@ For more info on why and how this works, check out [our full guide on built-in c
 
 Below is a list of all the icons you can add to your legend, as well as instructions on how to access the icons from the Basic and Advanced Editors.
 
-<table><thead><tr><th>Legend icon</th><th>Basic Editor</th><th>Advanced Editor</th></tr></thead><tbody><tr><td><img src="../images/legend-element-color.png" alt="element color icon"></td><td>Decorate elements ><br>Change color ><br>Set a fixed element color</td><td><pre><code>element {
+<table><thead><tr><th>Legend icon</th><th>Basic Editor</th><th>Advanced Editor</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/legend-element-color.png" alt="element color icon"></td><td>Decorate elements ><br>Change color ><br>Set a fixed element color</td><td><pre><code>element {
     color: #34b3eb;
 }
-</code></pre></td></tr><tr><td><img src="../images/legend-shadow-color.png" alt="element shadow color icon"></td><td>Decorate elements ><br>Add shadow ><br>color</td><td><pre><code>element {
+</code></pre></td></tr><tr><td><img src="../.gitbook/assets/legend-shadow-color.png" alt="element shadow color icon"></td><td>Decorate elements ><br>Add shadow ><br>color</td><td><pre><code>element {
     shadow-color: #34b3eb;
 }
-</code></pre></td></tr><tr><td><img src="../images/legend-bullseye-color.png" alt="element bullseye color icon"></td><td>Decorate elements ><br>Add bullseye ><br>color</td><td><pre><code>element {
+</code></pre></td></tr><tr><td><img src="../.gitbook/assets/legend-bullseye-color.png" alt="element bullseye color icon"></td><td>Decorate elements ><br>Add bullseye ><br>color</td><td><pre><code>element {
     bullseye-color: #34b3eb;
 }
-</code></pre></td></tr><tr><td><img src="../images/legend-border-color.png" alt="element border color icon"></td><td><pre><code>element {
+</code></pre></td></tr><tr><td><img src="../.gitbook/assets/legend-border-color.png" alt="element border color icon"></td><td><pre><code>element {
     border-color: #34b3eb;
 }
-</code></pre></td><td></td></tr><tr><td><img src="../images/legend-connection-scale.png" alt="connection scale icon"></td><td>Decorate connections ><br>Change size ><br>Scale connection widths by field</td><td><pre><code>connection {
+</code></pre></td><td></td></tr><tr><td><img src="../.gitbook/assets/legend-connection-scale.png" alt="connection scale icon"></td><td>Decorate connections ><br>Change size ><br>Scale connection widths by field</td><td><pre><code>connection {
     scale: scale("strength", 0.5, 3);
 }
-</code></pre></td></tr><tr><td><img src="../images/legend-connection-color.png" alt="connection color icon"></td><td>Decorate connections ><br>Change color ><br>Set a fixed connection color</td><td><pre><code>connection {
+</code></pre></td></tr><tr><td><img src="../.gitbook/assets/legend-connection-color.png" alt="connection color icon"></td><td>Decorate connections ><br>Change color ><br>Set a fixed connection color</td><td><pre><code>connection {
     color: #34b3eb;
 }
-</code></pre></td></tr><tr><td><img src="../images/legend-connection-dashed.png" alt="connection dashed icon"></td><td>Decorate connections ><br>Change style ><br>dashed</td><td><pre><code>connection {
+</code></pre></td></tr><tr><td><img src="../.gitbook/assets/legend-connection-dashed.png" alt="connection dashed icon"></td><td>Decorate connections ><br>Change style ><br>dashed</td><td><pre><code>connection {
     style: dashed;
 }
 </code></pre></td></tr></tbody></table>

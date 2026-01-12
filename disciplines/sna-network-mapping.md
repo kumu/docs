@@ -84,7 +84,7 @@ Social network analysis metrics provide clues to tell you who may be playing imp
 * **Betweenness** tells you how many times a given element is the bridge (or bottleneck) between other elements in the network.
 * **Closeness** tells you how close one element is to all other elements in the network. Useful for identifying which elements can quickly spread good (or bad) information or effects.
 
-![metrics tool](../images/metrics-degree.png)
+![metrics tool](../.gitbook/assets/metrics-degree.png)
 
 To learn how to calculate these metrics and more in Kumu, check out our [full guide on metrics](../guides/metrics.md).
 
@@ -96,11 +96,11 @@ At this point, you should have a basic network visualization in Kumu, with valua
 
 Often, when you visualize a complex network, it looks like a "hairball"—a tangled-up mess of data that isn't very insightful, like this map:
 
-![hairball](../images/hairball.png)
+![hairball](../.gitbook/assets/hairball.png)
 
 If you have this problem, you can use Kumu's layout settings to spread the map out a bit. Here's what the map looks like after applying the "hairball" layout setting:
 
-![hairball layout preset](../images/layout-preset-hairball.png)
+![hairball layout preset](../.gitbook/assets/layout-preset-hairball.png)
 
 It's much less dense, and when you zoom in, it's much more readable! To learn how to change layout settings on your map, [check out our guide on default settings](../guides/default-view-settings.md).
 
@@ -110,7 +110,7 @@ If your network looks like a hairball, you can also use Kumu's **focus** feature
 
 In Kumu, decorations are one of the best ways to guide your readers through your map. Most people use decorations to change the size and color of elements and connections based on the information their profiles—for example, this map of companies and their relationships uses colors to indicate industry (Higher Education, NGO, Consulting, etc.) and size to represent the betweenness metric:
 
-![Innovation Lab Network](../images/innovation-lab.png)
+![Innovation Lab Network](../.gitbook/assets/innovation-lab.png)
 
 But that's just the tip of the iceberg! To learn how to do this and more with decorations, [check out the full guide](../guides/decorate.md).
 
@@ -120,7 +120,7 @@ Sharing your map can be as simple as sending a [shareable link](../guides/share-
 
 Map overviews can be added to the [side panel of the map editor](../overview/map-editor.md#side-panel), and they're a great tool when you need to provide just a few paragraphs of information, or perhaps an embedded video.
 
-![map overview with video](../images/map-overview-with-video.png)
+![map overview with video](../.gitbook/assets/map-overview-with-video.png)
 
 If you have a lot of information to give to your readers, or many different views of your map that you want them to see, try [creating a presentation](../guides/presentations.md). Presentations in Kumu can seamlessly walk readers through different sections or views of your network, slide by slide.
 

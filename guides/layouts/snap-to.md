@@ -7,13 +7,13 @@ There's two ways to use Snap-to:
 1. [Set Snap-to manually](snap-to.md#set-snap-to-manually)
 2. [Set Snap-to automatically](snap-to.md#set-snap-to-automatically)
 
-![snap to line](../../images/linesnapto.png)
+![snap to line](../../.gitbook/assets/linesnapto.png)
 
 ## Set Snap-to manually
 
 **1. Pick a selection**
 
-To get started using snap-to, select one or more elements. You can do this by holding `shift` on your keyboard and dragging your mouse to draw a selection box over part of the map, or by clicking the search bar at the top of the map and then using the rocket icon ![](../../icons/rocket.svg) to build a [selector](../selectors.md).
+To get started using snap-to, select one or more elements. You can do this by holding `shift` on your keyboard and dragging your mouse to draw a selection box over part of the map, or by clicking the search bar at the top of the map and then using the rocket icon ![](../../.gitbook/assets/rocket.svg) to build a [selector](../selectors.md).
 
 **2. Arrange as a circle or line**
 

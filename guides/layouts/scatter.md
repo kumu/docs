@@ -2,7 +2,7 @@
 
 With the scatter layout, elements are positioned in an XY plot using element fields. You can choose any quantitative field for each axis -- or even use mathematical expressions if you're up for it!
 
-![scatter plot with labels](../../images/scatter-plot-with-labels.png)
+![scatter plot with labels](../../.gitbook/assets/scatter-plot-with-labels.png)
 
 Want to see a finished scatter plot before you get started? Check out our [scatter plots blog post](https://blog.kumu.io/introducing-scatter-plots-b5fb1e2040e3).
 

@@ -4,15 +4,15 @@ Table allows you to view and edit your map's underlying data as a spreadsheet. Y
 
 {% embed url="https://www.youtube.com/embed/t1lDPgcmr-I" %}
 
-![](../images/data-editor.jpg)
+![](../.gitbook/assets/data-editor.jpg)
 
 ## The basics
 
-![](../images/data-editor-settings.jpg)
+![](../.gitbook/assets/data-editor-settings.jpg)
 
 **Click any cell to edit.** Click on any value to edit it within the spreadsheet. Depending on the field type, you'll either be able to edit directly within the cell or a modal will appear.
 
-**Customize which fields are included.** Click on the settings icon ![](../icons/sliders-h.svg)in the upper right to open the sidebar, then select the fields you want to see in the table.
+**Customize which fields are included.** Click on the settings icon ![](../.gitbook/assets/sliders-h.svg)in the upper right to open the sidebar, then select the fields you want to see in the table.
 
 **Filter the results.** Enter a search term or a [selector](selectors.md) in the upper left to narrow down the results. The filter will search across all fields included in the table.
 
@@ -20,7 +20,7 @@ Table allows you to view and edit your map's underlying data as a spreadsheet. Y
 
 **Fill down values in bulk.** Right click to access the fill down (populate the current value down the entire column) and fill down to value (populate the current value down to the next non-blank cell) options.
 
-**Switch between elements, connections and loops.** The data editor only shows elements, connections or loops at any one time. Click on the settings icon ![](../icons/sliders-h.svg)in the upper right and then use the dropdown to switch between elements, connections or loops.
+**Switch between elements, connections and loops.** The data editor only shows elements, connections or loops at any one time. Click on the settings icon ![](../.gitbook/assets/sliders-h.svg)in the upper right and then use the dropdown to switch between elements, connections or loops.
 
 **Return to your map.** Click the "Back to map" link to return to your map. All edits are saved as you make them so you don't need to worry about a separate "save" step.
 
@@ -28,7 +28,7 @@ Table allows you to view and edit your map's underlying data as a spreadsheet. Y
 
 You can quickly and easily add new elements or connections by scrolling to the bottom of the table and entering text into the blank row at the bottom.
 
-![](../images/data-editor-add-new.jpg)
+![](../.gitbook/assets/data-editor-add-new.jpg)
 
 Make sure to add a label for elements and both from and to for connections or it won't get saved.
 

@@ -62,7 +62,7 @@ All data-driven decorations are completely scaleable—Kumu will apply them to a
 
 Each element, connection, and loop has a profile that can be used to store additional information in various fields.
 
-![](../images/introduction-profile.png)
+![](../.gitbook/assets/introduction-profile.png)
 
 Label, Type, Description, and Tags are all examples of fields. Use these fields to provide additional context for each element and connection, and click **+NEW FIELD** to add a custom field.
 
@@ -70,7 +70,7 @@ After you fill out data in the profiles, you can use the [Basic Editor](../overv
 
 ## Decorate in the Basic Editor
 
-To open the Basic Editor, open your map and click the settings icon ![](../icons/sliders-h.svg) on the right side of the map.
+To open the Basic Editor, open your map and click the settings icon ![](../.gitbook/assets/sliders-h.svg) on the right side of the map.
 
 <figure><img src="../.gitbook/assets/Basic Editor (1) (1).png" alt=""><figcaption><p>Basic Editor</p></figcaption></figure>
 
@@ -86,7 +86,7 @@ Don't like the default sizes? Click the expand icon next to the **Size by** drop
 
 In this example, we sized people by the number of views they received on their videos of the ALS ice bucket challenge:
 
-![Ice bucket challenge map](../images/size-scaled-elements.png)
+![Ice bucket challenge map](../.gitbook/assets/size-scaled-elements.png)
 
 Note that if you don't have any fields with numbers, the **Size by** dropdown menu won't have any options in it. If you don't have this kind of data available, try using Kumu's [Metrics](metrics.md) feature to create some!
 
@@ -102,13 +102,13 @@ Are your fields with numbers not showing up in the Size by dropdown? Try [changi
 
 Don't like the default colors? Click the expand icon next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
 
-![bujumbra color by](../images/color-by-element-type-bujumbra.png)
+![bujumbra color by](../.gitbook/assets/color-by-element-type-bujumbra.png)
 
 The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](../overview/advanced-editor-hub/color-reference.md) to find a scale that will work for your data.
 
 If you color by a multi-pick field like Tags, Kumu will color code your elements with flags (colored arcs around the outside of your elements). Each flag represents one of the possible values in the multi-pick field.
 
-![Flags example](../images/flags-with-filter.png)
+![Flags example](../.gitbook/assets/flags-with-filter.png)
 
 To learn more about flags, [read the full guide](flags.md).
 
@@ -126,11 +126,11 @@ If you need more precise control over the size and color of your decorations, yo
 
 Select **Decorate elements** to bring up the Decoration Builder for elements.
 
-![Element decoration builder](../images/element-decoration-builder.png)
+![Element decoration builder](../.gitbook/assets/element-decoration-builder.png)
 
 Or, select **Decorate connections** to bring up the Decoration Builder for connections.
 
-![Connection decoration builder](../images/connection-decoration-builder.png)
+![Connection decoration builder](../.gitbook/assets/connection-decoration-builder.png)
 
 Use the dropdown menus at the top of the builders to choose which elements or connections you are decorating. The options are:
 
@@ -145,7 +145,7 @@ If you chose to decorate a custom selection, you can use the tools below the fir
 
 After you have built your selection, feel free to play with all the decoration options to find a visual effect that brings insight to your map!
 
-![Element decoration options](../images/element-decorations.png)
+![Element decoration options](../.gitbook/assets/element-decorations.png)
 
 Click the **Done** button to apply your decoration, and if you don't like the way it looks, just find the decoration rule in the [existing decorations](../overview/view-editors.md#existing-custom-decorations) section of the Basic Editor, and click the pencil icon to edit it.
 
@@ -157,7 +157,7 @@ You can also add your decorations to the legend by filling out the **Legend** bo
 
 If you've seen or used [Cascading Style Sheets (CSS)](https://developer.mozilla.org/en-US/docs/Web/CSS), decorating in the Advanced Editor will look and feel very familiar.
 
-![Advanced Editor](../images/advanced-editor-hf.png)
+![Advanced Editor](../.gitbook/assets/advanced-editor-hf.png)
 
 If you haven't seen or used CSS, don't worry! Most Advanced Editor code follows the same straightforward pattern:
 
@@ -196,7 +196,7 @@ Decorations are applied in a cascading order. If you're decorating via the Basic
 
 You can click and drag decorations in the [existing decorations](../overview/view-editors.md#existing-custom-decorations) section of the Basic Editor to reorder them, changing which rule gets applied in the end.
 
-![Cascading decorations](../images/cascading-decorations.gif)
+![Cascading decorations](../.gitbook/assets/cascading-decorations.gif)
 
 If you're decorating via the Advanced Editor, Kumu will read and apply your decoration code from top to bottom. In the example below, all elements will first be colored blue (`#428cba`), but then will be changed to green (`#5cb85c`).
 

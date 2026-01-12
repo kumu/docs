@@ -31,7 +31,7 @@ If you are using Enterprise Cloud, please provide Kumu with the following so we 
 
 If you are self-hosting, please visit https://example.com/enterprise/admin/settings and sign in with your admin account. From your SSO provider, you can get an entity ID, service URL, and a base-64 encoded public certificate. Check the box to enable SSO for your enterprise instance and copy/paste those items into your instance's settings:
 
-![Kumu Enterprise SSO settings](../images/enterprise-sso.png)
+![Kumu Enterprise SSO settings](../.gitbook/assets/enterprise-sso.png)
 
 With Kumu and your SSO provider configured, you can use your SSO provider to give users access to Kumu. Users can begin the sign-in flow by visiting the url below and clicking the "Sign in via single sign-on (SSO)" button:
 
@@ -45,42 +45,42 @@ If Microsoft Azure is your single sign-on provider, you can follow the instructi
 
 1.  Click the "Azure Active Directory" button in the sidebar
 
-    ![Azure SSO step 01](../images/azure-sso/01.png)
+    ![Azure SSO step 01](../.gitbook/assets/01.png)
 2.  Click "Enterprise Applications"
 
-    ![Azure SSO step 02](../images/azure-sso/02.png)
+    ![Azure SSO step 02](../.gitbook/assets/02.png)
 3.  Click "+ New Application"
 
-    ![Azure SSO step 03](../images/azure-sso/03.png)
+    ![Azure SSO step 03](../.gitbook/assets/03.png)
 4.  Click "Non-gallery application"
 
-    ![Azure SSO step 04](../images/azure-sso/04.png)
+    ![Azure SSO step 04](../.gitbook/assets/04.png)
 5.  Enter "Kumu" for the name of the application
 
-    ![Azure SSO step 05](../images/azure-sso/05.png)
+    ![Azure SSO step 05](../.gitbook/assets/05.png)
 6.  Click "Configure single sign-on"
 
-    ![Azure SSO step 06](../images/azure-sso/06.png)
+    ![Azure SSO step 06](../.gitbook/assets/06.png)
 7.  Select "SAML-based Sign-on"
 
-    ![Azure SSO step 07](../images/azure-sso/07.png)
+    ![Azure SSO step 07](../.gitbook/assets/07.png)
 8.  Enter the "Kumu Domain and URLs" for your organization (provided by Kumu)
 
-    ![Azure SSO step 08](../images/azure-sso/08.png)
+    ![Azure SSO step 08](../.gitbook/assets/08.png)
 9.  Select "user.mail" for the user identifier
 
-    ![Azure SSO step 09](../images/azure-sso/09.png)
+    ![Azure SSO step 09](../.gitbook/assets/09.png)
 10. Download the SAML signing certificate (Base 64)
 
-    ![Azure SSO step 10](../images/azure-sso/10.png)
+    ![Azure SSO step 10](../.gitbook/assets/10.png)
 11. Click "Configure Kumu"
 
-    ![Azure SSO step 11](../images/azure-sso/11.png)
+    ![Azure SSO step 11](../.gitbook/assets/11.png)
 12. Copy the service url, entity id, and public certificate over to your organization's SSO settings in Kumu:
 
-    ![Azure SSO step 12](../images/azure-sso/12.png)
+    ![Azure SSO step 12](../.gitbook/assets/12.png)
 
-    ![Azure SSO step 12.5](../images/azure-sso/13.png)
+    ![Azure SSO step 12.5](../.gitbook/assets/13.png)
 13. Within Azure AD, assign users to the Kumu app you just created to enable SSO
 
-    ![Azure SSO step 13](../images/azure-sso/14.png)
+    ![Azure SSO step 13](../.gitbook/assets/14.png)

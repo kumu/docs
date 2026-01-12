@@ -2,13 +2,13 @@
 
 You can edit settings for each [project](kumus-architecture.md#projects), [map](kumus-architecture.md#maps), and [view](kumus-architecture.md#views) in Kumu.
 
-![settings locations](../images/settings-locations.jpg)
+![settings locations](../.gitbook/assets/settings-locations.jpg)
 
 ## Project settings
 
-Project settings are accessed via the menu icon ![](../icons/bars.svg) in the upper left of your screen (on the [top toolbar](map-editor.md#top-toolbar)).
+Project settings are accessed via the menu icon ![](../.gitbook/assets/bars.svg) in the upper left of your screen (on the [top toolbar](map-editor.md#top-toolbar)).
 
-![project settings](../images/project-settings.jpg)
+![project settings](../.gitbook/assets/project-settings.jpg)
 
 Within the project settings, you have the following options:
 
@@ -28,9 +28,9 @@ Within the project settings, you have the following options:
 
 ## Map settings
 
-Map settings are accessed from the map sidebar via the ellipsis icon ![](../icons/ellipsis-v.svg) in the upper right corner of the [side panel](map-editor.md#side-panel).
+Map settings are accessed from the map sidebar via the ellipsis icon ![](../.gitbook/assets/ellipsis-v.svg) in the upper right corner of the [side panel](map-editor.md#side-panel).
 
-![map settings](../images/map-settings.jpg)
+![map settings](../.gitbook/assets/map-settings.jpg)
 
 Each map has the following available actions:
 
@@ -50,9 +50,9 @@ And each map has the following settings:
 
 ## View settings
 
-View settings are accessed via the settings icon ![](../icons/sliders-h.svg) on the right side of the map. If you want to save, rename, duplicate, or delete a view, you can click the ellipsis icon in the upper right. You can also use that icon to set the default view for the current map.
+View settings are accessed via the settings icon ![](../.gitbook/assets/sliders-h.svg) on the right side of the map. If you want to save, rename, duplicate, or delete a view, you can click the ellipsis icon in the upper right. You can also use that icon to set the default view for the current map.
 
-![view settings](../images/view-settings.png)
+![view settings](../.gitbook/assets/view-settings.png)
 
 To learn more about editing the view itself (for example, adding decorations, filtering, changing default settings, etc.), [read the guide on View Editors](view-editors.md).
 

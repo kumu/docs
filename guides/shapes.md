@@ -11,7 +11,7 @@ Shapes are are a useful visual tool when you need to differentiate between diffe
 
 If you just need to assign shapes to a handful of elements, we recommend using the [direct decoration toolbar](direct-decorations.md). Hover over any element, then click the Size/Shape icon , and pick a shape from the dropdown.
 
-![shapes direct decoration](../images/shapes-direct-decoration.png)
+![shapes direct decoration](../.gitbook/assets/shapes-direct-decoration.png)
 
 ## Assigning shapes to specific selections
 
@@ -22,7 +22,7 @@ To assign a shape to a specific selection of elements, use the **element decorat
 3. Check the **Add shape** box, and pick a shape
 4. If you'd like to add your shape decoration to the legend, fill in the **Legend** box
 
-![decoration builder shapes](../images/shapes-decoration-builder.png)
+![decoration builder shapes](../.gitbook/assets/shapes-decoration-builder.png)
 
 ## Categorizing your elements with shapes automatically
 
@@ -32,7 +32,7 @@ The quickest way to assign shapes to all elements automatically based on their p
 
 When you use Shape By, legend entries will be created for you automatically.
 
-![legend shapes](../images/shapes-legend.png)
+![legend shapes](../.gitbook/assets/shapes-legend.png)
 
 ## Assigning shapes from the Advanced Editor
 

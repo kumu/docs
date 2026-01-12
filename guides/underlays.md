@@ -15,7 +15,7 @@ _This video below explains how to create Grids & Guides in the advanced editor. 
 
 **In the Basic Editor**
 
-1. Click the settings icon ![](../icons/sliders-h.svg)to open the [Basic Editor](../overview/view-editors.md#basic-editor)
+1. Click the settings icon ![](../.gitbook/assets/sliders-h.svg)to open the [Basic Editor](../overview/view-editors.md#basic-editor)
 2. Click "More" and then select "Grids & Guides" to open the menu
 3. Check the "Show grid" checkbox to make the grid appear&#x20;
 
@@ -25,7 +25,7 @@ You can use the settings below **Grid** to adjust color, offset and width of you
 
 **In the Advanced Editor**
 
-![grid showcase](../images/grid-showcase.png)
+![grid showcase](../.gitbook/assets/grid-showcase.png)
 
 You can use the `layout-grid` property of `@settings` in the Advanced Editor to add a grid:
 
@@ -57,7 +57,7 @@ By default, gridlines will extend infinitely. But, you can use the `layout-bound
 }
 ```
 
-![grid with bounds](../images/grid-guides-bounds.png)
+![grid with bounds](../.gitbook/assets/grid-guides-bounds.png)
 
 Finally, you can use the `layout-grid-color` property to customize the color of gridlines (replace `color` with any CSS web color or hex color code):
 
@@ -73,7 +73,7 @@ Finally, you can use the `layout-grid-color` property to customize the color of 
 
 To add a guide to your map, follow the following steps:&#x20;
 
-1. Click the settings icon ![](../icons/sliders-h.svg)to open the [Basic Editor](../overview/view-editors.md#basic-editor)
+1. Click the settings icon ![](../.gitbook/assets/sliders-h.svg)to open the [Basic Editor](../overview/view-editors.md#basic-editor)
 2. Click "More" and then select "Grids & Guides" to open the menu
 3. Adjust the guide settings and click "Add guide" to make the guide show up on your map
 
@@ -114,7 +114,7 @@ If you'd like to center your circle somewhere else, for example, an x coordinate
 }
 ```
 
-![guides example](../images/guides-dark.png)
+![guides example](../.gitbook/assets/guides-dark.png)
 
 For additional styling, use the `layout-guide-width` and `layout-guide-color` properties to customize the width and color of guides.
 
@@ -122,7 +122,7 @@ For additional styling, use the `layout-guide-width` and `layout-guide-color` pr
 
 You can add a radar of concentric circles to your background to play with positining of your elements. If you want to pin elements in place, visit [this guide here](../faq/how-do-keep-elements-from-moving.md).
 
-![default radar](../images/radar-default.png)
+![default radar](../.gitbook/assets/radar-default.png)
 
 You can use the `radar` property of `@settings` in the Advanced Editor to add a radar:
 
@@ -142,7 +142,7 @@ The radar will come with a few default rings and axes, which you can easily over
 }
 ```
 
-![systems leverage radar](../images/systems-leverage-radar.png)
+![systems leverage radar](../.gitbook/assets/systems-leverage-radar.png)
 
 You can customize your radars extensively, changing the color, font color, the distance between rings, etc. To see a full list of supported properties and learn how they customize the radar, head over to our [@settings reference](../overview/advanced-editor-hub/settings-reference.md) (type "radar" to filter the list).
 

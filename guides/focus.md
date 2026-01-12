@@ -4,7 +4,7 @@ Kumu's **focus** feature allows you to focus on one or more elements, connection
 
 Focus is activated in one of two ways, by clicking and holding on any element, connection or loop or by selecting an element, connection or loop and then clicking the focus icon on the right side of your map. Once focus is activated, you can walk in and out by degree using the and buttons.
 
-![focus animation](../images/focus-expand-contract.gif)
+![focus animation](../.gitbook/assets/focus-expand-contract.gif)
 
 Click the focus icon again to bring the full map back into view.
 
@@ -60,15 +60,15 @@ The options are:
 
 Prompted mode builds on the preset focus by allowing users to build a map based on search criteria. When you've enabled prompted mode, users are presented with a search prompt rather than seeing the full map. Users can then type the name of any element and hit enter to add them to the list of elements to be included in the map. By default that element and its direct connections will be included, but you can tweak the "out 1" setting to also include second and third degree connections.
 
-![prompted mode](../images/prompted-mode.png)
+![prompted mode](../.gitbook/assets/prompted-mode.png)
 
 Click build map and voila! You can also use "out n" for a search to automatically change the number of degrees out included in the search results. For example, "Bill Gates out 3" will display Bill Gates and all elements within 3 degrees.
 
-![the map](../images/prompted-results.png)
+![the map](../.gitbook/assets/prompted-results.png)
 
 Hit escape on your keyboard to start over, or use the focus menu and choose "back to prompt" to edit the current map.
 
-![focus prompt](../images/focus-prompt.png)
+![focus prompt](../.gitbook/assets/focus-prompt.png)
 
 To enable prompted mode, you'll need to add the following to the advanced tab of any view you'd like it active within:
 

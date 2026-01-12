@@ -52,7 +52,7 @@ chapter {
 }
 ```
 
-![](../images/soil-biodiversity-markdown-popover.png)
+![](../.gitbook/assets/soil-biodiversity-markdown-popover.png)
 
 Note that popovers automatically recognize images, so there's no need to style those with markdown. This works with hyperlinks as well—just use something like `{{website}}` or `{{image}}` in your popover, and the popover will render it properly.
 
@@ -91,7 +91,7 @@ connection {
 }
 ```
 
-![](../images/hawaii-board-connection-popover.png)
+![](../.gitbook/assets/hawaii-board-connection-popover.png)
 
 ### Bring the profile into the popover
 
@@ -113,7 +113,7 @@ element, connection {
 }
 ```
 
-![](../images/elon-musk-profile-popover.png)
+![](../.gitbook/assets/elon-musk-profile-popover.png)
 
 ### Highlight key facts and figures
 
@@ -125,4 +125,4 @@ element {
 }
 ```
 
-![](../images/ca-ballot-quantitative-popover.png)
+![](../.gitbook/assets/ca-ballot-quantitative-popover.png)

@@ -18,7 +18,7 @@ We strongly recommend [backing up your existing data](backing-up-enterprise-data
 
 The installation is complete once you see the following screen:
 
-![Installation Complete](../images/enterprise-success.png)
+![Installation Complete](../.gitbook/assets/enterprise-success.png)
 
 Note: You do not need to upload your license again if your license is still valid.
 

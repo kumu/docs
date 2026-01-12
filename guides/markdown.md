@@ -10,27 +10,27 @@ Markdown is an easy and powerful way to format your descriptions and long text f
 *italic* and **bold**
 ```
 
-\-> Creates _italic_ and **bold**
+-> Creates _italic_ and **bold**
 
 ```md
 An inline link: [Kumu](http://launch.kumupowered.com)
 ```
 
-\-> Creates an inline link: [Kumu](http://kumu.io)
+-> Creates an inline link: [Kumu](http://kumu.io)
 
 {% hint style="info" %}
-Note that inline links always open the website in the same tab and direct your viewer away from your Kumu map. If you wish to open the link in a separate tab, you can use the following HTML syntax:&#x20;
+Note that inline links always open the website in the same tab and direct your viewer away from your Kumu map. If you wish to open the link in a separate tab, you can use the following HTML syntax:
 
 `<a href="https://kumu.io" target="_blank">Kumu website</a>`
 
-Replace the URL with your own and swap the word "Kumu website" for any word(s) you'd like your viewers to click. Make sure that target= stays the same.&#x20;
+Replace the URL with your own and swap the word "Kumu website" for any word(s) you'd like your viewers to click. Make sure that target= stays the same.
 {% endhint %}
 
 ```md
 An auto-generated link: http://kumu.io
 ```
 
-\-> Creates an auto-generated link: [https://kumu.io](https://kumu.io)
+-> Creates an auto-generated link: [https://kumu.io](https://kumu.io)
 
 ### Lists
 
@@ -126,7 +126,7 @@ Looks like:
 **Heading 6**
 
 {% hint style="info" %}
-Learn how to create anchors that skip to certain sections of your map description [with this guide](../frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md).&#x20;
+Learn how to create anchors that skip to certain sections of your map description [with this guide](../frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md).
 {% endhint %}
 
 ### Code
@@ -168,8 +168,7 @@ Blue | White | Gray
 Green | Yellow | Red
 ```
 
-If you are using Markdown in the Description column of an [import](import/), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag\_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
-
+If you are using Markdown in the Description column of an [import](import/), you will have to use the [HTML table tag](https://www.w3schools.com/tags/tag_table.asp) rather than the usual Markdown syntax. Make sure to remove all line breaks from your HTML, or your table will render with a large white space above it.
 
 ```md
 | One   | Two    | Three |
@@ -178,10 +177,10 @@ If you are using Markdown in the Description column of an [import](import/), you
 | Green | Yellow | Red   |
 ```
 
-| One | Two | Three |
+| One   | Two    | Three |
 | ----- | ------ | ----- |
-| Blue | White | Gray |
-| Green | Yellow | Red |
+| Blue  | White  | Gray  |
+| Green | Yellow | Red   |
 
 ### Horizontal Rules
 
@@ -196,16 +195,14 @@ Now you know the basics of formatting with markdown! For more information, visit
 
 ### Inline HTML
 
-Kumu's markdown editor also recognizes a limited amount of inline HTML.&#x20;
+Kumu's markdown editor also recognizes a limited amount of inline HTML.
 
 {% hint style="info" %}
-More HTML fun:&#x20;
+More HTML fun:
 
-* Learn how to create anchors that skip to certain sections of your map description [with this guide](../frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md).&#x20;
-* Learn how to add text dropdowns that show/hide additional text upon click [with this guide](../frequently-asked-questions/how-do-i-add-text-dropdowns-to-my-map-overview.md).&#x20;
+* Learn how to create anchors that skip to certain sections of your map description [with this guide](../frequently-asked-questions/how-do-i-add-anchors-to-my-map-description.md).
+* Learn how to add text dropdowns that show/hide additional text upon click [with this guide](../frequently-asked-questions/how-do-i-add-text-dropdowns-to-my-map-overview.md).
 {% endhint %}
-
-
 
 Here are the tags you can use in Kumu, anywhere that accepts markdown:
 
@@ -354,7 +351,7 @@ You can write LaTeX inline or on its own separate line. To write inline, put two
 
 Here's what you would see:
 
-![rendered inline latex](../images/latex-inline.png)
+![rendered inline latex](../.gitbook/assets/latex-inline.png)
 
 Or, for more complex expressions, you can write inside a codeblock marked as `latex`, like so:
 
@@ -368,6 +365,6 @@ f(x) = \int_{-\infty}^\infty
 
 Here's what you would see:
 
-![rendered block latex](../images/latex-block.png)
+![rendered block latex](../.gitbook/assets/latex-block.png)
 
 Kumu uses a tool called KaTeX to render these equations. For a full list of supported equations, [visit the KaTeX docs](https://katex.org/docs/supported.md).

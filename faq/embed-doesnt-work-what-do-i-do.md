@@ -6,7 +6,7 @@ Below you can find some troubleshooting tips for when you've tried to embed a Ku
 
 First things first: let's investigate whether the embed link is working at all. Click on the embed link that you received from Kumu and see if it loads correctly. If it does, we'll know that we need to take a look at the website builder where the map is being embedded. Continue to the next section. If it doesn't, you can contact support@kumu.io to have us check the embed link.
 
-![embed link](../images/embed-link.png)
+![embed link](../.gitbook/assets/embed-link.png)
 
 #### Did you copy+paste the entire embed code correctly?
 
@@ -26,7 +26,7 @@ When you're on your website, click Command + Option + J on your keyboard (or Ctr
 
 Here's an example error:
 
-![console error](../images/console-error.png)
+![console error](../.gitbook/assets/console-error.png)
 
 Not to worry, you won't have to start changing the code for your website! Usually sending this screenshot to your IT department, or to the website builder's customer support chat, will provide you with an answer as to what needs to be changed. Sometimes it's a simple setting, and sometimes your IT department needs to adjust certain security settings for your website.
 

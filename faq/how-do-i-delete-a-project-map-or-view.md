@@ -12,14 +12,16 @@ Please note: projects, maps and views cannot be restored once deleted. Before yo
 
 ## Delete a map
 
-There's two ways to delete a map:
+There's three ways to delete a map:
 
+* Click on the first dropdown in the top-left corner, hover over a map title and and click on the Trash icon off to the right.&#x20;
 * Right-click on your map > click on Map > choose "Delete map".
 * Click on the three dots in the top-right corner of the map sidebar to go to [Map Settings](../overview/settings.md#map-settings) > choose "Delete map". _If your map profile doesn't show, make sure to de-select any items in your map by clicking on a blank space in your map and/or click on the three dots in the center of the left side of your map_.
 
 ## Delete a view
 
-There's two ways to delete a view:
+There's three ways to delete a view:
 
+* Click on the second dropdown in the top-left corner, hover over a view title and and click on the Trash icon off to the right.
 * Right-click on your map > click on View > choose "Delete view".
 * Click the Settings button on the right side of your map to open the Basic Editor > click on the three dots in the top-right corner for your [View Settings](../overview/settings.md#view-settings) > choose "Delete view".

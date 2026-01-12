@@ -4,7 +4,7 @@ To share or embed your public or private maps, click the "Share" icon in the low
 
 You'll be prompted with this window:
 
-![embed modal](../images/embed-modal.png)
+![embed modal](../.gitbook/assets/embed-modal.png)
 
 **Title** allows you to add a title to the shareable link. This won't be displayed to your readers—it will simply add a label to the link in your embed modal, so that you can identify it when you have a long list of links that you've created.
 

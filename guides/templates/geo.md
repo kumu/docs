@@ -12,7 +12,7 @@ In Kumu Enterprise, the geo template will not work out of the box—first, you n
 
 To apply the Geo template using the Basic Editor:
 
-1. Click the settings icon ![](../../icons/sliders-h.svg) on the right side of your map to open the Basic Editor.
+1. Click the settings icon ![](../../.gitbook/assets/sliders-h.svg) on the right side of your map to open the Basic Editor.
 2. Click **MORE OPTIONS** and select **Customize view defaults** from the list.
 3. Scroll down to the **General settings** section.
 4. In that section, you can use the Template dropdown menu to select the geo template. Move back to the main Basic Editor panel, then click **SAVE** to finish the process.
@@ -35,7 +35,7 @@ Kumu's flexible geocoding engine will understand many types of location data, in
 
 If you are using the "latitude, longitude" format, don't include the degree symbol, and don't include the cardinal direction. For example, the latitude, longitude of Honolulu, Hawaii is **21.3069° N, 157.8583° W**, but it should be entered in Kumu as **21.3069, -157.8583**.
 
-![Geo map showing latitude and longitude for Honolulu](../../images/honolulu-geo.png)
+![Geo map showing latitude and longitude for Honolulu](../../.gitbook/assets/honolulu-geo.png)
 
 Note that latitudes in the Southern hemisphere and longitudes in the Western hemisphere are negative numbers.
 
@@ -65,13 +65,13 @@ You can use the `geo-style` property to pick between these different map styles:
 
 #### `geo-style: auto;`
 
-![geo-style auto](../../images/geo-style-auto.png)
+![geo-style auto](../../.gitbook/assets/geo-style-auto.png)
 
 Use `geo-style: dark;` for a dark version of the `auto` map.
 
 #### `geo-style: streets;`
 
-![geo-style streets](../../images/geo-style-streets.png)
+![geo-style streets](../../.gitbook/assets/geo-style-streets.png)
 
 **Good to know:**
 

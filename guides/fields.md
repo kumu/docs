@@ -76,7 +76,7 @@ Field's can't be named `YES`, `NO`, `ON`, `OFF`, `TRUE`, or `FALSE`. Uppercase a
 
 To customize the settings for a given field, click on an element, and click the field in the element's profile.
 
-![Customizing a field](../images/customize-field.gif)
+![Customizing a field](../.gitbook/assets/customize-field.gif)
 
 A dropdown will appear with the following options:
 
@@ -137,7 +137,7 @@ But, in each profile, Kumu will automatically _hide_ all blank fields in the fol
 **Hide fields across all profiles**\
 If you'd rather hide irrelevant fields while you're editing the map, you can use **field relevance** in your project settings. Click the menu in the top left of your map and then click "fields". Scroll down and you'll see a "relevance" section. To edit which fields should be included for each of the element, connection, and loop types in your project, click edit, uncheck the relevant fields, and click "Done" at the bottom of the field list.
 
-![field relevance](../images/field-relevance.png)
+![field relevance](../.gitbook/assets/field-relevance.png)
 
 If you'd like to limit the fields that are shown, simply click edit and then uncheck the field you'd like to hide in the profile for a given type. Label, type, description, and tags are always shown for all types regardless of what you enter. Above is an example of customizing the profile of elements with type of "Company" to only show Image, Website, URL and Attribution.
 
@@ -150,7 +150,7 @@ You might also want to hide a field from view for anyone who is not a contributo
 
 To do so, click on any custom field and then check the Privacy checkbox:
 
-![field privacy](../images/field-privacy.png)
+![field privacy](../.gitbook/assets/field-privacy.png)
 
 **Hide fields in certain "entity" profiles only**\
 You can also indicate whether you'd like profile fields to show up in element, connection, or loop profiles (or all of them). The field (and any field values) will then be hidden in any profiles in which you don’t want it to show up, whether it contains any values or not.
@@ -168,11 +168,11 @@ You can also use the field relevance menu to change the order fields are listed 
 
 To change the order, click edit next to the element type that you'd like to adjust:
 
-![Edit field order](../images/field-order.png)
+![Edit field order](../.gitbook/assets/field-order.png)
 
 And then simply drag the fields to reorder them:
 
-![Drag field order](../images/drag-field-order.png)
+![Drag field order](../.gitbook/assets/drag-field-order.png)
 
 When you are finished, click "Done" and you'll see the new order reflected in the profile.
 

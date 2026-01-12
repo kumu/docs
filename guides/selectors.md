@@ -38,9 +38,9 @@ Before you start: [use fields](fields.md) to add additional information to your 
 
 You can use selectors in the search bar on your map to select multiple items.
 
-In the upper left of the map, click "Search" next to the search icon to start searching. Then, click the rocket icon ![](../icons/rocket.svg) on the far right to bring up the selector builder, and use it to build out your selector.
+In the upper left of the map, click "Search" next to the search icon to start searching. Then, click the rocket icon ![](../.gitbook/assets/rocket.svg) on the far right to bring up the selector builder, and use it to build out your selector.
 
-![selector rocket](../images/search-selector.png)
+![selector rocket](../.gitbook/assets/search-selector.png)
 
 If you'd rather write your selector instead of use the selector builder, just type an equal sign `=` in the search bar, then write your selector. Press `enter` on your keyboard to select all items that match your selector.
 

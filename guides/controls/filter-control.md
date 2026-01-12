@@ -8,7 +8,7 @@ Add a toggle control that allows viewers to filter by field values or custom sel
 
 To create a filter control, follow these steps:&#x20;
 
-1. Click the settings icon on the right ![](../../icons/sliders-h.svg) to open the editor, then click "Add custom control"**.**&#x20;
+1. Click the settings icon on the right ![](../../.gitbook/assets/sliders-h.svg) to open the editor, then click "Add custom control"**.**&#x20;
 2. In the menu that opens up, the filter control will be activated automatically in the first dropdown "Filter elements by field".
 3. Use the other dropdowns to customize the look and location of your controls
 4. Click Save at the bottom to save your changes

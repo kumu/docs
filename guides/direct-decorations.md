@@ -6,7 +6,7 @@ But, if you haven't added field data, or you just want to tweak the style of one
 
 To use them, simply hover over an element, connection, or loop, and the direct decorations toolbar will appear:
 
-![direct decorations toolbar](../images/direct-decoration-toolbar.png)
+![direct decorations toolbar](../.gitbook/assets/direct-decoration-toolbar.png)
 
 If you'd rather have the toolbar appear when you click on an item instead of hover, add the following in the [Advanced Editor](../overview/view-editors.md#advanced-editor):
 
@@ -28,22 +28,7 @@ If the toolbar is a distraction and you prefer to use rule-based decorations, yo
 
 The table below lists all of the icons you'll find in the direct decorations toolbar for elements, connections, and loops, and what action each icon exposes to you.
 
-<table><thead>
-<tr><th>Icon</th><th>Action</th><th data-type="checkbox">Elements</th><th data-type="checkbox">Connections</th><th data-type="checkbox">Loops</th></tr></thead><tbody>
-<tr><td><img src="/icons/pencil-alt.svg" /></td><td>Edit label and type</td><td>true</td><td>true</td><td>true</td></tr>
-<tr><td><img src="/icons/font.svg" /></td><td>Edit font color, font size, font style, and font alignment</td><td>true</td><td>true</td><td>true</td></tr>
-<tr><td><img src="/icons/tint.svg" /></td><td>Edit color</td><td>true</td><td>true</td><td>true</td></tr>
-<tr><td><img src="/icons/arrows-alt.svg" /></td><td>Edit size and/or shape</td><td>true</td><td>true</td><td>false</td></tr>
-<tr><td><img src="/icons/image.svg" /></td><td>Add an image</td><td>true</td><td>false</td><td>false</td></tr>
-<tr><td><img src="/icons/trash.svg" /></td><td>Delete item</td><td>true</td><td>true</td><td>true</td></tr>
-<tr><td><img src="/icons/ellipsis-h.svg" /></td><td>More options</td><td>true</td><td>true</td><td>true</td></tr>
-<tr><td><img src="/icons/circle.svg" /></td><td>Add a border</td><td>true</td><td>false</td><td>false</td></tr>
-<tr><td><img src="/icons/dot-circle.svg" /></td><td>Add a bullseye</td><td>true</td><td>false</td><td>false</td></tr>
-<tr><td><img src="/icons/adjust.svg" /></td><td>Add a shadow</td><td>true</td><td>false</td><td>false</td></tr>
-<tr><td><img src="/icons/exchange-alt.svg" /></td><td>Change connection direction</td><td>false</td><td>true</td><td>false</td></tr>
-<tr><td><img src="/icons/hourglass-half.svg" /></td><td>Add delay markings</td><td>false</td><td>true</td><td>false</td></tr>
-<tr><td><img src="/icons/eye-slash.svg" /></td><td>Reset direct decorations</td><td>true</td><td>true</td><td>true</td></tr>
-<tr><td><img src="/icons/book.svg" /></td><td>Visit these docs!</td><td>true</td><td>true</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th>Icon</th><th>Action</th><th data-type="checkbox">Elements</th><th data-type="checkbox">Connections</th><th data-type="checkbox">Loops</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/pencil-alt.svg" alt=""></td><td>Edit label and type</td><td>true</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/font.svg" alt=""></td><td>Edit font color, font size, font style, and font alignment</td><td>true</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/tint.svg" alt=""></td><td>Edit color</td><td>true</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/arrows-alt.svg" alt=""></td><td>Edit size and/or shape</td><td>true</td><td>true</td><td>false</td></tr><tr><td><img src="../.gitbook/assets/image.svg" alt=""></td><td>Add an image</td><td>true</td><td>false</td><td>false</td></tr><tr><td><img src="../.gitbook/assets/trash.svg" alt=""></td><td>Delete item</td><td>true</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/ellipsis-h.svg" alt=""></td><td>More options</td><td>true</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/circle.svg" alt=""></td><td>Add a border</td><td>true</td><td>false</td><td>false</td></tr><tr><td><img src="../.gitbook/assets/dot-circle.svg" alt=""></td><td>Add a bullseye</td><td>true</td><td>false</td><td>false</td></tr><tr><td><img src="../.gitbook/assets/adjust.svg" alt=""></td><td>Add a shadow</td><td>true</td><td>false</td><td>false</td></tr><tr><td><img src="../.gitbook/assets/exchange-alt.svg" alt=""></td><td>Change connection direction</td><td>false</td><td>true</td><td>false</td></tr><tr><td><img src="../.gitbook/assets/hourglass-half.svg" alt=""></td><td>Add delay markings</td><td>false</td><td>true</td><td>false</td></tr><tr><td><img src="../.gitbook/assets/eye-slash.svg" alt=""></td><td>Reset direct decorations</td><td>true</td><td>true</td><td>true</td></tr><tr><td><img src="../.gitbook/assets/book.svg" alt=""></td><td>Visit these docs!</td><td>true</td><td>true</td><td>true</td></tr></tbody></table>
 
 ## Undo direct decorations
 

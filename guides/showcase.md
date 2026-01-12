@@ -4,15 +4,15 @@ Showcase is similar to [Filter](filter.md), which allows you to show or hide ele
 
 To quickly test out showcasing, simply hover your cursor over any element, connection, or loop:
 
-![showcase animation](../.gitbook/assets/spaces\_kXSW1nEf49ISqGxYuRfS\_uploads\_git-blob-d093a1a5301691c450470eaae9942f573ea8c3ce\_showcase-control.gif)
+![showcase animation](<../.gitbook/assets/spaces_kXSW1nEf49ISqGxYuRfS_uploads_git-blob-d093a1a5301691c450470eaae9942f573ea8c3ce_showcase-control (1).gif>)
 
 Showcase settings can be saved to a [view](views.md), and these settings can be fully customized in two ways: through the Basic Editor, and through the Advanced Editor.
 
 ## Showcase in the Basic Editor
 
-Click the settings icon ![](../icons/sliders-h.svg)on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS**, and select **Showcase elements and connections**.
+Click the settings icon ![](../.gitbook/assets/sliders-h.svg)on the right side of your map to open the Basic Editor. Then, click **MORE OPTIONS**, and select **Showcase elements and connections**.
 
-![Showcase basic editor](../images/overview-showcase.png)
+![Showcase basic editor](../.gitbook/assets/overview-showcase.png)
 
 Click the rocketship icon to build the selection of items that you want to showcase, or type a [selector](selectors.md) into the box.
 

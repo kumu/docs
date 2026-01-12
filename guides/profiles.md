@@ -26,7 +26,7 @@ The default fields are enough to get you started on most projects, but if you ha
 
 Custom fields can also be grouped together using their "Category" setting. Assigning a category to a a field will make sure it is listed in that category in the profile. The most common example of this is [metrics](metrics.md) fields, which are assigned to the "Metrics" category by default:
 
-![Screenshot of field category in the profile](../images/profile-field-category.png)
+![Screenshot of field category in the profile](../.gitbook/assets/profile-field-category.png)
 
 ## Disabling the profile
 

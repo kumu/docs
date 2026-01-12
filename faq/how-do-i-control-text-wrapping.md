@@ -10,11 +10,11 @@ As long as you aren't using the [SNA template](../guides/templates.md#sna-social
 
 Here's a screenshot of an element before adding any double-spaces:
 
-![element with unusually long label](../images/unusually-long-label.png)
+![element with unusually long label](../.gitbook/assets/unusually-long-label.png)
 
 And here's a screenshot of that same element, with a double-space between the words "with" and "an", and with a double-space between the words "unusually" and "long".
 
-![element with unusually long label broken up using double-spaces](../images/unusually-long-label-double-space.png)
+![element with unusually long label broken up using double-spaces](../.gitbook/assets/unusually-long-label-double-space.png)
 
 For a solution that's a bit more automated, and doesn't require you to open each profile and tinker with double-spaces in every label, you can use the `text-overflow` property in the Advanced Editor. You can use `text-overflow` inside of [`@settings`](../guides/default-view-settings.md#change-default-view-settings-in-the-advanced-editor), or inside of a block that starts with any [selector](../guides/selectors.md).
 

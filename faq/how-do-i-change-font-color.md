@@ -20,7 +20,7 @@ _Note that changing the default font color of your map also changes the font col
 
 [Direct Decorations](../guides/direct-decorations.md) are best used when wanting to change the font color of only one or a few elements in your map. To do so: hover over the element or connection whose font color you'd like to change so the edit pencil shows up. Click on the Pencil and then Click on the Text icon to change its color there.
 
-![Direct Decorations Font Color](../images/dir-dec-font-color.png)
+![Direct Decorations Font Color](../.gitbook/assets/dir-dec-font-color.png)
 
 ## Change font color in the Advanced Editor
 

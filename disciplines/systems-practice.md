@@ -2,7 +2,7 @@
 
 Are you working with the Systems Practice workbook, either through the [+Acumen course](https://www.plusacumen.org/courses/systems-practice) or directly with The Omidyar Group? If so, you're in the right place. This guide provides a step-by-step approach on how to use Kumu alongside a systems practice.
 
-![](../images/tog-systems-practice-workbook.jpg)
+![](../.gitbook/assets/tog-systems-practice-workbook.jpg)
 
 [Download the TOG Systems Practice workbook](../content/Workbook-012617.pdf)
 
@@ -23,9 +23,9 @@ Since you're building a system map, make sure to choose the "systems" template.
 
 #### Inviting someone to collaborate
 
-If you'd like to collaborate on your map with other team members, open your map and then use the menu icon ![](../icons/bars.svg) in the upper left corner to access the project settings. Click on the **MEMBERS** section, then add an email address to invite someone to collaborate. If that person already has a Kumu account, they'll immediately get access. If not, we'll send an invitation asking them to sign up for Kumu, then we'll automatically add their new account to the project.
+If you'd like to collaborate on your map with other team members, open your map and then use the menu icon ![](../.gitbook/assets/bars.svg) in the upper left corner to access the project settings. Click on the **MEMBERS** section, then add an email address to invite someone to collaborate. If that person already has a Kumu account, they'll immediately get access. If not, we'll send an invitation asking them to sign up for Kumu, then we'll automatically add their new account to the project.
 
-![](../images/add-collaborator.png)
+![](../.gitbook/assets/add-collaborator.png)
 
 ## Building your first loop
 
@@ -108,7 +108,7 @@ It can be helpful to have more than just a few works explaining what each factor
 
 You'll see a dashed rectangle towards the top of the profile for an element. Click where it says "add description" and then type in your definition and paste in any relevant links.
 
-Here's an example of a profile for an element with additional context included: ![System map in Kumu](../images/systems-narrative.png)
+Here's an example of a profile for an element with additional context included: ![System map in Kumu](../.gitbook/assets/systems-narrative.png)
 
 #### Custom fields
 
@@ -118,14 +118,14 @@ Looking to track more information about each element, connection or loop? You ca
 
 Once you've added additional background and context using the profile, you can then bring that context to life by creating [decorations](../guides/decorate.md) based on the values you've saved to the profile. Let's run through an example to color-code elements by the values in their leverage analysis field.
 
-1. Click the settings icon ![](../icons/sliders-h.svg) on the right side of the map to open the [Basic Editor](../overview/view-editors.md#basic-editor)
+1. Click the settings icon ![](../.gitbook/assets/sliders-h.svg) on the right side of the map to open the [Basic Editor](../overview/view-editors.md#basic-editor)
 2. Next to **Color by**, use the dropdown to select "leverage analysis"
 
 And you're done! All elements will now be be marked with colored arcs, and each colored arc represents one of the different options in your leverage analysis field.
 
 These arcs are called [flags](../guides/flags.md), and they are a decoration created specifically for fields that can hold more than one value. Flags are just one of many different element decorations in Kumu:
 
-![Element decoration options](../images/element-decorations.jpeg)
+![Element decoration options](../.gitbook/assets/element-decorations.jpeg)
 
 To learn how to create different element decorations, how to decorate connections, how to decorate specific groups of elements, and more, be sure to check out our [full guide on decorations](../guides/decorate.md).
 

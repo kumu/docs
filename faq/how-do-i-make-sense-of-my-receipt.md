@@ -11,7 +11,7 @@ The most important thing to know is that any time you add or remove private proj
 
 **Credits** appear on your receipt as "Unused time on private projects after \[the date you removed the private project]". **Debits** appear as "Remaining time on private projects after \[the date you removed the private project]".
 
-![remaining and unused time](../images/remaining-and-unused-time.png)
+![remaining and unused time](../.gitbook/assets/remaining-and-unused-time.png)
 
 Here's how the invoice pictured above was produced:
 

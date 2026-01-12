@@ -42,8 +42,7 @@ Unlike file-based imports, the Google Sheets integration is an ongoing import. T
 
 Since Google Sheets can be opened up to the general public for editing, this integration is a great way to crowdsource maps where individuals can add and update their own data, without having to give everyone full edit access to the project on Kumu.
 
-This video gives an explanation of how to crowdsource data with Google Sheets:\
-
+This video gives an explanation of how to crowdsource data with Google Sheets:<br>
 
 {% embed url="https://www.youtube.com/embed/0eZQ2MPGzv4" %}
 

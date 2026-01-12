@@ -4,7 +4,7 @@ When you're adding [controls](../guides/controls.md) through the Basic Editor, y
 
 ## Basic Editor
 
-* Click the settings icon on the right ![](../icons/sliders-h.svg) to open the Basic Editor, then scroll down to "Add custom control"**.**  You'll see all existing controls listed out below.
+* Click the settings icon on the right ![](../.gitbook/assets/sliders-h.svg) to open the Basic Editor, then scroll down to "Add custom control"**.**  You'll see all existing controls listed out below.
 * When hovering over an existing control, click on the edit pencil to edit your existing control, or click on the trash icon to delete it:
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-06-16 at 1.03.11 PM.png" alt=""><figcaption></figcaption></figure>

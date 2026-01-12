@@ -30,7 +30,7 @@ Work through the next couple of screens to name your project, decide whether it 
 
 After creating a new project in Kumu, your next step is to pick which template you want to use for your first map:
 
-![Template Selection](../images/template-picker.png)
+![Template Selection](../.gitbook/assets/template-picker.png)
 
 We recommend most people start with the **system**, **stakeholder**, or **SNA** template, unless they have a good reason to do otherwise. Below is a description of each template's effect:
 
@@ -45,13 +45,13 @@ Not sure which one you need? [Check out our full guide on templates](../guides/t
 
 Once you've chosen a template, you'll land on this screen:
 
-![](../images/blank-ui.png)
+![](../.gitbook/assets/blank-ui.png)
 
 This is your blank canvas, where you'll add elements (circles) and connections (lines) to visualize your system or network. If you're mapping a system, you will probably be adding loops (groups of two or more connections) as well.
 
 At this point, you need to decide how to get all of this information into the map. There are three basic ways to do this:
 
-![](../images/three-ways-to-build.png)
+![](../.gitbook/assets/three-ways-to-build.png)
 
 In this guide, we'll cover how to build your map by hand. If you'd rather import from a spreadsheet or Google Sheets, [check out our full guide on imports](../guides/import/).
 
@@ -59,7 +59,7 @@ In this guide, we'll cover how to build your map by hand. If you'd rather import
 
 Building your map by hand is a good choice for system maps or smaller network maps. If your map will have less than 50 elements, you can probably build it comfortably by hand. There are two ways to build a map by hand.
 
-1. [The green ![](../icons/plus-circle.svg) button](first-steps.md#the-green-button)
+1. [The green ![](../.gitbook/assets/plus-circle.svg) button](first-steps.md#the-green-button)
 2. [Sketch mode](first-steps.md#sketch-mode)
 
 #### The green button
@@ -100,7 +100,7 @@ To add that information, you'll use the panel on the left side of the map, which
 
 Each element, connection, and loop has a profile that can be used to store additional information in various fields.
 
-![](../images/introduction-profile.png)
+![](../.gitbook/assets/introduction-profile.png)
 
 Label, Type, Description, and Tags are all examples of fields. Use these fields to provide additional context for each element and connection, and click **+NEW FIELD** to add a custom field.
 
@@ -108,13 +108,13 @@ For this walkthrough, fill out the Type field for each of your elements—try to
 
 ### Create your first decoration
 
-Click the settings icon ![](../icons/sliders-h.svg) on the right side of the map to open up the Basic Editor. You'll see the most popular settings listed, allowing you to easily size or color elements by a field. There's more options here, but let's start with the most basic ones! For the full explanation of each possible setting, visit [the Basic Editor guide](../overview/view-editors.md#basic-editor).&#x20;
+Click the settings icon ![](../.gitbook/assets/sliders-h.svg) on the right side of the map to open up the Basic Editor. You'll see the most popular settings listed, allowing you to easily size or color elements by a field. There's more options here, but let's start with the most basic ones! For the full explanation of each possible setting, visit [the Basic Editor guide](../overview/view-editors.md#basic-editor).&#x20;
 
 <figure><img src="../.gitbook/assets/Basic Editor (1).png" alt=""><figcaption></figcaption></figure>
 
 If you have filled out the Type field for your elements, try selecting **Element Type** from the dropdown menu next to **Color by**. Kumu will automatically color-code all of your elements by Type, and you can click the expand icon to choose a different color scale.
 
-Your first decoration is complete! If you like what you see, click **SAVE** at the bottom of the Basic Editor, and click the settings icon ![](../icons/sliders-h.svg) again (or press `T` on your keyboard) to return to your map.
+Your first decoration is complete! If you like what you see, click **SAVE** at the bottom of the Basic Editor, and click the settings icon ![](../.gitbook/assets/sliders-h.svg) again (or press `T` on your keyboard) to return to your map.
 
 When you're ready to add more customized, detailed decorations, take a look at our [decorations guide](../guides/decorate.md).
 
@@ -153,9 +153,9 @@ Focus works by showing only the portion of the network within a certain number o
 
 Once focus is activated, everything except your selected items will be hidden from the map. Press the `+` key on your keyboard to extend the focus further out from your selection, and press the `-` key to narrow the focus back to your selection. Also, you can click and hold on any element to bring that element's direct connections into view.
 
-![focus animation](../images/focus.gif)
+![focus animation](../.gitbook/assets/focus.gif)
 
-If you'd like to clear your focus and bring back the full map, click the focus icon on the right (underneath the settings icon ![](../icons/sliders-h.svg)) and select **Clear**.
+If you'd like to clear your focus and bring back the full map, click the focus icon on the right (underneath the settings icon ![](../.gitbook/assets/sliders-h.svg)) and select **Clear**.
 
 {% hint style="info" %}
 To extend focus to a specific degree, use the numbers `0-9` on your keyboard. To quickly clear your focus, press the `esc` key.
@@ -165,11 +165,11 @@ To extend focus to a specific degree, use the numbers `0-9` on your keyboard. To
 
 Showcase is similar to filter, which allows you to show or hide elements, connections, and loops based on the information they contain. But, instead of hiding your data, showcase will make it translucent, fading it into the background.
 
-<figure><img src="../images/showcase-control.gif" alt=""><figcaption><p>Showcase</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/spaces_kXSW1nEf49ISqGxYuRfS_uploads_git-blob-d093a1a5301691c450470eaae9942f573ea8c3ce_showcase-control.gif" alt=""><figcaption><p>Showcase</p></figcaption></figure>
 
 Experiment with showcase by opening the Basic Editor, and clicking **Showcase**.
 
-![Showcase basic editor](../images/overview-showcase.png)
+![Showcase basic editor](../.gitbook/assets/overview-showcase.png)
 
 Click the rocket ship icon to build the selection of items that you want to showcase.
 
@@ -179,9 +179,9 @@ Clustering allows you to connect elements based on the data in their fields, and
 
 When clustering is activated, Kumu will create new elements to represent each possible value for the field that you chose, and it will draw a connection between your elements and the value(s) in their field. For example, if you have an element with the element type "Organization", Kumu will create an element labelled "Organization" and connect your element to it.
 
-To add multiple cluster rules, click the settings icon ![](../icons/sliders-h.svg)to the right of the **Connect by** tool.
+To add multiple cluster rules, click the settings icon ![](../.gitbook/assets/sliders-h.svg)to the right of the **Connect by** tool.
 
-![Cluster basic editor](../images/overview-cluster.png)
+![Cluster basic editor](../.gitbook/assets/overview-cluster.png)
 
 Just click **Add rule** to cluster by any of the information inside your elements.
 
@@ -191,9 +191,9 @@ Just click **Add rule** to cluster by any of the information inside your element
 
 Building maps in Kumu can be a lot of work! Inviting somebody else to contribute to your project is a great way to reach your final destination more quickly. Even if your project is small and manageable, it's a good idea to let someone else weigh in on your data and design to make sure your story gets told effectively.
 
-To add a contributor to a project, click the menu icon ![](../icons/bars.svg) in the upper left of your project, then select **MEMBERS** from the sidebar.
+To add a contributor to a project, click the menu icon ![](../.gitbook/assets/bars.svg) in the upper left of your project, then select **MEMBERS** from the sidebar.
 
-![](../images/settings-members.png)
+![](../.gitbook/assets/settings-members.png)
 
 In the **Username** box, type the Kumu username of the person you want to add (if they don't have a username, they can get one for free at https://kumu.io/join) and click **Add contributor**.
 

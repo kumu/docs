@@ -19,7 +19,7 @@ There are also some features of Kumu that can only be accessed through the Advan
 
 ## Basic Editor
 
-To open the Basic Editor, open your map and click the settings icon ![](../icons/sliders-h.svg) on the right side of the map.
+To open the Basic Editor, open your map and click the settings icon ![](../.gitbook/assets/sliders-h.svg) on the right side of the map.
 
 <figure><img src="../.gitbook/assets/Basic Editor (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -47,13 +47,13 @@ Are your fields with numbers not showing up in the **Size by** dropdown? Try [ch
 
 Don't like the default colors? Click the expand icon next to the **Color by** dropdown to fine-tune your coloring options. This example colors by Element Type using the `bujumbra` scale:
 
-![bujumbra color by](../images/color-by-element-type-bujumbra.png)
+![bujumbra color by](../.gitbook/assets/color-by-element-type-bujumbra.png)
 
 The default color scale, `neon2`, can support seven different colors. If you need more colors (for example if you have 10 or 11 different element types), [check out our color reference](advanced-editor-hub/color-reference.md) to find a scale that will work for your data.
 
 If you color by a multi-pick field like Tags, Kumu will color code your elements with flags (colored arcs around the outside of your elements). Each flag represents one of the possible values in the multi-pick field.
 
-![Flags example](../images/flags-with-filter.png)
+![Flags example](../.gitbook/assets/flags-with-filter.png)
 
 To learn more about flags, [read the full guide](../guides/flags.md).
 
@@ -87,7 +87,7 @@ When clustering is activated, Kumu will create new elements to represent each po
 
 **Filter** allows you to show and hide elements, connections or loops based on data stored in the profile. Click on **Filter** to open up your filter settings.
 
-![filter](../images/overview-filter.png)
+![filter](../.gitbook/assets/overview-filter.png)
 
 [Check out our full filtering guide](../guides/filter.md) to learn more.
 
@@ -95,7 +95,7 @@ When clustering is activated, Kumu will create new elements to represent each po
 
 **Showcase** is similar to Filter, which allows you to show or hide elements, connections, and loops based on the information they contain. But, instead of _hiding_ your unselected data, showcase will make it translucent, effectively _fading it_ into the background.&#x20;
 
-<figure><img src="../images/showcase-control.gif" alt=""><figcaption><p>Showcase</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/spaces_kXSW1nEf49ISqGxYuRfS_uploads_git-blob-d093a1a5301691c450470eaae9942f573ea8c3ce_showcase-control.gif" alt=""><figcaption><p>Showcase</p></figcaption></figure>
 
 To learn more about Showcase, [find our full guide here](../guides/showcase.md).
 
@@ -135,9 +135,9 @@ This section of the Basic Editor shows each decoration's legend label you added 
 
 ## Advanced Editor
 
-To open the Advanced Editor, click the settings icon ![](../icons/sliders-h.svg) to open the Basic Editor, then click **SWITCH TO ADVANCED EDITOR** at the bottom of the Basic Editor.
+To open the Advanced Editor, click the settings icon ![](../.gitbook/assets/sliders-h.svg) to open the Basic Editor, then click **SWITCH TO ADVANCED EDITOR** at the bottom of the Basic Editor.
 
-![](../images/advanced-editor-hf.png)
+![](../.gitbook/assets/advanced-editor-hf.png)
 
 Everything you change in the Basic Editor is automatically coded into the Advanced Editor, and most Advanced Editor code follows the same pattern:
 

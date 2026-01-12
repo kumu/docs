@@ -48,7 +48,7 @@ Add a few more elements, then try selecting **Add connection** from that menu to
 
 Add a label for the loop and hit `enter` on your keyboard to finish up.
 
-![](../images/systems-reinforcing-loop.png)
+![](../.gitbook/assets/systems-reinforcing-loop.png)
 
 Some systems thinkers like to mark their loops as "reinforcing" or "balancing". To do this, we recommend adding "R" or "B" (for reinforcing and balancing) to your loop label, which will describe the dynamic at play (R: Trust in Government). You can even add a numerical label if that further helps differentiate your loops or guide readers through the story (R15: Trust in Government).
 
@@ -80,7 +80,7 @@ Often, you'll want to change the curvature of a connection to make it fit better
 
 Note this only work for connections where both elements that are part of that connection are pinned in place (which is the default setting on the system template).
 
-![curved connections in a system map](../images/systems-magazine-ready.png)
+![curved connections in a system map](../.gitbook/assets/systems-magazine-ready.png)
 
 #### Change connection arrows
 
@@ -155,17 +155,17 @@ Some system mappers like to go even further and include not just whether a conne
 \
 Simply add the value to the "type" field on any connection:
 
-![connection type](../images/systems-connection-type.png)
+![connection type](../.gitbook/assets/systems-connection-type.png)
 
 And we'll automatically add the pre- and post-labels for you:
 
-![pre and post labels](../images/systems-connection-type-example.png)
+![pre and post labels](../.gitbook/assets/systems-connection-type-example.png)
 
 **Using pre-labels and post-labels**
 
 We also support custom pre-labels and post-labels—just add two new [fields](../guides/fields.md) to your connections and name the fields `Prelabel` and `Postlabel`. Anything you type in those fields will appear at the start and end of the connection.
 
-![custom post-labels](../images/post-labels-unwanted-pregnancy.png)
+![custom post-labels](../.gitbook/assets/post-labels-unwanted-pregnancy.png)
 
 #### Add narratives and other background information
 
@@ -173,7 +173,7 @@ One of the challenges with many system mapping platforms is that they don't allo
 
 Kumu allows you to add rich narratives and information easily for any and all levels of your map. Start by using the map overview to add a description of the overall map and key dynamics at play. Then, click on a loop and use its profile to include a narrative that describes the behavior, both current and historical, and includes links to any supporting research that led to the creation of the loop. For specific elements, provide a quick definition to ensure there isn't confusion. And for connections, include a brief description of why two elements are causally related. Don't forget to cite your sources!
 
-![System map in Kumu](../images/systems-narrative.png)
+![System map in Kumu](../.gitbook/assets/systems-narrative.png)
 
 #### Strengthen your narrative using links to elements and loops
 
@@ -199,6 +199,6 @@ The great part about Kumu is you don't need to just pick one of these ways to de
 
 Now that your map is built, refined, and enriched in Kumu, it's time for the real work to begin: sharing! In Kumu, it's possible to [create a shareable link](../guides/share-and-embed.md) for your map, but we recommend [creating a presentation](../guides/presentations.md) instead, so you can break your system map down into smaller pieces, explaining each one to your map readers.
 
-![presentation slides](../images/presentation.gif)
+![presentation slides](../.gitbook/assets/presentation.gif)
 
 When you finish your presentation, you'll be able to send a link to your readers, embed it on a website, or even project it onto a screen. Published presentations are fully interactive, so viewers will be able to zoom in and out, click on loops to see narratives, and explore your system map in its entirety.

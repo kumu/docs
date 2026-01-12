@@ -6,7 +6,7 @@ In the profile of each element in your map, it's possible to list that element's
 * [`:from` and `:to` pseudo-selectors](../guides/selectors.md#connected-from-and-connected-to)
 * A field with its **Type** set to **Text** (e.g. the **Description** field)
 
-![List of element's connections in its profile](../images/list-widget-element-connections.png)
+![List of element's connections in its profile](../.gitbook/assets/list-widget-element-connections.png)
 
 To get started, open one of your element profiles. If you want the connection list to be in a custom field, create that field, and [set its type to **Text**](../guides/fields.md#customize-a-field). Alternatively, you can use the Description field, since its type is Text by default.
 
@@ -44,7 +44,7 @@ If you have a lot of elements, it's pretty tedious to go through each element's 
 
 If you're using either **Label** or **ID** as the unique identifier for elements, you can quickly generate list widget code using a custom Google Sheets formula we created.
 
-To get access to the custom formula, you can open our ["With custom Kumu formulas" Google Sheet](https://docs.google.com/spreadsheets/d/1qRhkn6qECtBaAncWykMa0hAG97jPK6q\_bODrwntqze8/edit?usp=sharing), then click "File" > "Make a copy" to create your own editable copy of the sheet.
+To get access to the custom formula, you can open our ["With custom Kumu formulas" Google Sheet](https://docs.google.com/spreadsheets/d/1qRhkn6qECtBaAncWykMa0hAG97jPK6q_bODrwntqze8/edit?usp=sharing), then click "File" > "Make a copy" to create your own editable copy of the sheet.
 
 Delete the example tabs in the Google Sheet, then create a new tab and copy/paste your list of elements into it, starting from cell `A1`. Make sure that **Label** is in Column A, or that you have an **ID** column in the sheet, filled with unique IDs for your elements.
 

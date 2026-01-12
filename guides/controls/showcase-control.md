@@ -8,7 +8,7 @@ Add a control to activate [showcase](../showcase.md) for a given field or set of
 
 To create a showcase control, follow these steps:
 
-1. Click the settings icon on the right ![](../../icons/sliders-h.svg) to open the editor, then click "Add custom control"**.**
+1. Click the settings icon on the right ![](../../.gitbook/assets/sliders-h.svg) to open the editor, then click "Add custom control"**.**
 2. In the menu that opens up, change the first dropdown to "Showcase elements by field".
 3. Use the other dropdowns to customize the look and location of your controls
 4. Click Save at the bottom to save your changes

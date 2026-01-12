@@ -16,7 +16,7 @@ Whether you want to import an entirely new dataset or just clear out some old el
 
 The data will disappear from your map, but it's not gone yet—it still exists in your [project's Trash](../overview/kumus-architecture.md#trash). To delete data from the Trash, follow these additional steps:
 
-1. Click the menu icon ![](../icons/bars.svg) in the upper left corner to bring up the project menu
+1. Click the menu icon ![](../.gitbook/assets/bars.svg) in the upper left corner to bring up the project menu
 2. Select TRASH from the menu on the left
 3. Use the dropdown menu to review and destroy items individually, or just click **Destroy All**. After you do this, there's no going back!
 

@@ -4,7 +4,7 @@
 
 With the SNA Dashboard control, you can add a dashboard that shows key metrics for your network map.
 
-![SNA Dashboard](../../images/sna-dashboard.png)
+![SNA Dashboard](../../.gitbook/assets/sna-dashboard.png)
 
 ## Advanced Editor
 
@@ -30,7 +30,7 @@ You can also use the `metrics` property to specify exactly which metrics get inc
 }
 ```
 
-![SNA Dashboard with custom metrics](../../images/sna-dashboard-custom-metrics.png)
+![SNA Dashboard with custom metrics](../../.gitbook/assets/sna-dashboard-custom-metrics.png)
 
 Here are all the possible values you can use in the `metrics` property:
 

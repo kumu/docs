@@ -11,9 +11,9 @@ Check out our [Taking Control of Kumu webinar](https://youtu.be/H4mPfRw2cqM)
 
 ### Add controls through the Basic Editor
 
-You can use the [Basic Editor](../overview/view-editors.md#basic-editor) to add a few simple types of controls to your map. Click the settings icon ![](../icons/sliders-h.svg) to open the editor, then click **Add custom control**. Kumu will open up the controls builder, with a few options pre-selected:
+You can use the [Basic Editor](../overview/view-editors.md#basic-editor) to add a few simple types of controls to your map. Click the settings icon ![](../.gitbook/assets/sliders-h.svg) to open the editor, then click **Add custom control**. Kumu will open up the controls builder, with a few options pre-selected:
 
-![controls builder ui](../images/control-builder.png)
+![controls builder ui](../.gitbook/assets/control-builder.png)
 
 Use the dropdown menus in the controls builder to set up your control, then, when you're done, click the back arrow to return to the main screen, and click **SAVE**.
 
@@ -175,7 +175,7 @@ When you're adding [controls](controls.md) through the Basic Editor, you might s
 
 **Basic Editor**
 
-1. Click the settings icon on the right ![](../icons/sliders-h.svg) to open the Basic Editor, then scroll down to "Add custom control"**.** You'll see all existing controls listed out below.
+1. Click the settings icon on the right ![](../.gitbook/assets/sliders-h.svg) to open the Basic Editor, then scroll down to "Add custom control"**.** You'll see all existing controls listed out below.
 2. When hovering over an existing control, click on the edit pencil to edit your existing control, or click on the trash icon to delete it.
 
 **Advanced Editor**
