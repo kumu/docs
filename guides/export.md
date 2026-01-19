@@ -56,3 +56,7 @@ _Note: If you're working with loops, you'll need to continue to edit them within
 ## Export to JSON: downloading a project blueprint
 
 If you need to backup your entire project (all maps, views, and underlying data **except presentations**), click the download icon in the lower right corner and choose "Export to JSON". This will create a [JSON blueprint](import/blueprints.md) which can be used as a snapshot in time of your project, and can be imported into a blank project to restore it.
+
+{% hint style="danger" %}
+**Note:** A JSON export does not include any [presentations](presentations.md) you’ve created in your project. If you import the JSON into another project, you’ll need to recreate any presentation(s). If your goal is simply to transfer your project to another account, [follow this guide](../faq/how-do-i-transfer-a-project.md) to transfer the presentation(s) along with your project.
+{% endhint %}
