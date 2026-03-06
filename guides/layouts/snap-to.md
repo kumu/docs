@@ -63,7 +63,13 @@ To snap to line, follow these steps:
 
 ## Set Snap-to automatically&#x20;
 
-You can also have a map snap to a certain shape automatically. This option is great when you're [importing through a Google Sheet](../import/#google-sheets), which doesn't allow you to pin elements in place.  \
+You can also have a map snap to a certain shape automatically. This option is great when you're [importing through a Google Sheet](../import/#google-sheets), which doesn't allow you to pin elements in place. &#x20;
+
+{% hint style="danger" %}
+**Note:** You need at least 4 elements to snap to a circle. If your selection contains less than 4 elements, Kumu will not be able to render your data and hide your data. Fear not! Your data has not disappeared. Simply remove the automatic snap-to rule, save your changes and refresh your project.&#x20;
+{% endhint %}
+
+\
 \
 **1. Pick a selection**
 
@@ -85,4 +91,4 @@ Once you've saved the settings, click "Switch to Advanced Editor" at the bottom.
 &#x20; `position: circle(0, 0, 100, auto);` \
 `}`
 
-You can use that code to make any adjustments to your shape, in case you want to do a quick edit. Of course you can also make edits in the Basic Editor still, in the snap-to menu!&#x20;
+You can use that code to make any adjustments to your shape, in case you want to do a quick edit. Of course you can also make edits in the Basic Editor still, in the Snap-to menu!&#x20;
