@@ -152,6 +152,7 @@
 * [How do I cite Kumu?](faq/how-do-i-cite-kumu.md)
 * [How do I collapse duplicate connections?](faq/how-do-i-collapse-duplicate-connections.md)
 * [How do I copy a map to another project?](faq/how-do-i-copy-a-map-to-another-project.md)
+* [How do I connect a connection to another connection? (split or branching connections)](frequently-asked-questions/how-do-i-connect-a-connection-to-another-connection-split-or-branching-connections.md)
 * [How do I control label size while scaling element size?](faq/how-do-i-control-label-size-while-scaling-element-size.md)
 * [How do I control text wrapping?](faq/how-do-i-control-text-wrapping.md)
 * [How do I convert a project from private to public?](faq/how-do-i-convert-a-project-from-private-to-public.md)

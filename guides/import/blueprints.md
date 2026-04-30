@@ -99,11 +99,11 @@ When you're finished creating your blueprint, save the file with a `.json` exten
 
 You can import the JSON file into Kumu in two different ways:
 
-**1)** Simply drag and drop the file onto the map's canvas.
+**1)** Simply drag and drop the file onto the map's canvas. Make sure to save the import by clicking "Save changes" in the side panel on the left!
 
 OR
 
-**2)** Click the green **+** button at the bottom of your map, select "Import:, and click "Choose file" under Advanced > Import JSON file. Then click "Import JSON".&#x20;
+**2)** Click the green **+** button at the bottom of your map, select "Import:, and click "Choose file" under Advanced > Import JSON file. Then click "Import JSON". Again, make sure to save the import by clicking "Save changes" in the side panel on the left.
 
 ## Project backups
 
