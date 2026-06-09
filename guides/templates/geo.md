@@ -29,17 +29,22 @@ You can activate the geo template by opening the Advanced Editor (keyboard short
 
 ## Place your elements
 
-Once you have activated the geo template, you can assign location data to your elements to place them on the geographic map.
+Once you have activated the geo template, there are two ways to place them:&#x20;
+
+1. After creating an element in Kumu directly, you can drag & drop it to a desired location **once**. After this initial placement, you can only re-locate them by using the second option below.
+2. Create a field called Location to assign location data to your elements, which will place them on the geographic map. You can do this in Kumu directly, or via [imported data](../import/).&#x20;
 
 Kumu's flexible geocoding engine will understand many types of location data, including mailing address, city and state, or even just a country. You can also provide latitude and longitude values using the "latitude, longitude" format.
 
+{% hint style="warning" %}
 If you are using the "latitude, longitude" format, don't include the degree symbol, and don't include the cardinal direction. For example, the latitude, longitude of Honolulu, Hawaii is **21.3069° N, 157.8583° W**, but it should be entered in Kumu as **21.3069, -157.8583**.
+{% endhint %}
 
 ![Geo map showing latitude and longitude for Honolulu](../../.gitbook/assets/honolulu-geo.png)
 
 Note that latitudes in the Southern hemisphere and longitudes in the Western hemisphere are negative numbers.
 
-If you already have your location data in the map and don't want to duplicate it in a new field name "Location", don't worry - you can use the `geo-location` property in the `@settings` block to tell Kumu where your location data is:
+If you already have your location data in the map and don't want to duplicate it in a new field named "Location", don't worry - you can use the `geo-location` property in the `@settings` block to tell Kumu which field contains your location data. For example:
 
 ```scss
 @settings {
