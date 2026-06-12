@@ -2,6 +2,10 @@
 
 Presentations combine the best of PowerPoint, Prezi, and Kumu into one easy-to-use tool. Combine text, video, images and maps into a single, engaging presentation that anyone can access via URL.
 
+{% hint style="success" %}
+Want to see some examples? Visit our [Projects in the Wild](https://embed.kumu.io/1e76eed07febdc8b962f86c9d0d3af6b#projects-in-the-wild) map and use the toggle in the bottom-right corner to only show Presentations.
+{% endhint %}
+
 ## Create a presentation
 
 To create a presentation, navigate to Project Settings in the top-left corner of your project and choose the Presentations tab. When you create a new presentation, you'll land on a title slide, to which you can add a title, subtitle, and background image.
