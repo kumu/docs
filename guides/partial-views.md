@@ -12,8 +12,6 @@ A **partial view** is almost exactly like a normal view—in the Advanced Editor
 
 ![](../.gitbook/assets/view-toggle.gif)
 
-##
-
 {% hint style="success" %}
 Looking for some examples of partial views? Check out our [Projects in the Wild](https://embed.kumu.io/1e76eed07febdc8b962f86c9d0d3af6b) and set the Kumu Features dropdown to "partial views".&#x20;
 {% endhint %}
