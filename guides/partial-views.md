@@ -8,9 +8,15 @@ That's where partial views come in handy!
 
 {% embed url="https://www.youtube.com/embed/GTGbmis2RZk" %}
 
-A **partial view** is almost exactly like a normal view—in the Advanced Editor, it's a block of code defining all the rules that affect the visual appearance of your map. But there's one major difference: you can use the [view toggle control](partial-views.md#add-the-view-toggle-control) to allow your readers to switch between your partial views at will, with just the click of a button.
+A **partial view** is almost exactly like a normal view—in the Advanced Editor, it's a block of code defining all the rules that affect the visual appearance of your map. But there's one major difference: you can use the [view toggle control](partial-views.md#add-the-view-toggle-control) to allow your readers to switch between your partial views at will, with just the click of a button:
 
-![view toggle gif](../.gitbook/assets/view-toggle.gif)
+![](../.gitbook/assets/view-toggle.gif)
+
+##
+
+{% hint style="success" %}
+Looking for some examples of partial views? Check out our [Projects in the Wild](https://embed.kumu.io/1e76eed07febdc8b962f86c9d0d3af6b) and set the Kumu Features dropdown to "partial views".&#x20;
+{% endhint %}
 
 ## Recommended workflow for partial views
 
