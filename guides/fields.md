@@ -74,9 +74,20 @@ Field's can't be named `YES`, `NO`, `ON`, `OFF`, `TRUE`, or `FALSE`. Uppercase a
 
 ## Customize a field
 
-To customize the settings for a given field, click on an element, and click the field in the element's profile.
+To customize the settings for a given field, click on an element, and click the field in the element's profile:
 
 ![Customizing a field](../.gitbook/assets/customize-field.gif)
+
+{% hint style="warning" %}
+Not able to click on your fields in the profile? It might be that you're [importing your data with Google Sheets](import/#google-sheets) or a [remote JSON link](import/blueprints.md#set-a-remote-json-link). In this case, please follow these steps:&#x20;
+
+\
+1\. Navigate to Project Settings in th top-left corner of your project (three stripes)\
+2\. Click on the Fields tab\
+3\. Choose the field you wish to edit by clicking on it\
+4\. Make any changes to your field's settings\
+5\. Make sure to save at the bottom of the page!
+{% endhint %}
 
 A dropdown will appear with the following options:
 
