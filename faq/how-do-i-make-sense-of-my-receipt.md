@@ -21,4 +21,4 @@ Here's how the invoice pictured above was produced:
 4. On June 27, our system created the new charges for the upcoming month, which included the one remaining private project (see line 6) and the base Pro workspace fee (see line 5).
 5. Adding up all the credits, debits, and next month's charges resulted in a total invoice of $20.05.
 
-Hopefully, that example illustrates the basic concepts! But if you ever have trouble making sense of a receipt, don't hesitate to email us at [support@kumu.io](https://mailt:support@kumu.io).
+Hopefully, that example illustrates the basic concepts! But if you ever have trouble making sense of a receipt, don't hesitate to email us at [support@kumu.io](mailt:support@kumu.io).

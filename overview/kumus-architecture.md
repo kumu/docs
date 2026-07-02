@@ -145,6 +145,10 @@ Last but not least, Kumu's architecture includes the **trash**.
 
 The trash is a list of all the elements, connections, and loops that, once upon a time, were the the lifeblood of your system map, the all-powerful hubs of your network map, the social-media-savvy influencers of your stakeholder map...until you realized that the data was totally inaccurate, imprecise, full of typos (_\*gasp\*_), or duplicated (_\*shudder\*_), and deleted it using the [little trash can icon](map-editor.md#side-panel) .
 
-All prose aside, the trash is where your project stores the items that have been deleted from every single map. From time to time, you may want to [follow this guide](../faq/how-do-i-delete-data-from-my-project.md) to empty it out!
+All prose aside, the trash is where your project stores the items that have been deleted from every single map. From time to time, you may want to empty it out by following these steps:&#x20;
+
+1. Click the Project Settngs icon ![](<../.gitbook/assets/image (5).png>) in the upper left corner to bring up the project menu
+2. Select TRASH from the menu on the left
+3. Use the dropdown menu to review and destroy items individually, or just click **Destroy All**. After you do this, there's no going back!
 
 But, we should give credit where credit is due: the trash is your last line of defense against accidentally deleting data (a.k.a. hard work, time, and effort) from your project. If you ever think that you've deleted something accidentally, and you need to recover it from the trash, [check out this guide](../faq/my-map-disappeared-how-do-i-bring-it-back.md#has-the-data-been-deleted), or just [ask for help](../about/where-can-i-get-help.md), and the Kumu team will find a solution.
