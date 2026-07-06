@@ -15,6 +15,7 @@
 * `Tab` Toggle Sidebar
 * `ALT + F` Full screen [Map Editor](../overview/map-editor.md)
 * `SHIFT + ALT + F` Full screen [canvas](../overview/map-editor.md#canvas)
+* `Z` Reset any selected [controls](controls.md), [filters](filter.md), [showcases](showcase.md), [clusters](clustering.md) etc.&#x20;
 
 ### Editing
 
