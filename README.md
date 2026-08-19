@@ -33,9 +33,13 @@ Feeling a bit lost in the Guides section? No worries! Try getting some more back
 
 ## Five-minute quickstart
 
-{% embed url="https://player.vimeo.com/video/217904181" %}
+Ready to dive in?&#x20;
 
-[Ready to dive in? Read the First Steps guide](getting-started/first-steps.md)
+* [Read the First Steps guide](getting-started/first-steps.md)
+* [Watch one of our recorded webinars](https://www.youtube.com/playlist?list=PLsVcVdCluYH75u3tWtR6iZwIepfnAfZHt)
+* [Read up on Systems Practice](https://blog.kumu.io/systems-practice-abridged-a5dc8f0beda6)
+* [Learn how to map your system in Kumu](disciplines/system-mapping.md)
+* [Learn how to map a network in Kumu](disciplines/sna-network-mapping.md)
 
 ## Want to talk to a human?
 
